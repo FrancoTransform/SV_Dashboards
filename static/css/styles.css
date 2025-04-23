@@ -292,3 +292,24 @@ table td span:contains("×") {
         display: none;
     }
 }
+
+/* Final Recommendation specific styles */
+.final-recommendation-status {
+    @apply px-6 py-3 rounded-xl text-base font-semibold tracking-wide transition-all duration-200;
+}
+
+.final-recommendation-status.advance {
+    @apply bg-sv-green/20 text-sv-green border-2 border-sv-green;
+}
+
+.final-recommendation-status.hold {
+    @apply bg-yellow-500/20 text-yellow-400 border-2 border-yellow-400;
+}
+
+.final-recommendation-status.pass {
+    @apply bg-red-500/20 text-red-400 border-2 border-red-400;
+}
+
+.final-recommendation-rationale {
+    @apply text-gray-300 leading-relaxed text-lg;
+}

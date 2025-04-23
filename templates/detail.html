@@ -359,23 +359,26 @@
             </div>
 
             <!-- Conclusion -->
-            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-xl font-semibold text-white">Conclusion</h2>
-                    {% if analysis.get('recommendation') %}
-                    <span class="status-indicator 
-                        {{ 'status-advance' if analysis.recommendation == 'Advance' else 
-                           'status-hold' if analysis.recommendation == 'Hold' else
-                           'status-pass' }}">
-                        {{ analysis.recommendation }}
-                    </span>
-                    {% endif %}
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8">
+                <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-8">
+                    <h2 class="text-2xl font-bold text-white mb-4 md:mb-0">Final Recommendation</h2>
+                    <div class="flex items-center gap-3">
+                        <span class="px-6 py-3 rounded-xl text-base font-semibold tracking-wide
+                            {% if analysis.final_recommendation.status == 'Advance' %}
+                                bg-sv-green/20 text-sv-green border-2 border-sv-green
+                            {% elif analysis.final_recommendation.status == 'Hold' %}
+                                bg-yellow-500/20 text-yellow-400 border-2 border-yellow-400
+                            {% else %}
+                                bg-red-500/20 text-red-400 border-2 border-red-400
+                            {% endif %}">
+                            {{ analysis.final_recommendation.status }}
+                        </span>
+                    </div>
                 </div>
-                {% if analysis.get('recommendation_rationale') %}
-                <p class="text-gray-600">{{ analysis.recommendation_rationale }}</p>
-                {% else %}
-                <p class="text-gray-600">{{ analysis.get('category_comparison_expanded', {}).get('conclusion', 'Conclusion pending.') }}</p>
-                {% endif %}
+
+                <div class="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-gray-700">
+                    <p class="text-gray-300 leading-relaxed text-lg">{{ analysis.final_recommendation.rationale }}</p>
+                </div>
             </div>
         </div>
     </main>
