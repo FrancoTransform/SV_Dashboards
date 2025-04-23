@@ -149,39 +149,46 @@
             </div>
 
             <!-- Company Assessment -->
-            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8 mb-6">
-                <h2 class="text-xl font-semibold text-white mb-6">Company Assessment</h2>
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <h2 class="text-xl font-semibold text-white mb-4">Company Assessment</h2>
                 
-                <div class="space-y-6">
-                    <!-- Founder & Team Strength -->
-                    <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
-                        <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-lg font-medium text-white">Founder & Team Strength</h3>
-                            <span class="px-3 py-1 rounded-full text-sm font-medium 
-                                {{ 'bg-green-100 text-green-800' if analysis.scoring.founder_team_strength.score >= 4 else 
-                                   'bg-yellow-100 text-yellow-800' if analysis.scoring.founder_team_strength.score == 3 else 
-                                   'bg-red-100 text-red-800' }}">
-                                {{ analysis.scoring.founder_team_strength.score }}/5
-                            </span>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Left Column -->
+                    <div class="space-y-4">
+                        <!-- Founder & Team Strength -->
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-lg font-medium text-white">Founder & Team Strength</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.founder_team_strength.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.founder_team_strength.score == 3 else 
+                                       'bg-red-100 text-red-800' }}">
+                                    {{ analysis.scoring.founder_team_strength.score }}/5
+                                </span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.founder_team_strength.justification }}</p>
                         </div>
-                        <p class="text-gray-400 leading-relaxed">{{ analysis.scoring.founder_team_strength.justification }}</p>
                     </div>
 
-                    <!-- Strategic Fit -->
-                    <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
-                        <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-lg font-medium text-white">Strategic Fit</h3>
-                            <span class="px-3 py-1 rounded-full text-sm font-medium 
-                                {{ 'bg-green-100 text-green-800' if analysis.scoring.strategic_fit.score >= 4 else 
-                                   'bg-yellow-100 text-yellow-800' if analysis.scoring.strategic_fit.score == 3 else 
-                                   'bg-red-100 text-red-800' }}">
-                                {{ analysis.scoring.strategic_fit.score }}/5
-                            </span>
+                    <!-- Right Column -->
+                    <div class="space-y-4">
+                        <!-- Strategic Fit -->
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-lg font-medium text-white">Strategic Fit</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.strategic_fit.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.strategic_fit.score == 3 else 
+                                       'bg-red-100 text-red-800' }}">
+                                    {{ analysis.scoring.strategic_fit.score }}/5
+                                </span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.strategic_fit.justification }}</p>
                         </div>
-                        <p class="text-gray-400 leading-relaxed">{{ analysis.scoring.strategic_fit.justification }}</p>
                     </div>
                 </div>
             </div>
+
 
             <!-- Founder Deep Dive -->
             <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
@@ -229,10 +236,10 @@
                 <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8 mb-6">
                     <h2 class="text-xl font-semibold text-white mb-6">Successes & Areas of Investigation</h2>
                     
-                    <div class="space-y-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         {% for item in analysis.successes_and_areas_of_investigation %}
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
-                            <div class="flex justify-between items-center mb-3">
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
                                 <div class="flex items-center gap-2">
                                     {% if item.type == 'Success' %}
                                     <span class="text-sv-green">●</span>
@@ -243,13 +250,13 @@
                                     {% endif %}
                                 </div>
                             </div>
-                            <div class="space-y-2">
-                                <p class="text-white leading-relaxed">{{ item.description }}</p>
-                                <div class="text-sm">
+                            <div class="space-y-1.5">
+                                <p class="text-white text-sm leading-relaxed">{{ item.description }}</p>
+                                <div class="text-xs">
                                     <span class="text-gray-300">Context:</span>
                                     <span class="text-white">{{ item.context }}</span>
                                 </div>
-                                <div class="text-sm">
+                                <div class="text-xs">
                                     <span class="text-gray-300">Outcome:</span>
                                     <span class="text-white">{{ item.outcome }}</span>
                                 </div>
