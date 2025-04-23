@@ -142,9 +142,39 @@
                 </div>
             </div>
 
-            <div class="company-assessment">
-                <h2 class="section-title">Company Assessment</h2>
-                <!-- Similar pattern for company assessment items -->
+            <!-- Company Assessment -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8 mb-6">
+                <h2 class="text-xl font-semibold text-white mb-6">Company Assessment</h2>
+                
+                <div class="space-y-6">
+                    <!-- Founder & Team Strength -->
+                    <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-lg font-medium text-white">Founder & Team Strength</h3>
+                            <span class="px-3 py-1 rounded-full text-sm font-medium 
+                                {{ 'bg-green-100 text-green-800' if analysis.scoring.founder_team_strength.score >= 4 else 
+                                   'bg-yellow-100 text-yellow-800' if analysis.scoring.founder_team_strength.score == 3 else 
+                                   'bg-red-100 text-red-800' }}">
+                                {{ analysis.scoring.founder_team_strength.score }}/5
+                            </span>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed">{{ analysis.scoring.founder_team_strength.justification }}</p>
+                    </div>
+
+                    <!-- Strategic Fit -->
+                    <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-lg font-medium text-white">Strategic Fit</h3>
+                            <span class="px-3 py-1 rounded-full text-sm font-medium 
+                                {{ 'bg-green-100 text-green-800' if analysis.scoring.strategic_fit.score >= 4 else 
+                                   'bg-yellow-100 text-yellow-800' if analysis.scoring.strategic_fit.score == 3 else 
+                                   'bg-red-100 text-red-800' }}">
+                                {{ analysis.scoring.strategic_fit.score }}/5
+                            </span>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed">{{ analysis.scoring.strategic_fit.justification }}</p>
+                    </div>
+                </div>
             </div>
 
             <!-- Founder Deep Dive -->
@@ -190,32 +220,34 @@
                 </div>
 
                 <!-- Successes & Areas of Investigation -->
-                <div class="mt-6">
-                    <div class="flex items-center gap-3 mb-4">
-                        <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <h3 class="text-lg font-medium text-gray-900">Successes & Areas of Investigation</h3>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8 mb-6">
+                    <h2 class="text-xl font-semibold text-white mb-6">Successes & Areas of Investigation</h2>
+                    
+                    <div class="space-y-4">
                         {% for item in analysis.successes_and_areas_of_investigation %}
-                        <div class="bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors duration-200">
-                            <div class="flex items-center gap-2 mb-3">
-                                {% if item.type == 'Success' %}
-                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                                    Success
-                                </span>
-                                {% else %}
-                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">
-                                    Investigation
-                                </span>
-                                {% endif %}
-                                <span class="text-gray-500 text-sm">{{ item.context }}</span>
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
+                            <div class="flex justify-between items-center mb-3">
+                                <div class="flex items-center gap-2">
+                                    {% if item.type == 'Success' %}
+                                    <span class="text-sv-green">●</span>
+                                    <h3 class="text-lg font-medium text-white">Success</h3>
+                                    {% else %}
+                                    <span class="text-yellow-500">●</span>
+                                    <h3 class="text-lg font-medium text-white">Area of Investigation</h3>
+                                    {% endif %}
+                                </div>
                             </div>
-                            <p class="text-gray-800 font-medium mb-2">{{ item.description }}</p>
-                            <p class="text-gray-600 text-sm">
-                                <span class="font-medium">Outcome:</span> {{ item.outcome }}
-                            </p>
+                            <div class="space-y-2">
+                                <p class="text-white leading-relaxed">{{ item.description }}</p>
+                                <div class="text-sm">
+                                    <span class="text-gray-300">Context:</span>
+                                    <span class="text-white">{{ item.context }}</span>
+                                </div>
+                                <div class="text-sm">
+                                    <span class="text-gray-300">Outcome:</span>
+                                    <span class="text-white">{{ item.outcome }}</span>
+                                </div>
+                            </div>
                         </div>
                         {% endfor %}
                     </div>
