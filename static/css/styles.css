@@ -50,26 +50,53 @@ main {
     @apply text-xl font-semibold text-white;
 }
 
-/* Buttons */
+/* Company Header Styles */
+.company-header {
+    @apply bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700;
+}
+
+/* Button Styles */
 .btn {
-    @apply inline-flex items-center px-4 py-2 rounded-lg transition-colors duration-200 text-sm font-medium;
+    @apply inline-flex items-center px-6 py-3 rounded-lg transition-colors duration-200 text-sm font-semibold border-2;
 }
 
 .btn-primary {
-    @apply bg-sv-green text-white hover:bg-sv-green-dark;
+    @apply border-sv-green text-sv-green bg-transparent;
+}
+
+.btn-primary:hover {
+    @apply bg-sv-green text-white;
 }
 
 .btn-secondary {
-    @apply bg-white/10 text-white border border-gray-600 hover:bg-white/20;
+    @apply border-white text-white bg-transparent;
 }
 
+.btn-secondary:hover {
+    @apply bg-white/10;
+}
+
+
 /* Typography */
-.section-title {
-    @apply text-2xl font-semibold text-white mb-4;
+h1 {
+    @apply text-4xl font-bold text-white;
+}
+
+.company-link {
+    @apply text-sv-green hover:text-sv-green-dark transition-colors duration-200;
+}
+
+.section-heading {
+    @apply text-lg font-semibold text-gray-300 mb-3;
 }
 
 .description-text {
-    @apply text-gray-400 text-sm;
+    @apply text-gray-400 leading-relaxed;
+}
+
+/* Layout */
+.content-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-8;
 }
 
 /* Assessment sections */
@@ -234,6 +261,18 @@ table td span:contains("×") {
     }
     
     .thesis-header {
+        @apply flex-col gap-2;
+    }
+    
+    .company-header {
+        @apply p-6;
+    }
+    
+    h1 {
+        @apply text-3xl;
+    }
+    
+    .btn-group {
         @apply flex-col gap-2;
     }
 }
