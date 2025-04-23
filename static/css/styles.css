@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Base styles */
 body {
     background-color: #0A2540;
     color: white;
@@ -34,9 +35,7 @@ main {
 
 /* Cards */
 .card {
-    background-color: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    @apply bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6;
 }
 
 .card-header {
@@ -49,6 +48,62 @@ main {
 
 .card-title {
     @apply text-xl font-semibold text-white;
+}
+
+/* Buttons */
+.btn {
+    @apply inline-flex items-center px-4 py-2 rounded-lg transition-colors duration-200 text-sm font-medium;
+}
+
+.btn-primary {
+    @apply bg-sv-green text-white hover:bg-sv-green-dark;
+}
+
+.btn-secondary {
+    @apply bg-white/10 text-white border border-gray-600 hover:bg-white/20;
+}
+
+/* Typography */
+.section-title {
+    @apply text-2xl font-semibold text-white mb-4;
+}
+
+.description-text {
+    @apply text-gray-400 text-sm;
+}
+
+/* Assessment sections */
+.assessment-section {
+    @apply bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6;
+}
+
+.assessment-item {
+    @apply border-b border-gray-700 pb-4 last:border-b-0;
+}
+
+.assessment-header {
+    @apply flex justify-between items-center mb-2;
+}
+
+.assessment-title {
+    @apply text-white font-medium;
+}
+
+/* Status indicators */
+.status-indicator {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.status-advance {
+    @apply bg-green-100 text-green-800;
+}
+
+.status-hold {
+    @apply bg-yellow-100 text-yellow-800;
+}
+
+.status-pass {
+    @apply bg-red-100 text-red-800;
 }
 
 /* Score badges */
@@ -68,93 +123,6 @@ main {
 .score-badge[data-score="2"],
 .score-badge[data-score="1"] {
     @apply bg-red-100/10 text-red-400;
-}
-
-/* Buttons */
-.btn {
-    @apply inline-flex items-center px-4 py-2 rounded-lg transition-colors duration-200 text-sm font-medium;
-}
-
-.btn-primary {
-    background-color: #00B67A;
-    color: white;
-}
-
-.btn-primary:hover {
-    background-color: #00A067;
-}
-
-.btn-secondary {
-    @apply bg-white/10 text-white border border-gray-600 hover:bg-white/20;
-}
-
-/* Assessment sections */
-.assessment-grid {
-    @apply grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6;
-}
-
-.assessment-section {
-    @apply bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6;
-}
-
-.assessment-item {
-    @apply border-b border-gray-700 pb-4 last:border-b-0;
-}
-
-.assessment-header {
-    @apply flex justify-between items-center mb-2;
-}
-
-.assessment-title {
-    @apply text-white font-medium;
-}
-
-/* Typography */
-.section-title {
-    @apply text-2xl font-semibold text-white mb-4;
-}
-
-.subsection-title {
-    @apply text-lg font-medium text-gray-900 mb-2;
-}
-
-.description-text {
-    @apply text-gray-400 text-sm;
-}
-
-/* Links */
-.link-primary {
-    color: #00B67A;
-}
-
-.link-primary:hover {
-    color: #00A067;
-}
-
-/* Thesis fit cards */
-.thesis-card {
-    @apply bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors duration-200;
-}
-
-.thesis-header {
-    @apply flex justify-between items-center mb-3;
-}
-
-/* Status indicators */
-.status-indicator {
-    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
-}
-
-.status-advance {
-    @apply bg-green-100 text-green-800;
-}
-
-.status-hold {
-    @apply bg-yellow-100 text-yellow-800;
-}
-
-.status-pass {
-    @apply bg-red-100 text-red-800;
 }
 
 /* Table styles */
