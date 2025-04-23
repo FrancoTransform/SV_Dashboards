@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ analysis.company_name }} - Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sv-blue': '#0A2540',
+                        'sv-green': '#00B67A',
+                        'sv-green-dark': '#00A067',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body class="bg-sv-blue">
+    <!-- Header -->
+    <header class="border-b border-gray-700 fixed w-full z-10">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="{{ url_for('index') }}" class="text-white text-lg font-semibold flex items-center">
+                    <svg class="h-6 w-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                    </svg>
+                    SemperVirens Accelerator
+                </a>
+                <div class="text-sm text-gray-400">
+                    {{ analysis.company_name }}
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20 pb-12">
+        <div class="container mx-auto px-6">
+            <!-- Company Header -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h1 class="text-3xl font-bold text-white mb-2">{{ analysis.company_name }}</h1>
+                        <a href="{{ analysis.website }}" class="text-sv-green hover:text-sv-green-dark text-sm block" target="_blank">{{ analysis.website }}</a>
+                        <div class="text-gray-400 text-sm mt-1">Founded: {{ analysis.year_founded }}</div>
+                    </div>
+                    <div class="flex gap-3">
+                        {% if analysis.pitch_deck_link %}
+                        <a href="{{ analysis.pitch_deck_link }}" 
+                           class="btn btn-secondary" 
+                           target="_blank">View Pitch Deck</a>
+                        {% endif %}
+                        {% if analysis.demo_link %}
+                        <a href="{{ analysis.demo_link }}" 
+                           class="btn btn-primary" 
+                           target="_blank">Watch Demo</a>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
+                    <div class="prose">
+                        <h2 class="text-lg font-semibold text-gray-900 mb-2">Company Description</h2>
+                        <p class="text-gray-600">{{ analysis.description }}</p>
+                    </div>
+                    <div class="prose">
+                        <h2 class="text-lg font-semibold text-gray-900 mb-2">Problem Statement</h2>
+                        <p class="text-gray-600">{{ analysis.problem_statement }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Assessment Grid -->
+            <div class="market-assessment">
+                <h2 class="section-title">Market Assessment</h2>
+                
+                <div class="assessment-item">
+                    <div class="assessment-header">
+                        <div class="assessment-title">Market Opportunity</div>
+                        <div class="score">4/5</div>
+                    </div>
+                    <div class="description-text">
+                        Focused on a growing, under-supported segment—CROs, CMOs, RevOps execs—where churn and burnout are costly. Market is fragmented but demand is strong.
+                    </div>
+                </div>
+
+                <div class="assessment-item">
+                    <div class="assessment-header">
+                        <div class="assessment-title">Product Differentiation</div>
+                        <div class="score">5/5</div>
+                    </div>
+                    <div class="description-text">
+                        Combines productized coaching (via Curveball Method), strong narrative positioning, and measurable value targeting B2B revenue teams.
+                    </div>
+                </div>
+
+                <!-- Similar pattern for other assessment items -->
+            </div>
+
+            <div class="company-assessment">
+                <h2 class="section-title">Company Assessment</h2>
+                <!-- Similar pattern for company assessment items -->
+            </div>
+
+            <!-- Founder Deep Dive -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <h2 class="text-xl font-semibold text-white mb-6">Founder Deep Dive</h2>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Founder Profile -->
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <div class="flex items-center gap-3 mb-4">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                            </svg>
+                            <h3 class="text-lg font-medium text-gray-900">{{ analysis.founder_profile.name }}</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-600">
+                            {% for highlight in analysis.founder_profile.highlights %}
+                            <li class="flex items-start gap-2">
+                                <span class="mt-1.5 w-1.5 h-1.5 bg-blue-500 rounded-full flex-shrink-0"></span>
+                                <span>{{ highlight }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <!-- Performance Impact Assessment -->
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <div class="flex items-center gap-3 mb-4">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                            <h3 class="text-lg font-medium text-gray-900">Performance Impact Assessment</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-600">
+                            {% for impact in analysis.founder_impact_assessment %}
+                            <li class="flex items-start gap-2">
+                                <span class="mt-1.5 w-1.5 h-1.5 bg-green-500 rounded-full flex-shrink-0"></span>
+                                <span>{{ impact }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Successes & Areas of Investigation -->
+                <div class="mt-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <h3 class="text-lg font-medium text-gray-900">Successes & Areas of Investigation</h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {% for item in analysis.successes_and_areas_of_investigation %}
+                        <div class="bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors duration-200">
+                            <div class="flex items-center gap-2 mb-3">
+                                {% if item.type == 'Success' %}
+                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                    Success
+                                </span>
+                                {% else %}
+                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">
+                                    Investigation
+                                </span>
+                                {% endif %}
+                                <span class="text-gray-500 text-sm">{{ item.context }}</span>
+                            </div>
+                            <p class="text-gray-800 font-medium mb-2">{{ item.description }}</p>
+                            <p class="text-gray-600 text-sm">
+                                <span class="font-medium">Outcome:</span> {{ item.outcome }}
+                            </p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- SV Thesis Fit -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <h2 class="text-xl font-semibold text-white mb-4">SV Thesis Fit</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {% for category, data in [
+                        ('Sector Fit', analysis.sv_thesis_fit.sector_fit),
+                        ('Employer Ecosystem Leverage', analysis.sv_thesis_fit.employer_ecosystem_leverage),
+                        ('GTM Support Potential', analysis.sv_thesis_fit.gtm_support_potential),
+                        ('Strategic Partner Amplification', analysis.sv_thesis_fit.strategic_partner_amplification),
+                        ('Acceleration Readiness', analysis.sv_thesis_fit.acceleration_readiness)
+                    ] %}
+                    <div class="bg-gray-50 rounded-lg p-4">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="font-medium text-gray-900">{{ category }}</h3>
+                            <span class="px-3 py-1 rounded-full text-sm font-medium 
+                                {{ 'bg-green-100 text-green-800' if data.score >= 4 else 
+                                   'bg-yellow-100 text-yellow-800' if data.score == 3 else 
+                                   'bg-red-100 text-red-800' }}">
+                                {{ data.score }}/5
+                            </span>
+                        </div>
+                        <p class="text-gray-600 text-sm">{{ data.justification }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Red Flags Section -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <h2 class="text-xl font-semibold text-white mb-4">Red Flags</h2>
+                <div class="space-y-4">
+                    {% for flag in analysis.red_flags %}
+                    <div class="bg-red-50 rounded-lg p-4">
+                        <p class="text-red-800">{{ flag }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Category Comparison -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <h2 class="text-xl font-semibold text-white mb-4">Category Comparison</h2>
+                
+                <!-- Overview -->
+                <p class="text-gray-600 mb-6">{{ analysis.category_comparison }}</p>
+                
+                <!-- Primary Competitors -->
+                <h3 class="text-lg font-medium text-gray-900 mb-3">Primary Competitors</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                    {% for competitor in analysis.category_comparison_expanded.primary_competitors %}
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <h4 class="font-medium text-gray-900 mb-2">{{ competitor.name }}</h4>
+                        <p class="text-gray-600 text-sm mb-2">{{ competitor.description }}</p>
+                        <p class="text-gray-700 text-sm italic">{{ competitor.comparison }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <!-- Competitive Matrix -->
+                <h3 class="text-lg font-medium text-gray-900 mb-3">Competitive Matrix</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full border border-gray-200">
+                        <thead>
+                            <tr class="bg-gray-50">
+                                <th class="px-4 py-2 border-b border-r border-gray-200 text-left text-sm font-medium text-gray-700">Company</th>
+                                {% for column in analysis.category_comparison_expanded.competitive_matrix.columns %}
+                                <th class="px-4 py-2 border-b border-r border-gray-200 text-left text-sm font-medium text-gray-700">{{ column }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for company, values in analysis.category_comparison_expanded.competitive_matrix.rows.items() %}
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-2 border-b border-r border-gray-200 font-medium">{{ company }}</td>
+                                {% for value in values %}
+                                <td class="px-4 py-2 border-b border-r border-gray-200">
+                                    {% if value %}
+                                    <span class="text-green-600">✓</span>
+                                    {% else %}
+                                    <span class="text-red-600">×</span>
+                                    {% endif %}
+                                </td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Conclusion -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-xl font-semibold text-white">Conclusion</h2>
+                    {% if analysis.get('recommendation') %}
+                    <span class="status-indicator 
+                        {{ 'status-advance' if analysis.recommendation == 'Advance' else 
+                           'status-hold' if analysis.recommendation == 'Hold' else
+                           'status-pass' }}">
+                        {{ analysis.recommendation }}
+                    </span>
+                    {% endif %}
+                </div>
+                {% if analysis.get('recommendation_rationale') %}
+                <p class="text-gray-600">{{ analysis.recommendation_rationale }}</p>
+                {% else %}
+                <p class="text-gray-600">{{ analysis.get('category_comparison_expanded', {}).get('conclusion', 'Conclusion pending.') }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,286 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #0A2540;
+    color: white;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    @apply bg-[#0A2540] border-b border-gray-700;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+/* Navigation */
+nav {
+    @apply bg-[#0A2540] shadow-lg;
+}
+
+nav .container {
+    @apply mx-auto px-6 py-4;
+}
+
+/* Main content */
+main {
+    @apply container mx-auto px-6 py-8;
+}
+
+/* Cards */
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.card-header {
+    @apply flex justify-between items-start p-6 border-b border-gray-700;
+}
+
+.card-body {
+    @apply p-6;
+}
+
+.card-title {
+    @apply text-xl font-semibold text-white;
+}
+
+/* Score badges */
+.score-badge {
+    @apply px-3 py-1 text-sm font-medium rounded-full;
+}
+
+.score-badge[data-score="5"],
+.score-badge[data-score="4"] {
+    @apply bg-green-100/10 text-green-400;
+}
+
+.score-badge[data-score="3"] {
+    @apply bg-yellow-100/10 text-yellow-400;
+}
+
+.score-badge[data-score="2"],
+.score-badge[data-score="1"] {
+    @apply bg-red-100/10 text-red-400;
+}
+
+/* Buttons */
+.btn {
+    @apply inline-flex items-center px-4 py-2 rounded-lg transition-colors duration-200 text-sm font-medium;
+}
+
+.btn-primary {
+    background-color: #00B67A;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #00A067;
+}
+
+.btn-secondary {
+    @apply bg-white/10 text-white border border-gray-600 hover:bg-white/20;
+}
+
+/* Assessment sections */
+.assessment-grid {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6;
+}
+
+.assessment-section {
+    @apply bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6;
+}
+
+.assessment-item {
+    @apply border-b border-gray-700 pb-4 last:border-b-0;
+}
+
+.assessment-header {
+    @apply flex justify-between items-center mb-2;
+}
+
+.assessment-title {
+    @apply text-white font-medium;
+}
+
+/* Typography */
+.section-title {
+    @apply text-2xl font-semibold text-white mb-4;
+}
+
+.subsection-title {
+    @apply text-lg font-medium text-gray-900 mb-2;
+}
+
+.description-text {
+    @apply text-gray-400 text-sm;
+}
+
+/* Links */
+.link-primary {
+    color: #00B67A;
+}
+
+.link-primary:hover {
+    color: #00A067;
+}
+
+/* Thesis fit cards */
+.thesis-card {
+    @apply bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors duration-200;
+}
+
+.thesis-header {
+    @apply flex justify-between items-center mb-3;
+}
+
+/* Status indicators */
+.status-indicator {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.status-advance {
+    @apply bg-green-100 text-green-800;
+}
+
+.status-hold {
+    @apply bg-yellow-100 text-yellow-800;
+}
+
+.status-pass {
+    @apply bg-red-100 text-red-800;
+}
+
+/* Table styles */
+table {
+    @apply w-full border-collapse bg-white/5 backdrop-blur-md rounded-lg overflow-hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table th {
+    @apply px-4 py-3 text-left text-sm font-semibold text-white bg-white/10 border-b border-gray-700;
+}
+
+table td {
+    @apply px-4 py-3 text-sm text-gray-300 border-b border-gray-700;
+}
+
+/* Checkmark and X styling */
+table td .text-green-600,
+table td span:contains("✓") {
+    @apply text-sv-green;
+}
+
+table td .text-red-600,
+table td span:contains("×") {
+    @apply text-red-400;
+}
+
+/* Category comparison section */
+.category-comparison {
+    @apply space-y-6;
+}
+
+.competitor-card {
+    @apply bg-white/5 backdrop-blur-md rounded-lg p-4;
+}
+
+.competitor-name {
+    @apply text-white font-medium mb-2;
+}
+
+.competitor-description {
+    @apply text-gray-400 text-sm;
+}
+
+.competitor-differentiator {
+    @apply text-gray-400 text-sm italic mt-2;
+}
+
+/* Matrix cell styles */
+.matrix-cell-true {
+    @apply text-sv-green text-center;
+}
+
+.matrix-cell-false {
+    @apply text-red-400 text-center;
+}
+
+/* Section headers */
+.section-header {
+    @apply text-xl font-semibold text-white mb-4;
+}
+
+/* Description text */
+.description-text {
+    @apply text-gray-400 text-sm leading-relaxed;
+}
+
+/* Text colors */
+.text-primary {
+    @apply text-white;
+}
+
+.text-secondary {
+    @apply text-gray-300;
+}
+
+.text-muted {
+    @apply text-gray-400;
+}
+
+/* Card styles */
+.card-glass {
+    @apply bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6;
+}
+
+/* Link styles */
+.link-hover {
+    @apply hover:text-sv-green-dark transition-colors duration-200;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .assessment-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .card-header {
+        @apply flex-col gap-4;
+    }
+    
+    .thesis-header {
+        @apply flex-col gap-2;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        @apply bg-white;
+    }
+    
+    .card {
+        @apply shadow-none border border-gray-200;
+    }
+    
+    .btn {
+        display: none;
+    }
+}
