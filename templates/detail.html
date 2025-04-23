@@ -80,64 +80,70 @@
             </div>
 
             <!-- Market Assessment -->
-            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8 mb-6">
-                <h2 class="text-xl font-semibold text-white mb-6">Market Assessment</h2>
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <h2 class="text-xl font-semibold text-white mb-4">Market Assessment</h2>
                 
-                <div class="space-y-6">
-                    <!-- Market Opportunity -->
-                    <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
-                        <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-lg font-medium text-white">Market Opportunity</h3>
-                            <span class="px-3 py-1 rounded-full text-sm font-medium 
-                                {{ 'bg-green-100 text-green-800' if analysis.scoring.market_opportunity.score >= 4 else 
-                                   'bg-yellow-100 text-yellow-800' if analysis.scoring.market_opportunity.score == 3 else 
-                                   'bg-red-100 text-red-800' }}">
-                                {{ analysis.scoring.market_opportunity.score }}/5
-                            </span>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Left Column -->
+                    <div class="space-y-4">
+                        <!-- Market Opportunity -->
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-lg font-medium text-white">Market Opportunity</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.market_opportunity.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.market_opportunity.score == 3 else 
+                                       'bg-red-100 text-red-800' }}">
+                                    {{ analysis.scoring.market_opportunity.score }}/5
+                                </span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.market_opportunity.justification }}</p>
                         </div>
-                        <p class="text-gray-400 leading-relaxed">{{ analysis.scoring.market_opportunity.justification }}</p>
+
+                        <!-- Product Differentiation -->
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-lg font-medium text-white">Product Differentiation</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.product_differentiation.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.product_differentiation.score == 3 else 
+                                       'bg-red-100 text-red-800' }}">
+                                    {{ analysis.scoring.product_differentiation.score }}/5
+                                </span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.product_differentiation.justification }}</p>
+                        </div>
                     </div>
 
-                    <!-- Product Differentiation -->
-                    <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
-                        <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-lg font-medium text-white">Product Differentiation</h3>
-                            <span class="px-3 py-1 rounded-full text-sm font-medium 
-                                {{ 'bg-green-100 text-green-800' if analysis.scoring.product_differentiation.score >= 4 else 
-                                   'bg-yellow-100 text-yellow-800' if analysis.scoring.product_differentiation.score == 3 else 
-                                   'bg-red-100 text-red-800' }}">
-                                {{ analysis.scoring.product_differentiation.score }}/5
-                            </span>
+                    <!-- Right Column -->
+                    <div class="space-y-4">
+                        <!-- Go-to-Market Traction -->
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-lg font-medium text-white">Go-to-Market Traction</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.go_to_market_traction.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.go_to_market_traction.score == 3 else 
+                                       'bg-red-100 text-red-800' }}">
+                                    {{ analysis.scoring.go_to_market_traction.score }}/5
+                                </span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.go_to_market_traction.justification }}</p>
                         </div>
-                        <p class="text-gray-400 leading-relaxed">{{ analysis.scoring.product_differentiation.justification }}</p>
-                    </div>
 
-                    <!-- Go-to-Market Traction -->
-                    <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
-                        <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-lg font-medium text-white">Go-to-Market Traction</h3>
-                            <span class="px-3 py-1 rounded-full text-sm font-medium 
-                                {{ 'bg-green-100 text-green-800' if analysis.scoring.go_to_market_traction.score >= 4 else 
-                                   'bg-yellow-100 text-yellow-800' if analysis.scoring.go_to_market_traction.score == 3 else 
-                                   'bg-red-100 text-red-800' }}">
-                                {{ analysis.scoring.go_to_market_traction.score }}/5
-                            </span>
+                        <!-- Ecosystem Signals -->
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-lg font-medium text-white">Ecosystem Signals</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.ecosystem_signals.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.ecosystem_signals.score == 3 else 
+                                       'bg-red-100 text-red-800' }}">
+                                    {{ analysis.scoring.ecosystem_signals.score }}/5
+                                </span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.ecosystem_signals.justification }}</p>
                         </div>
-                        <p class="text-gray-400 leading-relaxed">{{ analysis.scoring.go_to_market_traction.justification }}</p>
-                    </div>
-
-                    <!-- Ecosystem Signals -->
-                    <div class="bg-white/5 backdrop-blur-md rounded-lg p-6 border border-gray-700">
-                        <div class="flex justify-between items-center mb-3">
-                            <h3 class="text-lg font-medium text-white">Ecosystem Signals</h3>
-                            <span class="px-3 py-1 rounded-full text-sm font-medium 
-                                {{ 'bg-green-100 text-green-800' if analysis.scoring.ecosystem_signals.score >= 4 else 
-                                   'bg-yellow-100 text-yellow-800' if analysis.scoring.ecosystem_signals.score == 3 else 
-                                   'bg-red-100 text-red-800' }}">
-                                {{ analysis.scoring.ecosystem_signals.score }}/5
-                            </span>
-                        </div>
-                        <p class="text-gray-400 leading-relaxed">{{ analysis.scoring.ecosystem_signals.justification }}</p>
                     </div>
                 </div>
             </div>
