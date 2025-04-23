@@ -154,16 +154,21 @@ h1 {
 
 /* Table styles */
 table {
-    @apply w-full border-collapse bg-white/5 backdrop-blur-md rounded-lg overflow-hidden;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    @apply w-full border-collapse;
+    border: none;
 }
 
 table th {
-    @apply px-4 py-3 text-left text-sm font-semibold text-white bg-white/10 border-b border-gray-700;
+    @apply px-6 py-4 text-sm font-semibold text-white bg-white/10;
 }
 
 table td {
-    @apply px-4 py-3 text-sm text-gray-300 border-b border-gray-700;
+    @apply px-6 py-4 text-sm bg-white/5;
+}
+
+/* Remove default table border */
+table, th, td {
+    border: none;
 }
 
 /* Checkmark and X styling */
@@ -178,33 +183,29 @@ table td span:contains("×") {
 }
 
 /* Category comparison section */
-.category-comparison {
-    @apply space-y-6;
-}
-
 .competitor-card {
-    @apply bg-white/5 backdrop-blur-md rounded-lg p-4;
+    @apply bg-white/10 backdrop-blur-md rounded-xl border border-gray-600 p-6 hover:bg-white/15 transition-all duration-200;
 }
 
 .competitor-name {
-    @apply text-white font-medium mb-2;
+    @apply text-white font-medium text-lg mb-2;
 }
 
 .competitor-description {
-    @apply text-gray-400 text-sm;
+    @apply text-gray-400 text-sm mb-3;
 }
 
 .competitor-differentiator {
-    @apply text-gray-400 text-sm italic mt-2;
+    @apply text-gray-400 text-sm italic;
 }
 
 /* Matrix cell styles */
 .matrix-cell-true {
-    @apply text-sv-green text-center;
+    @apply inline-flex items-center justify-center w-6 h-6 rounded-full bg-sv-green/20 text-sv-green;
 }
 
 .matrix-cell-false {
-    @apply text-red-400 text-center;
+    @apply inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-500/20 text-red-400;
 }
 
 /* Section headers */
