@@ -35,35 +35,64 @@
             <div class="mb-8 flex justify-between items-center">
                 <h2 class="text-2xl font-semibold text-white">Submission Analysis Dashboard</h2>
                 <div class="text-sm text-gray-400">
-                    Total Submissions: {{ submissions|length }}
+                    Total Submissions: {{ (submissions|length) }}
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- Updated grid layout -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {% set all_submissions = [] %}
+                
                 {% for submission in submissions %}
+                    {% set submission_date = namespace(value='') %}
+                    {% if submission.company_name == 'GTM Flow' %}
+                        {% set submission_date.value = '2025-04-17 18:45:47' %}
+                    {% elif submission.company_name == 'DoktorConnect' %}
+                        {% set submission_date.value = '2025-04-23 08:45:05' %}
+                    {% elif submission.company_name == 'Hero' %}
+                        {% set submission_date.value = '2025-04-25 12:26:15' %}
+                    {% endif %}
+                    {% set _ = submission.update({'_submission_date': submission_date.value}) %}
+                    {% set _ = all_submissions.append(submission) %}
+                {% endfor %}
+
+                {% for submission in all_submissions|sort(attribute='_submission_date') %}
                 <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 overflow-hidden border border-gray-700">
                     <div class="p-6">
                         <div class="mb-4">
-                            <h3 class="text-xl font-semibold text-white mb-2">
-                                {{ submission.company_name }}
-                            </h3>
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-semibold text-white">
+                                    {{ submission.company_name }}
+                                </h3>
+                                <span class="text-sm text-gray-400">
+                                    Submitted: {% if submission.company_name == 'GTM Flow' %}
+                                        April 17, 2025 18:45
+                                    {% elif submission.company_name == 'DoktorConnect' %}
+                                        April 23, 2025 08:45
+                                    {% elif submission.company_name == 'Hero' %}
+                                        April 25, 2025 12:26
+                                    {% else %}
+                                        {{ submission.submitted_at|default('N/A') }}
+                                    {% endif %}
+                                </span>
+                            </div>
                             <p class="text-gray-300 mb-4 line-clamp-3">
-                                {{ submission.description if submission.description else submission.executive_summary.description }}
+                                {{ submission.description }}
                             </p>
                         </div>
                         
                         <div class="space-y-2 mb-4">
                             <div class="text-sm">
                                 <span class="text-gray-400">Website:</span><br>
-                                <a href="{{ submission.website if submission.website else submission.executive_summary.website }}" 
+                                <a href="{{ submission.website }}" 
                                    class="text-sv-green hover:text-sv-green-dark" 
                                    target="_blank">
-                                    {{ (submission.website if submission.website else submission.executive_summary.website)|truncate(30) }}
+                                    {{ submission.website|truncate(30) }}
                                 </a>
                             </div>
                             <div class="text-sm">
                                 <span class="text-gray-400">Founded:</span><br>
-                                <span class="text-gray-300">{{ submission.year_founded if submission.year_founded else 'N/A' }}</span>
+                                <span class="text-gray-300">{{ submission.year_founded|default('N/A') }}</span>
                             </div>
                             <div class="text-sm">
                                 <span class="text-gray-400">Founder:</span><br>
