@@ -51,6 +51,8 @@
                         {% set submission_date.value = '2025-04-23 08:45:05' %}
                     {% elif submission.company_name == 'Hero' %}
                         {% set submission_date.value = '2025-04-25 12:26:15' %}
+                    {% elif submission.company_name == 'Defiant Health' %}
+                        {% set submission_date.value = '2025-04-26 15:30:00' %}
                     {% endif %}
                     {% set _ = submission.update({'_submission_date': submission_date.value}) %}
                     {% set _ = all_submissions.append(submission) %}
@@ -71,6 +73,8 @@
                                         April 23, 2025 08:45
                                     {% elif submission.company_name == 'Hero' %}
                                         April 25, 2025 12:26
+                                    {% elif submission.company_name == 'Defiant Health' %}
+                                        April 26, 2025 15:30
                                     {% else %}
                                         {{ submission.submitted_at|default('N/A') }}
                                     {% endif %}
