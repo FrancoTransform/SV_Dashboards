@@ -53,8 +53,17 @@
                         {% set submission_date.value = '2025-04-25 12:26:15' %}
                     {% elif submission.company_name == 'Defiant Health' %}
                         {% set submission_date.value = '2025-04-26 15:30:00' %}
+                    {% elif submission.company_name == 'JOGO Health' %}
+                        {% set submission_date.value = '2025-04-27 09:15:00' %}
+                    {% elif submission.company_name == 'Mandala for Us Inc.' %}
+                        {% set submission_date.value = '2025-04-28 14:20:00' %}
+                    {% elif submission.company_name == 'Multiply' %}
+                        {% set submission_date.value = '2025-04-29 10:30:00' %}
+                    {% else %}
+                        {% set submission_date.value = '2025-01-01 00:00:00' %}
                     {% endif %}
                     {% set _ = submission.update({'_submission_date': submission_date.value}) %}
+                    {% set _ = submission.update({'submitted_at': submission_date.value}) %}
                     {% set _ = all_submissions.append(submission) %}
                 {% endfor %}
 
@@ -67,7 +76,8 @@
                                     {{ submission.company_name }}
                                 </h3>
                                 <span class="text-sm text-gray-400">
-                                    Submitted: {% if submission.company_name == 'GTM Flow' %}
+                                    Submitted: 
+                                    {% if submission.company_name == 'GTM Flow' %}
                                         April 17, 2025 18:45
                                     {% elif submission.company_name == 'DoktorConnect' %}
                                         April 23, 2025 08:45
@@ -75,8 +85,14 @@
                                         April 25, 2025 12:26
                                     {% elif submission.company_name == 'Defiant Health' %}
                                         April 26, 2025 15:30
+                                    {% elif submission.company_name == 'JOGO Health' %}
+                                        April 27, 2025 09:15
+                                    {% elif submission.company_name == 'Mandala for Us Inc.' %}
+                                        April 28, 2025 14:20
+                                    {% elif submission.company_name == 'Multiply' %}
+                                        April 29, 2025 10:30
                                     {% else %}
-                                        {{ submission.submitted_at|default('N/A') }}
+                                        {{ submission.submitted_at|default('N/A') }} (Company name: "{{ submission.company_name }}")
                                     {% endif %}
                                 </span>
                             </div>

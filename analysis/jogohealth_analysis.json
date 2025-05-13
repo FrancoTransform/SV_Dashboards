@@ -1,0 +1,145 @@
+{
+    "company_name": "JOGO Health",
+    "website": "https://www.jogohealth.com/",
+    "year_founded": "2016",
+    "description": "JOGO Health provides FDA-cleared virtual treatments for migraines and neurological conditions using EMG biofeedback, reducing reliance on expensive medications and surgeries.",
+    "problem_statement": "JOGO addresses two critical healthcare gaps: (1) delayed access to neurologists (average 6+ months), and (2) overuse of high-cost and invasive treatments like Botox, CGRP inhibitors, and neuromodulation surgeries. Through virtual neurology consults and EMG biofeedback, JOGO offers an accessible, non-invasive alternative that lowers costs, improves outcomes, and expands access to neurological care.",
+    "pitch_deck_link": "https://drive.google.com/file/d/1vvC837vujkne98W5Gi-vh8RD5gJNJDwG/view?usp=drive_link",
+    "demo_link": "https://youtu.be/WZbEaaWS7cc",
+    "scoring": {
+        "market_opportunity": {
+            "score": 5,
+            "justification": "Targets an $80B segment of the $370B neurology care market, focused on high-cost drug/surgical alternatives for common neurological conditions affecting 50%+ of employees."
+        },
+        "product_differentiation": {
+            "score": 5,
+            "justification": "JOGO is the only FDA-cleared, virtual EMG biofeedback solution. Combines remote consults with proprietary, hardware-enabled neurotherapy that can be deployed at scale."
+        },
+        "go_to_market_traction": {
+            "score": 5,
+            "justification": "$1.5M in recent revenue, $7M projected for 2025, $100M+ pipeline. Customers include Mayo Clinic and large employers. Strong commercial validation."
+        },
+        "ecosystem_signals": {
+            "score": 5,
+            "justification": "Backed by Mayo Clinic Ventures and Mayan Ventures (IQVIA CEO's family office). Trusted by neurologists and integrated into health system workflows."
+        },
+        "founder_team_strength": {
+            "score": 5,
+            "justification": "Siva Nadarajah (co-founder of Semantelli, acquired by IQVIA) brings seasoned healthcare leadership. Co-founders Gary and Sanjai add deep clinical and operational credibility."
+        },
+        "strategic_fit": {
+            "score": 5,
+            "justification": "Perfect fit with SV's interest in reducing healthcare costs, increasing access, and scaling digital solutions for chronic and neurological care."
+        }
+    },
+    "red_flags": [
+        "Requires physical hardware, although it is already FDA-cleared and outsourced.",
+        "Navigating employer/benefits consultant gatekeepers remains a commercial hurdle.",
+        "B2C model is optional but could add strategic complexity."
+    ],
+    "founder_profile": {
+        "name": "Siva Nadarajah (President), Sanjai Murali (CEO), Gary Krasilovsky (CMO)",
+        "highlights": [
+            "Siva is a serial entrepreneur in digital health with prior exit to IQVIA.",
+            "Gary and Sanjai bring scientific, medical, and commercialization depth in neuro-rehab and device regulation.",
+            "Team is highly mission-aligned and has scaled to a 95-person org, showing strong hiring and operational execution.",
+            "Siva personally invested $2.5M after being approached by the founders and seeing the platform's potential."
+        ]
+    },
+    "founder_impact_assessment": [
+        "Successfully transitioned JOGO from academic origins (NYU) to a commercialized, scalable digital care platform.",
+        "Built the only virtual EMG biofeedback system cleared by the FDA and deliverable nationwide.",
+        "Structured high-impact B2B and B2C pricing and delivery models with measurable ROI.",
+        "Demonstrated strong fundraising ($16M to date) and ability to attract institutional customers and partners."
+    ],
+    "sv_thesis_fit": {
+        "sector_fit": {
+            "score": 5,
+            "justification": "JOGO directly addresses SV's focus on digital care delivery and workforce health improvement through innovative, scalable, cost-lowering interventions."
+        },
+        "employer_ecosystem_leverage": {
+            "score": 4,
+            "justification": "Self-insured employers are a key target, and SV networks could unlock access past consultant gatekeepers and benefit leaders."
+        },
+        "gtm_support_potential": {
+            "score": 5,
+            "justification": "SV can accelerate access to benefits managers and help convert JOGO's pipeline into full-scale adoption."
+        },
+        "strategic_partner_amplification": {
+            "score": 4,
+            "justification": "Could integrate with MSK, chronic care, or benefit navigation platforms already supported by SV ecosystem."
+        },
+        "acceleration_readiness": {
+            "score": 5,
+            "justification": "Product is mature, FDA-cleared, and revenue-generating. Team is executing rapidly and ready to scale into broader employer and payer networks."
+        }
+    },
+    "successes_and_areas_of_investigation": [
+        {
+            "type": "Success",
+            "description": "Secured $1.5M revenue in last 6 months; $7M projected for 2025 with five paying customers and a $100M+ pipeline.",
+            "context": "Traction",
+            "outcome": "Demonstrated product-market fit and repeatable sales motion in payer/employer channel."
+        },
+        {
+            "type": "Success",
+            "description": "Only FDA-cleared EMG biofeedback platform that can be delivered virtually.",
+            "context": "Clinical differentiation",
+            "outcome": "Unique position to replace high-cost, high-risk neurology treatments."
+        },
+        {
+            "type": "Area of Investigation",
+            "description": "Scaling employer sales despite consultant friction and complex benefits environment.",
+            "context": "Go-to-market bottleneck",
+            "outcome": "Needs warm intros and advisory leverage to break through and expand traction."
+        },
+        {
+            "type": "Area of Investigation",
+            "description": "Managing vertical integration complexity (hardware, services, and software).",
+            "context": "Operational risk",
+            "outcome": "Currently outsourced manufacturing and proven delivery model, but needs monitoring at scale."
+        }
+    ],
+    "category_comparison": "JOGO competes against pharma (e.g. Botox, CGRP drugs), surgical neuromodulation (Medtronic, Boston Scientific), and MSK/neurology platforms. Its differentiation lies in being the only FDA-cleared, non-invasive, telehealth-delivered neurotherapy with proven cost reduction and outcome improvement.",
+    "category_comparison_expanded": {
+        "primary_competitors": [
+            {
+                "name": "Botox / CGRP Inhibitors",
+                "description": "Standard-of-care drug therapies for migraines and neurological pain.",
+                "comparison": "JOGO avoids side effects and long-term drug costs with a behavioral-therapy-based alternative."
+            },
+            {
+                "name": "Boston Scientific / Medtronic",
+                "description": "Surgical neuromodulation devices for chronic neuro conditions.",
+                "comparison": "JOGO is non-invasive and offers a digital-first, lower-cost alternative."
+            },
+            {
+                "name": "Hinge Health / Sword Health",
+                "description": "MSK and chronic pain digital therapy companies.",
+                "comparison": "JOGO applies a similar vertically integrated model but focused on neurological rather than musculoskeletal disorders."
+            }
+        ],
+        "competitive_matrix": {
+            "columns": [
+                "Virtual Delivery",
+                "FDA Cleared",
+                "Non-Invasive",
+                "Employer Payer Focus",
+                "Hardware Integration",
+                "Value-Based Model"
+            ],
+            "rows": {
+                "JOGO Health": [true, true, true, true, true, true],
+                "Botox / CGRP": [false, true, false, "partial", false, false],
+                "Medtronic": [false, true, false, false, true, false],
+                "Hinge Health": [true, false, true, true, false, true]
+            }
+        },
+        "conclusion": "JOGO offers a rare combination of clinical validation, telehealth accessibility, and cost savings in a high-cost category. Its hybrid of virtual neurology, remote monitoring, and FDA-cleared hardware positions it as a category leader in digital neurotherapy."
+    },
+    "final_recommendation": {
+        "status": "Advance",
+        "rationale": "JOGO Health is highly aligned with SV's digital health and workforce cost-saving thesis. With strong revenue, clear differentiation, and mature go-to-market execution, it is well-positioned to scale. SV can accelerate adoption by unlocking employer network access and strengthening benefits consultant relationships."
+    }
+}
+  
