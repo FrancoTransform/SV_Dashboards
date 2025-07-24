@@ -62,7 +62,12 @@
                          class="h-8">
                     <h1 class="text-2xl font-bold text-white">Accelerator</h1>
                 </div>
-                <a href="{{ url_for('logout') }}" class="text-sm text-gray-400 hover:text-white">Logout</a>
+                <div class="flex items-center space-x-4">
+                    <a href="#" id="generateAnalysisLink" class="text-sm text-gray-400 hover:text-sv-green transition-colors duration-200">
+                        Sync with Spreadsheet
+                    </a>
+                    <a href="{{ url_for('logout') }}" class="text-sm text-gray-400 hover:text-white">Logout</a>
+                </div>
             </div>
         </nav>
         
@@ -79,15 +84,6 @@
                 </div>
             </div>
 
-            <!-- Add this button section after the existing header but before the company list -->
-            <div class="mb-6 flex justify-center">
-                <button id="generateAnalysis" class="inline-flex items-center px-8 py-4 text-lg font-semibold bg-sv-green text-white rounded-xl hover:bg-sv-green-dark transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
-                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                    </svg>
-                    Generate All Analyses
-                </button>
-            </div>
             <div class="mb-4 text-center">
                 <span id="analysisStatus" class="text-lg font-medium"></span>
             </div>
@@ -450,34 +446,42 @@
 
     <!-- Add this JavaScript at the bottom of the file, before closing </body> -->
     <script>
-    document.getElementById('generateAnalysis').addEventListener('click', function() {
-        const button = this;
+    document.getElementById('generateAnalysisLink').addEventListener('click', function(e) {
+        e.preventDefault();
+        const link = this;
         const status = document.getElementById('analysisStatus');
-        
-        button.disabled = true;
-        button.textContent = 'Generating...';
+
+        // Disable link and show loading state
+        link.style.pointerEvents = 'none';
+        link.textContent = 'Generating...';
+        link.classList.remove('hover:text-sv-green');
+        link.classList.add('text-yellow-400');
         status.textContent = 'Processing companies...';
-        
+        status.className = 'text-lg font-medium text-yellow-400';
+
         fetch('/generate_analysis')
             .then(response => response.json())
             .then(data => {
                 if (data.status === 'success') {
                     status.textContent = data.message;
-                    status.className = 'text-success';
+                    status.className = 'text-lg font-medium text-green-400';
                     // Refresh the page after 2 seconds to show new analyses
                     setTimeout(() => location.reload(), 2000);
                 } else {
                     status.textContent = 'Error: ' + data.message;
-                    status.className = 'text-danger';
+                    status.className = 'text-lg font-medium text-red-400';
                 }
             })
             .catch(error => {
                 status.textContent = 'Error: ' + error.message;
-                status.className = 'text-danger';
+                status.className = 'text-lg font-medium text-red-400';
             })
             .finally(() => {
-                button.disabled = false;
-                button.textContent = 'Generate All Analyses';
+                // Reset link state
+                link.style.pointerEvents = 'auto';
+                link.textContent = 'Generate Analyses';
+                link.classList.remove('text-yellow-400');
+                link.classList.add('hover:text-sv-green');
             });
     });
     </script>
