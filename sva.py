@@ -279,85 +279,52 @@ def analyze_submission_6ts(submission_data):
         "problem_statement": "problem they're solving",
         "pitch_deck_link": "extracted from application",
         "demo_link": "extracted from application",
-        "team": {{
-            "score": 1-5,
-            "justification": "Evaluate founding and leadership team's execution ability. Highlight: LinkedIn profiles, prior exits, domain expertise, storytelling strength, specific prior wins, scaling experience, complementary skills, leadership signals. 5 = proven repeat founders with relevant exits; 1 = no relevant experience."
-        }},
-        "tam": {{
-            "score": 1-5,
-            "justification": "Measure market size, growth, and opportunity. Highlight: $ size, CAGR, whitespace, willingness-to-pay evidence, buyer personas, competitive whitespace. 5 = >$5B market with tailwinds; 1 = very small or shrinking market."
-        }},
-        "technology": {{
-            "score": 1-5,
-            "justification": "Assess defensibility and differentiation. Highlight: unique algorithms, defensibility, ease of integration, proprietary data, IP, integrations, scalability. 5 = proprietary, hard to replicate; 1 = commoditized tech."
-        }},
-        "traction": {{
-            "score": 1-5,
-            "justification": "Evaluate product-market fit signals and GTM execution. Highlight: quantitative traction, growth %, notable logos, revenue, customer count, retention, partnerships. 5 = >$1M ARR or strong PMF; 1 = no product/traction."
-        }},
-        "timing": {{
-            "score": 1-5,
-            "justification": "Determine macro alignment and tailwinds. Highlight: catalysts, risks of early/late entry, cultural shifts, regulatory changes, tech cost curves, buyer shifts. 5 = strong tailwinds; 1 = poor timing."
-        }},
-        "terms": {{
-            "score": 1-5,
-            "justification": "Assess raise structure and valuation fit. Highlight: alignment with SV focus (<$15M post-money seed/pre-seed), round stage, post-money valuation, ownership potential. 5 = ideal stage/valuation; 1 = uninvestable terms."
-        }},
-        "red_flags": ["list of potential concerns across all 6Ts"],
-        "founder_profile": {{
-            "name": "founder name(s)",
-            "highlights": ["key founder achievements, background, and execution signals"],
-            "linkedin": "LinkedIn profile URLs if available"
-        }},
-        "founder_impact_assessment": ["specific examples of founder impact, prior wins, scaling experience, and leadership signals"],
-        "sv_thesis_fit": {{
-            "sector_fit": {{
+        "6Ts": {{
+            "team": {{
                 "score": 1-5,
-                "justification": "how well the company fits SV's sector focus on workforce transformation"
+                "justification": "Evaluate founding and leadership team's execution ability. Highlight: LinkedIn profiles, prior exits, domain expertise, storytelling strength, specific prior wins, scaling experience, complementary skills, leadership signals. 5 = proven repeat founders with relevant exits; 1 = no relevant experience.",
+                "founder_profile": {{
+                    "name": "founder name(s)",
+                    "highlights": ["key founder achievements, background, and execution signals"]
+                }},
+                "founder_impact_assessment": ["specific examples of founder impact, prior wins, scaling experience, and leadership signals"],
+                "red_flags": ["team-related concerns"]
             }},
-            "employer_ecosystem_leverage": {{
+            "tam": {{
                 "score": 1-5,
-                "justification": "potential to leverage SV's employer network and partnerships"
+                "justification": "Measure market size, growth, and opportunity. Highlight: $ size, CAGR, whitespace, willingness-to-pay evidence, buyer personas, competitive whitespace. 5 = >$5B market with tailwinds; 1 = very small or shrinking market.",
+                "red_flags": ["market-related concerns"]
             }},
-            "gtm_support_potential": {{
+            "technology": {{
                 "score": 1-5,
-                "justification": "how SV can support go-to-market efforts through network and expertise"
+                "justification": "Assess defensibility and differentiation. Highlight: unique algorithms, defensibility, ease of integration, proprietary data, IP, integrations, scalability. 5 = proprietary, hard to replicate; 1 = commoditized tech.",
+                "red_flags": ["technology-related concerns"]
             }},
-            "strategic_partner_amplification": {{
+            "traction": {{
                 "score": 1-5,
-                "justification": "potential for strategic partnerships through SV's ecosystem"
+                "justification": "Evaluate product-market fit signals and GTM execution. Highlight: quantitative traction, growth %, notable logos, revenue, customer count, retention, partnerships. 5 = >$1M ARR or strong PMF; 1 = no product/traction.",
+                "successes_and_areas_of_investigation": [
+                    {{
+                        "type": "Success or Area of Investigation",
+                        "description": "specific achievement or concern",
+                        "context": "background context",
+                        "outcome": "result or implication"
+                    }}
+                ],
+                "red_flags": ["traction-related concerns"]
             }},
-            "acceleration_readiness": {{
+            "timing": {{
                 "score": 1-5,
-                "justification": "readiness to benefit from accelerator program and mentorship"
+                "justification": "Determine macro alignment and tailwinds. Highlight: catalysts, risks of early/late entry, cultural shifts, regulatory changes, tech cost curves, buyer shifts. 5 = strong tailwinds; 1 = poor timing.",
+                "red_flags": ["timing-related concerns"]
+            }},
+            "terms": {{
+                "score": 1-5,
+                "justification": "Assess raise structure and valuation fit. Highlight: alignment with SV focus (<$15M post-money seed/pre-seed), round stage, post-money valuation, ownership potential. 5 = ideal stage/valuation; 1 = uninvestable terms.",
+                "red_flags": ["terms-related concerns"]
             }}
         }},
-        "successes_and_areas_of_investigation": [
-            {{
-                "type": "Success or Area of Investigation",
-                "description": "specific achievement or concern",
-                "context": "background context",
-                "outcome": "result or implication"
-            }}
-        ],
         "category_comparison": "comparison to other companies in similar category",
-        "category_comparison_expanded": {{
-            "primary_competitors": [
-                {{
-                    "name": "competitor name",
-                    "description": "what they do",
-                    "comparison": "how this company compares"
-                }}
-            ],
-            "competitive_matrix": {{
-                "columns": ["key differentiator 1", "key differentiator 2", "key differentiator 3"],
-                "rows": {{
-                    "{company_name}": [true, false, true],
-                    "Competitor1": [false, true, false]
-                }}
-            }},
-            "conclusion": "overall competitive positioning and differentiation"
-        }},
         "final_recommendation": {{
             "status": "Advance/Hold/Pass",
             "rationale": "detailed reasoning synthesizing all 6Ts for final recommendation"
@@ -400,11 +367,14 @@ def analyze_submission_6ts(submission_data):
         analysis = json.loads(content)
 
         # Validate 6Ts structure
+        if '6Ts' not in analysis:
+            raise KeyError("Missing required '6Ts' section")
+
         required_6ts = ['team', 'tam', 'technology', 'traction', 'timing', 'terms']
         for t in required_6ts:
-            if t not in analysis:
+            if t not in analysis['6Ts']:
                 raise KeyError(f"Missing required 6T: {t}")
-            if 'score' not in analysis[t] or 'justification' not in analysis[t]:
+            if 'score' not in analysis['6Ts'][t] or 'justification' not in analysis['6Ts'][t]:
                 raise KeyError(f"Missing score or justification for 6T: {t}")
 
         return analysis
@@ -631,7 +601,7 @@ def submission_detail(company_name):
         "clasp": "clasp_analysis.json",
         "clsp": "clasp_analysis.json",
         "cryptomate": "cryptomate_analysis.json",
-        "beacon": "beacon_6ts_sections_analysis.json",
+        "beacon": "beacon_updated_structure_analysis.json",
         "aidora": "aidora_analysis.json",
         "ezra": "ezra_analysis.json",
         "gtmflow": "gtmflow_analysis.json",

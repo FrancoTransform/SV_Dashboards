@@ -1,0 +1,83 @@
+{
+  "company_name": "Beacon",
+  "website": "https://beaconnection.com/",
+  "year_founded": "2025",
+  "description": "Beacon is building the data layer to underwrite hiring, using AI to identify, verify, and match specialty recruiters with employers.",
+  "problem_statement": "Hiring today is unverified guesswork, costing companies billions. Recruiters are chosen by gut, not data. Beacon aims to change this by building the infrastructure to underwrite hiring by verifying and matching specialty recruiters using AI.",
+  "pitch_deck_link": "https://updawg-my.sharepoint.com/:b:/g/personal/rob_beaconnection_com/EfPmaVerH8FLvkTLomwQsCoBIbgZoCHZUFhI78jiOWc5hw?e=3u7A3A",
+  "demo_link": "https://www.youtube.com/watch?v=AoOz1YaXvFA",
+  "6Ts": {
+    "team": {
+      "score": 4,
+      "justification": "The founding team comprises three individuals with significant experience in their respective fields. Rob Reznick (CEO) has a strong background in strategy and business development. Chris Sullivan (CTO) has a robust technical background, and Percy Bhathena (CPO/COO) has deep expertise in product and operations. The team's complementary skills and prior collaborative experiences are positive signals.",
+      "founder_profile": {
+        "name": "Rob Reznick, Chris Sullivan, Percy Bhathena",
+        "highlights": [
+          "Rob Reznick: Significant experience in strategy and business development",
+          "Chris Sullivan: Robust technical background",
+          "Percy Bhathena: Extensive expertise in product and operations"
+        ]
+      },
+      "founder_impact_assessment": [
+        "The founders have successfully launched the product within a year of founding the company, indicating strong execution capability. The team's prior collaborative experience is also a positive signal."
+      ],
+      "red_flags": [
+        "The team size is relatively small for the scale of the problem they are addressing."
+      ]
+    },
+    "tam": {
+      "score": 4,
+      "justification": "The company is targeting a $5B immediate market opportunity in the U.S. Direct Hire industry, which has over 15,000 recruiting firms under $100M in revenue. This market is expected to grow given the increasing demand for data-driven hiring solutions.",
+      "red_flags": [
+        "The team will need to demonstrate how they can capture a significant market share in a highly competitive market."
+      ]
+    },
+    "technology": {
+      "score": 3,
+      "justification": "Beacon's technology is built in-house and uses AI to underwrite hiring. While it's not clear how proprietary or unique their algorithms are, the focus on automating and improving the hiring process through data-backed decisions is a strong differentiator.",
+      "red_flags": [
+        "The defensibility of their technology is unclear. It's important to understand how their technology can't be replicated by competitors."
+      ]
+    },
+    "traction": {
+      "score": 2,
+      "justification": "The product was launched 4 months ago and has 5 active customers, with a total ARR of $29k. While this is a positive start, the company will need to demonstrate a faster growth trajectory.",
+      "successes_and_areas_of_investigation": [
+        {
+          "type": "Success",
+          "description": "Successful product launch and acquisition of 5 active customers within 4 months.",
+          "context": "The company was founded in 2025 and launched its product in the same year.",
+          "outcome": "This demonstrates that the team can execute and deliver a product to market."
+        },
+        {
+          "type": "Area of Investigation",
+          "description": "Slow initial customer growth and limited ARR",
+          "context": "The product has been in the market for 4 months with 5 customers and $29k ARR.",
+          "outcome": "The company needs to accelerate its customer acquisition to prove product-market fit and demonstrate a faster growth trajectory."
+        }
+      ],
+      "red_flags": [
+        "Limited customer base and ARR after 4 months in the market"
+      ]
+    },
+    "timing": {
+      "score": 4,
+      "justification": "Beacon is entering the market at a time when there is increasing demand for data-driven hiring solutions. The timing is favorable given the growing trend towards remote work, which is broadening the recruitment market and increasing the need for reliable hiring platforms.",
+      "red_flags": [
+        "Must keep up with the rapidly evolving HR tech space to maintain relevance."
+      ]
+    },
+    "terms": {
+      "score": 3,
+      "justification": "The company is currently bootstrapped and preparing for a seed round. While the specifics of the raise have not been disclosed, the company has 12+ months of runway from current revenue and founder investment. The terms will need to be considered in light of the company's growth potential and market opportunity.",
+      "red_flags": [
+        "The terms of the upcoming seed round are not yet known, making it difficult to evaluate investment potential at this stage."
+      ]
+    }
+  },
+  "category_comparison": "Unlike competitors who focus on workflows or lack verification and data underwriting, Beacon differentiates itself by focusing on underwriting recruiter quality using AI.",
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "The combination of a strong founding team, a large market opportunity, and a differentiated product makes Beacon an attractive investment candidate. While there are areas for improvement, particularly in scaling customer growth, the company's early traction and strategic positioning suggest potential for significant growth."
+  }
+}
