@@ -14,6 +14,9 @@ import argparse
 import secrets
 from functools import wraps
 from dotenv import load_dotenv
+import requests
+import io
+import re
 
 print("Loading environment variables...")
 load_dotenv()
@@ -257,6 +260,165 @@ def analyze_submission(submission_data):
         print("Response content:", response.choices[0].message.content)
         raise
 
+def analyze_submission_6ts(submission_data):
+    """Process submission through OpenAI API using the 6Ts framework"""
+    if client is None:
+        raise Exception("OpenAI client not initialized. Please check your OPENAI_API_KEY environment variable.")
+
+    company_name = submission_data.get('Company Name', 'Unknown')
+
+    prompt = f"""
+    Analyze this startup submission for the SemperVirens Accelerator Program using the comprehensive 6Ts evaluation framework.
+    Return ONLY a JSON object (no markdown, no explanatory text) with the following structure:
+
+    {{
+        "company_name": "{company_name}",
+        "website": "extracted from application",
+        "year_founded": "extracted from application",
+        "description": "company description",
+        "problem_statement": "problem they're solving",
+        "pitch_deck_link": "extracted from application",
+        "demo_link": "extracted from application",
+        "scoring": {{
+            "team": {{
+                "score": 1-5,
+                "justification": "Evaluate founding and leadership team's execution ability. Highlight: LinkedIn profiles, prior exits, domain expertise, storytelling strength, specific prior wins, scaling experience, complementary skills, leadership signals. 5 = proven repeat founders with relevant exits; 1 = no relevant experience."
+            }},
+            "tam": {{
+                "score": 1-5,
+                "justification": "Measure market size, growth, and opportunity. Highlight: $ size, CAGR, whitespace, willingness-to-pay evidence, buyer personas, competitive whitespace. 5 = >$5B market with tailwinds; 1 = very small or shrinking market."
+            }},
+            "technology": {{
+                "score": 1-5,
+                "justification": "Assess defensibility and differentiation. Highlight: unique algorithms, defensibility, ease of integration, proprietary data, IP, integrations, scalability. 5 = proprietary, hard to replicate; 1 = commoditized tech."
+            }},
+            "traction": {{
+                "score": 1-5,
+                "justification": "Evaluate product-market fit signals and GTM execution. Highlight: quantitative traction, growth %, notable logos, revenue, customer count, retention, partnerships. 5 = >$1M ARR or strong PMF; 1 = no product/traction."
+            }},
+            "timing": {{
+                "score": 1-5,
+                "justification": "Determine macro alignment and tailwinds. Highlight: catalysts, risks of early/late entry, cultural shifts, regulatory changes, tech cost curves, buyer shifts. 5 = strong tailwinds; 1 = poor timing."
+            }},
+            "terms": {{
+                "score": 1-5,
+                "justification": "Assess raise structure and valuation fit. Highlight: alignment with SV focus (<$15M post-money seed/pre-seed), round stage, post-money valuation, ownership potential. 5 = ideal stage/valuation; 1 = uninvestable terms."
+            }}
+        }},
+        "red_flags": ["list of potential concerns across all 6Ts"],
+        "founder_profile": {{
+            "name": "founder name(s)",
+            "highlights": ["key founder achievements, background, and execution signals"],
+            "linkedin": "LinkedIn profile URLs if available"
+        }},
+        "founder_impact_assessment": ["specific examples of founder impact, prior wins, scaling experience, and leadership signals"],
+        "sv_thesis_fit": {{
+            "sector_fit": {{
+                "score": 1-5,
+                "justification": "how well the company fits SV's sector focus on workforce transformation"
+            }},
+            "employer_ecosystem_leverage": {{
+                "score": 1-5,
+                "justification": "potential to leverage SV's employer network and partnerships"
+            }},
+            "gtm_support_potential": {{
+                "score": 1-5,
+                "justification": "how SV can support go-to-market efforts through network and expertise"
+            }},
+            "strategic_partner_amplification": {{
+                "score": 1-5,
+                "justification": "potential for strategic partnerships through SV's ecosystem"
+            }},
+            "acceleration_readiness": {{
+                "score": 1-5,
+                "justification": "readiness to benefit from accelerator program and mentorship"
+            }}
+        }},
+        "successes_and_areas_of_investigation": [
+            {{
+                "type": "Success or Area of Investigation",
+                "description": "specific achievement or concern",
+                "context": "background context",
+                "outcome": "result or implication"
+            }}
+        ],
+        "category_comparison": "comparison to other companies in similar category",
+        "category_comparison_expanded": {{
+            "primary_competitors": [
+                {{
+                    "name": "competitor name",
+                    "description": "what they do",
+                    "comparison": "how this company compares"
+                }}
+            ],
+            "competitive_matrix": {{
+                "columns": ["key differentiator 1", "key differentiator 2", "key differentiator 3"],
+                "rows": {{
+                    "{company_name}": [true, false, true],
+                    "Competitor1": [false, true, false]
+                }}
+            }},
+            "conclusion": "overall competitive positioning and differentiation"
+        }},
+        "final_recommendation": {{
+            "status": "Advance/Hold/Pass",
+            "rationale": "detailed reasoning synthesizing all 6Ts for final recommendation"
+        }}
+    }}
+
+    Company Information:
+    {json.dumps(submission_data, indent=2)}
+
+    Research the founders thoroughly using their LinkedIn profiles and any available information.
+    Be explicit: include metrics, benchmarks, and qualitative context. Use comparative lens vs. market norms.
+    Maintain consistency across memos. Focus on providing specific, actionable insights with concrete evidence.
+
+    6Ts Scoring Guidelines:
+    - 5: Exceptional/Best in class
+    - 4: Strong/Above average
+    - 3: Good/Average
+    - 2: Weak/Below average
+    - 1: Poor/Concerning
+    """
+
+    response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "You are an expert venture capital analyst specializing in the 6Ts framework (Team, TAM, Technology, Traction, Timing, Terms). Provide thorough, well-researched analysis with specific, concrete details and metrics."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.7,
+        max_tokens=4000
+    )
+
+    try:
+        content = response.choices[0].message.content.strip()
+
+        if "```json" in content:
+            content = content.split("```json")[1].split("```")[0].strip()
+        elif "```" in content:
+            content = content.split("```")[1].split("```")[0].strip()
+
+        analysis = json.loads(content)
+
+        # Validate 6Ts structure
+        required_6ts = ['team', 'tam', 'technology', 'traction', 'timing', 'terms']
+        if 'scoring' in analysis:
+            for t in required_6ts:
+                if t not in analysis['scoring']:
+                    raise KeyError(f"Missing required 6T: {t}")
+
+        return analysis
+
+    except json.JSONDecodeError as e:
+        print(f"Failed to parse JSON response: {e}")
+        print("Response content:", response.choices[0].message.content)
+        raise
+    except (KeyError, ValueError) as e:
+        print(f"Invalid response structure: {e}")
+        print("Response content:", response.choices[0].message.content)
+        raise
+
 def process_submissions():
     """Process only the first submission and store analysis"""
     print("Starting submission processing...")
@@ -470,7 +632,7 @@ def submission_detail(company_name):
         "clasp": "clasp_analysis.json",
         "clsp": "clasp_analysis.json",
         "cryptomate": "cryptomate_analysis.json",
-        "beacon": "beacon_analysis.json",
+        "beacon": "beacon_6ts_analysis.json",
         "aidora": "aidora_analysis.json",
         "ezra": "ezra_analysis.json",
         "gtmflow": "gtmflow_analysis.json",
@@ -642,6 +804,166 @@ def submission_detail(company_name):
                           company_name=company_name, 
                           tried_filenames=possible_filenames,
                           available_files=[f.name for f in ANALYSIS_DIR.glob('*_analysis.json')]), 404
+
+def get_google_sheet_as_csv(sheet_url: str) -> str:
+    """Convert Google Sheets URL to CSV export URL and fetch data"""
+    if '/d/' in sheet_url:
+        sheet_id = sheet_url.split('/d/')[1].split('/')[0]
+    else:
+        raise ValueError("Invalid Google Sheets URL format")
+
+    csv_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
+
+    try:
+        response = requests.get(csv_url, timeout=30)
+        response.raise_for_status()
+        return response.text
+    except requests.RequestException as e:
+        raise Exception(f"Failed to fetch Google Sheet: {e}")
+
+def parse_csv_data(csv_content: str) -> list:
+    """Parse CSV content into list of dictionaries"""
+    submissions = []
+    csv_reader = csv.DictReader(io.StringIO(csv_content))
+
+    for row in csv_reader:
+        if not any(row.values()):
+            continue
+
+        cleaned_row = {}
+        for key, value in row.items():
+            if key and value:
+                cleaned_row[key.strip()] = value.strip()
+
+        if cleaned_row.get('Company Name'):
+            submissions.append(cleaned_row)
+
+    return submissions
+
+def get_existing_companies() -> set:
+    """Get set of companies that already have analysis files"""
+    existing = set()
+
+    for analysis_file in ANALYSIS_DIR.glob('*_analysis.json'):
+        try:
+            with open(analysis_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                company_name = data.get('company_name', '')
+                if company_name:
+                    existing.add(re.sub(r'[^a-z0-9]', '', company_name.lower()))
+        except Exception:
+            continue
+
+    return existing
+
+@app.route('/sync_spreadsheet')
+@login_required
+def sync_spreadsheet():
+    """Sync with Google Spreadsheet and generate analyses for new companies"""
+    try:
+        # For now, let's use a test URL - you'll need to replace this with the actual spreadsheet URL
+        sheet_url = request.args.get('url', '')
+
+        # If no URL provided, return info about what we need
+        if not sheet_url:
+            return jsonify({
+                'status': 'info',
+                'message': 'Google Spreadsheet sync ready. Please provide the spreadsheet URL.',
+                'current_analyses': len(list(ANALYSIS_DIR.glob('*_analysis.json'))),
+                'instructions': 'Add ?url=YOUR_GOOGLE_SHEETS_URL to this endpoint to sync'
+            })
+
+        # Fetch data from Google Sheets
+        csv_content = get_google_sheet_as_csv(sheet_url)
+        submissions = parse_csv_data(csv_content)
+
+        # Get existing companies
+        existing_companies = get_existing_companies()
+
+        # Find new companies
+        new_companies = []
+        for submission in submissions:
+            company_name = submission.get('Company Name', '')
+            normalized_name = re.sub(r'[^a-z0-9]', '', company_name.lower())
+
+            if normalized_name not in existing_companies:
+                new_companies.append(submission)
+
+        # Generate analyses for new companies (limit to avoid timeouts)
+        generated_count = 0
+        batch_size = min(5, len(new_companies))  # Process max 5 at a time
+
+        for submission in new_companies[:batch_size]:
+            try:
+                company_name = submission.get('Company Name', '')
+                print(f"Generating analysis for: {company_name}")
+
+                analysis = analyze_submission(submission)
+
+                # Save analysis
+                safe_filename = re.sub(r'[^a-z0-9]', '', company_name.lower())
+                analysis_file = ANALYSIS_DIR / f"{safe_filename}_analysis.json"
+
+                with open(analysis_file, 'w', encoding='utf-8') as f:
+                    json.dump(analysis, f, indent=2)
+
+                generated_count += 1
+                print(f"✅ Generated analysis for {company_name}")
+
+            except Exception as e:
+                print(f"❌ Error generating analysis for {company_name}: {e}")
+                continue
+
+        return jsonify({
+            'status': 'success',
+            'message': f'Synced with spreadsheet. Generated {generated_count} new analyses.',
+            'total_in_sheet': len(submissions),
+            'existing_analyses': len(existing_companies),
+            'new_companies_found': len(new_companies),
+            'analyses_generated': generated_count,
+            'remaining_to_process': max(0, len(new_companies) - batch_size)
+        })
+
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'message': str(e)
+        }), 500
+
+@app.route('/sync_status')
+@login_required
+def sync_status():
+    """Check current sync status and provide instructions"""
+    try:
+        existing_companies = get_existing_companies()
+        analysis_files = list(ANALYSIS_DIR.glob('*_analysis.json'))
+
+        # Get some sample company names
+        sample_companies = []
+        for analysis_file in analysis_files[:5]:
+            try:
+                with open(analysis_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    sample_companies.append(data.get('company_name', 'Unknown'))
+            except Exception:
+                continue
+
+        return jsonify({
+            'status': 'success',
+            'current_analyses': len(analysis_files),
+            'sample_companies': sample_companies,
+            'instructions': {
+                'step1': 'Get the Google Spreadsheet URL (must be publicly viewable)',
+                'step2': 'Call /sync_spreadsheet?url=YOUR_SPREADSHEET_URL',
+                'step3': 'The system will fetch all submissions and generate analyses for new companies'
+            },
+            'note': 'Currently have 39 analyses, expecting 63 from spreadsheet (24 missing)'
+        })
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'message': str(e)
+        }), 500
 
 @app.route('/generate_analysis')
 @login_required
