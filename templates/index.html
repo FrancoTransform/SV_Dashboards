@@ -91,22 +91,22 @@
             <!-- Tab Navigation -->
             <div class="mb-8">
                 <div class="flex space-x-1 bg-white/5 p-1 rounded-lg">
-                    <button id="wave1Tab"
+                    <button id="cohort1Tab"
                             class="tab-button flex-1 px-6 py-3 text-sm font-medium rounded-md transition-all duration-200 active"
-                            onclick="switchTab('wave1')">
+                            onclick="switchTab('cohort1')">
                         <span class="flex items-center justify-center">
                             <span class="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
-                            Wave 1
-                            <span id="wave1Count" class="ml-2 px-2 py-1 bg-blue-600/20 text-blue-300 rounded-full text-xs"></span>
+                            Cohort 1
+                            <span id="cohort1Count" class="ml-2 px-2 py-1 bg-blue-600/20 text-blue-300 rounded-full text-xs"></span>
                         </span>
                     </button>
-                    <button id="wave2Tab"
+                    <button id="cohort2Tab"
                             class="tab-button flex-1 px-6 py-3 text-sm font-medium rounded-md transition-all duration-200"
-                            onclick="switchTab('wave2')">
+                            onclick="switchTab('cohort2')">
                         <span class="flex items-center justify-center">
                             <span class="w-2 h-2 bg-purple-400 rounded-full mr-2"></span>
-                            Wave 2
-                            <span id="wave2Count" class="ml-2 px-2 py-1 bg-purple-600/20 text-purple-300 rounded-full text-xs"></span>
+                            Cohort 2
+                            <span id="cohort2Count" class="ml-2 px-2 py-1 bg-purple-600/20 text-purple-300 rounded-full text-xs"></span>
                         </span>
                     </button>
                 </div>
@@ -117,7 +117,7 @@
                 <input type="text"
                        id="searchInput"
                        class="w-full px-4 py-2 bg-white/10 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-sv-green"
-                       placeholder="Search within current wave..."
+                       placeholder="Search within current cohort..."
                        onkeyup="filterSubmissions()">
                 <div class="absolute right-3 top-2.5 text-gray-400">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -184,28 +184,28 @@
                 {% set _ = all_submissions.append(submission) %}
             {% endfor %}
 
-            <!-- Separate submissions into waves -->
-            {% set wave1_submissions = [] %}
-            {% set wave2_submissions = [] %}
-            {% set wave_cutoff = '2025-06-05 00:00:00' %}
+            <!-- Separate submissions into cohorts -->
+            {% set cohort1_submissions = [] %}
+            {% set cohort2_submissions = [] %}
+            {% set cohort_cutoff = '2025-05-16 00:00:00' %}
 
             {% for submission in all_submissions %}
-                {% if submission._submission_date < wave_cutoff %}
-                    {% set _ = wave1_submissions.append(submission) %}
+                {% if submission._submission_date < cohort_cutoff %}
+                    {% set _ = cohort1_submissions.append(submission) %}
                 {% else %}
-                    {% set _ = wave2_submissions.append(submission) %}
+                    {% set _ = cohort2_submissions.append(submission) %}
                 {% endif %}
             {% endfor %}
 
-            <!-- Wave 1 Tab Content -->
-            <div id="wave1Content" class="tab-content">
+            <!-- Cohort 1 Tab Content -->
+            <div id="cohort1Content" class="tab-content">
                 <div class="mb-6 text-center">
-                    <h2 class="text-xl font-semibold text-white mb-2">Wave 1 Submissions</h2>
-                    <p class="text-gray-400 text-sm">Through June 4th, 2025</p>
+                    <h2 class="text-xl font-semibold text-white mb-2">Cohort 1 Submissions</h2>
+                    <p class="text-gray-400 text-sm">Through May 15th, 2025</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {% for submission in wave1_submissions|sort(attribute='_submission_date') %}
+                    {% for submission in cohort1_submissions|sort(attribute='_submission_date') %}
                     {% set submission_date = 'N/A' %}
                     {% if submission.company_name and submission.company_name.strip() in date_mapping %}
                         {% set submission_date = date_mapping[submission.company_name.strip()]['display'] %}
@@ -277,15 +277,15 @@
                 </div>
             </div>
 
-            <!-- Wave 2 Tab Content -->
-            <div id="wave2Content" class="tab-content" style="display: none;">
+            <!-- Cohort 2 Tab Content -->
+            <div id="cohort2Content" class="tab-content" style="display: none;">
                 <div class="mb-6 text-center">
-                    <h2 class="text-xl font-semibold text-white mb-2">Wave 2 Submissions</h2>
-                    <p class="text-gray-400 text-sm">June 5th onwards, 2025</p>
+                    <h2 class="text-xl font-semibold text-white mb-2">Cohort 2 Submissions</h2>
+                    <p class="text-gray-400 text-sm">May 16th onwards, 2025</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {% for submission in wave2_submissions|sort(attribute='_submission_date') %}
+                    {% for submission in cohort2_submissions|sort(attribute='_submission_date') %}
                     {% set submission_date = 'N/A' %}
                     {% if submission.company_name and submission.company_name.strip() in date_mapping %}
                         {% set submission_date = date_mapping[submission.company_name.strip()]['display'] %}
@@ -360,34 +360,34 @@
     </div>
 
     <script>
-        let currentWave = 'wave1';
-        let wave1Count = 0;
-        let wave2Count = 0;
+        let currentCohort = 'cohort1';
+        let cohort1Count = 0;
+        let cohort2Count = 0;
 
         // Initialize tab functionality
         document.addEventListener('DOMContentLoaded', function() {
-            // Count companies in each wave
-            wave1Count = document.querySelectorAll('#wave1Content .submission-card').length;
-            wave2Count = document.querySelectorAll('#wave2Content .submission-card').length;
+            // Count companies in each cohort
+            cohort1Count = document.querySelectorAll('#cohort1Content .submission-card').length;
+            cohort2Count = document.querySelectorAll('#cohort2Content .submission-card').length;
 
             // Update tab counters
-            document.getElementById('wave1Count').textContent = wave1Count;
-            document.getElementById('wave2Count').textContent = wave2Count;
+            document.getElementById('cohort1Count').textContent = cohort1Count;
+            document.getElementById('cohort2Count').textContent = cohort2Count;
 
-            // Show Wave 1 by default
-            switchTab('wave1');
+            // Show Cohort 1 by default
+            switchTab('cohort1');
         });
 
-        function switchTab(waveId) {
-            currentWave = waveId;
+        function switchTab(cohortId) {
+            currentCohort = cohortId;
 
             // Update tab buttons
             document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
-            document.getElementById(waveId + 'Tab').classList.add('active');
+            document.getElementById(cohortId + 'Tab').classList.add('active');
 
             // Update tab content
             document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
-            document.getElementById(waveId + 'Content').style.display = 'block';
+            document.getElementById(cohortId + 'Content').style.display = 'block';
 
             // Clear search and reset filters
             document.getElementById('searchInput').value = '';
@@ -395,8 +395,8 @@
 
             // Update search placeholder
             const searchInput = document.getElementById('searchInput');
-            const waveName = waveId === 'wave1' ? 'Wave 1' : 'Wave 2';
-            searchInput.placeholder = `Search within ${waveName}...`;
+            const cohortName = cohortId === 'cohort1' ? 'Cohort 1' : 'Cohort 2';
+            searchInput.placeholder = `Search within ${cohortName}...`;
         }
 
         function filterSubmissions() {
@@ -407,11 +407,11 @@
             const visibleCountSpan = document.getElementById('visible-count');
 
             // Get cards from current active tab only
-            const activeContent = document.getElementById(currentWave + 'Content');
+            const activeContent = document.getElementById(currentCohort + 'Content');
             const submissionCards = activeContent.querySelectorAll('.submission-card');
             let visibleCount = 0;
 
-            // Filter cards in current wave
+            // Filter cards in current cohort
             for (let card of submissionCards) {
                 const companyName = card.querySelector('h3').textContent.toLowerCase();
                 const description = card.querySelector('p').textContent.toLowerCase();
@@ -435,9 +435,9 @@
                 searchResults.style.display = 'none';
                 totalCount.style.display = '';
             } else {
-                const totalInWave = currentWave === 'wave1' ? wave1Count : wave2Count;
+                const totalInCohort = currentCohort === 'cohort1' ? cohort1Count : cohort2Count;
                 visibleCountSpan.textContent = visibleCount;
-                document.getElementById('visible-count').nextSibling.textContent = ` of ${totalInWave} submissions in ${currentWave === 'wave1' ? 'Wave 1' : 'Wave 2'}`;
+                document.getElementById('visible-count').nextSibling.textContent = ` of ${totalInCohort} submissions in ${currentCohort === 'cohort1' ? 'Cohort 1' : 'Cohort 2'}`;
                 searchResults.style.display = '';
                 totalCount.style.display = 'none';
             }
@@ -459,7 +459,9 @@
         status.textContent = 'Processing companies...';
         status.className = 'text-lg font-medium text-yellow-400';
 
-        fetch('/generate_analysis')
+        // Use sync_spreadsheet endpoint with the Google Sheets URL
+        const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit'; // Replace with actual URL
+        fetch(`/sync_spreadsheet?url=${encodeURIComponent(spreadsheetUrl)}`)
             .then(response => response.json())
             .then(data => {
                 if (data.status === 'success') {
