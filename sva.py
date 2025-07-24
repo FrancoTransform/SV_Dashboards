@@ -484,7 +484,15 @@ def submission_detail(company_name):
         "wigglhealth": "wiggl_health_analysis.json",
         "wiggl": "wiggl_health_analysis.json",
         "lockwellinc": "lockwell_inc_analysis.json",
-        "lockwell": "lockwell_inc_analysis.json"
+        "lockwell": "lockwell_inc_analysis.json",
+        "gigeasy": "gigeasy_analysis.json",
+        "gighqai": "gighqai_analysis.json",
+        "gighq": "gighqai_analysis.json",
+        "icommute": "icommute_analysis.json",
+        "thepeoappinc": "thepeoappinc_analysis.json",
+        "thepeoapp": "thepeoappinc_analysis.json",
+        "peoapp": "thepeoappinc_analysis.json",
+        "cherrygiving": "cherrygiving_analysis.json"
     }
     
     if company_name.lower() in special_cases:

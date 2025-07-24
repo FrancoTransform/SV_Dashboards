@@ -40,6 +40,19 @@
                 </div>
             </div>
 
+            <!-- Add this button section after the existing header but before the company list -->
+            <div class="mb-6 flex justify-center">
+                <button id="generateAnalysis" class="inline-flex items-center px-8 py-4 text-lg font-semibold bg-sv-green text-white rounded-xl hover:bg-sv-green-dark transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                    Generate All Analyses
+                </button>
+            </div>
+            <div class="mb-4 text-center">
+                <span id="analysisStatus" class="text-lg font-medium"></span>
+            </div>
+
             <!-- Search Bar -->
             <div class="relative mb-6">
                 <input type="text" 
@@ -90,7 +103,12 @@
                 'RainyDayPal': {'date': '2025-06-03 19:47:09', 'display': 'June 3, 2025 19:47'},
                 'NuCo Credentialing': {'date': '2025-06-03 23:11:42', 'display': 'June 3, 2025 23:11'},
                 'Workrz': {'date': '2025-06-04 18:33:48', 'display': 'June 4, 2025 18:33'},
-                'GTM Flow': {'date': '2025-04-17 18:45:47', 'display': 'April 17, 2025 18:45'}
+                'GTM Flow': {'date': '2025-04-17 18:45:47', 'display': 'April 17, 2025 18:45'},
+                'GigEasy': {'date': '2025-07-24 10:00:00', 'display': 'July 24, 2025 10:00'},
+                'GigHQ.ai': {'date': '2025-07-24 10:15:00', 'display': 'July 24, 2025 10:15'},
+                'iCommute': {'date': '2025-07-24 10:30:00', 'display': 'July 24, 2025 10:30'},
+                'The PEO App, Inc.': {'date': '2025-07-24 10:45:00', 'display': 'July 24, 2025 10:45'},
+                'Cherrygiving': {'date': '2025-07-24 11:00:00', 'display': 'July 24, 2025 11:00'}
             } %}
 
             <!-- Updated grid layout -->
@@ -207,6 +225,40 @@
 
             document.getElementById('submission-count').textContent = visibleCount;
         }
+    </script>
+
+    <!-- Add this JavaScript at the bottom of the file, before closing </body> -->
+    <script>
+    document.getElementById('generateAnalysis').addEventListener('click', function() {
+        const button = this;
+        const status = document.getElementById('analysisStatus');
+        
+        button.disabled = true;
+        button.textContent = 'Generating...';
+        status.textContent = 'Processing companies...';
+        
+        fetch('/generate_analysis')
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    status.textContent = data.message;
+                    status.className = 'text-success';
+                    // Refresh the page after 2 seconds to show new analyses
+                    setTimeout(() => location.reload(), 2000);
+                } else {
+                    status.textContent = 'Error: ' + data.message;
+                    status.className = 'text-danger';
+                }
+            })
+            .catch(error => {
+                status.textContent = 'Error: ' + error.message;
+                status.className = 'text-danger';
+            })
+            .finally(() => {
+                button.disabled = false;
+                button.textContent = 'Generate All Analyses';
+            });
+    });
     </script>
 </body>
 </html>
