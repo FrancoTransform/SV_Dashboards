@@ -89,63 +89,91 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <!-- Left Column -->
                     <div class="space-y-4">
-                        <!-- Market Opportunity -->
+                        <!-- Team -->
                         <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
                             <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Market Opportunity</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.market_opportunity.score is not none and analysis.scoring.market_opportunity.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.market_opportunity.score is not none and analysis.scoring.market_opportunity.score == 3 else 
+                                <h3 class="text-lg font-medium text-white">Team</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
+                                    {{ 'bg-green-100 text-green-800' if analysis.team.score is not none and analysis.team.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.team.score is not none and analysis.team.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.scoring.market_opportunity.score|default('N/A') }}/5
+                                    {{ analysis.team.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.market_opportunity.justification }}</p>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.team.justification }}</p>
                         </div>
 
-                        <!-- Product Differentiation -->
+                        <!-- TAM (Total Addressable Market) -->
                         <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
                             <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Product Differentiation</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.product_differentiation.score is not none and analysis.scoring.product_differentiation.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.product_differentiation.score is not none and analysis.scoring.product_differentiation.score == 3 else 
+                                <h3 class="text-lg font-medium text-white">TAM (Total Addressable Market)</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
+                                    {{ 'bg-green-100 text-green-800' if analysis.tam.score is not none and analysis.tam.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.tam.score is not none and analysis.tam.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.scoring.product_differentiation.score|default('N/A') }}/5
+                                    {{ analysis.tam.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.product_differentiation.justification }}</p>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.tam.justification }}</p>
+                        </div>
+
+                        <!-- Technology -->
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-lg font-medium text-white">Technology</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
+                                    {{ 'bg-green-100 text-green-800' if analysis.technology.score is not none and analysis.technology.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.technology.score is not none and analysis.technology.score == 3 else
+                                       'bg-gray-100 text-gray-800' }}">
+                                    {{ analysis.technology.score|default('N/A') }}/5
+                                </span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.technology.justification }}</p>
                         </div>
                     </div>
 
                     <!-- Right Column -->
                     <div class="space-y-4">
-                        <!-- Go-to-Market Traction -->
+                        <!-- Traction -->
                         <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
                             <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Go-to-Market Traction</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.go_to_market_traction.score is not none and analysis.scoring.go_to_market_traction.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.go_to_market_traction.score is not none and analysis.scoring.go_to_market_traction.score == 3 else 
+                                <h3 class="text-lg font-medium text-white">Traction</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
+                                    {{ 'bg-green-100 text-green-800' if analysis.traction.score is not none and analysis.traction.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.traction.score is not none and analysis.traction.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.scoring.go_to_market_traction.score|default('N/A') }}/5
+                                    {{ analysis.traction.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.go_to_market_traction.justification }}</p>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.traction.justification }}</p>
                         </div>
 
-                        <!-- Ecosystem Signals -->
+                        <!-- Timing -->
                         <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
                             <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Ecosystem Signals</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.ecosystem_signals.score is not none and analysis.scoring.ecosystem_signals.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.ecosystem_signals.score is not none and analysis.scoring.ecosystem_signals.score == 3 else 
+                                <h3 class="text-lg font-medium text-white">Timing</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
+                                    {{ 'bg-green-100 text-green-800' if analysis.timing.score is not none and analysis.timing.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.timing.score is not none and analysis.timing.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.scoring.ecosystem_signals.score|default('N/A') }}/5
+                                    {{ analysis.timing.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.ecosystem_signals.justification }}</p>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.timing.justification }}</p>
+                        </div>
+
+                        <!-- Terms -->
+                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-lg font-medium text-white">Terms</h3>
+                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
+                                    {{ 'bg-green-100 text-green-800' if analysis.terms.score is not none and analysis.terms.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.terms.score is not none and analysis.terms.score == 3 else
+                                       'bg-gray-100 text-gray-800' }}">
+                                    {{ analysis.terms.score|default('N/A') }}/5
+                                </span>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.terms.justification }}</p>
                         </div>
                     </div>
                 </div>
@@ -156,39 +184,7 @@
                 <h2 class="text-xl font-semibold text-white mb-4">Company Assessment</h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <!-- Left Column -->
-                    <div class="space-y-4">
-                        <!-- Founder & Team Strength -->
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Founder & Team Strength</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.founder_team_strength.score is not none and analysis.scoring.founder_team_strength.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.founder_team_strength.score is not none and analysis.scoring.founder_team_strength.score == 3 else 
-                                       'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.scoring.founder_team_strength.score|default('N/A') }}/5
-                                </span>
-                            </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.founder_team_strength.justification }}</p>
-                        </div>
-                    </div>
-
-                    <!-- Right Column -->
-                    <div class="space-y-4">
-                        <!-- Strategic Fit -->
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Strategic Fit</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.strategic_fit.score is not none and analysis.scoring.strategic_fit.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.strategic_fit.score is not none and analysis.scoring.strategic_fit.score == 3 else 
-                                       'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.scoring.strategic_fit.score|default('N/A') }}/5
-                                </span>
-                            </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.strategic_fit.justification }}</p>
-                        </div>
-                    </div>
+                    <!-- This section is now covered by the 6Ts above -->
                 </div>
             </div>
 
