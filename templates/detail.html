@@ -82,483 +82,373 @@
                 </div>
             </div>
 
-            <!-- Market Assessment -->
+            <!-- 6Ts Analysis -->
+            <!-- Team -->
             <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
-                <h2 class="text-xl font-semibold text-white mb-4">Market Assessment</h2>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <!-- Left Column -->
-                    <div class="space-y-4">
-                        <!-- Team -->
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Team</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis.team.score is not none and analysis.team.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis.team.score is not none and analysis.team.score == 3 else
-                                       'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.team.score|default('N/A') }}/5
-                                </span>
-                            </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.team.justification }}</p>
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-semibold text-white">Team</h2>
+                    <span class="px-4 py-2 rounded-full text-lg font-medium
+                        {{ 'bg-green-100 text-green-800' if analysis.team.score is not none and analysis.team.score >= 4 else
+                           'bg-yellow-100 text-yellow-800' if analysis.team.score is not none and analysis.team.score == 3 else
+                           'bg-gray-100 text-gray-800' }}">
+                        {{ analysis.team.score|default('N/A') }}/5
+                    </span>
+                </div>
+                <p class="text-gray-300 text-base leading-relaxed mb-6">{{ analysis.team.justification }}</p>
 
-                            <!-- Company Assessment -->
-                            {% if analysis.team.company_assessment %}
-                            <div class="mt-4">
-                                <h4 class="text-blue-400 text-sm font-medium mb-2">Company Assessment</h4>
-                                <div class="space-y-2 text-xs">
-                                    <div><span class="text-gray-400">Business Model:</span> <span class="text-gray-300">{{ analysis.team.company_assessment.business_model_strength }}</span></div>
-                                    <div><span class="text-gray-400">Market Position:</span> <span class="text-gray-300">{{ analysis.team.company_assessment.market_positioning }}</span></div>
-                                </div>
-                            </div>
-                            {% endif %}
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- Company Assessment -->
+                    {% if analysis.team.company_assessment %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-blue-400 text-lg font-medium mb-3">Company Assessment</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">Business Model:</span> <span class="text-gray-300">{{ analysis.team.company_assessment.business_model_strength }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Market Position:</span> <span class="text-gray-300">{{ analysis.team.company_assessment.market_positioning }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Execution:</span> <span class="text-gray-300">{{ analysis.team.company_assessment.execution_capability }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Vision:</span> <span class="text-gray-300">{{ analysis.team.company_assessment.strategic_vision }}</span></div>
+                        </div>
+                    </div>
+                    {% endif %}
 
-                            <!-- Founder Deep Dive -->
-                            {% if analysis.team.founder_deep_dive %}
-                            <div class="mt-4">
-                                <h4 class="text-green-400 text-sm font-medium mb-2">Founder Deep Dive</h4>
-                                {% for founder in analysis.team.founder_deep_dive %}
-                                <div class="mb-3 p-2 bg-white/5 rounded border-l-2 border-green-400">
-                                    <div class="text-xs font-medium text-green-400">{{ founder.name }} - {{ founder.role }}</div>
-                                    <div class="text-xs text-gray-300 mt-1">{{ founder.background }}</div>
-                                    {% if founder.linkedin %}
-                                    <a href="{{ founder.linkedin }}" class="text-xs text-blue-400 hover:text-blue-300">LinkedIn Profile</a>
-                                    {% endif %}
-                                </div>
-                                {% endfor %}
-                            </div>
-                            {% endif %}
-
-                            <!-- Category Comparison -->
-                            {% if analysis.team.category_comparison %}
-                            <div class="mt-4">
-                                <h4 class="text-purple-400 text-sm font-medium mb-2">Competitive Analysis</h4>
-                                <p class="text-xs text-gray-300 mb-2">{{ analysis.team.category_comparison.competitive_landscape }}</p>
-                                {% if analysis.team.category_comparison.primary_competitors %}
-                                <div class="space-y-1">
-                                    {% for competitor in analysis.team.category_comparison.primary_competitors %}
-                                    <div class="text-xs">
-                                        <span class="text-purple-400">{{ competitor.name }}:</span>
-                                        <span class="text-gray-300">{{ competitor.comparison }}</span>
-                                    </div>
-                                    {% endfor %}
-                                </div>
+                    <!-- Founder Deep Dive -->
+                    {% if analysis.team.founder_deep_dive %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-green-400 text-lg font-medium mb-3">Founder Deep Dive</h3>
+                        <div class="space-y-3">
+                            {% for founder in analysis.team.founder_deep_dive %}
+                            <div class="p-3 bg-white/5 rounded border-l-2 border-green-400">
+                                <div class="text-sm font-medium text-green-400">{{ founder.name }} - {{ founder.role }}</div>
+                                <div class="text-sm text-gray-300 mt-1">{{ founder.background }}</div>
+                                <div class="text-xs text-gray-400 mt-1">{{ founder.domain_expertise }}</div>
+                                {% if founder.linkedin %}
+                                <a href="{{ founder.linkedin }}" class="text-xs text-blue-400 hover:text-blue-300">LinkedIn Profile</a>
                                 {% endif %}
                             </div>
-                            {% endif %}
-
-                            {% if analysis.team.red_flags %}
-                            <div class="mt-3">
-                                <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
-                                <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis.team.red_flags %}
-                                    <li>• {{ flag }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                            {% endif %}
-                        </div>
-
-                        <!-- TAM (Total Addressable Market) -->
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">TAM (Total Addressable Market)</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis.tam.score is not none and analysis.tam.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis.tam.score is not none and analysis.tam.score == 3 else
-                                       'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.tam.score|default('N/A') }}/5
-                                </span>
-                            </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.tam.justification }}</p>
-
-                            <!-- Market Analysis -->
-                            {% if analysis.tam.market_analysis %}
-                            <div class="mt-3">
-                                <h4 class="text-blue-400 text-xs font-medium mb-1">Market Analysis:</h4>
-                                <div class="text-xs text-gray-300 space-y-1">
-                                    <div><span class="text-gray-400">TAM:</span> {{ analysis.tam.market_analysis.total_addressable_market }}</div>
-                                    <div><span class="text-gray-400">SAM:</span> {{ analysis.tam.market_analysis.serviceable_addressable_market }}</div>
-                                </div>
-                            </div>
-                            {% endif %}
-
-                            {% if analysis.tam.red_flags %}
-                            <div class="mt-3">
-                                <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
-                                <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis.tam.red_flags %}
-                                    <li>• {{ flag }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                            {% endif %}
-                        </div>
-
-                        <!-- Technology -->
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Technology</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis.technology.score is not none and analysis.technology.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis.technology.score is not none and analysis.technology.score == 3 else
-                                       'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.technology.score|default('N/A') }}/5
-                                </span>
-                            </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.technology.justification }}</p>
-
-                            <!-- Technical Assessment -->
-                            {% if analysis.technology.technical_assessment %}
-                            <div class="mt-3">
-                                <h4 class="text-blue-400 text-xs font-medium mb-1">Technical Assessment:</h4>
-                                <div class="text-xs text-gray-300 space-y-1">
-                                    <div><span class="text-gray-400">Core Tech:</span> {{ analysis.technology.technical_assessment.core_technology }}</div>
-                                    <div><span class="text-gray-400">Defensibility:</span> {{ analysis.technology.technical_assessment.defensibility }}</div>
-                                </div>
-                            </div>
-                            {% endif %}
-
-                            {% if analysis.technology.red_flags %}
-                            <div class="mt-3">
-                                <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
-                                <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis.technology.red_flags %}
-                                    <li>• {{ flag }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                            {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
+                    {% endif %}
 
-                    <!-- Right Column -->
-                    <div class="space-y-4">
-                        <!-- Traction -->
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Traction</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis.traction.score is not none and analysis.traction.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis.traction.score is not none and analysis.traction.score == 3 else
-                                       'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.traction.score|default('N/A') }}/5
-                                </span>
+                    <!-- Competitive Analysis -->
+                    {% if analysis.team.category_comparison %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-purple-400 text-lg font-medium mb-3">Competitive Analysis</h3>
+                        <p class="text-sm text-gray-300 mb-3">{{ analysis.team.category_comparison.competitive_landscape }}</p>
+                        {% if analysis.team.category_comparison.primary_competitors %}
+                        <div class="space-y-2">
+                            {% for competitor in analysis.team.category_comparison.primary_competitors %}
+                            <div class="text-sm">
+                                <span class="text-purple-400 font-medium">{{ competitor.name }}:</span>
+                                <span class="text-gray-300">{{ competitor.comparison }}</span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.traction.justification }}</p>
-
-                            <!-- Growth Metrics -->
-                            {% if analysis.traction.growth_metrics %}
-                            <div class="mt-3">
-                                <h4 class="text-blue-400 text-xs font-medium mb-1">Growth Metrics:</h4>
-                                <div class="text-xs text-gray-300 space-y-1">
-                                    <div><span class="text-gray-400">Revenue:</span> {{ analysis.traction.growth_metrics.revenue_growth }}</div>
-                                    <div><span class="text-gray-400">Customers:</span> {{ analysis.traction.growth_metrics.customer_metrics }}</div>
-                                </div>
-                            </div>
-                            {% endif %}
-
-                            {% if analysis.traction.successes_and_areas_of_investigation %}
-                            <div class="mt-3">
-                                <h4 class="text-blue-400 text-xs font-medium mb-2">Successes & Areas of Investigation:</h4>
-                                {% for item in analysis.traction.successes_and_areas_of_investigation %}
-                                <div class="mb-2 p-2 bg-white/5 rounded border-l-2 {{ 'border-green-400' if item.type == 'Success' else 'border-yellow-400' }}">
-                                    <div class="text-xs font-medium {{ 'text-green-400' if item.type == 'Success' else 'text-yellow-400' }}">{{ item.type }}</div>
-                                    <div class="text-xs text-gray-300 mt-1">{{ item.description }}</div>
-                                </div>
-                                {% endfor %}
-                            </div>
-                            {% endif %}
-                            {% if analysis.traction.red_flags %}
-                            <div class="mt-3">
-                                <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
-                                <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis.traction.red_flags %}
-                                    <li>• {{ flag }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                            {% endif %}
+                            {% endfor %}
                         </div>
-
-                        <!-- Timing -->
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Timing</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis.timing.score is not none and analysis.timing.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis.timing.score is not none and analysis.timing.score == 3 else
-                                       'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.timing.score|default('N/A') }}/5
-                                </span>
-                            </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.timing.justification }}</p>
-
-                            <!-- Market Timing -->
-                            {% if analysis.timing.market_timing %}
-                            <div class="mt-3">
-                                <h4 class="text-blue-400 text-xs font-medium mb-1">Market Timing:</h4>
-                                <div class="text-xs text-gray-300 space-y-1">
-                                    <div><span class="text-gray-400">Catalysts:</span> {{ analysis.timing.market_timing.catalysts }}</div>
-                                    <div><span class="text-gray-400">Tailwinds:</span> {{ analysis.timing.market_timing.tailwinds }}</div>
-                                </div>
-                            </div>
-                            {% endif %}
-
-                            {% if analysis.timing.red_flags %}
-                            <div class="mt-3">
-                                <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
-                                <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis.timing.red_flags %}
-                                    <li>• {{ flag }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                            {% endif %}
-                        </div>
-
-                        <!-- Terms -->
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <h3 class="text-lg font-medium text-white">Terms</h3>
-                                <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis.terms.score is not none and analysis.terms.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis.terms.score is not none and analysis.terms.score == 3 else
-                                       'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis.terms.score|default('N/A') }}/5
-                                </span>
-                            </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.terms.justification }}</p>
-
-                            <!-- Investment Details -->
-                            {% if analysis.terms.investment_details %}
-                            <div class="mt-3">
-                                <h4 class="text-blue-400 text-xs font-medium mb-1">Investment Details:</h4>
-                                <div class="text-xs text-gray-300 space-y-1">
-                                    <div><span class="text-gray-400">Stage:</span> {{ analysis.terms.investment_details.round_stage }}</div>
-                                    <div><span class="text-gray-400">Amount:</span> {{ analysis.terms.investment_details.raise_amount }}</div>
-                                </div>
-                            </div>
-                            {% endif %}
-
-                            {% if analysis.terms.red_flags %}
-                            <div class="mt-3">
-                                <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
-                                <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis.terms.red_flags %}
-                                    <li>• {{ flag }}</li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                            {% endif %}
-                        </div>
+                        {% endif %}
                     </div>
+                    {% endif %}
                 </div>
+
+                {% if analysis.team.red_flags %}
+                <div class="mt-6 p-4 bg-red-900/20 rounded-lg border border-red-700">
+                    <h4 class="text-red-400 text-sm font-medium mb-2">Red Flags:</h4>
+                    <ul class="text-red-300 text-sm space-y-1">
+                        {% for flag in analysis.team.red_flags %}
+                        <li>• {{ flag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
             </div>
 
-            <!-- Company Assessment -->
+            <!-- TAM (Total Addressable Market) -->
             <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
-                <h2 class="text-xl font-semibold text-white mb-4">Company Assessment</h2>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <!-- This section is now covered by the 6Ts above -->
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-semibold text-white">TAM (Total Addressable Market)</h2>
+                    <span class="px-4 py-2 rounded-full text-lg font-medium
+                        {{ 'bg-green-100 text-green-800' if analysis.tam.score is not none and analysis.tam.score >= 4 else
+                           'bg-yellow-100 text-yellow-800' if analysis.tam.score is not none and analysis.tam.score == 3 else
+                           'bg-gray-100 text-gray-800' }}">
+                        {{ analysis.tam.score|default('N/A') }}/5
+                    </span>
                 </div>
-            </div>
+                <p class="text-gray-300 text-base leading-relaxed mb-6">{{ analysis.tam.justification }}</p>
 
-
-            <!-- Founder Deep Dive -->
-            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
-                <h2 class="text-xl font-semibold text-white mb-6">Founder Deep Dive</h2>
-                
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <!-- Founder Profile -->
-                    <div class="bg-gray-50 rounded-lg p-6">
-                        <div class="flex items-center gap-3 mb-4">
-                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                            </svg>
-                            <h3 class="text-lg font-medium text-gray-900">{{ analysis.founder_profile.name }}</h3>
+                    <!-- Market Analysis -->
+                    {% if analysis.tam.market_analysis %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-blue-400 text-lg font-medium mb-3">Market Analysis</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">TAM:</span> <span class="text-gray-300">{{ analysis.tam.market_analysis.total_addressable_market }}</span></div>
+                            <div><span class="text-gray-400 font-medium">SAM:</span> <span class="text-gray-300">{{ analysis.tam.market_analysis.serviceable_addressable_market }}</span></div>
+                            <div><span class="text-gray-400 font-medium">SOM:</span> <span class="text-gray-300">{{ analysis.tam.market_analysis.serviceable_obtainable_market }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Growth Rate:</span> <span class="text-gray-300">{{ analysis.tam.market_analysis.market_growth_rate }}</span></div>
                         </div>
-                        <ul class="space-y-3 text-gray-600">
-                            {% for highlight in analysis.founder_profile.highlights %}
-                            <li class="flex items-start gap-2">
-                                <span class="mt-1.5 w-1.5 h-1.5 bg-blue-500 rounded-full flex-shrink-0"></span>
-                                <span>{{ highlight }}</span>
-                            </li>
-                            {% endfor %}
-                        </ul>
                     </div>
+                    {% endif %}
 
-                    <!-- Performance Impact Assessment -->
-                    <div class="bg-gray-50 rounded-lg p-6">
-                        <div class="flex items-center gap-3 mb-4">
-                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                            </svg>
-                            <h3 class="text-lg font-medium text-gray-900">Performance Impact Assessment</h3>
+                    <!-- Customer Analysis -->
+                    {% if analysis.tam.customer_analysis %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-green-400 text-lg font-medium mb-3">Customer Analysis</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">Buyer Personas:</span> <span class="text-gray-300">{{ analysis.tam.customer_analysis.buyer_personas }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Willingness to Pay:</span> <span class="text-gray-300">{{ analysis.tam.customer_analysis.willingness_to_pay }}</span></div>
+                            <div><span class="text-gray-400 font-medium">CAC:</span> <span class="text-gray-300">{{ analysis.tam.customer_analysis.customer_acquisition_cost }}</span></div>
+                            <div><span class="text-gray-400 font-medium">LTV:</span> <span class="text-gray-300">{{ analysis.tam.customer_analysis.customer_lifetime_value }}</span></div>
                         </div>
-                        <ul class="space-y-3 text-gray-600">
-                            {% for impact in analysis.founder_impact_assessment %}
-                            <li class="flex items-start gap-2">
-                                <span class="mt-1.5 w-1.5 h-1.5 bg-green-500 rounded-full flex-shrink-0"></span>
-                                <span>{{ impact }}</span>
-                            </li>
-                            {% endfor %}
-                        </ul>
                     </div>
+                    {% endif %}
+                </div>
+
+                {% if analysis.tam.red_flags %}
+                <div class="mt-6 p-4 bg-red-900/20 rounded-lg border border-red-700">
+                    <h4 class="text-red-400 text-sm font-medium mb-2">Red Flags:</h4>
+                    <ul class="text-red-300 text-sm space-y-1">
+                        {% for flag in analysis.tam.red_flags %}
+                        <li>• {{ flag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Technology -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-semibold text-white">Technology</h2>
+                    <span class="px-4 py-2 rounded-full text-lg font-medium
+                        {{ 'bg-green-100 text-green-800' if analysis.technology.score is not none and analysis.technology.score >= 4 else
+                           'bg-yellow-100 text-yellow-800' if analysis.technology.score is not none and analysis.technology.score == 3 else
+                           'bg-gray-100 text-gray-800' }}">
+                        {{ analysis.technology.score|default('N/A') }}/5
+                    </span>
+                </div>
+                <p class="text-gray-300 text-base leading-relaxed mb-6">{{ analysis.technology.justification }}</p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Technical Assessment -->
+                    {% if analysis.technology.technical_assessment %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-blue-400 text-lg font-medium mb-3">Technical Assessment</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">Core Technology:</span> <span class="text-gray-300">{{ analysis.technology.technical_assessment.core_technology }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Defensibility:</span> <span class="text-gray-300">{{ analysis.technology.technical_assessment.defensibility }}</span></div>
+                            <div><span class="text-gray-400 font-medium">IP Strategy:</span> <span class="text-gray-300">{{ analysis.technology.technical_assessment.intellectual_property }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Scalability:</span> <span class="text-gray-300">{{ analysis.technology.technical_assessment.scalability }}</span></div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- Competitive Advantage -->
+                    {% if analysis.technology.competitive_advantage %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-green-400 text-lg font-medium mb-3">Competitive Advantage</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">Unique Algorithms:</span> <span class="text-gray-300">{{ analysis.technology.competitive_advantage.unique_algorithms }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Data Advantages:</span> <span class="text-gray-300">{{ analysis.technology.competitive_advantage.data_advantages }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Technical Barriers:</span> <span class="text-gray-300">{{ analysis.technology.competitive_advantage.technical_barriers }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Development Velocity:</span> <span class="text-gray-300">{{ analysis.technology.competitive_advantage.development_velocity }}</span></div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% if analysis.technology.red_flags %}
+                <div class="mt-6 p-4 bg-red-900/20 rounded-lg border border-red-700">
+                    <h4 class="text-red-400 text-sm font-medium mb-2">Red Flags:</h4>
+                    <ul class="text-red-300 text-sm space-y-1">
+                        {% for flag in analysis.technology.red_flags %}
+                        <li>• {{ flag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Traction -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-semibold text-white">Traction</h2>
+                    <span class="px-4 py-2 rounded-full text-lg font-medium
+                        {{ 'bg-green-100 text-green-800' if analysis.traction.score is not none and analysis.traction.score >= 4 else
+                           'bg-yellow-100 text-yellow-800' if analysis.traction.score is not none and analysis.traction.score == 3 else
+                           'bg-gray-100 text-gray-800' }}">
+                        {{ analysis.traction.score|default('N/A') }}/5
+                    </span>
+                </div>
+                <p class="text-gray-300 text-base leading-relaxed mb-6">{{ analysis.traction.justification }}</p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <!-- Growth Metrics -->
+                    {% if analysis.traction.growth_metrics %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-blue-400 text-lg font-medium mb-3">Growth Metrics</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">Revenue Growth:</span> <span class="text-gray-300">{{ analysis.traction.growth_metrics.revenue_growth }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Customer Metrics:</span> <span class="text-gray-300">{{ analysis.traction.growth_metrics.customer_metrics }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Retention:</span> <span class="text-gray-300">{{ analysis.traction.growth_metrics.retention_analysis }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Unit Economics:</span> <span class="text-gray-300">{{ analysis.traction.growth_metrics.unit_economics }}</span></div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- Market Validation -->
+                    {% if analysis.traction.market_validation %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-green-400 text-lg font-medium mb-3">Market Validation</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">Customer Feedback:</span> <span class="text-gray-300">{{ analysis.traction.market_validation.customer_feedback }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Product-Market Fit:</span> <span class="text-gray-300">{{ analysis.traction.market_validation.product_market_fit }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Notable Customers:</span> <span class="text-gray-300">{{ analysis.traction.market_validation.notable_customers }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Partnerships:</span> <span class="text-gray-300">{{ analysis.traction.market_validation.partnerships }}</span></div>
+                        </div>
+                    </div>
+                    {% endif %}
                 </div>
 
                 <!-- Successes & Areas of Investigation -->
-                <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8 mb-6">
-                    <h2 class="text-xl font-semibold text-white mb-6">Successes & Areas of Investigation</h2>
-                    
+                {% if analysis.traction.successes_and_areas_of_investigation %}
+                <div class="mb-6">
+                    <h3 class="text-lg font-medium text-white mb-4">Successes & Areas of Investigation</h3>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {% for item in analysis.successes_and_areas_of_investigation %}
-                        <div class="bg-white/5 backdrop-blur-md rounded-lg p-4 border border-gray-700">
-                            <div class="flex justify-between items-center mb-2">
-                                <div class="flex items-center gap-2">
-                                    {% if item.type == 'Success' %}
-                                    <span class="text-sv-green">●</span>
-                                    <h3 class="text-lg font-medium text-white">Success</h3>
-                                    {% else %}
-                                    <span class="text-yellow-500">●</span>
-                                    <h3 class="text-lg font-medium text-white">Area of Investigation</h3>
-                                    {% endif %}
-                                </div>
+                        {% for item in analysis.traction.successes_and_areas_of_investigation %}
+                        <div class="bg-white/5 rounded-lg p-4 border border-gray-700 border-l-4 {{ 'border-l-green-400' if item.type == 'Success' else 'border-l-yellow-400' }}">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="{{ 'text-green-400' if item.type == 'Success' else 'text-yellow-400' }} font-medium">{{ item.type }}</span>
                             </div>
-                            <div class="space-y-1.5">
-                                <p class="text-white text-sm leading-relaxed">{{ item.description }}</p>
-                                <div class="text-xs">
-                                    <span class="text-gray-300">Context:</span>
-                                    <span class="text-white">{{ item.context }}</span>
-                                </div>
-                                <div class="text-xs">
-                                    <span class="text-gray-300">Outcome:</span>
-                                    <span class="text-white">{{ item.outcome }}</span>
-                                </div>
+                            <div class="space-y-2 text-sm">
+                                <p class="text-gray-300">{{ item.description }}</p>
+                                <div><span class="text-gray-400">Context:</span> <span class="text-gray-300">{{ item.context }}</span></div>
+                                <div><span class="text-gray-400">Outcome:</span> <span class="text-gray-300">{{ item.outcome }}</span></div>
                             </div>
                         </div>
                         {% endfor %}
                     </div>
                 </div>
+                {% endif %}
+
+                {% if analysis.traction.red_flags %}
+                <div class="p-4 bg-red-900/20 rounded-lg border border-red-700">
+                    <h4 class="text-red-400 text-sm font-medium mb-2">Red Flags:</h4>
+                    <ul class="text-red-300 text-sm space-y-1">
+                        {% for flag in analysis.traction.red_flags %}
+                        <li>• {{ flag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
             </div>
 
-            <!-- SV Thesis Fit -->
+            <!-- Timing -->
             <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
-                <h2 class="text-xl font-semibold text-white mb-4">SV Thesis Fit</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {% for category, data in [
-                        ('Sector Fit', analysis.sv_thesis_fit.sector_fit),
-                        ('Employer Ecosystem Leverage', analysis.sv_thesis_fit.employer_ecosystem_leverage),
-                        ('GTM Support Potential', analysis.sv_thesis_fit.gtm_support_potential),
-                        ('Strategic Partner Amplification', analysis.sv_thesis_fit.strategic_partner_amplification),
-                        ('Acceleration Readiness', analysis.sv_thesis_fit.acceleration_readiness)
-                    ] %}
-                    <div class="bg-gray-50 rounded-lg p-4">
-                        <div class="flex justify-between items-center mb-3">
-                            <h3 class="font-medium text-gray-900">{{ category }}</h3>
-                            <span class="px-3 py-1 rounded-full text-sm font-medium 
-                                {{ 'bg-green-100 text-green-800' if data.score is not none and data.score >= 4 else 
-                                   'bg-yellow-100 text-yellow-800' if data.score is not none and data.score == 3 else 
-                                   'bg-gray-100 text-gray-800' }}">
-                                {{ data.score|default('N/A') }}/5
-                            </span>
-                        </div>
-                        <p class="text-gray-600 text-sm">{{ data.justification }}</p>
-                    </div>
-                    {% endfor %}
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-semibold text-white">Timing</h2>
+                    <span class="px-4 py-2 rounded-full text-lg font-medium
+                        {{ 'bg-green-100 text-green-800' if analysis.timing.score is not none and analysis.timing.score >= 4 else
+                           'bg-yellow-100 text-yellow-800' if analysis.timing.score is not none and analysis.timing.score == 3 else
+                           'bg-gray-100 text-gray-800' }}">
+                        {{ analysis.timing.score|default('N/A') }}/5
+                    </span>
                 </div>
-            </div>
+                <p class="text-gray-300 text-base leading-relaxed mb-6">{{ analysis.timing.justification }}</p>
 
-            <!-- Red Flags Section -->
-            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
-                <h2 class="text-xl font-semibold text-white mb-4">Red Flags</h2>
-                <div class="space-y-4">
-                    {% for flag in analysis.red_flags %}
-                    <div class="bg-red-50 rounded-lg p-4">
-                        <p class="text-red-800">{{ flag }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-
-            <!-- Category Comparison -->
-            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8 mb-6">
-                <h2 class="text-xl font-semibold text-white mb-6">Category Comparison</h2>
-                
-                <!-- Overview -->
-                <p class="text-gray-400 leading-relaxed mb-8">{{ analysis.category_comparison }}</p>
-                
-                <!-- Primary Competitors -->
-                <h3 class="text-lg font-medium text-white mb-4">Primary Competitors</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                    {% for competitor in analysis.category_comparison_expanded.primary_competitors %}
-                    <div class="bg-white/10 backdrop-blur-md rounded-xl border border-gray-600 p-6 hover:bg-white/15 transition-all duration-200">
-                        <div class="flex items-start justify-between mb-3">
-                            <h4 class="text-white text-lg font-semibold">{{ competitor.name }}</h4>
-                            <div class="bg-white/5 rounded-full px-3 py-1 text-xs text-gray-300 border border-gray-600">
-                                Competitor
-                            </div>
-                        </div>
-                        <p class="text-gray-300 text-sm mb-4 leading-relaxed">{{ competitor.description }}</p>
-                        <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
-                            <p class="text-gray-400 text-sm italic leading-relaxed">{{ competitor.comparison }}</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Market Timing -->
+                    {% if analysis.timing.market_timing %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-blue-400 text-lg font-medium mb-3">Market Timing</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">Market Readiness:</span> <span class="text-gray-300">{{ analysis.timing.market_timing.market_readiness }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Catalysts:</span> <span class="text-gray-300">{{ analysis.timing.market_timing.catalysts }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Tailwinds:</span> <span class="text-gray-300">{{ analysis.timing.market_timing.tailwinds }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Headwinds:</span> <span class="text-gray-300">{{ analysis.timing.market_timing.headwinds }}</span></div>
                         </div>
                     </div>
-                    {% endfor %}
-                </div>
+                    {% endif %}
 
-                <!-- Competitive Matrix Section -->
-                <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
-                    <h2 class="text-xl font-semibold text-white mb-4">Competitive Matrix</h2>
-                    
-                    {% if analysis.category_comparison_expanded and analysis.category_comparison_expanded.competitive_matrix and analysis.category_comparison_expanded.competitive_matrix.columns and analysis.category_comparison_expanded.competitive_matrix.rows %}
-                        <div class="overflow-x-auto">
-                            <table class="min-w-full divide-y divide-gray-700">
-                                <thead>
-                                    <tr>
-                                        <th class="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Company</th>
-                                        {% for column in analysis.category_comparison_expanded.competitive_matrix.columns %}
-                                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">{{ column }}</th>
-                                        {% endfor %}
-                                    </tr>
-                                </thead>
-                                <tbody class="divide-y divide-gray-700">
-                                    {% for company, values in analysis.category_comparison_expanded.competitive_matrix.rows.items() %}
-                                        <tr>
-                                            <td class="px-4 py-3 whitespace-nowrap text-sm font-medium text-white">{{ company }}</td>
-                                            {% for value in values %}
-                                                <td class="px-4 py-3 whitespace-nowrap text-sm text-gray-300">
-                                                    {% if value == true %}
-                                                        <span class="text-green-400">✓</span>
-                                                    {% elif value == false %}
-                                                        <span class="text-red-400">✗</span>
-                                                    {% elif value == "partial" %}
-                                                        <span class="text-yellow-400">◐</span>
-                                                    {% else %}
-                                                        {{ value }}
-                                                    {% endif %}
-                                                </td>
-                                            {% endfor %}
-                                        </tr>
-                                    {% endfor %}
-                                </tbody>
-                            </table>
+                    <!-- Competitive Timing -->
+                    {% if analysis.timing.competitive_timing %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-green-400 text-lg font-medium mb-3">Competitive Timing</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">First-Mover Advantage:</span> <span class="text-gray-300">{{ analysis.timing.competitive_timing.first_mover_advantage }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Competitive Response:</span> <span class="text-gray-300">{{ analysis.timing.competitive_timing.competitive_response }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Market Education:</span> <span class="text-gray-300">{{ analysis.timing.competitive_timing.market_education }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Technology Maturity:</span> <span class="text-gray-300">{{ analysis.timing.competitive_timing.technology_maturity }}</span></div>
                         </div>
-                        
-                        {% if analysis.category_comparison_expanded.conclusion %}
-                            <div class="mt-4 p-4 bg-white/5 rounded-lg">
-                                <h3 class="text-lg font-medium text-white mb-2">Conclusion</h3>
-                                <p class="text-gray-300">{{ analysis.category_comparison_expanded.conclusion }}</p>
-                            </div>
-                        {% endif %}
-                    {% else %}
-                        <p class="text-gray-400">No competitive matrix data available.</p>
+                    </div>
                     {% endif %}
                 </div>
+
+                {% if analysis.timing.red_flags %}
+                <div class="mt-6 p-4 bg-red-900/20 rounded-lg border border-red-700">
+                    <h4 class="text-red-400 text-sm font-medium mb-2">Red Flags:</h4>
+                    <ul class="text-red-300 text-sm space-y-1">
+                        {% for flag in analysis.timing.red_flags %}
+                        <li>• {{ flag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
             </div>
 
-            <!-- Conclusion -->
+            <!-- Terms -->
+            <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-semibold text-white">Terms</h2>
+                    <span class="px-4 py-2 rounded-full text-lg font-medium
+                        {{ 'bg-green-100 text-green-800' if analysis.terms.score is not none and analysis.terms.score >= 4 else
+                           'bg-yellow-100 text-yellow-800' if analysis.terms.score is not none and analysis.terms.score == 3 else
+                           'bg-gray-100 text-gray-800' }}">
+                        {{ analysis.terms.score|default('N/A') }}/5
+                    </span>
+                </div>
+                <p class="text-gray-300 text-base leading-relaxed mb-6">{{ analysis.terms.justification }}</p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Investment Details -->
+                    {% if analysis.terms.investment_details %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-blue-400 text-lg font-medium mb-3">Investment Details</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">Round Stage:</span> <span class="text-gray-300">{{ analysis.terms.investment_details.round_stage }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Raise Amount:</span> <span class="text-gray-300">{{ analysis.terms.investment_details.raise_amount }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Pre-Money Valuation:</span> <span class="text-gray-300">{{ analysis.terms.investment_details.pre_money_valuation }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Post-Money Valuation:</span> <span class="text-gray-300">{{ analysis.terms.investment_details.post_money_valuation }}</span></div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- Terms Analysis -->
+                    {% if analysis.terms.terms_analysis %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-green-400 text-lg font-medium mb-3">Terms Analysis</h3>
+                        <div class="space-y-3 text-sm">
+                            <div><span class="text-gray-400 font-medium">SV Alignment:</span> <span class="text-gray-300">{{ analysis.terms.terms_analysis.sv_alignment }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Ownership Potential:</span> <span class="text-gray-300">{{ analysis.terms.terms_analysis.ownership_potential }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Liquidation Preferences:</span> <span class="text-gray-300">{{ analysis.terms.terms_analysis.liquidation_preferences }}</span></div>
+                            <div><span class="text-gray-400 font-medium">Valuation Justification:</span> <span class="text-gray-300">{{ analysis.terms.terms_analysis.valuation_justification }}</span></div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% if analysis.terms.red_flags %}
+                <div class="mt-6 p-4 bg-red-900/20 rounded-lg border border-red-700">
+                    <h4 class="text-red-400 text-sm font-medium mb-2">Red Flags:</h4>
+                    <ul class="text-red-300 text-sm space-y-1">
+                        {% for flag in analysis.terms.red_flags %}
+                        <li>• {{ flag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+
+
+
+            <!-- Final Recommendation -->
             <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-8">
                 <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-8">
                     <h2 class="text-2xl font-bold text-white mb-4 md:mb-0">Final Recommendation</h2>
@@ -576,9 +466,39 @@
                     </div>
                 </div>
 
-                <div class="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-gray-700">
+                <div class="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-gray-700 mb-6">
                     <p class="text-gray-300 leading-relaxed text-lg">{{ analysis.final_recommendation.rationale }}</p>
                 </div>
+
+                {% if analysis.final_recommendation.key_factors %}
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-green-400 text-lg font-medium mb-3">Key Factors</h3>
+                        <ul class="space-y-2 text-sm">
+                            {% for factor in analysis.final_recommendation.key_factors %}
+                            <li class="flex items-start gap-2">
+                                <span class="text-green-400 mt-1">•</span>
+                                <span class="text-gray-300">{{ factor }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    {% if analysis.final_recommendation.next_steps %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-blue-400 text-lg font-medium mb-3">Next Steps</h3>
+                        <ul class="space-y-2 text-sm">
+                            {% for step in analysis.final_recommendation.next_steps %}
+                            <li class="flex items-start gap-2">
+                                <span class="text-blue-400 mt-1">•</span>
+                                <span class="text-gray-300">{{ step }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
             </div>
         </div>
     </main>
