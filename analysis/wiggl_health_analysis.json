@@ -1,0 +1,134 @@
+{
+  "company_name": "Wiggl Health",
+  "website": "https://www.wiggl.co",
+  "year_founded": "2021",
+  "description": "Wiggl Health's AI-powered prevention platform enables 50M+ hybrid and remote employees worldwide in the workplace wellness industry to avoid costly MSK injuries, reduce workers' comp claims by 60%, and improve productivity by 25% by transforming once-a-year ergonomic assessments into 8,760 daily micro-checks using passive sensing from existing devices.",
+  "problem_statement": "Workplace MSK injuries cost employers $45-54B annually, but current prevention relies on useless once-yearly ergonomic checks. By the time employees feel pain, costly damage is done. With 50M+ remote workers in unmonitored home offices, companies are blind to brewing injuries until expensive claims hit.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/16r83eP3JIbVud_ijbFXc6mNnLxUTAKviAXsuE-xZm9g/edit?usp=sharing",
+  "demo_link": "https://www.loom.com/share/a2d7c8688356424abe40e36fc24c4225?sid=a65b1151-5cd1-41ab-a5cf-1e451baa9041",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: HR Directors and Benefits Leaders at mid-to-large companies (1,000+ employees) with significant hybrid/remote workforces.\nMarket size: 100+B TAM, 78B SAM, 32B SOM"
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: Traditional ergonomic companies (Humanscale, ErgoPlus) rely on annual assessments and reactive injury management\u2014missing 99.97% of days when injuries actually develop. Workplace wellness platforms (Virgin Pulse, Wellhub) offer generic solutions with self-reporting bias that can't predict or prevent MSK injuries. All competitors share the same fatal flaw: they're reactive solutions built for centralized offices, while Wiggl Health is the only predictive platform designed for distributed workforces using passive AI monitoring.\nIn-market since: We are just going to market now."
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: We have 3 pilots with 3 companies looking to onboard within the next 3-5 months\nCustomers: We have over 400 companies in our pipeline.\nPricing: We have three customers paying $8 per month (PEMP) on an annual subscription basis."
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: I saw it through a post on LinkedIn.\nReferral: nan"
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Mason Orme CEO,https://www.linkedin.com/in/mason-orme/\nTech team: Vadim Schepotev is our CTO who has built out Wiggl."
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "Educating HR buyers on proactive vs. reactive MSK care, securing budget prioritization within crowded benefits stacks, navigating enterprise sales cycles, and maintaining strong data compliance as we scale. We\u2019re focused on clear ROI, strong broker channels, and compliance positioning to overcome these.",
+    "We\u2019re seeking deeper access to broker distribution networks, payer partnerships, and benefits platforms to scale faster. We would benefit from mentorship around navigating enterprise procurement cycles, optimizing MSK claims data storytelling for CFOs, and accelerating our channel partner strategy. Additional connections to self-insured employers and HR tech integrations would also be highly valuable."
+  ],
+  "founder_profile": {
+    "name": "[Mason Orme CEO](https://www.linkedin.com/in/mason-orme/)",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "Early customer conversations revealed that HR buyers were overwhelmed by complex, hardware-based MSK solutions and struggled with low engagement from existing vendors. This led us to pivot from building another digital therapy program to focusing on passive sensing, AI-driven micro-assessments, and prevention-first positioning \u2014 eliminating hardware friction while delivering continuous, actionable insights that fit naturally into hybrid and remote work."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "SemperVirens is an ideal fit for Wiggl Health. We aim to leverage the network\u2019s deep ties to HR tech, benefits platforms, brokers, and self-insured employers to accelerate customer acquisition, secure new pilot partners, and refine our enterprise sales motion. The mentorship, distribution channels, and expertise will help sharpen our compliance positioning and prepare for our next funding round."
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "Educating HR buyers on proactive vs. reactive MSK care, securing budget prioritization within crowded benefits stacks, navigating enterprise sales cycles, and maintaining strong data compliance as we scale. We\u2019re focused on clear ROI, strong broker channels, and compliance positioning to overcome these.",
+      "context": "Wiggl Health",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "We\u2019re seeking deeper access to broker distribution networks, payer partnerships, and benefits platforms to scale faster. We would benefit from mentorship around navigating enterprise procurement cycles, optimizing MSK claims data storytelling for CFOs, and accelerating our channel partner strategy. Additional connections to self-insured employers and HR tech integrations would also be highly valuable.",
+      "context": "Wiggl Health",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "Wiggl Health positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "Wiggl Health": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "Wiggl Health is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

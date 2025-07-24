@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# OpenAI API key (if stored in file)
+openai_key.txt
+api_key.txt
+
+# Analysis outputs (optional - you might want to include these)
+analysis/*.json
+outputs/
+
+# Data files (might contain sensitive info)
+data/*.csv

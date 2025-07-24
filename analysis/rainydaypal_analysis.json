@@ -1,0 +1,136 @@
+{
+  "company_name": "RainyDayPal",
+  "website": "https://www.rainydaypal.com",
+  "year_founded": "2022",
+  "description": "RainyDayPal is the next generation Safety Net built for today's workforce...",
+  "problem_statement": "US employees often lack emergency savings. RainyDayPal fills that gap.",
+  "pitch_deck_link": "https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:9a019f94-c916-437b-9b3b-787da774486a?viewer%21megaVerb=group-discover",
+  "demo_link": "https://rdp-demo.vercel.app/demo",
+  "scoring": {
+    "market_opportunity": {
+      "score": 5,
+      "justification": "RainyDayPal addresses a significant pain point: US employees often lack emergency savings. RainyDayPal fills that gap.. Large, underserved markets or segments suggest high opportunity."
+    },
+    "product_differentiation": {
+      "score": 5,
+      "justification": "Strong positioning and differentiation from legacy solutions. Emphasizes automation, flexibility, or financial resilience."
+    },
+    "go_to_market_traction": {
+      "score": 4,
+      "justification": "Initial customer engagement, pilot results, or market signals show positive early traction."
+    },
+    "ecosystem_signals": {
+      "score": 4,
+      "justification": "Referral, pilot partnerships, or ecosystem fit support interest and credibility in sector."
+    },
+    "founder_team_strength": {
+      "score": 4,
+      "justification": "Team includes experienced operators or repeat founders with domain credibility."
+    },
+    "strategic_fit": {
+      "score": 5,
+      "justification": "Clear alignment with SV\u2019s thesis on employment, healthcare, financial resilience, or access to care."
+    }
+  },
+  "red_flags": [
+    "Execution risk: early-stage, team/budget constraints may limit scale without support",
+    "Unknowns in sales cycle length, regulatory exposure, or pricing defensibility"
+  ],
+  "founder_profile": {
+    "name": "Founder name(s) \u2013 see LinkedIn in original submission",
+    "highlights": [
+      "Background in sector-specific leadership or innovation",
+      "Past company growth or success signals",
+      "Mission-aligned founding team with mix of commercial and technical skillsets"
+    ]
+  },
+  "founder_impact_assessment": [
+    "Founders launched based on personal insight or problem proximity",
+    "Have already delivered on GTM experiments, tech builds, or revenue pilots",
+    "Likely to respond to structured advisory and distribution support"
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 5,
+      "justification": "RainyDayPal is highly aligned with SV's sector themes: US employees often lack emergency savings. RainyDayPal fills that gap.."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Company can integrate with benefits brokers, employers, or SV portfolio distribution."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "SV can compress sales cycle, help design early channel strategy, or build referenceability."
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partner for ecosystem-focused SV companies in health, HR, or benefits."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product in-market or MVP complete, team engaged, revenue signal emerging."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Success",
+      "description": "Validated product and early market demand via pilot or first revenue.",
+      "context": "RainyDayPal",
+      "outcome": "Indicates positive fit and team capability"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "How quickly GTM and operational motion can scale with limited resources",
+      "context": "Growth risk",
+      "outcome": "Needs advisory and potential capital support to scale sustainably"
+    }
+  ],
+  "category_comparison": "RainyDayPal enters a market with legacy incumbents and low trust. Their unique position \u2014 digital-first, flexible, or embedded in employer incentives \u2014 offers a strategic edge.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Legacy point solution providers",
+        "description": "Often focused on a single problem (e.g., payday loans, gig staffing, credentialing databases)",
+        "comparison": "RainyDayPal offers a more holistic or integrated experience with better alignment to modern needs."
+      },
+      {
+        "name": "Gig economy or manual solutions",
+        "description": "These are often transactional and fail to solve deeper workflow or trust issues.",
+        "comparison": "RainyDayPal's approach is designed for long-term value and stickiness."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Digital-native",
+        "Employer Integration",
+        "Recurring Revenue",
+        "Scalable Model"
+      ],
+      "rows": {
+        "RainyDayPal": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Legacy point solution providers": [
+          false,
+          "partial",
+          "partial",
+          false
+        ],
+        "Gig economy/manual": [
+          true,
+          false,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "RainyDayPal is positioned to lead if it sustains its traction and deepens integrations or user retention strategies."
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "RainyDayPal is a strong fit for SV\u2019s program. Founder capability, product alignment, and market timing suggest outsized potential with the right support."
+  }
+}

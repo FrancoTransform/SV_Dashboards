@@ -1,0 +1,134 @@
+{
+  "company_name": "Clasp",
+  "website": "https://clasp.ai",
+  "year_founded": "2023",
+  "description": "Clasp is the all-in-one platform that automates benefits administration for brokers and HR platforms. Our AI benefit engine simplifies quoting, enrollment, carrier integrations, and back-office tasks\u2014allowing brokers to run their business more efficiently and focus on growth.",
+  "problem_statement": "Small group health is becoming less profitable for brokers due to rising premiums, lower enrollment rates, and increased administrative complexity (ancillaries, level-funded, ICHRA, etc.) \n\nEvery broker serving this segment is desperately looking for ways to drive down their operational overhead. Group build, managing carrier connections, and payroll integrations are the most common bottlenecks for brokers that Clasp aims to entirely automate.",
+  "pitch_deck_link": "https://docsend.com/view/3njqvguq7zaiw8m5",
+  "demo_link": "https://example.withclasp.com",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: Brokers. Group build, managing carriers connections, and payroll integrations.\nMarket size: $100B"
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: Ease, EmployeeNavigator, PlanSource, Alight, BSwift\nIn-market since: Yes, 10 months"
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: - $480K ARR -->  $860K ARR (currently)\n- 3100 employees managed --> 6641 (currently)\n- 9.3K total lives managed (includes dependents)\n- $91M in premium managed\n- Signed great logos like Allstate, Quickbooks, and Workstream\nCustomers: - 7 signed customers: Miter (live), Belfry (live), Eddy (live), Bennie (live), Workstream (beta), Allstate/Quickbooks (integrating), Benbase (integrating).\n- 130 live employers (from partners above)\n- Sales pipeline includes mostly large brokerages like Alliant, Acrisure, Hub, and some strategic Payroll platforms liek Remote, Deel, Lattice and others.\nPricing: All 7 are paying min-commit fees and some are pure usage volume (i.e., surpassed min-commit)"
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: Colin/Robby\nReferral: nan"
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Amar Jasarbasic: https://www.linkedin.com/in/amarjasarbasic/\n\nZach Zhang:\nhttps://www.linkedin.com/in/zhangzach/\nTech team: The 4 engineers we hired."
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "Long sales cycles with embedded partners and less control over how quickly they grow, hence why we're additionally selling more directly to brokers (shorter sales cycles + can move entire books of business faster).",
+    "Intros to large brokers and strategic payroll platforms"
+  ],
+  "founder_profile": {
+    "name": "[Amar Jasarbasic: https://www.linkedin.com/in/amarjasarbasic/\n\nZach Zhang:\nhttps://www.linkedin.com/in/zhangzach/](https://www.linkedin.com/in/amarjasarbasic/)",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "Being a \"know how\" CEO/leader helps rally the team and get them excited about building. I try to stay as technical and in the weeds as possible, which I find helps set the pace and keep velocity strong among the engineers/ops members on the team."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "Signing more brokers and strategic platforms. At least 5-10M in new pipeline generation"
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "Long sales cycles with embedded partners and less control over how quickly they grow, hence why we're additionally selling more directly to brokers (shorter sales cycles + can move entire books of business faster).",
+      "context": "Clasp",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "Intros to large brokers and strategic payroll platforms",
+      "context": "Clasp",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "Clasp positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "Clasp": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "Clasp is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

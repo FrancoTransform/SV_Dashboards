@@ -30,8 +30,11 @@
                     </svg>
                     SemperVirens Accelerator
                 </a>
-                <div class="text-sm text-gray-400">
-                    {{ analysis.company_name }}
+                <div class="flex items-center space-x-4">
+                    <div class="text-sm text-gray-400">
+                        {{ analysis.company_name }}
+                    </div>
+                    <a href="{{ url_for('logout') }}" class="text-sm text-gray-400 hover:text-white">Logout</a>
                 </div>
             </div>
         </div>
@@ -91,10 +94,10 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Market Opportunity</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.market_opportunity.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.market_opportunity.score == 3 else 
-                                       'bg-red-100 text-red-800' }}">
-                                    {{ analysis.scoring.market_opportunity.score }}/5
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.market_opportunity.score is not none and analysis.scoring.market_opportunity.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.market_opportunity.score is not none and analysis.scoring.market_opportunity.score == 3 else 
+                                       'bg-gray-100 text-gray-800' }}">
+                                    {{ analysis.scoring.market_opportunity.score|default('N/A') }}/5
                                 </span>
                             </div>
                             <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.market_opportunity.justification }}</p>
@@ -105,10 +108,10 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Product Differentiation</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.product_differentiation.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.product_differentiation.score == 3 else 
-                                       'bg-red-100 text-red-800' }}">
-                                    {{ analysis.scoring.product_differentiation.score }}/5
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.product_differentiation.score is not none and analysis.scoring.product_differentiation.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.product_differentiation.score is not none and analysis.scoring.product_differentiation.score == 3 else 
+                                       'bg-gray-100 text-gray-800' }}">
+                                    {{ analysis.scoring.product_differentiation.score|default('N/A') }}/5
                                 </span>
                             </div>
                             <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.product_differentiation.justification }}</p>
@@ -122,10 +125,10 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Go-to-Market Traction</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.go_to_market_traction.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.go_to_market_traction.score == 3 else 
-                                       'bg-red-100 text-red-800' }}">
-                                    {{ analysis.scoring.go_to_market_traction.score }}/5
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.go_to_market_traction.score is not none and analysis.scoring.go_to_market_traction.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.go_to_market_traction.score is not none and analysis.scoring.go_to_market_traction.score == 3 else 
+                                       'bg-gray-100 text-gray-800' }}">
+                                    {{ analysis.scoring.go_to_market_traction.score|default('N/A') }}/5
                                 </span>
                             </div>
                             <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.go_to_market_traction.justification }}</p>
@@ -136,10 +139,10 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Ecosystem Signals</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.ecosystem_signals.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.ecosystem_signals.score == 3 else 
-                                       'bg-red-100 text-red-800' }}">
-                                    {{ analysis.scoring.ecosystem_signals.score }}/5
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.ecosystem_signals.score is not none and analysis.scoring.ecosystem_signals.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.ecosystem_signals.score is not none and analysis.scoring.ecosystem_signals.score == 3 else 
+                                       'bg-gray-100 text-gray-800' }}">
+                                    {{ analysis.scoring.ecosystem_signals.score|default('N/A') }}/5
                                 </span>
                             </div>
                             <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.ecosystem_signals.justification }}</p>
@@ -160,10 +163,10 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Founder & Team Strength</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.founder_team_strength.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.founder_team_strength.score == 3 else 
-                                       'bg-red-100 text-red-800' }}">
-                                    {{ analysis.scoring.founder_team_strength.score }}/5
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.founder_team_strength.score is not none and analysis.scoring.founder_team_strength.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.founder_team_strength.score is not none and analysis.scoring.founder_team_strength.score == 3 else 
+                                       'bg-gray-100 text-gray-800' }}">
+                                    {{ analysis.scoring.founder_team_strength.score|default('N/A') }}/5
                                 </span>
                             </div>
                             <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.founder_team_strength.justification }}</p>
@@ -177,10 +180,10 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Strategic Fit</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium 
-                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.strategic_fit.score >= 4 else 
-                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.strategic_fit.score == 3 else 
-                                       'bg-red-100 text-red-800' }}">
-                                    {{ analysis.scoring.strategic_fit.score }}/5
+                                    {{ 'bg-green-100 text-green-800' if analysis.scoring.strategic_fit.score is not none and analysis.scoring.strategic_fit.score >= 4 else 
+                                       'bg-yellow-100 text-yellow-800' if analysis.scoring.strategic_fit.score is not none and analysis.scoring.strategic_fit.score == 3 else 
+                                       'bg-gray-100 text-gray-800' }}">
+                                    {{ analysis.scoring.strategic_fit.score|default('N/A') }}/5
                                 </span>
                             </div>
                             <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.scoring.strategic_fit.justification }}</p>
@@ -282,10 +285,10 @@
                         <div class="flex justify-between items-center mb-3">
                             <h3 class="font-medium text-gray-900">{{ category }}</h3>
                             <span class="px-3 py-1 rounded-full text-sm font-medium 
-                                {{ 'bg-green-100 text-green-800' if data.score >= 4 else 
-                                   'bg-yellow-100 text-yellow-800' if data.score == 3 else 
-                                   'bg-red-100 text-red-800' }}">
-                                {{ data.score }}/5
+                                {{ 'bg-green-100 text-green-800' if data.score is not none and data.score >= 4 else 
+                                   'bg-yellow-100 text-yellow-800' if data.score is not none and data.score == 3 else 
+                                   'bg-gray-100 text-gray-800' }}">
+                                {{ data.score|default('N/A') }}/5
                             </span>
                         </div>
                         <p class="text-gray-600 text-sm">{{ data.justification }}</p>
@@ -332,42 +335,53 @@
                     {% endfor %}
                 </div>
 
-                <!-- Competitive Matrix -->
-                <h3 class="text-lg font-medium text-white mb-4">Competitive Matrix</h3>
-                <div class="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md rounded-xl border border-gray-600 p-6">
-                    <div class="overflow-x-auto">
-                        <table class="w-full">
-                            <thead>
-                                <tr>
-                                    <th class="text-left px-6 py-4 text-sm font-semibold text-white bg-white/10 rounded-tl-lg">Company</th>
-                                    {% for column in analysis.category_comparison_expanded.competitive_matrix.columns %}
-                                    <th class="text-center px-6 py-4 text-sm font-semibold text-white bg-white/10 
-                                        {% if loop.last %}rounded-tr-lg{% endif %}">
-                                        {{ column }}
-                                    </th>
+                <!-- Competitive Matrix Section -->
+                <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg border border-gray-700 p-6 mb-6">
+                    <h2 class="text-xl font-semibold text-white mb-4">Competitive Matrix</h2>
+                    
+                    {% if analysis.category_comparison_expanded and analysis.category_comparison_expanded.competitive_matrix and analysis.category_comparison_expanded.competitive_matrix.columns and analysis.category_comparison_expanded.competitive_matrix.rows %}
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full divide-y divide-gray-700">
+                                <thead>
+                                    <tr>
+                                        <th class="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Company</th>
+                                        {% for column in analysis.category_comparison_expanded.competitive_matrix.columns %}
+                                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">{{ column }}</th>
+                                        {% endfor %}
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-700">
+                                    {% for company, values in analysis.category_comparison_expanded.competitive_matrix.rows.items() %}
+                                        <tr>
+                                            <td class="px-4 py-3 whitespace-nowrap text-sm font-medium text-white">{{ company }}</td>
+                                            {% for value in values %}
+                                                <td class="px-4 py-3 whitespace-nowrap text-sm text-gray-300">
+                                                    {% if value == true %}
+                                                        <span class="text-green-400">✓</span>
+                                                    {% elif value == false %}
+                                                        <span class="text-red-400">✗</span>
+                                                    {% elif value == "partial" %}
+                                                        <span class="text-yellow-400">◐</span>
+                                                    {% else %}
+                                                        {{ value }}
+                                                    {% endif %}
+                                                </td>
+                                            {% endfor %}
+                                        </tr>
                                     {% endfor %}
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% for company, values in analysis.category_comparison_expanded.competitive_matrix.rows.items() %}
-                                <tr class="border-b border-gray-700 last:border-0">
-                                    <td class="px-6 py-4 font-medium text-white bg-white/5">{{ company }}</td>
-                                    {% for value in values %}
-                                    <td class="px-6 py-4 text-center bg-white/5">
-                                        {% if value == true %}
-                                        <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-sv-green/20 text-sv-green">✓</span>
-                                        {% elif value == false %}
-                                        <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-500/20 text-red-400">×</span>
-                                        {% else %}
-                                        <span class="text-gray-400">{{ value }}</span>
-                                        {% endif %}
-                                    </td>
-                                    {% endfor %}
-                                </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
-                    </div>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        {% if analysis.category_comparison_expanded.conclusion %}
+                            <div class="mt-4 p-4 bg-white/5 rounded-lg">
+                                <h3 class="text-lg font-medium text-white mb-2">Conclusion</h3>
+                                <p class="text-gray-300">{{ analysis.category_comparison_expanded.conclusion }}</p>
+                            </div>
+                        {% endif %}
+                    {% else %}
+                        <p class="text-gray-400">No competitive matrix data available.</p>
+                    {% endif %}
                 </div>
             </div>
 

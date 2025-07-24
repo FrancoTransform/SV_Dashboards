@@ -1,0 +1,134 @@
+{
+  "company_name": "RituWell",
+  "website": "https://www.jetsweatfitness.com/whoweserve/employers",
+  "year_founded": "2023",
+  "description": "RituWell is a B2B digital wellness platform that empowers organizations to drive tailored well-being initiatives and achieve sustained health outcomes. We partner with forward-thinking employers, health plans and health systems to set a new standard for holistic and preventative care, reducing healthcare expenses and improving productivity and retention. RituWell is the first truly integrated platform offering a dedicated infrastructure for optimal performance, privacy and engagement.",
+  "problem_statement": "Employers are seeing soaring healthcare spending, and physically and mentally unhealthy employees while our heath plans continue to focus on reactive rather than preventative care. Retention is at its lowest in 10 years, with $322 billion lost annually in turnover and productivity from employee burnout alone. 1 in 4 remote workers is also reporting loneliness which is having further devastating effects on physical and mental health.",
+  "pitch_deck_link": "https://docsend.com/view/rabskx99nnsnxmj5",
+  "demo_link": "https://youtu.be/VYnyURbwZhU?si=veA-8yJ4Nj45ZYzs",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: Employers with 1k or more employees and health plans. Later we can scale through health systems, education, and public organizations.\nMarket size: Corporate Wellness is about $76 billion. There are 24k businesses with 1k or more employees which is our ICP today."
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: Disconnected marketplaces that do not offer an integrated and customized experience (Personify Health) and then a lot of point solutions (Peloton digital for fitness, Calm for Business for mindfulness), and others that call within MSK, Women's Health, and more. Benefits leaders are experience point-solution fatigue with very low engagement and awareness. They are looking for an integrated, digital-first solution that offers a one-contract buying solution and can be tailored for their specific population needs, whether it be demographics, culture, risk areas, etc.\nIn-market since: Yes, about 4 months"
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: We finished building our B2B platform, broadened beyond an initial fitness focus to include mental wellness, MSK, Women's Health and more by signing more than 50 wellness supplier contracts. We've professionally produced more than 1,000 videos and created high demand condition-specific programs. We're now ready to GTM and built out our buy-side through employers and health plans and have built over $750k in initial pipeline deals with blue chip names like CVS Health, Cigna/Evernorth and more. We also have excellent, proven engagement stats for our platform.\nCustomers: We have one pilot implemented with a lot of customers in late stage deal cycles, about $750k. Our average annual contract size is just above $100k. We are just approaching the buying season for our industry and are focused on direct sales as well as building out a robust distribution network through the consultants and brokers.\nPricing: We have about $100k in annual revenue right now but not all from the new model, which is a simple PEPM."
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: I had a feedback/intro call with Allison Baum Gates and she told me about it\nReferral: Allison Baum Gates"
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Alexandra Dantzig, CEO https://www.linkedin.com/in/alexandra-dantzig-253127b8/  and Erin Frankel, Chief Content Officer https://www.linkedin.com/in/erin-frankel-767a348/\nTech team: Houman Kamran and Lorraine Schmucker. No, they are both team members"
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "Near term we need to get HIPAA and SOC2, in order to close our health plan deals, which will take 3-4 weeks. We have started the process already but need about $25k more in pre-seed funding for the audit in particular",
+    "GTM playbook support. We also need to build relationships with the brokers and consultants. Customer warm intros would also be huge and could use help with structuring our case studies."
+  ],
+  "founder_profile": {
+    "name": "[Alexandra Dantzig](https://www.linkedin.com/in/alexandra-dantzig-253127b8/)",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "The decision to pivot from our initial consumer model was brought about from learning about the convergence of the fitness/wellness industry and the healthcare industry, in part driven by value-based care adoption. McKinsey released a great report that talks about the key to unlocking meaningful health outcomes lying with the employers and the workplace. I firmly believe that integrated, preventative well-being is the future of the workplace and beyond."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "I am looking for GTM strategy support and network introductions to build out distribution and specifically to take our first 5-6 deals past the finish line to reach $50k MRR and then open up a larger seed raise in the Fall."
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "Near term we need to get HIPAA and SOC2, in order to close our health plan deals, which will take 3-4 weeks. We have started the process already but need about $25k more in pre-seed funding for the audit in particular",
+      "context": "RituWell",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "GTM playbook support. We also need to build relationships with the brokers and consultants. Customer warm intros would also be huge and could use help with structuring our case studies.",
+      "context": "RituWell",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "RituWell positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "RituWell": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "RituWell is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

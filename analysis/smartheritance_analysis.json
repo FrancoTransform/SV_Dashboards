@@ -1,0 +1,134 @@
+{
+  "company_name": "SmartHeritance",
+  "website": "https://smartheritance.com",
+  "year_founded": "2024",
+  "description": "SmartHeritance is a digital legacy planning platform that helps individuals organize and securely pass on everything their loved ones will need - from financial, digital and personal assets to ongoing expenses. \n\nThe reality is, most families face stress, confusion and financial loss when a loved one passes - simply because vital information is scattered, or missing. SmartHeritance solves this by automating the discovery, organization, and secure sharing of key information - ensuring nothing gets lost or unclaimed.\n\nYour legacy is fully preserved and passed on with ease, giving you peace of mind and providing a clear path for your family when it matters most.",
+  "problem_statement": "Most families are caught off guard when a loved one passes away. Critical information\u2014like financial accounts, insurance policies, and digital assets\u2014is often scattered or hidden, leaving survivors overwhelmed and unprepared. \n\nThis leads to lost assets, missed benefits, and emotional strain during an already difficult time. SmartHeritance helps individuals organize and securely share key information, so their families aren\u2019t left in the dark when it matters most.\n\nA common pitfall in legacy planning is the lack of ongoing discipline\u2014people may start organizing their affairs but rarely keep things updated. Survivors often don\u2019t know what exists, or who to contact when someone passes away. As a result, assets go unclaimed and critical benefits are missed. SmartHeritance addresses this with automated asset discovery and periodic wellness checks, ensuring that vital information stays current and reaches the right people automatically when it matters most.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1DVvtBSolgp7FV2J-jb9g3OiTThkDzFE7/view?usp=drive_link",
+  "demo_link": "https://www.loom.com/share/2da57bf9a4b84af0ab481a1fb17cc411?sid=7c6a0856-9513-4bee-ad87-a0e50dfb11b8",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: Target customer: \n- Age: 45+ years\n- Household income: > $100K\n- Net worth: $1M - $20M\n\nBiggest pain point:\n\t\u2022\tDisorganized or incomplete records: Financial accounts, insurance policies, and digital assets are scattered, making it hard to keep track or ensure nothing is missed.\n\t\u2022\tFear of leaving loved ones unprepared: Customers worry that survivors won\u2019t know what exists, where to find it, or whom to contact after they\u2019re gone.\n\t\u2022\tLack of time or discipline to maintain a legacy plan: Even with good intentions, most people don\u2019t regularly update their information or revisit plans.\n\t\u2022\tUncertainty around secure sharing: Customers want to share information\u2014but only with the right people, at the right time, in a secure way.\nMarket size: TAM: $50B; SAM: $15B (U.S. only)"
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: 1. Digital Legacy & Organizer Platforms\n\t\u2022\tEverplans \u2013 Offers digital vaults to store wills, insurance, and other end-of-life documents.\n\t\u2022\tTrust & Will \u2013 Focuses on online estate planning, but includes some legacy tools.\n\t\u2022\tGoodTrust \u2013 Helps users manage and share digital assets and social media accounts.\n\t\u2022\tFutureVault \u2013 Provides secure digital vaults for organizing personal and financial information.\n\n2. End-of-Life & Death Tech\n\t\u2022\tEmpathy \u2013 Supports families after a death with tools for managing arrangements, benefits, and grief.\n\t\u2022\tCake \u2013 Helps users with end-of-life planning, including legal, financial, and memorial wishes.\n\n3. Family Wealth Management Tools\n\t\u2022\tKubera \u2013 Tracks net worth and securely stores financial data, with beneficiary access.\n\t\u2022\tZenplans \u2013 A UK-based digital life management platform focused on secure information sharing.\n\n4. Indirect Competitors\n\t\u2022\tPassword managers (e.g., 1Password, LastPass) \u2013 Often used to store digital information but not optimized for legacy or survivor use.\n\t\u2022\tTraditional estate planners and attorneys \u2013 Offer personalized services but lack automation and ongoing updates.\n\nSmartHeritance differentiates itself through automated asset discovery, ongoing wellness checks, and survivor-ready sharing, making it more proactive and continuity-focused than most competitors.\nIn-market since: Yes. Launched MVP in May '2025."
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: Early Signs Support Our Belief in the Product\n\n\u2022\tTested market with a Free Trial version: Positive feedback on the simplified experience and the problem we are solving\n\u2022\tSigned-contract with a corporate HR benefits team for rollout: Encouraged with the response that people are interested\n\nUser Feedback:\n\u201cThis service gives me peace of mind knowing my loved ones will have clear access to everything I've worked for. It's like insurance for your legacy, making sure nothing gets lost in the shuffle after you're gone.\" \n\n\u201cThe platform is not only secure and easy to use but also provides peace of mind knowing that my loved ones will have clear guidance when the time comes. Their focus on simplifying a sensitive and complex process is truly commendable.\u201d\nCustomers: - Employee Benefits:\n\u2022\tProspects identified: 30 (with 1 Sales person)\n\u2022\tInitial contact: 8\n\u2022\tQualified leads: 3\n\u2022\tMeeting/demo scheduled: 4\n\u2022\tWon: 1\n\u2022\tLost: 2\n\n- 200+ DTC signups\n- 3 Estate Planners interested in distribution\nPricing: \u2022\tEmployee Benefits\no\tEmployer paid: $90/employee/year\no\tEmployee paid or Hybrid: Discounted\n\u2022\tEstate planners/Insurance Providers/Financial Advisors\no\t$90 per client per year\n\u2022\tDTC\no\tBASIC plan - $60 annually, or $5.99 monthly\no\tPREMIUM plan - $90 annually, or $8.99 monthly"
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: LinkedIn post\nReferral: Not referred."
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Pravat Lall, Founder (https://www.linkedin.com/in/pravat/)\nTech team: Hired an agency for engineering for now."
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "1.\tBehavioral Inertia Around Legacy Planning\nMost people understand the importance of organizing their life information but procrastinate due to emotional discomfort or lack of urgency. Overcoming this inertia requires education, trust-building, and seamless onboarding.\n\t2.\tEstablishing Trust in a Sensitive Domain\nWe\u2019re asking users to store sensitive personal and financial data. Building credibility and demonstrating security, privacy, and responsible stewardship is essential for adoption.\n\t3.\tChannel Penetration in a Crowded Benefits Space\nThe employee benefits ecosystem is crowded, and breaking through to HR leaders and benefits brokers requires strong differentiation and proof of value.",
+    "1.\tEnterprise Sales Expertise\nWe need deeper experience and mentorship around navigating complex B2B sales cycles within HR tech and insurance broker channels to accelerate partnership and customer acquisition.\n\t2.\tStrategic Partnerships\nWhile we have initial contacts, we lack broad access to key decision-makers in large benefits platforms and insurance networks critical for scaling distribution.\n\t3.\tRegulatory and Compliance Guidance\nGiven the sensitive nature of financial and personal data, we seek expert support on evolving data privacy regulations and best practices to ensure full compliance and build user trust.\n\t4.\tProduct Scaling & Security\nWe\u2019re looking for technical advisors to help optimize product architecture for secure data handling at scale and improve automated asset discovery capabilities."
+  ],
+  "founder_profile": {
+    "name": "[Pravat Lall](https://www.linkedin.com/in/pravat/)",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "Early on, I realized through user interviews that legacy planning is like dental floss\u2014everyone knows they should do it, but almost no one actually does. The barrier wasn\u2019t about importance; it was about discipline, emotional resistance, and the sheer effort involved.\n\nPeople weren\u2019t just avoiding legal documents\u2014they were overwhelmed by the time it takes to track expenses, organize assets, and keep everything current. Many also pointed out that day-to-day financial details and expenses are a vital part of a family legacy, yet they\u2019re often ignored.\n\nThat feedback changed everything. I saw clearly that automation wasn\u2019t a nice-to-have\u2014it was the only way to overcome apathy and make this stick. We pivoted SmartHeritance to focus on a simple, intuitive UI layered with automated asset discovery and wellness checks, turning legacy planning into an easy, ongoing habit. Our goal became clear: reduce the emotional and logistical burden, so families are never left scrambling in the dark."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "1.\tRefine and Validate B2B2C Go-to-Market Strategy\nWe aim to sharpen our GTM model by testing channels through HR providers, benefits consultants, and insurance brokers, leveraging SemperVirens\u2019 deep expertise and network in the future-of-work ecosystem.\n\t2.\tAccelerate Strategic Partnerships\nWe hope to establish key distribution partnerships\u2014especially with HR tech platforms, benefits marketplaces, and life insurance providers\u2014that can rapidly scale access to SmartHeritance.\n\t3.\tGain Advisor-Level Product Feedback\nWe want expert feedback on refining our product positioning and feature roadmap, especially around onboarding, data security, and survivor handoff flows to ensure they meet enterprise standards.\n\t4.\tPrepare for Institutional Seed Round\nWith guidance from the accelerator, we aim to build investor-ready metrics and materials to raise our next round of funding from top-tier VCs in the worktech and fintech space."
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "1.\tBehavioral Inertia Around Legacy Planning\nMost people understand the importance of organizing their life information but procrastinate due to emotional discomfort or lack of urgency. Overcoming this inertia requires education, trust-building, and seamless onboarding.\n\t2.\tEstablishing Trust in a Sensitive Domain\nWe\u2019re asking users to store sensitive personal and financial data. Building credibility and demonstrating security, privacy, and responsible stewardship is essential for adoption.\n\t3.\tChannel Penetration in a Crowded Benefits Space\nThe employee benefits ecosystem is crowded, and breaking through to HR leaders and benefits brokers requires strong differentiation and proof of value.",
+      "context": "SmartHeritance",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "1.\tEnterprise Sales Expertise\nWe need deeper experience and mentorship around navigating complex B2B sales cycles within HR tech and insurance broker channels to accelerate partnership and customer acquisition.\n\t2.\tStrategic Partnerships\nWhile we have initial contacts, we lack broad access to key decision-makers in large benefits platforms and insurance networks critical for scaling distribution.\n\t3.\tRegulatory and Compliance Guidance\nGiven the sensitive nature of financial and personal data, we seek expert support on evolving data privacy regulations and best practices to ensure full compliance and build user trust.\n\t4.\tProduct Scaling & Security\nWe\u2019re looking for technical advisors to help optimize product architecture for secure data handling at scale and improve automated asset discovery capabilities.",
+      "context": "SmartHeritance",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "SmartHeritance positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "SmartHeritance": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "SmartHeritance is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

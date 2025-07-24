@@ -1,0 +1,134 @@
+{
+  "company_name": "Blank Slate Technologies",
+  "website": "http://www.blankslatetech.com",
+  "year_founded": "2019",
+  "description": "Building high-performance teams through clinical and scientific technologies that improve cognitive retention AND can anticipate memory loss.",
+  "problem_statement": "Companions of the future are seeking to maximize human asset productivity by enabling more time working and less time training or in the classroom.  And companies want to spend less time retraining their workforce and more time reinforcing key learnings and strategic goals.",
+  "pitch_deck_link": "http://www.blankslatetech.com",
+  "demo_link": "http://www.blankslatetech.com",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: Two customers\n1. US Department of Defense Special Forces\n2. American Assiciation of Airport Executives\n\nBoth interested in Human Performance, Risk mitigation, safety.\nMarket size: $500k per contract"
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: No competition\nIn-market since: Yes.  2 years"
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: New commercial customers such as FedEx pilots, Signature Aviation, Navy Fighter F-16 pilots\nCustomers: Currently 5 major contracts.  Pipeline emerging based on proof of concept with Delta Air and UPS\nPricing: All are paying.  Each contract unique based on goals"
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: Cloverfields Capital\nReferral: Lee Valenta and Jamison Rice"
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Matt Trevithick\nHttp://matttrevithick.com\nTech team: All internal"
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "Funding for scale",
+    "Always learning.  None"
+  ],
+  "founder_profile": {
+    "name": "Matt Trevithick\nHttp://matttrevithick.com",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "Direct to consumer model very expensive and time consuming. Pivoted to Human Capital leader for promotion and sales"
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "Funding support to build scale.  $4-6m requested"
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "Funding for scale",
+      "context": "Blank Slate Technologies",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "Always learning.  None",
+      "context": "Blank Slate Technologies",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "Blank Slate Technologies positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "Blank Slate Technologies": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "Blank Slate Technologies is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

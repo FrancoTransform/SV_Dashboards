@@ -9,7 +9,7 @@
   "scoring": {
     "market_opportunity": {
       "score": 4,
-      "justification": "Focused on a growing, under-supported segment—CROs, CMOs, RevOps execs—where churn and burnout are costly. Market is fragmented but demand is strong."
+      "justification": "Focused on a growing, under-supported segment\u2014CROs, CMOs, RevOps execs\u2014where churn and burnout are costly. Market is fragmented but demand is strong."
     },
     "product_differentiation": {
       "score": 5,
@@ -29,7 +29,7 @@
     },
     "strategic_fit": {
       "score": 4,
-      "justification": "Strong fit with SV’s thesis on workforce transformation, especially in leadership enablement and performance optimization."
+      "justification": "Strong fit with SV\u2019s thesis on workforce transformation, especially in leadership enablement and performance optimization."
     }
   },
   "red_flags": [
@@ -55,7 +55,7 @@
   "sv_thesis_fit": {
     "sector_fit": {
       "score": 5,
-      "justification": "Directly supports workforce optimization and leadership performance—SV core themes."
+      "justification": "Directly supports workforce optimization and leadership performance\u2014SV core themes."
     },
     "employer_ecosystem_leverage": {
       "score": 4,
@@ -71,7 +71,7 @@
     },
     "acceleration_readiness": {
       "score": 5,
-      "justification": "Clear frameworks, defined personas, polished pitch/demo—all signals of operational maturity."
+      "justification": "Clear frameworks, defined personas, polished pitch/demo\u2014all signals of operational maturity."
     }
   },
   "successes_and_areas_of_investigation": [
@@ -125,16 +125,58 @@
       }
     ],
     "competitive_matrix": {
-      "columns": ["Personalized Coaching", "Proprietary Framework", "AI-Driven Insights", "Project-Based Engagements", "Continuous Support Model", "Revenue Leader Focus"],
+      "columns": [
+        "Personalized Coaching",
+        "Proprietary Framework",
+        "AI-Driven Insights",
+        "Project-Based Engagements",
+        "Continuous Support Model",
+        "Revenue Leader Focus"
+      ],
       "rows": {
-        "GTM Flow": [true, true, false, false, true, true],
-        "The CRO Collective": [true, false, false, false, true, true],
-        "GTM Buddy": [false, false, true, false, false, true],
-        "Insight7": [false, false, true, false, false, true],
-        "GTM Sprints": [false, true, false, true, false, true]
+        "GTM Flow": [
+          true,
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        "The CRO Collective": [
+          true,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "GTM Buddy": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        "Insight7": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        "GTM Sprints": [
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ]
       }
     },
-    "conclusion": "GTM Flow carves out a unique space through high-touch coaching, proprietary frameworks, and a focus on the whole leader—not just sales performance. To stay ahead, it may need to add scalable formats and selectively integrate tech-driven insights."
+    "conclusion": "GTM Flow carves out a unique space through high-touch coaching, proprietary frameworks, and a focus on the whole leader\u2014not just sales performance. To stay ahead, it may need to add scalable formats and selectively integrate tech-driven insights."
   },
   "final_recommendation": {
     "status": "Hold",

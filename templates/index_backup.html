@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SemperVirens Accelerator Submissions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sv-blue': '#0A2540',
+                        'sv-green': '#00B67A',
+                        'sv-green-dark': '#00A067',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body class="bg-sv-blue">
+    <div class="min-h-screen">
+        <nav class="border-b border-gray-700">
+            <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <img src="{{ url_for('static', filename='SemperVirens-white-logo.avif') }}" 
+                         alt="SemperVirens" 
+                         class="h-8">
+                    <h1 class="text-2xl font-bold text-white">Accelerator</h1>
+                </div>
+                <a href="{{ url_for('logout') }}" class="text-sm text-gray-400 hover:text-white">Logout</a>
+            </div>
+        </nav>
+        
+        <main class="container mx-auto px-6 py-8">
+            <div class="mb-8 flex justify-between items-center">
+                <h2 class="text-2xl font-semibold text-white">Submission Analysis Dashboard</h2>
+                <div class="text-sm text-gray-400">
+                    Total Submissions: {{ (submissions|length) }}
+                </div>
+            </div>
+
+            <!-- Submission date mapping from SVApplications.csv -->
+            {% set date_mapping = {
+                'Test': {'date': '2025-04-08 18:30:34', 'display': 'April 8, 2025 18:30'},
+                'DoktorConnect': {'date': '2025-04-23 08:45:05', 'display': 'April 23, 2025 08:45'},
+                'Beacon': {'date': '2025-05-01 00:00:00', 'display': 'May 1, 2025'},
+                'chainstaff': {'date': '2025-05-12 10:30:00', 'display': 'May 12, 2025 10:30'},
+                'Graphio.ai': {'date': '2025-05-04 13:30:00', 'display': 'May 4, 2025 13:30'},
+                'GTM Flow': {'date': '2025-04-17 18:45:47', 'display': 'April 17, 2025 18:45'},
+                'Hero': {'date': '2025-04-25 12:26:15', 'display': 'April 25, 2025 12:26'},
+                'Defiant Health': {'date': '2025-04-26 15:30:00', 'display': 'April 26, 2025 15:30'},
+                'JOGO Health': {'date': '2025-04-27 09:15:00', 'display': 'April 27, 2025 09:15'},
+                'Mandala for Us Inc.': {'date': '2025-04-28 14:20:00', 'display': 'April 28, 2025 14:20'},
+                'Multiply': {'date': '2025-04-29 10:30:00', 'display': 'April 29, 2025 10:30'},
+                'Borderless AI': {'date': '2025-04-30 16:45:00', 'display': 'April 30, 2025 16:45'},
+                'Outro Health': {'date': '2025-05-01 11:30:00', 'display': 'May 1, 2025 11:30'},
+                'Clasp': {'date': '2025-05-15 09:30:00', 'display': 'May 15, 2025 09:30'},
+                'Virtual Sapiens': {'date': '2025-05-10 14:15:00', 'display': 'May 10, 2025 14:15'},
+                'LOGISTIFY AI': {'date': '2025-05-05 10:00:00', 'display': 'May 5, 2025 10:00'},
+                'Ezra': {'date': '2025-05-03 14:30:00', 'display': 'May 3, 2025 14:30'},
+                'Aidora': {'date': '2025-05-02 09:45:00', 'display': 'May 2, 2025 09:45'},
+                'Wave': {'date': '2025-05-07 11:20:00', 'display': 'May 7, 2025 11:20'},
+                'Kept Inc': {'date': '2025-05-08 15:10:00', 'display': 'May 8, 2025 15:10'},
+                'Toothsome': {'date': '2025-05-09 13:45:00', 'display': 'May 9, 2025 13:45'},
+                'Wiggl Health': {'date': '2025-05-13 14:20:00', 'display': 'May 13, 2025 14:20'},
+                'Paramean Solutions': {'date': '2025-05-14 11:15:00', 'display': 'May 14, 2025 11:15'},
+                'Sunny Health AI': {'date': '2025-05-06 12:00:00', 'display': 'May 6, 2025 12:00'}
+            } %}
+
+            <!-- Updated grid layout -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {% set all_submissions = [] %}
+                
+                {% for submission in submissions %}
+                    {% set submission_date = namespace(value='') %}
+                    {% if submission.company_name and submission.company_name.strip() in date_mapping %}
+                        {% set submission_date.value = date_mapping[submission.company_name.strip()]['date'] %}
+                        {% set _ = submission.update({'_submission_date': submission_date.value}) %}
+                    {% else %}
+                        {% set _ = submission.update({'_submission_date': '2025-06-01 00:00:00'}) %}
+                    {% endif %}
+                    {% set _ = all_submissions.append(submission) %}
+                {% endfor %}
+
+                {% for submission in all_submissions|sort(attribute='_submission_date') %}
+                    {% set submission_date = 'N/A' %}
+                    {% if submission.company_name and submission.company_name.strip() in date_mapping %}
+                        {% set submission_date = date_mapping[submission.company_name.strip()]['display'] %}
+                    {% endif %}
+                    
+                    <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 overflow-hidden border border-gray-700">
+                        <div class="p-6">
+                            <div class="mb-4">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-xl font-semibold text-white">
+                                        {{ submission.company_name }}
+                                    </h3>
+                                    <span class="text-sm text-gray-400">
+                                        Submitted: {{ submission_date }}
+                                    </span>
+                                </div>
+                                <p class="text-gray-300 mb-4 line-clamp-3">
+                                    {{ submission.description }}
+                                </p>
+                            </div>
+                            
+                            <div class="space-y-2 mb-4">
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Website:</span><br>
+                                    <a href="{{ submission.website }}" 
+                                       class="text-sv-green hover:text-sv-green-dark" 
+                                       target="_blank">
+                                        {{ submission.website|truncate(30) }}
+                                    </a>
+                                </div>
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Founded:</span><br>
+                                    <span class="text-gray-300">{{ submission.year_founded|default('N/A') }}</span>
+                                </div>
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Founder:</span><br>
+                                    <span class="text-gray-300">{{ submission.founder_profile.name if submission.founder_profile and submission.founder_profile.name else 'N/A' }}</span>
+                                </div>
+                                
+                                {% if submission.final_recommendation and submission.final_recommendation.status %}
+                                <div class="text-sm mt-3">
+                                    <span class="text-gray-400">Status:</span><br>
+                                    <span class="px-2 py-1 rounded-full text-xs font-medium
+                                        {% if submission.final_recommendation.status == 'Advance' %}
+                                            bg-green-100 text-green-800
+                                        {% elif submission.final_recommendation.status == 'Hold' %}
+                                            bg-yellow-100 text-yellow-800
+                                        {% else %}
+                                            bg-gray-100 text-gray-800
+                                        {% endif %}">
+                                        {{ submission.final_recommendation.status }}
+                                    </span>
+                                </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="flex justify-end">
+                                {% if submission.company_name %}
+                                    {% set url_name = submission.company_name.lower().replace(' ', '').replace('-', '').replace('_', '').replace('.', '').replace(',', '') %}
+                                    <a href="{{ url_for('submission_detail', company_name=url_name) }}"
+                                       class="inline-flex items-center px-4 py-2 text-sm font-medium bg-sv-green text-white rounded-lg hover:bg-sv-green-dark">
+                                        View Analysis
+                                    </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </main>
+    </div>
+</body>
+</html>

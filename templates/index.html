@@ -28,6 +28,7 @@
                          class="h-8">
                     <h1 class="text-2xl font-bold text-white">Accelerator</h1>
                 </div>
+                <a href="{{ url_for('logout') }}" class="text-sm text-gray-400 hover:text-white">Logout</a>
             </div>
         </nav>
         
@@ -39,98 +40,173 @@
                 </div>
             </div>
 
+            <!-- Search Bar -->
+            <div class="relative mb-6">
+                <input type="text" 
+                       id="searchInput" 
+                       class="w-full px-4 py-2 bg-white/10 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-sv-green"
+                       placeholder="Search by company name, description, or founder..."
+                       onkeyup="filterSubmissions()">
+                <div class="absolute right-3 top-2.5 text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Submission date mapping from SVApplications.csv -->
+            {% set date_mapping = {
+                'Test': {'date': '2025-04-08 18:30:34', 'display': 'April 8, 2025 18:30'},
+                'DoktorConnect': {'date': '2025-04-23 08:45:05', 'display': 'April 23, 2025 08:45'},
+                'Hero': {'date': '2025-04-25 12:26:15', 'display': 'April 25, 2025 12:26'},
+                'Defiant Health': {'date': '2025-04-25 22:46:38', 'display': 'April 25, 2025 22:46'},
+                'JOGO Health': {'date': '2025-04-29 16:42:53', 'display': 'April 29, 2025 16:42'},
+                'Mandala for Us Inc.': {'date': '2025-04-29 22:47:47', 'display': 'April 29, 2025 22:47'},
+                'Multiply': {'date': '2025-04-30 21:27:43', 'display': 'April 30, 2025 21:27'},
+                'Borderless AI': {'date': '2025-05-01 01:37:06', 'display': 'May 1, 2025 01:37'},
+                'Virtual Sapiens': {'date': '2025-05-01 15:48:53', 'display': 'May 1, 2025 15:48'},
+                'Toothsome': {'date': '2025-05-02 04:19:13', 'display': 'May 2, 2025 04:19'},
+                'Sunny Health AI': {'date': '2025-05-06 02:20:44', 'display': 'May 6, 2025 02:20'},
+                'RituWell': {'date': '2025-05-06 22:35:56', 'display': 'May 6, 2025 22:35'},
+                'Outro Health': {'date': '2025-05-08 14:10:42', 'display': 'May 8, 2025 14:10'},
+                'JOYA Health': {'date': '2025-05-08 17:42:40', 'display': 'May 8, 2025 17:42'},
+                'Kept Inc': {'date': '2025-05-09 00:40:07', 'display': 'May 9, 2025 00:40'},
+                'Clasp': {'date': '2025-05-09 07:49:03', 'display': 'May 9, 2025 07:49'},
+                'Paramean Solutions': {'date': '2025-05-09 18:49:29', 'display': 'May 9, 2025 18:49'},
+                'Volta Health': {'date': '2025-05-09 20:28:20', 'display': 'May 9, 2025 20:28'},
+                'Guaranteed Health, Inc.': {'date': '2025-05-09 20:58:36', 'display': 'May 9, 2025 20:58'},
+                'Ezra': {'date': '2025-05-10 19:22:46', 'display': 'May 10, 2025 19:22'},
+                'Lockwell Inc': {'date': '2025-05-14 00:34:15', 'display': 'May 14, 2025 00:34'},
+                'Aidora': {'date': '2025-05-15 00:08:11', 'display': 'May 15, 2025 00:08'},
+                'Beacon': {'date': '2025-05-16 17:14:43', 'display': 'May 16, 2025 17:14'},
+                'Blank Slate Technologies': {'date': '2025-05-23 14:08:10', 'display': 'May 23, 2025 14:08'},
+                'Wave': {'date': '2025-05-30 22:28:27', 'display': 'May 30, 2025 22:28'},
+                'LOGISTIFY AI': {'date': '2025-06-02 20:14:01', 'display': 'June 2, 2025 20:14'},
+                'SmartHeritance': {'date': '2025-06-02 20:34:51', 'display': 'June 2, 2025 20:34'},
+                'chainstaff': {'date': '2025-06-03 08:44:10', 'display': 'June 3, 2025 08:44'},
+                'CryptoMate': {'date': '2025-06-03 10:51:38', 'display': 'June 3, 2025 10:51'},
+                'Graphio.ai': {'date': '2025-06-03 16:11:54', 'display': 'June 3, 2025 16:11'},
+                'Wiggl Health': {'date': '2025-06-03 16:42:11', 'display': 'June 3, 2025 16:42'},
+                'RainyDayPal': {'date': '2025-06-03 19:47:09', 'display': 'June 3, 2025 19:47'},
+                'NuCo Credentialing': {'date': '2025-06-03 23:11:42', 'display': 'June 3, 2025 23:11'},
+                'Workrz': {'date': '2025-06-04 18:33:48', 'display': 'June 4, 2025 18:33'},
+                'GTM Flow': {'date': '2025-04-17 18:45:47', 'display': 'April 17, 2025 18:45'}
+            } %}
+
             <!-- Updated grid layout -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {% set all_submissions = [] %}
                 
                 {% for submission in submissions %}
                     {% set submission_date = namespace(value='') %}
-                    {% if submission.company_name == 'GTM Flow' %}
-                        {% set submission_date.value = '2025-04-17 18:45:47' %}
-                    {% elif submission.company_name == 'DoktorConnect' %}
-                        {% set submission_date.value = '2025-04-23 08:45:05' %}
-                    {% elif submission.company_name == 'Hero' %}
-                        {% set submission_date.value = '2025-04-25 12:26:15' %}
-                    {% elif submission.company_name == 'Defiant Health' %}
-                        {% set submission_date.value = '2025-04-26 15:30:00' %}
-                    {% elif submission.company_name == 'JOGO Health' %}
-                        {% set submission_date.value = '2025-04-27 09:15:00' %}
-                    {% elif submission.company_name == 'Mandala for Us Inc.' %}
-                        {% set submission_date.value = '2025-04-28 14:20:00' %}
-                    {% elif submission.company_name == 'Multiply' %}
-                        {% set submission_date.value = '2025-04-29 10:30:00' %}
+                    {% if submission.company_name and submission.company_name.strip() in date_mapping %}
+                        {% set submission_date.value = date_mapping[submission.company_name.strip()]['date'] %}
+                        {% set _ = submission.update({'_submission_date': submission_date.value}) %}
                     {% else %}
-                        {% set submission_date.value = '2025-01-01 00:00:00' %}
+                        {% set _ = submission.update({'_submission_date': '2025-06-01 00:00:00'}) %}
                     {% endif %}
-                    {% set _ = submission.update({'_submission_date': submission_date.value}) %}
-                    {% set _ = submission.update({'submitted_at': submission_date.value}) %}
                     {% set _ = all_submissions.append(submission) %}
                 {% endfor %}
 
                 {% for submission in all_submissions|sort(attribute='_submission_date') %}
-                <div class="bg-white/5 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 overflow-hidden border border-gray-700">
-                    <div class="p-6">
-                        <div class="mb-4">
-                            <div class="flex justify-between items-start mb-2">
-                                <h3 class="text-xl font-semibold text-white">
-                                    {{ submission.company_name }}
-                                </h3>
-                                <span class="text-sm text-gray-400">
-                                    Submitted: 
-                                    {% if submission.company_name == 'GTM Flow' %}
-                                        April 17, 2025 18:45
-                                    {% elif submission.company_name == 'DoktorConnect' %}
-                                        April 23, 2025 08:45
-                                    {% elif submission.company_name == 'Hero' %}
-                                        April 25, 2025 12:26
-                                    {% elif submission.company_name == 'Defiant Health' %}
-                                        April 26, 2025 15:30
-                                    {% elif submission.company_name == 'JOGO Health' %}
-                                        April 27, 2025 09:15
-                                    {% elif submission.company_name == 'Mandala for Us Inc.' %}
-                                        April 28, 2025 14:20
-                                    {% elif submission.company_name == 'Multiply' %}
-                                        April 29, 2025 10:30
-                                    {% else %}
-                                        {{ submission.submitted_at|default('N/A') }} (Company name: "{{ submission.company_name }}")
-                                    {% endif %}
-                                </span>
+                    {% set submission_date = 'N/A' %}
+                    {% if submission.company_name and submission.company_name.strip() in date_mapping %}
+                        {% set submission_date = date_mapping[submission.company_name.strip()]['display'] %}
+                    {% endif %}
+                    
+                    <div class="submission-card bg-white/5 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 overflow-hidden border border-gray-700">
+                        <div class="p-6">
+                            <div class="mb-4">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-xl font-semibold text-white">
+                                        {{ submission.company_name }}
+                                    </h3>
+                                    <span class="text-sm text-gray-400">
+                                        Submitted: {{ submission_date }}
+                                    </span>
+                                </div>
+                                <p class="text-gray-300 mb-4 line-clamp-3">
+                                    {{ submission.description }}
+                                </p>
                             </div>
-                            <p class="text-gray-300 mb-4 line-clamp-3">
-                                {{ submission.description }}
-                            </p>
-                        </div>
-                        
-                        <div class="space-y-2 mb-4">
-                            <div class="text-sm">
-                                <span class="text-gray-400">Website:</span><br>
-                                <a href="{{ submission.website }}" 
-                                   class="text-sv-green hover:text-sv-green-dark" 
-                                   target="_blank">
-                                    {{ submission.website|truncate(30) }}
-                                </a>
+                            
+                            <div class="space-y-2 mb-4">
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Website:</span><br>
+                                    <a href="{{ submission.website }}" 
+                                       class="text-sv-green hover:text-sv-green-dark" 
+                                       target="_blank">
+                                        {{ submission.website|truncate(30) }}
+                                    </a>
+                                </div>
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Founded:</span><br>
+                                    <span class="text-gray-300">{{ submission.year_founded|default('N/A') }}</span>
+                                </div>
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Founder:</span><br>
+                                    <span class="text-gray-300">{{ submission.founder_profile.name if submission.founder_profile and submission.founder_profile.name else 'N/A' }}</span>
+                                </div>
+                                
+                                {% if submission.final_recommendation and submission.final_recommendation.status %}
+                                <div class="text-sm mt-3">
+                                    <span class="text-gray-400">Status:</span><br>
+                                    <span class="px-2 py-1 rounded-full text-xs font-medium
+                                        {% if submission.final_recommendation.status == 'Advance' %}
+                                            bg-green-100 text-green-800
+                                        {% elif submission.final_recommendation.status == 'Hold' %}
+                                            bg-yellow-100 text-yellow-800
+                                        {% else %}
+                                            bg-gray-100 text-gray-800
+                                        {% endif %}">
+                                        {{ submission.final_recommendation.status }}
+                                    </span>
+                                </div>
+                                {% endif %}
                             </div>
-                            <div class="text-sm">
-                                <span class="text-gray-400">Founded:</span><br>
-                                <span class="text-gray-300">{{ submission.year_founded|default('N/A') }}</span>
-                            </div>
-                            <div class="text-sm">
-                                <span class="text-gray-400">Founder:</span><br>
-                                <span class="text-gray-300">{{ submission.founder_profile.name if submission.founder_profile and submission.founder_profile.name else 'N/A' }}</span>
-                            </div>
-                        </div>
 
-                        <div class="flex justify-end">
-                            <a href="{{ url_for('submission_detail', company_name=submission.company_name.lower().replace(' ', '')) }}"
-                               class="inline-flex items-center px-4 py-2 text-sm font-medium bg-sv-green text-white rounded-lg hover:bg-sv-green-dark">
-                                View Analysis
-                            </a>
+                            <div class="flex justify-end">
+                                {% if submission.company_name %}
+                                    {% set url_name = submission.company_name.lower().replace(' ', '').replace('-', '').replace('_', '').replace('.', '').replace(',', '') %}
+                                    <a href="{{ url_for('submission_detail', company_name=url_name) }}"
+                                       class="inline-flex items-center px-4 py-2 text-sm font-medium bg-sv-green text-white rounded-lg hover:bg-sv-green-dark">
+                                        View Analysis
+                                    </a>
+                                {% endif %}
+                            </div>
                         </div>
                     </div>
-                </div>
                 {% endfor %}
             </div>
         </main>
     </div>
+
+    <script>
+        function filterSubmissions() {
+            const searchInput = document.getElementById('searchInput');
+            const searchTerm = searchInput.value.toLowerCase();
+            const submissionCards = document.getElementsByClassName('submission-card');
+            let visibleCount = 0;
+
+            for (let card of submissionCards) {
+                const companyName = card.querySelector('h3').textContent.toLowerCase();
+                const description = card.querySelector('p').textContent.toLowerCase();
+                const founder = card.querySelector('.text-gray-300').textContent.toLowerCase();
+                const website = card.querySelector('a[href^="http"]').textContent.toLowerCase();
+
+                if (companyName.includes(searchTerm) || 
+                    description.includes(searchTerm) || 
+                    founder.includes(searchTerm) || 
+                    website.includes(searchTerm)) {
+                    card.style.display = '';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            }
+
+            document.getElementById('submission-count').textContent = visibleCount;
+        }
+    </script>
 </body>
 </html>

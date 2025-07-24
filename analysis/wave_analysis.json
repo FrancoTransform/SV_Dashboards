@@ -1,0 +1,134 @@
+{
+  "company_name": "Wave",
+  "website": "https://wavelife.io",
+  "year_founded": "2021",
+  "description": "Wave transforms underused EAPs and fragmented mental health benefits into scalable, cost-effective coaching and behavioral care. We deliver high-impact, evidence-based support across the full spectrum of mental well-being\u2014from stress and burnout to menopause and chronic illness\u2014driving outcomes, engagement, and value for employers and their families.",
+  "problem_statement": "Millions face barriers to mental health care\u2014cost, access, stigma, or poor fit. Traditional EAPs and therapy networks are falling short. Untreated mental health issues drive absenteeism, attrition, and healthcare costs. Wave bridges this gap with tech-enabled, coaching-first care that delivers measurable outcomes, improved access, and reduced cost of care at scale.",
+  "pitch_deck_link": "https://www.beautiful.ai/player/-ORSEt8AlH5lCE6IwpNI",
+  "demo_link": "https://www.beautiful.ai/player/-ORJ14p1Lts9TE_32QmP",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: Our target customers include payors and enterprise employers, though we do also work with SMBs. The biggest pain point across employers is attracting & retaining top talent, while also increasing productivity in their employee population.\nMarket size: Our ideal customer profile is an enterprise employer. There are over 20,000 enterprise employers in the US."
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: Headspace, Talkspace, and Better Help are examples of competitors. Wave improves the model by: not leveraging a \u201cone-size fits all\u201d care model, avoiding a short term treatment focus, and leveraging certified coaches as front-line providers of care, truly opening access.\nOne-size-fits-all care: Many competitors rely on standardized therapy models with little personalization. Wave meets members where they are\u2014within hours. Whether someone is stressed, struggling, or in crisis, we deliver same-day support through app-based tools, certified coaching, or a licensed provider when needed.\nShort Term Focus: Many solutions prioritize symptom checklists and brief interventions over sustainable, preventative mental health support. Wave supports individuals with low, moderate and high-acuity needs. Our coaches deliver evidence-based care across acuity levels. \nLack of improvement to access: Many competitors leverage the same pool of licensed mental health providers and continue to weigh down the system. Wave is a coaching-first model, leveraging certified coaches to deliver outcomes immediately to employees in need of support, truly opening access.\nIn-market since: Yes - we brought our product to market in 2023. We spent the first two years in research & development, making sure the product (self-guided app + regular coaching sessions) worked, before we brought it to market."
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: We have seen significant growth in both B2B sales as well as our distribution channel & referral partnerships. We have added five new B2B clients in 2025, as well as twelve new partnership deals this year. We are also currently in final discussions with two large health plans, which would add 44M+ covered lives and includes strategic partnerships.\nCustomers: Our current sales pipeline spans three key verticals:B2B/Direct Employer Sales, Health Plans Partnerships, and Distribution Channel & Referral Partnerships. We have nearly thirty active clients including six B2B customers, nineteen distribution channel & referral partnerships & four health plans.\nPricing: We currently have five paying B2B clients - who are all paying Per Employee, Per Month (PEPM) model. In addition, all of our partnership end-users pay out of pocket or through insurance for 1:1 provider sessions. Provider sessions are billed between $95 - $133/session, depending on the partnership agreement."
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: Emily Wanderer, Director of Social Impact & Wellbeing at Sequoia, recommended us for the program. We then reached out to one of our founding investors, Allison Baum Gates, who also recommended us.\nReferral: Allison Baum Gates"
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Sarah Adler https://www.linkedin.com/in/drsarahadler/\nTech team: We have an internal team, led by our Chief Technology Officer, Ryan Weald. All of our technology is built by Wave employees."
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "In-network status across national insurance carriers is our largest barrier to success, although temporary. Employers + employees want to be able to use their current health plans to pay for care. We are currently in-network with 2 health plans and in contracting for multiple additional national plans.",
+    "As we scale, we're aware of a few key areas where additional knowledge, network access, or support would significantly accelerate our growth:\nHealth Plan Partnerships:\nWhile we\u2019re in late-stage conversations with two major payors, navigating the complexity of health plan partnerships, especially around deeper enterprise employer channel partnership guidance would be valuable.\nB2B Development & Expansion:\nOur early employer traction has been strong, but we\u2019re still refining our go to market approach, pricing models, and demonstrating our capacity to serve diverse populations at scale.\nStrategic Partnerships & Distribution Scaling:\nWe\u2019ve had success building initial referral and channel partnerships, but we\u2019re looking to scale this further."
+  ],
+  "founder_profile": {
+    "name": "[Sarah Adler https://www.linkedin.com/in/drsarahadler/](https://www.linkedin.com/in/drsarahadler/)",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "One major learning came from observing the broader behavioral health landscape: despite widespread adoption, many solutions lacked meaningful outcomes data. Employers and payors were investing heavily in mental health benefits but couldn\u2019t measure their impact - leading to questions around ROI and long-term value.\nIn response, we spent two years in research and development before launching Wave, ensuring our stepped-care model could deliver both fast access and measurable outcomes. From day one, we\u2019ve tracked clinical and engagement metrics - like emotional resilience, symptom reduction, and utilization - because we knew outcomes would be essential for driving adoption and proving ROI. This commitment has become a key differentiator and foundation for our success with employers, health plan, and partnership channels."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "We aim to form strategic partnerships with Fortune 100 employers, specifically focused on demonstrating Wave\u2019s capacity to serve diverse populations at scale. We also look to refine our go-to-market and pricing  models through employer input."
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "In-network status across national insurance carriers is our largest barrier to success, although temporary. Employers + employees want to be able to use their current health plans to pay for care. We are currently in-network with 2 health plans and in contracting for multiple additional national plans.",
+      "context": "Wave",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "As we scale, we're aware of a few key areas where additional knowledge, network access, or support would significantly accelerate our growth:\nHealth Plan Partnerships:\nWhile we\u2019re in late-stage conversations with two major payors, navigating the complexity of health plan partnerships, especially around deeper enterprise employer channel partnership guidance would be valuable.\nB2B Development & Expansion:\nOur early employer traction has been strong, but we\u2019re still refining our go to market approach, pricing models, and demonstrating our capacity to serve diverse populations at scale.\nStrategic Partnerships & Distribution Scaling:\nWe\u2019ve had success building initial referral and channel partnerships, but we\u2019re looking to scale this further.",
+      "context": "Wave",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "Wave positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "Wave": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "Wave is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "company_name": "Guaranteed Health, Inc.",
+  "website": "https://www.onguaranteed.com",
+  "year_founded": "2021",
+  "description": "Guaranteed is a tech-enabled hospice care provider partnering with payors and providers to offer value-based arrangements for seriously ill patients nearing end-of-life.",
+  "problem_statement": "Guaranteed addresses the challenges in end-of-life care, aiming to provide timely identification of patients in need, personalized care navigation, and culturally sensitive hospice care recommendations.",
+  "pitch_deck_link": "https://docsend.com/view/8cefkh3ja73e6fuc",
+  "demo_link": "https://docsend.com/view/8cefkh3ja73e6fuc",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: Guaranteed targets payors and providers involved in value-based care arrangements, focusing on seriously ill patients nearing end-of-life. The biggest pain point is the lack of timely identification leading to exorbitant health related costs.\nMarket size: The hospice care market is projected to grow from $34.5 billion to $64.7 billion by 2030."
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: Competitors include traditional hospice care providers. Many lack the integration of technology for timely patient identification and do not offer culturally tailored care recommendations, leading to suboptimal patient experiences.\nIn-market since: Yes, Guaranteed is operational and provides direct patient care in the home since Summer 2022."
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: We have made improvements to our MVP product and have moved several partnerships down the funnel.\nCustomers: We currently have 1 customer. Our sales pipeline lasts around 6 months to determine needs, solutions, and implementation.\nPricing: All of our partnerships are paying a variable fee based on the services provided."
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: Investor\nReferral: nan"
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Jessica McGlory, Founder & CEO\nLinkedIn: https://www.linkedin.com/in/jessicamcglory\nTech team: Guaranteed's technology and product are developed in-house by their integrated team."
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "Our greatest barrier is that we are disrupting an industry that has resisted change from the beginning and is not well known in general as an option for healthcare. Everyday, we fight the stigma that comes along with death and dying.",
+    "This part of healthcare is not widely talked about so our network for opportunities is small."
+  ],
+  "founder_profile": {
+    "name": "[Jessica McGlory](https://www.linkedin.com/in/jessicamcglory)",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "You have to build for what people want and will use, not always what they need. If you build it, they still might not come."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "Participation in the program would greatly help us expand partnerships, enhance service offerings, and accelerate growth by learning from others."
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "Our greatest barrier is that we are disrupting an industry that has resisted change from the beginning and is not well known in general as an option for healthcare. Everyday, we fight the stigma that comes along with death and dying.",
+      "context": "Guaranteed Health, Inc.",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "This part of healthcare is not widely talked about so our network for opportunities is small.",
+      "context": "Guaranteed Health, Inc.",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "Guaranteed Health, Inc. positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "Guaranteed Health, Inc.": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "Guaranteed Health, Inc. is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

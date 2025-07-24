@@ -1,139 +1,173 @@
 {
-    "company_name": "Multiply",
-    "website": "https://www.multiplymortgage.com",
-    "year_founded": "2022",
-    "description": "Multiply offers a no-cost mortgage benefit to help employees buy homes with interest rate discounts, expert advisors, and personalized education—integrated as a financial wellness program.",
-    "problem_statement": "Home ownership feels out of reach for many due to rising rates, housing costs, and a confusing process. Multiply addresses this by embedding a mortgage program into employee benefits, giving workers access to below-market interest rates, guidance from experts, and better financial outcomes—at no cost to them or their employer.",
-    "pitch_deck_link": "https://docsend.com/view/9bxwwvz6xjh4hz5h",
-    "demo_link": "https://www.multiplymortgage.com/anduril",
-    "scoring": {
-      "market_opportunity": {
-        "score": 5,
-        "justification": "Mortgage is a $1.8T annual market. Multiply's wedge—workplace financial wellness—targets an underserved and highly valuable acquisition channel."
-      },
-      "product_differentiation": {
-        "score": 5,
-        "justification": "Unlike legacy affinity programs, Multiply delivers real interest rate discounts and expert guidance, leveraging a fintech-native, software-powered origination system."
-      },
-      "go_to_market_traction": {
-        "score": 5,
-        "justification": "28 live company customers and 29 in pipeline. Tripled employer programs in 6 months. Short sales cycles due to zero cost, high ROI pitch."
-      },
-      "ecosystem_signals": {
-        "score": 5,
-        "justification": "Funded by Kleiner Perkins, A* Capital (Kevin Hartz, Gautam Gupta), and others. Early feedback from employers and employees is highly positive, including direct success testimonials."
-      },
-      "founder_team_strength": {
-        "score": 5,
-        "justification": "Strong fintech pedigrees from Square, Uber, Opendoor, and DoorDash. Kevin Hartz (Eventbrite, A*) involved early. Michael White has proven experience scaling fintech products."
-      },
-      "strategic_fit": {
-        "score": 5,
-        "justification": "Aligned with SV's fintech-for-work thesis. Multiply enhances retention, supports DEI goals via home ownership access, and fits cleanly into benefits stack."
-      }
+  "company_name": "Multiply",
+  "website": "https://www.multiplymortgage.com",
+  "year_founded": "2022",
+  "description": "Multiply offers a no-cost mortgage benefit to help employees buy homes with interest rate discounts, expert advisors, and personalized education\u2014integrated as a financial wellness program.",
+  "problem_statement": "Home ownership feels out of reach for many due to rising rates, housing costs, and a confusing process. Multiply addresses this by embedding a mortgage program into employee benefits, giving workers access to below-market interest rates, guidance from experts, and better financial outcomes\u2014at no cost to them or their employer.",
+  "pitch_deck_link": "https://docsend.com/view/9bxwwvz6xjh4hz5h",
+  "demo_link": "https://www.multiplymortgage.com/anduril",
+  "scoring": {
+    "market_opportunity": {
+      "score": 5,
+      "justification": "Mortgage is a $1.8T annual market. Multiply's wedge\u2014workplace financial wellness\u2014targets an underserved and highly valuable acquisition channel."
     },
-    "red_flags": [
-      "Relatively young in its new focus area (pivoted from equity liquidity products).",
-      "Revenue depends on mortgage cycles and interest rate environment.",
-      "Distribution currently relies heavily on direct sales—needs channel scaling."
-    ],
-    "founder_profile": {
-      "name": "Michael White (CEO), Gautam Gupta (Board Member)",
-      "highlights": [
-        "Michael previously worked at Square and DoorDash. Gautam was CFO at Opendoor. Both bring deep product, GTM, and housing-market experience.",
-        "Multiply was incubated by A* Capital (Kevin Hartz, Gautam Gupta).",
-        "Team includes experienced mortgage and fintech operators, enabling both compliance and growth.",
-        "The company pivoted to mortgages based on clear usage insights from a prior liquidity product—demonstrating strong customer-centric decision-making."
-      ]
+    "product_differentiation": {
+      "score": 5,
+      "justification": "Unlike legacy affinity programs, Multiply delivers real interest rate discounts and expert guidance, leveraging a fintech-native, software-powered origination system."
     },
-    "founder_impact_assessment": [
-      "Identified homeownership as a critical wedge within financial wellness after seeing usage patterns from an unrelated offering.",
-      "Designed a benefit that is simultaneously free to the employer and life-changing for the employee—an ideal value prop.",
-      "Built a fast-growing GTM engine with short sales cycles and quick employer onboarding.",
-      "Earned trust from top-tier investors and founders early, including Kleiner Perkins and Kevin Hartz."
-    ],
-    "sv_thesis_fit": {
-      "sector_fit": {
-        "score": 5,
-        "justification": "Strong fit for SV's workforce-focused fintech thesis, addressing equity, retention, and employee financial outcomes."
-      },
-      "employer_ecosystem_leverage": {
-        "score": 5,
-        "justification": "Benefits leaders, brokers, and PEOs are core SV targets. Multiply is highly relevant to them as a zero-cost, high-impact perk."
-      },
-      "gtm_support_potential": {
-        "score": 5,
-        "justification": "SV can help accelerate Multiply's channel strategy, particularly via benefits consultants, brokers, and HCM platforms."
-      },
-      "strategic_partner_amplification": {
-        "score": 5,
-        "justification": "Fits naturally into other SV portfolio companies' offerings (e.g., wellness, financial coaching, employer infrastructure)."
-      },
-      "acceleration_readiness": {
-        "score": 5,
-        "justification": "Product is launched, employer partners are live, and momentum is strong. Ready to scale through partnerships and network effects."
-      }
+    "go_to_market_traction": {
+      "score": 5,
+      "justification": "28 live company customers and 29 in pipeline. Tripled employer programs in 6 months. Short sales cycles due to zero cost, high ROI pitch."
     },
-    "successes_and_areas_of_investigation": [
+    "ecosystem_signals": {
+      "score": 5,
+      "justification": "Funded by Kleiner Perkins, A* Capital (Kevin Hartz, Gautam Gupta), and others. Early feedback from employers and employees is highly positive, including direct success testimonials."
+    },
+    "founder_team_strength": {
+      "score": 5,
+      "justification": "Strong fintech pedigrees from Square, Uber, Opendoor, and DoorDash. Kevin Hartz (Eventbrite, A*) involved early. Michael White has proven experience scaling fintech products."
+    },
+    "strategic_fit": {
+      "score": 5,
+      "justification": "Aligned with SV's fintech-for-work thesis. Multiply enhances retention, supports DEI goals via home ownership access, and fits cleanly into benefits stack."
+    }
+  },
+  "red_flags": [
+    "Relatively young in its new focus area (pivoted from equity liquidity products).",
+    "Revenue depends on mortgage cycles and interest rate environment.",
+    "Distribution currently relies heavily on direct sales\u2014needs channel scaling."
+  ],
+  "founder_profile": {
+    "name": "Michael White (CEO), Gautam Gupta (Board Member)",
+    "highlights": [
+      "Michael previously worked at Square and DoorDash. Gautam was CFO at Opendoor. Both bring deep product, GTM, and housing-market experience.",
+      "Multiply was incubated by A* Capital (Kevin Hartz, Gautam Gupta).",
+      "Team includes experienced mortgage and fintech operators, enabling both compliance and growth.",
+      "The company pivoted to mortgages based on clear usage insights from a prior liquidity product\u2014demonstrating strong customer-centric decision-making."
+    ]
+  },
+  "founder_impact_assessment": [
+    "Identified homeownership as a critical wedge within financial wellness after seeing usage patterns from an unrelated offering.",
+    "Designed a benefit that is simultaneously free to the employer and life-changing for the employee\u2014an ideal value prop.",
+    "Built a fast-growing GTM engine with short sales cycles and quick employer onboarding.",
+    "Earned trust from top-tier investors and founders early, including Kleiner Perkins and Kevin Hartz."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 5,
+      "justification": "Strong fit for SV's workforce-focused fintech thesis, addressing equity, retention, and employee financial outcomes."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 5,
+      "justification": "Benefits leaders, brokers, and PEOs are core SV targets. Multiply is highly relevant to them as a zero-cost, high-impact perk."
+    },
+    "gtm_support_potential": {
+      "score": 5,
+      "justification": "SV can help accelerate Multiply's channel strategy, particularly via benefits consultants, brokers, and HCM platforms."
+    },
+    "strategic_partner_amplification": {
+      "score": 5,
+      "justification": "Fits naturally into other SV portfolio companies' offerings (e.g., wellness, financial coaching, employer infrastructure)."
+    },
+    "acceleration_readiness": {
+      "score": 5,
+      "justification": "Product is launched, employer partners are live, and momentum is strong. Ready to scale through partnerships and network effects."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Success",
+      "description": "Launched mortgage benefit in July 2024 and quickly scaled to 28 employer partnerships.",
+      "context": "GTM traction",
+      "outcome": "Validated sales motion, fast adoption, strong value proposition."
+    },
+    {
+      "type": "Success",
+      "description": "Pivoted successfully from liquidity loans to mortgage benefits after observing real-world usage behavior.",
+      "context": "Product-market fit",
+      "outcome": "Demonstrates strong founder intuition and customer-driven strategy."
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "Channel partner strategy to scale employer acquisition (e.g., brokers, PEOs, benefits platforms).",
+      "context": "Distribution",
+      "outcome": "Currently reliant on direct sales; channel leverage will be key to scale."
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "Sensitivity to mortgage rate cycles and real estate market conditions.",
+      "context": "Market risk",
+      "outcome": "May require pricing or revenue model flexibility if rates rise or transaction volumes drop."
+    }
+  ],
+  "category_comparison": "Multiply competes with legacy corporate mortgage affinity programs and fintech lenders. Its edge is delivering actual interest rate savings, not just closing fee discounts, and embedding as a no-cost benefit. Unlike generic lenders, Multiply builds employer trust and a better UX for the employee.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
       {
-        "type": "Success",
-        "description": "Launched mortgage benefit in July 2024 and quickly scaled to 28 employer partnerships.",
-        "context": "GTM traction",
-        "outcome": "Validated sales motion, fast adoption, strong value proposition."
+        "name": "Traditional Affinity Programs (e.g. Wells Fargo, Rocket Mortgage for employees)",
+        "description": "Offer minor discounts but lack rate competitiveness or brand trust.",
+        "comparison": "Multiply offers material savings and tech-driven speed. It feels like a real benefit, not a vendor plug."
       },
       {
-        "type": "Success",
-        "description": "Pivoted successfully from liquidity loans to mortgage benefits after observing real-world usage behavior.",
-        "context": "Product-market fit",
-        "outcome": "Demonstrates strong founder intuition and customer-driven strategy."
+        "name": "Better.com, SoFi, other fintech mortgage originators",
+        "description": "Compete on UX and rate, but not via employer channels.",
+        "comparison": "Multiply enters via workplace trust and uses employer endorsement to drive engagement."
       },
       {
-        "type": "Area of Investigation",
-        "description": "Channel partner strategy to scale employer acquisition (e.g., brokers, PEOs, benefits platforms).",
-        "context": "Distribution",
-        "outcome": "Currently reliant on direct sales; channel leverage will be key to scale."
-      },
-      {
-        "type": "Area of Investigation",
-        "description": "Sensitivity to mortgage rate cycles and real estate market conditions.",
-        "context": "Market risk",
-        "outcome": "May require pricing or revenue model flexibility if rates rise or transaction volumes drop."
+        "name": "Home ownership platforms like Landed, Divvy",
+        "description": "Target niche segments like educators or rent-to-own.",
+        "comparison": "Multiply targets all employees, delivers clear financial savings, and aligns to HR cost/value goals."
       }
     ],
-    "category_comparison": "Multiply competes with legacy corporate mortgage affinity programs and fintech lenders. Its edge is delivering actual interest rate savings, not just closing fee discounts, and embedding as a no-cost benefit. Unlike generic lenders, Multiply builds employer trust and a better UX for the employee.",
-    "category_comparison_expanded": {
-      "primary_competitors": [
-        {
-          "name": "Traditional Affinity Programs (e.g. Wells Fargo, Rocket Mortgage for employees)",
-          "description": "Offer minor discounts but lack rate competitiveness or brand trust.",
-          "comparison": "Multiply offers material savings and tech-driven speed. It feels like a real benefit, not a vendor plug."
-        },
-        {
-          "name": "Better.com, SoFi, other fintech mortgage originators",
-          "description": "Compete on UX and rate, but not via employer channels.",
-          "comparison": "Multiply enters via workplace trust and uses employer endorsement to drive engagement."
-        },
-        {
-          "name": "Home ownership platforms like Landed, Divvy",
-          "description": "Target niche segments like educators or rent-to-own.",
-          "comparison": "Multiply targets all employees, delivers clear financial savings, and aligns to HR cost/value goals."
-        }
+    "competitive_matrix": {
+      "columns": [
+        "Interest Rate Discount",
+        "Employer-Sponsored",
+        "Zero Cost to Company",
+        "Embedded Education",
+        "Compliance-Ready",
+        "Proven GTM"
       ],
-      "competitive_matrix": {
-        "columns": ["Interest Rate Discount", "Employer-Sponsored", "Zero Cost to Company", "Embedded Education", "Compliance-Ready", "Proven GTM"],
-        "rows": {
-          "Multiply": [true, true, true, true, true, true],
-          "Affinity Programs": [false, true, true, false, true, "partial"],
-          "Better.com / SoFi": ["partial", false, false, false, true, true],
-          "Landed / Divvy": [false, false, false, "partial", "partial", false]
-        }
-      },
-      "conclusion": "Multiply has found a unique wedge in employee financial wellness by solving a tangible, high-stakes problem: home buying. The team has the fintech expertise and investor backing to scale rapidly. Strategic GTM support through SV partnerships could unlock exponential reach."
+      "rows": {
+        "Multiply": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "Affinity Programs": [
+          false,
+          true,
+          true,
+          false,
+          true,
+          "partial"
+        ],
+        "Better.com / SoFi": [
+          "partial",
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "Landed / Divvy": [
+          false,
+          false,
+          false,
+          "partial",
+          "partial",
+          false
+        ]
+      }
     },
-    "final_recommendation": {
-      "status": "Advance",
-      "rationale": "Multiply is a breakout fintech solution that embeds a high-value benefit into the workplace without cost to the employer. Strong founder market fit, sharp GTM, and tangible impact make it a great match for SV's thesis and network."
-    },
-    "submitted_at": "2025-04-29 10:30:00"
+    "conclusion": "Multiply has found a unique wedge in employee financial wellness by solving a tangible, high-stakes problem: home buying. The team has the fintech expertise and investor backing to scale rapidly. Strategic GTM support through SV partnerships could unlock exponential reach."
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Multiply is a breakout fintech solution that embeds a high-value benefit into the workplace without cost to the employer. Strong founder market fit, sharp GTM, and tangible impact make it a great match for SV's thesis and network."
+  },
+  "submitted_at": "2025-04-29 10:30:00"
 }
-  
