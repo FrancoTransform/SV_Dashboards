@@ -11,6 +11,8 @@ from flask import Flask, render_template, jsonify, request, redirect, url_for, s
 import argparse
 import secrets
 from functools import wraps
+from dotenv import load_dotenv
+load_dotenv()
 
 # Project structure constants
 PROJECT_ROOT = Path(__file__).parent
@@ -25,7 +27,7 @@ TEMPLATE_PATH = TEMPLATE_DIR / "memo_template.md"
 
 # Initialize Flask
 app = Flask(__name__)
-client = OpenAI()
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Add a secret key for session management
 app.secret_key = secrets.token_hex(16)
@@ -533,6 +535,57 @@ def submission_detail(company_name):
                           tried_filenames=possible_filenames,
                           available_files=[f.name for f in ANALYSIS_DIR.glob('*_analysis.json')]), 404
 
+@app.route('/generate_analysis')
+@login_required
+def generate_analysis():
+    """Generate analysis for all companies in the CSV"""
+    try:
+        submissions = process_submissions()
+        return jsonify({
+            'status': 'success',
+            'message': f'Generated analysis for {len(submissions)} companies',
+            'companies': [s.get('company_name', 'Unknown') for s in submissions]
+        })
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'message': str(e)
+        }), 500
+
+@app.route('/generate_single/<company_name>')
+@login_required
+def generate_single_analysis(company_name):
+    """Generate analysis for a single company"""
+    try:
+        # Read CSV and find the company
+        with open(CSV_PATH, 'r', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                if row['Company Name'].lower().replace(' ', '_') == company_name.lower():
+                    analysis = analyze_submission(row)
+                    
+                    # Save analysis
+                    analysis_file = ANALYSIS_DIR / f"{company_name.lower()}_analysis.json"
+                    with open(analysis_file, 'w', encoding='utf-8') as f:
+                        json.dump(analysis, f, indent=2)
+                    
+                    return jsonify({
+                        'status': 'success',
+                        'message': f'Generated analysis for {row["Company Name"]}',
+                        'company': row['Company Name']
+                    })
+        
+        return jsonify({
+            'status': 'error',
+            'message': f'Company {company_name} not found in CSV'
+        }), 404
+        
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'message': str(e)
+        }), 500
+
 def start_server(host='127.0.0.1', port=5000, debug=False):
     """Start the Flask web server"""
     setup_directories()
@@ -573,6 +626,9 @@ def page_not_found(e):
                           error_message="The requested page was not found.",
                           tried_filenames=[],
                           available_files=[f.name for f in ANALYSIS_DIR.glob('*_analysis.json')]), 404
+
+# For Vercel deployment
+app_instance = app
 
 if __name__ == "__main__":
     main()
