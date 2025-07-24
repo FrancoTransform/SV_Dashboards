@@ -1,15 +1,21 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "sva.py",
-      "use": "@vercel/python"
+  "functions": {
+    "api/index.py": {
+      "runtime": "@vercel/python"
+    },
+    "api/test.py": {
+      "runtime": "@vercel/python"
     }
-  ],
+  },
   "routes": [
     {
+      "src": "/test",
+      "dest": "/api/test.py"
+    },
+    {
       "src": "/(.*)",
-      "dest": "sva.py"
+      "dest": "/api/index.py"
     }
   ]
 }

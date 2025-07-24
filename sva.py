@@ -1,6 +1,8 @@
 
 # SemperVirens Accelerator Application Analysis Script (MVP)
 
+print("Starting sva.py import...")
+
 import csv
 import os
 from datetime import datetime
@@ -12,7 +14,10 @@ import argparse
 import secrets
 from functools import wraps
 from dotenv import load_dotenv
+
+print("Loading environment variables...")
 load_dotenv()
+print("Environment variables loaded")
 
 # Project structure constants
 PROJECT_ROOT = Path(__file__).parent
@@ -26,8 +31,26 @@ CSV_PATH = DATA_DIR / "SemperVirens Accelerator Applications - SemperVirens Acce
 TEMPLATE_PATH = TEMPLATE_DIR / "memo_template.md"
 
 # Initialize Flask
+print("Initializing Flask app...")
 app = Flask(__name__)
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+print("Flask app initialized")
+
+# Initialize OpenAI client with error handling
+print("Checking OpenAI API key...")
+openai_api_key = os.getenv('OPENAI_API_KEY')
+if not openai_api_key:
+    print("WARNING: OPENAI_API_KEY environment variable not set")
+    client = None
+else:
+    try:
+        print("Initializing OpenAI client...")
+        client = OpenAI(api_key=openai_api_key)
+        print("OpenAI client initialized successfully")
+    except Exception as e:
+        print(f"ERROR: Failed to initialize OpenAI client: {e}")
+        client = None
+
+
 
 # Add a secret key for session management
 app.secret_key = secrets.token_hex(16)
@@ -64,11 +87,25 @@ def login_required(view_func):
 
 def setup_directories():
     """Create necessary directories if they don't exist"""
-    for directory in [DATA_DIR, TEMPLATE_DIR, OUTPUT_DIR, ANALYSIS_DIR]:
-        directory.mkdir(exist_ok=True)
+    try:
+        for directory in [DATA_DIR, TEMPLATE_DIR, OUTPUT_DIR, ANALYSIS_DIR]:
+            directory.mkdir(exist_ok=True)
+    except Exception as e:
+        print(f"Warning: Could not create directories: {e}")
+        # In serverless environments, we might not be able to create directories
+
+# Ensure directories exist (with error handling for serverless)
+try:
+    setup_directories()
+    print("Directories setup completed")
+except Exception as e:
+    print(f"Warning: Directory setup failed: {e}")
 
 def analyze_submission(submission_data):
     """Process submission through OpenAI API to generate structured analysis"""
+    if client is None:
+        raise Exception("OpenAI client not initialized. Please check your OPENAI_API_KEY environment variable.")
+
     prompt = f"""
     Analyze this startup submission for the SemperVirens Accelerator Program. Provide a thorough, well-researched analysis. Return ONLY a JSON object (no markdown, no explanatory text) with the following structure:
 
@@ -286,30 +323,93 @@ def process_submissions():
     print("Finished processing submissions")
     return submissions
 
+# Debug route (no login required)
+@app.route('/debug')
+def debug_info():
+    """Debug information endpoint"""
+    try:
+        import platform
+        return jsonify({
+            'python_version': platform.python_version(),
+            'platform': platform.platform(),
+            'cwd': os.getcwd(),
+            'files_in_cwd': os.listdir('.'),
+            'env_vars': {k: v for k, v in os.environ.items() if 'KEY' in k or 'VERCEL' in k},
+            'paths': {
+                'PROJECT_ROOT': str(PROJECT_ROOT),
+                'DATA_DIR': str(DATA_DIR),
+                'ANALYSIS_DIR': str(ANALYSIS_DIR),
+                'CSV_PATH': str(CSV_PATH)
+            }
+        })
+    except Exception as e:
+        return jsonify({
+            'error': str(e)
+        }), 500
+
+# Health check route (no login required)
+@app.route('/health')
+def health_check():
+    """Simple health check endpoint"""
+    try:
+        return jsonify({
+            'status': 'healthy',
+            'openai_client': 'initialized' if client else 'not_initialized',
+            'openai_key_set': bool(os.getenv('OPENAI_API_KEY')),
+            'data_dir_exists': DATA_DIR.exists() if DATA_DIR else False,
+            'analysis_dir_exists': ANALYSIS_DIR.exists() if ANALYSIS_DIR else False,
+            'csv_file_exists': CSV_PATH.exists() if CSV_PATH else False,
+            'current_directory': str(Path.cwd()),
+            'project_root': str(PROJECT_ROOT),
+            'environment': 'vercel' if os.getenv('VERCEL') else 'local'
+        })
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'error': str(e)
+        }), 500
+
 # Flask routes
 @app.route('/')
 @login_required
 def index():
     """Display list of all submissions"""
-    submissions = []
-    print("\n=== Loading Submissions ===")
-    print(f"Looking in: {ANALYSIS_DIR}")
-    
-    for file in ANALYSIS_DIR.glob('*_analysis.json'):
-        print(f"\nProcessing file: {file}")
-        with open(file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            if isinstance(data, dict):
-                original_name = data.get('company_name', '')
-                data['url_company_name'] = original_name.replace(' ', '').replace('-', '').replace('_', '').lower()
-                print(f"Company name processing:")
-                print(f"  Original: '{original_name}'")
-                print(f"  URL-safe: '{data['url_company_name']}'")
-            submissions.append(data)
-    
-    print(f"\nTotal submissions: {len(submissions)}")
-    print("=== End Loading ===\n")
-    return render_template('index.html', submissions=submissions)
+    try:
+        submissions = []
+        print("\n=== Loading Submissions ===")
+        print(f"Looking in: {ANALYSIS_DIR}")
+
+        # Ensure analysis directory exists
+        if not ANALYSIS_DIR.exists():
+            print(f"Analysis directory does not exist: {ANALYSIS_DIR}")
+            return render_template('index.html', submissions=[])
+
+        for file in ANALYSIS_DIR.glob('*_analysis.json'):
+            print(f"\nProcessing file: {file}")
+            try:
+                with open(file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    if isinstance(data, dict):
+                        original_name = data.get('company_name', '')
+                        data['url_company_name'] = original_name.replace(' ', '').replace('-', '').replace('_', '').lower()
+                        print(f"Company name processing:")
+                        print(f"  Original: '{original_name}'")
+                        print(f"  URL-safe: '{data['url_company_name']}'")
+                    submissions.append(data)
+            except Exception as e:
+                print(f"Error processing file {file}: {e}")
+                continue
+
+        print(f"\nTotal submissions: {len(submissions)}")
+        print("=== End Loading ===\n")
+        return render_template('index.html', submissions=submissions)
+    except Exception as e:
+        print(f"Error in index route: {e}")
+        return render_template('error.html',
+                              company_name="Unknown",
+                              error_message=f"Error loading submissions: {str(e)}",
+                              tried_filenames=[],
+                              available_files=[]), 500
 
 def normalize_company_name(name):
     """Convert company name to lowercase and remove spaces"""
@@ -629,6 +729,8 @@ def page_not_found(e):
 
 # For Vercel deployment
 app_instance = app
+
+print("sva.py module loaded successfully")
 
 if __name__ == "__main__":
     main()
