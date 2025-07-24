@@ -279,55 +279,158 @@ def analyze_submission_6ts(submission_data):
         "problem_statement": "problem they're solving",
         "pitch_deck_link": "extracted from application",
         "demo_link": "extracted from application",
-        "6Ts": {{
-            "team": {{
-                "score": 1-5,
-                "justification": "Evaluate founding and leadership team's execution ability. Highlight: LinkedIn profiles, prior exits, domain expertise, storytelling strength, specific prior wins, scaling experience, complementary skills, leadership signals. 5 = proven repeat founders with relevant exits; 1 = no relevant experience.",
-                "founder_profile": {{
-                    "name": "founder name(s)",
-                    "highlights": ["key founder achievements, background, and execution signals"]
-                }},
-                "founder_impact_assessment": ["specific examples of founder impact, prior wins, scaling experience, and leadership signals"],
-                "red_flags": ["team-related concerns"]
+        "team": {{
+            "score": 1-5,
+            "justification": "Comprehensive evaluation of founding and leadership team's execution ability, domain expertise, prior wins, scaling experience, complementary skills, and leadership signals. Include detailed analysis of each founder's background, achievements, and track record.",
+            "company_assessment": {{
+                "business_model_strength": "Detailed analysis of revenue model, unit economics, scalability, and competitive positioning",
+                "market_positioning": "How the company positions itself in the market, unique value proposition, and differentiation strategy",
+                "execution_capability": "Evidence of team's ability to execute on vision, deliver products, and scale operations",
+                "strategic_vision": "Quality of long-term vision, market understanding, and strategic planning"
             }},
-            "tam": {{
-                "score": 1-5,
-                "justification": "Measure market size, growth, and opportunity. Highlight: $ size, CAGR, whitespace, willingness-to-pay evidence, buyer personas, competitive whitespace. 5 = >$5B market with tailwinds; 1 = very small or shrinking market.",
-                "red_flags": ["market-related concerns"]
-            }},
-            "technology": {{
-                "score": 1-5,
-                "justification": "Assess defensibility and differentiation. Highlight: unique algorithms, defensibility, ease of integration, proprietary data, IP, integrations, scalability. 5 = proprietary, hard to replicate; 1 = commoditized tech.",
-                "red_flags": ["technology-related concerns"]
-            }},
-            "traction": {{
-                "score": 1-5,
-                "justification": "Evaluate product-market fit signals and GTM execution. Highlight: quantitative traction, growth %, notable logos, revenue, customer count, retention, partnerships. 5 = >$1M ARR or strong PMF; 1 = no product/traction.",
-                "successes_and_areas_of_investigation": [
+            "founder_deep_dive": [
+                {{
+                    "name": "Founder Name",
+                    "role": "Title/Role",
+                    "linkedin": "LinkedIn URL",
+                    "background": "Detailed educational and professional background",
+                    "domain_expertise": "Relevant industry and technical expertise",
+                    "previous_startups": "Prior entrepreneurial experience with outcomes",
+                    "notable_achievements": "Awards, recognition, significant milestones",
+                    "leadership_signals": "Evidence of leadership capability and team building",
+                    "track_record": [
+                        {{
+                            "company": "Previous company name",
+                            "role": "Role at company",
+                            "outcome": "Exit, acquisition, failure, ongoing",
+                            "learnings": "Key learnings and relevance to current venture"
+                        }}
+                    ]
+                }}
+            ],
+            "category_comparison": {{
+                "competitive_landscape": "Overview of competitive landscape and key players",
+                "primary_competitors": [
                     {{
-                        "type": "Success or Area of Investigation",
-                        "description": "specific achievement or concern",
-                        "context": "background context",
-                        "outcome": "result or implication"
+                        "name": "Competitor name",
+                        "description": "What they do and their positioning",
+                        "strengths": "Their key advantages",
+                        "weaknesses": "Their limitations or gaps",
+                        "comparison": "How this company compares and differentiates"
                     }}
                 ],
-                "red_flags": ["traction-related concerns"]
+                "competitive_matrix": {{
+                    "columns": ["Key differentiator 1", "Key differentiator 2", "Key differentiator 3"],
+                    "rows": {{
+                        "{company_name}": [true, false, true],
+                        "Competitor 1": [false, true, false],
+                        "Competitor 2": [true, false, false]
+                    }}
+                }},
+                "competitive_positioning": "Overall assessment of competitive positioning and sustainable advantages"
             }},
-            "timing": {{
-                "score": 1-5,
-                "justification": "Determine macro alignment and tailwinds. Highlight: catalysts, risks of early/late entry, cultural shifts, regulatory changes, tech cost curves, buyer shifts. 5 = strong tailwinds; 1 = poor timing.",
-                "red_flags": ["timing-related concerns"]
-            }},
-            "terms": {{
-                "score": 1-5,
-                "justification": "Assess raise structure and valuation fit. Highlight: alignment with SV focus (<$15M post-money seed/pre-seed), round stage, post-money valuation, ownership potential. 5 = ideal stage/valuation; 1 = uninvestable terms.",
-                "red_flags": ["terms-related concerns"]
-            }}
+            "red_flags": ["Team-related concerns and risks"]
         }},
-        "category_comparison": "comparison to other companies in similar category",
+        "tam": {{
+            "score": 1-5,
+            "justification": "Comprehensive market size analysis including TAM, SAM, SOM calculations, market growth rates, buyer willingness-to-pay evidence, and competitive whitespace opportunities.",
+            "market_analysis": {{
+                "total_addressable_market": "TAM size with supporting data and methodology",
+                "serviceable_addressable_market": "SAM analysis and company's realistic market capture",
+                "serviceable_obtainable_market": "SOM projections based on go-to-market strategy",
+                "market_growth_rate": "Historical and projected CAGR with supporting trends",
+                "market_dynamics": "Key trends, drivers, and forces shaping the market"
+            }},
+            "customer_analysis": {{
+                "buyer_personas": "Detailed profiles of target customers and decision makers",
+                "willingness_to_pay": "Evidence of customer willingness to pay and price sensitivity",
+                "customer_acquisition_cost": "Analysis of CAC and customer acquisition dynamics",
+                "customer_lifetime_value": "LTV analysis and retention characteristics"
+            }},
+            "red_flags": ["Market-related concerns and risks"]
+        }},
+        "technology": {{
+            "score": 1-5,
+            "justification": "Assessment of technical defensibility, differentiation, scalability, and competitive moats. Analyze proprietary algorithms, IP portfolio, integration capabilities, and technical barriers to entry.",
+            "technical_assessment": {{
+                "core_technology": "Description of core technology and technical approach",
+                "defensibility": "Analysis of technical moats and barriers to replication",
+                "intellectual_property": "Patents, trade secrets, and IP protection strategy",
+                "scalability": "Technical architecture's ability to scale with growth",
+                "integration_capabilities": "Ease of integration with existing systems and platforms"
+            }},
+            "competitive_advantage": {{
+                "unique_algorithms": "Proprietary algorithms or technical innovations",
+                "data_advantages": "Proprietary data sources or network effects",
+                "technical_barriers": "Barriers preventing competitors from replicating solution",
+                "development_velocity": "Speed of technical development and iteration"
+            }},
+            "red_flags": ["Technology-related concerns and risks"]
+        }},
+        "traction": {{
+            "score": 1-5,
+            "justification": "Evaluation of product-market fit signals, growth metrics, customer validation, and go-to-market execution. Focus on quantitative traction, retention rates, and scaling indicators.",
+            "growth_metrics": {{
+                "revenue_growth": "Revenue trajectory, ARR/MRR growth rates, and projections",
+                "customer_metrics": "Customer count, acquisition rate, and growth trends",
+                "retention_analysis": "Customer retention, churn rates, and cohort analysis",
+                "unit_economics": "CAC, LTV, payback periods, and contribution margins"
+            }},
+            "market_validation": {{
+                "customer_feedback": "Qualitative feedback and satisfaction indicators",
+                "product_market_fit": "Evidence of strong PMF and customer demand",
+                "notable_customers": "Key customers, logos, and case studies",
+                "partnerships": "Strategic partnerships and channel relationships"
+            }},
+            "successes_and_areas_of_investigation": [
+                {{
+                    "type": "Success or Area of Investigation",
+                    "description": "Specific achievement or concern",
+                    "context": "Background context and circumstances",
+                    "outcome": "Results, implications, and next steps"
+                }}
+            ],
+            "red_flags": ["Traction-related concerns and risks"]
+        }},
+        "timing": {{
+            "score": 1-5,
+            "justification": "Analysis of macro timing, market readiness, regulatory environment, and competitive timing. Assess catalysts, tailwinds, and risks of early/late market entry.",
+            "market_timing": {{
+                "market_readiness": "Assessment of market maturity and readiness for solution",
+                "catalysts": "Key events, trends, or changes driving market opportunity",
+                "tailwinds": "Favorable macro trends supporting the business",
+                "headwinds": "Potential challenges or opposing market forces"
+            }},
+            "competitive_timing": {{
+                "first_mover_advantage": "Benefits of early market entry",
+                "competitive_response": "Likelihood and timeline of competitive response",
+                "market_education": "Required market education and adoption timeline",
+                "technology_maturity": "Maturity of underlying technologies and infrastructure"
+            }},
+            "red_flags": ["Timing-related concerns and risks"]
+        }},
+        "terms": {{
+            "score": 1-5,
+            "justification": "Assessment of investment terms, valuation alignment with SV focus, round structure, and ownership potential. Evaluate stage appropriateness and investment attractiveness.",
+            "investment_details": {{
+                "round_stage": "Seed, pre-seed, or series designation",
+                "raise_amount": "Target raise amount and use of funds",
+                "pre_money_valuation": "Pre-money valuation and valuation methodology",
+                "post_money_valuation": "Post-money valuation and ownership implications"
+            }},
+            "terms_analysis": {{
+                "sv_alignment": "Alignment with SV's investment criteria and focus areas",
+                "ownership_potential": "Potential ownership percentage and board representation",
+                "liquidation_preferences": "Liquidation preferences and investor protections",
+                "valuation_justification": "Analysis of valuation relative to comparables and metrics"
+            }},
+            "red_flags": ["Terms-related concerns and risks"]
+        }},
         "final_recommendation": {{
             "status": "Advance/Hold/Pass",
-            "rationale": "detailed reasoning synthesizing all 6Ts for final recommendation"
+            "rationale": "Comprehensive synthesis of all 6Ts analysis leading to final investment recommendation",
+            "key_factors": ["Primary factors influencing the recommendation"],
+            "next_steps": ["Specific actions if advancing to next stage"]
         }}
     }}
 
@@ -349,10 +452,10 @@ def analyze_submission_6ts(submission_data):
     response = client.chat.completions.create(
         model="gpt-4",
         messages=[
-            {"role": "system", "content": "You are an expert venture capital analyst specializing in the 6Ts framework (Team, TAM, Technology, Traction, Timing, Terms). Provide thorough, well-researched analysis with specific, concrete details and metrics."},
+            {"role": "system", "content": "You are an expert venture capital analyst specializing in the 6Ts framework. Provide thorough analysis with specific details. CRITICAL: Return ONLY valid JSON. Use proper escaping for quotes and ensure all strings are properly terminated."},
             {"role": "user", "content": prompt}
         ],
-        temperature=0.7,
+        temperature=0.3,
         max_tokens=4000
     )
 
@@ -366,15 +469,12 @@ def analyze_submission_6ts(submission_data):
 
         analysis = json.loads(content)
 
-        # Validate 6Ts structure
-        if '6Ts' not in analysis:
-            raise KeyError("Missing required '6Ts' section")
-
+        # Validate 6Ts structure (now top-level sections)
         required_6ts = ['team', 'tam', 'technology', 'traction', 'timing', 'terms']
         for t in required_6ts:
-            if t not in analysis['6Ts']:
+            if t not in analysis:
                 raise KeyError(f"Missing required 6T: {t}")
-            if 'score' not in analysis['6Ts'][t] or 'justification' not in analysis['6Ts'][t]:
+            if 'score' not in analysis[t] or 'justification' not in analysis[t]:
                 raise KeyError(f"Missing score or justification for 6T: {t}")
 
         return analysis
@@ -601,7 +701,7 @@ def submission_detail(company_name):
         "clasp": "clasp_analysis.json",
         "clsp": "clasp_analysis.json",
         "cryptomate": "cryptomate_analysis.json",
-        "beacon": "beacon_updated_structure_analysis.json",
+        "beacon": "beacon_comprehensive_analysis.json",
         "aidora": "aidora_analysis.json",
         "ezra": "ezra_analysis.json",
         "gtmflow": "gtmflow_analysis.json",

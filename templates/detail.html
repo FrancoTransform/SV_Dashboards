@@ -94,18 +94,64 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Team</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis['6Ts'].team.score is not none and analysis['6Ts'].team.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis['6Ts'].team.score is not none and analysis['6Ts'].team.score == 3 else
+                                    {{ 'bg-green-100 text-green-800' if analysis.team.score is not none and analysis.team.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.team.score is not none and analysis.team.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis['6Ts'].team.score|default('N/A') }}/5
+                                    {{ analysis.team.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis['6Ts'].team.justification }}</p>
-                            {% if analysis['6Ts'].team.red_flags %}
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.team.justification }}</p>
+
+                            <!-- Company Assessment -->
+                            {% if analysis.team.company_assessment %}
+                            <div class="mt-4">
+                                <h4 class="text-blue-400 text-sm font-medium mb-2">Company Assessment</h4>
+                                <div class="space-y-2 text-xs">
+                                    <div><span class="text-gray-400">Business Model:</span> <span class="text-gray-300">{{ analysis.team.company_assessment.business_model_strength }}</span></div>
+                                    <div><span class="text-gray-400">Market Position:</span> <span class="text-gray-300">{{ analysis.team.company_assessment.market_positioning }}</span></div>
+                                </div>
+                            </div>
+                            {% endif %}
+
+                            <!-- Founder Deep Dive -->
+                            {% if analysis.team.founder_deep_dive %}
+                            <div class="mt-4">
+                                <h4 class="text-green-400 text-sm font-medium mb-2">Founder Deep Dive</h4>
+                                {% for founder in analysis.team.founder_deep_dive %}
+                                <div class="mb-3 p-2 bg-white/5 rounded border-l-2 border-green-400">
+                                    <div class="text-xs font-medium text-green-400">{{ founder.name }} - {{ founder.role }}</div>
+                                    <div class="text-xs text-gray-300 mt-1">{{ founder.background }}</div>
+                                    {% if founder.linkedin %}
+                                    <a href="{{ founder.linkedin }}" class="text-xs text-blue-400 hover:text-blue-300">LinkedIn Profile</a>
+                                    {% endif %}
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+
+                            <!-- Category Comparison -->
+                            {% if analysis.team.category_comparison %}
+                            <div class="mt-4">
+                                <h4 class="text-purple-400 text-sm font-medium mb-2">Competitive Analysis</h4>
+                                <p class="text-xs text-gray-300 mb-2">{{ analysis.team.category_comparison.competitive_landscape }}</p>
+                                {% if analysis.team.category_comparison.primary_competitors %}
+                                <div class="space-y-1">
+                                    {% for competitor in analysis.team.category_comparison.primary_competitors %}
+                                    <div class="text-xs">
+                                        <span class="text-purple-400">{{ competitor.name }}:</span>
+                                        <span class="text-gray-300">{{ competitor.comparison }}</span>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                            {% endif %}
+
+                            {% if analysis.team.red_flags %}
                             <div class="mt-3">
                                 <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
                                 <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis['6Ts'].team.red_flags %}
+                                    {% for flag in analysis.team.red_flags %}
                                     <li>• {{ flag }}</li>
                                     {% endfor %}
                                 </ul>
@@ -118,18 +164,30 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">TAM (Total Addressable Market)</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis['6Ts'].tam.score is not none and analysis['6Ts'].tam.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis['6Ts'].tam.score is not none and analysis['6Ts'].tam.score == 3 else
+                                    {{ 'bg-green-100 text-green-800' if analysis.tam.score is not none and analysis.tam.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.tam.score is not none and analysis.tam.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis['6Ts'].tam.score|default('N/A') }}/5
+                                    {{ analysis.tam.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis['6Ts'].tam.justification }}</p>
-                            {% if analysis['6Ts'].tam.red_flags %}
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.tam.justification }}</p>
+
+                            <!-- Market Analysis -->
+                            {% if analysis.tam.market_analysis %}
+                            <div class="mt-3">
+                                <h4 class="text-blue-400 text-xs font-medium mb-1">Market Analysis:</h4>
+                                <div class="text-xs text-gray-300 space-y-1">
+                                    <div><span class="text-gray-400">TAM:</span> {{ analysis.tam.market_analysis.total_addressable_market }}</div>
+                                    <div><span class="text-gray-400">SAM:</span> {{ analysis.tam.market_analysis.serviceable_addressable_market }}</div>
+                                </div>
+                            </div>
+                            {% endif %}
+
+                            {% if analysis.tam.red_flags %}
                             <div class="mt-3">
                                 <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
                                 <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis['6Ts'].tam.red_flags %}
+                                    {% for flag in analysis.tam.red_flags %}
                                     <li>• {{ flag }}</li>
                                     {% endfor %}
                                 </ul>
@@ -142,18 +200,30 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Technology</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis['6Ts'].technology.score is not none and analysis['6Ts'].technology.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis['6Ts'].technology.score is not none and analysis['6Ts'].technology.score == 3 else
+                                    {{ 'bg-green-100 text-green-800' if analysis.technology.score is not none and analysis.technology.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.technology.score is not none and analysis.technology.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis['6Ts'].technology.score|default('N/A') }}/5
+                                    {{ analysis.technology.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis['6Ts'].technology.justification }}</p>
-                            {% if analysis['6Ts'].technology.red_flags %}
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.technology.justification }}</p>
+
+                            <!-- Technical Assessment -->
+                            {% if analysis.technology.technical_assessment %}
+                            <div class="mt-3">
+                                <h4 class="text-blue-400 text-xs font-medium mb-1">Technical Assessment:</h4>
+                                <div class="text-xs text-gray-300 space-y-1">
+                                    <div><span class="text-gray-400">Core Tech:</span> {{ analysis.technology.technical_assessment.core_technology }}</div>
+                                    <div><span class="text-gray-400">Defensibility:</span> {{ analysis.technology.technical_assessment.defensibility }}</div>
+                                </div>
+                            </div>
+                            {% endif %}
+
+                            {% if analysis.technology.red_flags %}
                             <div class="mt-3">
                                 <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
                                 <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis['6Ts'].technology.red_flags %}
+                                    {% for flag in analysis.technology.red_flags %}
                                     <li>• {{ flag }}</li>
                                     {% endfor %}
                                 </ul>
@@ -169,17 +239,29 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Traction</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis['6Ts'].traction.score is not none and analysis['6Ts'].traction.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis['6Ts'].traction.score is not none and analysis['6Ts'].traction.score == 3 else
+                                    {{ 'bg-green-100 text-green-800' if analysis.traction.score is not none and analysis.traction.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.traction.score is not none and analysis.traction.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis['6Ts'].traction.score|default('N/A') }}/5
+                                    {{ analysis.traction.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis['6Ts'].traction.justification }}</p>
-                            {% if analysis['6Ts'].traction.successes_and_areas_of_investigation %}
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.traction.justification }}</p>
+
+                            <!-- Growth Metrics -->
+                            {% if analysis.traction.growth_metrics %}
+                            <div class="mt-3">
+                                <h4 class="text-blue-400 text-xs font-medium mb-1">Growth Metrics:</h4>
+                                <div class="text-xs text-gray-300 space-y-1">
+                                    <div><span class="text-gray-400">Revenue:</span> {{ analysis.traction.growth_metrics.revenue_growth }}</div>
+                                    <div><span class="text-gray-400">Customers:</span> {{ analysis.traction.growth_metrics.customer_metrics }}</div>
+                                </div>
+                            </div>
+                            {% endif %}
+
+                            {% if analysis.traction.successes_and_areas_of_investigation %}
                             <div class="mt-3">
                                 <h4 class="text-blue-400 text-xs font-medium mb-2">Successes & Areas of Investigation:</h4>
-                                {% for item in analysis['6Ts'].traction.successes_and_areas_of_investigation %}
+                                {% for item in analysis.traction.successes_and_areas_of_investigation %}
                                 <div class="mb-2 p-2 bg-white/5 rounded border-l-2 {{ 'border-green-400' if item.type == 'Success' else 'border-yellow-400' }}">
                                     <div class="text-xs font-medium {{ 'text-green-400' if item.type == 'Success' else 'text-yellow-400' }}">{{ item.type }}</div>
                                     <div class="text-xs text-gray-300 mt-1">{{ item.description }}</div>
@@ -187,11 +269,11 @@
                                 {% endfor %}
                             </div>
                             {% endif %}
-                            {% if analysis['6Ts'].traction.red_flags %}
+                            {% if analysis.traction.red_flags %}
                             <div class="mt-3">
                                 <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
                                 <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis['6Ts'].traction.red_flags %}
+                                    {% for flag in analysis.traction.red_flags %}
                                     <li>• {{ flag }}</li>
                                     {% endfor %}
                                 </ul>
@@ -204,18 +286,30 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Timing</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis['6Ts'].timing.score is not none and analysis['6Ts'].timing.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis['6Ts'].timing.score is not none and analysis['6Ts'].timing.score == 3 else
+                                    {{ 'bg-green-100 text-green-800' if analysis.timing.score is not none and analysis.timing.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.timing.score is not none and analysis.timing.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis['6Ts'].timing.score|default('N/A') }}/5
+                                    {{ analysis.timing.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis['6Ts'].timing.justification }}</p>
-                            {% if analysis['6Ts'].timing.red_flags %}
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.timing.justification }}</p>
+
+                            <!-- Market Timing -->
+                            {% if analysis.timing.market_timing %}
+                            <div class="mt-3">
+                                <h4 class="text-blue-400 text-xs font-medium mb-1">Market Timing:</h4>
+                                <div class="text-xs text-gray-300 space-y-1">
+                                    <div><span class="text-gray-400">Catalysts:</span> {{ analysis.timing.market_timing.catalysts }}</div>
+                                    <div><span class="text-gray-400">Tailwinds:</span> {{ analysis.timing.market_timing.tailwinds }}</div>
+                                </div>
+                            </div>
+                            {% endif %}
+
+                            {% if analysis.timing.red_flags %}
                             <div class="mt-3">
                                 <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
                                 <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis['6Ts'].timing.red_flags %}
+                                    {% for flag in analysis.timing.red_flags %}
                                     <li>• {{ flag }}</li>
                                     {% endfor %}
                                 </ul>
@@ -228,18 +322,30 @@
                             <div class="flex justify-between items-center mb-2">
                                 <h3 class="text-lg font-medium text-white">Terms</h3>
                                 <span class="px-2.5 py-1 rounded-full text-sm font-medium
-                                    {{ 'bg-green-100 text-green-800' if analysis['6Ts'].terms.score is not none and analysis['6Ts'].terms.score >= 4 else
-                                       'bg-yellow-100 text-yellow-800' if analysis['6Ts'].terms.score is not none and analysis['6Ts'].terms.score == 3 else
+                                    {{ 'bg-green-100 text-green-800' if analysis.terms.score is not none and analysis.terms.score >= 4 else
+                                       'bg-yellow-100 text-yellow-800' if analysis.terms.score is not none and analysis.terms.score == 3 else
                                        'bg-gray-100 text-gray-800' }}">
-                                    {{ analysis['6Ts'].terms.score|default('N/A') }}/5
+                                    {{ analysis.terms.score|default('N/A') }}/5
                                 </span>
                             </div>
-                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis['6Ts'].terms.justification }}</p>
-                            {% if analysis['6Ts'].terms.red_flags %}
+                            <p class="text-gray-400 text-sm leading-relaxed">{{ analysis.terms.justification }}</p>
+
+                            <!-- Investment Details -->
+                            {% if analysis.terms.investment_details %}
+                            <div class="mt-3">
+                                <h4 class="text-blue-400 text-xs font-medium mb-1">Investment Details:</h4>
+                                <div class="text-xs text-gray-300 space-y-1">
+                                    <div><span class="text-gray-400">Stage:</span> {{ analysis.terms.investment_details.round_stage }}</div>
+                                    <div><span class="text-gray-400">Amount:</span> {{ analysis.terms.investment_details.raise_amount }}</div>
+                                </div>
+                            </div>
+                            {% endif %}
+
+                            {% if analysis.terms.red_flags %}
                             <div class="mt-3">
                                 <h4 class="text-red-400 text-xs font-medium mb-1">Red Flags:</h4>
                                 <ul class="text-red-300 text-xs space-y-1">
-                                    {% for flag in analysis['6Ts'].terms.red_flags %}
+                                    {% for flag in analysis.terms.red_flags %}
                                     <li>• {{ flag }}</li>
                                     {% endfor %}
                                 </ul>
