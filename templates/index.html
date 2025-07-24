@@ -36,7 +36,12 @@
             <div class="mb-8 flex justify-between items-center">
                 <h2 class="text-2xl font-semibold text-white">Submission Analysis Dashboard</h2>
                 <div class="text-sm text-gray-400">
-                    Total Submissions: {{ (submissions|length) }}
+                    <span id="search-results" style="display: none;">
+                        Showing <span id="visible-count">0</span> of {{ (submissions|length) }} submissions
+                    </span>
+                    <span id="total-count">
+                        Total Submissions: {{ (submissions|length) }}
+                    </span>
                 </div>
             </div>
 
@@ -111,22 +116,44 @@
                 'Cherrygiving': {'date': '2025-07-24 11:00:00', 'display': 'July 24, 2025 11:00'}
             } %}
 
-            <!-- Updated grid layout -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {% set all_submissions = [] %}
-                
-                {% for submission in submissions %}
-                    {% set submission_date = namespace(value='') %}
-                    {% if submission.company_name and submission.company_name.strip() in date_mapping %}
-                        {% set submission_date.value = date_mapping[submission.company_name.strip()]['date'] %}
-                        {% set _ = submission.update({'_submission_date': submission_date.value}) %}
-                    {% else %}
-                        {% set _ = submission.update({'_submission_date': '2025-06-01 00:00:00'}) %}
-                    {% endif %}
-                    {% set _ = all_submissions.append(submission) %}
-                {% endfor %}
+            <!-- Process submissions and add dates -->
+            {% set all_submissions = [] %}
 
-                {% for submission in all_submissions|sort(attribute='_submission_date') %}
+            {% for submission in submissions %}
+                {% set submission_date = namespace(value='') %}
+                {% if submission.company_name and submission.company_name.strip() in date_mapping %}
+                    {% set submission_date.value = date_mapping[submission.company_name.strip()]['date'] %}
+                    {% set _ = submission.update({'_submission_date': submission_date.value}) %}
+                {% else %}
+                    {% set _ = submission.update({'_submission_date': '2025-06-01 00:00:00'}) %}
+                {% endif %}
+                {% set _ = all_submissions.append(submission) %}
+            {% endfor %}
+
+            <!-- Separate submissions into waves -->
+            {% set wave1_submissions = [] %}
+            {% set wave2_submissions = [] %}
+            {% set wave_cutoff = '2025-06-05 00:00:00' %}
+
+            {% for submission in all_submissions %}
+                {% if submission._submission_date < wave_cutoff %}
+                    {% set _ = wave1_submissions.append(submission) %}
+                {% else %}
+                    {% set _ = wave2_submissions.append(submission) %}
+                {% endif %}
+            {% endfor %}
+
+            <!-- Wave 1 Section -->
+            <div class="mb-12">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-white mr-4">Wave 1</h2>
+                    <span class="bg-blue-600/20 text-blue-300 px-3 py-1 rounded-full text-sm">
+                        Through June 4th • {{ wave1_submissions|length }} companies
+                    </span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {% for submission in wave1_submissions|sort(attribute='_submission_date') %}
                     {% set submission_date = 'N/A' %}
                     {% if submission.company_name and submission.company_name.strip() in date_mapping %}
                         {% set submission_date = date_mapping[submission.company_name.strip()]['display'] %}
@@ -194,7 +221,90 @@
                             </div>
                         </div>
                     </div>
-                {% endfor %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Wave 2 Section -->
+            <div class="mb-12">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-white mr-4">Wave 2</h2>
+                    <span class="bg-purple-600/20 text-purple-300 px-3 py-1 rounded-full text-sm">
+                        June 5th onwards • {{ wave2_submissions|length }} companies
+                    </span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {% for submission in wave2_submissions|sort(attribute='_submission_date') %}
+                    {% set submission_date = 'N/A' %}
+                    {% if submission.company_name and submission.company_name.strip() in date_mapping %}
+                        {% set submission_date = date_mapping[submission.company_name.strip()]['display'] %}
+                    {% endif %}
+
+                    <div class="submission-card bg-white/5 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 overflow-hidden border border-gray-700">
+                        <div class="p-6">
+                            <div class="mb-4">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h3 class="text-xl font-semibold text-white">
+                                        {{ submission.company_name }}
+                                    </h3>
+                                    <span class="text-sm text-gray-400">
+                                        Submitted: {{ submission_date }}
+                                    </span>
+                                </div>
+                                <p class="text-gray-300 mb-4 line-clamp-3">
+                                    {{ submission.description }}
+                                </p>
+                            </div>
+
+                            <div class="space-y-2 mb-4">
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Website:</span><br>
+                                    <a href="{{ submission.website }}"
+                                       class="text-sv-green hover:text-sv-green-dark"
+                                       target="_blank">
+                                        {{ submission.website|truncate(30) }}
+                                    </a>
+                                </div>
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Founded:</span><br>
+                                    <span class="text-gray-300">{{ submission.year_founded|default('N/A') }}</span>
+                                </div>
+                                <div class="text-sm">
+                                    <span class="text-gray-400">Founder:</span><br>
+                                    <span class="text-gray-300">{{ submission.founder_profile.name if submission.founder_profile and submission.founder_profile.name else 'N/A' }}</span>
+                                </div>
+
+                                {% if submission.final_recommendation and submission.final_recommendation.status %}
+                                <div class="text-sm mt-3">
+                                    <span class="text-gray-400">Status:</span><br>
+                                    <span class="px-2 py-1 rounded-full text-xs font-medium
+                                        {% if submission.final_recommendation.status == 'Advance' %}
+                                            bg-green-100 text-green-800
+                                        {% elif submission.final_recommendation.status == 'Hold' %}
+                                            bg-yellow-100 text-yellow-800
+                                        {% else %}
+                                            bg-gray-100 text-gray-800
+                                        {% endif %}">
+                                        {{ submission.final_recommendation.status }}
+                                    </span>
+                                </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="flex justify-end">
+                                {% if submission.company_name %}
+                                    {% set url_name = submission.company_name.lower().replace(' ', '').replace('-', '').replace('_', '').replace('.', '').replace(',', '') %}
+                                    <a href="{{ url_for('submission_detail', company_name=url_name) }}"
+                                       class="inline-flex items-center px-4 py-2 text-sm font-medium bg-sv-green text-white rounded-lg hover:bg-sv-green-dark">
+                                        View Analysis
+                                    </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
         </main>
     </div>
@@ -204,26 +314,74 @@
             const searchInput = document.getElementById('searchInput');
             const searchTerm = searchInput.value.toLowerCase();
             const submissionCards = document.getElementsByClassName('submission-card');
+            const searchResults = document.getElementById('search-results');
+            const totalCount = document.getElementById('total-count');
+            const visibleCountSpan = document.getElementById('visible-count');
             let visibleCount = 0;
+            let wave1Visible = 0;
+            let wave2Visible = 0;
 
-            for (let card of submissionCards) {
+            // Get wave sections
+            const wave1Section = document.querySelector('.mb-12:nth-of-type(1)');
+            const wave2Section = document.querySelector('.mb-12:nth-of-type(2)');
+            const wave1Cards = wave1Section.querySelectorAll('.submission-card');
+            const wave2Cards = wave2Section.querySelectorAll('.submission-card');
+
+            // Filter Wave 1 cards
+            for (let card of wave1Cards) {
                 const companyName = card.querySelector('h3').textContent.toLowerCase();
                 const description = card.querySelector('p').textContent.toLowerCase();
                 const founder = card.querySelector('.text-gray-300').textContent.toLowerCase();
                 const website = card.querySelector('a[href^="http"]').textContent.toLowerCase();
 
-                if (companyName.includes(searchTerm) || 
-                    description.includes(searchTerm) || 
-                    founder.includes(searchTerm) || 
+                if (companyName.includes(searchTerm) ||
+                    description.includes(searchTerm) ||
+                    founder.includes(searchTerm) ||
                     website.includes(searchTerm)) {
                     card.style.display = '';
+                    wave1Visible++;
                     visibleCount++;
                 } else {
                     card.style.display = 'none';
                 }
             }
 
-            document.getElementById('submission-count').textContent = visibleCount;
+            // Filter Wave 2 cards
+            for (let card of wave2Cards) {
+                const companyName = card.querySelector('h3').textContent.toLowerCase();
+                const description = card.querySelector('p').textContent.toLowerCase();
+                const founder = card.querySelector('.text-gray-300').textContent.toLowerCase();
+                const website = card.querySelector('a[href^="http"]').textContent.toLowerCase();
+
+                if (companyName.includes(searchTerm) ||
+                    description.includes(searchTerm) ||
+                    founder.includes(searchTerm) ||
+                    website.includes(searchTerm)) {
+                    card.style.display = '';
+                    wave2Visible++;
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            }
+
+            // Show/hide wave sections based on visible cards
+            if (searchTerm.trim() === '') {
+                // Show all waves when no search
+                wave1Section.style.display = '';
+                wave2Section.style.display = '';
+                searchResults.style.display = 'none';
+                totalCount.style.display = '';
+            } else {
+                // Hide waves with no visible cards
+                wave1Section.style.display = wave1Visible > 0 ? '' : 'none';
+                wave2Section.style.display = wave2Visible > 0 ? '' : 'none';
+
+                // Show search results count
+                visibleCountSpan.textContent = visibleCount;
+                searchResults.style.display = '';
+                totalCount.style.display = 'none';
+            }
         }
     </script>
 
