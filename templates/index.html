@@ -17,6 +17,40 @@
         }
     </script>
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+    <style>
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Tab Styles */
+        .tab-button {
+            color: #9CA3AF;
+            background-color: transparent;
+        }
+
+        .tab-button.active {
+            color: #FFFFFF;
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-button:hover:not(.active) {
+            color: #D1D5DB;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .tab-content {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
 <body class="bg-sv-blue">
     <div class="min-h-screen">
@@ -58,12 +92,36 @@
                 <span id="analysisStatus" class="text-lg font-medium"></span>
             </div>
 
+            <!-- Tab Navigation -->
+            <div class="mb-8">
+                <div class="flex space-x-1 bg-white/5 p-1 rounded-lg">
+                    <button id="wave1Tab"
+                            class="tab-button flex-1 px-6 py-3 text-sm font-medium rounded-md transition-all duration-200 active"
+                            onclick="switchTab('wave1')">
+                        <span class="flex items-center justify-center">
+                            <span class="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                            Wave 1
+                            <span id="wave1Count" class="ml-2 px-2 py-1 bg-blue-600/20 text-blue-300 rounded-full text-xs"></span>
+                        </span>
+                    </button>
+                    <button id="wave2Tab"
+                            class="tab-button flex-1 px-6 py-3 text-sm font-medium rounded-md transition-all duration-200"
+                            onclick="switchTab('wave2')">
+                        <span class="flex items-center justify-center">
+                            <span class="w-2 h-2 bg-purple-400 rounded-full mr-2"></span>
+                            Wave 2
+                            <span id="wave2Count" class="ml-2 px-2 py-1 bg-purple-600/20 text-purple-300 rounded-full text-xs"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
             <!-- Search Bar -->
             <div class="relative mb-6">
-                <input type="text" 
-                       id="searchInput" 
+                <input type="text"
+                       id="searchInput"
                        class="w-full px-4 py-2 bg-white/10 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-sv-green"
-                       placeholder="Search by company name, description, or founder..."
+                       placeholder="Search within current wave..."
                        onkeyup="filterSubmissions()">
                 <div class="absolute right-3 top-2.5 text-gray-400">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -143,13 +201,11 @@
                 {% endif %}
             {% endfor %}
 
-            <!-- Wave 1 Section -->
-            <div class="mb-12">
-                <div class="flex items-center mb-6">
-                    <h2 class="text-2xl font-bold text-white mr-4">Wave 1</h2>
-                    <span class="bg-blue-600/20 text-blue-300 px-3 py-1 rounded-full text-sm">
-                        Through June 4th • {{ wave1_submissions|length }} companies
-                    </span>
+            <!-- Wave 1 Tab Content -->
+            <div id="wave1Content" class="tab-content">
+                <div class="mb-6 text-center">
+                    <h2 class="text-xl font-semibold text-white mb-2">Wave 1 Submissions</h2>
+                    <p class="text-gray-400 text-sm">Through June 4th, 2025</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -225,13 +281,11 @@
                 </div>
             </div>
 
-            <!-- Wave 2 Section -->
-            <div class="mb-12">
-                <div class="flex items-center mb-6">
-                    <h2 class="text-2xl font-bold text-white mr-4">Wave 2</h2>
-                    <span class="bg-purple-600/20 text-purple-300 px-3 py-1 rounded-full text-sm">
-                        June 5th onwards • {{ wave2_submissions|length }} companies
-                    </span>
+            <!-- Wave 2 Tab Content -->
+            <div id="wave2Content" class="tab-content" style="display: none;">
+                <div class="mb-6 text-center">
+                    <h2 class="text-xl font-semibold text-white mb-2">Wave 2 Submissions</h2>
+                    <p class="text-gray-400 text-sm">June 5th onwards, 2025</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -310,75 +364,84 @@
     </div>
 
     <script>
+        let currentWave = 'wave1';
+        let wave1Count = 0;
+        let wave2Count = 0;
+
+        // Initialize tab functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Count companies in each wave
+            wave1Count = document.querySelectorAll('#wave1Content .submission-card').length;
+            wave2Count = document.querySelectorAll('#wave2Content .submission-card').length;
+
+            // Update tab counters
+            document.getElementById('wave1Count').textContent = wave1Count;
+            document.getElementById('wave2Count').textContent = wave2Count;
+
+            // Show Wave 1 by default
+            switchTab('wave1');
+        });
+
+        function switchTab(waveId) {
+            currentWave = waveId;
+
+            // Update tab buttons
+            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(waveId + 'Tab').classList.add('active');
+
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
+            document.getElementById(waveId + 'Content').style.display = 'block';
+
+            // Clear search and reset filters
+            document.getElementById('searchInput').value = '';
+            filterSubmissions();
+
+            // Update search placeholder
+            const searchInput = document.getElementById('searchInput');
+            const waveName = waveId === 'wave1' ? 'Wave 1' : 'Wave 2';
+            searchInput.placeholder = `Search within ${waveName}...`;
+        }
+
         function filterSubmissions() {
             const searchInput = document.getElementById('searchInput');
             const searchTerm = searchInput.value.toLowerCase();
-            const submissionCards = document.getElementsByClassName('submission-card');
             const searchResults = document.getElementById('search-results');
             const totalCount = document.getElementById('total-count');
             const visibleCountSpan = document.getElementById('visible-count');
+
+            // Get cards from current active tab only
+            const activeContent = document.getElementById(currentWave + 'Content');
+            const submissionCards = activeContent.querySelectorAll('.submission-card');
             let visibleCount = 0;
-            let wave1Visible = 0;
-            let wave2Visible = 0;
 
-            // Get wave sections
-            const wave1Section = document.querySelector('.mb-12:nth-of-type(1)');
-            const wave2Section = document.querySelector('.mb-12:nth-of-type(2)');
-            const wave1Cards = wave1Section.querySelectorAll('.submission-card');
-            const wave2Cards = wave2Section.querySelectorAll('.submission-card');
-
-            // Filter Wave 1 cards
-            for (let card of wave1Cards) {
+            // Filter cards in current wave
+            for (let card of submissionCards) {
                 const companyName = card.querySelector('h3').textContent.toLowerCase();
                 const description = card.querySelector('p').textContent.toLowerCase();
                 const founder = card.querySelector('.text-gray-300').textContent.toLowerCase();
                 const website = card.querySelector('a[href^="http"]').textContent.toLowerCase();
 
-                if (companyName.includes(searchTerm) ||
+                if (searchTerm.trim() === '' ||
+                    companyName.includes(searchTerm) ||
                     description.includes(searchTerm) ||
                     founder.includes(searchTerm) ||
                     website.includes(searchTerm)) {
                     card.style.display = '';
-                    wave1Visible++;
                     visibleCount++;
                 } else {
                     card.style.display = 'none';
                 }
             }
 
-            // Filter Wave 2 cards
-            for (let card of wave2Cards) {
-                const companyName = card.querySelector('h3').textContent.toLowerCase();
-                const description = card.querySelector('p').textContent.toLowerCase();
-                const founder = card.querySelector('.text-gray-300').textContent.toLowerCase();
-                const website = card.querySelector('a[href^="http"]').textContent.toLowerCase();
-
-                if (companyName.includes(searchTerm) ||
-                    description.includes(searchTerm) ||
-                    founder.includes(searchTerm) ||
-                    website.includes(searchTerm)) {
-                    card.style.display = '';
-                    wave2Visible++;
-                    visibleCount++;
-                } else {
-                    card.style.display = 'none';
-                }
-            }
-
-            // Show/hide wave sections based on visible cards
+            // Update search results display
             if (searchTerm.trim() === '') {
-                // Show all waves when no search
-                wave1Section.style.display = '';
-                wave2Section.style.display = '';
                 searchResults.style.display = 'none';
                 totalCount.style.display = '';
             } else {
-                // Hide waves with no visible cards
-                wave1Section.style.display = wave1Visible > 0 ? '' : 'none';
-                wave2Section.style.display = wave2Visible > 0 ? '' : 'none';
-
-                // Show search results count
+                const totalInWave = currentWave === 'wave1' ? wave1Count : wave2Count;
                 visibleCountSpan.textContent = visibleCount;
+                document.getElementById('visible-count').nextSibling.textContent = ` of ${totalInWave} submissions in ${currentWave === 'wave1' ? 'Wave 1' : 'Wave 2'}`;
                 searchResults.style.display = '';
                 totalCount.style.display = 'none';
             }
