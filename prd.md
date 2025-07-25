@@ -1,47 +1,52 @@
 # Product Requirements Document (PRD)
-**SemperVirens Accelerator Application Analysis Platform – Expanded 6Ts Evaluation Framework**
+**SemperVirens Accelerator Application Analysis Platform – Comprehensive 6Ts Evaluation Framework**
 
 ---
 
 ## 1. Product Overview
 
 ### 1.1 Product Vision
-The SemperVirens Accelerator Application Analysis Platform automates startup application evaluation using an AI-driven framework based on the **6Ts**: Team, TAM, Technology, Traction, Timing, and Terms. This framework ensures standardized, comprehensive analysis aligned with SV’s investment thesis and accelerates decision-making.
+The SemperVirens Accelerator Application Analysis Platform automates startup application evaluation using a comprehensive AI-driven framework based on the **6Ts**: Team, TAM, Technology, Traction, Timing, and Terms. This framework provides investment-grade analysis with detailed sub-sections for each T, ensuring standardized evaluation aligned with SV's investment thesis.
 
 ### 1.2 Product Mission
-Enable faster, more consistent, and thesis-aligned investment decisions by generating structured JSON memos scored and justified across the 6Ts framework.
+Enable faster, more consistent, and thesis-aligned investment decisions by generating comprehensive JSON analysis memos with detailed scoring, justifications, and actionable insights across the 6Ts framework.
 
 ### 1.3 Target Users
 - **Primary:** SemperVirens Accelerator investment team and partners
 - **Secondary:** Program managers and decision-makers for cohort selection
+- **Tertiary:** Portfolio companies seeking structured feedback
 
 ---
 
 ## 2. Problem Statement
 
 ### 2.1 Current Challenges
-- Previous 6-category system misaligned with updated SV thesis
-- Manual assessments lacked consistency and slowed reviews
-- Founder/market research not fully integrated into scoring
+- Previous evaluation systems lacked comprehensive analysis depth
+- Manual assessments were inconsistent and time-consuming
+- Company assessment, founder analysis, and competitive intelligence were fragmented across multiple sections
+- Layout presented information in cramped 2-column format limiting detailed insights
 
 ### 2.2 Business Impact
-- Slower decision cycles
+- Slower decision cycles due to incomplete analysis
 - Reduced comparability across pipeline companies
-- Inconsistent memos and missed opportunities
+- Inconsistent memo quality and missed investment opportunities
+- Difficulty presenting comprehensive analysis in investor-ready format
 
 ---
 
 ## 3. Product Goals & Success Metrics
 
 ### 3.1 Goals
-- Standardize analysis around **6Ts**
-- Ensure actionable and comparable scoring across all applications
-- Reduce time to produce memos while increasing depth and accuracy
+- Provide comprehensive analysis with each T as a dedicated full-width section
+- Consolidate company assessment, founder deep dive, and competitive analysis under Team
+- Ensure investment-grade insights with detailed sub-sections for each T
+- Create clean, professional layout focused solely on 6Ts + Final Recommendation
 
 ### 3.2 Success Metrics
-- 100% JSON outputs include 6Ts structure
-- Accuracy of AI scoring vs. partner consensus >85%
-- Time to generate review-ready memo <30 minutes
+- 100% JSON outputs include comprehensive 6Ts structure with detailed sub-sections
+- Investment committee adoption rate >90% for generated memos
+- Time to generate investment-ready memo <30 minutes
+- User satisfaction score >4.5/5 for analysis depth and layout
 
 ---
 
@@ -49,56 +54,79 @@ Enable faster, more consistent, and thesis-aligned investment decisions by gener
 
 ### 4.1 Data Ingestion
 - Parse CSV application data: company basics, founder bios, market size, traction metrics, funding stage
-- Validate presence of data relevant to 6Ts
+- Validate presence of data relevant to comprehensive 6Ts analysis
+- Extract LinkedIn profiles and competitive intelligence for enhanced analysis
 
 ---
 
-### 4.2 AI-Powered JSON Generation (6Ts Framework)
+### 4.2 Comprehensive AI-Powered JSON Generation (6Ts Framework)
 
 #### 4.2.1 Overview
-AI generates structured JSON memos based on the **6Ts evaluation** framework, with a score (1–5) and justification for each T.
+AI generates investment-grade structured JSON memos based on the **comprehensive 6Ts evaluation** framework. Each T includes detailed sub-sections with specific analysis areas, scoring (1–5), and comprehensive justifications.
 
-#### 4.2.2 6Ts Categories with Deep Prompting
+#### 4.2.2 Enhanced 6Ts Categories with Comprehensive Sub-Sections
 
-**Team**
-- **Purpose:** Evaluate founding and leadership team’s execution ability.
-- **Inputs:** LinkedIn profiles, prior exits, domain expertise, storytelling strength.
-- **Highlight in justification:** Specific prior wins, scaling experience, complementary skills, leadership signals.
-- **Scoring Guide:** 5 = proven repeat founders with relevant exits; 1 = no relevant experience.
+**Team (Consolidated Company Analysis)**
+- **Purpose:** Comprehensive evaluation of founding team, company assessment, and competitive positioning.
+- **Consolidated Sections:** 
+  - Company Assessment (business model, market positioning, execution, vision)
+  - Founder Deep Dive (detailed profiles, backgrounds, track records)
+  - Competitive Analysis (landscape overview, competitor comparison matrix)
+- **Inputs:** LinkedIn profiles, prior exits, domain expertise, company strategy, competitive intelligence.
+- **Highlight in justification:** Specific prior wins, scaling experience, leadership signals, execution capability.
+- **Scoring Guide:** 5 = proven repeat founders with strong execution and clear competitive advantage; 1 = inexperienced team with weak positioning.
 
 **TAM (Total Addressable Market)**
-- **Purpose:** Measure market size, growth, and opportunity.
-- **Inputs:** Market size data, growth trends, buyer personas, competitive whitespace.
-- **Highlight in justification:** $ size, CAGR, whitespace, willingness-to-pay evidence.
-- **Scoring Guide:** 5 = >$5B market with tailwinds; 1 = very small or shrinking market.
+- **Purpose:** Comprehensive market opportunity analysis with detailed market and customer breakdown.
+- **Sub-Sections:**
+  - Market Analysis (TAM/SAM/SOM calculations, growth rates, dynamics)
+  - Customer Analysis (buyer personas, willingness-to-pay, CAC/LTV)
+- **Inputs:** Market size data, growth trends, customer research, competitive whitespace.
+- **Highlight in justification:** Specific $ size, CAGR, market dynamics, customer validation evidence.
+- **Scoring Guide:** 5 = >$5B market with strong tailwinds and proven customer demand; 1 = small or shrinking market.
 
 **Technology**
-- **Purpose:** Assess defensibility and differentiation.
-- **Inputs:** Proprietary data, IP, integrations, scalability.
-- **Highlight in justification:** Unique algorithms, defensibility, ease of integration.
-- **Scoring Guide:** 5 = proprietary, hard to replicate; 1 = commoditized tech.
+- **Purpose:** Assess technical defensibility, differentiation, and competitive moats.
+- **Sub-Sections:**
+  - Technical Assessment (core technology, defensibility, IP, scalability)
+  - Competitive Advantage (unique algorithms, data advantages, technical barriers)
+- **Inputs:** Technical architecture, IP portfolio, integration capabilities, development velocity.
+- **Highlight in justification:** Proprietary algorithms, technical moats, scalability evidence.
+- **Scoring Guide:** 5 = proprietary, defensible technology with clear moats; 1 = commoditized or easily replicable tech.
 
 **Traction**
-- **Purpose:** Evaluate product-market fit signals and GTM execution.
-- **Inputs:** Revenue, customer count, retention, partnerships.
-- **Highlight in justification:** Quantitative traction, growth %, notable logos.
-- **Scoring Guide:** 5 = >$1M ARR or strong PMF; 1 = no product/traction.
+- **Purpose:** Comprehensive evaluation of product-market fit, growth metrics, and market validation.
+- **Sub-Sections:**
+  - Growth Metrics (revenue growth, customer metrics, retention, unit economics)
+  - Market Validation (customer feedback, PMF evidence, notable customers, partnerships)
+  - Successes & Areas of Investigation (detailed achievement and concern analysis)
+- **Inputs:** Revenue data, customer metrics, retention rates, customer feedback, partnerships.
+- **Highlight in justification:** Quantitative traction, growth rates, customer validation, scaling indicators.
+- **Scoring Guide:** 5 = >$1M ARR with strong PMF and growth; 1 = no product or meaningful traction.
 
 **Timing**
-- **Purpose:** Determine macro alignment and tailwinds.
-- **Inputs:** Regulatory changes, tech cost curves, buyer shifts.
-- **Highlight in justification:** Catalysts, risks of early/late entry, cultural shifts.
-- **Scoring Guide:** 5 = strong tailwinds; 1 = poor timing.
+- **Purpose:** Analyze macro timing, market readiness, and competitive timing dynamics.
+- **Sub-Sections:**
+  - Market Timing (market readiness, catalysts, tailwinds, headwinds)
+  - Competitive Timing (first-mover advantage, competitive response, market education)
+- **Inputs:** Market trends, regulatory changes, technology maturity, competitive landscape.
+- **Highlight in justification:** Market catalysts, timing advantages, competitive positioning.
+- **Scoring Guide:** 5 = optimal timing with strong tailwinds; 1 = poor timing or significant headwinds.
 
 **Terms**
-- **Purpose:** Assess raise structure and valuation fit.
-- **Inputs:** Round stage, post-money valuation, ownership potential.
-- **Highlight in justification:** Alignment with SV focus (<$15M post-money seed/pre-seed).
-- **Scoring Guide:** 5 = ideal stage/valuation; 1 = uninvestable terms.
+- **Purpose:** Comprehensive assessment of investment terms, valuation, and SV alignment.
+- **Sub-Sections:**
+  - Investment Details (round stage, raise amount, pre/post-money valuations)
+  - Terms Analysis (SV alignment, ownership potential, liquidation preferences)
+- **Inputs:** Round details, valuation data, term sheet information, ownership structure.
+- **Highlight in justification:** SV alignment, valuation justification, ownership potential.
+- **Scoring Guide:** 5 = ideal stage/valuation with strong SV alignment; 1 = uninvestable terms or poor fit.
 
 ---
 
-#### 4.2.3 JSON Output Format
+#### 4.2.3 Enhanced JSON Output Format
+
+The platform generates comprehensive JSON analysis with the following structure:
 
 ```json
 {
@@ -267,52 +295,124 @@ AI generates structured JSON memos based on the **6Ts evaluation** framework, wi
 
 ---
 
-#### 4.2.4 AI Prompt Instructions
+## 5. User Interface & Experience
 
-**Process:**
-1. Extract google sheet data: company details, market info, founders.
-2. Enrich with LinkedIn, Crunchbase, and website data.
-3. For **each T**:
-   - Assign **1–5 score** using rubric above.
-   - Write **justification** citing evidence from data/research.
-4. Identify **red flags** for each T (valuation misalignment, small TAM, etc.).
-5. Summarize with **final recommendation** synthesizing all 6Ts.
+### 5.1 Layout Design Principles
+- **Full-Width Sections:** Each T displayed as dedicated full-width section for comprehensive analysis
+- **Clean Information Hierarchy:** Professional investment memo format with clear section headers
+- **Focused Content:** Only 6Ts + Final Recommendation sections (removed redundant sections)
+- **Enhanced Readability:** Proper spacing, typography, and color-coded insights
 
-**Additional Guidance:**
-- Maintain consistency across memos.
-- Use comparative lens vs. market norms.
-- Be explicit: include metrics, benchmarks, and qualitative context.
+### 5.2 Section Organization
+
+#### 5.2.1 Team Section (Consolidated)
+- **Company Assessment:** Business model, market positioning, execution, vision
+- **Founder Deep Dive:** Detailed founder profiles with LinkedIn links and track records
+- **Competitive Analysis:** Landscape overview and competitor comparison matrix
+- **Red Flags:** Team-specific concerns and risks
+
+#### 5.2.2 TAM Section
+- **Market Analysis:** TAM/SAM/SOM breakdown with growth rates
+- **Customer Analysis:** Buyer personas, willingness-to-pay, CAC/LTV
+- **Red Flags:** Market-related concerns
+
+#### 5.2.3 Technology Section
+- **Technical Assessment:** Core tech, defensibility, IP, scalability
+- **Competitive Advantage:** Unique algorithms, data advantages, barriers
+- **Red Flags:** Technology-related concerns
+
+#### 5.2.4 Traction Section
+- **Growth Metrics:** Revenue, customers, retention, unit economics
+- **Market Validation:** Customer feedback, PMF, notable customers, partnerships
+- **Successes & Areas:** Color-coded achievements and investigations
+- **Red Flags:** Traction-related concerns
+
+#### 5.2.5 Timing Section
+- **Market Timing:** Readiness, catalysts, tailwinds, headwinds
+- **Competitive Timing:** First-mover advantage, competitive response
+- **Red Flags:** Timing-related concerns
+
+#### 5.2.6 Terms Section
+- **Investment Details:** Stage, amount, pre/post-money valuations
+- **Terms Analysis:** SV alignment, ownership, liquidation preferences
+- **Red Flags:** Terms-related concerns
+
+#### 5.2.7 Final Recommendation
+- **Status Badge:** Color-coded recommendation (Advance/Hold/Pass)
+- **Rationale:** Comprehensive reasoning
+- **Key Factors:** Primary decision factors
+- **Next Steps:** Actionable items for advancing
+
+### 5.3 Visual Design Elements
+- **Color Coding:** Green (successes/high scores), Yellow (investigations/medium scores), Red (flags/low scores), Blue (analysis headers)
+- **Typography:** Clear hierarchy with prominent section headers and readable body text
+- **Spacing:** Generous whitespace for professional presentation
+- **Responsive Design:** Optimized for desktop and tablet viewing
 
 ---
 
-### 4.3 External Research Integration
-- Automated LinkedIn enrichment
-- Crunchbase and market data integration
-- Manual fallback for incomplete data
+## 6. Technical Implementation
+
+### 6.1 Backend Changes
+- **JSON Structure:** Restructured to have each T as top-level section (not nested under "6Ts")
+- **Enhanced Prompting:** Comprehensive prompts for detailed sub-section analysis
+- **Validation Logic:** Updated to check new structure with sub-sections
+- **Error Handling:** Improved JSON parsing and validation
+
+### 6.2 Frontend Changes
+- **Template Restructure:** Complete redesign from 2-column to full-width sections
+- **Section Consolidation:** Moved company assessment, founder analysis, and competitive intelligence under Team
+- **Enhanced Display:** Rich information display with expandable sub-sections
+- **Removed Sections:** Eliminated redundant standalone sections
+
+### 6.3 Data Flow
+1. **Input:** CSV application data with enhanced field extraction
+2. **Processing:** AI analysis using comprehensive 6Ts prompts
+3. **Output:** Structured JSON with detailed sub-sections
+4. **Display:** Full-width sections with professional formatting
+5. **Navigation:** Linear flow through 6Ts framework
 
 ---
 
-### 4.4 Web Interface
-- Upload CSV, trigger JSON generation
-- Radar/bar charts visualize 6Ts
-- Filter companies by high-priority Ts (e.g., Team ≥4, TAM ≥4)
+## 7. Success Criteria & Validation
+
+### 7.1 Technical Validation
+- [ ] JSON outputs match comprehensive structure specification
+- [ ] All sub-sections populated with meaningful analysis
+- [ ] Template displays all enhanced fields correctly
+- [ ] Responsive design works across devices
+
+### 7.2 Business Validation
+- [ ] Investment committee adopts generated memos for decision-making
+- [ ] Analysis depth meets professional investment standards
+- [ ] Layout improves readability and presentation quality
+- [ ] Time to generate memos reduced while quality increased
+
+### 7.3 User Acceptance
+- [ ] Investment team satisfaction with analysis comprehensiveness
+- [ ] Improved decision-making confidence
+- [ ] Reduced manual memo preparation time
+- [ ] Enhanced portfolio company feedback quality
 
 ---
 
-## 5. Technical Architecture
+## 8. Future Enhancements
 
-### 5.1 Data Flow
-1. Upload CSV
-2. Parse to schema
-3. Enrich with external research
-4. AI generates JSON (6Ts scoring)
-5. Store and present via dashboard
+### 8.1 Advanced Analytics
+- Portfolio comparison dashboards
+- Trend analysis across 6Ts dimensions
+- Predictive scoring models
+
+### 8.2 Integration Capabilities
+- CRM system integration
+- Automated follow-up workflows
+- Portfolio management tools
+
+### 8.3 Enhanced AI Features
+- Real-time market data integration
+- Competitive intelligence automation
+- Dynamic scoring adjustments
 
 ---
 
-## 6. Success Criteria
-- 6Ts fully integrated across all outputs
-- IC decisions adopt 6Ts as core framework
-- Visualization improves comparative analysis
-
----
+This comprehensive PRD reflects the current state of the platform with enhanced 6Ts analysis, consolidated sections, and professional layout design focused on investment-grade analysis delivery.
