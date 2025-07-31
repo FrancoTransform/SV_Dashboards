@@ -1,0 +1,197 @@
+{
+  "company_name": "Kept Inc",
+  "website": "https://www.kept.io",
+  "year_founded": "2023",
+  "description": "Kept’s premise is to make job separation a better experience for everyone. We provide businesses and their alumni with modern, comprehensive solutions that are compliant and caring.",
+  "problem_statement": "COBRA administration exists. Off-boarding doesn’t. Providing supportive, compassionate assistance during job transition is not only the right thing to do, it's safer from a legal and reputational standpoint.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1mMaSlEoa3W4hYoHMkzP0lIvqTKjroZc-/edit?usp=sharing&ouid=108088494540414262903&rtpof=true&sd=true",
+  "demo_link": "https://demo.kept.io",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a proven track record in building HR and benefits solutions, evidenced by their previous work at Gusto. The team is small but well-rounded, with complementary skills in engineering and operations.",
+    "company_assessment": {
+      "business_model_strength": "Kept Inc has a diversified revenue model with PEPM charges, commissions, and revenue sharing, which provides multiple streams of income and scalability.",
+      "market_positioning": "The company positions itself as a compassionate and compliant off-boarding solution, differentiating from competitors who focus solely on compliance.",
+      "execution_capability": "The team has demonstrated execution capability by achieving significant ARR growth and securing partnerships with key industry players.",
+      "strategic_vision": "Kept Inc has a clear strategic vision to expand partnerships and enhance its product offering to cover comprehensive job transition solutions."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Topher Reynoso",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/topher-reynoso/",
+        "background": "Topher has a background in building HR and benefits products, having worked at Gusto where he contributed to the foundation of their benefits product.",
+        "domain_expertise": "Extensive experience in HR technology and benefits administration.",
+        "previous_startups": "No previous startups mentioned, but significant experience at Gusto.",
+        "notable_achievements": "Successfully led the development of benefits products at Gusto.",
+        "leadership_signals": "Demonstrated leadership in assembling a capable team and driving product development.",
+        "track_record": [
+          {
+            "company": "Gusto",
+            "role": "Product Development",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into the HR and benefits landscape, which are directly applicable to Kept Inc."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes established players like Sterling, Wex, Tasc, and Basic Pacific, who focus on compliance.",
+      "primary_competitors": [
+        {
+          "name": "Sterling",
+          "description": "Focuses on compliance in COBRA administration.",
+          "strengths": "Established market presence and compliance expertise.",
+          "weaknesses": "Lacks focus on employee support and experience.",
+          "comparison": "Kept Inc differentiates by offering a supportive and comprehensive off-boarding experience."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Supportive Off-boarding",
+          "Compliance Focus",
+          "Comprehensive Solutions"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Competitor 1": [
+            false,
+            true,
+            false
+          ],
+          "Competitor 2": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Kept Inc is well-positioned to capture market share by addressing gaps in employee support and experience that competitors overlook."
+    },
+    "red_flags": [
+      "Limited team size may impact scalability and execution speed."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial with a $7.2B TAM, and Kept Inc has identified a clear niche within the off-boarding and COBRA administration space.",
+    "market_analysis": {
+      "total_addressable_market": "$7.2B TAM, based on the number of companies subject to COBRA and offering health benefits.",
+      "serviceable_addressable_market": "Focused on companies with 20+ employees offering health benefits, providing a realistic capture opportunity.",
+      "serviceable_obtainable_market": "SOM projections are supported by current traction and partnerships.",
+      "market_growth_rate": "The market is expected to grow as more companies recognize the importance of employee experience during off-boarding.",
+      "market_dynamics": "Key trends include increasing focus on employee experience and legal compliance in job transitions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include brokers, employers, and employees, with decision-makers in HR and benefits administration.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by current customer base and pricing structure.",
+      "customer_acquisition_cost": "CAC is managed through direct sales and partnerships, though specific figures are not provided.",
+      "customer_lifetime_value": "LTV is likely high due to recurring revenue model and potential for upselling additional services."
+    },
+    "red_flags": [
+      "Potential market saturation by established players could limit growth."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is built in-house, providing control over development, but lacks mention of proprietary algorithms or significant technical barriers.",
+    "technical_assessment": {
+      "core_technology": "The core technology focuses on seamless integration with existing HRIS and benefits platforms.",
+      "defensibility": "Technical defensibility is moderate, relying on integration capabilities and user experience.",
+      "intellectual_property": "No mention of patents or trade secrets, indicating limited IP protection.",
+      "scalability": "The architecture is designed to scale with growth, though specifics are not detailed.",
+      "integration_capabilities": "Strong integration capabilities with existing systems are a key feature."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No unique algorithms mentioned.",
+      "data_advantages": "Potential data advantages from integration with HRIS systems.",
+      "technical_barriers": "Limited technical barriers to entry for competitors.",
+      "development_velocity": "Development is in-house, allowing for rapid iteration and response to market needs."
+    },
+    "red_flags": [
+      "Lack of proprietary technology or significant technical moats."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Kept Inc has shown strong traction with a significant increase in ARR and a growing customer base, indicating product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "ARR has grown from $13k to $30k in 6 months, showing strong revenue growth.",
+      "customer_metrics": "47 employers, 9 brokers, and 1 GA, with a growing sales pipeline.",
+      "retention_analysis": "High retention with only 4 customers on free plans, indicating strong customer satisfaction.",
+      "unit_economics": "Pricing structure supports positive unit economics, though specific CAC and LTV figures are not provided."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback on integration and support features.",
+      "product_market_fit": "Evidence of strong PMF with growing customer base and revenue.",
+      "notable_customers": "Partnerships with Amwins, Benefitmall, and Selerix highlight market validation.",
+      "partnerships": "Strategic partnerships with large brokers and platforms enhance market reach."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured partnerships with major industry players.",
+        "context": "Partnerships with Amwins, Benefitmall, and Selerix.",
+        "outcome": "Increased market reach and credibility."
+      }
+    ],
+    "red_flags": [
+      "Dependency on partnerships for growth could pose risks if not managed effectively."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing focus on employee experience and legal compliance, providing a strong market entry opportunity.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that enhance employee experience during off-boarding.",
+      "catalysts": "Regulatory changes and increasing focus on employee well-being drive demand.",
+      "tailwinds": "Favorable trends in HR technology adoption and employee experience focus.",
+      "headwinds": "Potential economic downturns could impact HR budgets."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a strong position in a niche market.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but Kept Inc's focus on experience provides differentiation.",
+      "market_education": "Some market education may be required to shift focus from compliance to experience.",
+      "technology_maturity": "Underlying technologies are mature, supporting rapid deployment."
+    },
+    "red_flags": [
+      "Economic uncertainty could impact market adoption rates."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is not currently fundraising, but previous funding rounds indicate strong investor interest and alignment with SV's focus.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "$2.1M raised in pre-seed round.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on HR technology and employee experience.",
+      "ownership_potential": "Potential for significant ownership in future rounds.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation appears reasonable given traction and market opportunity."
+    },
+    "red_flags": [
+      "Lack of current fundraising details limits assessment of terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Kept Inc demonstrates strong traction, a capable team, and a clear market opportunity in a growing niche. The company's focus on employee experience and compliance aligns well with SV's investment thesis.",
+    "key_factors": [
+      "Strong team with domain expertise",
+      "Significant market opportunity",
+      "Positive traction and partnerships"
+    ],
+    "next_steps": [
+      "Engage with the team to explore potential investment in the next funding round",
+      "Conduct further due diligence on technology and market dynamics"
+    ]
+  }
+}

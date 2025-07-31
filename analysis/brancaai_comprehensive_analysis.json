@@ -1,0 +1,219 @@
+{
+  "company_name": "Branca.ai",
+  "website": "https://www.branca.ai",
+  "year_founded": "2024",
+  "description": "Branca.ai builds AI-powered software for home service businesses. Our flagship product, Luca, turns plain English into action, automating scheduling, invoicing, and compliance so business owners can grow faster with less effort.",
+  "problem_statement": "Home service businesses waste time and money on disorganized scheduling, manual invoicing, and missed compliance tasks. This leads to lost revenue, burnout, and stalled growth. Branca.ai automates these workflows using AI, helping business owners run smoother operations and scale without hiring more staff.",
+  "pitch_deck_link": "https://app.slidebean.com/sbp/014611e6f5/Elevator-Pitch-Deck",
+  "demo_link": "https://www.loom.com/share/8639672aaea84729929d769f31e23319?sid=cbb1a945-06ef-4761-ba4c-40d6179d9ab2",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and complementary skills. Kyle Prest and Miko Smith have direct experience in the CRM space for home services, which is crucial for understanding customer needs and market dynamics. Nick Poduska, as CTO, brings technical expertise necessary for building and scaling the product.",
+    "company_assessment": {
+      "business_model_strength": "The SaaS subscription model is well-suited for scalability and recurring revenue. The pricing structure with base and modular upcharges aligns with industry standards.",
+      "market_positioning": "Branca.ai positions itself as a simpler, more automated alternative to existing solutions, focusing on true AI-driven execution rather than just data dashboards.",
+      "execution_capability": "The team has demonstrated execution capability by developing an MVP, securing early beta users, and building a waitlist of 160+ leads.",
+      "strategic_vision": "The strategic vision is clear, focusing on automating operational chaos in home service businesses, which is a significant pain point."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kyle Prest",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/kyle-dennis-prest-7000b8121/",
+        "background": "Kyle has a background in CRM solutions and has worked at Thryv, gaining valuable insights into the home services market.",
+        "domain_expertise": "Extensive experience in CRM and home services industry.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Successfully led CRM initiatives at Thryv.",
+        "leadership_signals": "Demonstrated leadership in building a cohesive team and driving product development.",
+        "track_record": []
+      },
+      {
+        "name": "Miko Smith",
+        "role": "CRO",
+        "linkedin": "https://www.linkedin.com/in/miko-smith/",
+        "background": "Miko has a strong sales background, particularly in CRM solutions for home services.",
+        "domain_expertise": "Sales and CRM expertise in the home services sector.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Proven sales track record at Thryv.",
+        "leadership_signals": "Strong sales leadership and customer acquisition skills.",
+        "track_record": []
+      },
+      {
+        "name": "Nick Poduska",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/npoduska/",
+        "background": "Technical expertise in software development and AI.",
+        "domain_expertise": "Technical development and AI implementation.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Led technical development of Branca.ai's MVP.",
+        "leadership_signals": "Technical leadership in product development.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The market includes established players like ServiceTitan, Jobber, Housecall Pro, and Thryv.",
+      "primary_competitors": [
+        {
+          "name": "ServiceTitan",
+          "description": "Comprehensive platform for home service businesses.",
+          "strengths": "Established brand and extensive feature set.",
+          "weaknesses": "Complexity and high onboarding effort.",
+          "comparison": "Branca.ai offers a simpler, more automated solution."
+        },
+        {
+          "name": "Jobber",
+          "description": "Field service management software.",
+          "strengths": "User-friendly interface and strong customer support.",
+          "weaknesses": "Limited automation capabilities.",
+          "comparison": "Branca.ai focuses on AI-driven automation."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "AI-driven automation",
+          "Ease of use",
+          "Comprehensive features"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            false
+          ],
+          "ServiceTitan": [
+            false,
+            false,
+            true
+          ],
+          "Jobber": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Branca.ai is well-positioned to capture market share by offering a simpler, more automated solution compared to competitors."
+    },
+    "red_flags": [
+      "Limited team size may impact scaling capabilities."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The U.S. home services market is substantial, with over 1.2 million businesses and a $10B+ TAM for software tools. The focus on businesses generating $1M+ in revenue aligns with a significant market segment.",
+    "market_analysis": {
+      "total_addressable_market": "Over $10B TAM for CRM, scheduling, invoicing, and compliance automation in the U.S. home services market.",
+      "serviceable_addressable_market": "Targeting 200,000 businesses generating $1M+ in revenue.",
+      "serviceable_obtainable_market": "SOM projections based on capturing a portion of the 200,000 target businesses.",
+      "market_growth_rate": "The market is growing annually as digital adoption accelerates.",
+      "market_dynamics": "Increasing demand for digital solutions and automation in home services."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Upper-end SMB home service companies with $3M ARR or higher.",
+      "willingness_to_pay": "Evidence from customer interviews indicating demand for AI-powered solutions.",
+      "customer_acquisition_cost": "Projected quick sales cycle based on founders' experience.",
+      "customer_lifetime_value": "Potential for high LTV due to subscription model and modular pricing."
+    },
+    "red_flags": [
+      "Market entry timing and competitive response risks."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology leverages AI for automation, which is a key differentiator. However, the lack of proprietary algorithms or IP protection is a concern.",
+    "technical_assessment": {
+      "core_technology": "AI-powered software for automating scheduling, invoicing, and compliance.",
+      "defensibility": "Limited technical moats due to lack of proprietary IP.",
+      "intellectual_property": "No patents or trade secrets mentioned.",
+      "scalability": "Technical architecture designed to scale with growth.",
+      "integration_capabilities": "Ease of integration with existing systems is not detailed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "No proprietary data sources mentioned.",
+      "technical_barriers": "Limited barriers to replication.",
+      "development_velocity": "Rapid development of MVP and beta testing."
+    },
+    "red_flags": [
+      "Lack of IP protection and proprietary technology."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Early traction with a waitlist of 160+ leads and beta testing indicates interest, but no paying customers yet. The company is preparing for a broader beta launch.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, but projections based on conversion rates.",
+      "customer_metrics": "5 beta clients and a pipeline of 160 ICPs.",
+      "retention_analysis": "Retention metrics not available due to early stage.",
+      "unit_economics": "Projected $19,000 MRR based on conversion assumptions."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from customer interviews.",
+      "product_market_fit": "Indications of PMF from beta interest.",
+      "notable_customers": "No notable customers yet.",
+      "partnerships": "Potential white label and referral partnerships in discussion."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Development of MVP and beta testing.",
+        "context": "Built core CRM/MVP with AI features.",
+        "outcome": "Preparing for broader beta launch."
+      }
+    ],
+    "red_flags": [
+      "Lack of paying customers and proven revenue model."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ripe for digital transformation, and the demand for automation in home services is growing. However, competitive response and market education are potential challenges.",
+    "market_timing": {
+      "market_readiness": "High readiness for digital solutions in home services.",
+      "catalysts": "Increasing digital adoption and demand for automation.",
+      "tailwinds": "Favorable macro trends in digital transformation.",
+      "headwinds": "Potential competitive response and market education needs."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to capture market share with AI-driven automation.",
+      "competitive_response": "Likelihood of response from established players.",
+      "market_education": "Need for educating the market on AI benefits.",
+      "technology_maturity": "Mature underlying technologies for AI implementation."
+    },
+    "red_flags": [
+      "Potential competitive response and market education challenges."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is not currently fundraising, which limits immediate investment opportunities. However, future fundraising plans could align with SV's focus.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Not currently raising.",
+      "pre_money_valuation": "Not applicable.",
+      "post_money_valuation": "Not applicable."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on digital transformation and automation.",
+      "ownership_potential": "Future fundraising could offer ownership opportunities.",
+      "liquidation_preferences": "Not applicable.",
+      "valuation_justification": "Not applicable."
+    },
+    "red_flags": [
+      "Not currently fundraising, limiting immediate investment potential."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Branca.ai shows promise with a strong team, clear market need, and early traction. However, the lack of paying customers and current fundraising limits immediate investment potential. Monitoring progress and readiness for future fundraising is recommended.",
+    "key_factors": [
+      "Strong team with domain expertise",
+      "Clear market need and early traction",
+      "Lack of paying customers"
+    ],
+    "next_steps": [
+      "Monitor progress and readiness for future fundraising",
+      "Evaluate traction and customer acquisition post-beta launch"
+    ]
+  }
+}

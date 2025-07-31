@@ -1,0 +1,198 @@
+{
+  "company_name": "SmartHeritance",
+  "website": "https://smartheritance.com",
+  "year_founded": "2024",
+  "description": "SmartHeritance is a digital legacy planning platform that helps individuals organize and securely pass on everything their loved ones will need - from financial, digital and personal assets to ongoing expenses. The reality is, most families face stress, confusion and financial loss when a loved one passes - simply because vital information is scattered, or missing. SmartHeritance solves this by automating the discovery, organization, and secure sharing of key information - ensuring nothing gets lost or unclaimed. Your legacy is fully preserved and passed on with ease, giving you peace of mind and providing a clear path for your family when it matters most.",
+  "problem_statement": "Most families are caught off guard when a loved one passes away. Critical information—like financial accounts, insurance policies, and digital assets—is often scattered or hidden, leaving survivors overwhelmed and unprepared. This leads to lost assets, missed benefits, and emotional strain during an already difficult time. SmartHeritance helps individuals organize and securely share key information, so their families aren’t left in the dark when it matters most. A common pitfall in legacy planning is the lack of ongoing discipline—people may start organizing their affairs but rarely keep things updated. Survivors often don’t know what exists, or who to contact when someone passes away. As a result, assets go unclaimed and critical benefits are missed. SmartHeritance addresses this with automated asset discovery and periodic wellness checks, ensuring that vital information stays current and reaches the right people automatically when it matters most.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1DVvtBSolgp7FV2J-jb9g3OiTThkDzFE7/view?usp=drive_link",
+  "demo_link": "https://www.loom.com/share/2da57bf9a4b84af0ab481a1fb17cc411?sid=7c6a0856-9513-4bee-ad87-a0e50dfb11b8",
+  "team": {
+    "score": 3,
+    "justification": "The team is led by a single founder, Pravat Lall, who has a LinkedIn profile indicating a background in technology and entrepreneurship. However, the lack of a co-founder or a full-time in-house team raises concerns about execution capability and scalability. The current team relies heavily on external agencies and contractors, which may impact the speed and quality of product development.",
+    "company_assessment": {
+      "business_model_strength": "The business model is diversified with multiple revenue streams including direct-to-consumer subscriptions, corporate benefit programs, and B2B2C partnerships. However, the reliance on external partners for distribution could pose risks if these channels do not scale as expected.",
+      "market_positioning": "SmartHeritance positions itself as a comprehensive digital legacy planning solution with unique features like automated asset discovery and wellness checks. This differentiation is crucial in a crowded market.",
+      "execution_capability": "The founder's ability to execute is somewhat limited by the lack of a co-founder and a full-time team. The use of an agency for engineering suggests potential challenges in maintaining product quality and innovation.",
+      "strategic_vision": "The strategic vision is clear, focusing on automating legacy planning to reduce emotional and logistical burdens. However, the execution plan needs more clarity, especially in terms of scaling operations and building strategic partnerships."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Pravat Lall",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/pravat/",
+        "background": "Pravat Lall has a background in technology and entrepreneurship, with experience in building digital solutions.",
+        "domain_expertise": "His expertise lies in digital platforms and automation, which aligns well with the company's focus.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Successfully launched an MVP and secured initial traction with corporate HR benefits.",
+        "leadership_signals": "Demonstrates leadership through initial traction and strategic vision, but lacks a co-founder to complement skills.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes digital legacy platforms, end-of-life tech, and family wealth management tools. Key players include Everplans, Trust & Will, and GoodTrust.",
+      "primary_competitors": [
+        {
+          "name": "Everplans",
+          "description": "Offers digital vaults to store wills, insurance, and other end-of-life documents.",
+          "strengths": "Established brand with a comprehensive digital vault offering.",
+          "weaknesses": "Limited automation and ongoing updates.",
+          "comparison": "SmartHeritance differentiates with automated asset discovery and wellness checks."
+        },
+        {
+          "name": "Trust & Will",
+          "description": "Focuses on online estate planning, but includes some legacy tools.",
+          "strengths": "Strong focus on legal aspects of estate planning.",
+          "weaknesses": "Less emphasis on digital asset management and automation.",
+          "comparison": "SmartHeritance offers a more holistic approach with digital asset management."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Automated Asset Discovery",
+          "Wellness Checks",
+          "Digital Vault"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Everplans": [
+            false,
+            false,
+            true
+          ],
+          "Trust & Will": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      "competitive_positioning": "SmartHeritance has a strong competitive position with unique features that address key pain points in legacy planning. However, the market is crowded, and establishing a strong brand presence will be crucial."
+    },
+    "red_flags": [
+      "Lack of a co-founder and reliance on external agencies for product development."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial with a TAM of $50B and a SAM of $15B in the U.S. alone. The growing awareness of digital legacy issues and the increasing need for comprehensive legacy planning solutions provide a significant opportunity for SmartHeritance.",
+    "market_analysis": {
+      "total_addressable_market": "$50B, based on the growing need for digital legacy solutions.",
+      "serviceable_addressable_market": "$15B in the U.S., focusing on high-net-worth individuals and families.",
+      "serviceable_obtainable_market": "SOM projections are not explicitly stated but could be significant given the strategic partnerships and B2B2C distribution model.",
+      "market_growth_rate": "The market is expected to grow as awareness of digital legacy issues increases.",
+      "market_dynamics": "Key trends include the rise of digital assets, increasing complexity of personal financial management, and the need for secure information sharing."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are individuals aged 45+ with household incomes over $100K and net worth between $1M and $20M.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by initial traction with corporate HR benefits and DTC signups.",
+      "customer_acquisition_cost": "CAC is not explicitly stated, but the reliance on strategic partnerships suggests a focus on cost-effective acquisition channels.",
+      "customer_lifetime_value": "LTV is likely high given the subscription model and the ongoing need for legacy planning services."
+    },
+    "red_flags": [
+      "Potential challenges in capturing a significant share of the market due to competition."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is promising with features like automated asset discovery and wellness checks. However, the reliance on an external agency for development raises concerns about technical defensibility and scalability.",
+    "technical_assessment": {
+      "core_technology": "Automated asset discovery and secure information sharing.",
+      "defensibility": "The technology offers unique features, but the lack of in-house development may impact defensibility.",
+      "intellectual_property": "No patents or IP protection strategy mentioned.",
+      "scalability": "Scalability is a concern due to reliance on external development resources.",
+      "integration_capabilities": "Integration with existing systems is not explicitly addressed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Automated asset discovery is a key differentiator.",
+      "data_advantages": "Potential for proprietary data sources through partnerships.",
+      "technical_barriers": "Limited barriers due to reliance on external development.",
+      "development_velocity": "Development speed may be impacted by external agency involvement."
+    },
+    "red_flags": [
+      "Reliance on external development resources and lack of IP protection."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Early traction is promising with positive feedback from free trials and a signed contract with a corporate HR benefits team. However, the customer base is still small, and scaling will require significant effort.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth is not explicitly stated, but initial traction suggests potential for growth.",
+      "customer_metrics": "200+ DTC signups and interest from estate planners indicate early customer interest.",
+      "retention_analysis": "Retention rates are not provided, but the subscription model suggests potential for strong retention.",
+      "unit_economics": "Unit economics are not detailed, but the subscription model and strategic partnerships suggest potential for positive economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback highlights the platform's ease of use and peace of mind it provides.",
+      "product_market_fit": "Evidence of PMF is seen in the positive feedback and initial traction.",
+      "notable_customers": "A corporate HR benefits team has signed a contract, indicating interest from larger organizations.",
+      "partnerships": "Interest from estate planners and insurance providers suggests potential for strategic partnerships."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Signed contract with a corporate HR benefits team.",
+        "context": "Demonstrates interest from larger organizations and potential for B2B2C distribution.",
+        "outcome": "Encouraging sign for scaling through strategic partnerships."
+      }
+    ],
+    "red_flags": [
+      "Limited customer base and reliance on external distribution channels."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing awareness of digital legacy issues and a growing market for comprehensive legacy planning solutions. However, the crowded market and need for strong differentiation pose challenges.",
+    "market_timing": {
+      "market_readiness": "The market is ready for digital legacy solutions as awareness grows.",
+      "catalysts": "Rising digital asset ownership and complexity of personal financial management.",
+      "tailwinds": "Favorable trends include increasing digitalization and the need for secure information sharing.",
+      "headwinds": "Potential challenges include market education and differentiation in a crowded space."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage with unique features like automated asset discovery.",
+      "competitive_response": "Competitors may respond with similar features, requiring strong differentiation.",
+      "market_education": "Market education will be necessary to drive adoption.",
+      "technology_maturity": "The technology is mature enough to support the solution, but ongoing innovation will be needed."
+    },
+    "red_flags": [
+      "Need for strong differentiation and market education."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a SAFE round, having raised $150K from friends and family. The terms are not explicitly detailed, but the focus on preparing for an institutional seed round suggests alignment with SV's investment criteria.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified, but preparing for institutional seed round.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The focus on preparing for an institutional seed round aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for ownership through participation in the seed round.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, making it difficult to assess justification."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "SmartHeritance presents a promising opportunity in the growing digital legacy planning market. However, concerns about team structure, reliance on external development, and the need for strong differentiation warrant a cautious approach. Further validation of traction and strategic partnerships is needed before advancing.",
+    "key_factors": [
+      "Promising market opportunity",
+      "Unique features and differentiation",
+      "Concerns about team and execution capability"
+    ],
+    "next_steps": [
+      "Monitor traction and strategic partnership development",
+      "Assess team expansion and in-house development capabilities",
+      "Evaluate detailed terms and valuation in future fundraising rounds"
+    ]
+  }
+}

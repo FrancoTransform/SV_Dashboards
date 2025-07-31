@@ -1,0 +1,237 @@
+{
+  "company_name": "Aidora",
+  "website": "https://getaidora.com/",
+  "year_founded": "2023",
+  "description": "Aidora is an AI-powered leave management platform that helps HR teams manage leave efficiently in-house, at companies of all sizes. By automating administrative tasks, compliance workflows and employee questions, Aidora streamlines the process so HR teams can focus on what matters most: supporting their people.",
+  "problem_statement": "Problem: Leave management is one of the most complicated people operations workflows, driven by the increasing number of state-specific leave laws and the rise of hybrid and remote work. Companies of all sizes face significant compliance, financial, and reputational risks when handling leave incorrectly. Existing solutions are primarily service or tech-enabled service models—costly, inconsistent, and often inaccurate—making leave management inaccessible or inefficient for many businesses.\n\nWhy It Matters: Every company, regardless of size or industry, deserves a tech-forward, accessible solution to manage leave with precision and ease. Aidora is building the first truly scalable, AI-powered leave management platform that empowers businesses to navigate leave confidently and efficiently, without sacrificing quality or incurring excessive costs.",
+  "pitch_deck_link": "https://docsend.com/view/h66fvsubc9y64ep4",
+  "demo_link": "https://www.loom.com/share/347cc4711c5a4e3486560213c5021d1d?sid=8f7b1ee2-fbe2-4e04-9a0d-fa5f2dff74bd",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Aidora demonstrates strong execution ability and domain expertise. Rhiana Gademsky, CEO, brings firsthand experience with the problem from a previous startup and a strong background in operations and investing. Anant Agarwal, CTO, has extensive experience with complex backend modeling and AI expertise from his time at Google. The team is well-rounded with complementary skills, and they have shown leadership capability by building a team of 16 employees.",
+    "company_assessment": {
+      "business_model_strength": "Aidora operates on a SaaS subscription model with a scalable and predictable revenue stream. The tiered pricing based on company size and feature requirements aligns well with market needs.",
+      "market_positioning": "Aidora positions itself as a tech-forward, AI-powered solution in a market dominated by service-heavy models. This differentiation strategy is compelling and addresses a clear market gap.",
+      "execution_capability": "The team has demonstrated execution capability by securing 33 paying customers and a significant channel partnership with Jellyvision, indicating strong go-to-market execution.",
+      "strategic_vision": "Aidora's strategic vision is to provide a scalable, cost-effective solution for leave management, leveraging AI to differentiate from competitors. The long-term vision aligns with market needs and trends."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Rhiana Gademsky",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/rhianagademsky/",
+        "background": "Rhiana has a strong background in operations and investing, with firsthand experience in leave management challenges from a previous startup.",
+        "domain_expertise": "Operations and HR tech",
+        "previous_startups": "Experience with a previous startup addressing similar challenges",
+        "notable_achievements": "Successfully led the company to secure a channel partnership with Jellyvision",
+        "leadership_signals": "Demonstrated ability to lead and build a cohesive team",
+        "track_record": [
+          {
+            "company": "Previous Startup",
+            "role": "Founder",
+            "outcome": "Gained valuable insights into leave management challenges",
+            "learnings": "Understanding of market needs and customer pain points"
+          }
+        ]
+      },
+      {
+        "name": "Anant Agarwal",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/anantinvent/",
+        "background": "Anant has extensive experience in complex backend modeling and AI from his time at Google.",
+        "domain_expertise": "AI and backend systems",
+        "previous_startups": "N/A",
+        "notable_achievements": "Developed AI-powered solutions at Google",
+        "leadership_signals": "Leads a team of 11 engineers, ensuring product quality and innovation",
+        "track_record": [
+          {
+            "company": "Google",
+            "role": "AI Engineer",
+            "outcome": "Contributed to personalized search function",
+            "learnings": "Deep understanding of AI applications and scalability"
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes tech-enabled service solutions like Sparrow, Cocoon, and Tilt. These competitors are costly and hard to scale, providing an opportunity for Aidora's tech-driven approach.",
+      "primary_competitors": [
+        {
+          "name": "Sparrow",
+          "description": "Tech-enabled service model for leave management",
+          "strengths": "Established brand and service network",
+          "weaknesses": "High cost and scalability issues",
+          "comparison": "Aidora offers a more scalable, cost-effective AI-driven solution."
+        },
+        {
+          "name": "Cocoon",
+          "description": "Service-heavy leave management solution",
+          "strengths": "Comprehensive service offerings",
+          "weaknesses": "Inconsistent and costly",
+          "comparison": "Aidora's tech-forward approach reduces costs and improves scalability."
+        },
+        {
+          "name": "Tilt",
+          "description": "Tech-enabled service for leave management",
+          "strengths": "Strong service component",
+          "weaknesses": "Limited scalability and high costs",
+          "comparison": "Aidora leverages AI to provide a more efficient and scalable solution."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Scalability",
+          "Cost-effectiveness",
+          "AI-driven"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Sparrow": [
+            false,
+            false,
+            false
+          ],
+          "Cocoon": [
+            false,
+            false,
+            false
+          ],
+          "Tilt": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Aidora is well-positioned to capture market share with its scalable, AI-driven solution that addresses the cost and scalability issues of existing competitors."
+    },
+    "red_flags": [
+      "Potential challenges in educating the market on the benefits of a tech-driven approach"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "Aidora targets a substantial market with a TAM of $5.1 billion annually, focusing on mid-sized companies in the U.S. The market is growing due to increasing complexity in leave management and the rise of hybrid work models.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is $5.1 billion annually, based on 247,443 mid-sized companies in the U.S.",
+      "serviceable_addressable_market": "Aidora's SAM includes companies with 50 to 2,000+ employees, focusing on those with complex leave management needs.",
+      "serviceable_obtainable_market": "SOM projections are supported by Aidora's channel partnership with Jellyvision, expanding reach to 1,500+ customers.",
+      "market_growth_rate": "The market is expected to grow due to increasing regulatory complexity and the shift to hybrid work models.",
+      "market_dynamics": "Key trends include the rise of remote work, increasing state-specific leave laws, and demand for scalable tech solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are HR teams at mid-sized companies, focusing on benefits, total rewards, and people operations.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by 33 paying customers and a pricing structure of $48 PEPY.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but the channel partnership with Jellyvision suggests a cost-effective acquisition strategy.",
+      "customer_lifetime_value": "LTV is supported by the SaaS model and potential for upselling premium features."
+    },
+    "red_flags": [
+      "Market education may be required to shift HR teams from service-heavy solutions to tech-driven models."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Aidora's technology is defensible and differentiated by its AI-driven approach, which automates complex leave management tasks. The in-house development ensures control over quality and innovation.",
+    "technical_assessment": {
+      "core_technology": "AI-powered platform automating leave management tasks and compliance workflows.",
+      "defensibility": "The AI-driven approach provides a technical moat by reducing reliance on service-heavy models.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary algorithms are implied.",
+      "scalability": "The platform is designed to scale without a large team of leave case managers.",
+      "integration_capabilities": "Potential challenges in integrating with various HRIS and payroll systems."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms streamline leave management processes.",
+      "data_advantages": "Potential for data-driven insights and continuous improvement.",
+      "technical_barriers": "AI-driven automation reduces the need for costly service components.",
+      "development_velocity": "In-house development team ensures rapid iteration and innovation."
+    },
+    "red_flags": [
+      "Integration challenges with existing HRIS and payroll systems."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Aidora has demonstrated strong early traction with ~$100K ARR and 33 paying customers. The channel partnership with Jellyvision significantly enhances market reach and go-to-market execution.",
+    "growth_metrics": {
+      "revenue_growth": "Achieved ~$100K ARR with a robust sales pipeline of $800K in open opportunities.",
+      "customer_metrics": "33 paying customers with a channel partnership expanding potential reach.",
+      "retention_analysis": "Retention metrics are not detailed, but early customer adoption is promising.",
+      "unit_economics": "Pricing structure of $48 PEPY with a base contract starting at $5,500."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from HR leader advisors and benefits brokers.",
+      "product_market_fit": "Strong PMF indicated by early customer adoption and channel partnership.",
+      "notable_customers": "Partnership with Jellyvision provides access to 1,500+ customers.",
+      "partnerships": "Strategic partnership with Jellyvision accelerates go-to-market strategy."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Channel partnership with Jellyvision",
+        "context": "Expands reach to 1,500+ customers",
+        "outcome": "Accelerates go-to-market strategy and enhances market presence"
+      }
+    ],
+    "red_flags": [
+      "Variability in sales cycle length impacting revenue predictability."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing complexity in leave management and the rise of hybrid work models. Aidora's AI-driven solution addresses current market needs and trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for tech-driven solutions due to increasing regulatory complexity.",
+      "catalysts": "Rise of hybrid work models and state-specific leave laws.",
+      "tailwinds": "Growing demand for scalable, cost-effective leave management solutions.",
+      "headwinds": "Potential challenges in market education and adoption."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Aidora's AI-driven approach offers a first-mover advantage in a service-heavy market.",
+      "competitive_response": "Competitors may respond by enhancing tech capabilities, but Aidora's AI focus provides a head start.",
+      "market_education": "Market education is required to shift perceptions from service-heavy to tech-driven solutions.",
+      "technology_maturity": "AI and automation technologies are mature enough to support Aidora's solution."
+    },
+    "red_flags": [
+      "Need for market education to drive adoption of tech-driven solutions."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "Aidora is currently fundraising to extend runway through Q4 2026. The investment terms align with SV's focus on scalable, tech-driven solutions in the HR tech space.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified, but seeking to fill remaining portion of seed round",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified",
+      "use_of_funds": "To accelerate customer acquisition, strengthen product-market fit, and expand industry connections."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on scalable, tech-driven HR solutions.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation details are not provided, but early traction and market opportunity support a favorable valuation."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and raise amount information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Aidora demonstrates strong potential with its AI-driven solution addressing a significant market need. The founding team has relevant expertise, and early traction is promising. The channel partnership with Jellyvision enhances market reach and go-to-market execution.",
+    "key_factors": [
+      "Strong founding team with complementary skills",
+      "AI-driven solution addressing a clear market gap",
+      "Early traction with 33 paying customers and ~$100K ARR",
+      "Strategic partnership with Jellyvision expanding market reach"
+    ],
+    "next_steps": [
+      "Conduct a detailed valuation analysis and finalize investment terms",
+      "Explore additional channel partnerships to enhance market reach",
+      "Develop a market education strategy to drive adoption of tech-driven solutions"
+    ]
+  }
+}

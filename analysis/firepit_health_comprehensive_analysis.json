@@ -1,0 +1,218 @@
+{
+  "company_name": "Firepit Health",
+  "website": "https://www.firepithealth.com/",
+  "year_founded": "2025",
+  "description": "FirePit Health is a seed-stage telehealth company focused on transforming addiction treatment through accessible, virtual care.",
+  "problem_statement": "40M+ Americans live with substance use disorders—yet less than 10% receive care. Access gaps, stigma, and provider shortages persist. FirePit Health meets this crisis with virtual MAT that aligns with the Quintuple Aim: ✔ Better outcomes ✔ Lower costs ✔ Human-centered care ✔ Clinician well-being ✔ Health equity. The need is urgent. The moment to scale is now. The value is generational.",
+  "pitch_deck_link": "https://d37o7e6vvmm1m5.cloudfront.net/FirePit%20Health%20Deck.pdf",
+  "demo_link": "https://firepit-health.wistia.com/medias/2wjydlwpvm",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong background in healthcare and technology, with experience in launching and scaling healthcare operations. Dean Scaduto, the Founder & CEO, has a proven track record in the industry, which is crucial for execution capability.",
+    "company_assessment": {
+      "business_model_strength": "FirePit Health operates a dual-revenue model with insurance billing and self-pay subscriptions, which is scalable and aligns with industry trends.",
+      "market_positioning": "The company targets underserved Medicaid and self-pay markets, offering a dual-indication platform for OUD and AUD, which differentiates it from competitors.",
+      "execution_capability": "The team has demonstrated the ability to navigate regulatory processes and build strategic partnerships, indicating strong execution potential.",
+      "strategic_vision": "FirePit Health has a clear vision to address addiction treatment gaps with a comprehensive virtual care model, aligning with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Dean Scaduto",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/deanscaduto/",
+        "background": "Dean has a background in healthcare management and technology, with experience in launching and scaling treatment centers.",
+        "domain_expertise": "Expertise in healthcare operations and telehealth solutions.",
+        "previous_startups": "Involved in launching and scaling six brick-and-mortar treatment centers.",
+        "notable_achievements": "Successfully navigated regulatory environments and established healthcare partnerships.",
+        "leadership_signals": "Demonstrated leadership in building and managing healthcare teams.",
+        "track_record": [
+          {
+            "company": "Previous Healthcare Venture",
+            "role": "Founder",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into scaling healthcare operations and navigating regulatory challenges."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The addiction telehealth market is competitive, with key players like Ophela, Bicycle Health, and Workit.",
+      "primary_competitors": [
+        {
+          "name": "Ophela",
+          "description": "Focuses on opioid use disorder treatment.",
+          "strengths": "Specialized in OUD with established protocols.",
+          "weaknesses": "Limited to single-indication approach.",
+          "comparison": "FirePit Health offers dual-indication treatment, expanding market reach."
+        },
+        {
+          "name": "Bicycle Health",
+          "description": "Provides telehealth services for opioid addiction.",
+          "strengths": "Strong brand recognition in OUD.",
+          "weaknesses": "Narrow focus on opioids.",
+          "comparison": "FirePit Health's dual-indication platform offers broader market coverage."
+        },
+        {
+          "name": "Workit",
+          "description": "Digital addiction care platform.",
+          "strengths": "Comprehensive digital care solutions.",
+          "weaknesses": "Limited scalability in underserved markets.",
+          "comparison": "FirePit Health targets underserved Medicaid markets with a scalable model."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Dual-Indication Platform",
+          "Scalability",
+          "Market Coverage"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Ophela": [
+            false,
+            false,
+            false
+          ],
+          "Bicycle Health": [
+            false,
+            true,
+            false
+          ],
+          "Workit": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "FirePit Health is well-positioned with a dual-indication platform and a focus on underserved markets, providing a sustainable competitive advantage."
+    },
+    "red_flags": [
+      "Potential challenges in scaling provider network and navigating regulatory environments."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The addiction treatment market is substantial, with a $42B TAM and a $10B SAM. The company's dual-indication approach allows for significant market capture.",
+    "market_analysis": {
+      "total_addressable_market": "$42B, based on the number of Americans with substance use disorders and the cost of treatment.",
+      "serviceable_addressable_market": "$10B, focusing on Medicaid and self-pay markets in 20 states.",
+      "serviceable_obtainable_market": "Projected to capture a significant portion of the SAM through strategic partnerships and market entry.",
+      "market_growth_rate": "The addiction telehealth market is growing rapidly, driven by increased demand for virtual care solutions.",
+      "market_dynamics": "Key trends include the rise of telehealth, regulatory support post-COVID, and increasing investor interest in digital health platforms."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Targeting Medicaid patients and self-pay individuals in underserved areas.",
+      "willingness_to_pay": "Evidence suggests strong demand for accessible addiction treatment solutions.",
+      "customer_acquisition_cost": "Expected to leverage existing networks to minimize CAC.",
+      "customer_lifetime_value": "High LTV due to ongoing treatment needs and subscription model."
+    },
+    "red_flags": [
+      "Potential regulatory changes affecting Medicaid reimbursement."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "FirePit Health's technology is developed in-house, ensuring compliance and scalability. The dual-indication platform offers a competitive moat.",
+    "technical_assessment": {
+      "core_technology": "Virtual MAT platform with specialized protocols for OUD and AUD.",
+      "defensibility": "In-house development ensures control over technology and compliance.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary protocols are a key asset.",
+      "scalability": "The platform is designed to scale across multiple states and patient populations.",
+      "integration_capabilities": "Potential for integration with healthcare systems and insurance platforms."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Specialized treatment protocols for dual indications.",
+      "data_advantages": "Potential to leverage patient data for improved outcomes.",
+      "technical_barriers": "In-house development and compliance expertise create barriers to entry.",
+      "development_velocity": "Strong development team with experience in high-growth tech environments."
+    },
+    "red_flags": [
+      "Lack of explicit IP protection strategy."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Pre-launch stage with strong preparatory traction, including team assembly, regulatory progress, and market validation.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, but strong potential post-launch.",
+      "customer_metrics": "Pre-revenue, with a strategic pipeline in place.",
+      "retention_analysis": "Retention strategies not yet tested.",
+      "unit_economics": "Expected to be favorable due to dual-revenue model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive market research indicating demand.",
+      "product_market_fit": "Strong alignment with market needs for accessible addiction treatment.",
+      "notable_customers": "Preliminary discussions with healthcare systems and insurance partners.",
+      "partnerships": "Strategic referral network leveraging existing rehabilitation centers."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Regulatory progress in initial launch states.",
+        "context": "Advanced through state licensing processes.",
+        "outcome": "Positioned for launch in August 2025."
+      }
+    ],
+    "red_flags": [
+      "Pre-revenue stage presents inherent risks."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable due to post-COVID telehealth adoption, regulatory support, and increasing demand for addiction treatment.",
+    "market_timing": {
+      "market_readiness": "High readiness due to telehealth acceptance and regulatory support.",
+      "catalysts": "COVID-19 accelerated telehealth adoption and regulatory changes.",
+      "tailwinds": "Growing demand for accessible addiction treatment solutions.",
+      "headwinds": "Potential regulatory changes affecting telehealth reimbursement."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to capture market share in underserved areas.",
+      "competitive_response": "Competitors may respond by expanding their offerings.",
+      "market_education": "Some market education required for dual-indication approach.",
+      "technology_maturity": "Telehealth technology is mature and widely adopted."
+    },
+    "red_flags": [
+      "Regulatory risks related to telehealth policies."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "Currently fundraising with a 12-month runway. Terms align with seed-stage expectations and SV's focus on healthtech.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified, but seeking additional funding.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified.",
+      "ownership_implications": "Potential for significant ownership given early stage."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthtech and digital health.",
+      "ownership_potential": "Opportunity for meaningful ownership stake.",
+      "liquidation_preferences": "Standard seed-stage preferences expected.",
+      "valuation_justification": "Valuation not specified, but market opportunity supports a strong case."
+    },
+    "red_flags": [
+      "Lack of specific valuation details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "FirePit Health presents a compelling opportunity in the addiction telehealth space, with a strong team, significant market potential, and favorable timing. The dual-indication platform and focus on underserved markets provide a sustainable competitive advantage.",
+    "key_factors": [
+      "Strong team with healthcare expertise",
+      "Significant market opportunity",
+      "Favorable timing and regulatory environment"
+    ],
+    "next_steps": [
+      "Engage in due diligence to verify regulatory compliance and market readiness",
+      "Clarify valuation expectations and fundraising goals",
+      "Explore potential strategic partnerships to enhance market entry"
+    ]
+  }
+}

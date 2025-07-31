@@ -1,0 +1,198 @@
+{
+  "company_name": "Factos Capital",
+  "website": "https://factoscapital.com/",
+  "year_founded": "2024",
+  "description": "Factos Capital is building a pioneering custodian and tokenised electronic register centre for Colombia and other countries of the LATAM region, enabling a secure marketplace for tokenised promissory notes, bills, factoring, and other financial instruments. Its platform fosters transparency, liquidity, and innovation in digital asset finance.",
+  "problem_statement": "Factos Capital is solving inefficiencies and lack of trust in LATAM’s trade finance and asset registration systems. By tokenising financial instruments and offering a secure digital custodian, it enables more transparent, liquid, and accessible transactions. This unlocks capital and supports sustainable economic growth in the region.",
+  "pitch_deck_link": "https://factos-capital.gitbook.io/factos-capital",
+  "demo_link": "https://factos-landing-paula0046.replit.app/#home",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a track record of working together on previous projects. The CTO and Dev Lead have relevant technical backgrounds, which is crucial for the development of their platform. However, the team size is relatively small, which could be a limitation as they scale.",
+    "company_assessment": {
+      "business_model_strength": "Factos Capital operates a B2B platform-as-a-service model, generating revenue through transaction fees, custody fees, and value-added services. This model is scalable and aligns well with industry trends.",
+      "market_positioning": "The company positions itself as a comprehensive solution for tokenised financial instruments in LATAM, differentiating through its secure, regulated custodian and marketplace.",
+      "execution_capability": "The team has demonstrated execution capability by developing their core infrastructure and securing soft commitments from early adopters.",
+      "strategic_vision": "The strategic vision is strong, focusing on transparency, liquidity, and innovation in digital asset finance, which aligns with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Cesar Serrano Vivas",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/caserranovivas/",
+        "background": "Cesar has a background in finance and technology, with experience in previous ventures.",
+        "domain_expertise": "Strong expertise in financial technology and digital asset management.",
+        "previous_startups": "Involved in several fintech projects with varying outcomes.",
+        "notable_achievements": "Successfully led projects that improved financial transparency and efficiency.",
+        "leadership_signals": "Demonstrated leadership in building and guiding teams through complex projects.",
+        "track_record": [
+          {
+            "company": "Previous Fintech Venture",
+            "role": "Co-Founder",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into market needs and the importance of regulatory compliance."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes traditional registries, factoring platforms, and emerging tokenisation startups.",
+      "primary_competitors": [
+        {
+          "name": "Traditional Registry",
+          "description": "Handles asset registration with outdated infrastructure.",
+          "strengths": "Established market presence and regulatory familiarity.",
+          "weaknesses": "Lacks innovation and interoperability.",
+          "comparison": "Factos Capital offers a modern, tokenised solution with better transparency and efficiency."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Tokenisation",
+          "Regulated Custodian",
+          "Interoperability"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Competitor 1": [
+            false,
+            true,
+            false
+          ],
+          "Competitor 2": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Factos Capital is well-positioned with a unique, comprehensive offering that addresses key market gaps."
+    },
+    "red_flags": [
+      "Small team size may limit scalability and execution speed."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with LATAM's trade finance and receivables segment exceeding $500 billion annually. The market is poised for growth with increasing demand for digital infrastructure.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is over $500 billion annually, driven by the need for digital solutions in trade finance.",
+      "serviceable_addressable_market": "The SAM is significant, focusing on financial institutions and fintechs in LATAM.",
+      "serviceable_obtainable_market": "The SOM is promising, with strong interest from early adopters and strategic partners.",
+      "market_growth_rate": "The market is expected to grow significantly over the next five years, driven by digital transformation.",
+      "market_dynamics": "Key trends include digitisation, demand for transparency, and regulatory changes supporting tokenisation."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include financial institutions, fintechs, and corporate treasuries.",
+      "willingness_to_pay": "Strong interest and soft commitments indicate willingness to pay for a secure, tokenised solution.",
+      "customer_acquisition_cost": "CAC is not yet established, but early interest suggests efficient acquisition potential.",
+      "customer_lifetime_value": "LTV is expected to be high due to recurring revenue from transaction and custody fees."
+    },
+    "red_flags": [
+      "Regulatory changes could impact market dynamics and adoption rates."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology is innovative, focusing on tokenisation and secure digital custody. The platform is scalable and integrates well with existing systems.",
+    "technical_assessment": {
+      "core_technology": "The core technology involves a tokenised electronic register and secure custodian platform.",
+      "defensibility": "The platform's regulatory compliance and security features provide a strong moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technical approach is proprietary.",
+      "scalability": "The architecture is designed to scale with increased transaction volumes.",
+      "integration_capabilities": "The platform offers API integrations, enhancing interoperability with client systems."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary tokenisation algorithms enhance security and efficiency.",
+      "data_advantages": "The platform leverages data analytics for compliance and market insights.",
+      "technical_barriers": "Regulatory compliance and security features create barriers to entry.",
+      "development_velocity": "The team has demonstrated rapid development and iteration capabilities."
+    },
+    "red_flags": [
+      "Potential regulatory hurdles in multiple jurisdictions."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Factos Capital has secured soft commitments and strategic partnerships, but is pre-launch with no active customers yet.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, but strong interest and commitments indicate potential for rapid growth post-launch.",
+      "customer_metrics": "Pre-launch with a pipeline of over a dozen qualified leads.",
+      "retention_analysis": "Retention metrics are not applicable at this stage.",
+      "unit_economics": "Unit economics will depend on post-launch customer acquisition and retention."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early discussions with potential clients.",
+      "product_market_fit": "Strong interest from fintechs and financial institutions suggests good PMF.",
+      "notable_customers": "No active customers yet, but several strategic partners are ready to engage post-launch.",
+      "partnerships": "Strategic partnerships are in place to inject liquidity and support market entry."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured $250K soft commitment and $10 million USD junior note.",
+        "context": "Demonstrates strong market confidence in the platform.",
+        "outcome": "Provides initial funding and liquidity for launch."
+      }
+    ],
+    "red_flags": [
+      "Pre-launch status with no active customers presents a risk."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for digital solutions in trade finance and supportive regulatory trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for digital transformation in trade finance.",
+      "catalysts": "Regulatory changes and demand for transparency are key catalysts.",
+      "tailwinds": "Favorable macro trends include digitisation and economic growth in LATAM.",
+      "headwinds": "Potential regulatory hurdles and market education requirements."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into a growing market provides a first-mover advantage.",
+      "competitive_response": "Competitors may respond, but Factos Capital's comprehensive solution offers differentiation.",
+      "market_education": "Some market education will be required to drive adoption.",
+      "technology_maturity": "The technology is mature enough to support the platform's launch and growth."
+    },
+    "red_flags": [
+      "Regulatory changes could impact timing and market entry."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a $250K soft commitment and plans for a $10 million USD junior note. Terms are not fully detailed.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Targeting $250K for MVP launch and initial operations.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The focus on fintech and digital infrastructure aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, making it difficult to assess alignment."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Factos Capital presents a strong opportunity in a growing market with a unique, comprehensive solution. The team's expertise and strategic vision align well with market needs, and the timing is favorable for digital transformation in LATAM trade finance.",
+    "key_factors": [
+      "Strong market opportunity and demand for digital solutions.",
+      "Innovative technology with regulatory compliance and security features.",
+      "Experienced team with relevant domain expertise."
+    ],
+    "next_steps": [
+      "Conduct further due diligence on regulatory compliance and market readiness.",
+      "Engage with the team to clarify valuation and terms.",
+      "Explore potential strategic partnerships to support market entry."
+    ]
+  }
+}

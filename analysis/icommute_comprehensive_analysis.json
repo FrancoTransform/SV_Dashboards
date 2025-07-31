@@ -1,0 +1,221 @@
+{
+  "company_name": "iCommute",
+  "website": "https://www.icommute.app/",
+  "year_founded": "2022",
+  "description": "iCommute is an AI-native shared mobility platform serving universities and corporate campuses.",
+  "problem_statement": "Daily campus and workplace commutes are broken:\n\nTime wasted – Students and employees lose ≈2 hours a day on unreliable transit or traffic.\n\nHigh costs – Parking passes, fuel, and rideshares can exceed $300/month—often unaffordable for cash-strapped students or low-income staff.\n\nEnvironmental mandates – 75 % of cars arriving on North-American campuses carry one occupant, inflating parking demand and Scope-3 CO₂ emissions that institutions must now report under new IFRS S2/SEC rules.\n\nWhy it matters: Universities and employers face a triple squeeze: limited land for new $5 k–$15 k parking stalls, rising sustainability targets, and retention challenges as commuters push back against return-to-office mandates. Students and staff feel the pinch in lost time, tight budgets, and climate anxiety. Solving this unlocks measurable benefits—lower commute costs, happier commuters, reduced parking build-out, and verifiable CO₂ cuts—making efficient, shared mobility a strategic priority rather than a “nice-to-have.",
+  "pitch_deck_link": "https://docsend.com/view/xvk9v4r72azaqgsy",
+  "demo_link": "https://www.loom.com/share/4b9eef06d2a349ca847537d1ab325d44",
+  "team": {
+    "score": 4,
+    "justification": "The founding team consists of twin brothers Ayman and Adil Abdulkadir, who have firsthand experience with the commuting problem they aim to solve. Both are technically skilled, with Ayman leading engineering and infrastructure and Adil focusing on product, sales, and UX. Their personal experience and technical expertise provide a strong foundation for iCommute. However, the lack of a broader team in sales, operations, and G&A is a concern for scaling.",
+    "company_assessment": {
+      "business_model_strength": "iCommute's dual revenue streams of B2B SaaS licenses and marketplace transaction fees offer a predictable and scalable model. The focus on institutional clients provides a stable customer base.",
+      "market_positioning": "The company positions itself as a solution to the rising costs and environmental impact of commuting, with a unique value proposition of creating closed, verified networks for institutions.",
+      "execution_capability": "The team has successfully launched a closed beta and secured a term sheet from Ontario Tech University, demonstrating their ability to execute and gain institutional interest.",
+      "strategic_vision": "iCommute has a clear strategic vision to address the commuting challenges faced by universities and large employers, with a focus on sustainability and cost reduction."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Ayman Abdulkadir",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/ayman-abdulkadir/",
+        "background": "Ayman has a technical background with expertise in engineering and infrastructure.",
+        "domain_expertise": "Strong technical expertise in AI and mobility solutions.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Successfully launched iCommute's beta and secured institutional interest.",
+        "leadership_signals": "Demonstrated leadership in building the product and securing early traction.",
+        "track_record": []
+      },
+      {
+        "name": "Adil Abdulkadir",
+        "role": "CPO",
+        "linkedin": "https://www.linkedin.com/in/adilabdulkadir/",
+        "background": "Adil has a background in product, sales, and UX.",
+        "domain_expertise": "Expertise in product development and user experience.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Led product development and early go-to-market efforts.",
+        "leadership_signals": "Strong leadership in product and sales strategy.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes Scoop Commute, Poparide, and previously Waze Carpool. These competitors have struggled with scalability, trust, and integration.",
+      "primary_competitors": [
+        {
+          "name": "Scoop Commute",
+          "description": "Operates a schedule-first model for traditional office commutes.",
+          "strengths": "Established presence in the market.",
+          "weaknesses": "Rigid model not suited for post-COVID hybrid work patterns.",
+          "comparison": "iCommute offers more flexibility and institutional integration."
+        },
+        {
+          "name": "Poparide",
+          "description": "Focuses on intercity, long-distance rides.",
+          "strengths": "Strong in long-distance ride-sharing.",
+          "weaknesses": "Does not address high-frequency, short-distance commuting.",
+          "comparison": "iCommute targets daily campus and workplace commutes."
+        },
+        {
+          "name": "Waze Carpool",
+          "description": "Failed due to open-network design.",
+          "strengths": "Large user base from Waze app.",
+          "weaknesses": "Lacked trust and institutional anchors.",
+          "comparison": "iCommute uses closed, verified networks for trust."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Institutional Integration",
+          "Flexibility",
+          "Trust"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Scoop Commute": [
+            false,
+            false,
+            false
+          ],
+          "Poparide": [
+            false,
+            false,
+            false
+          ],
+          "Waze Carpool": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "iCommute is well-positioned with its focus on institutional integration, flexibility, and trust, offering a differentiated solution in the shared mobility space."
+    },
+    "red_flags": [
+      "Lack of a broader team in sales and operations could hinder scaling."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size analysis is robust, with a TAM of $42.8B and a SAM of $17.7B. The SOM target of $100M over six years is realistic given the market dynamics and iCommute's strategic focus on institutions.",
+    "market_analysis": {
+      "total_addressable_market": "$42.8B, representing 523,000 organizations across the US, Canada, UK, Australia, and New Zealand.",
+      "serviceable_addressable_market": "$17.7B, focused on 216,000 organizations in the US and Canada.",
+      "serviceable_obtainable_market": "$100M, representing a capture of 0.56% of the SAM over six years.",
+      "market_growth_rate": "The market is driven by increasing costs of parking and new ESG mandates, with a strong growth trajectory.",
+      "market_dynamics": "Key trends include the campus parking crisis, rising sustainability targets, and the need for efficient shared mobility solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are universities and large employers with commuter-heavy populations.",
+      "willingness_to_pay": "Institutions are motivated by cost savings, sustainability goals, and improved commuter experience.",
+      "customer_acquisition_cost": "Not explicitly detailed, but the focus on institutional clients suggests a higher CAC with potentially high LTV.",
+      "customer_lifetime_value": "High LTV expected due to recurring SaaS revenue and marketplace fees."
+    },
+    "red_flags": [
+      "Potential challenges in scaling customer acquisition across diverse institutions."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "iCommute's technology is built in-house, with a focus on AI integration and closed, verified networks. The technical approach is defensible and scalable, with a strong emphasis on trust and real-time matching.",
+    "technical_assessment": {
+      "core_technology": "AI-native platform with closed, verified networks for institutions.",
+      "defensibility": "The use of SSO-based trust and AI agents provides a technical moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but the proprietary platform offers differentiation.",
+      "scalability": "The architecture is designed to support scalable, low-latency matching.",
+      "integration_capabilities": "Ease of integration with institutional systems through SSO."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "AI agents for real-time supply and demand balancing.",
+      "data_advantages": "Proprietary data from closed networks enhances matching accuracy.",
+      "technical_barriers": "The closed network model and AI integration create barriers to entry.",
+      "development_velocity": "Strong development velocity demonstrated by rapid beta launch and institutional interest."
+    },
+    "red_flags": [
+      "Lack of explicit IP protection strategy could be a concern."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "iCommute has demonstrated early traction with a closed beta and institutional interest, but lacks paying customers. The sales pipeline is promising, but conversion to paid pilots is critical.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, but potential for $82,000 annual revenue per 1,000 commuters.",
+      "customer_metrics": "200 verified students in closed beta, with 50 daily active users at peak.",
+      "retention_analysis": "Early engagement is strong, but long-term retention data is not available.",
+      "unit_economics": "Potential for strong unit economics with dual revenue streams."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from beta users and institutional interest.",
+      "product_market_fit": "Early signs of PMF with institutional interest and closed beta success.",
+      "notable_customers": "Ontario Tech University issued a term sheet, validating product fit.",
+      "partnerships": "No formal partnerships yet, but discussions with potential institutional clients."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Closed beta launch and institutional term sheet from Ontario Tech University.",
+        "context": "Demonstrates product fit and institutional interest.",
+        "outcome": "Provides a foundation for scaling and securing additional pilots."
+      }
+    ],
+    "red_flags": [
+      "Lack of paying customers and reliance on institutional pilots for revenue."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing regulatory pressures and sustainability mandates. The market is ready for solutions like iCommute, but competitive response and market education are potential challenges.",
+    "market_timing": {
+      "market_readiness": "The market is mature and ready for shared mobility solutions due to rising costs and sustainability pressures.",
+      "catalysts": "New ESG mandates and the campus parking crisis are driving demand.",
+      "tailwinds": "Favorable macro trends include sustainability goals and cost reduction pressures.",
+      "headwinds": "Potential challenges include market education and competitive response."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "iCommute has the potential to establish a strong position with early institutional pilots.",
+      "competitive_response": "Competitors may respond with similar solutions, but iCommute's closed network model offers differentiation.",
+      "market_education": "Some market education may be required to drive adoption.",
+      "technology_maturity": "The underlying technologies are mature and ready for deployment."
+    },
+    "red_flags": [
+      "Potential for competitive response and need for market education."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is raising a pre-seed round with a term sheet from Ontario Tech University. The valuation and terms are not detailed, but alignment with SV's focus on sustainability and mobility is strong.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Not specified, but seeking funding to support scaling and AI-native v2 launch.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on sustainability and mobility solutions.",
+      "ownership_potential": "Potential for meaningful ownership with early-stage investment.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, but early traction and institutional interest support a reasonable valuation."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "iCommute presents a compelling opportunity with its focus on solving a significant commuting problem for institutions. The team's technical expertise, early traction, and alignment with sustainability goals make it a strong candidate for investment. However, the lack of paying customers and detailed terms are areas to address.",
+    "key_factors": [
+      "Strong team with technical expertise",
+      "Early traction and institutional interest",
+      "Alignment with sustainability and mobility trends"
+    ],
+    "next_steps": [
+      "Engage with the team to understand detailed terms and valuation",
+      "Support in converting pilot discussions into paid contracts",
+      "Explore strategic partnerships to accelerate market entry"
+    ]
+  }
+}

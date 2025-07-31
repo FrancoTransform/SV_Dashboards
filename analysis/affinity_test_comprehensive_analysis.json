@@ -1,0 +1,172 @@
+{
+  "company_name": "Affinity Test",
+  "website": "https://www.affinity.co/",
+  "year_founded": "2000",
+  "description": "test",
+  "problem_statement": "test",
+  "pitch_deck_link": "https://www.affinity.co/",
+  "demo_link": "https://www.affinity.co/",
+  "team": {
+    "score": 2,
+    "justification": "The application provides minimal information about the founding and leadership team, making it difficult to assess execution ability, domain expertise, or prior wins. The lack of detailed founder backgrounds and achievements is a significant gap.",
+    "company_assessment": {
+      "business_model_strength": "Insufficient data to evaluate the revenue model, unit economics, or scalability.",
+      "market_positioning": "No clear unique value proposition or differentiation strategy is provided.",
+      "execution_capability": "No evidence of the team's ability to execute on vision or scale operations.",
+      "strategic_vision": "Lack of information on long-term vision or strategic planning."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Founder Name",
+        "role": "Title/Role",
+        "linkedin": "LinkedIn URL if provided",
+        "background": "No detailed educational or professional background provided.",
+        "domain_expertise": "No relevant industry or technical expertise mentioned.",
+        "previous_startups": "No prior entrepreneurial experience detailed.",
+        "notable_achievements": "No awards, recognition, or significant milestones mentioned.",
+        "leadership_signals": "No evidence of leadership capability or team building.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "No overview of competitive landscape or key players provided.",
+      "primary_competitors": [],
+      "competitive_matrix": {
+        "columns": [
+          "Key differentiator 1",
+          "Key differentiator 2",
+          "Key differentiator 3"
+        ],
+        "rows": {
+          "This Company": [
+            false,
+            false,
+            false
+          ],
+          "Competitor 1": [
+            false,
+            false,
+            false
+          ],
+          "Competitor 2": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "No assessment of competitive positioning or sustainable advantages."
+    },
+    "red_flags": [
+      "Lack of detailed team information and competitive analysis."
+    ]
+  },
+  "tam": {
+    "score": 1,
+    "justification": "The application does not provide any data on market size, growth rates, or competitive whitespace opportunities, making it impossible to assess market potential.",
+    "market_analysis": {
+      "total_addressable_market": "No TAM size or supporting data provided.",
+      "serviceable_addressable_market": "No SAM analysis or market capture potential discussed.",
+      "serviceable_obtainable_market": "No SOM projections or go-to-market strategy outlined.",
+      "market_growth_rate": "No historical or projected CAGR data available.",
+      "market_dynamics": "No key trends, drivers, or forces shaping the market discussed."
+    },
+    "customer_analysis": {
+      "buyer_personas": "No detailed profiles of target customers or decision makers provided.",
+      "willingness_to_pay": "No evidence of customer willingness to pay or price sensitivity.",
+      "customer_acquisition_cost": "No analysis of CAC or customer acquisition dynamics.",
+      "customer_lifetime_value": "No LTV analysis or retention characteristics discussed."
+    },
+    "red_flags": [
+      "Complete lack of market and customer analysis."
+    ]
+  },
+  "technology": {
+    "score": 1,
+    "justification": "No information on technical defensibility, differentiation, or scalability is provided, making it impossible to assess the technology's competitive moats.",
+    "technical_assessment": {
+      "core_technology": "No description of core technology or technical approach.",
+      "defensibility": "No analysis of technical moats or barriers to replication.",
+      "intellectual_property": "No patents, trade secrets, or IP protection strategy mentioned.",
+      "scalability": "No information on technical architecture's scalability.",
+      "integration_capabilities": "No details on integration with existing systems or platforms."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms or technical innovations mentioned.",
+      "data_advantages": "No proprietary data sources or network effects discussed.",
+      "technical_barriers": "No barriers preventing competitors from replicating solution.",
+      "development_velocity": "No information on speed of technical development or iteration."
+    },
+    "red_flags": [
+      "Lack of technical details and defensibility analysis."
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "The application lacks quantitative traction data, customer validation, or go-to-market execution details, making it impossible to assess product-market fit or growth potential.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue trajectory or growth rates provided.",
+      "customer_metrics": "No customer count, acquisition rate, or growth trends available.",
+      "retention_analysis": "No customer retention, churn rates, or cohort analysis.",
+      "unit_economics": "No CAC, LTV, payback periods, or contribution margins discussed."
+    },
+    "market_validation": {
+      "customer_feedback": "No qualitative feedback or satisfaction indicators provided.",
+      "product_market_fit": "No evidence of strong PMF or customer demand.",
+      "notable_customers": "No key customers, logos, or case studies mentioned.",
+      "partnerships": "No strategic partnerships or channel relationships discussed."
+    },
+    "successes_and_areas_of_investigation": [],
+    "red_flags": [
+      "Complete lack of traction and market validation data."
+    ]
+  },
+  "timing": {
+    "score": 1,
+    "justification": "No analysis of macro timing, market readiness, or competitive timing is provided, making it impossible to assess the appropriateness of market entry.",
+    "market_timing": {
+      "market_readiness": "No assessment of market maturity or readiness for solution.",
+      "catalysts": "No key events, trends, or changes driving market opportunity.",
+      "tailwinds": "No favorable macro trends supporting the business.",
+      "headwinds": "No potential challenges or opposing market forces discussed."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "No benefits of early market entry discussed.",
+      "competitive_response": "No likelihood or timeline of competitive response.",
+      "market_education": "No required market education or adoption timeline.",
+      "technology_maturity": "No maturity of underlying technologies or infrastructure discussed."
+    },
+    "red_flags": [
+      "Lack of timing analysis and market readiness assessment."
+    ]
+  },
+  "terms": {
+    "score": 1,
+    "justification": "No information on investment terms, valuation, or round structure is provided, making it impossible to assess investment attractiveness or alignment with SV focus.",
+    "investment_details": {
+      "round_stage": "No round stage or designation provided.",
+      "raise_amount": "No target raise amount or use of funds discussed.",
+      "pre_money_valuation": "No pre-money valuation or methodology provided.",
+      "post_money_valuation": "No post-money valuation or ownership implications discussed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "No alignment with SV's investment criteria or focus areas discussed.",
+      "ownership_potential": "No potential ownership percentage or board representation mentioned.",
+      "liquidation_preferences": "No liquidation preferences or investor protections discussed.",
+      "valuation_justification": "No analysis of valuation relative to comparables or metrics."
+    },
+    "red_flags": [
+      "Complete lack of investment terms and valuation analysis."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Pass",
+    "rationale": "The application lacks critical information across all 6Ts, making it impossible to conduct a meaningful investment analysis. The absence of data on team, market, technology, traction, timing, and terms suggests a high-risk investment with no clear alignment with SemperVirens' criteria.",
+    "key_factors": [
+      "Lack of detailed information and analysis across all sections."
+    ],
+    "next_steps": [
+      "Recommend not advancing this application to the next stage."
+    ]
+  }
+}

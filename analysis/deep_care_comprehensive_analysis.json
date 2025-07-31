@@ -1,0 +1,224 @@
+{
+  "company_name": "Deep Care",
+  "website": "https://deep-care.com/",
+  "year_founded": "2020",
+  "description": "Deep-Care is a German healthtech startup founded by ex-Bosch and ex-Tesla engineers. Our AI workstation companion ‘Isa’ improves posture, movement, cognitive factors for desk workers—while building a digital twin for health insights. Scientifically validated, privacy-compliant, and used by 200+ companies in Europe, Isa is now expanding into the U.S.",
+  "problem_statement": "We tackle the massive health and cost burden caused by sedentary desk work. Poor posture, low movement, and suboptimal environments lead to musculoskeletal, cardiovascular, and metabolic disorders—some of the most expensive and disabling conditions in modern healthcare. In the U.S. alone, musculoskeletal disorders account for one out of every six dollars spent on healthcare, as highlighted by Evernorth: https://www.evernorth.com/articles/musculoskeletal-disorder-costs-and-cares.\n\nOur AI workstation companion ‘Isa’ addresses these root causes directly at the desk—improving posture, movement, hydration, and environmental factors like light and noise. The solution has been scientifically validated by leading European research institutions and top-tier universities, and is already used by over 200 organizations—including Mercedes-Benz, McKinsey, UBS, the German Army, and major public insurers. ‘Isa’ drives early behavior change, reduces chronic health risks, and helps lower long-term costs while improving employee well-being and productivity.",
+  "pitch_deck_link": "https://25441211.fs1.hubspotusercontent-eu1.net/hubfs/25441211/Pitch%20Deck.pdf",
+  "demo_link": "https://deep-care.com/hi-im-isa/",
+  "team": {
+    "score": 5,
+    "justification": "The founding team of Deep Care is composed of highly experienced professionals with backgrounds in AI, robotics, and business from leading companies like Bosch and Tesla. Their complementary skills in AI, hardware, software, product, and business are well-aligned with the company's mission. The team has demonstrated strong execution capability by developing a scientifically validated product and securing over 200 corporate clients.",
+    "company_assessment": {
+      "business_model_strength": "Deep Care operates a usage-based B2B2C model that aligns incentives by charging only when the product is actively used. This model ensures high engagement and minimizes financial risk for clients, making it scalable and attractive.",
+      "market_positioning": "The company positions itself as a preventive health solution for desk workers, differentiating itself from traditional wellness programs by addressing root causes directly at the desk.",
+      "execution_capability": "The team has successfully executed its vision by developing a patented AI-based solution and securing partnerships with major European health insurers.",
+      "strategic_vision": "Deep Care has a clear strategic vision to expand into the U.S. market and continuously evolve its offering to include workplace safety, stress detection, and mental coaching."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Dr. Milad Geravand",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/milad-geravand-017b2534/",
+        "background": "PhD in Robotics, extensive experience in AI and robotics at Bosch.",
+        "domain_expertise": "AI, robotics, and healthtech.",
+        "previous_startups": "None mentioned.",
+        "notable_achievements": "Led the development of a robotics toolbox at Bosch.",
+        "leadership_signals": "Demonstrated leadership in guiding Deep Care to profitability and market expansion.",
+        "track_record": [
+          {
+            "company": "Bosch",
+            "role": "Robotics Engineer",
+            "outcome": "Project stalled due to internal politics.",
+            "learnings": "Gained insights into the importance of mission-driven work and user-centric development."
+          }
+        ]
+      },
+      {
+        "name": "Timo Forstner",
+        "role": "AI",
+        "linkedin": "https://www.linkedin.com/in/timo-forstner-3961b4201/",
+        "background": "Expert in AI with experience at Tesla.",
+        "domain_expertise": "AI and machine learning.",
+        "previous_startups": "None mentioned.",
+        "notable_achievements": "Contributed to AI advancements at Tesla.",
+        "leadership_signals": "Strong technical leadership in AI development.",
+        "track_record": [
+          {
+            "company": "Tesla",
+            "role": "AI Engineer",
+            "outcome": "Contributed to AI projects.",
+            "learnings": "Gained experience in cutting-edge AI technologies."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes corporate wellness platforms, digital health apps, wearables, and therapy-focused platforms.",
+      "primary_competitors": [
+        {
+          "name": "Virgin Pulse",
+          "description": "Corporate wellness platform.",
+          "strengths": "Comprehensive wellness offerings.",
+          "weaknesses": "Lack of direct impact on workday behavior.",
+          "comparison": "Deep Care differentiates by focusing on desk-based behavior change."
+        },
+        {
+          "name": "Headspace",
+          "description": "Digital health and mindfulness app.",
+          "strengths": "Strong brand and user base.",
+          "weaknesses": "Operates outside of work context.",
+          "comparison": "Deep Care integrates directly into the work environment."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Direct workday impact",
+          "Comprehensive wellness",
+          "Behavior change"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            false,
+            true
+          ],
+          "Virgin Pulse": [
+            false,
+            true,
+            false
+          ],
+          "Headspace": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      "competitive_positioning": "Deep Care's focus on direct workday impact and behavior change provides a sustainable competitive advantage."
+    },
+    "red_flags": [
+      "Potential perception as a 'nice-to-have' tool rather than a critical health solution."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "Deep Care targets a large and growing market of over 1 billion desk-based workers globally, with a serviceable obtainable market estimated at $20-30B+. The company's focus on large organizations with significant health cost burdens aligns well with market needs.",
+    "market_analysis": {
+      "total_addressable_market": "Over 1 billion desk-based workers globally.",
+      "serviceable_addressable_market": "Focus on large organizations with 1,000+ employees.",
+      "serviceable_obtainable_market": "Estimated at $20-30B+ based on current offerings and expansion plans.",
+      "market_growth_rate": "Growing demand for workplace health solutions driven by rising health costs.",
+      "market_dynamics": "Increasing focus on preventive health and workplace wellness."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Large, self-insured organizations with desk-based employees.",
+      "willingness_to_pay": "High willingness to pay for solutions that reduce health costs and improve productivity.",
+      "customer_acquisition_cost": "Efficient acquisition through partnerships with health insurers.",
+      "customer_lifetime_value": "High LTV due to recurring revenue model and strong retention."
+    },
+    "red_flags": [
+      "Complexity of selling into enterprise health environments."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "Deep Care's technology is highly defensible with granted patents in Europe and the U.S. The AI-based solution is unique in its focus on desk-based behavior change and health insights.",
+    "technical_assessment": {
+      "core_technology": "AI-based workstation companion that improves posture and movement.",
+      "defensibility": "Protected by patents and proprietary algorithms.",
+      "intellectual_property": "Granted patents in Europe and the U.S.",
+      "scalability": "Designed for scalability with no external dependencies.",
+      "integration_capabilities": "Easily integrates into existing corporate health programs."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for posture and movement analysis.",
+      "data_advantages": "Building a digital twin for health insights.",
+      "technical_barriers": "High barriers due to patented technology and proprietary data.",
+      "development_velocity": "Rapid development with continuous feature expansion."
+    },
+    "red_flags": [
+      "None identified."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Deep Care has demonstrated strong product-market fit with over 200 paying customers and high retention rates. The company is profitable and has a well-filled sales pipeline.",
+    "growth_metrics": {
+      "revenue_growth": "Profitable with strong revenue growth from over 200 clients.",
+      "customer_metrics": "Serving over 200 organizations with a growing pipeline.",
+      "retention_analysis": "High retention rates with ongoing paid use.",
+      "unit_economics": "Positive unit economics with usage-based pricing model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from major clients like Mercedes-Benz and McKinsey.",
+      "product_market_fit": "Validated by high customer retention and repeatable success.",
+      "notable_customers": "Includes Mercedes-Benz, UBS, McKinsey, and the German Army.",
+      "partnerships": "Strong partnerships with European health insurers."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Expansion into the U.S. market with pilot customers.",
+        "context": "Building partnerships and understanding local needs.",
+        "outcome": "Secured initial pilot customers and partnerships."
+      }
+    ],
+    "red_flags": [
+      "Potential challenges in U.S. market entry."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for workplace health solutions and a focus on preventive health. However, the complexity of the U.S. healthcare system poses challenges.",
+    "market_timing": {
+      "market_readiness": "High readiness with growing awareness of workplace health issues.",
+      "catalysts": "Rising health costs and focus on preventive solutions.",
+      "tailwinds": "Supportive macro trends in health and wellness.",
+      "headwinds": "Complex regulatory environment in the U.S."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in desk-based health solutions.",
+      "competitive_response": "Competitors may respond with similar offerings.",
+      "market_education": "Requires education on the benefits of desk-based solutions.",
+      "technology_maturity": "Mature technology with ongoing feature development."
+    },
+    "red_flags": [
+      "Regulatory challenges in the U.S. market."
+    ]
+  },
+  "terms": {
+    "score": 5,
+    "justification": "Deep Care is not currently fundraising and is profitable, which aligns well with SV's focus on sustainable growth. The company is founder-owned, ensuring strong alignment and long-term commitment.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising.",
+      "raise_amount": "N/A",
+      "pre_money_valuation": "N/A",
+      "post_money_valuation": "N/A"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthtech and preventive solutions.",
+      "ownership_potential": "75% founder-owned, ensuring alignment.",
+      "liquidation_preferences": "N/A",
+      "valuation_justification": "N/A"
+    },
+    "red_flags": [
+      "None identified."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Deep Care demonstrates strong alignment with SemperVirens' investment thesis, focusing on preventive health solutions with a proven product-market fit and a scalable business model. The company's technology is defensible, and the team has a strong track record of execution.",
+    "key_factors": [
+      "Proven product-market fit with over 200 paying customers.",
+      "Strong team with complementary skills and industry experience.",
+      "Defensible technology with granted patents.",
+      "Scalable business model with high customer retention."
+    ],
+    "next_steps": [
+      "Engage with Deep Care to explore potential partnerships and support U.S. market entry.",
+      "Facilitate introductions to U.S. health insurers and corporate health leaders.",
+      "Monitor progress in securing U.S. pilot customers and expanding partnerships."
+    ]
+  }
+}

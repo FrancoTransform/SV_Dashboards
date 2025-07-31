@@ -1,0 +1,223 @@
+{
+  "company_name": "Hero",
+  "website": "https://www.gohero.io",
+  "year_founded": "2022",
+  "description": "Hero is a smartphone-based VO₂ Max Assessment, delivering science-backed health and fitness insights using only a member’s phone camera. No wearables, no lab visits—just validated, real-time metrics of the most attributable factor in all cause mortality, cardiorespiratory fitness, in 2 minutes.",
+  "problem_statement": "We have a global health crisis. We are becoming less active and more sedentary, impacting cardiorespiratory fitness. Having a low cardiorespiratory fitness is the most attributable factor in all cause mortality, more impactful than being obese, having diabetes or being a smoker. Cardiorespiratory fitness is measured via VO2 Max, which indicates how effectively and efficiently we are utilising oxygen to exist and perform activity. We as a society do not measure VO2 Max and do not have an understanding of it. Why? VO2 Max testing exists primarily in the elite sports performance setting, due to the inconvenient, costly and scarcity of laboratory testing facilities. Hero exists to deliver VO2 Max at scale via smartphone camera technology, to democratise access to the metric by removing inconvenience and prohibitive costs. Hero believes that an objective measure of cardiorespiratory fitness is critical in educating, supporting and improving health outcomes at a population level. Improving health outcomes via VO2 Max improvements have hugely significant and well researched financial associated benefits, witnessed in healthcare spend and insurance claims. The objectives and benefits to healthcare/insurance industry and the health of our population are aligned in mission. Be preventative, improve health, reduce cost.",
+  "pitch_deck_link": "https://docsend.com/view/iw8qxtzqnqdpjtef",
+  "demo_link": "https://apps.apple.com/app/id6474303646",
+  "team": {
+    "score": 4,
+    "justification": "The founding team demonstrates strong execution ability and domain expertise. Iain Dickson, CEO, has a clear vision and has successfully navigated early challenges, while Linford Bacon, CTO, brings valuable AI and computer vision expertise. The team has shown resilience and adaptability, crucial for startup success.",
+    "company_assessment": {
+      "business_model_strength": "Hero employs a SaaS model with scalable revenue potential, targeting insurance companies with a clear value proposition of reducing underwriting costs and improving risk assessment.",
+      "market_positioning": "Hero positions itself uniquely by offering a non-invasive, scalable VO2 Max assessment solution, differentiating from traditional labs and wearables.",
+      "execution_capability": "The team has successfully developed and launched the product, securing pilot studies with major insurance players, indicating strong execution capability.",
+      "strategic_vision": "Hero's vision aligns with macro health trends, focusing on preventative health measures and cost reduction in insurance, showcasing strategic foresight."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Iain Dickson",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/iain-dickson-57b40080/",
+        "background": "Iain has a background in business development and entrepreneurship, with experience in launching and scaling startups.",
+        "domain_expertise": "Strong understanding of health tech and insurance markets.",
+        "previous_startups": "Involved in previous startups with a focus on health and technology.",
+        "notable_achievements": "Successfully pivoted the company from initial challenges to current traction.",
+        "leadership_signals": "Demonstrated leadership in building a resilient team and securing strategic partnerships.",
+        "track_record": [
+          {
+            "company": "Previous Startup",
+            "role": "Founder",
+            "outcome": "Pivoted to a new model after initial challenges.",
+            "learnings": "Learned the importance of problem-solving over vision alone."
+          }
+        ]
+      },
+      {
+        "name": "Linford Bacon",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/linfordbacon/",
+        "background": "Linford has a technical background with expertise in AI and computer vision.",
+        "domain_expertise": "Extensive experience in developing AI-driven solutions.",
+        "previous_startups": "Worked in tech roles in various startups.",
+        "notable_achievements": "Key contributor to the development of Hero's core technology.",
+        "leadership_signals": "Strong technical leadership and ability to execute complex projects.",
+        "track_record": [
+          {
+            "company": "Tech Company",
+            "role": "Lead Developer",
+            "outcome": "Contributed to successful product launches.",
+            "learnings": "Gained insights into scalable tech development."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The market includes traditional labs and wearable tech companies. Hero differentiates by offering a scalable, non-invasive solution.",
+      "primary_competitors": [
+        {
+          "name": "Physical Laboratories",
+          "description": "Offer VO2 Max testing in lab settings.",
+          "strengths": "Accurate and established methods.",
+          "weaknesses": "High cost, low scalability, and inconvenience.",
+          "comparison": "Hero offers a more accessible and scalable solution."
+        },
+        {
+          "name": "Wearables",
+          "description": "Devices like Oura, Whoop, Apple Watch.",
+          "strengths": "Convenient and widely adopted.",
+          "weaknesses": "Inconsistent accuracy and high cost.",
+          "comparison": "Hero provides a standardized, cost-effective alternative."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Scalability",
+          "Cost-effectiveness",
+          "Standardization"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Physical Laboratories": [
+            false,
+            false,
+            true
+          ],
+          "Wearables": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Hero is well-positioned with a unique, scalable solution that addresses key market gaps."
+    },
+    "red_flags": [
+      "Potential challenges in scaling the team as the company grows."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The target market is substantial, with the global health and life insurance market valued at over $2 trillion. Hero's solution addresses a significant need within this market, with strong potential for widespread adoption.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is over $2 trillion, encompassing the global health and life insurance sectors.",
+      "serviceable_addressable_market": "Hero targets insurance companies, a significant segment within the TAM.",
+      "serviceable_obtainable_market": "With strategic partnerships and pilots, Hero aims to capture a meaningful share of the insurance market.",
+      "market_growth_rate": "The insurance market is experiencing steady growth, driven by increasing health awareness and technological advancements.",
+      "market_dynamics": "Key trends include a shift towards preventative health measures and digital transformation in insurance."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Insurance companies seeking to improve risk assessment and reduce underwriting costs.",
+      "willingness_to_pay": "Strong evidence of willingness to pay, supported by pilot engagements with major insurers.",
+      "customer_acquisition_cost": "CAC is expected to be optimized through strategic partnerships and direct sales efforts.",
+      "customer_lifetime_value": "High LTV potential due to recurring SaaS revenue model and integration into underwriting processes."
+    },
+    "red_flags": [
+      "Dependence on insurance industry adoption speed."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Hero's technology is innovative, leveraging smartphone cameras for VO2 Max assessment. The approach is defensible with a patent application and offers significant scalability.",
+    "technical_assessment": {
+      "core_technology": "Smartphone-based VO2 Max assessment using computer vision and AI.",
+      "defensibility": "Patent application filed, providing a potential barrier to entry.",
+      "intellectual_property": "Patent application with Wilson Sonsini LLP.",
+      "scalability": "The technology is highly scalable, leveraging existing smartphone infrastructure.",
+      "integration_capabilities": "Offers SDK for easy integration with insurance platforms."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for accurate VO2 Max assessment.",
+      "data_advantages": "Utilizes smartphone data, reducing the need for additional hardware.",
+      "technical_barriers": "Patent protection and technical complexity provide barriers to replication.",
+      "development_velocity": "Rapid development and deployment of the app and SDK."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining technical edge as competitors advance."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Hero has demonstrated strong early traction with pilot studies and support from major reinsurers. The product is live on app stores, indicating readiness for broader market adoption.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth is anticipated post-pilot phase, with a scalable SaaS model.",
+      "customer_metrics": "Engagement with major insurers like USAA and John Hancock.",
+      "retention_analysis": "Retention strategies focus on integration into underwriting processes.",
+      "unit_economics": "Favorable unit economics with a $25/license pricing model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilot partners and reinsurers.",
+      "product_market_fit": "Strong PMF indicated by interest from major insurance players.",
+      "notable_customers": "Engagements with USAA, John Hancock, and others.",
+      "partnerships": "Strategic partnerships with reinsurers and insurance companies."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured pilot studies with major insurers.",
+        "context": "Demonstrates market interest and validation.",
+        "outcome": "Potential for widespread adoption post-pilot."
+      }
+    ],
+    "red_flags": [
+      "Long sales cycles typical in the insurance industry."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable with increasing focus on preventative health and digital transformation in insurance. Hero is well-positioned to capitalize on these trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative, cost-effective health assessment solutions.",
+      "catalysts": "Rising healthcare costs and demand for digital solutions in insurance.",
+      "tailwinds": "Supportive macro trends in health tech and insurance innovation.",
+      "headwinds": "Potential regulatory challenges in health data usage."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Hero benefits from being an early mover in smartphone-based VO2 Max assessment.",
+      "competitive_response": "Competitors may respond, but Hero's patent and technology provide a buffer.",
+      "market_education": "Ongoing efforts to educate the market on VO2 Max benefits.",
+      "technology_maturity": "Smartphone and AI technologies are mature and widely adopted."
+    },
+    "red_flags": [
+      "Regulatory changes could impact market dynamics."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms are aligned with early-stage expectations, with a focus on securing seed funding to drive growth and market penetration.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Targeting a seed round with small VC and angel tickets.",
+      "pre_money_valuation": "To be determined, aligning with market comparables.",
+      "post_money_valuation": "Dependent on raise amount and investor interest."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Aligned with SV's focus on health tech and scalable solutions.",
+      "ownership_potential": "Potential for meaningful ownership stake at seed stage.",
+      "liquidation_preferences": "Standard seed stage preferences expected.",
+      "valuation_justification": "Valuation to reflect market potential and traction."
+    },
+    "red_flags": [
+      "Valuation sensitivity in current market conditions."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Hero presents a compelling investment opportunity with a strong team, innovative technology, and significant market potential. The alignment with macro trends and strategic partnerships further enhance its attractiveness.",
+    "key_factors": [
+      "Strong team with domain expertise",
+      "Innovative, scalable technology",
+      "Significant market potential and timing"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on pilot outcomes",
+      "Engage with key insurance partners for feedback",
+      "Evaluate patent status and technical roadmap"
+    ]
+  }
+}

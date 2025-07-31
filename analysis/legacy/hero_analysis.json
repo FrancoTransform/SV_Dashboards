@@ -1,0 +1,172 @@
+{
+  "company_name": "Hero",
+  "website": "https://www.gohero.io",
+  "year_founded": "2022",
+  "description": "Hero is a smartphone-based VO\u2082 Max assessment app delivering science-backed health and fitness insights using only the phone's camera\u2014no wearables or lab visits required.",
+  "problem_statement": "Hero addresses the global health crisis of declining cardiorespiratory fitness, a top predictor of mortality. Traditional VO\u2082 Max testing is costly, time-consuming, and inaccessible for the general population. Hero democratizes access to this vital metric using validated camera-based tech, enabling preventative health action, especially for the insurance industry which currently lacks scalable tools for population risk assessment and engagement.",
+  "pitch_deck_link": "https://docsend.com/view/iw8qxtzqnqdpjtef",
+  "demo_link": "https://apps.apple.com/app/id6474303646",
+  "scoring": {
+    "market_opportunity": {
+      "score": 5,
+      "justification": "Targets a high-value opportunity in insurance underwriting and population health where VO\u2082 Max is underutilized but highly predictive. Market value in health/life insurance is $2T+."
+    },
+    "product_differentiation": {
+      "score": 5,
+      "justification": "Camera-based VO\u2082 Max testing with scientific validation is unique. Solves accessibility, cost, and accuracy challenges in the space. No hardware dependency is a key differentiator."
+    },
+    "go_to_market_traction": {
+      "score": 4,
+      "justification": "In pilot discussions with top insurers and reinsurers including USAA, John Hancock, and Munich Re. Reinsurer endorsement signals credibility, though early-stage sales cycles are still long."
+    },
+    "ecosystem_signals": {
+      "score": 4,
+      "justification": "Support from RGA, Swiss Re, Gen Re. Patent filed via Wilson Sonsini. Market is looking for VO\u2082 Max integration\u2014Hero could become the standard for fitness-based underwriting."
+    },
+    "founder_team_strength": {
+      "score": 4,
+      "justification": "Founder Iain Dickson has strong mission alignment and traction-building skills. CTO Linford Bacon brings technical depth in AI/computer vision. Lean team, but high-output."
+    },
+    "strategic_fit": {
+      "score": 5,
+      "justification": "Hero aligns with SV's healthcare and longevity thesis. It's a preventative health innovation that ties directly to employer and insurer interests in risk reduction and cost control."
+    }
+  },
+  "red_flags": [
+    "Early-stage product with dependence on pilot conversion.",
+    "Unclear if there is sufficient IP moat or defensibility long-term.",
+    "Sales motion reliant on slow-moving insurance buyers."
+  ],
+  "founder_profile": {
+    "name": "Iain Dickson (CEO), Linford Bacon (CTO)",
+    "highlights": [
+      "Iain previously built speculative consumer tech and pivoted after learning hard lessons about product-market fit.",
+      "Strong mission-driven founder with early traction in pilot design and ecosystem validation.",
+      "Linford joined in 2022 with AI/computer vision expertise and delivered on previously stalled MVP execution.",
+      "Team has executed quickly, shipped to iOS and Android, and secured reinsurer buy-in."
+    ]
+  },
+  "founder_impact_assessment": [
+    "Built Hero as a lean startup using personal and family office capital to validate core tech.",
+    "Secured pilots and partnerships with insurers and reinsurers through thought leadership and persistence.",
+    "Learned from past AR consumer product failure and pivoted to a scalable, impact-driven solution.",
+    "Launched SDK and public app, building multi-channel delivery capabilities early."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 5,
+      "justification": "Cardiorespiratory fitness is a core longevity and wellness signal. Hero fits SV's goals of improving health outcomes at population scale."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could be offered via employer wellness programs or bundled with benefits platforms. VO\u2082 Max could become an employee engagement and retention tool."
+    },
+    "gtm_support_potential": {
+      "score": 5,
+      "justification": "SV's distribution and advisory networks can accelerate pilot conversion, especially in the insurance space where warm intros are key."
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential to partner with carriers, reinsurers, brokers, and wellness vendors to embed product across the health ecosystem."
+    },
+    "acceleration_readiness": {
+      "score": 5,
+      "justification": "Live app, SDK available, validated use case, and pilot interest\u2014Hero is ready for targeted exposure and expansion support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Success",
+      "description": "Launched validated VO\u2082 Max mobile assessment and SDK in iOS App Store.",
+      "context": "Product delivery",
+      "outcome": "De-risks feasibility; enables immediate pilot and integration opportunities."
+    },
+    {
+      "type": "Success",
+      "description": "Secured support and collaboration with major reinsurers (RGA, Swiss Re, Munich Re, Gen Re).",
+      "context": "Ecosystem validation",
+      "outcome": "Significant credibility; platform endorsement for pilot testing with carriers."
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "Slow enterprise sales motion in US insurance market.",
+      "context": "GTMA bottleneck",
+      "outcome": "Needs warm intros, case studies, and pressure-tested ROI to reduce friction."
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "Technical and regulatory defensibility (e.g., IP, FDA implications).",
+      "context": "Long-term risk",
+      "outcome": "Patent filed; further validation needed to secure IP moat and regulatory posture."
+    }
+  ],
+  "category_comparison": "Hero competes against wearables (Apple Watch, Garmin, Whoop), lab-based VO\u2082 testing, and predictive health platforms. Its edge is real-time VO\u2082 Max via smartphone with validation\u2014removing need for hardware, labs, or expensive protocols.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Wearables (Apple, Garmin, Whoop, Oura)",
+        "description": "VO\u2082 Max approximations via wrist-based optical sensors.",
+        "comparison": "Hero offers higher accuracy without device variability or hardware cost."
+      },
+      {
+        "name": "Lab VO\u2082 Testing",
+        "description": "Gold standard but expensive and limited to elite athletes or hospitals.",
+        "comparison": "Hero removes cost/inconvenience barrier and scales to general population."
+      },
+      {
+        "name": "InsideTracker / Levels / Other wellness tracking apps",
+        "description": "Provide health insights based on biomarkers or glucose data.",
+        "comparison": "Hero provides a core physiological metric (VO\u2082 Max) directly, with higher relevance to mortality and risk."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Device-Free",
+        "Validated Accuracy",
+        "Population-Scale Ready",
+        "Insurance-Relevant",
+        "VO\u2082 Max Specific",
+        "SDK Available"
+      ],
+      "rows": {
+        "Hero": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "Apple Watch / Garmin": [
+          false,
+          "partial",
+          "partial",
+          false,
+          "partial",
+          false
+        ],
+        "Lab Testing": [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        "InsideTracker / Levels": [
+          true,
+          true,
+          "partial",
+          "partial",
+          false,
+          false
+        ]
+      }
+    },
+    "conclusion": "Hero is the only solution combining scale, validation, and VO\u2082 Max specificity without requiring hardware. Ideal wedge into underwriting, with upside for broader wellness use. Needs GTM acceleration and market education."
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Hero is a high-potential platform solving a quantifiable, high-value problem with novel tech. With early ecosystem validation, a live product, and clear use cases in insurance, SV can offer strategic GTM leverage, credibility, and industry access to convert pilot demand into revenue."
+  }
+}

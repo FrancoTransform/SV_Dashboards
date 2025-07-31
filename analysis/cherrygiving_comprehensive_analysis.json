@@ -1,0 +1,221 @@
+{
+  "company_name": "Cherrygiving",
+  "website": "https://cherrygiving.com/",
+  "year_founded": "2023",
+  "description": "Double sided platform for Nonprofits, donors and volunteers. For Nonprofits, we provide a CRM and opportunities with new and existing donors. For endusers, we provide tools for donating, tax tracking, and volunteering. Revenue streams include: Transactions, subscriptions, data collection and more.",
+  "problem_statement": "Too many nonprofits rely on outdated systems that drain time, hide insights, and make giving feel impersonal. High fees cut into every donation. Manual processes slow growth. Donors are left in the dark, unsure how their gifts help or why they should give again. This leads to fewer repeat donations, less engagement, and more obstacles standing in the way of impact.",
+  "pitch_deck_link": "https://mail.google.com/mail/u/2/#search/pitchdeck?projector=1",
+  "demo_link": "https://cherrygiving.com/",
+  "team": {
+    "score": 3,
+    "justification": "The founding team consists of two co-founders who have been best friends for over 10 years, indicating strong personal chemistry. However, the team is relatively small with only three engineers and lacks diversity in functional expertise. The co-founders have a shared passion for helping people, but there is limited information on their prior entrepreneurial experience or domain expertise in the nonprofit sector.",
+    "company_assessment": {
+      "business_model_strength": "The business model includes multiple revenue streams such as transactions, subscriptions, and data collection. However, the scalability and competitive positioning are yet to be validated as the company is pre-revenue.",
+      "market_positioning": "Cherrygiving aims to differentiate itself by offering a comprehensive platform for nonprofits, donors, and volunteers. The unique value proposition lies in providing a CRM for nonprofits and tools for donors and volunteers, but market differentiation needs further validation.",
+      "execution_capability": "The team has not yet launched the product in the market, so execution capability remains unproven. The in-house development team is a positive sign, but scaling operations will require additional resources.",
+      "strategic_vision": "The strategic vision is to address inefficiencies in the nonprofit sector, but the long-term vision and market understanding need further articulation."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Cole Easley",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/cole-easley-b4887211a/details/experience/",
+        "background": "Cole has a background in technology and a passion for helping people.",
+        "domain_expertise": "Limited information on specific domain expertise in the nonprofit sector.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements or awards mentioned.",
+        "leadership_signals": "Strong personal relationship with co-founder, but limited evidence of leadership capability in a startup context.",
+        "track_record": []
+      },
+      {
+        "name": "Austin Hanson",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/austin-hanson-7a4405b6/",
+        "background": "Austin shares a similar background and passion for helping people.",
+        "domain_expertise": "Limited information on specific domain expertise in the nonprofit sector.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements or awards mentioned.",
+        "leadership_signals": "Strong personal relationship with co-founder, but limited evidence of leadership capability in a startup context.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes established players like Givelify, Benevity, and Donorbox. These competitors have significant market presence and revenue.",
+      "primary_competitors": [
+        {
+          "name": "Givelify",
+          "description": "Provides a donation platform but lacks a comprehensive CRM and volunteering features.",
+          "strengths": "Established market presence and revenue.",
+          "weaknesses": "No donation portal, volunteering, or auction features.",
+          "comparison": "Cherrygiving aims to offer a more comprehensive solution with CRM and volunteering features."
+        },
+        {
+          "name": "Benevity",
+          "description": "Focuses on corporate giving but lacks social media integration.",
+          "strengths": "Strong focus on corporate clients and significant revenue.",
+          "weaknesses": "No social media focus.",
+          "comparison": "Cherrygiving plans to integrate social media and focus on a broader audience."
+        },
+        {
+          "name": "Donorbox",
+          "description": "Offers donation management but lacks community focus and mapping features.",
+          "strengths": "Established donation management platform.",
+          "weaknesses": "No community focus or map feature.",
+          "comparison": "Cherrygiving aims to differentiate with community features and mapping."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "CRM",
+          "Volunteering",
+          "Social Media Integration"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Givelify": [
+            false,
+            false,
+            false
+          ],
+          "Benevity": [
+            true,
+            false,
+            false
+          ],
+          "Donorbox": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Cherrygiving's competitive positioning relies on offering a comprehensive platform that integrates CRM, volunteering, and social media features, which are not fully addressed by competitors."
+    },
+    "red_flags": [
+      "Limited team size and lack of domain expertise in the nonprofit sector."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with 3 million charities and 50 million potential donors and volunteers. The market is growing, and there is a clear need for improved technology solutions in the nonprofit sector.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM includes 3 million charities and 50 million individuals in the target demographic, indicating a large potential market.",
+      "serviceable_addressable_market": "The SAM is likely smaller, focusing on mid to small market nonprofits and individual donors.",
+      "serviceable_obtainable_market": "The SOM will depend on the company's ability to execute its go-to-market strategy and capture market share.",
+      "market_growth_rate": "The nonprofit sector is experiencing growth, driven by increased digital adoption and demand for transparency.",
+      "market_dynamics": "Key trends include digital transformation, increased donor expectations, and the need for efficient donor management."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include mid to small market nonprofits, corporations, and individual donors aged 18-65 with an income of $75k per year.",
+      "willingness_to_pay": "Nonprofits have expressed dissatisfaction with current tech stacks, indicating a willingness to pay for better solutions.",
+      "customer_acquisition_cost": "CAC is not yet determined as the company is pre-revenue.",
+      "customer_lifetime_value": "LTV is not yet determined but will depend on retention and engagement strategies."
+    },
+    "red_flags": [
+      "Pre-revenue status means market capture and pricing strategy are untested."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is developed in-house, which is a positive sign for control and customization. However, there is limited information on technical defensibility and scalability.",
+    "technical_assessment": {
+      "core_technology": "The platform includes a CRM for nonprofits and tools for donors and volunteers.",
+      "defensibility": "Technical moats and barriers to replication are not clearly defined.",
+      "intellectual_property": "No information on patents or IP protection strategy.",
+      "scalability": "Scalability will depend on the technical architecture, which is not detailed.",
+      "integration_capabilities": "Integration with existing systems is not discussed, which could be a challenge."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms or technical innovations mentioned.",
+      "data_advantages": "Potential data advantages from collecting donor and volunteer information.",
+      "technical_barriers": "Limited information on barriers preventing replication.",
+      "development_velocity": "Development is in-house, but speed and iteration capabilities are not detailed."
+    },
+    "red_flags": [
+      "Lack of information on technical defensibility and IP strategy."
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "The company is pre-revenue with no customers or market traction. This presents a significant risk in terms of product-market fit and execution capability.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue or growth metrics available.",
+      "customer_metrics": "No customers or acquisition data available.",
+      "retention_analysis": "No retention data available.",
+      "unit_economics": "Unit economics are not yet determined."
+    },
+    "market_validation": {
+      "customer_feedback": "Feedback from nonprofits indicates dissatisfaction with current solutions, but no direct validation of Cherrygiving's product.",
+      "product_market_fit": "Product-market fit is unproven as the product is not yet in the market.",
+      "notable_customers": "No notable customers or case studies.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Area of Investigation",
+        "description": "Understanding market needs and dissatisfaction with current tech stacks.",
+        "context": "Conversations with nonprofits revealed gaps in existing solutions.",
+        "outcome": "Informed product development but requires further validation."
+      }
+    ],
+    "red_flags": [
+      "Pre-revenue status and lack of market traction."
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The timing is favorable due to increasing digital adoption in the nonprofit sector. However, the company is entering a competitive market with established players.",
+    "market_timing": {
+      "market_readiness": "The market is ready for digital solutions, but adoption may vary among nonprofits.",
+      "catalysts": "Digital transformation and demand for transparency are driving market opportunity.",
+      "tailwinds": "Favorable trends include increased donor expectations and need for efficient management.",
+      "headwinds": "Competition from established players and potential slow adoption by smaller nonprofits."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "No first-mover advantage as competitors are already established.",
+      "competitive_response": "Competitors may respond quickly to new entrants.",
+      "market_education": "Market education will be necessary to drive adoption.",
+      "technology_maturity": "Underlying technologies are mature, supporting platform development."
+    },
+    "red_flags": [
+      "Competitive market with established players."
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "The company is currently fundraising with a short runway of 3-4 months. Investment terms and valuation are not detailed, presenting a risk for investors.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative solutions for nonprofits, but lack of traction is a concern.",
+      "ownership_potential": "Ownership potential is unclear without valuation details.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation is not provided, making it difficult to assess attractiveness."
+    },
+    "red_flags": [
+      "Short runway and lack of detailed investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Cherrygiving presents an interesting opportunity in a large and growing market. However, the lack of traction, detailed investment terms, and team expertise in the nonprofit sector are significant concerns. Further validation of the product and market fit is needed before advancing.",
+    "key_factors": [
+      "Large target market",
+      "Lack of traction",
+      "Team expertise concerns"
+    ],
+    "next_steps": [
+      "Monitor product development and market entry",
+      "Seek additional information on investment terms and valuation",
+      "Evaluate potential partnerships or strategic hires to strengthen team"
+    ]
+  }
+}

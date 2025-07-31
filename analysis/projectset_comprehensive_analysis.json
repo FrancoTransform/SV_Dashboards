@@ -1,0 +1,209 @@
+{
+  "company_name": "ProjectSet",
+  "website": "https://projectset.com",
+  "year_founded": "2019",
+  "description": "70% students graduate w/o the skills employers want. 67% students want work-based learning to build skills - only 2% find them. We give students unlimited, personalized WBL projects based on their career goal.",
+  "problem_statement": "We’re closing the opportunity gap by equipping students with the durable skills they need to succeed in the future of work no matter their background. These skills are the real differentiators in today’s job market, yet they’re often the most overlooked in education. By making soft skill development measurable, visible, and actionable through our platform, we empower students, educators, and institutions to focus on what truly matters for employability. Our work directly contributes to fairer, more inclusive pathways to success helping students not just learn, but thrive.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGcQYvc7-c/QFed2TuA5CJXrJhIvQ1yDA/view?utm_content=DAGcQYvc7-c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5664599475",
+  "demo_link": "https://www.canva.com/design/DAGkC4D9d8o/Y-xLIX-WNqxKcn8BQBixkg/watch?utm_content=DAGkC4D9d8o&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he8ca36a506",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of ProjectSet demonstrates strong execution ability and domain expertise. Dhruva Banerjee, the CEO, has extensive experience in consulting with multinational corporations and has personally coached students in project-based learning. Safa Irfan, the Product Manager, brings experience from a previous startup and has firsthand experience with project-based learning. The team is small but focused, with a clear division of roles across operations, product, engineering, and R&D.",
+    "company_assessment": {
+      "business_model_strength": "ProjectSet has a diversified revenue model targeting employers, schools, and universities. The model includes sponsorships, subscriptions, and talent scouting fees, indicating scalability and potential for significant revenue generation.",
+      "market_positioning": "The company positions itself as a personalized work-based learning platform, differentiating through its focus on soft skill measurement and personalization.",
+      "execution_capability": "The team has demonstrated strong execution capability with 150% revenue growth and a 100% increase in user base over the last six months.",
+      "strategic_vision": "ProjectSet has a clear strategic vision to close the opportunity gap in education by focusing on durable skills, with plans to refine its go-to-market strategy and strengthen distribution."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Dhruva Banerjee",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/dhruva-banerjee-479b7/",
+        "background": "Dhruva has a background in consulting with multinational corporations and experience in coaching students in project-based learning.",
+        "domain_expertise": "Education technology and consulting",
+        "previous_startups": "No prior startups mentioned",
+        "notable_achievements": "Successfully coached students in project-based learning",
+        "leadership_signals": "Demonstrated leadership in guiding the company through significant growth",
+        "track_record": []
+      },
+      {
+        "name": "Safa Irfan",
+        "role": "Product Manager",
+        "linkedin": "https://www.linkedin.com/in/safairfan/",
+        "background": "Safa has experience in product management and has been involved in a previous startup.",
+        "domain_expertise": "Product management and education technology",
+        "previous_startups": "Involved in a previous startup with experience in product development",
+        "notable_achievements": "Contributed to the company's growth and product development",
+        "leadership_signals": "Strong problem-solving skills and ability to execute",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes companies like Riipen and Parker Dewey, which focus on work-based learning but lack personalization and skill measurement tools.",
+      "primary_competitors": [
+        {
+          "name": "Riipen",
+          "description": "Provides work-based learning experiences for students",
+          "strengths": "Established platform with a broad network",
+          "weaknesses": "Lacks personalization and comprehensive skill measurement",
+          "comparison": "ProjectSet differentiates with personalized learning and a robust skill measurement tool."
+        },
+        {
+          "name": "Parker Dewey",
+          "description": "Offers micro-internships for students",
+          "strengths": "Focus on short-term projects and internships",
+          "weaknesses": "Limited personalization and skill tracking",
+          "comparison": "ProjectSet offers a more personalized and measurable approach to skill development."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Personalization",
+          "Skill Measurement",
+          "Network Size"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            false
+          ],
+          "Riipen": [
+            false,
+            false,
+            true
+          ],
+          "Parker Dewey": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      "competitive_positioning": "ProjectSet is well-positioned with its focus on personalization and skill measurement, offering a unique value proposition in the crowded education technology space."
+    },
+    "red_flags": [
+      "Limited team size may impact scalability and execution speed."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The global education and training expenditure is projected to reach $10 trillion by 2030, indicating a large and growing market. ProjectSet targets a significant portion of this market with its focus on upskilling and reskilling.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $10 trillion by 2030, driven by the demand for upskilling and reskilling.",
+      "serviceable_addressable_market": "ProjectSet targets educators and institutions, capturing a portion of the education and training market.",
+      "serviceable_obtainable_market": "The SOM is projected based on the company's go-to-market strategy and partnerships with educational institutions.",
+      "market_growth_rate": "The market is experiencing a strong growth rate, driven by the increasing need for skill development and workforce readiness.",
+      "market_dynamics": "Key trends include the shift towards personalized learning, the importance of soft skills, and the integration of technology in education."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include educators, academic institutions, and employers focused on workforce readiness.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by existing B2B customers and sponsorships.",
+      "customer_acquisition_cost": "The CAC is not explicitly mentioned, but the company leverages partnerships and pilots to acquire customers.",
+      "customer_lifetime_value": "The LTV is expected to be high due to the recurring revenue model and long-term partnerships with institutions."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating the market due to competition and long sales cycles."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "ProjectSet's technology focuses on personalization and skill measurement, providing a competitive advantage. However, the technical defensibility and scalability need further validation.",
+    "technical_assessment": {
+      "core_technology": "The platform offers personalized work-based learning projects and a skill measurement tool.",
+      "defensibility": "The defensibility is based on the unique skill measurement tool developed with academic and practitioner input.",
+      "intellectual_property": "No specific IP protection strategy is mentioned.",
+      "scalability": "The platform is designed to scale with growth, but technical scalability needs further validation.",
+      "integration_capabilities": "The platform's integration capabilities with existing educational systems are not detailed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The skill measurement tool is a key differentiator.",
+      "data_advantages": "The platform leverages data from academic and practitioner research.",
+      "technical_barriers": "The unique skill measurement tool provides a barrier to replication.",
+      "development_velocity": "The company has shown the ability to iterate and integrate AI for scalability."
+    },
+    "red_flags": [
+      "Lack of detailed IP strategy and integration capabilities."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "ProjectSet has demonstrated strong traction with 150% revenue growth and a 100% increase in user base. The company has secured notable B2B customers and partnerships.",
+    "growth_metrics": {
+      "revenue_growth": "150% revenue growth over the last six months.",
+      "customer_metrics": "131K users and 3 B2B customers, with a growing sales pipeline.",
+      "retention_analysis": "Renewals of MOUs with partners indicate strong retention.",
+      "unit_economics": "Revenue is primarily derived from B2B customers and sponsorships."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from existing customers and partners.",
+      "product_market_fit": "Evidence of strong PMF with growing user base and revenue.",
+      "notable_customers": "Key customers include ASA and AISL Schools.",
+      "partnerships": "Strategic partnerships with educational institutions and industry partners."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Significant revenue and user growth.",
+        "context": "Achieved over the last six months.",
+        "outcome": "Indicates strong market demand and execution capability."
+      }
+    ],
+    "red_flags": [
+      "Dependence on a small number of B2B customers for revenue."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for skill development and workforce readiness. However, the market is competitive, and the company needs to differentiate effectively.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that address skill gaps and workforce readiness.",
+      "catalysts": "Trends such as the future of work and the importance of soft skills are driving demand.",
+      "tailwinds": "Favorable macro trends include the shift towards personalized learning and technology integration.",
+      "headwinds": "Potential challenges include competition and long sales cycles."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "ProjectSet has the advantage of a unique skill measurement tool.",
+      "competitive_response": "Competitors may respond with similar offerings, but ProjectSet's personalization is a differentiator.",
+      "market_education": "The company needs to educate the market on the importance of skill measurement.",
+      "technology_maturity": "The technology is mature enough to support the platform's offerings."
+    },
+    "red_flags": [
+      "Competitive pressure and the need for market education."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently bootstrapped and seeking funding. The terms and valuation need to align with SemperVirens' focus and investment criteria.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on education technology aligns with SemperVirens' investment thesis.",
+      "ownership_potential": "Potential for significant ownership given the early stage.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation needs to be justified based on traction and market potential."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "ProjectSet demonstrates strong traction, a clear market need, and a unique value proposition with its personalized learning and skill measurement platform. The team has shown execution capability, and the market timing is favorable. However, the company needs to address scalability, IP strategy, and competitive differentiation.",
+    "key_factors": [
+      "Strong traction and revenue growth",
+      "Unique skill measurement tool",
+      "Favorable market timing"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence",
+      "Evaluate scalability and IP strategy",
+      "Assess competitive differentiation and market positioning"
+    ]
+  }
+}

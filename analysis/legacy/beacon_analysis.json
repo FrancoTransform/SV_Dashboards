@@ -1,0 +1,134 @@
+{
+  "company_name": "Beacon",
+  "website": "https://beaconnection.com/",
+  "year_founded": "2025",
+  "description": "Beacon is building the data layer to underwrite hiring. We start by identifying, verifying, and matching top specialty recruiters with employers using AI\u2014fixing the broken front door to talent acquisition. This unlocks recruiter-led sourcing, referrals, and productivity\u2014and sets the stage for a future where hiring is fully data-backed and risk-mitigated.",
+  "problem_statement": "Hiring today is unverified guesswork, and it\u2019s costing companies billions. Recruiters\u2014often the first and most important decision in a search\u2014are chosen by gut, not data.\n\nBeacon changes that. We\u2019re building the infrastructure to underwrite hiring by verifying and matching specialty recruiters using AI. This improves sourcing, referral quality, and recruiter productivity\u2014but more importantly, it lays the foundation for de-risked, data-driven hiring.\n\nIn a $200B+ industry where bad decisions lead to $1B+ annually of costly recruiter misfires, Beacon makes recruiter selection the strategic lever for better outcomes.",
+  "pitch_deck_link": "https://updawg-my.sharepoint.com/:b:/g/personal/rob_beaconnection_com/EfPmaVerH8FLvkTLomwQsCoBIbgZoCHZUFhI78jiOWc5hw?e=3u7A3A",
+  "demo_link": "https://www.youtube.com/watch?v=AoOz1YaXvFA",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: Specialty recruiters and boutique recruiting firms under $100M in revenue. Their biggest pain point is winning the next job order: being discoverable to buyers who need them but don\u2019t know they exist. Operational inefficiencies that erode BD time are a secondary pain point.\nMarket size: The U.S. Direct Hire market is $13B (SIA). We focus on the 15,000+ recruiting firms under $100M revenue\u2014an immediate $5B AI/SaaS opportunity, expandable to $10B+ including adjacent employer/VC channels."
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: Legacy CRMs (Bullhorn, Crelate) solve for workflows, not recruiter quality. Recruiter marketplaces (BountyJobs, Paraform) lack verification and data underwriting. Associations (NAPS, Top Echelon) are fragmented and non-technical. Beacon is the first platform to underwrite recruiter quality\u2014turning trust into a measurable, actionable, and insurable layer.\nIn-market since: Yes. We launched with early adopters Q1 2025."
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: Product launched Q1 2025\n5 active early adopter firms\n$29k ARR signed\n20+ referrals shared through marketplace\nCrelate API integration underway\nCustomers: 5 active paying firms.  Qualified pipeline of $500k+.\nPricing: All customers are paying.  Standard: $500/month; one prepaid annual at $5,400.  Base planned pricing: $5,000\u2013$10,000/year.  All customers agreed to referral agreements on new intros (15% - 20% of placement fee) and 2-year tail."
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: Norm Volsky (Managing Partner, Direct Recruiters; SemperVirens LP)\nReferral: Norm Volsky (Managing Partner, Direct Recruiters; SemperVirens LP)"
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Rob Reznick (CEO): https://www.linkedin.com/in/robreznick/\n\nChris Sullivan (Chief Technology Officer): https://www.linkedin.com/in/csullivan8/\n\nPercy Bhathena (Chief Product & Operating Officer): https://www.linkedin.com/in/percybhathena/\n\nDavid Ashofteh (Head of Development): https://www.linkedin.com/in/david-ashofteh-823559/\n\nAdam Johnson (Head of Product): https://www.linkedin.com/in/adam-johnson1234/\nTech team: The founding team is building the product. No outside development firms; all IP and development is internal."
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "Sequencing early adopter markets without dilution of focus.  Building AI tools that are powerful but intuitive for a low/moderate-sophistication recruiter user.  Balancing speed of market capture with data quality needed for underwriting credibility.",
+    "Channel distribution partners (Recruiter CRMs, ATS platforms).  Broader enterprise employer network/intros. Communities and networks aggregating trusted, connected professionals (NAPS, F-Suite equivalents)."
+  ],
+  "founder_profile": {
+    "name": "[Rob Reznick](https://www.linkedin.com/in/robreznick/)",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "While serving as CFO during two exits (1010data, Flashpoint), I saw firsthand how even elite firms mishandled critical executive searches\u2014wasting $1M+ across multiple roles. Specialty recruiters often outperformed, but lacked visibility. The tipping point: a $100k non-refundable retainer lost to a \u201ctop firm,\u201d while a specialty recruiter earned a $150k fee with one lead. This experience drove me to pivot from CFO to founder\u2014to build the platform I wish we\u2019d had."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "We believe Beacon can be the first to create a data-backed recruiter category that de-risks hiring for employers\u2014and the accelerator can help us fast-track this vision.\n\u2022\tSharpen GTM strategy and channel partnerships (VCs, PE firms, employers)\n\u2022\tPressure-test first underwriting models\n\u2022\tAvoid/quickly address early-stage ($0 to $1M) FinTech/HRTech pitfalls\n\u2022\tBuild toward $1M+ ARR milestone and late 2025 Pre-Seed fundraising"
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "Sequencing early adopter markets without dilution of focus.  Building AI tools that are powerful but intuitive for a low/moderate-sophistication recruiter user.  Balancing speed of market capture with data quality needed for underwriting credibility.",
+      "context": "Beacon",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "Channel distribution partners (Recruiter CRMs, ATS platforms).  Broader enterprise employer network/intros. Communities and networks aggregating trusted, connected professionals (NAPS, F-Suite equivalents).",
+      "context": "Beacon",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "Beacon positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "Beacon": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "Beacon is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

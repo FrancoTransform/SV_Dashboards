@@ -1,0 +1,223 @@
+{
+  "company_name": "Herd Health",
+  "website": "https://www.joinherd.com",
+  "year_founded": "2025",
+  "description": "Herd is a mental health platform built for men, delivering care across the spectrum from weekly therapy to higher-acuity support. Men account for 80% of suicides in the U.S., yet no one has built a model for them. Our model uses AI to augment care, foster connection, and drive better engagement.",
+  "problem_statement": "Men account for 80 percent of suicides in the U.S., and a man dies by suicide every 13 minutes. While men are 3.5 times more likely than women to die by suicide, nearly half had seen a therapist beforehand. This is not a problem of access, it is a problem of fit. The existing mental health system was not built for men. Most platforms either take a broad, one-size-fits-all approach like Headway, Grow, and Alma, or focus on quick-fix medication models like Ro and Hims, without addressing the deeper issue of connection, trust, and long-term engagement.\n\nWe are solving the gap between men and effective mental health care by building a platform designed specifically around how men seek support, engage with therapy, and make progress. Just as Mavida, Anise, and Nema have shown the power of specialization in mental health, we are doing the same for the group most at risk and most overlooked.",
+  "pitch_deck_link": "https://www.notion.so/Herd-Health-Memo-1fa0e49267c8803d96afea506afb1c7a",
+  "demo_link": "https://www.joinherd.com",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Herd Health consists of Kara Enomoto and Tim Soper, both of whom have relevant experience in the mental health space from their time at Charlie Health. Their complementary skills in growth strategy and AI clinical tools development provide a strong foundation for executing their vision. However, as first-time founders, they may face challenges in navigating early-stage fundraising and scaling.",
+    "company_assessment": {
+      "business_model_strength": "Herd Health plans to contract with insurance plans to provide mental health services with little to no out-of-pocket cost for users. This model is scalable and aligns with industry trends towards insurance-covered mental health services.",
+      "market_positioning": "The company positions itself uniquely by focusing on men's mental health, a largely underserved market. This specialization differentiates it from broader mental health platforms.",
+      "execution_capability": "The team has demonstrated execution capability through their strategic planning and model validation efforts. However, they are pre-launch, so execution on scaling remains to be seen.",
+      "strategic_vision": "Herd Health has a clear strategic vision to address the mental health needs of men, leveraging AI to enhance care and engagement. Their focus on specialization aligns with market trends."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kara Enomoto",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/karaenomoto/",
+        "background": "Kara has a background in strategy and AI clinical tools development from her time at Charlie Health.",
+        "domain_expertise": "Expertise in mental health strategy and AI tool development.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Led the development of AI clinical tools at Charlie Health.",
+        "leadership_signals": "Demonstrated leadership in developing AI tools and strategic planning.",
+        "track_record": [
+          {
+            "company": "Charlie Health",
+            "role": "Strategy Team",
+            "outcome": "Ongoing",
+            "learnings": "Gained experience in mental health strategy and AI tool development."
+          }
+        ]
+      },
+      {
+        "name": "Tim Soper",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/timothy-soper-295163139/",
+        "background": "Tim has a background in growth strategy from his time at Charlie Health.",
+        "domain_expertise": "Expertise in growth strategy and demand generation.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Focused on growth strategy and driving demand at Charlie Health.",
+        "leadership_signals": "Demonstrated leadership in growth strategy and demand generation.",
+        "track_record": [
+          {
+            "company": "Charlie Health",
+            "role": "Growth Strategy",
+            "outcome": "Ongoing",
+            "learnings": "Gained experience in growth strategy and demand generation."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The mental health space is crowded with broad platforms and niche-focused solutions. Herd Health's focus on men's mental health is unique and addresses a significant gap.",
+      "primary_competitors": [
+        {
+          "name": "Headway",
+          "description": "Broad mental health platform.",
+          "strengths": "Wide reach and established network.",
+          "weaknesses": "Lacks specialization for men's mental health.",
+          "comparison": "Herd Health differentiates by focusing specifically on men's mental health."
+        },
+        {
+          "name": "Ro",
+          "description": "Medication-centric mental health platform.",
+          "strengths": "Strong focus on quick-fix solutions.",
+          "weaknesses": "Does not prioritize therapy and long-term engagement.",
+          "comparison": "Herd Health emphasizes therapy and engagement over medication."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Focus on Men's Health",
+          "Broad Platform",
+          "Medication-Centric"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            false,
+            false
+          ],
+          "Headway": [
+            false,
+            true,
+            false
+          ],
+          "Ro": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      "competitive_positioning": "Herd Health is well-positioned to capture the underserved men's mental health market with its specialized approach."
+    },
+    "red_flags": [
+      "First-time founders may face challenges in scaling and fundraising."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market for Herd Health is substantial, with 100 million men aged 18 to 65 in the U.S. The focus on men's mental health addresses a significant gap, and the market is growing as awareness and demand for mental health services increase.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is 100 million men aged 18 to 65 in the U.S., with 17 million accessing mental health services last year.",
+      "serviceable_addressable_market": "The SAM includes men actively seeking mental health services, particularly those underserved by current platforms.",
+      "serviceable_obtainable_market": "The SOM is projected based on the company's ability to capture a portion of the underserved men's market through its specialized approach.",
+      "market_growth_rate": "The market for mental health services is growing, driven by increasing awareness and demand.",
+      "market_dynamics": "Key trends include a shift towards specialized mental health solutions and increased focus on men's mental health."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are men aged 18 to 65, with an emphasis on younger men who are at higher risk for mental health issues.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for specialized mental health services, particularly those covered by insurance.",
+      "customer_acquisition_cost": "CAC is not yet established as the company is pre-launch.",
+      "customer_lifetime_value": "LTV is estimated at ~$1K per admission, with potential to increase with higher-acuity services."
+    },
+    "red_flags": [
+      "Pre-launch status means market capture and CAC are not yet validated."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "Herd Health's use of AI to augment care and improve engagement is a promising technical differentiator. However, the company is pre-launch, and the technical scalability and defensibility of the platform remain to be proven.",
+    "technical_assessment": {
+      "core_technology": "The core technology involves using AI to augment mental health care and improve engagement.",
+      "defensibility": "The use of AI provides a potential technical moat, but defensibility will depend on execution and IP protection.",
+      "intellectual_property": "No specific IP protection strategy is mentioned.",
+      "scalability": "The platform's scalability will depend on successful execution and technical development post-launch.",
+      "integration_capabilities": "Integration with existing mental health systems and insurance platforms will be crucial for scalability."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "AI algorithms to enhance care and engagement.",
+      "data_advantages": "Potential data advantages from specialized focus on men's mental health.",
+      "technical_barriers": "Barriers include the need for effective AI implementation and integration with existing systems.",
+      "development_velocity": "Development velocity is not yet established as the company is pre-launch."
+    },
+    "red_flags": [
+      "Pre-launch status means technical scalability and defensibility are not yet validated."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "As a pre-launch company, Herd Health has not yet demonstrated traction in terms of revenue or customer acquisition. However, they have focused on model validation and strategic planning.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue growth as the company is pre-launch.",
+      "customer_metrics": "No customer metrics as the company is pre-launch.",
+      "retention_analysis": "Retention analysis is not applicable as the company is pre-launch.",
+      "unit_economics": "Unit economics are not yet established."
+    },
+    "market_validation": {
+      "customer_feedback": "Feedback from clinicians, potential clients, and referral partners has been used to refine the model.",
+      "product_market_fit": "Product-market fit is not yet validated as the company is pre-launch.",
+      "notable_customers": "No notable customers as the company is pre-launch.",
+      "partnerships": "No strategic partnerships established yet."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Area of Investigation",
+        "description": "Model validation through conversations with stakeholders.",
+        "context": "Pre-launch efforts to refine the clinical approach and GTM strategy.",
+        "outcome": "Refined clinical approach and GTM strategy."
+      }
+    ],
+    "red_flags": [
+      "Lack of traction and revenue as the company is pre-launch."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing for Herd Health's entry into the market is favorable due to increasing awareness of men's mental health issues and a shift towards specialized mental health solutions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for specialized mental health solutions, particularly for underserved groups like men.",
+      "catalysts": "Increasing awareness of men's mental health issues and demand for specialized solutions.",
+      "tailwinds": "Favorable macro trends include growing mental health awareness and insurance coverage for mental health services.",
+      "headwinds": "Potential challenges include competition from established platforms and the need for effective market education."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in the specialized men's mental health space.",
+      "competitive_response": "Competitors may respond by expanding their focus to include men's mental health.",
+      "market_education": "Market education will be required to shift perceptions of mental health care for men.",
+      "technology_maturity": "The underlying technologies for AI and mental health care are mature and ready for deployment."
+    },
+    "red_flags": [
+      "Need for effective market education and differentiation from established platforms."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Herd Health is currently in the process of raising a pre-seed round. The terms and valuation are not specified, but alignment with SV's focus on healthcare and mental health is strong.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthcare and mental health innovation.",
+      "ownership_potential": "Ownership potential is not specified but could be significant at the pre-seed stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation is not specified, making it difficult to assess relative to comparables."
+    },
+    "red_flags": [
+      "Lack of specified terms and valuation details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Herd Health presents a compelling opportunity in the underserved men's mental health market with a strong founding team and strategic vision. However, as a pre-launch company, it lacks traction and validated market capture. Further validation of the business model, technology, and market readiness is needed before advancing.",
+    "key_factors": [
+      "Strong market opportunity",
+      "Experienced founding team",
+      "Pre-launch status"
+    ],
+    "next_steps": [
+      "Monitor progress post-launch",
+      "Evaluate early traction and market response",
+      "Assess fundraising terms and valuation"
+    ]
+  }
+}

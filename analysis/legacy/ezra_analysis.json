@@ -1,0 +1,134 @@
+{
+  "company_name": "Ezra",
+  "website": "https://tryezra.com/",
+  "year_founded": "2023",
+  "description": "The only rewards platform that helps managers retain a financial stable workforce.",
+  "problem_statement": "Managers are struggling to retain hourly workers that are productive, engaged, and motivated. It costs U.S. companies over a trillion dollars a year.",
+  "pitch_deck_link": "https://docsend.com/view/dca86t8aghcnrh8q",
+  "demo_link": "https://docsend.com/view/9jnpzpm8ethmfsqc",
+  "scoring": {
+    "market_opportunity": {
+      "score": 3,
+      "justification": "Target customer: We sell to VP of Total Rewards at large enterprises and Owner/Operators in mid-market franchises looking to reduce the costs incurred from high turnover and low productivity among their hourly workforce.\nMarket size: 300+ FTEs"
+    },
+    "product_differentiation": {
+      "score": null,
+      "justification": "Competitors: 401ks don't work for hourly workers. Neither does the face value of giving a gift card or throwing a pizza party. We're the only platform that pays workers with real cash savings \u2013 4% interest whenever an employee picks up a last minute shift, provides great customer service, celebrates a work anniversary, etc.\nIn-market since: Yes, 6 months"
+    },
+    "go_to_market_traction": {
+      "score": null,
+      "justification": "Traction: In 6 months, we've secured our bank partner, have users saving $1k in as little as 3 months, and in sales negotiations with clients from McDonald's to Shake Shack\nCustomers: We have 2 live customers and a sales pipeline of $800k\nPricing: 100% are paying at a $4 PEPM"
+    },
+    "ecosystem_signals": {
+      "score": null,
+      "justification": "Program source: Referral\nReferral: Colin Tobias"
+    },
+    "founder_team_strength": {
+      "score": null,
+      "justification": "Co-founders: Micah Berman, co-founder and CTO, https://www.linkedin.com/in/micahberman/\nTech team: Our team is building the product internally. We're software alumni from Google and Walmart"
+    },
+    "strategic_fit": {
+      "score": null,
+      "justification": "Aligned with SV\u2019s thesis around digital transformation and workforce innovation."
+    }
+  },
+  "red_flags": [
+    "Lack of critical feedback and market exposure with the right employers.",
+    "Successfully navigating the enterprise sales motion and how best to build partnerships with benefits brokers."
+  ],
+  "founder_profile": {
+    "name": "[Micah Berman](https://www.linkedin.com/in/micahberman/)",
+    "highlights": [
+      "Founder has demonstrated commitment to solving a real market pain, often with personal or domain-driven insight.",
+      "Team typically includes technical or domain-specific expertise relevant to their solution.",
+      "Backgrounds show a mix of startup, academic, or operator experience that informs their execution approach."
+    ]
+  },
+  "founder_impact_assessment": [
+    "When we started Ezra we weren't sure what would resonate more: the easiest way to financially secure your workforce or the easiest way to reduce turnover in real-time. Anthony Valletta, CEO of Bartaco, sits on our advisory board. He told us it was the latter. So we focused on large QSRs given high turnover rates within the industry, highlighted our SOC2 compliant software, and messages our solution as way for managers to keep their teams motivated, productive, and engaged. Within 3 months of implementing the feedback, McDonald's and Shake Shack came through on inbound with projected close by Q3'25."
+  ],
+  "sv_thesis_fit": {
+    "sector_fit": {
+      "score": 4,
+      "justification": "Aligned with SV\u2019s macro thesis on workforce transformation, digital enablement, and operational efficiency."
+    },
+    "employer_ecosystem_leverage": {
+      "score": 4,
+      "justification": "Could integrate into SV portfolio employer use cases or distribution channels\u2014especially those focused on talent, productivity, or care delivery."
+    },
+    "gtm_support_potential": {
+      "score": 4,
+      "justification": "Feedback from operators in sectors outside of quick service restaurants and manufacturing on our solution"
+    },
+    "strategic_partner_amplification": {
+      "score": 4,
+      "justification": "Potential partnerships with other SV-backed platforms and vendors targeting the same buyer."
+    },
+    "acceleration_readiness": {
+      "score": 4,
+      "justification": "Product and team are early but show clear focus, alignment, and testable GTM hypotheses. Well-positioned for structured SV support."
+    }
+  },
+  "successes_and_areas_of_investigation": [
+    {
+      "type": "Area of Investigation",
+      "description": "Lack of critical feedback and market exposure with the right employers.",
+      "context": "Ezra",
+      "outcome": "Requires follow-up"
+    },
+    {
+      "type": "Area of Investigation",
+      "description": "Successfully navigating the enterprise sales motion and how best to build partnerships with benefits brokers.",
+      "context": "Ezra",
+      "outcome": "Requires follow-up"
+    }
+  ],
+  "category_comparison": "Ezra positions itself against legacy and niche solutions. Its competitive advantage is built on integration, UX, and customer-centric outcomes.",
+  "category_comparison_expanded": {
+    "primary_competitors": [
+      {
+        "name": "Incumbent Providers",
+        "description": "Traditional solutions or services that lack personalization, automation, or modern UX.",
+        "comparison": "This company differentiates via digital-first, user-centric, or AI-driven design. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      },
+      {
+        "name": "Point Solutions",
+        "description": "Niche vendors addressing one aspect of the problem.",
+        "comparison": "This company offers a more integrated or holistic experience. This competitor often lacks the depth or product flexibility needed to address evolving employer or operational requirements."
+      }
+    ],
+    "competitive_matrix": {
+      "columns": [
+        "Modern UX",
+        "Automation",
+        "Platform Integration",
+        "Employer Relevance"
+      ],
+      "rows": {
+        "Ezra": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "Incumbent Providers": [
+          "partial",
+          false,
+          "partial",
+          true
+        ],
+        "Point Solutions": [
+          true,
+          true,
+          false,
+          "partial"
+        ]
+      }
+    },
+    "conclusion": "Ezra is positioned well in its category with a differentiated product. With further traction and partnerships, it could emerge as a category leader."
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Pending deeper review, financial validation, and external signal confirmation."
+  }
+}

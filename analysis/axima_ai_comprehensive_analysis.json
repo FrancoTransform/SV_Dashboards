@@ -1,0 +1,221 @@
+{
+  "company_name": "Axima AI",
+  "website": "http://axima.ai/",
+  "year_founded": "2025",
+  "description": "Axima.ai - building AI agents that help medical groups collect 99%+ of revenue at 70% lower cost.",
+  "problem_statement": "We solve the massive inefficiency in the U.S. healthcare revenue cycle, where medical centers annually:\n1. Lose or freeze $494B due to denied or delayed insurance claims;\n2. Miss out on $736B in patient payments due to low collection rates (47.8%);\n3. Spend $600B chasing payments with outdated, manual processes.\n\nWe had a conversation with 30+ medical groups and everybody told us that receiving payments from payors and patients is the one of the biggest challenge in their business.",
+  "pitch_deck_link": "https://brieflink.com/v/0pybf",
+  "demo_link": "https://drive.google.com/drive/u/0/home",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Axima AI is composed of highly skilled individuals with complementary expertise. Anton Bereza, the CEO, has a strong background in healthcare and leadership. Max Zavyalov, the CTO, is a top-tier engineer with experience at Meta, bringing deep technical expertise in AI. Alex Svitnev, the CPO, has extensive experience in healthcare product leadership. The team has demonstrated the ability to execute quickly, signing significant ARR contracts within 90 days.",
+    "company_assessment": {
+      "business_model_strength": "Axima AI's business model is robust, with a clear revenue generation strategy through volume-based pricing and performance-based components. The model is scalable and aligns well with the needs of their target market.",
+      "market_positioning": "The company positions itself as a comprehensive solution for revenue cycle management, differentiating itself by automating both insurance and patient payments, which most competitors do not address.",
+      "execution_capability": "The team has shown strong execution capability by rapidly developing their product and securing contracts, indicating their ability to deliver on their vision.",
+      "strategic_vision": "Axima AI has a clear strategic vision to address inefficiencies in healthcare revenue cycles, with a focus on underserved segments like dental and mental health groups."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Anton Bereza",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/antonbereza/",
+        "background": "Anton has a background in healthcare and leadership, having explored problems in the industry before founding Axima AI.",
+        "domain_expertise": "Healthcare industry expertise with a focus on revenue cycle management.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Successfully launched Axima AI and secured significant ARR contracts within 90 days.",
+        "leadership_signals": "Demonstrated leadership in aligning the team and executing the company's vision.",
+        "track_record": []
+      },
+      {
+        "name": "Alex Svitnev",
+        "role": "CPO",
+        "linkedin": "https://www.linkedin.com/in/alexey-svitnev/",
+        "background": "Alex has deep healthcare experience and product leadership at multiple healthtech companies, including a unicorn.",
+        "domain_expertise": "Extensive experience in healthcare product management and leadership.",
+        "previous_startups": "Experience in healthtech companies, including a unicorn.",
+        "notable_achievements": "Led product development at a unicorn healthtech company.",
+        "leadership_signals": "Strong product leadership and strategic planning capabilities.",
+        "track_record": []
+      },
+      {
+        "name": "Max Zavyalov",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/mzavyalov/",
+        "background": "Max is a top 0.5% engineer at Meta with expertise in AI and complex systems optimization.",
+        "domain_expertise": "Technical expertise in AI and systems optimization.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Recognized as a top engineer at Meta.",
+        "leadership_signals": "Technical leadership and innovation capabilities.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes companies like Thoughtful AI, Adonis, Athelas, Candid Health, and Toothy AI. These competitors focus on various aspects of revenue cycle management but often lack the comprehensive approach of Axima AI.",
+      "primary_competitors": [
+        {
+          "name": "Thoughtful AI",
+          "description": "AI-powered RCM, Series A–B",
+          "strengths": "Strong AI capabilities in RCM.",
+          "weaknesses": "Focuses primarily on insurance claims.",
+          "comparison": "Axima AI offers a more comprehensive solution by addressing both insurance and patient payments."
+        },
+        {
+          "name": "Adonis",
+          "description": "RCM intelligence platform, Series B",
+          "strengths": "Advanced RCM intelligence.",
+          "weaknesses": "Limited focus on patient payments.",
+          "comparison": "Axima AI provides end-to-end automation, including patient payments."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Insurance Automation",
+          "Patient Payment Automation",
+          "End-to-End Solution"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Thoughtful AI": [
+            true,
+            false,
+            false
+          ],
+          "Adonis": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Axima AI is well-positioned with a comprehensive solution that addresses both insurance and patient payments, providing a significant competitive advantage."
+    },
+    "red_flags": [
+      "Team-related concerns and risks"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The total addressable market (TAM) for Axima AI is substantial at $9.1B, with significant opportunities in the underserved dental and mental health segments. The market is growing, driven by increasing inefficiencies in healthcare revenue cycles and the adoption of AI technologies.",
+    "market_analysis": {
+      "total_addressable_market": "$9.1B, based on inefficiencies in healthcare revenue cycles and the need for automation.",
+      "serviceable_addressable_market": "Focused on dental and mental health centers, which are fast-growing and underserved.",
+      "serviceable_obtainable_market": "Realistic capture through targeted go-to-market strategies and partnerships.",
+      "market_growth_rate": "Projected CAGR driven by increasing adoption of AI in healthcare.",
+      "market_dynamics": "Key trends include rising RCM costs, labor shortages, and the maturity of AI technologies."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Dental practices and mental health centers with 5–100 providers, facing low cash collection rates and high RCM costs.",
+      "willingness_to_pay": "Evidence of willingness to pay through signed contracts and pipeline growth.",
+      "customer_acquisition_cost": "Efficient acquisition with a short sales cycle of 1–2 months.",
+      "customer_lifetime_value": "High LTV due to recurring revenue model and strong retention potential."
+    },
+    "red_flags": [
+      "Market-related concerns and risks"
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "Axima AI's technology is highly defensible, leveraging proprietary algorithms, APIs, RPA, Voice AI, and Gen AI to automate the entire revenue cycle. The solution is scalable and integrates seamlessly with existing systems, providing a strong competitive moat.",
+    "technical_assessment": {
+      "core_technology": "AI agents that automate insurance and patient payments, using APIs, RPA, Voice AI, and Gen AI.",
+      "defensibility": "Strong technical moats with proprietary algorithms and integration capabilities.",
+      "intellectual_property": "Potential for IP protection through proprietary algorithms and trade secrets.",
+      "scalability": "Designed to scale with growth, supporting a wide range of medical groups.",
+      "integration_capabilities": "Plug-and-play implementation with minimal client-side effort."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for end-to-end revenue cycle automation.",
+      "data_advantages": "Potential network effects from data collected across medical groups.",
+      "technical_barriers": "High barriers to entry due to complex integration and automation capabilities.",
+      "development_velocity": "Rapid development and iteration, evidenced by quick market entry and traction."
+    },
+    "red_flags": [
+      "Technology-related concerns and risks"
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Axima AI has demonstrated strong traction with $108K+ in ARR, $1.8M in contracted ARR, and a $7M+ pipeline within 90 days. The company has achieved product-market fit and is positioned for rapid growth.",
+    "growth_metrics": {
+      "revenue_growth": "Strong initial revenue growth with significant contracted ARR.",
+      "customer_metrics": "Rapid customer acquisition with a growing pipeline.",
+      "retention_analysis": "High retention potential due to the value provided by the solution.",
+      "unit_economics": "Positive unit economics with a scalable pricing model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from initial customers, indicating strong demand.",
+      "product_market_fit": "Evidence of PMF through rapid contract signings and pipeline growth.",
+      "notable_customers": "Initial customers in dental and mental health segments.",
+      "partnerships": "Potential for strategic partnerships to enhance market reach."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Rapid market entry and contract signings.",
+        "context": "Achieved within 90 days of product launch.",
+        "outcome": "Strong initial traction and validation of business model."
+      }
+    ],
+    "red_flags": [
+      "Traction-related concerns and risks"
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing for Axima AI is optimal, with market readiness driven by inefficiencies in healthcare revenue cycles and the maturity of AI technologies. The company benefits from favorable macro trends and a growing demand for automation solutions.",
+    "market_timing": {
+      "market_readiness": "High market readiness due to existing inefficiencies and demand for automation.",
+      "catalysts": "Increasing claims denial rates and rising RCM costs.",
+      "tailwinds": "Favorable trends in AI adoption and healthcare automation.",
+      "headwinds": "Potential resistance to innovation in conservative medical centers."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in underserved segments.",
+      "competitive_response": "Competitors may respond, but Axima AI's comprehensive solution provides a strong moat.",
+      "market_education": "Minimal market education required due to existing demand.",
+      "technology_maturity": "Mature AI technologies support the solution's capabilities."
+    },
+    "red_flags": [
+      "Timing-related concerns and risks"
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms for Axima AI are attractive, with a $1M pre-seed round to accelerate growth. The valuation aligns with the company's traction and market potential, offering significant ownership potential for investors.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "$1M to accelerate growth and achieve $500K+ ARR in 5 months.",
+      "pre_money_valuation": "Not specified, but implied to be reasonable given traction.",
+      "post_money_valuation": "Not specified, but expected to offer significant ownership potential."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthcare and AI technologies.",
+      "ownership_potential": "Potential for significant ownership and influence in the company.",
+      "liquidation_preferences": "Standard pre-seed terms expected.",
+      "valuation_justification": "Valuation justified by strong initial traction and market potential."
+    },
+    "red_flags": [
+      "Terms-related concerns and risks"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Axima AI presents a compelling investment opportunity with a strong team, significant market potential, and robust technology. The company's traction and timing are favorable, aligning well with SV's investment thesis.",
+    "key_factors": [
+      "Strong team execution",
+      "Significant market opportunity",
+      "Robust technology and defensibility",
+      "Favorable timing and market readiness"
+    ],
+    "next_steps": [
+      "Conduct further due diligence on market dynamics and competitive landscape",
+      "Engage with the team to discuss strategic growth plans",
+      "Evaluate potential for strategic partnerships and collaborations"
+    ]
+  }
+}

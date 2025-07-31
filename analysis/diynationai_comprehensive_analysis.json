@@ -1,0 +1,205 @@
+{
+  "company_name": "DIYNation.ai",
+  "website": "https://diynation.ai/",
+  "year_founded": "2025",
+  "description": "DIYNation is an AI-powered talent platform delivering verifiably job-ready talent. We cut hiring time by 70% and boost retention 4X, solving costly mis-hires and accelerating growth for fast-scaling tech companies.",
+  "problem_statement": "We solve the problem of unverified talent and inefficient hiring. It matters because current methods lead to costly mis-hires ($25K-$50K), long hiring cycles (44 days), and high new-hire churn (up to 60%), draining budgets and overlooking capable talent.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1vmSl38JnVUIPDOujH56hz1jbyF8UMI38wEUQmxSiKj4/edit?usp=sharing",
+  "demo_link": "https://docs.google.com/presentation/d/1vmSl38JnVUIPDOujH56hz1jbyF8UMI38wEUQmxSiKj4/edit?usp=sharing",
+  "team": {
+    "score": 3,
+    "justification": "The team is currently small, with only the founder actively involved. The founder, Mahgul Nikolo, has a background in life coaching and GTM strategy, which provides some relevant experience but lacks technical expertise. The search for a technical co-founder is ongoing, which is crucial for the development of their AI-powered platform.",
+    "company_assessment": {
+      "business_model_strength": "The hybrid B2B SaaS and B2C model is promising, but untested. The focus on AI-powered certification is a differentiator, but execution remains to be seen.",
+      "market_positioning": "DIYNation positions itself as a solution to the inefficiencies in hiring, with a unique value proposition of AI-verified, job-ready talent.",
+      "execution_capability": "Currently limited due to the small team size and lack of a technical co-founder. Execution capability is a concern until the team is expanded.",
+      "strategic_vision": "The vision to transform talent acquisition is clear, but strategic planning needs to be backed by a strong technical roadmap."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Mahgul Nikolo",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/coachmahgul/",
+        "background": "Life change coach for executives with expertise in GTM strategy.",
+        "domain_expertise": "Experience in talent acquisition challenges and market validation.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Successfully identified a market need through coaching experience.",
+        "leadership_signals": "Demonstrates leadership in market validation and strategic planning.",
+        "track_record": [
+          {
+            "company": "N/A",
+            "role": "N/A",
+            "outcome": "N/A",
+            "learnings": "N/A"
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The HR tech space is competitive with established players in ATS, skill assessment, and online learning platforms.",
+      "primary_competitors": [
+        {
+          "name": "Workday",
+          "description": "Traditional ATS and recruitment platform.",
+          "strengths": "Strong brand and comprehensive HR solutions.",
+          "weaknesses": "Focuses on process management rather than skill verification.",
+          "comparison": "DIYNation differentiates by focusing on AI-verified, job-ready talent."
+        },
+        {
+          "name": "TestGorilla",
+          "description": "Skill assessment platform.",
+          "strengths": "Wide range of skill tests.",
+          "weaknesses": "Focuses on theoretical knowledge rather than real-world execution.",
+          "comparison": "DIYNation offers in-tool execution verification for job readiness."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "AI-verified talent",
+          "In-tool execution",
+          "Post-hire integration"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Workday": [
+            false,
+            false,
+            false
+          ],
+          "TestGorilla": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "DIYNation has a unique positioning with its focus on AI-verified, execution-first talent, but needs to prove its model in the market."
+    },
+    "red_flags": [
+      "Lack of technical co-founder and small team size."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The HR technology market is large and growing, with a TAM of $40+ billion in 2025, projected to reach $75 billion by 2030. DIYNation's focus on AI-powered talent solutions aligns well with market trends.",
+    "market_analysis": {
+      "total_addressable_market": "$40+ Billion in 2025, projected to reach over $75 Billion by 2030.",
+      "serviceable_addressable_market": "Focus on fast-growing tech companies with 200-1000+ employees.",
+      "serviceable_obtainable_market": "Initial focus on securing LOIs from 50 companies, representing a potential ARR of $100,000.",
+      "market_growth_rate": "Projected CAGR aligns with the growth of AI adoption in HR.",
+      "market_dynamics": "Shift towards skills-based hiring and AI adoption in HR processes."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Chief People Officers, VPs of People, and CEOs at fast-growing tech companies.",
+      "willingness_to_pay": "Evidence from market validation and interest in pilot programs.",
+      "customer_acquisition_cost": "Not yet determined, as the company is pre-revenue.",
+      "customer_lifetime_value": "Projected through tiered pricing plans post-pilot."
+    },
+    "red_flags": [
+      "Pre-revenue status and untested pricing model."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is in the pre-prototype phase, with plans for an AI-powered certification tool. The lack of a technical co-founder is a significant barrier to rapid development.",
+    "technical_assessment": {
+      "core_technology": "AI-powered certification platform for job readiness.",
+      "defensibility": "Potential for defensibility through proprietary AI algorithms.",
+      "intellectual_property": "No IP protection strategy mentioned.",
+      "scalability": "Scalability potential exists but is unproven without a prototype.",
+      "integration_capabilities": "Integration with existing HR systems is planned but not yet developed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Planned AI algorithms for skill verification.",
+      "data_advantages": "Potential data advantages from AI-driven insights.",
+      "technical_barriers": "Barriers include the need for a robust AI model and integration capabilities.",
+      "development_velocity": "Currently slow due to lack of technical resources."
+    },
+    "red_flags": [
+      "Lack of technical leadership and pre-prototype status."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company is in the pre-prototype phase with no revenue or paying customers. However, there is a strong pipeline of interested companies for pilot programs.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue to date.",
+      "customer_metrics": "Pipeline of 50+ companies interested in pilot programs.",
+      "retention_analysis": "Not applicable at this stage.",
+      "unit_economics": "Not applicable at this stage."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from market validation conversations.",
+      "product_market_fit": "Potential PMF indicated by interest in pilot programs.",
+      "notable_customers": "No paying customers yet.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Strong interest in pilot programs.",
+        "context": "50+ companies in pipeline for pilot programs.",
+        "outcome": "Potential conversion to paying customers post-pilot."
+      }
+    ],
+    "red_flags": [
+      "No revenue or paying customers, pre-prototype status."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to the increasing demand for AI solutions in HR and the shift towards skills-based hiring. However, the company needs to accelerate development to capitalize on this opportunity.",
+    "market_timing": {
+      "market_readiness": "High readiness for AI-driven HR solutions.",
+      "catalysts": "Growing demand for efficient hiring solutions and AI adoption.",
+      "tailwinds": "Favorable trends in AI and HR technology adoption.",
+      "headwinds": "Potential competition from established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage if development is accelerated.",
+      "competitive_response": "Established players may respond with similar offerings.",
+      "market_education": "Some market education required for AI-verified talent solutions.",
+      "technology_maturity": "AI technology is mature, but application in HR is still evolving."
+    },
+    "red_flags": [
+      "Need for rapid development to capture market opportunity."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with no specific terms provided. The pre-seed stage aligns with SV's focus, but the lack of financial details is a concern.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on early-stage AI and B2B SaaS.",
+      "ownership_potential": "Potential for significant ownership at pre-seed stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Not specified."
+    },
+    "red_flags": [
+      "Lack of specific financial terms and valuation details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company has a promising concept and market opportunity, but significant execution risks remain due to the lack of a technical co-founder and pre-prototype status. The strong interest in pilot programs is a positive indicator, but more concrete traction and a complete team are needed before advancing.",
+    "key_factors": [
+      "Lack of technical leadership",
+      "Pre-prototype status",
+      "Strong market interest"
+    ],
+    "next_steps": [
+      "Secure a technical co-founder",
+      "Develop a functional prototype",
+      "Convert pilot interest into paying customers"
+    ]
+  }
+}

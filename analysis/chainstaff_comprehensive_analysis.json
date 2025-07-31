@@ -1,0 +1,227 @@
+{
+  "company_name": "chainstaff",
+  "website": "https://www.chainstaff.info",
+  "year_founded": "2023",
+  "description": "chainstaff is a referral-powered hiring platform that helps companies fill roles faster by activating internal and external networks. Jobs are shared with bounties, and rewards are distributed to active participants. No upfront cost, fully automated, and infinitely scalable - turning every person into a recruiter.",
+  "problem_statement": "Hiring is broken: it’s expensive, slow, and relies on outdated systems. While referrals consistently deliver the best candidates, they are limited to employees, hard to manage, and impossible to scale.\n\nchainstaff changes that. We transform the referral process into an open, incentivized, and fully automated system - enabling anyone, not just employees, to share jobs and earn rewards when hires are made. This unlocks entirely new distribution channels for companies: alumni, freelancers, industry experts, and niche communities become your extended recruiting force.\n\nWith zero upfront cost and clear ROI on every hire, chainstaff turns network-based hiring into a scalable engine for growth. We’re not just improving referrals, we’re building the infrastructure for open, performance-based recruiting.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1c5msdHHzYbtD9p54R14U0XEFkMqtorWa/view?usp=sharing",
+  "demo_link": "https://drive.google.com/file/d/1TllGEKuTr9YIG0F8QxIG6DlxCaBfPz7X/view?usp=sharing",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of chainstaff demonstrates strong execution ability and domain expertise. Both co-founders, Werner Liechti and Renato Schär, have technical backgrounds and experience in blockchain applications, which is relevant to the company's initial vision. Their strategic partnership with Saynode Operations AG provides additional technical support and scalability.",
+    "company_assessment": {
+      "business_model_strength": "chainstaff operates on a performance-based, success-fee model, aligning incentives with customers. This model is scalable and offers a clear competitive advantage over traditional recruiting agencies.",
+      "market_positioning": "The company positions itself as a disruptor in the recruiting space by leveraging network effects and performance-based incentives, differentiating itself from traditional job platforms and internal referral tools.",
+      "execution_capability": "The team has demonstrated the ability to execute by launching a prototype, securing early traction, and planning for a broader launch.",
+      "strategic_vision": "chainstaff's vision to transform the referral process into a scalable recruiting engine is well-articulated and aligns with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Werner Liechti",
+        "role": "CTO & Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/wernerliechti/",
+        "background": "Werner has a strong technical background with experience in blockchain applications.",
+        "domain_expertise": "Expertise in blockchain technology and software development.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Co-founding chainstaff and developing the platform's technical infrastructure.",
+        "leadership_signals": "Demonstrated leadership in technical development and strategic partnerships.",
+        "track_record": []
+      },
+      {
+        "name": "Renato Schär",
+        "role": "CTO & Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/renato-schaer/",
+        "background": "Renato has a background in technology and blockchain applications.",
+        "domain_expertise": "Technical expertise in blockchain and software development.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Co-founding chainstaff and contributing to the technical development.",
+        "leadership_signals": "Strong technical leadership and strategic vision.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The recruiting industry is competitive with established players like recruiting agencies, job platforms, and internal referral tools.",
+      "primary_competitors": [
+        {
+          "name": "Hays",
+          "description": "Traditional recruiting agency with high fees and slow processes.",
+          "strengths": "Established brand and extensive network.",
+          "weaknesses": "High cost and lack of performance alignment.",
+          "comparison": "chainstaff offers a more cost-effective, performance-based alternative."
+        },
+        {
+          "name": "LinkedIn",
+          "description": "Job platform with wide reach but no referral incentives.",
+          "strengths": "Large user base and brand recognition.",
+          "weaknesses": "No performance-based incentives for referrals.",
+          "comparison": "chainstaff incentivizes referrals, offering a unique value proposition."
+        },
+        {
+          "name": "Firstbird",
+          "description": "Internal referral tool focusing on employee referrals.",
+          "strengths": "Focus on internal networks.",
+          "weaknesses": "Limited scalability beyond employees.",
+          "comparison": "chainstaff expands referral networks beyond employees, increasing scalability."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Performance-based incentives",
+          "Scalability",
+          "Cost-effectiveness"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Hays": [
+            false,
+            false,
+            false
+          ],
+          "LinkedIn": [
+            false,
+            true,
+            false
+          ],
+          "Firstbird": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "chainstaff is well-positioned to disrupt the recruiting industry by offering a scalable, performance-based referral platform that leverages external networks."
+    },
+    "red_flags": [
+      "Limited entrepreneurial experience among founders."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a focus on mid-sized companies in the DACH region. The company's approach to expanding beyond traditional referral systems presents a significant opportunity for growth.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM includes approximately 10,000 mid-sized companies in the DACH region, with 600,000 job changes annually.",
+      "serviceable_addressable_market": "The SAM focuses on companies facing labor shortages and skill gaps, particularly in healthcare, manufacturing, logistics, and tech.",
+      "serviceable_obtainable_market": "The SOM is projected based on the company's ability to capture a significant share of the mid-sized company segment through its unique referral platform.",
+      "market_growth_rate": "The recruiting industry is experiencing growth due to increasing demand for efficient hiring solutions.",
+      "market_dynamics": "Key trends include the shift towards performance-based recruiting and the need for scalable referral systems."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are HR leaders in mid-sized companies, particularly in sectors with high talent needs.",
+      "willingness_to_pay": "Evidence suggests a strong willingness to pay for performance-based recruiting solutions that reduce costs and improve hiring efficiency.",
+      "customer_acquisition_cost": "The company relies on personal introductions and relationship-based selling, which is effective but not yet scalable.",
+      "customer_lifetime_value": "The LTV is expected to be high due to the recurring nature of hiring needs and the value provided by the platform."
+    },
+    "red_flags": [
+      "Scalability of customer acquisition strategy."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is innovative, leveraging blockchain concepts for a referral platform. However, the technical defensibility and scalability need further validation.",
+    "technical_assessment": {
+      "core_technology": "The platform automates the referral process, enabling external networks to participate in recruiting.",
+      "defensibility": "The use of blockchain concepts provides some defensibility, but the core technology is not highly differentiated.",
+      "intellectual_property": "No specific IP protection strategy mentioned.",
+      "scalability": "The platform is designed to be scalable, but scalability in practice needs further validation.",
+      "integration_capabilities": "The platform can integrate with existing systems, but integration complexity may vary."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "The platform leverages network effects to enhance recruiting reach.",
+      "technical_barriers": "Limited technical barriers to entry.",
+      "development_velocity": "The company has demonstrated the ability to iterate and develop the platform quickly."
+    },
+    "red_flags": [
+      "Lack of proprietary technology and IP protection."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has demonstrated early traction with successful hires and engaged users. The focus on improving conversion and scaling is promising.",
+    "growth_metrics": {
+      "revenue_growth": "The company operates on a success-fee model, with revenue tied to successful hires.",
+      "customer_metrics": "40 companies onboarded, with 5 paying referral fees.",
+      "retention_analysis": "Retention rates are not explicitly mentioned, but early traction indicates customer satisfaction.",
+      "unit_economics": "The performance-based model aligns incentives and offers favorable unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early users, with a high conversion rate after intro calls.",
+      "product_market_fit": "Evidence of strong PMF with demand for performance-based recruiting solutions.",
+      "notable_customers": "No specific notable customers mentioned.",
+      "partnerships": "Strategic partnership with Saynode Operations AG for technical development."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Successful hires through the platform.",
+        "context": "Early traction with 5 successful hires.",
+        "outcome": "Validation of demand and usability."
+      },
+      {
+        "type": "Area of Investigation",
+        "description": "Improving conversion and scaling.",
+        "context": "Focus on onboarding and matching.",
+        "outcome": "Goal to reach a 10% success rate by end of 2025."
+      }
+    ],
+    "red_flags": [
+      "Limited notable customers and case studies."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ready for disruption in recruiting, with favorable trends supporting the adoption of performance-based solutions.",
+    "market_timing": {
+      "market_readiness": "The market is mature and ready for innovative recruiting solutions.",
+      "catalysts": "Increasing demand for efficient hiring and the shift towards performance-based recruiting.",
+      "tailwinds": "Favorable macro trends, such as labor shortages and the need for scalable solutions.",
+      "headwinds": "Potential resistance to change from traditional recruiting methods."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a strong position in the performance-based recruiting space.",
+      "competitive_response": "Competitors may respond by enhancing their referral capabilities.",
+      "market_education": "Some market education may be required to shift buyer mindsets.",
+      "technology_maturity": "The underlying technology is mature, but the application in recruiting is innovative."
+    },
+    "red_flags": [
+      "Potential resistance to change from traditional recruiting methods."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is in the process of finalizing a seed round, with a focus on accelerating product development and go-to-market efforts.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on HR tech aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership and influence in the early stage.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation details are not provided, making it difficult to assess alignment with comparables."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "chainstaff presents a compelling opportunity to disrupt the recruiting industry with a scalable, performance-based referral platform. The company's early traction, strategic vision, and alignment with market trends make it a strong candidate for investment.",
+    "key_factors": [
+      "Strong market demand for performance-based recruiting solutions.",
+      "Innovative approach to leveraging external networks for referrals.",
+      "Early traction and validation of the business model."
+    ],
+    "next_steps": [
+      "Conduct a detailed review of the company's financials and valuation.",
+      "Engage with the founders to discuss strategic growth plans and potential partnerships.",
+      "Evaluate the scalability of the technology and customer acquisition strategy."
+    ]
+  }
+}

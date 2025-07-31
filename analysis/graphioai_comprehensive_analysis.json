@@ -1,0 +1,216 @@
+{
+  "company_name": "Graphio.ai",
+  "website": "https://graphio.ai",
+  "year_founded": "2025",
+  "description": "We exited our fintech and focused on comparing organization playbooks and SOPs to actual team execution to predict where \"the ball drops\" before it hits revenue. All powered by metadata only",
+  "problem_statement": "Revenue drops when teams ignore playbooks and shift behavior:\n\n60% of mid-market companies don’t have playbooks or the teams don’t follow them\n58% slower revenue growth in organizations misaligned with corporate playbooks\n18% lower EBITDA at companies with poor strategic and cross-team misalignment",
+  "pitch_deck_link": "https://www.dropbox.com/scl/fi/qgopxugjo1jd0sfb6pg00/Graphio.ai-Investor-Deck.-May-2025.pdf?rlkey=4wvkrn43jwtve196rsimkygw7&st=94t802sy&dl=0",
+  "demo_link": "https://youtu.be/16MqJ4SpYgs",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong execution ability and domain expertise, having successfully exited a fintech company. They bring complementary skills with Dmitry Norenko as CEO and Andrew Davydchuk as CTO, both with extensive experience in building and scaling startups.",
+    "company_assessment": {
+      "business_model_strength": "Graphio.ai employs a subscription-based revenue model at $25/employee/month, which is scalable and aligns with industry standards. The model leverages existing HR and operational budgets, providing a clear path to revenue growth.",
+      "market_positioning": "The company uniquely positions itself by focusing on aligning organizational playbooks with team execution, differentiating from competitors who focus solely on process or HR metrics.",
+      "execution_capability": "The team has demonstrated strong execution capability with 20+ pilots and $1.5M in contracted ARR within 7 months of operation.",
+      "strategic_vision": "Graphio.ai has a clear strategic vision to become an operational layer that protects company revenue, with a focus on expanding their network among HR companies."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Dmitry Norenko",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/norenkodmitry/",
+        "background": "Dmitry has a background in fintech and has successfully led a previous startup to acquisition.",
+        "domain_expertise": "Strong expertise in fintech and operational alignment.",
+        "previous_startups": "Led a fintech startup to acquisition.",
+        "notable_achievements": "Successfully exited a fintech company.",
+        "leadership_signals": "Demonstrated leadership in scaling a startup and building a cohesive team.",
+        "track_record": [
+          {
+            "company": "Previous Fintech Company",
+            "role": "CEO",
+            "outcome": "Acquisition",
+            "learnings": "Gained insights into scaling operations and aligning teams with strategic goals."
+          }
+        ]
+      },
+      {
+        "name": "Andrew Davydchuk",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/andrew-davydchuk-a9a61997/",
+        "background": "Andrew has a technical background with extensive experience in AI engineering.",
+        "domain_expertise": "Expertise in AI and data-driven solutions.",
+        "previous_startups": "Co-founded a fintech startup with Dmitry.",
+        "notable_achievements": "Developed proprietary AI solutions in previous ventures.",
+        "leadership_signals": "Strong technical leadership and ability to drive product development.",
+        "track_record": [
+          {
+            "company": "Previous Fintech Company",
+            "role": "CTO",
+            "outcome": "Acquisition",
+            "learnings": "Learned to integrate AI solutions with business operations effectively."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes process assessment tools like Celonis and HR platforms. Graphio.ai differentiates by focusing on the alignment of playbooks with team execution.",
+      "primary_competitors": [
+        {
+          "name": "Celonis",
+          "description": "Process assessment tool focusing on process optimization.",
+          "strengths": "Strong process analysis capabilities.",
+          "weaknesses": "Lacks focus on people and team dynamics.",
+          "comparison": "Graphio.ai integrates people and process alignment, offering a more holistic solution."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "People Integration",
+          "Process Focus",
+          "Revenue Protection"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Celonis": [
+            false,
+            true,
+            false
+          ],
+          "HR Platforms": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Graphio.ai holds a strong competitive position by addressing both process and people alignment, creating a sustainable advantage in protecting company revenue."
+    },
+    "red_flags": [
+      "Potential challenges in expanding network among large HR companies."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial with a $100B+ TAM globally. Graphio.ai's focus on achieving $32M ARR in the next 2-4 years is realistic given their current traction and market dynamics.",
+    "market_analysis": {
+      "total_addressable_market": "$100B+ globally, based on the need for organizational alignment solutions.",
+      "serviceable_addressable_market": "Focused on mid-market companies with potential for $32M ARR.",
+      "serviceable_obtainable_market": "Realistic SOM projections supported by current pilots and pipeline.",
+      "market_growth_rate": "The market is growing as companies increasingly recognize the importance of alignment in driving revenue.",
+      "market_dynamics": "Key trends include the rise of remote work and the need for digital alignment tools."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Targeting COOs and Heads of Operations, with HR teams as users and champions.",
+      "willingness_to_pay": "Evidence of willingness to pay through contracted ARR and pilot engagements.",
+      "customer_acquisition_cost": "Currently leveraging HR champions to reduce CAC.",
+      "customer_lifetime_value": "High LTV potential due to strategic importance of alignment solutions."
+    },
+    "red_flags": [
+      "Market penetration may be challenged by existing HR platform incumbents."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Graphio.ai's technology is defensible with proprietary algorithms and a focus on metadata analysis. The solution is scalable and integrates well with existing systems.",
+    "technical_assessment": {
+      "core_technology": "Metadata-driven analysis of organizational playbooks and team execution.",
+      "defensibility": "Strong technical moats through proprietary algorithms.",
+      "intellectual_property": "Focus on trade secrets and proprietary methodologies.",
+      "scalability": "Architecture designed to scale with increasing data and user base.",
+      "integration_capabilities": "Seamless integration with existing HR and operational systems."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for predicting revenue-impacting misalignments.",
+      "data_advantages": "Leverages metadata for insights without requiring sensitive data.",
+      "technical_barriers": "Complexity of metadata analysis creates barriers to entry.",
+      "development_velocity": "Rapid development and iteration supported by a strong engineering team."
+    },
+    "red_flags": [
+      "Potential IP challenges if competitors develop similar metadata analysis capabilities."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Graphio.ai has demonstrated strong traction with 20+ pilots and $1.5M in contracted ARR within 7 months, indicating strong product-market fit and customer validation.",
+    "growth_metrics": {
+      "revenue_growth": "Strong ARR growth with $1.5M contracted in a short period.",
+      "customer_metrics": "20+ customers with a growing pipeline of 27 prospects.",
+      "retention_analysis": "High retention potential due to strategic importance of solution.",
+      "unit_economics": "Favorable unit economics with scalable pricing model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilot customers and strategic partners.",
+      "product_market_fit": "Evidence of strong PMF through rapid customer acquisition.",
+      "notable_customers": "Includes Touchbistro, HR.com, GSB Bank, Altrata.",
+      "partnerships": "Strategic partnership with HR.com for channel distribution."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured $1.5M in contracted ARR.",
+        "context": "Achieved within 7 months of operation.",
+        "outcome": "Validates product-market fit and customer demand."
+      }
+    ],
+    "red_flags": [
+      "Reliance on HR champions may limit direct sales opportunities."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing market readiness for alignment solutions and macro trends supporting digital transformation.",
+    "market_timing": {
+      "market_readiness": "Market is mature and ready for solutions that enhance organizational alignment.",
+      "catalysts": "Trends in remote work and digital transformation drive demand.",
+      "tailwinds": "Growing recognition of the importance of alignment in revenue protection.",
+      "headwinds": "Potential economic downturns could impact budget allocations."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into a niche market with limited direct competition.",
+      "competitive_response": "Competitors may respond by enhancing their offerings.",
+      "market_education": "Requires some market education to shift focus from traditional HR metrics.",
+      "technology_maturity": "Underlying technologies are mature and support solution deployment."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response as market awareness grows."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a $650K angel round completed. The terms need to align with SV's focus on ownership potential and valuation justification.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Targeting additional funds to extend runway and scale operations.",
+      "pre_money_valuation": "Not specified, but should align with current traction and market potential.",
+      "post_money_valuation": "Dependent on raise amount and investor interest."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on HR tech and operational solutions.",
+      "ownership_potential": "Opportunity for significant ownership given early stage.",
+      "liquidation_preferences": "Standard preferences expected for seed stage.",
+      "valuation_justification": "Valuation should reflect strong traction and market opportunity."
+    },
+    "red_flags": [
+      "Limited runway of 5 months increases urgency for fundraising."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Graphio.ai demonstrates strong traction, a capable team, and a unique market position. The company's focus on organizational alignment addresses a significant market need, and their early success indicates potential for growth.",
+    "key_factors": [
+      "Strong product-market fit and customer validation.",
+      "Experienced founding team with a successful track record.",
+      "Unique value proposition and competitive differentiation."
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on financials and customer contracts.",
+      "Engage with the team to discuss strategic growth plans and fundraising needs.",
+      "Evaluate potential for strategic partnerships to enhance market penetration."
+    ]
+  }
+}

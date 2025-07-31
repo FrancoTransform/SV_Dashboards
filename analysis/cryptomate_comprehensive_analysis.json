@@ -1,0 +1,224 @@
+{
+  "company_name": "CryptoMate",
+  "website": "https://cryptomate.me",
+  "year_founded": "2021",
+  "description": "CryptoMate's low code SaaS infrastructure allows any company to easily deploy smart fintech offerings that evolves with their clients needs.",
+  "problem_statement": "We focus on the 93 Million SMEs in LATAM that define as main challenges: Providing credit facilities for their customers. Optimizing their payments (Sales and Suppliers), locally and internationally. Currency volatility, inflation, capital restrictions. We believe lowering the barriers of entry to financial tools is the only way to truely excel in ESG 8, 9 and 11.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1GBzG1Ck0xlGhoqdpZgRBLEIUOcOv1VCT/view?usp=drive_link",
+  "demo_link": "https://youtube.com/shorts/dhwIGX5_pwQ?feature=share",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong background in fintech, banking, and crypto, with significant experience in scaling operations and developing financial products. The team is well-rounded with complementary skills in engineering, sales, and compliance.",
+    "company_assessment": {
+      "business_model_strength": "CryptoMate operates on a B2B model with revenue from subscription plans and transactional fees, demonstrating a scalable and sustainable revenue stream.",
+      "market_positioning": "The company positions itself as a low-code solution for SMEs in LATAM, offering unique fintech capabilities that address specific regional challenges.",
+      "execution_capability": "The team has successfully launched and scaled their product across 12 countries, indicating strong execution capabilities.",
+      "strategic_vision": "CryptoMate has a clear vision of expanding into emerging markets and leveraging stablecoin and private credit market growth."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Alan Boryszanski",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/alanboryszanski/",
+        "background": "Alan has a background in fintech and banking, with experience in developing challenger crypto banks in LATAM.",
+        "domain_expertise": "Expertise in fintech, crypto, and banking sectors.",
+        "previous_startups": "Involved in developing a major challenger crypto bank in LATAM.",
+        "notable_achievements": "Successfully set up infrastructure for crypto banks to operate with local banks.",
+        "leadership_signals": "Demonstrated leadership in scaling operations and strategic planning.",
+        "track_record": [
+          {
+            "company": "Challenger Crypto Bank",
+            "role": "Founder",
+            "outcome": "Ongoing",
+            "learnings": "Learned the importance of efficient operational setups and empowering clients."
+          }
+        ]
+      },
+      {
+        "name": "Guido De Luca",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/guido-de-luca-791403224/",
+        "background": "Guido has a strong technical background with expertise in blockchain and fintech development.",
+        "domain_expertise": "Technical expertise in blockchain and fintech solutions.",
+        "previous_startups": "Experience in developing fintech solutions.",
+        "notable_achievements": "Led technical development for CryptoMate's platform.",
+        "leadership_signals": "Strong technical leadership and team management skills.",
+        "track_record": [
+          {
+            "company": "CryptoMate",
+            "role": "CTO",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into scalable technical architecture and integration."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The fintech landscape in LATAM is competitive with several players offering similar services.",
+      "primary_competitors": [
+        {
+          "name": "utila.io",
+          "description": "Provides fintech solutions for SMEs.",
+          "strengths": "Established market presence.",
+          "weaknesses": "Limited focus on low-code solutions.",
+          "comparison": "CryptoMate offers a more flexible low-code platform."
+        },
+        {
+          "name": "squarefi.co",
+          "description": "Offers payment optimization solutions.",
+          "strengths": "Strong payment processing capabilities.",
+          "weaknesses": "Less focus on credit facilities.",
+          "comparison": "CryptoMate provides a broader range of financial services."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Low-code platform",
+          "Focus on LATAM",
+          "Comprehensive fintech services"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Competitor 1": [
+            false,
+            true,
+            false
+          ],
+          "Competitor 2": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "CryptoMate is well-positioned with its unique low-code platform and focus on LATAM SMEs, providing a comprehensive suite of fintech services."
+    },
+    "red_flags": [
+      "Potential challenges in scaling operations across diverse regulatory environments."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The target market is substantial, with 93 million SMEs in LATAM and significant growth potential in the stablecoin and private credit markets.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM includes 93 million SMEs in LATAM and a projected $30 trillion stablecoin market by 2030.",
+      "serviceable_addressable_market": "CryptoMate aims to capture a significant portion of the LATAM SME market initially.",
+      "serviceable_obtainable_market": "SOM projections are strong given the company's focus on LATAM and emerging markets.",
+      "market_growth_rate": "The stablecoin market is expected to grow 10x by 2030, with the private credit market doubling.",
+      "market_dynamics": "Key trends include increasing demand for fintech solutions and digital financial services in emerging markets."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are SMEs in LATAM facing challenges in credit facilities, payment optimization, and currency volatility.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by current customer base and subscription revenue.",
+      "customer_acquisition_cost": "CAC is managed through efficient lead generation and sales pipeline strategies.",
+      "customer_lifetime_value": "LTV is strong with recurring subscription revenue and transactional fees."
+    },
+    "red_flags": [
+      "Potential market entry barriers in new regions due to regulatory differences."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "CryptoMate's low-code platform offers technical defensibility and scalability, with strong integration capabilities.",
+    "technical_assessment": {
+      "core_technology": "The core technology is a low-code SaaS platform enabling fintech service deployment.",
+      "defensibility": "The platform's low-code nature and focus on LATAM provide a competitive moat.",
+      "intellectual_property": "The company has not disclosed specific IP protection strategies.",
+      "scalability": "The platform is designed to scale with customer growth and market expansion.",
+      "integration_capabilities": "Strong integration capabilities with existing financial systems and platforms."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The platform includes unique algorithms for fintech service deployment.",
+      "data_advantages": "Potential data advantages from serving a large number of SMEs.",
+      "technical_barriers": "The low-code nature creates barriers to replication by competitors.",
+      "development_velocity": "The team demonstrates rapid development and iteration capabilities."
+    },
+    "red_flags": [
+      "Lack of disclosed IP protection could be a concern."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "CryptoMate shows strong traction with over 30 customers in 12 countries, significant transactional value, and growing subscription revenue.",
+    "growth_metrics": {
+      "revenue_growth": "The company reports $20k MRR from subscriptions and $15k from transactional fees.",
+      "customer_metrics": "Over 30 B2B customers with a growing sales pipeline.",
+      "retention_analysis": "High retention with all customers on paid subscriptions.",
+      "unit_economics": "Positive unit economics with strong LTV and manageable CAC."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive customer feedback and strong demand for the platform.",
+      "product_market_fit": "Evidence of strong PMF with growing customer base and revenue.",
+      "notable_customers": "Includes exchanges, payment wallets, and other fintech companies.",
+      "partnerships": "Potential for strategic partnerships to enhance market reach."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Rapid customer acquisition and revenue growth.",
+        "context": "Achieved through targeted sales strategies and product-market fit.",
+        "outcome": "Continued growth and expansion opportunities."
+      }
+    ],
+    "red_flags": [
+      "Potential challenges in maintaining growth rate as market matures."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for fintech solutions in LATAM and emerging markets.",
+    "market_timing": {
+      "market_readiness": "The market is ready for fintech solutions addressing SME challenges.",
+      "catalysts": "Growing digitalization and demand for financial services in LATAM.",
+      "tailwinds": "Favorable macro trends such as digital transformation and fintech adoption.",
+      "headwinds": "Regulatory changes and economic instability in some regions."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in offering low-code fintech solutions in LATAM.",
+      "competitive_response": "Competitors may respond with similar offerings, but CryptoMate's focus on LATAM provides an edge.",
+      "market_education": "Some market education may be required for adoption.",
+      "technology_maturity": "The underlying technologies are mature and widely adopted."
+    },
+    "red_flags": [
+      "Regulatory risks and potential economic instability in target markets."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The company is currently fundraising with a strong runway and alignment with SV's investment focus.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified in the application",
+      "pre_money_valuation": "Not specified in the application",
+      "post_money_valuation": "Not specified in the application"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on fintech and emerging markets.",
+      "ownership_potential": "Potential for significant ownership and influence in the company.",
+      "liquidation_preferences": "Not specified in the application.",
+      "valuation_justification": "Valuation details are not provided, but growth metrics support a favorable valuation."
+    },
+    "red_flags": [
+      "Lack of specific valuation and raise amount details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "CryptoMate demonstrates strong traction, a substantial market opportunity, and a capable team. The company's focus on LATAM SMEs and low-code fintech solutions aligns well with SV's investment thesis.",
+    "key_factors": [
+      "Strong market traction",
+      "Substantial TAM",
+      "Experienced team",
+      "Favorable market timing"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence",
+      "Engage with founders for valuation and raise details",
+      "Explore potential strategic partnerships"
+    ]
+  }
+}

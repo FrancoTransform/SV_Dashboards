@@ -1,0 +1,227 @@
+{
+  "company_name": "JOGO Health",
+  "website": "https://www.jogohealth.com/",
+  "year_founded": "2016",
+  "description": "JOGO Health, backed by Mayo Clinic, provides FDA-cleared digital treatments for migraine and neurological conditions, delivered virtually and through our nationwide partner clinics. Our solutions help employers reduce the total cost of care, improve employee health outcomes, and address access challenges — enhancing workforce productivity and retention.",
+  "problem_statement": "JOGO Health addresses two major healthcare gaps affecting employees and healthcare costs:\n\nFaster Access to Neurological Care:\nNearly 50% of employees suffer from at least one neurological condition, yet the average wait time to see a neurologist in the U.S. is over six months. JOGO Health offers virtual neurology consults within 24 hours across all 50 states — improving employee access, reducing absenteeism, and preventing costly disease progression.\n\nCost-Effective Alternative to High-Cost Treatments:\nEMG Biofeedback is recognized as a medical necessity to reduce reliance on Botox, CGRP-inhibitors, and neuromodulation surgeries for migraines and neurological disorders. However, it’s traditionally available only at large academic medical centers. JOGO provides the only FDA-cleared virtual EMG Biofeedback system deliverable via telemedicine — making it easily accessible to your employees wherever they are.\n\nImpact:\nEmployees who receive JOGO’s virtual neurology consults combined with EMG Biofeedback significantly reduce their use of high-cost medications and invasive procedures — helping employers lower healthcare spend while improving employee well-being and retention.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1vvC837vujkne98W5Gi-vh8RD5gJNJDwG/view?usp=drive_link",
+  "demo_link": "https://youtu.be/WZbEaaWS7cc",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of JOGO Health demonstrates strong execution ability and domain expertise. Siva Nadarajah, with a background in digital health and a successful exit, brings valuable industry insights. Gary Krasilovsky, PhD, as Chief Medical Officer, adds significant medical expertise, particularly in neurology. Sanjai Murali, the CEO, complements the team with his leadership and strategic vision. The team's prior experience in the pharmaceutical industry and their commitment to JOGO Health's mission are strong indicators of their capability to scale the company.",
+    "company_assessment": {
+      "business_model_strength": "JOGO Health operates a vertically integrated solution with a value-based payment model, targeting payers, self-insured employers, and health systems. The business model is scalable and aligns with industry trends towards cost-effective healthcare solutions.",
+      "market_positioning": "JOGO Health positions itself as a non-invasive, cost-saving alternative to traditional neurological treatments. Its unique value proposition lies in providing virtual neurology consults and FDA-cleared EMG Biofeedback, differentiating it from competitors.",
+      "execution_capability": "The team has demonstrated execution capability by securing partnerships with leading health systems like Mayo Clinic and generating significant revenue traction.",
+      "strategic_vision": "The company's strategic vision is well-aligned with market needs, focusing on reducing healthcare costs and improving access to neurological care."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Siva Nadarajah",
+        "role": "President",
+        "linkedin": "https://www.linkedin.com/in/sivanadarajah/",
+        "background": "Siva has over 20 years of experience in the pharmaceutical industry, including working on the launches of leading neurology treatments like Botox and Lyrica.",
+        "domain_expertise": "Extensive experience in digital health and pharmaceutical industries.",
+        "previous_startups": "Founded a digital health company acquired by IQVIA.",
+        "notable_achievements": "Successfully exited a previous startup, invested $2.5 million in JOGO Health.",
+        "leadership_signals": "Demonstrated leadership by transitioning from a high-paying corporate role to fully commit to JOGO Health.",
+        "track_record": [
+          {
+            "company": "Previous digital health company",
+            "role": "Founder",
+            "outcome": "Acquired by IQVIA",
+            "learnings": "Importance of focus and strategic alignment in scaling a business."
+          }
+        ]
+      },
+      {
+        "name": "Gary Krasilovsky, PhD",
+        "role": "Chief Medical Officer",
+        "linkedin": "https://www.linkedin.com/in/gary-krasilovsky-a542b268/",
+        "background": "PhD in a relevant field with extensive experience in neurology.",
+        "domain_expertise": "Expert in neurological conditions and treatments.",
+        "previous_startups": "N/A",
+        "notable_achievements": "Contributed to the development of JOGO Health's FDA-cleared treatments.",
+        "leadership_signals": "Strong medical leadership and expertise in neurology.",
+        "track_record": []
+      },
+      {
+        "name": "Sanjai Murali",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/sanjai-murali-3990371/",
+        "background": "Experienced executive with a focus on healthcare innovation.",
+        "domain_expertise": "Leadership in healthcare startups and strategic planning.",
+        "previous_startups": "N/A",
+        "notable_achievements": "Driving strategic vision and growth at JOGO Health.",
+        "leadership_signals": "Effective leadership in scaling operations and strategic execution.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes neuromodulation surgical companies and pharmaceutical manufacturers. JOGO Health differentiates itself by offering a non-invasive, cost-effective alternative.",
+      "primary_competitors": [
+        {
+          "name": "Medtronic",
+          "description": "Provides neuromodulation surgical solutions.",
+          "strengths": "Established brand and extensive distribution network.",
+          "weaknesses": "Invasive procedures and high costs.",
+          "comparison": "JOGO Health offers a non-invasive, cost-effective alternative."
+        },
+        {
+          "name": "Boston Scientific",
+          "description": "Offers neuromodulation surgeries.",
+          "strengths": "Strong market presence and technological expertise.",
+          "weaknesses": "High-cost and invasive treatments.",
+          "comparison": "JOGO Health provides a virtual, non-invasive solution."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Non-invasive",
+          "Cost-effective",
+          "Virtual Consults"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Medtronic": [
+            false,
+            false,
+            false
+          ],
+          "Boston Scientific": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "JOGO Health is well-positioned with a unique, non-invasive solution that addresses cost and access challenges in neurological care."
+    },
+    "red_flags": [
+      "Potential challenges in navigating benefits consultants for self-insured employers."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The neurological treatment market is substantial, with an $80B opportunity within a $370B total spend. JOGO Health's focus on reducing high-cost treatments aligns well with market needs, and the company's ability to capture a significant portion of this market is supported by its innovative approach.",
+    "market_analysis": {
+      "total_addressable_market": "$80B out of $370B total spend on medications and surgeries for neurological conditions.",
+      "serviceable_addressable_market": "JOGO Health's SAM is focused on payers and self-insured employers looking to reduce healthcare costs.",
+      "serviceable_obtainable_market": "SOM projections are supported by JOGO Health's partnerships and growing customer base.",
+      "market_growth_rate": "The market for digital health solutions is growing, with increasing demand for cost-effective, non-invasive treatments.",
+      "market_dynamics": "Key trends include the shift towards value-based care and the increasing prevalence of neurological conditions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Payers, self-insured employers, physicians, and patients seeking cost-effective neurological care.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by existing paying customers and significant cost savings.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but the sales cycle and pricing models suggest a strategic approach to customer acquisition.",
+      "customer_lifetime_value": "LTV is supported by the significant cost savings and improved health outcomes for customers."
+    },
+    "red_flags": [
+      "Potential challenges in accessing benefits managers and consultants."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "JOGO Health's technology is highly defensible, with FDA clearance for its EMG Biofeedback system. The proprietary nature of the technology, combined with its virtual delivery model, creates significant barriers to entry for competitors.",
+    "technical_assessment": {
+      "core_technology": "FDA-cleared virtual EMG Biofeedback system deliverable via telemedicine.",
+      "defensibility": "FDA clearance and proprietary technology provide strong defensibility.",
+      "intellectual_property": "The company likely has a robust IP strategy, given the FDA clearance.",
+      "scalability": "The virtual delivery model is highly scalable across geographies.",
+      "integration_capabilities": "The technology can be integrated into existing healthcare systems and workflows."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for EMG Biofeedback.",
+      "data_advantages": "Potential for data-driven insights from virtual consults and treatments.",
+      "technical_barriers": "FDA clearance and proprietary technology create significant barriers.",
+      "development_velocity": "The company has demonstrated the ability to develop and iterate on its technology effectively."
+    },
+    "red_flags": [
+      "No significant technology-related concerns identified."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "JOGO Health has demonstrated strong traction with $1.5M in revenue over the last six months and a projected $7M for 2025. The company has a solid customer base and a significant sales pipeline, indicating strong product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Strong revenue growth with $1.5M in the last six months and a $7M projection for 2025.",
+      "customer_metrics": "Five paying customers with a $100M sales pipeline.",
+      "retention_analysis": "High retention potential due to significant cost savings and improved outcomes.",
+      "unit_economics": "Strong unit economics with significant cost savings for customers."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from existing customers and partnerships with leading health systems.",
+      "product_market_fit": "Evidence of strong PMF with significant cost savings and improved outcomes.",
+      "notable_customers": "Partnerships with Mayo Clinic and other leading health systems.",
+      "partnerships": "Strategic partnerships with health systems and potential for expansion."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Partnership with Mayo Clinic and other health systems.",
+        "context": "Demonstrates strong market validation and credibility.",
+        "outcome": "Increased market penetration and customer trust."
+      }
+    ],
+    "red_flags": [
+      "Potential challenges in expanding customer base among self-insured employers."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing for JOGO Health's solution is optimal, with increasing demand for cost-effective, non-invasive neurological treatments. The regulatory environment is favorable, and the company's early entry into the market provides a competitive advantage.",
+    "market_timing": {
+      "market_readiness": "The market is ready for digital health solutions that reduce costs and improve access.",
+      "catalysts": "Increasing prevalence of neurological conditions and demand for value-based care.",
+      "tailwinds": "Favorable regulatory environment and growing acceptance of telemedicine.",
+      "headwinds": "Potential challenges in navigating healthcare regulations and reimbursement models."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "JOGO Health's early entry provides a significant advantage in establishing market presence.",
+      "competitive_response": "Competitors may respond with similar solutions, but JOGO's FDA clearance provides a moat.",
+      "market_education": "Ongoing market education is required to drive adoption among employers and payers.",
+      "technology_maturity": "The technology is mature and ready for widespread adoption."
+    },
+    "red_flags": [
+      "No significant timing-related concerns identified."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "JOGO Health's fundraising aligns with SemperVirens' investment criteria, with a focus on scaling operations and expanding market reach. The company's valuation and funding strategy are appropriate for its stage and growth trajectory.",
+    "investment_details": {
+      "round_stage": "Series A",
+      "raise_amount": "Not specified, but likely aligned with growth and scaling needs.",
+      "pre_money_valuation": "Not specified, but expected to be reasonable given traction and market opportunity.",
+      "post_money_valuation": "Not specified, but likely aligned with industry benchmarks."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on digital health and cost-effective solutions.",
+      "ownership_potential": "Potential for significant ownership and influence in strategic direction.",
+      "liquidation_preferences": "Standard investor protections expected.",
+      "valuation_justification": "Valuation likely justified by market opportunity and traction."
+    },
+    "red_flags": [
+      "No significant terms-related concerns identified."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "JOGO Health presents a compelling investment opportunity with strong traction, a defensible technology, and a significant market opportunity. The company's alignment with SemperVirens' investment thesis and its potential for scaling make it a strong candidate for advancement.",
+    "key_factors": [
+      "Strong market traction and revenue growth",
+      "Defensible technology with FDA clearance",
+      "Significant market opportunity and alignment with industry trends"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on financials and customer contracts",
+      "Engage with the team to understand strategic plans and scaling strategy",
+      "Explore potential partnerships and synergies with existing portfolio companies"
+    ]
+  }
+}

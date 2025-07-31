@@ -1,0 +1,217 @@
+{
+  "company_name": "Outro Health",
+  "website": "https://www.outro.com/",
+  "year_founded": "2022",
+  "description": "The first virtual platform for deprescribing, starting with the 50M Americans on antidepressants. We leverage the first neuroscience-based tapering method, invented by our co-founder.",
+  "problem_statement": "We're solving the absence of dedicated deprescribing solutions for several drug classes, used by 100M+ people in the western world. Particularly for psychiatric medications: 10s of millions are using the drugs for longer than guidelines recommend - subject to side effects and long-term effects - and withdrawal symptoms keep them trapped on medications (and drives up healthcare costs). We believe that deprescribing will become a revolutionary category of medicine - a response to the epidemic of overprescribing.",
+  "pitch_deck_link": "https://www.outro.com/",
+  "demo_link": "https://vimeo.com/1080895047/bd19543f1f",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Outro Health demonstrates strong domain expertise and complementary skills. Brandon Goode, CEO, has a background in healthcare commercialization, which complements Dr. Mark Horowitz's medical expertise and status as a key opinion leader in deprescribing. The team has shown the ability to scale operations, as evidenced by their growth in clinical staff and revenue.",
+    "company_assessment": {
+      "business_model_strength": "Outro Health's business model is based on a subscription service for taper management, with plans to expand into fee-for-service and value-based care models. The model shows potential for scalability and competitive positioning in a niche market.",
+      "market_positioning": "The company positions itself as a pioneer in the emerging field of deprescribing, leveraging a unique neuroscience-based tapering method. This differentiation is a strong competitive advantage.",
+      "execution_capability": "The team has demonstrated execution capability by launching in the US, achieving 24% MoM revenue growth, and scaling their clinical team.",
+      "strategic_vision": "Outro Health has a clear strategic vision to expand its deprescribing platform to include payers and employers, aiming to reduce pharmacy spend and associated healthcare costs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Brandon Goode",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/goodebrandon/",
+        "background": "Brandon has a background in healthcare commercialization and has worked in the psychedelic therapy space.",
+        "domain_expertise": "Healthcare commercialization and deprescribing",
+        "previous_startups": "Experience in the psychedelic therapy space",
+        "notable_achievements": "Successfully launched a pilot in Canada and expanded to the US market.",
+        "leadership_signals": "Demonstrated ability to build and scale a team, with strategic vision for market expansion.",
+        "track_record": [
+          {
+            "company": "Novo Nordisk",
+            "role": "Role in launching obesity drug class",
+            "outcome": "Successful market entry and growth",
+            "learnings": "Gained insights into market creation and unmet need communication."
+          }
+        ]
+      },
+      {
+        "name": "Dr. Mark Horowitz",
+        "role": "Head of Research",
+        "linkedin": "https://markhorowitz.org/",
+        "background": "Dr. Horowitz is a recognized expert in deprescribing and has contributed to rewriting UK antidepressant tapering guidelines.",
+        "domain_expertise": "Psychiatry and deprescribing",
+        "previous_startups": "N/A",
+        "notable_achievements": "Rewrote UK antidepressant tapering guidelines and published Maudsley Deprescribing Guidelines.",
+        "leadership_signals": "Key opinion leader in the field of deprescribing.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes traditional prescribers, psychiatrists, and telemedicine providers who are not focused on deprescribing.",
+      "primary_competitors": [
+        {
+          "name": "Traditional Prescribers",
+          "description": "PCPs and psychiatrists who prescribe medications",
+          "strengths": "Established patient relationships and trust",
+          "weaknesses": "Lack of training and time for deprescribing",
+          "comparison": "Outro Health differentiates by focusing on deprescribing with a specialized method."
+        },
+        {
+          "name": "Telemedicine Providers",
+          "description": "Providers offering remote prescription services",
+          "strengths": "Convenience and accessibility",
+          "weaknesses": "Business model not built for deprescribing",
+          "comparison": "Outro Health offers a unique deprescribing focus, unlike typical telemedicine models."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Deprescribing Focus",
+          "Scalability",
+          "Clinical Expertise"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Traditional Prescribers": [
+            false,
+            true,
+            false
+          ],
+          "Telemedicine Providers": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Outro Health is well-positioned with a unique focus on deprescribing, leveraging clinical expertise and a scalable business model."
+    },
+    "red_flags": [
+      "Potential challenges in educating the market about deprescribing and scaling provider training."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market for deprescribing is significant, with over 100M psychiatric medication prescriptions in the US. The company's focus on a niche but growing market presents a substantial opportunity.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM includes over 100M psychiatric medication prescriptions in the US, with a large portion taken longer than guidelines recommend.",
+      "serviceable_addressable_market": "The SAM focuses on individuals seeking to taper off psychiatric medications, initially targeting antidepressants.",
+      "serviceable_obtainable_market": "The SOM is projected to grow as the company expands its platform to include payers and employers.",
+      "market_growth_rate": "The market is expected to grow as awareness of deprescribing increases and healthcare costs drive demand for alternative solutions.",
+      "market_dynamics": "Key trends include increasing distrust in pharmaceuticals, growing awareness of medication side effects, and a shift towards non-drug healthcare solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include individuals on psychiatric medications, payers, and employers looking to reduce healthcare costs.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by the current subscription model and customer growth.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but the company has shown effective customer acquisition through its waitlist and active patient base.",
+      "customer_lifetime_value": "LTV is supported by the subscription model, with potential for increased value through expanded services."
+    },
+    "red_flags": [
+      "Challenges in market education and potential resistance from traditional prescribers."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Outro Health's technology is based on a neuroscience-based tapering method, providing a defensible and differentiated approach. The platform's scalability and integration capabilities are promising.",
+    "technical_assessment": {
+      "core_technology": "The core technology involves a neuroscience-based tapering method for deprescribing psychiatric medications.",
+      "defensibility": "The method is unique and developed by a recognized expert, providing a strong technical moat.",
+      "intellectual_property": "While specific IP details are not provided, the proprietary method offers a competitive advantage.",
+      "scalability": "The platform is designed to scale with growth, supported by the subscription model and expanding clinical team.",
+      "integration_capabilities": "The platform's integration with existing healthcare systems is not detailed but is crucial for scaling."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The tapering method is a proprietary innovation developed by Dr. Horowitz.",
+      "data_advantages": "The company leverages clinical data to refine its tapering protocols.",
+      "technical_barriers": "The specialized knowledge and method create barriers to entry for competitors.",
+      "development_velocity": "The company has shown rapid development and market entry, with plans for further expansion."
+    },
+    "red_flags": [
+      "Potential challenges in integrating with existing healthcare systems and ensuring data security."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Outro Health has demonstrated strong traction with 24% MoM revenue growth, a growing patient base, and a significant waitlist. The company is still in beta but shows promising signs of product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "The company has achieved 24% MoM revenue growth, reaching $18k MRR.",
+      "customer_metrics": "60 active patients, 937 accounts created, and 1500+ on the waitlist indicate strong demand.",
+      "retention_analysis": "Retention rates are not detailed, but the subscription model suggests potential for strong retention.",
+      "unit_economics": "The pricing structure supports positive unit economics, with potential for further optimization."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback is implied by the growing patient base and waitlist.",
+      "product_market_fit": "The company's growth metrics and demand indicate strong product-market fit.",
+      "notable_customers": "Specific notable customers are not mentioned, but the patient base is growing.",
+      "partnerships": "The company aims to secure partnerships with payers and employers, which will enhance market validation."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Successful launch in the US market and rapid growth in patient base.",
+        "context": "The company expanded from Canada to the US, leveraging its unique tapering method.",
+        "outcome": "Increased revenue and patient demand, with plans for further expansion."
+      }
+    ],
+    "red_flags": [
+      "The company is still in beta, which may present challenges in scaling and operational stability."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing for Outro Health is favorable, with increasing awareness of the need for deprescribing and growing distrust in pharmaceuticals. The company is well-positioned to capitalize on these trends.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready for deprescribing solutions, driven by healthcare cost concerns and medication side effects.",
+      "catalysts": "Key catalysts include new guidelines for tapering and growing media coverage of deprescribing.",
+      "tailwinds": "Favorable trends include a shift towards non-drug healthcare and increasing employer concerns about medication costs.",
+      "headwinds": "Potential headwinds include resistance from traditional prescribers and regulatory challenges."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Outro Health benefits from being an early entrant in the deprescribing space.",
+      "competitive_response": "The likelihood of competitive response is moderate, given the specialized nature of the method.",
+      "market_education": "Market education is required, but the company is leveraging its co-founder's expertise to address this.",
+      "technology_maturity": "The underlying technology and method are mature, supporting market entry."
+    },
+    "red_flags": [
+      "Potential regulatory challenges and the need for extensive market education."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms align with SemperVirens' focus, with a clear path to scaling and potential for significant market impact. The company is currently fundraising, seeking to close a Seed round in Q4 2025.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Target raise amount not specified, but seeking to close Seed in Q4 2025.",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on healthcare innovation aligns with SemperVirens' investment criteria.",
+      "ownership_potential": "Potential for significant ownership and influence in a growing market.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation details are not provided, but the company's growth and market potential support a favorable valuation."
+    },
+    "red_flags": [
+      "Lack of specific valuation and raise amount details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Outro Health presents a compelling investment opportunity with strong traction, a unique value proposition, and favorable market timing. The company's focus on deprescribing addresses a significant unmet need, and the team has demonstrated execution capability.",
+    "key_factors": [
+      "Strong team with complementary skills and domain expertise",
+      "Significant market opportunity in deprescribing",
+      "Unique and defensible technology",
+      "Favorable market timing and trends"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence to assess market education strategies and regulatory considerations",
+      "Explore potential partnerships with payers and employers to validate market demand",
+      "Clarify investment terms and valuation details"
+    ]
+  }
+}

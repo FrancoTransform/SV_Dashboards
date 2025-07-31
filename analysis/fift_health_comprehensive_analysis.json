@@ -1,0 +1,199 @@
+{
+  "company_name": "Fift Health",
+  "website": "https://fifthealth.ai",
+  "year_founded": "2025",
+  "description": "FIFT Health is an AI-powered platform that prevents heart failure readmissions through real-time monitoring, predictive alerts, and early interventions, enabling proactive care and better outcomes for high-risk patients.",
+  "problem_statement": "We’re solving the problem of 'preventable heart failure readmissions', which affect millions of patients and are projected to cost the U.S. healthcare system over $70 billion annually by 2030. Nearly 1 in 4 heart failure patients are readmitted within 30 days—often because early warning signs like weight gain or leg swelling go unnoticed. The current system is reactive, fragmented, and lacks real-time monitoring once the patient leaves the hospital. This matters because these readmissions are not only costly but also harmful to patients’ quality of life. FIFT Health uses AI and remote monitoring to enable timely, personalized intervention—delivering better outcomes and reducing unnecessary hospitalizations.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1o9sBn8QQrdBOXVD5nHVJlp7W3lqXnlfo/edit?slide=id.g36d9760d498_0_5#slide=id.g36d9760d498_0_5",
+  "demo_link": "http://fifthealth.ai",
+  "team": {
+    "score": 4,
+    "justification": "The founding team consists of experienced medical professionals with complementary expertise in cardiology and chronic disease management. Their firsthand experience with the problem and shared vision for a solution is a strong indicator of their capability to execute. However, the team is small, and the technical development is outsourced, which could pose challenges in scaling and rapid iteration.",
+    "company_assessment": {
+      "business_model_strength": "FIFT Health operates a B2B SaaS model with a focus on value-based care organizations. The model is scalable and aligns well with industry trends towards preventive care. The potential for outcome-based contracts adds a layer of alignment with customer incentives.",
+      "market_positioning": "The company positions itself as a proactive care enabler with a unique combination of AI and human-centered design. This differentiation is crucial in a market where many competitors focus solely on data capture.",
+      "execution_capability": "The team has demonstrated early execution capability by developing an MVP and establishing an advisory network. However, the lack of in-house technical resources could hinder rapid product development.",
+      "strategic_vision": "The strategic vision is well-aligned with market needs, focusing on reducing readmissions and improving patient outcomes. The founders' medical backgrounds provide a deep understanding of the problem space."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Dr. Pramod Kariyanna",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/apoorva-jayarangaiah-md-facp-1392011a7/",
+        "background": "Interventional Cardiologist with experience in clinical vision, partnerships, and business strategy.",
+        "domain_expertise": "Extensive expertise in cardiology and healthcare systems.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Leadership in clinical strategy and partnerships.",
+        "leadership_signals": "Strong leadership in clinical settings and strategic planning.",
+        "track_record": []
+      },
+      {
+        "name": "Dr. Apoorva Jayarangaiah",
+        "role": "CMO",
+        "linkedin": "https://www.linkedin.com/in/apoorva-jayarangaiah-md-facp-1392011a7/",
+        "background": "Hematologist/Oncologist with a focus on chronic care models and compliance.",
+        "domain_expertise": "Expertise in chronic disease management and clinical workflows.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Focus on compliance and chronic care models.",
+        "leadership_signals": "Demonstrated leadership in clinical workflows and compliance.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes companies like Ventricle Health, which focus on remote monitoring solutions. Many competitors lack integration into existing workflows and actionable insights.",
+      "primary_competitors": [
+        {
+          "name": "Ventricle Health",
+          "description": "Offers remote monitoring solutions for heart failure.",
+          "strengths": "Established presence and device-based data capture.",
+          "weaknesses": "Focuses solely on data capture without full care cycle integration.",
+          "comparison": "FIFT Health differentiates by integrating predictive AI and human-centered design for actionable insights."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Predictive AI",
+          "Human-Centered Design",
+          "Full Care Cycle Integration"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Ventricle Health": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "FIFT Health is well-positioned with a unique value proposition that addresses key gaps in the market, such as actionable insights and integration into clinical workflows."
+    },
+    "red_flags": [
+      "Dependence on outsourced technical development could impact agility."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market for heart failure readmission prevention is substantial, with a projected cost of over $70 billion annually by 2030. The company's target market includes 10 million heart failure patients, indicating a significant opportunity. However, the company's ability to capture this market depends on successful execution of its go-to-market strategy.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is significant, with 10 million heart failure patients in the U.S. by 2030.",
+      "serviceable_addressable_market": "The SAM includes value-based care organizations and health systems managing large patient populations.",
+      "serviceable_obtainable_market": "The SOM is contingent on successful partnerships and pilot conversions.",
+      "market_growth_rate": "The market is expected to grow with the increasing adoption of value-based care models.",
+      "market_dynamics": "Key drivers include CMS penalties for readmissions and the shift towards preventive care."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are value-based care organizations, health systems, and ACOs.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for solutions that reduce readmissions and align with value-based models.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is likely to be high given the B2B sales cycle.",
+      "customer_lifetime_value": "LTV is potentially high due to the recurring revenue model and alignment with customer incentives."
+    },
+    "red_flags": [
+      "High CAC and long sales cycles could impact growth."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology leverages AI for predictive alerts and integrates with clinical workflows, providing a defensible position. However, the lack of in-house technical resources could pose challenges in maintaining a competitive edge.",
+    "technical_assessment": {
+      "core_technology": "AI-powered platform for real-time monitoring and predictive alerts.",
+      "defensibility": "The combination of AI and human-centered design provides a defensible position.",
+      "intellectual_property": "No specific IP strategy mentioned.",
+      "scalability": "The SaaS model is inherently scalable, but technical scalability depends on the outsourced team.",
+      "integration_capabilities": "Designed to integrate with existing clinical workflows."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for predictive alerts.",
+      "data_advantages": "Potential for data-driven insights and improvements.",
+      "technical_barriers": "Integration into clinical workflows and predictive capabilities are barriers to entry.",
+      "development_velocity": "Dependent on the outsourced technical team."
+    },
+    "red_flags": [
+      "Reliance on outsourced technical development could impact innovation."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "The company has developed an MVP and established an advisory network, but lacks paying customers and significant market traction. The focus on pilot conversions is a positive step, but the lack of revenue is a concern.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue to date.",
+      "customer_metrics": "No paying customers yet.",
+      "retention_analysis": "N/A at this stage.",
+      "unit_economics": "Not yet established."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early conversations with health leaders.",
+      "product_market_fit": "Early indicators of PMF through pilot interest.",
+      "notable_customers": "None yet.",
+      "partnerships": "Advisory network established."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Area of Investigation",
+        "description": "Conversion of pilot interest into paying customers.",
+        "context": "Focus on securing initial revenue-generating partnerships.",
+        "outcome": "Critical for demonstrating market traction."
+      }
+    ],
+    "red_flags": [
+      "Lack of paying customers and revenue."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to the increasing focus on value-based care and the need for solutions that reduce readmissions. However, the market is competitive, and the company must move quickly to establish a foothold.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that address readmissions and align with value-based care.",
+      "catalysts": "CMS penalties and reimbursement incentives for RPM programs.",
+      "tailwinds": "Shift towards preventive care and value-based models.",
+      "headwinds": "Competitive market with established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage in integrating AI with clinical workflows.",
+      "competitive_response": "Established players may respond aggressively.",
+      "market_education": "Requires education on the benefits of predictive monitoring.",
+      "technology_maturity": "AI and remote monitoring technologies are mature enough for deployment."
+    },
+    "red_flags": [
+      "Competitive pressure from established players."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is in the early stages of fundraising with a self-funded runway. The lack of detailed investment terms and valuation makes it difficult to assess alignment with SV's focus.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on healthcare innovation.",
+      "ownership_potential": "Not specified.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Not specified."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Fift Health shows promise with a strong founding team, a significant market opportunity, and a unique value proposition. However, the lack of paying customers, reliance on outsourced technical development, and absence of detailed investment terms are concerns. Further validation of market traction and detailed investment terms are needed before advancing.",
+    "key_factors": [
+      "Strong founding team",
+      "Significant market opportunity",
+      "Unique value proposition",
+      "Lack of paying customers",
+      "Outsourced technical development"
+    ],
+    "next_steps": [
+      "Secure initial paying customers",
+      "Develop detailed investment terms",
+      "Strengthen in-house technical capabilities"
+    ]
+  }
+}

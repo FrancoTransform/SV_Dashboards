@@ -1,0 +1,191 @@
+{
+  "company_name": "Therify",
+  "website": "https://therify.co",
+  "year_founded": "2021",
+  "description": "Therify navigates employees to licensed, in-network therapists who are guaranteed to have real availability, making it easy to access high-quality care when it’s needed.",
+  "problem_statement": "We rapidly increase access to in-network providers such that employees get better sooner and can show up to work their fullest selves. For employers this reduces out-of-network costs (sometimes 3x the in-network rate), address burnout and absenteeism, and return real ROI from their health plan.",
+  "pitch_deck_link": "https://docsend.com/view/bzyyp9j87ic8r45y",
+  "demo_link": "https://www.loom.com/share/b85c42c762c344a0927ccf625fdcaea5?sid=c95c239a-cec3-439d-a993-4a6c58776d83",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong background in technology and healthcare, with Warren Sadler having both technical and leadership experience. The team is small but has complementary skills, with a focus on clinical strategy and engineering.",
+    "company_assessment": {
+      "business_model_strength": "Therify operates on a SaaS subscription model with performance-based pricing, aligning incentives with customer ROI. This model is scalable and competitive.",
+      "market_positioning": "Therify differentiates itself by offering in-network matching and in-person support, addressing gaps in traditional EAPs.",
+      "execution_capability": "The team has successfully launched an MVP and enterprise solution, demonstrating their ability to execute and scale.",
+      "strategic_vision": "Therify has a clear vision to expand through broker networks, which aligns with market needs and trends."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Warren Sadler",
+        "role": "CEO and CTO",
+        "linkedin": "https://www.linkedin.com/in/warren-sadler-therify/",
+        "background": "Warren has a background in software engineering and leadership, having mentored his co-founder Jessie Wooten.",
+        "domain_expertise": "Expertise in technology and healthcare, with a focus on improving patient outcomes through tech.",
+        "previous_startups": "No prior startups mentioned, but has experience in tech leadership roles.",
+        "notable_achievements": "Successfully launched Therify's MVP and enterprise solution.",
+        "leadership_signals": "Demonstrated leadership in building a small but effective team.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The mental health space is crowded, with EAPs being the primary competitors.",
+      "primary_competitors": [
+        {
+          "name": "Traditional EAPs",
+          "description": "Offer short-term care with limited sessions, often virtual only.",
+          "strengths": "Established presence and familiarity with employers.",
+          "weaknesses": "Limited session availability and virtual-only support.",
+          "comparison": "Therify offers in-person support and performance-based pricing, aligning with employer ROI."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "In-network matching",
+          "In-person support",
+          "Performance-based pricing"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Competitor 1": [
+            false,
+            false,
+            false
+          ],
+          "Competitor 2": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Therify is well-positioned with unique offerings that address key gaps in the market."
+    },
+    "red_flags": [
+      "Small team size may limit scaling capabilities."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market opportunity is significant, with a TAM of $8.5B based on 49M employees in the US. Therify's pricing model supports a strong market capture potential.",
+    "market_analysis": {
+      "total_addressable_market": "$8.5B based on 49M employees at companies with over 500 employees offering medical benefits.",
+      "serviceable_addressable_market": "Focused on enterprise employers with self-funded insurance plans.",
+      "serviceable_obtainable_market": "Realistic capture through broker networks and direct employer engagements.",
+      "market_growth_rate": "Behavioral health services are experiencing strong growth due to increasing awareness and demand.",
+      "market_dynamics": "Key trends include rising mental health awareness and demand for accessible care solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Enterprise employers with 500-5,000 employees, focusing on HR and benefits leaders.",
+      "willingness_to_pay": "Evidence of willingness to pay through existing contracts and pipeline.",
+      "customer_acquisition_cost": "Not explicitly detailed, but direct and broker channels suggest manageable CAC.",
+      "customer_lifetime_value": "High LTV potential due to annual contracts and strong retention focus."
+    },
+    "red_flags": [
+      "Dependence on broker networks for scaling may introduce variability in acquisition costs."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "Therify's technology focuses on matching and care navigation, with potential for AI integration. However, technical defensibility and IP strategy are not detailed.",
+    "technical_assessment": {
+      "core_technology": "Matching web application and reporting dashboard for employers.",
+      "defensibility": "Limited information on technical moats or barriers to replication.",
+      "intellectual_property": "No patents or IP protection strategy mentioned.",
+      "scalability": "Architecture appears scalable, but details are limited.",
+      "integration_capabilities": "Ease of integration with existing employer systems not detailed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Potential for AI-driven enhancements in care navigation.",
+      "data_advantages": "Not explicitly mentioned, but data on therapist availability could be leveraged.",
+      "technical_barriers": "No significant barriers preventing replication mentioned.",
+      "development_velocity": "Demonstrated ability to launch MVP and enterprise solution."
+    },
+    "red_flags": [
+      "Lack of detailed IP strategy and technical defensibility."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Therify has demonstrated strong traction with $2M in active pipeline and notable enterprise engagements. The focus on broker networks is a strategic move to accelerate growth.",
+    "growth_metrics": {
+      "revenue_growth": "Strong pipeline growth with $400k in net new pipeline.",
+      "customer_metrics": "Supporting over 9,000 employees across multiple geographies.",
+      "retention_analysis": "Focus on long-term contracts aligned with benefit cycles.",
+      "unit_economics": "Pricing structure supports positive unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive engagement with enterprise clients and brokers.",
+      "product_market_fit": "Evidence of PMF through active pilots and enterprise engagements.",
+      "notable_customers": "Active pilots with Indeed and Thumbtack.",
+      "partnerships": "Developing relationships with broker partners for distribution."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Active pilots and enterprise engagements.",
+        "context": "Demonstrates market demand and product fit.",
+        "outcome": "Continued focus on expanding broker network."
+      }
+    ],
+    "red_flags": [
+      "Protracted sales cycle may impact short-term growth."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for mental health solutions and a shift towards in-network care. However, competitive entry could intensify.",
+    "market_timing": {
+      "market_readiness": "Market is mature and ready for innovative mental health solutions.",
+      "catalysts": "Increased awareness and demand for mental health services.",
+      "tailwinds": "Favorable trends in employer-sponsored health benefits.",
+      "headwinds": "Potential regulatory changes and competitive pressures."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into in-network matching and in-person support.",
+      "competitive_response": "Competitors may respond with similar offerings.",
+      "market_education": "Requires educating employers on benefits of in-network matching.",
+      "technology_maturity": "Technology is mature enough to support current offerings."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Therify is currently fundraising with a focus on expanding broker networks. Details on valuation and terms are not provided, which limits assessment.",
+    "investment_details": {
+      "round_stage": "Series A",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on healthcare and technology.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Limited information on valuation metrics."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Therify demonstrates strong alignment with SV's focus on healthcare technology and has shown promising traction and market potential. The emphasis on broker networks is a strategic move to accelerate growth.",
+    "key_factors": [
+      "Strong market demand",
+      "Innovative business model",
+      "Strategic focus on broker networks"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence",
+      "Clarify investment terms and valuation",
+      "Explore strategic partnerships with brokers"
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "company_name": "Audria",
+  "website": "https://audria.io",
+  "year_founded": "2024",
+  "description": "Audria is a gentle AI companion platform for people living with dementia, their family members, and caregivers. It uses familiar voices, personal memories, and daily prompts to ease loneliness and support connection. Audria also provides helpful insights, giving families and care teams extra peace of mind and practical help every day.",
+  "problem_statement": "The Problem We’re Solving: People living with dementia often feel lonely and disconnected, which increases anxiety and speeds decline. Families and caregivers struggle to stay connected and coordinated, often relying on medication to manage distress that could be eased with more daily support. Why It Matters: Loneliness can be as harmful as a chronic disease. Better connection and gentle daily interaction help reduce unnecessary medication use, improve well-being, and lighten the burden on families and care teams. By bridging gaps in family coordination and providing consistent, comforting interaction, Audria helps people feel heard and cared for every day.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1re5k5npmmtWVTAXlYZvPQyi4R7fOxQ_L/edit?usp=sharing&ouid=107940173463650829305&rtpof=true&sd=true",
+  "demo_link": "https://myaudria.com",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Audria demonstrates strong execution ability and domain expertise. Heidi Krauth, CEO, and Ray Agostinelli, CBS, have worked together previously and share a passion for the mission. The team includes a CTO and engineers, indicating a balanced skill set for product development and scaling.",
+    "company_assessment": {
+      "business_model_strength": "Audria employs a hybrid hardware and subscription model, which is scalable and provides predictable revenue streams. The model is well-suited for both individual families and care facilities.",
+      "market_positioning": "Audria positions itself uniquely by offering deeply personalized AI interactions using familiar voices and memories, differentiating from generic chatbots and robotic pets.",
+      "execution_capability": "The team has developed a prototype and secured pilot interest, demonstrating their ability to execute on their vision.",
+      "strategic_vision": "Audria's long-term vision includes expanding features like wearable integration and multilingual support, showing a strong understanding of market needs and strategic planning."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Heidi Krauth",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/heidi-krauth-1a673312/",
+        "background": "Heidi has a background in technology and healthcare, with experience in leading teams and product development.",
+        "domain_expertise": "Heidi has relevant expertise in AI and healthcare technology, particularly in solutions for aging populations.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Heidi has successfully led product development teams in previous roles.",
+        "leadership_signals": "Demonstrates strong leadership through team building and strategic vision.",
+        "track_record": []
+      },
+      {
+        "name": "Ray Agostinelli",
+        "role": "CBS",
+        "linkedin": "https://www.linkedin.com/in/ray-agostinelli-204695/",
+        "background": "Ray has a background in business strategy and operations.",
+        "domain_expertise": "Ray brings expertise in business operations and scaling strategies.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Ray has been instrumental in strategic planning and operational efficiency in previous roles.",
+        "leadership_signals": "Strong operational leadership and strategic planning capabilities.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes general-purpose social robots, virtual companions, and cognitive support tools.",
+      "primary_competitors": [
+        {
+          "name": "Joy for All",
+          "description": "Robotic pets designed for companionship.",
+          "strengths": "Simple, non-intrusive companionship.",
+          "weaknesses": "Lacks deep personalization and interaction.",
+          "comparison": "Audria offers deeper personalization and interaction through AI."
+        },
+        {
+          "name": "Meela",
+          "description": "AI phone services adapted for seniors.",
+          "strengths": "Voice interaction capabilities.",
+          "weaknesses": "Limited personalization and context awareness.",
+          "comparison": "Audria provides more personalized and context-aware interactions."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Deep Personalization",
+          "Family Coordination",
+          "Familiar Voices"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Joy for All": [
+            false,
+            false,
+            false
+          ],
+          "Meela": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Audria's competitive positioning is strong due to its focus on deep personalization and integration with family dynamics, which are not adequately addressed by competitors."
+    },
+    "red_flags": [
+      "Potential challenges in scaling personalized AI interactions."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The market for dementia care solutions is large and growing, with over 55 million people living with dementia globally. Audria targets a significant portion of this market, with a clear path to capturing a multi-billion dollar opportunity.",
+    "market_analysis": {
+      "total_addressable_market": "The global TAM for dementia care solutions is substantial, with projections of tripling by 2050.",
+      "serviceable_addressable_market": "Audria's SAM includes families and care facilities in the U.S., representing a multi-billion dollar opportunity.",
+      "serviceable_obtainable_market": "SOM projections are strong, given the scalable nature of Audria's solution and the growing demand for non-pharmacological interventions.",
+      "market_growth_rate": "The market is projected to grow significantly as the population ages, with a strong CAGR.",
+      "market_dynamics": "Key trends include increasing demand for personalized care solutions and a shift towards non-drug interventions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Primary customers are families caring for loved ones with dementia and memory care facilities.",
+      "willingness_to_pay": "Evidence suggests a strong willingness to pay for personalized, non-drug solutions.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is expected to be manageable given the direct-to-consumer and facility licensing models.",
+      "customer_lifetime_value": "LTV is potentially high due to recurring subscription revenue and low churn in the target demographic."
+    },
+    "red_flags": [
+      "Potential challenges in reaching and educating the market."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Audria's technology is defensible through its deep personalization and use of familiar voices. The technical approach is innovative, but scaling personalized interactions may present challenges.",
+    "technical_assessment": {
+      "core_technology": "Audria uses AI to create personalized interactions based on family-provided stories and preferences.",
+      "defensibility": "The use of familiar voices and deep personalization creates a strong technical moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but the personalization approach is a key differentiator.",
+      "scalability": "The technical architecture is designed to scale, but personalized interactions may require significant resources.",
+      "integration_capabilities": "Integration with existing care systems and wearables is planned, enhancing the platform's utility."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for personalized interactions.",
+      "data_advantages": "Utilizes family-provided data for unique personalization.",
+      "technical_barriers": "Deep personalization and voice integration are complex and resource-intensive.",
+      "development_velocity": "The team has demonstrated rapid development with a working prototype and pilot interest."
+    },
+    "red_flags": [
+      "Technical challenges in scaling personalized interactions."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Audria has developed a prototype and secured pilot interest, but lacks paying customers and significant revenue traction.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, as the company is in the beta testing phase.",
+      "customer_metrics": "Interest from memory care facilities and a waitlist of families indicate potential demand.",
+      "retention_analysis": "Retention metrics are not available at this stage.",
+      "unit_economics": "Unit economics are promising with a hybrid hardware and subscription model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from families and caregivers on the need for personalized solutions.",
+      "product_market_fit": "Early indicators of PMF with pilot interest and family waitlist.",
+      "notable_customers": "No paying customers yet, but pilot sites are ready for testing.",
+      "partnerships": "Partnership interest from memory care communities and research collaboration with Johns Hopkins."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured pilot interest from memory care communities.",
+        "context": "Demonstrates demand and potential for market entry.",
+        "outcome": "Pilot testing will provide valuable feedback and validation."
+      }
+    ],
+    "red_flags": [
+      "Lack of paying customers and revenue traction."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to the growing demand for dementia care solutions and increasing tech adoption among seniors. However, market education and adoption may take time.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative dementia care solutions, with increasing awareness of non-drug interventions.",
+      "catalysts": "Aging population and rising dementia rates drive demand.",
+      "tailwinds": "Favorable trends include tech adoption among seniors and a shift towards personalized care.",
+      "headwinds": "Potential challenges include market education and adoption hurdles."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Audria has the potential to establish a strong position as a first mover in personalized AI dementia care.",
+      "competitive_response": "Competitors may respond by enhancing personalization features.",
+      "market_education": "Significant market education may be required to drive adoption.",
+      "technology_maturity": "The underlying technology is mature enough to support Audria's solution."
+    },
+    "red_flags": [
+      "Market education and adoption challenges."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising, with a runway until September 2025. Investment terms are not detailed, but alignment with SV's focus on healthcare innovation is strong.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthcare innovation and aging populations.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation details are not provided, but the market opportunity supports a strong valuation."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Audria presents a compelling opportunity in the growing dementia care market with a unique, personalized AI solution. The team's expertise, market potential, and strategic vision align well with SV's investment thesis.",
+    "key_factors": [
+      "Strong market opportunity",
+      "Unique personalized solution",
+      "Experienced team"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence",
+      "Clarify investment terms and valuation",
+      "Explore potential partnerships and pilot outcomes"
+    ]
+  }
+}

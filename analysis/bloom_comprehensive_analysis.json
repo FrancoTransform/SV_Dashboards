@@ -1,0 +1,210 @@
+{
+  "company_name": "Bloom",
+  "website": "https://usebloom.com",
+  "year_founded": "2023",
+  "description": "Human-led coaching, enhanced by AI.\n\nBloom helps your team develop the soft skills that drive business performance at scale through coaching guided by humans and enhanced by AI.",
+  "problem_statement": "Bloom solves the global problem of inequitable and slow career development by delivering AI-enhanced, scalable coaching experiences that help organizations build better soft skills, drive daily engagement and retain top talent—Making effective career coaching accessible to everyone.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1gXmHZ-3e-K5xrn2B4cw_LOIu71EMLRJ9/view?usp=sharing",
+  "demo_link": "https://usebloom.com/video-explainer",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong track record of building and exiting successful businesses, demonstrating execution ability and domain expertise. The team is well-rounded with complementary skills in technology, coaching, and sales.",
+    "company_assessment": {
+      "business_model_strength": "Bloom's business model is based on a per-user-per-month (PUPM) licensing structure, which is scalable and aligns with industry standards. The model shows potential for strong unit economics and competitive positioning.",
+      "market_positioning": "Bloom positions itself as a scalable solution for developing soft skills through AI-enhanced coaching, differentiating itself from traditional coaching methods.",
+      "execution_capability": "The team has demonstrated execution capability with 16 paying customers and a significant sales pipeline, indicating strong market traction.",
+      "strategic_vision": "The strategic vision includes expanding into the US market and leveraging partnerships, showing a clear understanding of market dynamics and growth opportunities."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Alistair Crane",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/alistaircrane/",
+        "background": "Alistair has a background in building and exiting tech companies, with experience in scaling operations and strategic planning.",
+        "domain_expertise": "Expertise in technology and business development, particularly in scaling startups.",
+        "previous_startups": "Grapple (acquired by Visa Inc.), HERO (acquired by Klarna)",
+        "notable_achievements": "Successfully exited multiple startups, demonstrating strong leadership and strategic execution.",
+        "leadership_signals": "Proven ability to lead teams and drive business growth.",
+        "track_record": [
+          {
+            "company": "Grapple",
+            "role": "CEO",
+            "outcome": "Acquired by Visa Inc.",
+            "learnings": "Gained insights into scaling tech solutions and strategic partnerships."
+          },
+          {
+            "company": "HERO",
+            "role": "CEO",
+            "outcome": "Acquired by Klarna",
+            "learnings": "Learned the importance of product-market fit and agile development."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes traditional coaching firms and emerging AI-driven solutions.",
+      "primary_competitors": [
+        {
+          "name": "Competitor A",
+          "description": "Provides traditional coaching services.",
+          "strengths": "Established brand and customer base.",
+          "weaknesses": "Lack of scalability and high costs.",
+          "comparison": "Bloom offers a scalable, cost-effective solution with AI enhancements."
+        },
+        {
+          "name": "Competitor B",
+          "description": "AI-driven coaching platform.",
+          "strengths": "Innovative technology and data-driven insights.",
+          "weaknesses": "Limited human interaction and customization.",
+          "comparison": "Bloom combines AI with human-led coaching for a balanced approach."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "AI Enhancement",
+          "Human Interaction",
+          "Scalability"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Competitor A": [
+            false,
+            true,
+            false
+          ],
+          "Competitor B": [
+            true,
+            false,
+            true
+          ]
+        }
+      },
+      "competitive_positioning": "Bloom is well-positioned with a unique blend of AI and human coaching, offering scalability and personalization."
+    },
+    "red_flags": [
+      "Need to grow the commercial team to support expansion."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The employee training and development market is substantial, with a TAM of $340 billion. Bloom's solution addresses a significant portion of this market with its scalable coaching platform.",
+    "market_analysis": {
+      "total_addressable_market": "$340 billion, based on global employee training and development expenditures.",
+      "serviceable_addressable_market": "Bloom targets large enterprises with 1,000+ employees, capturing a significant portion of the TAM.",
+      "serviceable_obtainable_market": "With a strong go-to-market strategy, Bloom aims to capture a meaningful share of the SAM through strategic partnerships and direct sales.",
+      "market_growth_rate": "The market is expected to grow at a CAGR of 8%, driven by increasing demand for scalable and effective training solutions.",
+      "market_dynamics": "Key trends include the rise of remote work, demand for soft skills, and the integration of AI in training."
+    },
+    "customer_analysis": {
+      "buyer_personas": "HR and L&D directors at large enterprises, seeking scalable and cost-effective coaching solutions.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by current pricing at $50 PUPM, with potential to increase to $100.",
+      "customer_acquisition_cost": "CAC is competitive, supported by a sales cycle of less than 100 days.",
+      "customer_lifetime_value": "High LTV due to recurring revenue model and potential for upselling additional services."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating the US market without established networks."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Bloom's technology leverages AI to enhance human-led coaching, providing a defensible and scalable solution. The integration capabilities with existing HR systems are a key advantage.",
+    "technical_assessment": {
+      "core_technology": "AI-enhanced coaching platform that personalizes learning experiences.",
+      "defensibility": "The combination of AI and human coaching creates a unique value proposition that is difficult to replicate.",
+      "intellectual_property": "Potential for IP protection through proprietary algorithms and data insights.",
+      "scalability": "The platform is designed to scale with enterprise-level deployments.",
+      "integration_capabilities": "Seamless integration with existing HCM and HRIS systems enhances adoption."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms that adapt coaching to individual needs.",
+      "data_advantages": "Access to a growing dataset of coaching interactions enhances AI capabilities.",
+      "technical_barriers": "The integration of AI with human coaching creates a barrier to entry for competitors.",
+      "development_velocity": "Rapid development and iteration cycles supported by a strong engineering team."
+    },
+    "red_flags": [
+      "Dependence on AI technology requires continuous innovation to maintain competitive edge."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Bloom has demonstrated strong traction with 16 paying customers and 2,000 active users. The sales pipeline is robust, indicating potential for significant growth.",
+    "growth_metrics": {
+      "revenue_growth": "On track to deliver $1.2M+ in sales and $700k+ in revenue by 2025.",
+      "customer_metrics": "16 customers with a growing user base of 2,000 active users.",
+      "retention_analysis": "High retention rates expected due to the recurring revenue model.",
+      "unit_economics": "Strong unit economics with a proven pricing model and potential for increased pricing."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback on the flexibility and effectiveness of the coaching platform.",
+      "product_market_fit": "Evidence of strong PMF with established customer base and sales pipeline.",
+      "notable_customers": "Includes large enterprises seeking scalable coaching solutions.",
+      "partnerships": "Potential for strategic partnerships to enhance market reach."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Established a strong sales pipeline with $11M+ in potential sales.",
+        "context": "Achieved through targeted marketing and sales efforts.",
+        "outcome": "Indicates strong market demand and potential for growth."
+      }
+    ],
+    "red_flags": [
+      "Need to expand the commercial team to support scaling efforts."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable with increasing demand for scalable coaching solutions and the integration of AI in training. Bloom is well-positioned to capitalize on these trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for AI-enhanced coaching solutions, driven by the need for scalable and effective training.",
+      "catalysts": "The rise of remote work and demand for soft skills are key catalysts.",
+      "tailwinds": "Favorable macro trends include the digital transformation of training and development.",
+      "headwinds": "Potential challenges include competition from established players and market education."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Bloom has the advantage of being an early mover in AI-enhanced coaching.",
+      "competitive_response": "Competitors may respond with similar offerings, but Bloom's unique approach provides a buffer.",
+      "market_education": "Some market education may be required to demonstrate the benefits of AI-enhanced coaching.",
+      "technology_maturity": "The underlying AI technology is mature and ready for deployment."
+    },
+    "red_flags": [
+      "Potential for increased competition as the market matures."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms are aligned with SV's focus, with a reasonable valuation and potential for significant ownership. The round structure supports Bloom's growth objectives.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Target raise amount of £1.58m in the second round.",
+      "pre_money_valuation": "Pre-money valuation of £5.06m.",
+      "post_money_valuation": "Post-money valuation supports ownership and growth objectives."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The investment aligns with SV's criteria for scalable, AI-driven solutions.",
+      "ownership_potential": "Potential for significant ownership and influence in strategic decisions.",
+      "liquidation_preferences": "Standard liquidation preferences expected for the stage.",
+      "valuation_justification": "Valuation is justified by market potential and traction metrics."
+    },
+    "red_flags": [
+      "Need to ensure alignment on strategic objectives and growth plans."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Bloom demonstrates strong potential with a scalable business model, significant market opportunity, and a capable team. The timing is favorable, and the investment terms are aligned with SV's focus.",
+    "key_factors": [
+      "Strong team with proven track record",
+      "Significant market opportunity",
+      "Scalable and defensible technology"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on technology and market strategy",
+      "Engage with the team to discuss strategic alignment and growth plans"
+    ]
+  }
+}

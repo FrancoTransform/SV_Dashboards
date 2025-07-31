@@ -1,0 +1,229 @@
+{
+  "company_name": "GigHQ.ai",
+  "website": "https://www.gighq.ai",
+  "year_founded": "2024",
+  "description": "GigHQ.ai is the job seeker's AI copilot. We fix the broken job search with a personal CRM that automates application tracking, provides smart reminders, and delivers data-driven insights. We empower candidates to take control of their careers and find their next opportunity.",
+  "problem_statement": "The modern job search is fundamentally broken for the individual, a manual and chaotic process that has become a job in itself. Job seekers are left to manage their search with cumbersome spreadsheets while navigating a system where the existing tools are built to support the employer, not them. This results in a frustrating lack of transparency where applicants are often 'ghosted,' a practice that erodes their confidence and leaves them without the feedback needed to improve their search.\n\nThis broken system matters because its impact is both deeply personal and economically significant. For individuals, it creates immense uncertainty and stress—a recurring pain point in a world where workers now change careers 5-7 times in a lifetime. Economically, this inefficiency is staggering. It takes a new graduate, on average, six months and hundreds of hours to find an entry-level job. This contributes to massive public costs, with Federal Unemployment Insurance forecasted to grow from ~$40 billion in 2025 to ~$60 billion by 2035.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGmzKJ_UnU/jxTe3gy1aBhnD64pfyjFDQ/view",
+  "demo_link": "https://app.gighq.ai",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of GigHQ.ai demonstrates strong execution ability and domain expertise. Hasnain Baxamoosa and Robert Johnson have a proven track record of working together successfully at AlienVault, a high-growth startup acquired by AT&T. Their complementary skills in product management, sales, marketing, and technical leadership are well-suited for building and scaling GigHQ.ai.",
+    "company_assessment": {
+      "business_model_strength": "GigHQ.ai's business model is robust, with a B2C freemium approach that builds a user base and data asset, complemented by future B2B and data monetization streams. The model is scalable and positions the company well against competitors.",
+      "market_positioning": "The company positions itself uniquely as a job seeker's AI copilot, addressing a significant gap in the market by focusing on the needs of job seekers rather than employers.",
+      "execution_capability": "The team has demonstrated the ability to execute on their vision, with a product launched in March 2024 and early traction in user acquisition.",
+      "strategic_vision": "GigHQ.ai has a clear long-term vision to empower job seekers and capitalize on the inefficiencies of the current job search market."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Hasnain Baxamoosa",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/hbaxamoosa/",
+        "background": "Hasnain has over 15 years of experience in product management, sales, and marketing, with a successful track record at AlienVault.",
+        "domain_expertise": "Expertise in product management and go-to-market strategies.",
+        "previous_startups": "Worked at AlienVault, which was acquired by AT&T.",
+        "notable_achievements": "Played a key role in the growth and acquisition of AlienVault.",
+        "leadership_signals": "Demonstrated leadership in building and scaling teams.",
+        "track_record": [
+          {
+            "company": "AlienVault",
+            "role": "Product Management",
+            "outcome": "Acquired by AT&T",
+            "learnings": "Gained insights into scaling a high-growth startup and the importance of product-market fit."
+          }
+        ]
+      },
+      {
+        "name": "Robert Johnson",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/robertcharlesjohnson/",
+        "background": "Robert has over 15 years of experience in software development, IT operations, and security.",
+        "domain_expertise": "Strong technical leadership and software development skills.",
+        "previous_startups": "Worked at AlienVault alongside Hasnain.",
+        "notable_achievements": "Contributed to the technical success of AlienVault.",
+        "leadership_signals": "Proven ability to lead technical teams and deliver complex projects.",
+        "track_record": [
+          {
+            "company": "AlienVault",
+            "role": "Technical Leadership",
+            "outcome": "Acquired by AT&T",
+            "learnings": "Learned the importance of building scalable and secure software solutions."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes job aggregators like Indeed and LinkedIn, ATS platforms such as Greenhouse and Workday, and emerging manual job search trackers like Teal and Simplify.",
+      "primary_competitors": [
+        {
+          "name": "Indeed",
+          "description": "A job aggregator that helps companies source candidates.",
+          "strengths": "Large user base and extensive job listings.",
+          "weaknesses": "Focused on employers, not job seekers.",
+          "comparison": "GigHQ.ai differentiates by focusing on job seekers and providing a personal CRM."
+        },
+        {
+          "name": "Teal",
+          "description": "A manual job search tracker.",
+          "strengths": "Recognizes the need for job seeker tools.",
+          "weaknesses": "Relies on manual tracking and lacks automation.",
+          "comparison": "GigHQ.ai offers automation and AI-driven insights, addressing the core problem more effectively."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Job Seeker Focus",
+          "Automation",
+          "AI Insights"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Indeed": [
+            false,
+            false,
+            false
+          ],
+          "Teal": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "GigHQ.ai is well-positioned with a unique focus on job seekers, leveraging automation and AI to differentiate from competitors."
+    },
+    "red_flags": [
+      "Dependence on a small founding team for execution and scaling."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The market for job search management is vast, with a TAM including 7 million unemployed individuals in the U.S. and a global market of 170-200 million unemployed. The high mobility of the workforce, with 85% of professionals considering job changes, further expands the opportunity.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is significant, with millions of job seekers globally and a high rate of career changes.",
+      "serviceable_addressable_market": "SAM includes the U.S. market of job seekers actively managing career transitions.",
+      "serviceable_obtainable_market": "SOM projections are strong, given the company's focus on scalable user acquisition strategies.",
+      "market_growth_rate": "The market is growing, driven by workforce mobility and the inefficiencies of current job search tools.",
+      "market_dynamics": "Key trends include the rise of AI in job search, increasing career mobility, and the demand for job seeker-centric tools."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include career starters, advancers, and switchers, each with distinct needs.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for premium features that simplify and enhance the job search process.",
+      "customer_acquisition_cost": "Initial CAC is low, with successful campaigns on platforms like Reddit.",
+      "customer_lifetime_value": "LTV is expected to be high, given the recurring nature of job searches and potential for upselling premium features."
+    },
+    "red_flags": [
+      "Potential challenges in converting free users to paying subscribers."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "GigHQ.ai's technology leverages AI to automate and enhance the job search process, providing a defensible advantage. The use of proprietary algorithms and data-driven insights creates a competitive moat.",
+    "technical_assessment": {
+      "core_technology": "AI-powered personal CRM for job seekers, automating application tracking and providing insights.",
+      "defensibility": "The technology is defensible through proprietary algorithms and data-driven insights.",
+      "intellectual_property": "No specific IP protection strategy mentioned, but the focus on AI and data provides a competitive edge.",
+      "scalability": "The technical architecture is designed to scale with user growth.",
+      "integration_capabilities": "The platform can integrate with existing job search tools and platforms."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for automating job search tasks and providing insights.",
+      "data_advantages": "The platform builds a valuable dataset from user activity, enhancing AI capabilities.",
+      "technical_barriers": "The combination of AI and data-driven insights creates barriers to replication.",
+      "development_velocity": "The team has demonstrated the ability to develop and iterate quickly, with a product launched in March 2024."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining technical differentiation as competitors evolve."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "GigHQ.ai has achieved early traction with 450 users and ongoing conversations with potential B2B partners. However, the company is still in the early stages of scaling its user base and monetizing its platform.",
+    "growth_metrics": {
+      "revenue_growth": "Currently focused on building a user base with a freemium model, no revenue yet.",
+      "customer_metrics": "450 users, 800+ companies tracked, 1,000+ jobs tracked.",
+      "retention_analysis": "Retention data not provided, but early user engagement is promising.",
+      "unit_economics": "Focus on freemium model, with plans to convert users to paying subscribers."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive early feedback from users and interest from potential B2B partners.",
+      "product_market_fit": "Evidence of PMF with early user adoption and engagement.",
+      "notable_customers": "In discussions with Austin Community College and UT Austin.",
+      "partnerships": "Opportunities to present to GreatCareers.org and other organizations."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Successful user acquisition campaign on Reddit.",
+        "context": "Generated a 1.944% CTR at a low CPC of $0.37.",
+        "outcome": "Validated ability to efficiently acquire customers on this channel."
+      },
+      {
+        "type": "Area of Investigation",
+        "description": "Conversion of free users to paying subscribers.",
+        "context": "Currently focused on building a user base with a freemium model.",
+        "outcome": "Need to develop strategies to convert users to premium tiers."
+      }
+    ],
+    "red_flags": [
+      "Limited revenue generation and reliance on freemium model for growth."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable for GigHQ.ai, with a growing demand for job seeker-centric tools and increasing workforce mobility. However, the company must act quickly to establish a strong market presence before competitors catch up.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that address the inefficiencies of the current job search process.",
+      "catalysts": "High workforce mobility and dissatisfaction with existing employer-centric tools.",
+      "tailwinds": "Favorable trends in AI adoption and job search automation.",
+      "headwinds": "Potential challenges in educating the market and driving adoption."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a strong presence as a job seeker-centric platform.",
+      "competitive_response": "Competitors may respond by enhancing their offerings for job seekers.",
+      "market_education": "Requires educating job seekers on the benefits of using an AI-powered CRM.",
+      "technology_maturity": "AI and data technologies are mature enough to support the platform's capabilities."
+    },
+    "red_flags": [
+      "Risk of competitors quickly adapting to market needs."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "GigHQ.ai is currently fundraising, with a focus on securing seed funding to support growth and scaling efforts. The terms and valuation must align with SemperVirens' investment criteria and focus areas.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified, but funding needed to cover key operational expenses.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on workforce tech aligns with SemperVirens' investment thesis.",
+      "ownership_potential": "Potential for significant ownership and influence in a growing company.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation should be justified based on market potential and early traction."
+    },
+    "red_flags": [
+      "Lack of detailed information on valuation and terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "GigHQ.ai presents a compelling opportunity in the job search management space, with a strong founding team, a large addressable market, and a unique focus on job seekers. The company's early traction and strategic vision align well with SemperVirens' investment criteria.",
+    "key_factors": [
+      "Strong founding team with proven track record",
+      "Large and growing addressable market",
+      "Unique focus on job seekers and AI-driven insights"
+    ],
+    "next_steps": [
+      "Conduct a detailed due diligence on the company's financials and growth projections",
+      "Engage with the founding team to discuss fundraising terms and valuation",
+      "Explore potential strategic partnerships to accelerate growth"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "company_name": "Agave Health",
+  "website": "https://www.agavehealth.com/",
+  "year_founded": "2022",
+  "description": "Agave Health is building the care infrastructure for a neurodivergent world - starting with ADHD. Our AI-enabled platform delivers evidence-based, continuous care designed for how neurodivergent brains work, improving outcomes, reducing costs, and unlocking performance and wellbeing across the modern workforce",
+  "problem_statement": "Agave addresses the critical access gap for neurodiverse adults, starting with ADHD. Most solutions today are fragmented, lack clinical rigor, and aren’t covered by insurance. EAPs, in particular, are not designed for specialized, ongoing care for neurodevelopmental conditions. Access to generalist therapists or coaches is insufficient for this population. Neurodevelopmental conditions are not episodic - they require ongoing, multi-modal care. Without proper intervention, neurodiverse individuals and their families face compounding challenges that affect workplace productivity, mental health, and retention. Our integrated care model ensures individuals, caregivers, spouses, and managers receive tailored support - delivering better outcomes and lower costs for employers and payors. As neurodivergence becomes mainstream, solving this isn’t niche - it’s the future of behavioral health.",
+  "pitch_deck_link": "https://docsend.com/view/qidvgxmyw7ah5zfj",
+  "demo_link": "https://partners.agavehealth.com/",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Agave Health demonstrates strong execution ability and domain expertise. Ori Fruhauf and Eve Mamane have a proven track record from their previous venture, Upright, which was successfully sold. Their personal connections to the mental health field add depth to their commitment. The team is well-rounded with clinical, product, and go-to-market expertise.",
+    "company_assessment": {
+      "business_model_strength": "Agave Health employs a B2B model contracting with employers and health plans, offering services as a covered benefit. The pricing model is flexible, with a yearly case-rate aligned to care intensity, and includes performance-based pricing.",
+      "market_positioning": "Agave positions itself as a comprehensive, clinically rigorous solution for neurodivergent care, differentiating from competitors by offering licensed clinical care and insurance coverage.",
+      "execution_capability": "The team has demonstrated execution capability by securing partnerships with major health plans and employers, achieving significant growth in active members and revenue.",
+      "strategic_vision": "Agave's vision aligns with the growing recognition of neurodiversity, aiming to become a leader in behavioral health by addressing the needs of neurodivergent individuals."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Ori Fruhauf",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/ori-fruhauf/",
+        "background": "Ori has a background in entrepreneurship, having co-founded and sold Upright. He has experience in growth, web development, and data teams.",
+        "domain_expertise": "Ori has personal ties to the mental health field, being the son of a psychologist.",
+        "previous_startups": "Co-founded Upright, which was successfully sold.",
+        "notable_achievements": "Successfully scaled and exited a previous startup.",
+        "leadership_signals": "Demonstrated leadership in building and scaling a team at Upright.",
+        "track_record": [
+          {
+            "company": "Upright",
+            "role": "Co-founder",
+            "outcome": "Successful exit",
+            "learnings": "Gained experience in scaling a startup and leading a team through growth and acquisition."
+          }
+        ]
+      },
+      {
+        "name": "Eve Mamane",
+        "role": "CRO",
+        "linkedin": "https://www.linkedin.com/in/eve-lise-mamane-79b94954/",
+        "background": "Eve has experience in growth, web development, and data teams, having worked closely with Ori at Upright.",
+        "domain_expertise": "Personal connection to neurodiversity as the wife of an individual with ADHD.",
+        "previous_startups": "Worked at Upright, contributing to its growth and eventual sale.",
+        "notable_achievements": "Played a key role in the growth and success of Upright.",
+        "leadership_signals": "Demonstrated ability to lead growth initiatives and manage teams.",
+        "track_record": [
+          {
+            "company": "Upright",
+            "role": "Growth and Development Lead",
+            "outcome": "Successful exit",
+            "learnings": "Developed skills in scaling operations and managing growth strategies."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes neurodiversity-specific platforms like Rethink and Joshin, and EAPs. Agave differentiates by offering licensed clinical care and insurance coverage.",
+      "primary_competitors": [
+        {
+          "name": "Rethink",
+          "description": "Focuses on parental support for neurodiversity.",
+          "strengths": "Awareness raising and parental support.",
+          "weaknesses": "Lacks direct clinical intervention and adult ADHD specialization.",
+          "comparison": "Agave offers comprehensive clinical care and insurance coverage, addressing a broader range of needs."
+        },
+        {
+          "name": "Joshin",
+          "description": "Centers on care navigation and coaching.",
+          "strengths": "Care navigation and coaching services.",
+          "weaknesses": "Does not offer licensed clinical care or diagnosis.",
+          "comparison": "Agave provides licensed clinical care and a more comprehensive approach."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Licensed Clinical Care",
+          "Insurance Coverage",
+          "Comprehensive Support"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Rethink": [
+            false,
+            false,
+            true
+          ],
+          "Joshin": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      "competitive_positioning": "Agave Health is well-positioned with a strong competitive advantage in offering licensed clinical care and insurance coverage, addressing a critical gap in the market."
+    },
+    "red_flags": [
+      "Potential challenges in scaling operations to meet growing demand."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The market for neurodivergent care is large and growing, with over 70 million U.S. adults meeting criteria for ADHD or related conditions. Agave targets the 100M+ lives covered by large self-insured employers and national health plans.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is substantial, with over 70 million U.S. adults potentially benefiting from Agave's services.",
+      "serviceable_addressable_market": "Agave focuses on the 100M+ lives covered by large self-insured employers and national health plans.",
+      "serviceable_obtainable_market": "With current partnerships and a growing sales pipeline, Agave is well-positioned to capture a significant portion of the market.",
+      "market_growth_rate": "The market is experiencing rapid growth as awareness of neurodiversity increases.",
+      "market_dynamics": "Key trends include growing recognition of neurodiversity and demand for specialized care solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are self-insured employers and health plans seeking to improve mental health outcomes while managing costs.",
+      "willingness_to_pay": "Employers and health plans are increasingly willing to invest in solutions that address neurodiversity, as evidenced by Agave's partnerships.",
+      "customer_acquisition_cost": "CAC is aligned with industry standards, with a focus on B2B sales cycles.",
+      "customer_lifetime_value": "LTV is strong due to the ongoing nature of care and high engagement rates."
+    },
+    "red_flags": [
+      "Potential challenges in educating the market on the need for specialized neurodivergent care."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Agave's AI-enabled platform is technically robust, offering evidence-based, continuous care. The in-house development of core IP and workflows provides a competitive moat.",
+    "technical_assessment": {
+      "core_technology": "AI-enabled platform delivering evidence-based, continuous care for neurodivergent individuals.",
+      "defensibility": "In-house development of core IP and workflows provides a strong technical moat.",
+      "intellectual_property": "Agave has developed proprietary data models and workflows.",
+      "scalability": "The platform is designed to scale with demand, leveraging third-party tools where appropriate.",
+      "integration_capabilities": "Integration with major health plans enhances scalability and adoption."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms tailored to neurodivergent care.",
+      "data_advantages": "Access to proprietary data models enhances care delivery.",
+      "technical_barriers": "In-house development of core IP creates barriers to replication.",
+      "development_velocity": "Agave has demonstrated rapid development and integration capabilities."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining technical quality as the platform scales."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Agave has demonstrated strong traction with active partnerships, significant growth in active members, and a robust sales pipeline.",
+    "growth_metrics": {
+      "revenue_growth": "4x growth in B2B revenue YoY, indicating strong market demand.",
+      "customer_metrics": "3x growth in active members YoY, with a growing sales pipeline.",
+      "retention_analysis": "High engagement rates and low churn due to the continuous care model.",
+      "unit_economics": "Strong unit economics with a focus on long-term customer relationships."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from major employers and health plans.",
+      "product_market_fit": "Evidence of strong PMF with rapid adoption and growth.",
+      "notable_customers": "Partnerships with Lennar, HSM Solutions, Nvidia, and major health plans.",
+      "partnerships": "Strategic partnerships with Cigna, Aetna, UHC, and BCBS."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Integration with major health plans.",
+        "context": "Realized the necessity of health plan integration for market success.",
+        "outcome": "Unlocked fast adoption among self-funded employers."
+      }
+    ],
+    "red_flags": [
+      "Long and complex employer sales cycles."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is optimal as awareness of neurodiversity grows and employers seek solutions. Agave is well-positioned to capitalize on this trend.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly recognizing the need for neurodivergent care solutions.",
+      "catalysts": "Growing awareness of neurodiversity and demand for specialized care.",
+      "tailwinds": "Favorable macro trends include increased focus on mental health and workplace productivity.",
+      "headwinds": "Potential challenges in educating the market on the need for specialized care."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Agave benefits from early market entry and established partnerships.",
+      "competitive_response": "Competitors may respond, but Agave's clinical rigor and insurance coverage provide a strong moat.",
+      "market_education": "Ongoing market education is required to highlight the limitations of existing solutions.",
+      "technology_maturity": "The underlying technology is mature and ready for scale."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining momentum as competitors enter the space."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "Agave has raised $4M to date and is not currently fundraising. The terms align with early-stage investment criteria, with a focus on scaling and market penetration.",
+    "investment_details": {
+      "round_stage": "Early-stage",
+      "raise_amount": "$4M raised via SAFEs",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Agave aligns with SV's focus on innovative health solutions and market potential.",
+      "ownership_potential": "Potential for significant ownership as the company scales.",
+      "liquidation_preferences": "Standard early-stage investor protections.",
+      "valuation_justification": "Valuation aligns with market potential and growth trajectory."
+    },
+    "red_flags": [
+      "Lack of detailed valuation information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Agave Health demonstrates strong potential with a large market opportunity, robust traction, and a well-rounded team. The company's focus on neurodivergent care aligns with growing market trends and SV's investment thesis.",
+    "key_factors": [
+      "Strong market demand",
+      "Robust traction and partnerships",
+      "Experienced founding team"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence",
+      "Explore potential strategic partnerships",
+      "Assess scalability of operations"
+    ]
+  }
+}

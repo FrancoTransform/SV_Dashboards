@@ -1,0 +1,205 @@
+{
+  "company_name": "Mandala for Us Inc.",
+  "website": "https://mandalaforus.ai",
+  "year_founded": "2021",
+  "description": "Mandala is an AI Leadership Coach that lives in Slack and helps employees prioritize, give feedback, and build resilience—right inside their workflow.",
+  "problem_statement": "69% of U.S. employees are disengaged at work, costing the global economy $8.8 trillion. The largest driver of engagement is the manager, but 55% of managers are burnt out and ill-equipped to coach their teams. While traditional leadership training and executive coaching exist, they either don’t scale or don’t stick. Mandala solves this by embedding leadership coaching directly into employees’ daily flow of work, helping them prioritize better, give clearer feedback, and build emotional resilience—all via Slack and Teams.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1r0PltIk9M_w7pccFmpg__YU2TLWw_r6_bQcC9kZ72tI/edit?usp=sharing",
+  "demo_link": "https://www.loom.com/share/dbebfa588f5f4ba28b99d912a12490c7",
+  "team": {
+    "score": 3,
+    "justification": "The founding team is led by a solo founder, Tarun Galagali, who has significant experience in management training and partnerships with major companies like Google and Microsoft. However, the lack of a technical co-founder is a notable gap, and the reliance on a fractional CTO and external development team could pose risks in scaling and technical execution.",
+    "company_assessment": {
+      "business_model_strength": "The SaaS-based pricing model at $240/user/year is competitive and scalable, but the transition from pilot to paid contracts is still in progress.",
+      "market_positioning": "Mandala positions itself as a workflow-native, behavior-focused, and neuroscience-backed solution, differentiating from competitors by embedding directly into Slack and Teams.",
+      "execution_capability": "The company has demonstrated initial traction with 8 pilot customers and $635K in live coaching revenue, indicating execution capability.",
+      "strategic_vision": "The strategic vision to democratize leadership coaching and embed it into daily workflows is compelling and aligns with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Tarun Galagali",
+        "role": "CEO & Founder",
+        "linkedin": "https://www.linkedin.com/in/tarun-galagali-b1a45a20/",
+        "background": "Tarun has a background in management training and has partnered with major tech companies for live coaching programs.",
+        "domain_expertise": "Expertise in leadership development and coaching, with a focus on integrating AI into workflow tools.",
+        "previous_startups": "No prior startups mentioned, but significant experience in management training.",
+        "notable_achievements": "Built a management training company with partnerships with Google, Microsoft, and others.",
+        "leadership_signals": "Demonstrated leadership in building partnerships and executing pilot programs.",
+        "track_record": [
+          {
+            "company": "Management Training Company",
+            "role": "Founder",
+            "outcome": "Ongoing",
+            "learnings": "Identified the need for scalable coaching solutions beyond executive levels."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes companies like BetterUp, Torch, LinkedIn Learning, and Pinnacle, each with different approaches to leadership coaching.",
+      "primary_competitors": [
+        {
+          "name": "BetterUp",
+          "description": "Premium executive coaching service.",
+          "strengths": "High-quality executive coaching.",
+          "weaknesses": "Not affordable or scalable for all employees.",
+          "comparison": "Mandala offers a more scalable and affordable solution embedded in daily workflows."
+        },
+        {
+          "name": "Torch",
+          "description": "Service-heavy coaching platform.",
+          "strengths": "Comprehensive coaching services.",
+          "weaknesses": "Not embedded into daily workflow.",
+          "comparison": "Mandala's integration into Slack and Teams offers a more seamless user experience."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Workflow-native",
+          "Behavior-focused",
+          "Neuroscience-backed"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "BetterUp": [
+            false,
+            true,
+            false
+          ],
+          "Torch": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Mandala's integration into existing workflows and focus on behavior change provides a sustainable competitive advantage."
+    },
+    "red_flags": [
+      "Lack of a technical co-founder and reliance on external development teams."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial with a TAM of $75B, driven by the large number of knowledge workers and increasing demand for scalable coaching solutions. The company's SAM and SOM projections are realistic given the current market trends and their go-to-market strategy.",
+    "market_analysis": {
+      "total_addressable_market": "$75B, based on 75M knowledge workers with $1,000 L&D spend/year.",
+      "serviceable_addressable_market": "$18.75B, focusing on coaching, behavior change, and AI tools.",
+      "serviceable_obtainable_market": "$101M ARR in 5 years, through Slack app, platform, and data insights.",
+      "market_growth_rate": "The market is growing due to increasing focus on employee engagement and well-being.",
+      "market_dynamics": "Key trends include the rise of remote work, increased focus on mental health, and the need for scalable L&D solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Heads of People and HR leaders at high-growth companies.",
+      "willingness_to_pay": "Evidence from pilot customers and existing live coaching revenue indicates willingness to pay.",
+      "customer_acquisition_cost": "Not explicitly detailed, but the use of warm referrals and thought leadership suggests a cost-effective acquisition strategy.",
+      "customer_lifetime_value": "Potentially high LTV given the recurring SaaS model and focus on reducing churn through embedded solutions."
+    },
+    "red_flags": [
+      "Potential challenges in scaling customer acquisition beyond initial pilot customers."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is innovative, integrating AI coaching into Slack and Teams, but the lack of a technical co-founder and reliance on external teams could impact scalability and defensibility.",
+    "technical_assessment": {
+      "core_technology": "AI Leadership Coach integrated into Slack and Teams.",
+      "defensibility": "Workflow integration and behavior focus provide some defensibility, but technical moats are unclear.",
+      "intellectual_property": "All IP is owned by Mandala, but no patents or trade secrets mentioned.",
+      "scalability": "The architecture appears scalable, but execution risk exists due to external development reliance.",
+      "integration_capabilities": "Seamless integration with Slack and Teams is a key strength."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Not specified, but focus on behavior change and neuroscience is unique.",
+      "data_advantages": "Potential for data insights product, but details are limited.",
+      "technical_barriers": "Integration into existing workflows is a barrier for competitors.",
+      "development_velocity": "Current development is progressing with 8 pilot customers, but future velocity may depend on internal technical capabilities."
+    },
+    "red_flags": [
+      "Technical execution risks due to lack of in-house technical leadership."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong initial traction with $635K in live coaching revenue and 8 pilot customers. The transition to paid contracts and scaling beyond pilots are key next steps.",
+    "growth_metrics": {
+      "revenue_growth": "$635K in live coaching revenue to date.",
+      "customer_metrics": "8 pilot customers for AI Coach, with notable enterprise clients.",
+      "retention_analysis": "Retention data not provided, but pilot engagement suggests potential.",
+      "unit_economics": "SaaS pricing model suggests favorable unit economics, but detailed CAC and LTV not provided."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilot customers and demand for scalable solutions.",
+      "product_market_fit": "Evidence of PMF with pilot customers and enterprise interest.",
+      "notable_customers": "Google, Microsoft, Flatiron Health, and others.",
+      "partnerships": "Existing partnerships with major tech companies for live coaching."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Successful pilot programs with 8 customers.",
+        "context": "Demonstrated demand for AI Coach in high-growth companies.",
+        "outcome": "Potential for conversion to paid contracts and scaling."
+      }
+    ],
+    "red_flags": [
+      "Need to convert pilots into long-term contracts and scale customer acquisition."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for scalable coaching solutions and the rise of remote work. However, the competitive landscape is evolving rapidly.",
+    "market_timing": {
+      "market_readiness": "Market is ready for scalable, embedded coaching solutions.",
+      "catalysts": "Remote work trends and focus on employee well-being.",
+      "tailwinds": "Growing emphasis on mental health and employee engagement.",
+      "headwinds": "Potential competition from established players entering the space."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into Slack and Teams integration provides an advantage.",
+      "competitive_response": "Potential for rapid competitive response from larger players.",
+      "market_education": "Some market education required for AI-based coaching.",
+      "technology_maturity": "Mature enough for initial deployment, but ongoing development needed."
+    },
+    "red_flags": [
+      "Risk of rapid competitive response and need for market education."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently bootstrapped with a runway of 8 months and is seeking funding. The terms and valuation are not specified, but alignment with SV's focus on scalable, innovative solutions is evident.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on innovative, scalable solutions in the HR tech space.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation details not provided, but early traction and market potential support a reasonable valuation."
+    },
+    "red_flags": [
+      "Lack of detailed terms and valuation information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Mandala for Us Inc. presents a compelling opportunity with strong initial traction, a significant market opportunity, and a unique value proposition. The integration into Slack and Teams and focus on behavior change are key differentiators. However, the lack of a technical co-founder and reliance on external development teams are notable risks. The company should focus on converting pilots to paid contracts and scaling customer acquisition.",
+    "key_factors": [
+      "Strong initial traction",
+      "Significant market opportunity",
+      "Unique value proposition"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence",
+      "Assess technical execution risks",
+      "Explore potential co-founder or technical leadership hires"
+    ]
+  }
+}

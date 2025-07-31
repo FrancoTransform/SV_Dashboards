@@ -1,0 +1,197 @@
+{
+  "company_name": "Wave",
+  "website": "https://wavelife.io",
+  "year_founded": "2021",
+  "description": "Wave transforms underused EAPs and fragmented mental health benefits into scalable, cost-effective coaching and behavioral care. We deliver high-impact, evidence-based support across the full spectrum of mental well-being—from stress and burnout to menopause and chronic illness—driving outcomes, engagement, and value for employers and their families.",
+  "problem_statement": "Millions face barriers to mental health care—cost, access, stigma, or poor fit. Traditional EAPs and therapy networks are falling short. Untreated mental health issues drive absenteeism, attrition, and healthcare costs. Wave bridges this gap with tech-enabled, coaching-first care that delivers measurable outcomes, improved access, and reduced cost of care at scale.",
+  "pitch_deck_link": "https://www.beautiful.ai/player/-ORSEt8AlH5lCE6IwpNI",
+  "demo_link": "https://www.beautiful.ai/player/-ORJ14p1Lts9TE_32QmP",
+  "team": {
+    "score": 4,
+    "justification": "The founding team demonstrates strong domain expertise and execution capability. Sarah Adler, the co-founder, has a robust background in mental health, which is crucial for the company's mission. The team is well-rounded with a mix of technical and clinical expertise, which is essential for scaling a tech-enabled health solution.",
+    "company_assessment": {
+      "business_model_strength": "Wave's business model is diversified across B2B, health plans, and partnerships, providing multiple revenue streams and scalability potential.",
+      "market_positioning": "Wave positions itself as a personalized, coaching-first mental health solution, differentiating from competitors with a one-size-fits-all approach.",
+      "execution_capability": "The team has successfully brought the product to market after two years of R&D, indicating strong execution skills.",
+      "strategic_vision": "Wave's vision to integrate with health plans and expand B2B partnerships shows a clear understanding of market needs and strategic growth."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Sarah Adler",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/drsarahadler/",
+        "background": "Sarah Adler has a background in clinical psychology and has worked extensively in mental health care.",
+        "domain_expertise": "Expert in mental health care and behavioral therapy.",
+        "previous_startups": "N/A",
+        "notable_achievements": "Developed a scalable mental health solution with measurable outcomes.",
+        "leadership_signals": "Demonstrated ability to lead a team and drive product development.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The mental health tech space is competitive with established players like Headspace and Talkspace.",
+      "primary_competitors": [
+        {
+          "name": "Headspace",
+          "description": "Meditation and mindfulness app.",
+          "strengths": "Strong brand recognition and user base.",
+          "weaknesses": "Limited focus on personalized coaching.",
+          "comparison": "Wave offers personalized coaching and broader mental health support."
+        },
+        {
+          "name": "Talkspace",
+          "description": "Online therapy platform.",
+          "strengths": "Wide network of licensed therapists.",
+          "weaknesses": "Higher cost and limited immediate access.",
+          "comparison": "Wave provides immediate access through coaching, reducing costs."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Personalized Coaching",
+          "Immediate Access",
+          "Cost-Effective"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Headspace": [
+            false,
+            true,
+            false
+          ],
+          "Talkspace": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Wave's coaching-first model and immediate access provide a sustainable competitive advantage."
+    },
+    "red_flags": [
+      "Potential challenges in scaling health plan partnerships."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The mental health market is large and growing, with significant demand from employers and health plans. Wave's target market of enterprise employers provides a substantial TAM.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM includes over 20,000 enterprise employers in the US, representing a multi-billion dollar opportunity.",
+      "serviceable_addressable_market": "Wave's SAM focuses on employers actively seeking mental health solutions, estimated at a significant portion of the TAM.",
+      "serviceable_obtainable_market": "Wave's SOM is projected to grow as they expand partnerships and refine their go-to-market strategy.",
+      "market_growth_rate": "The mental health market is experiencing a high CAGR due to increasing awareness and demand for mental health solutions.",
+      "market_dynamics": "Key trends include the shift towards value-based care and increased employer focus on employee well-being."
+    },
+    "customer_analysis": {
+      "buyer_personas": "HR directors and VPs of People Operations are key decision-makers, with CFOs influencing budget approvals.",
+      "willingness_to_pay": "Employers are willing to invest in scalable, effective mental health solutions to improve employee retention and productivity.",
+      "customer_acquisition_cost": "Wave's CAC is optimized through partnerships and direct B2B sales.",
+      "customer_lifetime_value": "High LTV due to recurring revenue from B2B clients and partnerships."
+    },
+    "red_flags": [
+      "Dependence on enterprise sales cycles and budget approvals."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Wave's technology is built in-house, ensuring control over development and scalability. The coaching-first model is a key differentiator.",
+    "technical_assessment": {
+      "core_technology": "Wave's platform integrates app-based tools with certified coaching for personalized mental health support.",
+      "defensibility": "The coaching-first model and immediate access create barriers to replication.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary algorithms and data usage are implied.",
+      "scalability": "The platform is designed to scale with increasing user demand and partnerships.",
+      "integration_capabilities": "Wave's solution can integrate with existing employer benefit systems."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for personalized mental health support.",
+      "data_advantages": "Utilizes data to deliver personalized care and track outcomes.",
+      "technical_barriers": "The combination of coaching and technology creates a unique offering.",
+      "development_velocity": "Rapid development and iteration due to in-house team."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining technology lead as competitors innovate."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Wave has demonstrated strong traction with significant growth in B2B sales and partnerships. The company is in discussions with major health plans, indicating strong market validation.",
+    "growth_metrics": {
+      "revenue_growth": "Wave has added five new B2B clients and twelve new partnerships in 2025.",
+      "customer_metrics": "Nearly thirty active clients across key verticals.",
+      "retention_analysis": "High retention expected due to recurring revenue model.",
+      "unit_economics": "Positive unit economics with PEPM model and partnership agreements."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from employers and partners on the effectiveness of the solution.",
+      "product_market_fit": "Strong PMF indicated by rapid client acquisition and partnership growth.",
+      "notable_customers": "Includes enterprise employers and health plans.",
+      "partnerships": "Strategic partnerships with distribution channels and health plans."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured multiple B2B and partnership deals.",
+        "context": "Demonstrates strong market demand and execution capability.",
+        "outcome": "Continued growth and expansion opportunities."
+      }
+    ],
+    "red_flags": [
+      "Reliance on ongoing health plan negotiations for future growth."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable with increasing demand for mental health solutions and a shift towards value-based care models. Wave is well-positioned to capitalize on these trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for scalable mental health solutions due to increased awareness and demand.",
+      "catalysts": "Growing employer focus on mental health and regulatory support for behavioral health parity.",
+      "tailwinds": "Favorable macro trends such as increased mental health awareness and digital health adoption.",
+      "headwinds": "Potential regulatory changes and economic downturns affecting employer budgets."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Wave's early entry into the coaching-first model provides a competitive edge.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but Wave's unique model provides a buffer.",
+      "market_education": "Wave's model requires minimal market education due to existing awareness of mental health needs.",
+      "technology_maturity": "The technology and infrastructure for digital mental health solutions are mature and widely adopted."
+    },
+    "red_flags": [
+      "Potential for increased competition as the market grows."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "Wave's current fundraising aligns with its growth strategy and market opportunity. The terms are likely favorable given the company's traction and market position.",
+    "investment_details": {
+      "round_stage": "Series A",
+      "raise_amount": "Not specified, but aimed at supporting B2B growth and payer expansion.",
+      "pre_money_valuation": "Not specified, but expected to reflect strong market traction.",
+      "post_money_valuation": "Not specified, but likely to provide significant ownership potential."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Wave's focus on mental health aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given the company's growth trajectory.",
+      "liquidation_preferences": "Standard preferences expected for this stage.",
+      "valuation_justification": "Valuation likely justified by strong traction and market opportunity."
+    },
+    "red_flags": [
+      "Details on valuation and terms not fully disclosed."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Wave demonstrates strong traction, a scalable business model, and favorable market timing. The company's unique coaching-first approach and strategic partnerships position it well for growth.",
+    "key_factors": [
+      "Strong market demand",
+      "Unique value proposition",
+      "Proven traction and partnerships"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on financials and partnership agreements",
+      "Engage with the team to understand long-term strategic vision and execution plans"
+    ]
+  }
+}

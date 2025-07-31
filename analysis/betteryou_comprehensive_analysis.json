@@ -1,0 +1,222 @@
+{
+  "company_name": "BetterYou",
+  "website": "https://www.betteryou.ai/",
+  "year_founded": "2018",
+  "description": "BetterYou is a healthy habits companion that helps people find more time in the day for their health. Our product optimizes time for teams, making it easier to achieve health. Stanford researchers found that having BetterYou in your pocket improved sleep by 32 minutes/night.",
+  "problem_statement": "Enterprise software has seen a shift toward consumer level experiences from products that are too clunky or don’t see the uptake they need to survive in the market. Wellness software from the 2010s failed. They saw positive impact and ROI in isolation ($3.21 saved for every $1 spent), but didn't deliver those results in practice. That's because an employee isn't a test subject. They don't have to use the product. We drive 3x the average engagement rate and help companies actually unlock the value of their wellness program",
+  "pitch_deck_link": "https://drive.google.com/file/d/1vuMrwIOtJtlZJQJPruN51MTk32x4KuTP/view?usp=sharing",
+  "demo_link": "https://drive.google.com/file/d/1dcdHzZT90rpi6b2o_f5X6E7LvWNL10fP/view?usp=drive_link",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of BetterYou demonstrates strong execution ability and domain expertise. Sean Higgins, the CEO, has a successful track record with a previous startup, Vidgrid, which was acquired by Paylocity. Edwin Melendez, the Lead Developer, has been known for his technical skills since a young age. The team is well-rounded with complementary skills in engineering, product development, and go-to-market strategies.",
+    "company_assessment": {
+      "business_model_strength": "BetterYou employs a straightforward B2B SaaS model, charging employers $4/person/month. This model is scalable and aligns with industry standards, providing predictable revenue streams.",
+      "market_positioning": "BetterYou positions itself uniquely by combining goal setting and productivity features with automatic health progress logging, differentiating it from fragmented wellness apps.",
+      "execution_capability": "The team has demonstrated strong execution capability by achieving significant traction with 55 paying customers and $401,000 in new contracts over the last 6 months.",
+      "strategic_vision": "The company has a clear strategic vision to enhance customer success processes and leverage broker channels for scaling, indicating a strong understanding of market dynamics."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Sean Higgins",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/seanm-higgins/",
+        "background": "Sean has a background in entrepreneurship with a successful exit from Vidgrid.",
+        "domain_expertise": "Expertise in enterprise software and wellness technology.",
+        "previous_startups": "Vidgrid, acquired by Paylocity.",
+        "notable_achievements": "Successful exit with Vidgrid, strong leadership in scaling BetterYou.",
+        "leadership_signals": "Demonstrated ability to build and lead teams effectively.",
+        "track_record": [
+          {
+            "company": "Vidgrid",
+            "role": "Founder",
+            "outcome": "Acquisition by Paylocity",
+            "learnings": "Importance of customer validation and market fit."
+          }
+        ]
+      },
+      {
+        "name": "Edwin Melendez",
+        "role": "Lead Developer",
+        "linkedin": "https://www.linkedin.com/in/edwin-melendezmn/",
+        "background": "Technical expertise in software development and product design.",
+        "domain_expertise": "Strong technical skills in building scalable software solutions.",
+        "previous_startups": "N/A",
+        "notable_achievements": "Key role in developing BetterYou's technology.",
+        "leadership_signals": "Proven technical leadership and innovation.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The wellness industry is fragmented with various apps focusing on different aspects of wellness. BetterYou's integration of goal setting and productivity features sets it apart.",
+      "primary_competitors": [
+        {
+          "name": "Competitor A",
+          "description": "Focuses on goal setting and customization.",
+          "strengths": "Strong customization features.",
+          "weaknesses": "Lacks productivity integration.",
+          "comparison": "BetterYou offers a more comprehensive solution by integrating productivity features."
+        },
+        {
+          "name": "Competitor B",
+          "description": "Focuses on productivity.",
+          "strengths": "Strong productivity tools.",
+          "weaknesses": "Lacks goal setting and health tracking.",
+          "comparison": "BetterYou combines productivity with health tracking, offering more value."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Goal Setting",
+          "Productivity",
+          "Health Tracking"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Competitor A": [
+            true,
+            false,
+            false
+          ],
+          "Competitor B": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "BetterYou is well-positioned with a unique combination of features that address key gaps in the market."
+    },
+    "red_flags": [
+      "Potential risk of not moving quickly enough to maintain competitive advantage."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market for BetterYou is substantial, with a TAM of $5.2B. The company has identified a clear serviceable market and has demonstrated strong initial traction, indicating a realistic path to capturing market share.",
+    "market_analysis": {
+      "total_addressable_market": "$5.2B, based on the wellness industry and enterprise software market.",
+      "serviceable_addressable_market": "Focused on employers with 200-2000 employees, a segment with significant potential.",
+      "serviceable_obtainable_market": "Realistic projections based on current traction and go-to-market strategy.",
+      "market_growth_rate": "The wellness industry is experiencing growth driven by increasing employer focus on employee health.",
+      "market_dynamics": "Key trends include the shift towards consumer-level experiences in enterprise software and increasing demand for effective wellness solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "VP of Benefits, Wellness Directors at medium-sized employers.",
+      "willingness_to_pay": "Evidence of willingness to pay with 55 paying customers and $401,000 in new contracts.",
+      "customer_acquisition_cost": "Not explicitly stated, but implied to be efficient given inbound traffic and direct sales success.",
+      "customer_lifetime_value": "High LTV potential due to recurring revenue model and strong engagement rates."
+    },
+    "red_flags": [
+      "Potential challenges in scaling customer acquisition through new channels like brokers."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "BetterYou's technology is defensible with a focus on automatic health progress logging and high engagement rates. The in-house development team ensures control over the technology stack, and the data-driven approach provides a competitive moat.",
+    "technical_assessment": {
+      "core_technology": "Automatic health progress logging and integration of goal setting with productivity features.",
+      "defensibility": "Data-driven approach and high engagement rates provide a competitive moat.",
+      "intellectual_property": "No specific IP mentioned, but proprietary algorithms and data usage are implied.",
+      "scalability": "The technology is designed to scale with the growth of the customer base.",
+      "integration_capabilities": "Ease of use and integration with existing wellness programs."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for health tracking and engagement.",
+      "data_advantages": "High engagement rates and data-driven insights.",
+      "technical_barriers": "Integration of multiple wellness aspects into a single platform.",
+      "development_velocity": "Strong in-house team capable of rapid iteration and development."
+    },
+    "red_flags": [
+      "Risk of competitors developing similar features if not continuously innovated."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "BetterYou has demonstrated strong traction with 55 paying customers and significant revenue growth. The high engagement rates and customer retention indicate a strong product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "$401,000 in new contracts over the last 6 months.",
+      "customer_metrics": "55 paying customers with 45,000 users on the platform.",
+      "retention_analysis": "31% of users engage weekly for 6 months, indicating strong retention.",
+      "unit_economics": "Efficient revenue model with $4/person/month pricing."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback and high engagement rates.",
+      "product_market_fit": "Strong evidence of PMF with high engagement and retention.",
+      "notable_customers": "Medium-sized employers and higher education institutions.",
+      "partnerships": "Potential to expand through broker channels."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "High engagement rates and strong customer retention.",
+        "context": "Achieved through a focus on user experience and automatic health tracking.",
+        "outcome": "Strong product-market fit and customer satisfaction."
+      },
+      {
+        "type": "Area of Investigation",
+        "description": "Expanding through broker channels.",
+        "context": "Currently exploring this channel for scaling.",
+        "outcome": "Seeking expert feedback to craft a compelling offer."
+      }
+    ],
+    "red_flags": [
+      "Potential risk of not scaling customer success processes quickly enough."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for effective wellness solutions and a shift towards consumer-level experiences in enterprise software. However, the risk of competitors gaining traction remains.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative wellness solutions that drive engagement.",
+      "catalysts": "Increasing employer focus on employee health and wellness.",
+      "tailwinds": "Favorable trends in wellness and enterprise software.",
+      "headwinds": "Potential competition and market saturation risks."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "BetterYou has an advantage with its unique combination of features.",
+      "competitive_response": "Potential for competitors to respond with similar offerings.",
+      "market_education": "Requires educating the market on the benefits of integrated wellness solutions.",
+      "technology_maturity": "The technology is mature enough to support the solution."
+    },
+    "red_flags": [
+      "Risk of competitors catching up if not continuously innovated."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Currently not fundraising, but previous funding rounds indicate alignment with investor expectations. Future terms should focus on maintaining valuation alignment and ownership potential.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising.",
+      "raise_amount": "N/A",
+      "pre_money_valuation": "N/A",
+      "post_money_valuation": "N/A"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Previous investors align with SV's focus on scalable enterprise solutions.",
+      "ownership_potential": "Future rounds should consider ownership potential and board representation.",
+      "liquidation_preferences": "N/A",
+      "valuation_justification": "Future valuations should be justified by continued traction and market positioning."
+    },
+    "red_flags": [
+      "Potential dilution risk in future fundraising rounds."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "BetterYou demonstrates strong traction, a capable team, and a unique market position. The company's focus on engagement and data-driven insights aligns well with current market trends. The primary risks involve scaling customer success and maintaining competitive advantage.",
+    "key_factors": [
+      "Strong traction and engagement rates",
+      "Capable and experienced team",
+      "Unique market positioning"
+    ],
+    "next_steps": [
+      "Engage with the team to explore broker channel strategies",
+      "Monitor competitive landscape for emerging threats",
+      "Evaluate potential for future fundraising and terms alignment"
+    ]
+  }
+}

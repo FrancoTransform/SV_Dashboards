@@ -1,0 +1,209 @@
+{
+  "company_name": "Counter Fin",
+  "website": "https://www.counterfin.com",
+  "year_founded": "2024",
+  "description": "Counter is a TurboTax-style assistant for disability and leave claims. Our platform automates claim filings, builds financial readiness through savings tools, and offers predictive scoring and emergency support to reduce delays, denials, and stress during life’s hardest moments. We empower users with faster access to income and dignity.",
+  "problem_statement": "70% of SSDI claims and 75% of private disability claims are denied due to missing info or errors. Most Americans can't survive a delayed paycheck. Counter eliminates costly denials, filing delays, and financial stress through guided filing, emergency funds, and employer/community support — especially for working-class and underserved populations.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGnSc9z6HU/pVsBy9qQw620RlTL2vr6Ow/edit?utm_content=DAGnSc9z6HU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  "demo_link": "https://www.youtube.com/watch?v=BdCHV8uOrLY",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and personal experience with the problem they are solving, which is crucial for understanding the nuances of disability claims. The CEO and CTO met through Y Combinator, indicating a network of support and validation. The team is small but focused, with a clear division of roles.",
+    "company_assessment": {
+      "business_model_strength": "Counter Fin employs a SaaS model with additional revenue from claim fees and platform commissions. This diversified revenue stream is promising, but scalability will depend on successful partnerships and market penetration.",
+      "market_positioning": "Counter Fin uniquely combines filing automation, predictive scoring, and emergency funding, differentiating itself from competitors who lack comprehensive disability tools.",
+      "execution_capability": "The team has demonstrated execution capability through contracts with municipalities and partnerships with disability organizations, indicating strong initial traction.",
+      "strategic_vision": "The strategic vision is clear, focusing on underserved populations and leveraging partnerships to scale. However, navigating the regulatory landscape remains a challenge."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Camron Brown",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/camron-brown/",
+        "background": "Camron has a background in technology and entrepreneurship, with personal experience in disability struggles.",
+        "domain_expertise": "Strong understanding of disability claims and financial technology.",
+        "previous_startups": "No previous startups mentioned, but experience with Y Combinator is a positive signal.",
+        "notable_achievements": "Secured contracts with municipalities and partnerships with major disability players.",
+        "leadership_signals": "Demonstrated ability to lead a small team and secure strategic partnerships.",
+        "track_record": []
+      },
+      {
+        "name": "Kaelaan Maynor",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/kmaynor/",
+        "background": "Technical expertise in software development and product management.",
+        "domain_expertise": "Deep technical knowledge relevant to building the platform.",
+        "previous_startups": "No previous startups mentioned.",
+        "notable_achievements": "Developed the core technology in-house, indicating strong technical capability.",
+        "leadership_signals": "Effective in leading the technical team and managing product development.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The disability claims space is fragmented with few comprehensive solutions. Competitors focus on specific aspects like payroll or savings but lack an integrated approach.",
+      "primary_competitors": [
+        {
+          "name": "DailyPay",
+          "description": "Provides early access to earned wages.",
+          "strengths": "Strong in payroll processing and early wage access.",
+          "weaknesses": "Lacks disability claims support and savings tools.",
+          "comparison": "Counter Fin offers a more comprehensive solution with claims support and predictive tools."
+        },
+        {
+          "name": "Gusto",
+          "description": "Offers payroll and HR services.",
+          "strengths": "Well-established in payroll and HR management.",
+          "weaknesses": "Does not provide disability tools.",
+          "comparison": "Counter Fin differentiates by focusing on disability claims and financial readiness."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Claims Support",
+          "Savings Tools",
+          "Predictive Scoring"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "DailyPay": [
+            false,
+            true,
+            false
+          ],
+          "Gusto": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Counter Fin is well-positioned with a unique value proposition that addresses multiple pain points in the disability claims process, offering a competitive advantage over existing solutions."
+    },
+    "red_flags": [
+      "Small team size may limit scalability and execution speed."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The TAM is substantial at $25.37B, with a clear focus on a large number of Americans taking leave annually. The market is underserved, providing a significant opportunity for Counter Fin to capture market share.",
+    "market_analysis": {
+      "total_addressable_market": "$25.37B, based on 20M Americans taking leave annually.",
+      "serviceable_addressable_market": "Focused on mid-market and small businesses, with 938K potential targets.",
+      "serviceable_obtainable_market": "Realistic capture through partnerships with municipalities and disability organizations.",
+      "market_growth_rate": "The market is expected to grow as awareness and demand for disability support increase.",
+      "market_dynamics": "Key trends include increasing awareness of disability rights and the need for financial readiness tools."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Working-class individuals, caregivers, gig workers, school employees, HR teams, and insurers.",
+      "willingness_to_pay": "Validated through pilot programs and contracted revenue, indicating strong demand.",
+      "customer_acquisition_cost": "Not explicitly detailed, but partnerships suggest a cost-effective acquisition strategy.",
+      "customer_lifetime_value": "High potential LTV due to recurring SaaS revenue and claim fees."
+    },
+    "red_flags": [
+      "Regulatory challenges could impact market entry and expansion."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology is developed in-house, providing control over the product and potential for innovation. The platform's automation and predictive capabilities offer a competitive edge.",
+    "technical_assessment": {
+      "core_technology": "Automated claim filing, predictive scoring, and savings tools.",
+      "defensibility": "Proprietary algorithms and in-house development provide a technical moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but in-house development suggests potential for IP protection.",
+      "scalability": "The platform is designed to scale with user growth and increased claim volume.",
+      "integration_capabilities": "Potential for integration with HR and payroll systems, enhancing value proposition."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Predictive scoring and automation differentiate the platform.",
+      "data_advantages": "Potential to leverage data from claims and user interactions for continuous improvement.",
+      "technical_barriers": "In-house development and proprietary algorithms create barriers to entry.",
+      "development_velocity": "Rapid development indicated by MVP launch and pilot engagements."
+    },
+    "red_flags": [
+      "Lack of explicit IP protection strategy could be a risk."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong initial traction with contracts and partnerships, indicating product-market fit. The company has secured $300K in contracted revenue and is actively engaged in pilot programs.",
+    "growth_metrics": {
+      "revenue_growth": "Projected revenue growth through contracted deals and expanding partnerships.",
+      "customer_metrics": "Active pilots with municipalities and organizations, indicating growing interest.",
+      "retention_analysis": "Not explicitly detailed, but partnerships suggest potential for high retention.",
+      "unit_economics": "Revenue from SaaS and claim fees suggests positive unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from live filing events and user surveys.",
+      "product_market_fit": "Validated through partnerships and contracted revenue.",
+      "notable_customers": "Contracts with Bell County and partnerships with disability organizations.",
+      "partnerships": "Strategic partnerships with nonprofits and municipalities enhance credibility."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Contract with Bell County and partnerships with nonprofits.",
+        "context": "Demonstrates ability to secure significant partnerships.",
+        "outcome": "Provides a foundation for scaling and revenue growth."
+      }
+    ],
+    "red_flags": [
+      "Regulatory hurdles could impact scaling efforts."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing awareness of disability rights and financial readiness. However, regulatory challenges could pose risks.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that simplify disability claims and provide financial support.",
+      "catalysts": "Growing demand for disability support and financial readiness tools.",
+      "tailwinds": "Favorable trends in disability rights and financial technology adoption.",
+      "headwinds": "Regulatory challenges and potential resistance from established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential to establish a strong market presence before competitors catch up.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but Counter Fin's comprehensive approach provides a buffer.",
+      "market_education": "Some market education may be required to drive adoption.",
+      "technology_maturity": "The technology is mature enough to support the platform's capabilities."
+    },
+    "red_flags": [
+      "Regulatory changes could impact market dynamics."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising, with a focus on expanding its pilot programs and scaling operations. The terms and valuation are not explicitly detailed, which could impact investment attractiveness.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Targeting $750,000",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on underserved populations aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "Not specified, but important to clarify in negotiations.",
+      "valuation_justification": "Valuation details are needed to assess alignment with market comparables."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms could impact investment decision."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Counter Fin demonstrates strong potential with a unique value proposition, initial traction, and alignment with market needs. The team has relevant expertise and a clear strategic vision. However, regulatory challenges and lack of detailed investment terms need to be addressed.",
+    "key_factors": [
+      "Strong initial traction",
+      "Unique value proposition",
+      "Alignment with market needs"
+    ],
+    "next_steps": [
+      "Clarify investment terms and valuation",
+      "Address regulatory challenges",
+      "Explore strategic partnerships for scaling"
+    ]
+  }
+}

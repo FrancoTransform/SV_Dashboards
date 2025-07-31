@@ -1,0 +1,214 @@
+{
+  "company_name": "The PEO App, Inc.",
+  "website": "https://thepeoapp.com",
+  "year_founded": "2025",
+  "description": "The PEO App is an AI-powered platform that simplifies the PEO shopping process, streamlining information collection, improving accuracy, and removing bias—all through a single secure intake.",
+  "problem_statement": "Small businesses are drowning in administrative complexity—HR, payroll, benefits, compliance. PEOs were designed to help, but the process of finding the right one is broken. It’s opaque, repetitive, and riddled with friction. SMB leaders waste hours filling out redundant intake forms, chasing down incomplete quotes, and making decisions with incomplete data. Many give up, staying with an overpriced, underperforming PEO simply because switching is too painful. That means higher costs, worse benefits, and real risk to their employees.\n\nFor PEOs, it’s no better. They spend enormous time quoting bad-fit deals or chasing leads that ghost them. Junior sales reps drown in intake emails. Close rates suffer. CAC stays high. And the best-fit prospects—the ones they should be winning—often walk away or never get through the intake process. Everyone loses. The inefficiency costs SMBs thousands per year and costs PEOs millions in missed revenue.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGflHeD4K8/YTx0qmTghrmEdwjuK5SLdw/view?utm_content=DAGflHeD4K8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h73ba121b75",
+  "demo_link": "https://www.loom.com/share/6e7e333978234a89899562ee9a9cba24",
+  "team": {
+    "score": 3,
+    "justification": "The founding team is currently composed of a single full-time founder, Kasey Devine, who is supported by fractional contractors. The founder is actively seeking a technical co-founder, which is a critical gap given the technical nature of the product. The founder has demonstrated commitment and domain understanding, but the lack of a complete leadership team with proven execution ability is a concern.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on referral fees and SaaS subscriptions, which are scalable but currently unproven due to the lack of paying customers.",
+      "market_positioning": "The company positions itself as a streamlined, AI-powered solution for PEO shopping, differentiating through technology and process efficiency.",
+      "execution_capability": "The team has launched pilots and is patent-pending, indicating some execution capability, but the lack of a full-time technical team is a risk.",
+      "strategic_vision": "The strategic vision is clear in addressing a significant pain point in the PEO market, but execution risks remain high without a complete team."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kasey Devine",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/kaseydevine",
+        "background": "Kasey Devine has a background in business and entrepreneurship, with experience in the PEO industry.",
+        "domain_expertise": "Strong understanding of the PEO market and its inefficiencies.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Successfully launched a pilot and secured a patent-pending status.",
+        "leadership_signals": "Demonstrated ability to identify market needs and initiate product development.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The PEO market is competitive with established players like PEOMG, Dinsmore Steele, and PEO Spectrum.",
+      "primary_competitors": [
+        {
+          "name": "PEOMG",
+          "description": "Provides manual quoting and professional services.",
+          "strengths": "Established market presence and customer base.",
+          "weaknesses": "Lack of automation and standardized processes.",
+          "comparison": "The PEO App differentiates with AI-driven automation and a streamlined process."
+        },
+        {
+          "name": "Dinsmore Steele",
+          "description": "Offers PEO consulting and brokerage services.",
+          "strengths": "Strong industry relationships and expertise.",
+          "weaknesses": "Manual processes and potential for bias.",
+          "comparison": "The PEO App offers a bias-free, automated solution."
+        },
+        {
+          "name": "PEO Spectrum",
+          "description": "Focuses on PEO selection and consulting.",
+          "strengths": "Comprehensive service offerings.",
+          "weaknesses": "Time-consuming and manual processes.",
+          "comparison": "The PEO App provides a faster, more efficient alternative."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "AI Automation",
+          "Standardized Processes",
+          "Bias-Free"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "PEOMG": [
+            false,
+            false,
+            false
+          ],
+          "Dinsmore Steele": [
+            false,
+            false,
+            false
+          ],
+          "PEO Spectrum": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "The PEO App has a strong competitive position with its AI-driven, automated approach, but needs to prove its model with paying customers."
+    },
+    "red_flags": [
+      "Lack of a full-time technical co-founder",
+      "No paying customers yet"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The PEO industry is a $414B market with a growing SMB segment. The company's focus on SMBs, which are growing at 15% annually, presents a significant opportunity. However, the company's ability to capture a meaningful share of this market remains to be proven.",
+    "market_analysis": {
+      "total_addressable_market": "$414B PEO industry, with SMBs as a key segment.",
+      "serviceable_addressable_market": "Focus on SMBs with 1-500 employees, a rapidly growing segment.",
+      "serviceable_obtainable_market": "Initial pilots and pipeline indicate potential, but conversion to paying customers is needed.",
+      "market_growth_rate": "SMB segment growing at 15% annually, outpacing broader economy.",
+      "market_dynamics": "Increasing complexity in HR and compliance drives demand for efficient PEO solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "SMB owners/CFOs and PEO sales/partnership leads.",
+      "willingness_to_pay": "15+ PEOs expressed willingness to pay referral fees.",
+      "customer_acquisition_cost": "Currently high due to manual processes and lack of scale.",
+      "customer_lifetime_value": "Potentially high if the platform can reduce churn and improve retention."
+    },
+    "red_flags": [
+      "Unproven ability to convert pipeline into paying customers"
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The platform's AI-driven approach and patent-pending status provide some technical defensibility. However, the reliance on contracted developers and the absence of a technical co-founder are significant risks.",
+    "technical_assessment": {
+      "core_technology": "AI-powered platform for PEO shopping process.",
+      "defensibility": "Patent-pending status offers some protection.",
+      "intellectual_property": "Patent-pending, working towards HIPAA and SOC 2 compliance.",
+      "scalability": "Potentially scalable with the right technical leadership.",
+      "integration_capabilities": "Not detailed, but critical for adoption by PEOs."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "AI-driven automation of the PEO shopping process.",
+      "data_advantages": "Potential for data-driven insights as the platform scales.",
+      "technical_barriers": "Patent-pending status and compliance efforts.",
+      "development_velocity": "Limited by current team structure and reliance on contractors."
+    },
+    "red_flags": [
+      "Lack of in-house technical expertise",
+      "Reliance on contractors"
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company has launched pilots and has a pipeline, but no paying customers yet. The lack of revenue and reliance on pilots indicate early-stage traction with significant execution risk.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, pilots in progress.",
+      "customer_metrics": "5 active users, pipeline of $60k in SMB business and $50k in PEO business.",
+      "retention_analysis": "No data available due to early stage.",
+      "unit_economics": "Not yet proven, as no paying customers."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilot participants.",
+      "product_market_fit": "Early signs of PMF, but needs validation through paying customers.",
+      "notable_customers": "None yet, pilots with small SMB and PEOs.",
+      "partnerships": "Potential partnerships with PEOs for referral fees."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Area of Investigation",
+        "description": "Conversion of pilots to paying customers.",
+        "context": "Current pilots with SMBs and PEOs.",
+        "outcome": "Critical for proving business model and scaling."
+      }
+    ],
+    "red_flags": [
+      "No paying customers",
+      "Early-stage traction with high execution risk"
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ripe for disruption with increasing complexity in HR and compliance. The company's timing aligns well with market needs, but execution risks remain.",
+    "market_timing": {
+      "market_readiness": "High, due to increasing administrative complexity for SMBs.",
+      "catalysts": "Growing SMB segment and demand for efficient PEO solutions.",
+      "tailwinds": "Favorable macro trends in HR technology and automation.",
+      "headwinds": "Potential regulatory changes and competitive responses."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage with AI-driven approach.",
+      "competitive_response": "Established players may respond with similar offerings.",
+      "market_education": "Some education required for SMBs on benefits of switching PEOs.",
+      "technology_maturity": "AI and automation technologies are mature and widely adopted."
+    },
+    "red_flags": [
+      "Execution risks in capturing market opportunity"
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is bootstrapped and actively raising a pre-seed round. The terms and valuation are not detailed, but the early stage and lack of revenue suggest a high-risk investment.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Not specified, but actively raising.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on HR technology and automation.",
+      "ownership_potential": "Depends on terms of the pre-seed round.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "High-risk due to early stage and lack of revenue."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms",
+      "High-risk early-stage investment"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The PEO App presents a compelling solution to a significant market problem, but the lack of a complete team, paying customers, and detailed investment terms pose significant risks. The company should focus on securing a technical co-founder, converting pilots to paying customers, and refining its go-to-market strategy before advancing.",
+    "key_factors": [
+      "Lack of technical co-founder",
+      "No paying customers",
+      "Early-stage execution risks"
+    ],
+    "next_steps": [
+      "Secure a technical co-founder",
+      "Convert pilots to paying customers",
+      "Refine go-to-market strategy"
+    ]
+  }
+}

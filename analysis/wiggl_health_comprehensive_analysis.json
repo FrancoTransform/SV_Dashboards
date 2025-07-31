@@ -1,0 +1,204 @@
+{
+  "company_name": "Wiggl Health",
+  "website": "https://www.wiggl.co",
+  "year_founded": "2021",
+  "description": "Wiggl Health's AI-powered prevention platform enables 50M+ hybrid and remote employees worldwide in the workplace wellness industry to avoid costly MSK injuries, reduce workers' comp claims by 60%, and improve productivity by 25% by transforming once-a-year ergonomic assessments into 8,760 daily micro-checks using passive sensing from existing devices.",
+  "problem_statement": "Workplace MSK injuries cost employers $45-54B annually, but current prevention relies on useless once-yearly ergonomic checks. By the time employees feel pain, costly damage is done. With 50M+ remote workers in unmonitored home offices, companies are blind to brewing injuries until expensive claims hit.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/16r83eP3JIbVud_ijbFXc6mNnLxUTAKviAXsuE-xZm9g/edit?usp=sharing",
+  "demo_link": "https://www.loom.com/share/a2d7c8688356424abe40e36fc24c4225?sid=a65b1151-5cd1-41ab-a5cf-1e451baa9041",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and complementary skills. Mason Orme, the CEO, has a background in physical medicine, providing valuable insights into MSK issues. Vadim Schepotev, the CTO, has firsthand experience with the problem, leading to a strong technical foundation for the product.",
+    "company_assessment": {
+      "business_model_strength": "Wiggl Health has a robust business model with predictable revenue through annual contracts and a high LTV/CAC ratio of 30:1. The pricing strategy is justified by the potential savings from preventing costly injury claims.",
+      "market_positioning": "The company positions itself as a proactive, AI-driven solution for distributed workforces, differentiating from traditional ergonomic assessments and generic wellness platforms.",
+      "execution_capability": "The team has demonstrated execution capability by developing a product ready for market and securing pilot programs with three companies.",
+      "strategic_vision": "Wiggl Health has a clear strategic vision to leverage AI for continuous ergonomic assessments, addressing a significant pain point in the market."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Mason Orme",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/mason-orme/",
+        "background": "Physical medicine doctor with experience in treating MSK issues.",
+        "domain_expertise": "Extensive knowledge in MSK health and workplace ergonomics.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Successfully pivoted the company based on customer feedback.",
+        "leadership_signals": "Demonstrated ability to lead a team and pivot the business model effectively.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes traditional ergonomic companies and workplace wellness platforms. Wiggl Health differentiates by offering a predictive, AI-driven solution for remote workforces.",
+      "primary_competitors": [
+        {
+          "name": "Humanscale",
+          "description": "Traditional ergonomic company focusing on annual assessments.",
+          "strengths": "Established brand and experience in ergonomic solutions.",
+          "weaknesses": "Reactive approach and lack of continuous monitoring.",
+          "comparison": "Wiggl Health offers continuous, AI-driven assessments, providing a proactive solution."
+        },
+        {
+          "name": "Virgin Pulse",
+          "description": "Workplace wellness platform with a focus on self-reporting.",
+          "strengths": "Comprehensive wellness offerings and large customer base.",
+          "weaknesses": "Self-reporting bias and lack of focus on MSK injury prevention.",
+          "comparison": "Wiggl Health's passive sensing technology eliminates self-reporting bias."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Continuous Monitoring",
+          "AI-Driven",
+          "Remote Workforce Focus"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Humanscale": [
+            false,
+            false,
+            false
+          ],
+          "Virgin Pulse": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Wiggl Health is well-positioned with a unique, proactive solution that addresses the limitations of existing competitors."
+    },
+    "red_flags": [
+      "Limited entrepreneurial experience among founders"
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The market opportunity is substantial, with a TAM of $100B, SAM of $78B, and SOM of $32B. The market is growing due to increasing remote work and regulatory pressures on workplace ergonomics.",
+    "market_analysis": {
+      "total_addressable_market": "$100B, driven by the global need for MSK injury prevention in remote work settings.",
+      "serviceable_addressable_market": "$78B, focusing on mid-to-large companies with hybrid workforces.",
+      "serviceable_obtainable_market": "$32B, achievable through targeted go-to-market strategies.",
+      "market_growth_rate": "The market is expected to grow significantly due to the rise in remote work and increasing awareness of workplace wellness.",
+      "market_dynamics": "Key drivers include the shift to remote work, regulatory pressures, and the high cost of MSK injuries."
+    },
+    "customer_analysis": {
+      "buyer_personas": "HR Directors and Benefits Leaders at mid-to-large companies with significant hybrid/remote workforces.",
+      "willingness_to_pay": "Strong willingness to pay due to the high cost of MSK injuries and the potential for significant savings.",
+      "customer_acquisition_cost": "Efficient CAC with a 30:1 LTV/CAC ratio.",
+      "customer_lifetime_value": "High LTV due to long-term contracts and strong retention potential."
+    },
+    "red_flags": [
+      "Potential challenges in educating the market on proactive solutions"
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Wiggl Health's technology is innovative, leveraging AI for continuous ergonomic assessments. The passive sensing approach is a key differentiator, though the lack of proprietary IP could be a concern.",
+    "technical_assessment": {
+      "core_technology": "AI-driven platform providing continuous ergonomic assessments through passive sensing.",
+      "defensibility": "Strong defensibility through unique technology, though lacking proprietary IP.",
+      "intellectual_property": "No patents or trade secrets mentioned.",
+      "scalability": "The platform is designed to scale with the growth of remote workforces.",
+      "integration_capabilities": "Easily integrates with existing devices, reducing friction for adoption."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for continuous monitoring and assessment.",
+      "data_advantages": "Utilizes data from existing devices, enhancing scalability.",
+      "technical_barriers": "High technical barriers due to the complexity of AI-driven assessments.",
+      "development_velocity": "Rapid development and iteration, evidenced by the pivot to a passive sensing approach."
+    },
+    "red_flags": [
+      "Lack of proprietary IP protection"
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Early traction is promising with three pilot programs and a strong sales pipeline. However, limited paying customers and early-stage market entry present challenges.",
+    "growth_metrics": {
+      "revenue_growth": "Limited revenue growth with only three paying customers.",
+      "customer_metrics": "Over 400 companies in the pipeline, indicating strong interest.",
+      "retention_analysis": "Retention potential is high due to the nature of long-term contracts.",
+      "unit_economics": "Strong unit economics with a 30:1 LTV/CAC ratio and 12-month payback period."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early pilots and strong interest from brokers.",
+      "product_market_fit": "Evidence of PMF through customer discovery calls and pilot interest.",
+      "notable_customers": "Three pilot customers, though not yet notable logos.",
+      "partnerships": "Interest from brokers, though no formal partnerships yet."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured three pilot programs with companies.",
+        "context": "Early market entry with a focus on HR leaders.",
+        "outcome": "Potential for conversion to long-term contracts."
+      },
+      {
+        "type": "Area of Investigation",
+        "description": "Limited number of paying customers.",
+        "context": "Early-stage market entry with a focus on pilots.",
+        "outcome": "Need to convert pilots to paying customers."
+      }
+    ],
+    "red_flags": [
+      "Limited revenue and paying customer base"
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is ideal with the rise of remote work and increasing regulatory pressures. The market is ready for a proactive solution like Wiggl Health's.",
+    "market_timing": {
+      "market_readiness": "The market is mature and ready for innovative solutions to MSK injuries.",
+      "catalysts": "The shift to remote work and regulatory pressures on workplace ergonomics.",
+      "tailwinds": "Favorable macro trends such as the growth of remote work and increasing focus on employee wellness.",
+      "headwinds": "Potential challenges in educating the market on proactive solutions."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Strong first-mover advantage in the AI-driven ergonomic assessment space.",
+      "competitive_response": "Competitors may respond by developing similar solutions, but Wiggl Health's early entry provides a head start.",
+      "market_education": "Requires market education on the benefits of proactive solutions.",
+      "technology_maturity": "The technology is mature and ready for deployment."
+    },
+    "red_flags": [
+      "Need for market education on proactive solutions"
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms are aligned with SV's focus, with a clear path to revenue growth and scalability. The company is currently fundraising, providing an opportunity for investment.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified, but seeking investment to accelerate growth.",
+      "pre_money_valuation": "Not specified, but likely aligned with early-stage metrics.",
+      "post_money_valuation": "Not specified, but expected to provide reasonable ownership potential."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on HR tech and wellness solutions.",
+      "ownership_potential": "Potential for significant ownership and influence in the company's growth.",
+      "liquidation_preferences": "Standard preferences expected for early-stage investments.",
+      "valuation_justification": "Valuation likely justified by market opportunity and early traction."
+    },
+    "red_flags": [
+      "Lack of specific valuation and raise amount details"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Wiggl Health presents a compelling investment opportunity with a strong team, significant market potential, and innovative technology. The timing is ideal, and the company aligns well with SV's investment thesis.",
+    "key_factors": [
+      "Strong market opportunity with a $100B TAM",
+      "Innovative AI-driven technology with a proactive approach",
+      "Experienced team with domain expertise"
+    ],
+    "next_steps": [
+      "Conduct a detailed due diligence process",
+      "Engage with the team to understand fundraising needs and terms",
+      "Explore potential partnerships and pilot expansions"
+    ]
+  }
+}

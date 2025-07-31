@@ -1,0 +1,198 @@
+{
+  "company_name": "TenYour",
+  "website": "https://tenyour.com/",
+  "year_founded": "2023",
+  "description": "TenYour helps Middle Class professionals build and protect generational wealth by mitigating the financial challenges associated with job instability while paving the way to long-term savings.",
+  "problem_statement": "Job instability is the single greatest threat to Middle Class Americans' ability to build wealth, lower debt and help future generations. 56% of Americans cannot handle a random $1,000 expense without credit card debt and 42% of Americans lack an emergency fund.",
+  "pitch_deck_link": "https://docsend.com/view/ksxqsehinskf5x5n",
+  "demo_link": "https://www.loom.com/share/5a99d83e21ac48adaccb36be63c0edb6?sid=0ee87964-7593-490b-9a2d-3535f273d45c",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong background in technology and operations, with Joah Spearman having a notable presence in the startup ecosystem. The team is small but appears to be well-rounded with complementary skills in engineering and operations.",
+    "company_assessment": {
+      "business_model_strength": "The business model leverages both D2C and B2B channels with a subscription revenue model, which is scalable and provides recurring revenue. The float revenue model adds an additional revenue stream.",
+      "market_positioning": "TenYour positions itself uniquely by addressing job instability with a focus on wealth-building, differentiating from traditional insurance models.",
+      "execution_capability": "The team has demonstrated execution capability by launching the product and acquiring initial customers, showing early signs of product-market fit.",
+      "strategic_vision": "The strategic pivot towards B2B indicates a strong understanding of market dynamics and potential for scaling."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Joah Spearman",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/joahspearman/",
+        "background": "Joah has a background in entrepreneurship and has been involved in multiple startups, providing him with valuable experience in scaling businesses.",
+        "domain_expertise": "Strong expertise in startup operations and business development.",
+        "previous_startups": "Prior experience with startups, though specific outcomes are not detailed.",
+        "notable_achievements": "Participation in the Northwestern Mutual Accelerator and securing funding from notable investors.",
+        "leadership_signals": "Demonstrated leadership through strategic pivots and team building.",
+        "track_record": [
+          {
+            "company": "Previous company name",
+            "role": "Role at company",
+            "outcome": "Exit, acquisition, failure, ongoing",
+            "learnings": "Key learnings and relevance to current venture"
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes traditional insurance companies and fintech startups focusing on financial stability.",
+      "primary_competitors": [
+        {
+          "name": "Harmonic FT",
+          "description": "Traditional insurance provider without a focus on wealth-building.",
+          "strengths": "Established market presence and brand recognition.",
+          "weaknesses": "Lack of innovative wealth-building tools.",
+          "comparison": "TenYour differentiates by integrating wealth-building with job instability solutions."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Wealth-building focus",
+          "Traditional insurance",
+          "Innovative technology"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            false,
+            true
+          ],
+          "Competitor 1": [
+            false,
+            true,
+            false
+          ],
+          "Competitor 2": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "TenYour has a strong competitive position with its unique value proposition and focus on a growing market need."
+    },
+    "red_flags": [
+      "Team-related concerns and risks"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with 70 million Middle Class Millennials and Gen Z professionals and 30 million small businesses and nonprofits. The market is growing due to increasing job instability.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is large, encompassing both individual professionals and businesses seeking employee benefits.",
+      "serviceable_addressable_market": "The SAM is realistic given the company's focus on scalable subscription models.",
+      "serviceable_obtainable_market": "The SOM is achievable with the current go-to-market strategy, especially with the B2B pivot.",
+      "market_growth_rate": "The market is expected to grow as job instability becomes a more pressing issue.",
+      "market_dynamics": "Key trends include increasing job instability and a growing focus on financial wellness."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Middle Class professionals and business leaders seeking to offer employee benefits.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for solutions that address financial instability.",
+      "customer_acquisition_cost": "CAC is not detailed but is critical to monitor as the company scales.",
+      "customer_lifetime_value": "LTV is potentially high given the subscription model and long-term customer relationships."
+    },
+    "red_flags": [
+      "Market-related concerns and risks"
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology appears to be robust, but there is limited information on proprietary technology or IP.",
+    "technical_assessment": {
+      "core_technology": "The core technology supports financial planning and wealth-building.",
+      "defensibility": "Technical moats are not clearly defined, which could be a risk.",
+      "intellectual_property": "No specific IP strategy is mentioned.",
+      "scalability": "The technology is likely scalable given the subscription model.",
+      "integration_capabilities": "Integration with existing financial systems is not detailed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No specific algorithms are mentioned.",
+      "data_advantages": "Potential data advantages from customer insights.",
+      "technical_barriers": "Limited information on barriers to replication.",
+      "development_velocity": "The team has shown the ability to develop and launch products quickly."
+    },
+    "red_flags": [
+      "Technology-related concerns and risks"
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has shown promising early traction with 80+ customers and $5K/mo in MRR, indicating initial product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Steady growth in MRR with potential for significant scaling.",
+      "customer_metrics": "80+ customers with a strong pipeline of prospects.",
+      "retention_analysis": "Retention rates are not detailed but are crucial for long-term success.",
+      "unit_economics": "Unit economics are not fully detailed but are critical to monitor."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from initial customers.",
+      "product_market_fit": "Early signs of product-market fit, especially in the D2C segment.",
+      "notable_customers": "No specific notable customers mentioned.",
+      "partnerships": "Strategic partnerships could enhance market reach."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Successful pivot to B2B focus.",
+        "context": "Pivot initiated during the Northwestern Mutual Accelerator.",
+        "outcome": "Increased focus on scalable B2B opportunities."
+      }
+    ],
+    "red_flags": [
+      "Traction-related concerns and risks"
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing job instability and a growing focus on financial wellness.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions addressing job instability.",
+      "catalysts": "Economic uncertainty and workforce reductions.",
+      "tailwinds": "Growing awareness of financial wellness.",
+      "headwinds": "Potential economic recovery reducing immediate urgency."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in combining wealth-building with job instability solutions.",
+      "competitive_response": "Competitors may respond by enhancing their offerings.",
+      "market_education": "Some market education may be required for B2B customers.",
+      "technology_maturity": "The technology is mature enough to support the solution."
+    },
+    "red_flags": [
+      "Timing-related concerns and risks"
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The investment terms are not fully detailed, but the $12M capped SAFE indicates a reasonable valuation for early-stage investment.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified in detail.",
+      "pre_money_valuation": "$12M capped SAFE",
+      "post_money_valuation": "Dependent on raise amount."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Aligned with SV's focus on innovative financial solutions.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not detailed but important to clarify.",
+      "valuation_justification": "Valuation appears reasonable given early traction and market potential."
+    },
+    "red_flags": [
+      "Terms-related concerns and risks"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "TenYour shows strong potential with a unique value proposition, early traction, and a favorable market environment. The pivot to B2B could unlock significant growth opportunities.",
+    "key_factors": [
+      "Strong market need",
+      "Early traction",
+      "Unique value proposition"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on technology and IP",
+      "Clarify investment terms and valuation",
+      "Explore strategic partnerships to enhance B2B growth"
+    ]
+  }
+}

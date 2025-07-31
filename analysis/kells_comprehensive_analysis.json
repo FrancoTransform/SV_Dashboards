@@ -1,0 +1,224 @@
+{
+  "company_name": "KELLS",
+  "website": "https://www.getkells.com",
+  "year_founded": "2019",
+  "description": "KELLS is an AI-powered dental benefits platform designed to make oral care more accessible, affordable, and personalized.",
+  "problem_statement": "KELLS is modernizing legacy dental benefits to fill the gap in accessibility, transparency and affordability. Over 25% U.S. population doesn't have dental benefits, 100MM people skip dental care due to cost, inconvenience and fear, including ones with dental insurance. Untreated dental issues cause $40B productivity loss, and are linked to chronic diseases like diabetes and heart disease, driving up overall healthcare costs, while most dental problems can be prevented with timely intervention. KELLS is changing the paradigm with AI-powered virtual care and upfront, lower cost provider network.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1TbJQzMvfk21m8DHFGUOJNRiBznX6FHy6/view?usp=sharing",
+  "demo_link": "https://member.getkells.com",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of KELLS demonstrates strong execution ability and domain expertise. Jie Feng, CEO, has a background in healthtech from Amazon, and Kevin Duffy, COO, has experience from Dental365. Their complementary skills in technology and dental operations provide a solid foundation for scaling the business.",
+    "company_assessment": {
+      "business_model_strength": "KELLS operates a B2B2C model with a clear revenue stream through PEPM fees and subscriptions. The model is scalable with potential for high margins due to the AI-driven approach.",
+      "market_positioning": "KELLS positions itself as a modern alternative to traditional dental plans, focusing on care rather than just coverage. This differentiation is key in a crowded market.",
+      "execution_capability": "The team has demonstrated execution capability by launching the product, forming key partnerships, and achieving significant user adoption.",
+      "strategic_vision": "KELLS has a strong strategic vision to disrupt the dental benefits space with AI technology, addressing a significant market need."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Jie Feng",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/jie-feng-phd/",
+        "background": "PhD in a relevant field with experience at Amazon in healthtech.",
+        "domain_expertise": "Strong expertise in AI and health technology.",
+        "previous_startups": "No prior startups but significant corporate experience.",
+        "notable_achievements": "Led healthtech initiatives at Amazon.",
+        "leadership_signals": "Demonstrated leadership in forming strategic partnerships.",
+        "track_record": [
+          {
+            "company": "Amazon",
+            "role": "Healthtech Lead",
+            "outcome": "Successful projects in healthtech space.",
+            "learnings": "Gained insights into scaling tech solutions in healthcare."
+          }
+        ]
+      },
+      {
+        "name": "Kevin Duffy",
+        "role": "COO",
+        "linkedin": "https://www.linkedin.com/in/kevinduffyacevedo/",
+        "background": "Experience in dental operations with Dental365.",
+        "domain_expertise": "Deep understanding of dental industry operations.",
+        "previous_startups": "Exited Dental365.",
+        "notable_achievements": "Successful exit from Dental365.",
+        "leadership_signals": "Proven ability to scale dental operations.",
+        "track_record": [
+          {
+            "company": "Dental365",
+            "role": "COO",
+            "outcome": "Successful exit.",
+            "learnings": "Learned operational scaling in dental industry."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The dental benefits market is dominated by traditional players like Delta Dental and Cigna, which focus on coverage rather than care.",
+      "primary_competitors": [
+        {
+          "name": "Delta Dental",
+          "description": "Traditional dental insurance provider.",
+          "strengths": "Established brand and large customer base.",
+          "weaknesses": "Limited focus on care and user experience.",
+          "comparison": "KELLS differentiates by focusing on care and user engagement."
+        },
+        {
+          "name": "Careington",
+          "description": "Discount dental plan provider.",
+          "strengths": "Affordable pricing.",
+          "weaknesses": "Limited transparency and engagement.",
+          "comparison": "KELLS offers a more integrated and engaging solution."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Focus on Care",
+          "User Engagement",
+          "Affordable Pricing"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Delta Dental": [
+            false,
+            false,
+            true
+          ],
+          "Careington": [
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      "competitive_positioning": "KELLS is well-positioned with a focus on care and engagement, offering a unique value proposition in a market dominated by traditional coverage-focused players."
+    },
+    "red_flags": [
+      "Potential challenges in scaling sales operations without a dedicated salesforce."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The U.S. dental insurance market is substantial, estimated at $100-$180 billion, with additional opportunities in the $500 million dental savings plan market. KELLS has a clear path to capture a significant portion of this market with its innovative approach.",
+    "market_analysis": {
+      "total_addressable_market": "TAM is estimated at $100-$180 billion for dental insurance.",
+      "serviceable_addressable_market": "SAM includes self-insured employers and benefit platforms.",
+      "serviceable_obtainable_market": "SOM is projected based on partnerships and direct sales.",
+      "market_growth_rate": "The dental benefits market is growing, driven by increasing healthcare costs and demand for better care solutions.",
+      "market_dynamics": "Key trends include a shift towards digital health solutions and increased focus on preventive care."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include benefit brokers, employers, and healthcare platforms.",
+      "willingness_to_pay": "Evidence of willingness to pay through existing partnerships and pricing structure.",
+      "customer_acquisition_cost": "CAC is managed through strategic partnerships and direct sales.",
+      "customer_lifetime_value": "LTV is expected to be high due to recurring revenue model and strong engagement."
+    },
+    "red_flags": [
+      "Need for market education to drive adoption of innovative solutions."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "KELLS leverages AI technology to provide a differentiated dental benefits platform. The technology is defensible with proprietary algorithms and a focus on virtual care.",
+    "technical_assessment": {
+      "core_technology": "AI-powered platform for dental benefits.",
+      "defensibility": "Strong technical moat with proprietary algorithms.",
+      "intellectual_property": "Potential for IP protection through patents.",
+      "scalability": "The platform is designed to scale with user growth.",
+      "integration_capabilities": "Easily integrates with existing benefit platforms."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for virtual dental care.",
+      "data_advantages": "Access to unique data through user engagement.",
+      "technical_barriers": "High barriers to entry due to AI expertise.",
+      "development_velocity": "Rapid development and iteration capabilities."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining technical lead as market evolves."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "KELLS has demonstrated strong traction with over 1,000 active members and key partnerships. The engagement metrics are impressive, indicating strong product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue is growing with new partnerships and user adoption.",
+      "customer_metrics": "Over 1,000 active members with significant growth potential.",
+      "retention_analysis": "High engagement with 60% completing virtual checkups.",
+      "unit_economics": "Positive unit economics with scalable revenue model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from initial users and partners.",
+      "product_market_fit": "Strong PMF indicated by high engagement rates.",
+      "notable_customers": "Partnerships with Aetna, Gallagher, and others.",
+      "partnerships": "Strategic partnerships with key industry players."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Formed key partnerships with major industry players.",
+        "context": "Partnerships with PEO, TPA, and benefit brokers.",
+        "outcome": "Increased market reach and user adoption."
+      }
+    ],
+    "red_flags": [
+      "Dependence on partnerships for scaling user base."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable for KELLS with increasing demand for digital health solutions and a shift towards preventive care. The market is ready for innovation in dental benefits.",
+    "market_timing": {
+      "market_readiness": "The market is mature and ready for innovative solutions.",
+      "catalysts": "Rising healthcare costs and demand for better care.",
+      "tailwinds": "Favorable trends towards digital health and preventive care.",
+      "headwinds": "Potential regulatory challenges in healthcare."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a strong market presence early.",
+      "competitive_response": "Traditional players may respond slowly to innovation.",
+      "market_education": "Requires education to drive adoption of new solutions.",
+      "technology_maturity": "AI and digital health technologies are mature and ready for deployment."
+    },
+    "red_flags": [
+      "Need for ongoing market education to drive adoption."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "KELLS is currently fundraising with a 12-month runway. The terms need to align with SV's investment criteria, focusing on valuation and ownership potential.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Target raise amount not specified.",
+      "pre_money_valuation": "Valuation details not provided.",
+      "post_money_valuation": "Valuation details not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on digital health.",
+      "ownership_potential": "Opportunity for significant ownership with early investment.",
+      "liquidation_preferences": "Details not provided.",
+      "valuation_justification": "Valuation needs to be justified with comparables and metrics."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "KELLS presents a compelling investment opportunity with strong team, technology, and market positioning. The traction and timing are favorable, aligning with SV's investment thesis.",
+    "key_factors": [
+      "Strong team with domain expertise",
+      "Innovative AI-powered platform",
+      "Significant market opportunity",
+      "Positive traction and partnerships"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on financials and terms",
+      "Engage with founders to discuss strategic alignment",
+      "Explore potential for board representation and ownership"
+    ]
+  }
+}

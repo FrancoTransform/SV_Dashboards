@@ -1,0 +1,197 @@
+{
+  "company_name": "JOYA Health",
+  "website": "https://joyahealth.com",
+  "year_founded": "2021",
+  "description": "Changing people’s lives through their skin. JOYA is the only preventative skin health and wellness platform. Driving better access and lowering cost.",
+  "problem_statement": "limited access and cost to simply have better skin",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1jy_myO0O0u714CjQ2e_cWeTUU7f4d_EU/edit?slide=id.g33c4f9d5009_0_107#slide=id.g33c4f9d5009_0_107",
+  "demo_link": "https://docs.google.com/presentation/d/1jy_myO0O0u714CjQ2e_cWeTUU7f4d_EU/edit?slide=id.g33c4f9d5009_0_107#slide=id.g33c4f9d5009_0_107",
+  "team": {
+    "score": 4,
+    "justification": "The founding team, led by Mike Jafar, demonstrates strong execution ability and domain expertise in skin health. The team has a well-rounded skill set with a VP of Product, VP of Ops, and a full-stack engineer, indicating a solid foundation for product development and operations.",
+    "company_assessment": {
+      "business_model_strength": "JOYA Health employs a PMPM model with an 80% gross margin, indicating strong unit economics and scalability potential. The diversified roadmap suggests a strategic approach to revenue generation.",
+      "market_positioning": "JOYA Health positions itself uniquely as a preventative skin health platform, differentiating from traditional skincare solutions by focusing on accessibility and cost reduction.",
+      "execution_capability": "The team has demonstrated execution capability with $500K in ARR and a robust sales pipeline, indicating effective go-to-market strategies.",
+      "strategic_vision": "The company has a clear strategic vision to scale and influence product development, supported by market research and investor backing."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Mike Jafar",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/michaeljafar/",
+        "background": "Mike Jafar has a strong background in product development and operations, with experience in leading teams and scaling businesses.",
+        "domain_expertise": "Expertise in skin health and wellness, with a focus on preventative care.",
+        "previous_startups": "No prior startups mentioned, but significant experience in relevant industry roles.",
+        "notable_achievements": "Successfully launched JOYA Health and secured funding from notable investors.",
+        "leadership_signals": "Demonstrates strong leadership through team building and strategic vision.",
+        "track_record": [
+          {
+            "company": "Previous company name",
+            "role": "Role at company",
+            "outcome": "Exit, acquisition, failure, ongoing",
+            "learnings": "Key learnings and relevance to current venture"
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape in skin health is fragmented, with no direct competitors offering a similar preventative platform.",
+      "primary_competitors": [
+        {
+          "name": "Competitor name",
+          "description": "What they do and their positioning",
+          "strengths": "Their key advantages",
+          "weaknesses": "Their limitations or gaps",
+          "comparison": "How this company compares and differentiates"
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Preventative Focus",
+          "Cost Efficiency",
+          "Market Access"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Competitor 1": [
+            false,
+            true,
+            false
+          ],
+          "Competitor 2": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "JOYA Health has a strong competitive position with a unique preventative focus and cost-efficient model."
+    },
+    "red_flags": [
+      "Dependence on outsourced engineering could pose risks to product development timelines."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The TAM of 32M consumers indicates a significant market opportunity. The company's focus on accessibility and cost reduction aligns well with market needs.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at 32M consumers, based on market research and industry data.",
+      "serviceable_addressable_market": "SAM analysis suggests a realistic capture of a significant portion of the TAM through strategic partnerships and direct sales.",
+      "serviceable_obtainable_market": "SOM projections are supported by a strong sales pipeline and effective go-to-market strategy.",
+      "market_growth_rate": "The skin health market is experiencing steady growth, with increasing consumer awareness and demand for preventative solutions.",
+      "market_dynamics": "Key trends include a shift towards preventative care and increased consumer spending on wellness."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include individuals seeking affordable and accessible skin health solutions.",
+      "willingness_to_pay": "Evidence suggests strong willingness to pay, with 50% of customers fully subsidizing the service for employees.",
+      "customer_acquisition_cost": "CAC is not explicitly stated, but the sales pipeline indicates effective acquisition strategies.",
+      "customer_lifetime_value": "LTV is likely high given the subscription model and potential for long-term customer relationships."
+    },
+    "red_flags": [
+      "Market penetration may be challenged by consumer education and awareness."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology stack is developed by a combination of in-house and outsourced engineers, which may impact defensibility and scalability.",
+    "technical_assessment": {
+      "core_technology": "The platform leverages a combination of proprietary algorithms and third-party integrations to deliver preventative skin health solutions.",
+      "defensibility": "Technical moats are limited due to reliance on outsourced development.",
+      "intellectual_property": "No specific IP strategy or patents mentioned.",
+      "scalability": "The technical architecture appears scalable, but reliance on outsourced engineers could pose challenges.",
+      "integration_capabilities": "The platform is designed to integrate with existing systems, enhancing its value proposition."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms are a key differentiator, though details are limited.",
+      "data_advantages": "Potential data advantages from customer interactions and feedback.",
+      "technical_barriers": "Limited barriers due to outsourced development.",
+      "development_velocity": "Development velocity may be impacted by reliance on external resources."
+    },
+    "red_flags": [
+      "Outsourced engineering could impact product quality and innovation."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "JOYA Health has demonstrated strong traction with $500K in ARR and a robust sales pipeline, indicating effective market validation and growth potential.",
+    "growth_metrics": {
+      "revenue_growth": "The company has achieved $500K in ARR, with a strong pipeline suggesting significant growth potential.",
+      "customer_metrics": "22 paying customers with a pipeline of 86 potential customers, indicating strong acquisition efforts.",
+      "retention_analysis": "Retention rates are not explicitly stated, but the subscription model suggests potential for high retention.",
+      "unit_economics": "Strong unit economics with an 80% gross margin and diversified revenue streams."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive customer feedback and satisfaction indicators support product-market fit.",
+      "product_market_fit": "Evidence of strong PMF with a unique value proposition and growing customer base.",
+      "notable_customers": "No specific notable customers mentioned, but the customer base is growing.",
+      "partnerships": "Strategic partnerships are likely, given the sales pipeline and market approach."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Achieved $500K in ARR with a strong sales pipeline.",
+        "context": "Demonstrates effective go-to-market strategy and customer acquisition.",
+        "outcome": "Continued growth and market expansion."
+      }
+    ],
+    "red_flags": [
+      "Sales cycle of 3-6 months could impact cash flow and scaling efforts."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing consumer demand for preventative health solutions and a growing market for wellness products.",
+    "market_timing": {
+      "market_readiness": "The market is ready for preventative skin health solutions, with growing consumer awareness and demand.",
+      "catalysts": "Key trends include a shift towards wellness and preventative care, supported by technological advancements.",
+      "tailwinds": "Favorable macro trends such as increased health consciousness and spending on wellness.",
+      "headwinds": "Potential challenges include consumer education and market penetration."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "JOYA Health benefits from being an early mover in the preventative skin health space.",
+      "competitive_response": "The likelihood of competitive response is moderate, given the unique positioning.",
+      "market_education": "Market education is required to drive adoption and awareness.",
+      "technology_maturity": "The underlying technologies are mature and support the platform's scalability."
+    },
+    "red_flags": [
+      "Market education and consumer awareness are critical for success."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is not currently fundraising, but previous funding rounds indicate strong investor interest and alignment with SV's focus areas.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising",
+      "raise_amount": "N/A",
+      "pre_money_valuation": "N/A",
+      "post_money_valuation": "N/A"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on preventative health aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership in future rounds.",
+      "liquidation_preferences": "N/A",
+      "valuation_justification": "Previous funding rounds suggest a reasonable valuation relative to market potential."
+    },
+    "red_flags": [
+      "No current fundraising activity limits immediate investment opportunities."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "JOYA Health demonstrates strong potential with a unique value proposition, solid traction, and alignment with market trends. The team has shown execution capability and strategic vision, making it a promising candidate for further consideration.",
+    "key_factors": [
+      "Strong market potential",
+      "Unique preventative focus",
+      "Solid traction and growth metrics"
+    ],
+    "next_steps": [
+      "Engage with the team to explore future fundraising opportunities",
+      "Assess potential for strategic partnerships and market expansion"
+    ]
+  }
+}

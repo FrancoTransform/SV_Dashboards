@@ -1,0 +1,198 @@
+{
+  "company_name": "GigEasy",
+  "website": "https://www.gigeasy.com",
+  "year_founded": "2022",
+  "description": "GigEasy is an AI-powered insurance marketplace helping carriers and brokers efficiently sell small business and contractor insurance.",
+  "problem_statement": "Carriers have developed insurance products for contractors and small businesses, but many sit unused due to limited distribution. Brokers lack the tools to efficiently place these policies, and SMBs struggle to access coverage. For contractors, insurance is often required to work or get paid, directly impacting their revenue. GigEasy connects carriers, brokers, and SMBs through a modern distribution platform that gets the right products into the right hands quickly.",
+  "pitch_deck_link": "https://docsend.com/view/e5rre8e8ycpqbtfr",
+  "demo_link": "https://www.loom.com/share/24d0039025334469bc9096ec285c3bb8?sid=c5c40256-06c5-43b1-9ecf-57c61845e8ab",
+  "team": {
+    "score": 4,
+    "justification": "The team is led by a solo founder, Rilwan Lawal, who has demonstrated strong execution ability by launching the product and securing partnerships with 250 brokerages and 13 carriers. The team has a solid technical foundation with a CTO and two full-stack engineers, indicating strong domain expertise and execution capability.",
+    "company_assessment": {
+      "business_model_strength": "GigEasy's business model is robust, with revenue generated from a 20% share of premiums and plans for SaaS fees. The model is scalable and well-positioned in a growing market.",
+      "market_positioning": "The company uniquely positions itself by focusing on AI-driven product matching and a contractor-first approach, differentiating it from competitors.",
+      "execution_capability": "The team has successfully onboarded a significant number of brokerages and carriers, demonstrating strong execution capability.",
+      "strategic_vision": "GigEasy has a clear strategic vision to refine its go-to-market strategy and deepen distribution partnerships, aligning with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Rilwan Lawal",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/rilwanlawal/",
+        "background": "Rilwan has a background in product development and leadership, with experience in building and scaling technology products.",
+        "domain_expertise": "Expertise in insurance technology and AI-driven solutions.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Successfully launched GigEasy and secured significant partnerships.",
+        "leadership_signals": "Demonstrated leadership in building a cohesive team and executing the company's vision.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The competitive landscape includes players like BoldPenguin and Tarmika, who focus on general small business markets.",
+      "primary_competitors": [
+        {
+          "name": "BoldPenguin",
+          "description": "Focuses on small business insurance solutions.",
+          "strengths": "Established market presence and broad product offerings.",
+          "weaknesses": "Lacks AI-driven infrastructure for niche markets.",
+          "comparison": "GigEasy differentiates with AI-driven product matching and a focus on contractors."
+        },
+        {
+          "name": "Tarmika",
+          "description": "Offers a quoting platform for small businesses.",
+          "strengths": "Strong quoting tools and integrations.",
+          "weaknesses": "Limited end-to-end support for brokers.",
+          "comparison": "GigEasy provides a more comprehensive platform with end-to-end support."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "AI-driven product matching",
+          "Contractor-first approach",
+          "End-to-end support"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "BoldPenguin": [
+            false,
+            false,
+            true
+          ],
+          "Tarmika": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "GigEasy is well-positioned with sustainable advantages in AI-driven solutions and a contractor-focused approach."
+    },
+    "red_flags": [
+      "Solo founder may face challenges in scaling without additional leadership support."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The TAM is substantial, projected to reach $104 billion by 2028, with a strong growth rate driven by regulatory pressures and demand for better tools in the gig economy.",
+    "market_analysis": {
+      "total_addressable_market": "$104 billion by 2028, based on the growing need for SMB insurance solutions.",
+      "serviceable_addressable_market": "Significant portion of the TAM is serviceable with the right distribution strategy.",
+      "serviceable_obtainable_market": "SOM is achievable through strategic partnerships and scaling distribution.",
+      "market_growth_rate": "Projected CAGR is robust, supported by increasing regulatory demands and market needs.",
+      "market_dynamics": "Key trends include the rise of gig work and the need for efficient insurance distribution."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Independent insurance brokers and digital MGAs serving SMBs and contractors.",
+      "willingness_to_pay": "High willingness to pay for solutions that improve efficiency and product access.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but likely favorable given the partnership strategy.",
+      "customer_lifetime_value": "LTV is potentially high due to recurring revenue from policy sales and SaaS fees."
+    },
+    "red_flags": [
+      "Market fragmentation could pose challenges in achieving scale."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "GigEasy's technology is built in-house, offering a defensible AI-driven platform with strong integration capabilities.",
+    "technical_assessment": {
+      "core_technology": "AI-powered insurance marketplace with product matching capabilities.",
+      "defensibility": "AI-driven infrastructure provides a competitive moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary algorithms are implied.",
+      "scalability": "The platform is designed to scale with growth, supported by in-house development.",
+      "integration_capabilities": "Strong integration capabilities with carriers and brokers."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for product matching.",
+      "data_advantages": "Potential data advantages from broker and carrier partnerships.",
+      "technical_barriers": "AI-driven infrastructure is a barrier to replication.",
+      "development_velocity": "In-house team allows for rapid development and iteration."
+    },
+    "red_flags": [
+      "Lack of explicit IP protection strategy could be a concern."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong early traction with 250 brokerages and 13 carriers onboarded, indicating product-market fit and demand.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth is not detailed, but early traction suggests positive trends.",
+      "customer_metrics": "250 brokerages onboarded with a growing sales pipeline.",
+      "retention_analysis": "Retention metrics are not detailed, but early engagement is strong.",
+      "unit_economics": "Unit economics are favorable with a 20% share of premiums."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early broker partners.",
+      "product_market_fit": "Evidence of strong PMF with high engagement from brokers and carriers.",
+      "notable_customers": "250 brokerages and 13 carriers as key partners.",
+      "partnerships": "Strategic partnerships with agency groups and broker networks."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Onboarding of 250 brokerages and 13 carriers.",
+        "context": "Achieved through targeted go-to-market strategy.",
+        "outcome": "Strong foundation for scaling distribution."
+      }
+    ],
+    "red_flags": [
+      "Lack of detailed revenue and retention metrics."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable with strong market readiness and regulatory tailwinds supporting the business.",
+    "market_timing": {
+      "market_readiness": "Market is mature and ready for AI-driven insurance solutions.",
+      "catalysts": "Regulatory pressures and the rise of gig work are key catalysts.",
+      "tailwinds": "Favorable macro trends include increasing demand for efficient insurance distribution.",
+      "headwinds": "Potential challenges include market fragmentation."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into a niche market provides a first-mover advantage.",
+      "competitive_response": "Competitors may respond, but GigEasy's AI-driven approach offers a defensible position.",
+      "market_education": "Some market education may be required, but demand is evident.",
+      "technology_maturity": "Underlying technologies are mature and support the solution."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The terms are aligned with SV's focus, with a reasonable valuation and clear use of funds for scaling.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified, but previous raise was $1.3 million.",
+      "pre_money_valuation": "$8M post-money valuation from the SAFE round.",
+      "post_money_valuation": "Aligned with market comparables and growth potential."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's investment criteria in insurance technology.",
+      "ownership_potential": "Potential for meaningful ownership and influence.",
+      "liquidation_preferences": "Not specified, but standard preferences are assumed.",
+      "valuation_justification": "Valuation is justified by early traction and market potential."
+    },
+    "red_flags": [
+      "Lack of detailed raise amount and use of funds."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "GigEasy demonstrates strong alignment with SV's investment thesis, with a compelling market opportunity, robust technology, and early traction. The team has shown execution capability, and the timing is favorable for scaling.",
+    "key_factors": [
+      "Strong market opportunity",
+      "AI-driven technology",
+      "Early traction and partnerships"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence",
+      "Explore potential for strategic partnerships",
+      "Assess leadership support needs"
+    ]
+  }
+}

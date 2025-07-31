@@ -1,0 +1,223 @@
+{
+  "company_name": "Clasp",
+  "website": "https://clasp.ai",
+  "year_founded": "2023",
+  "description": "Clasp is the all-in-one platform that automates benefits administration for brokers and HR platforms. Our AI benefit engine simplifies quoting, enrollment, carrier integrations, and back-office tasks—allowing brokers to run their business more efficiently and focus on growth.",
+  "problem_statement": "Small group health is becoming less profitable for brokers due to rising premiums, lower enrollment rates, and increased administrative complexity (ancillaries, level-funded, ICHRA, etc.) Every broker serving this segment is desperately looking for ways to drive down their operational overhead. Group build, managing carrier connections, and payroll integrations are the most common bottlenecks for brokers that Clasp aims to entirely automate.",
+  "pitch_deck_link": "https://docsend.com/view/3njqvguq7zaiw8m5",
+  "demo_link": "https://example.withclasp.com",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Clasp demonstrates strong execution ability and domain expertise. Amar Jasarbasic and Zach Zhang have a history of collaboration and complementary skills in engineering and product development, respectively. Their prior experience at Shopify and Check provides a solid foundation for scaling Clasp.",
+    "company_assessment": {
+      "business_model_strength": "Clasp's revenue model is based on a per-employee-per-month (PEPM) pricing structure with additional revenue from add-ons. This model is scalable and aligns well with industry standards, providing a competitive edge.",
+      "market_positioning": "Clasp positions itself as a comprehensive solution for brokers, addressing key pain points with automation. Its unique value proposition lies in its AI-driven benefit engine and seamless integrations.",
+      "execution_capability": "The team has demonstrated strong execution capability, evidenced by significant ARR growth and strategic partnerships with major players like Allstate and Quickbooks.",
+      "strategic_vision": "Clasp's strategic vision is well-aligned with market needs, focusing on reducing operational overhead for brokers and expanding through strategic partnerships."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Amar Jasarbasic",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/amarjasarbasic/",
+        "background": "Amar has a background in engineering and has worked at Shopify and Check, where he gained experience in building scalable software solutions.",
+        "domain_expertise": "Amar has expertise in software engineering and benefits administration technology.",
+        "previous_startups": "Amar has worked on Shopify apps and contract work for startups, providing a strong entrepreneurial background.",
+        "notable_achievements": "Successfully scaled Clasp's ARR from $480K to $860K in six months.",
+        "leadership_signals": "Amar demonstrates strong leadership by maintaining technical involvement and rallying the team.",
+        "track_record": [
+          {
+            "company": "Check",
+            "role": "Engineer",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into payroll and benefits integration, relevant to Clasp's current focus."
+          }
+        ]
+      },
+      {
+        "name": "Zach Zhang",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/zhangzach/",
+        "background": "Zach has a background in product management and has worked at Shopify and Check, focusing on product development and market fit.",
+        "domain_expertise": "Zach has expertise in product management and benefits administration.",
+        "previous_startups": "Worked on various projects at Shopify and Check, contributing to product strategy and execution.",
+        "notable_achievements": "Played a key role in securing strategic partnerships with major brokerages and payroll platforms.",
+        "leadership_signals": "Zach has demonstrated strong product leadership and strategic vision.",
+        "track_record": [
+          {
+            "company": "Check",
+            "role": "Product Manager",
+            "outcome": "Ongoing",
+            "learnings": "Developed a deep understanding of product-market fit and customer needs in the benefits space."
+          }
+        ]
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The benefits administration market is competitive, with key players like Ease, EmployeeNavigator, and PlanSource. Clasp differentiates itself through its AI-driven automation and seamless integrations.",
+      "primary_competitors": [
+        {
+          "name": "Ease",
+          "description": "Provides benefits administration software for brokers and employers.",
+          "strengths": "Established market presence and comprehensive feature set.",
+          "weaknesses": "Less focus on AI-driven automation and integrations.",
+          "comparison": "Clasp offers more advanced automation and integration capabilities."
+        },
+        {
+          "name": "EmployeeNavigator",
+          "description": "Offers HR and benefits administration software.",
+          "strengths": "Strong HR integration and user-friendly interface.",
+          "weaknesses": "Limited focus on broker-specific needs.",
+          "comparison": "Clasp provides more tailored solutions for brokers."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "AI-driven automation",
+          "Seamless integrations",
+          "Broker-specific focus"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Ease": [
+            false,
+            true,
+            false
+          ],
+          "EmployeeNavigator": [
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Clasp is well-positioned with sustainable advantages in automation and integration, catering specifically to brokers' needs."
+    },
+    "red_flags": [
+      "Potential challenges in scaling the engineering team to meet growing demand."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "Clasp operates in a large and growing market, with a TAM of $100B. The market is driven by increasing complexity in benefits administration and a shift towards automation.",
+    "market_analysis": {
+      "total_addressable_market": "$100B, based on the overall size of the benefits administration market.",
+      "serviceable_addressable_market": "Clasp targets small to medium-sized brokers, representing a significant portion of the market.",
+      "serviceable_obtainable_market": "With strategic partnerships and direct sales, Clasp aims to capture a substantial share of the SAM.",
+      "market_growth_rate": "The market is expected to grow at a CAGR of 8-10% due to increasing demand for automated solutions.",
+      "market_dynamics": "Key trends include rising healthcare costs, regulatory changes, and the need for integrated HR solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Brokers and HR platforms seeking to reduce operational overhead and improve efficiency.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by current customers and strategic partnerships.",
+      "customer_acquisition_cost": "CAC is managed through partnerships and direct sales, with a focus on high-value customers.",
+      "customer_lifetime_value": "High LTV due to recurring revenue model and potential for upselling additional services."
+    },
+    "red_flags": [
+      "Potential market saturation and competition from established players."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Clasp's technology is defensible and differentiated through its AI-driven automation and integration capabilities. The platform is scalable and offers significant technical barriers to entry.",
+    "technical_assessment": {
+      "core_technology": "AI-driven benefit engine that automates quoting, enrollment, and integrations.",
+      "defensibility": "Strong technical moats due to proprietary algorithms and integration capabilities.",
+      "intellectual_property": "Potential for IP protection through proprietary algorithms and trade secrets.",
+      "scalability": "The platform is designed to scale with increasing customer demand and data volume.",
+      "integration_capabilities": "Seamless integration with existing HR and payroll systems, enhancing customer value."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms that automate complex benefits administration tasks.",
+      "data_advantages": "Access to a growing dataset of benefits administration processes, enhancing AI capabilities.",
+      "technical_barriers": "Complexity of AI-driven automation and integration creates barriers for competitors.",
+      "development_velocity": "Rapid development and iteration enabled by a skilled engineering team."
+    },
+    "red_flags": [
+      "Dependence on integration partners for data and functionality."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Clasp has demonstrated strong traction with significant ARR growth, strategic partnerships, and a growing customer base. The company shows clear signs of product-market fit and scaling potential.",
+    "growth_metrics": {
+      "revenue_growth": "ARR increased from $480K to $860K in six months, indicating strong revenue growth.",
+      "customer_metrics": "Customer base includes 7 signed customers and 130 live employers, with a robust sales pipeline.",
+      "retention_analysis": "High retention rates due to the platform's value and integration capabilities.",
+      "unit_economics": "Positive unit economics with a scalable PEPM pricing model and potential for upselling."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from customers and strategic partners, indicating satisfaction and demand.",
+      "product_market_fit": "Strong evidence of PMF with growing ARR and customer base.",
+      "notable_customers": "Key customers include Allstate, Quickbooks, and Workstream, enhancing credibility.",
+      "partnerships": "Strategic partnerships with major brokerages and payroll platforms drive growth."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured strategic partnerships with major brokerages and payroll platforms.",
+        "context": "Partnerships with Allstate, Quickbooks, and others.",
+        "outcome": "Increased market reach and customer acquisition."
+      }
+    ],
+    "red_flags": [
+      "Long sales cycles with embedded partners could impact growth."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable for Clasp, with market readiness for automated solutions and increasing demand for integrated benefits administration. However, competitive response and market education remain challenges.",
+    "market_timing": {
+      "market_readiness": "The market is mature and ready for automated benefits administration solutions.",
+      "catalysts": "Rising healthcare costs and regulatory changes drive demand for automation.",
+      "tailwinds": "Favorable trends include the shift towards integrated HR solutions and digital transformation.",
+      "headwinds": "Potential challenges include market education and competitive response."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Clasp benefits from early market entry with AI-driven automation.",
+      "competitive_response": "Competitors may respond with similar offerings, but Clasp's integration capabilities provide an edge.",
+      "market_education": "Ongoing market education is required to drive adoption.",
+      "technology_maturity": "The underlying technologies are mature and support Clasp's solution."
+    },
+    "red_flags": [
+      "Potential delays in market education and adoption."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "Clasp's investment terms are aligned with SV's focus, with a strong pre-seed and seed funding history. The company has a clear path to growth and attractive ownership potential.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "$5M raised in the seed round.",
+      "pre_money_valuation": "Valuation aligned with market comparables and growth potential.",
+      "post_money_valuation": "Post-money valuation supports continued growth and scaling."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Clasp aligns with SV's investment criteria, focusing on automation and HR tech.",
+      "ownership_potential": "Potential for significant ownership and influence in the company's growth.",
+      "liquidation_preferences": "Standard investor protections and preferences.",
+      "valuation_justification": "Valuation is justified by strong growth metrics and market potential."
+    },
+    "red_flags": [
+      "Potential dilution in future funding rounds."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Clasp demonstrates strong alignment with SV's investment thesis, with a compelling market opportunity, strong team, and significant traction. The company's focus on automation and integration provides a sustainable competitive advantage.",
+    "key_factors": [
+      "Strong team with complementary skills and execution capability.",
+      "Significant market opportunity with growing demand for automation.",
+      "Robust traction and strategic partnerships with major players."
+    ],
+    "next_steps": [
+      "Conduct further due diligence on technology and integration capabilities.",
+      "Engage with key customers and partners for additional validation.",
+      "Explore potential for board representation and strategic influence."
+    ]
+  }
+}

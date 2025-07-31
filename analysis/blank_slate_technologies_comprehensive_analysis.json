@@ -1,0 +1,173 @@
+{
+  "company_name": "Blank Slate Technologies",
+  "website": "http://www.blankslatetech.com",
+  "year_founded": "2019",
+  "description": "Building high-performance teams through clinical and scientific technologies that improve cognitive retention AND can anticipate memory loss.",
+  "problem_statement": "Companions of the future are seeking to maximize human asset productivity by enabling more time working and less time training or in the classroom. And companies want to spend less time retraining their workforce and more time reinforcing key learnings and strategic goals.",
+  "pitch_deck_link": "http://www.blankslatetech.com",
+  "demo_link": "http://www.blankslatetech.com",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has demonstrated strong execution ability with a focus on cognitive technologies. Matt Trevithick, the co-founder, has a background that suggests a solid understanding of the domain, although more information on his specific achievements and track record would strengthen this assessment.",
+    "company_assessment": {
+      "business_model_strength": "The company employs a contract and subscription revenue model, which is scalable and aligns well with their target market's needs.",
+      "market_positioning": "Blank Slate Technologies positions itself uniquely by focusing on cognitive retention and memory loss anticipation, which is a differentiated value proposition.",
+      "execution_capability": "The team has successfully secured contracts with major organizations, indicating strong execution capabilities.",
+      "strategic_vision": "The strategic vision is clear, focusing on enhancing human performance and reducing training time, which aligns with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Matt Trevithick",
+        "role": "Co-founder",
+        "linkedin": "Http://matttrevithick.com",
+        "background": "Details not provided, but inferred to have relevant experience in cognitive technologies.",
+        "domain_expertise": "Appears to have expertise in cognitive and scientific technologies.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No specific awards or recognitions mentioned.",
+        "leadership_signals": "Evidence of leadership capability through securing significant contracts.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The company claims no direct competition, which suggests a niche market or a unique approach.",
+      "primary_competitors": [],
+      "competitive_matrix": {
+        "columns": [
+          "Unique cognitive focus",
+          "Contract-based revenue",
+          "No direct competition"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      "competitive_positioning": "The company has a strong competitive position due to its unique focus and lack of direct competition."
+    },
+    "red_flags": [
+      "Limited information on founder's background and achievements"
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market size is not clearly defined beyond contract values, and there is limited data on market growth rates or competitive whitespace.",
+    "market_analysis": {
+      "total_addressable_market": "Not explicitly defined; inferred from contract values.",
+      "serviceable_addressable_market": "Limited information on realistic market capture.",
+      "serviceable_obtainable_market": "SOM projections are not provided.",
+      "market_growth_rate": "No specific CAGR or growth trends mentioned.",
+      "market_dynamics": "Focus on human performance and risk mitigation suggests a growing interest."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include US Department of Defense Special Forces and American Association of Airport Executives.",
+      "willingness_to_pay": "Evidence of willingness to pay through existing contracts.",
+      "customer_acquisition_cost": "No specific CAC data provided.",
+      "customer_lifetime_value": "LTV analysis not provided."
+    },
+    "red_flags": [
+      "Lack of detailed market size and growth data"
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology appears to be proprietary and focused on cognitive retention, but details on technical defensibility and IP are limited.",
+    "technical_assessment": {
+      "core_technology": "Focus on cognitive retention and memory loss anticipation.",
+      "defensibility": "Limited information on technical moats.",
+      "intellectual_property": "No specific IP strategy mentioned.",
+      "scalability": "The technology seems scalable given the contract-based model.",
+      "integration_capabilities": "No specific details on integration capabilities."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Implied through focus on cognitive technologies.",
+      "data_advantages": "No specific data advantages mentioned.",
+      "technical_barriers": "Limited information on barriers to entry.",
+      "development_velocity": "No specific details on development speed."
+    },
+    "red_flags": [
+      "Lack of detailed IP and technical defensibility information"
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has secured significant contracts and has a growing pipeline, indicating strong traction.",
+    "growth_metrics": {
+      "revenue_growth": "Implied growth through new contracts with major organizations.",
+      "customer_metrics": "Currently 5 major contracts with an emerging pipeline.",
+      "retention_analysis": "No specific retention data provided.",
+      "unit_economics": "No specific unit economics data provided."
+    },
+    "market_validation": {
+      "customer_feedback": "Implied positive feedback through contract renewals.",
+      "product_market_fit": "Strong PMF indicated by contracts with major organizations.",
+      "notable_customers": "Includes US Department of Defense Special Forces and FedEx pilots.",
+      "partnerships": "No specific partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Secured contracts with major organizations.",
+        "context": "Focus on human performance and risk mitigation.",
+        "outcome": "Strong market validation and traction."
+      }
+    ],
+    "red_flags": [
+      "Limited data on retention and unit economics"
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market appears ready for solutions that enhance human performance, with favorable trends supporting the business.",
+    "market_timing": {
+      "market_readiness": "Market is mature and ready for cognitive enhancement solutions.",
+      "catalysts": "Growing focus on human performance and risk mitigation.",
+      "tailwinds": "Favorable trends in cognitive technologies and workforce optimization.",
+      "headwinds": "Potential challenges in market education and adoption."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage due to lack of direct competition.",
+      "competitive_response": "Low likelihood of immediate competitive response.",
+      "market_education": "Some market education may be required.",
+      "technology_maturity": "Underlying technologies appear mature."
+    },
+    "red_flags": [
+      "Potential challenges in market education"
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is seeking $4-6m in funding, but details on valuation and terms are limited.",
+    "investment_details": {
+      "round_stage": "Not specified, but likely early-stage given funding request.",
+      "raise_amount": "$4-6m requested for scaling.",
+      "pre_money_valuation": "Not provided.",
+      "post_money_valuation": "Not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative technologies.",
+      "ownership_potential": "No specific ownership details provided.",
+      "liquidation_preferences": "Not provided.",
+      "valuation_justification": "Limited information on valuation metrics."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "The company demonstrates strong traction and a unique market position with significant contracts. However, further due diligence is needed on the founder's background, market size, and investment terms.",
+    "key_factors": [
+      "Strong traction with major contracts",
+      "Unique market position",
+      "Potential first-mover advantage"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on founder's background",
+      "Clarify market size and growth potential",
+      "Negotiate investment terms and valuation"
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "company_name": "Kaatch",
+  "website": "https://www.kaatch.co/",
+  "year_founded": "2024",
+  "description": "Kaatch helps fast-growing companies access vetted, senior HR experts, on demand. We offer flexible, project-based support across talent, people ops, compliance, and culture, without the rigidity of agencies or the noise of marketplaces. Our model is curated, human-first, and built for startups and scaleups that treat HR as strategic.",
+  "problem_statement": "Startups and scaleups face urgent HR challenges: hiring, retention, compliance, culture but often lack the internal capacity or expertise to solve them. Traditional solutions like agencies or full-time hires are slow, rigid, or too expensive. We know that people decisions are business decisions and too many fast-growing companies get them wrong when they can’t access the right expertise in time.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGd3vkllSE/UzHCbhOa7eOulCdL3dbCtg/edit?utm_content=DAGd3vkllSE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  "demo_link": "https://www.loom.com/share/eab86519fbe24d5e9d7be6edb608556f?sid=689f45f2-549a-4734-bbc4-f04884c72fab",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Kaatch demonstrates strong execution ability and domain expertise. Emmanuel Djengue (CEO) has a solid background in HR and innovation projects, while Nayram Mensah (CTO) brings significant technical expertise from previous successful startups. Alvaro Jimenez (COO) complements the team with operational experience. The team has a proven track record of collaboration and a clear understanding of the HR tech space.",
+    "company_assessment": {
+      "business_model_strength": "Kaatch operates on a commission-based model, taking a margin on the expert’s rate. This model is scalable and aligns with the needs of startups seeking flexible HR solutions.",
+      "market_positioning": "Kaatch positions itself as a curated, human-first alternative to traditional HR agencies and marketplaces, focusing on startups and scaleups.",
+      "execution_capability": "The team has demonstrated the ability to execute by launching in the market and generating over €100k in GMV within a short period.",
+      "strategic_vision": "Kaatch has a clear strategic vision to address the HR needs of fast-growing companies with a flexible, project-based approach."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Emmanuel Djengue",
+        "role": "CEO",
+        "linkedin": "https://es.linkedin.com/in/emmanuel-d-619a5847",
+        "background": "Emmanuel has a background in HR and innovation, having worked on several projects in the insurance sector.",
+        "domain_expertise": "HR and innovation in fast-growing companies.",
+        "previous_startups": "None mentioned.",
+        "notable_achievements": "Successfully launched Kaatch and generated significant early traction.",
+        "leadership_signals": "Demonstrated leadership in building and guiding the team.",
+        "track_record": []
+      },
+      {
+        "name": "Nayram Mensah",
+        "role": "CTO",
+        "linkedin": "https://es.linkedin.com/in/mensahahetonayram",
+        "background": "Nayram has built technology for various startups, including Kudobuzz and TaxFix.",
+        "domain_expertise": "Technical development and startup technology.",
+        "previous_startups": "Kudobuzz, TaxFix.",
+        "notable_achievements": "Contributed to the success of a German Unicorn.",
+        "leadership_signals": "Strong technical leadership and execution capability.",
+        "track_record": [
+          {
+            "company": "Kudobuzz",
+            "role": "Technical Lead",
+            "outcome": "Ongoing",
+            "learnings": "Gained experience in building scalable technology solutions."
+          }
+        ]
+      },
+      {
+        "name": "Alvaro Jimenez",
+        "role": "COO",
+        "linkedin": "https://www.linkedin.com/in/alvarojimenezayala/",
+        "background": "Alvaro has experience in operations and client-side roles in the insurance industry.",
+        "domain_expertise": "Operations and client management.",
+        "previous_startups": "None mentioned.",
+        "notable_achievements": "Built a solid relationship with Emmanuel through collaborative projects.",
+        "leadership_signals": "Strong operational leadership and strategic planning.",
+        "track_record": []
+      }
+    ],
+    "category_comparison": {
+      "competitive_landscape": "The HR tech space is competitive with traditional agencies, RPO providers, and freelance marketplaces.",
+      "primary_competitors": [
+        {
+          "name": "Traditional Agencies",
+          "description": "Focus on mid-to-large enterprises with long-term contracts.",
+          "strengths": "Established relationships and resources.",
+          "weaknesses": "Lack of flexibility and high costs.",
+          "comparison": "Kaatch offers more flexibility and speed, tailored for startups."
+        },
+        {
+          "name": "Freelance Marketplaces",
+          "description": "Platforms like Upwork and Fiverr offer generalist talent.",
+          "strengths": "Wide range of talent.",
+          "weaknesses": "Lack of curation and HR expertise.",
+          "comparison": "Kaatch provides curated, senior HR experts specifically for startups."
+        }
+      ],
+      "competitive_matrix": {
+        "columns": [
+          "Flexibility",
+          "Curation",
+          "Speed"
+        ],
+        "rows": {
+          "This Company": [
+            true,
+            true,
+            true
+          ],
+          "Traditional Agencies": [
+            false,
+            false,
+            false
+          ],
+          "Freelance Marketplaces": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "competitive_positioning": "Kaatch is well-positioned to capture the startup and scaleup market with its flexible, curated approach."
+    },
+    "red_flags": [
+      "Potential challenges in scaling beyond founder-led sales."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The HR professional service market is large and growing, with a projected CAGR of 13.50% from 2025 to 2034. Kaatch targets a specific segment of startups and scaleups, providing a clear path to capture market share.",
+    "market_analysis": {
+      "total_addressable_market": "USD 6.52 billion in 2024, projected to reach USD 23.13 billion by 2034.",
+      "serviceable_addressable_market": "Focus on startups and scaleups, particularly VC-backed companies.",
+      "serviceable_obtainable_market": "Realistic capture through strategic partnerships and targeted marketing.",
+      "market_growth_rate": "13.50% CAGR from 2025 to 2034.",
+      "market_dynamics": "Increasing demand for flexible HR solutions in fast-growing companies."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Founders, CEOs, and HR Managers in startups and scaleups.",
+      "willingness_to_pay": "Evidence of willingness to pay through early traction and project-based fees.",
+      "customer_acquisition_cost": "Currently low due to founder-led sales and referrals.",
+      "customer_lifetime_value": "High potential LTV due to recurring project needs."
+    },
+    "red_flags": [
+      "Need to educate the market on the benefits of flexible HR solutions."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "Kaatch's technology is built by a seasoned CTO with experience in successful startups. However, there is limited information on proprietary technology or IP protection.",
+    "technical_assessment": {
+      "core_technology": "Platform for matching companies with vetted HR experts.",
+      "defensibility": "Relies on curation and quality of service rather than proprietary technology.",
+      "intellectual_property": "No patents or IP protection strategy mentioned.",
+      "scalability": "Platform is designed to scale with demand.",
+      "integration_capabilities": "Ease of integration with existing HR systems not detailed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No unique algorithms mentioned.",
+      "data_advantages": "Relies on curated expert network.",
+      "technical_barriers": "Low technical barriers to entry.",
+      "development_velocity": "Fast development and iteration due to experienced CTO."
+    },
+    "red_flags": [
+      "Lack of proprietary technology or IP protection."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Kaatch has demonstrated strong early traction with over €100k in GMV and 10 paying clients. The company has a fast sales cycle and a clear understanding of its target market.",
+    "growth_metrics": {
+      "revenue_growth": "Over €100k in GMV within the first six months.",
+      "customer_metrics": "10 paying clients with a focus on expanding through partnerships.",
+      "retention_analysis": "High retention potential due to project-based model.",
+      "unit_economics": "Positive unit economics with a 20-25% margin on expert rates."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from VC-backed companies.",
+      "product_market_fit": "Strong PMF indicated by early traction and customer demand.",
+      "notable_customers": "VC-backed startups and scaleups.",
+      "partnerships": "Pursuing agreements with VC funds and HR platforms."
+    },
+    "successes_and_areas_of_investigation": [
+      {
+        "type": "Success",
+        "description": "Early traction and revenue generation.",
+        "context": "Launched in January 2025 with a focus on startups.",
+        "outcome": "Over €100k in GMV and 10 paying clients."
+      }
+    ],
+    "red_flags": [
+      "Reliance on founder-led sales for growth."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable for Kaatch as the demand for flexible HR solutions is increasing among startups and scaleups. The market is ready for innovative approaches to HR challenges.",
+    "market_timing": {
+      "market_readiness": "High readiness as startups seek flexible HR solutions.",
+      "catalysts": "Growth of startup ecosystem and need for strategic HR support.",
+      "tailwinds": "Increasing VC funding and focus on HR as a strategic function.",
+      "headwinds": "Potential resistance to change from traditional HR approaches."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a strong presence in the startup HR space.",
+      "competitive_response": "Traditional agencies may adapt to offer more flexible solutions.",
+      "market_education": "Requires educating startups on the benefits of flexible HR models.",
+      "technology_maturity": "Mature technology landscape supports platform development."
+    },
+    "red_flags": [
+      "Need for market education and overcoming traditional HR mindsets."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Kaatch is currently fundraising with a 12-month runway. The terms of the raise and valuation details are not provided, which limits the assessment of alignment with SV's investment criteria.",
+    "investment_details": {
+      "round_stage": "Seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on HR tech and startups.",
+      "ownership_potential": "Ownership potential not specified.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details not provided."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Kaatch demonstrates strong early traction, a clear market need, and a capable founding team. The company's focus on flexible HR solutions for startups aligns with current market trends and SV's investment thesis.",
+    "key_factors": [
+      "Strong early traction",
+      "Clear market need",
+      "Capable founding team"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence",
+      "Clarify investment terms and valuation",
+      "Explore potential strategic partnerships"
+    ]
+  }
+}
