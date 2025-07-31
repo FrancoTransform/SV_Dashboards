@@ -622,7 +622,7 @@ def index():
             print(f"Analysis directory does not exist: {ANALYSIS_DIR}")
             return render_template('index.html', submissions=[])
 
-        for file in ANALYSIS_DIR.glob('*_analysis.json'):
+        for file in ANALYSIS_DIR.glob('*_comprehensive_analysis.json'):
             print(f"\nProcessing file: {file}")
             try:
                 with open(file, 'r', encoding='utf-8') as f:
