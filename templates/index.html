@@ -242,7 +242,15 @@
                                 </div>
                                 <div class="text-sm">
                                     <span class="text-gray-400">Founder:</span><br>
-                                    <span class="text-gray-300">{{ submission.founder_profile.name if submission.founder_profile and submission.founder_profile.name else 'N/A' }}</span>
+                                    <span class="text-gray-300">
+                                        {% if submission.team and submission.team.founder_deep_dive and submission.team.founder_deep_dive|length > 0 %}
+                                            {{ submission.team.founder_deep_dive[0].name }}
+                                        {% elif submission.founder_profile and submission.founder_profile.name %}
+                                            {{ submission.founder_profile.name }}
+                                        {% else %}
+                                            N/A
+                                        {% endif %}
+                                    </span>
                                 </div>
                                 
                                 {% if submission.final_recommendation and submission.final_recommendation.status %}
@@ -322,7 +330,15 @@
                                 </div>
                                 <div class="text-sm">
                                     <span class="text-gray-400">Founder:</span><br>
-                                    <span class="text-gray-300">{{ submission.founder_profile.name if submission.founder_profile and submission.founder_profile.name else 'N/A' }}</span>
+                                    <span class="text-gray-300">
+                                        {% if submission.team and submission.team.founder_deep_dive and submission.team.founder_deep_dive|length > 0 %}
+                                            {{ submission.team.founder_deep_dive[0].name }}
+                                        {% elif submission.founder_profile and submission.founder_profile.name %}
+                                            {{ submission.founder_profile.name }}
+                                        {% else %}
+                                            N/A
+                                        {% endif %}
+                                    </span>
                                 </div>
 
                                 {% if submission.final_recommendation and submission.final_recommendation.status %}
