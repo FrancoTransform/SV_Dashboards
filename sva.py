@@ -662,8 +662,14 @@ def submission_detail(company_name):
     # Normalize company name for file lookup
     normalized_name = company_name.lower().replace(' ', '_').replace('-', '_')
     
-    # Try different possible filename variations
+    # Try different possible filename variations for comprehensive analyses
     possible_filenames = [
+        f"{normalized_name}_comprehensive_analysis.json",
+        f"{company_name.lower()}_comprehensive_analysis.json",
+        f"{company_name.lower().replace(' ', '')}_comprehensive_analysis.json",
+        f"{company_name.lower().replace(' ', '_')}_comprehensive_analysis.json",
+        f"{company_name.lower().replace(' ', '-')}_comprehensive_analysis.json",
+        # Fallback to legacy analysis files if comprehensive not found
         f"{normalized_name}_analysis.json",
         f"{company_name.lower()}_analysis.json",
         f"{company_name.lower().replace(' ', '')}_analysis.json",
@@ -673,64 +679,64 @@ def submission_detail(company_name):
     
     # Comprehensive mapping of URL names to actual filenames
     special_cases = {
-        # Companies with "AI" in the name
-        "sunnyhealthai": "sunny_health_ai_analysis.json",
-        "sunnyhealth": "sunny_health_ai_analysis.json",
-        "sunny": "sunny_health_ai_analysis.json",
-        "graphioai": "graphioai_analysis.json",
-        "graphio": "graphioai_analysis.json",
-        "graphio.ai": "graphioai_analysis.json",
-        "logistifyai": "logistify_ai_analysis.json",
-        "logistify": "logistify_ai_analysis.json",
-        "borderlessai": "borderless_analysis.json",
-        "borderless": "borderless_analysis.json",
-        
-        # Companies with spaces or special characters
-        "voltahealth": "volta_health_analysis.json",
-        "volta": "volta_health_analysis.json",
-        "jogohealth": "jogohealth_analysis.json",
-        "jogo": "jogohealth_analysis.json",
-        "joyahealth": "joya_health_analysis.json",
-        "joya": "joya_health_analysis.json",
-        "defianthealth": "defianthealth_analysis.json",
-        "defiant": "defianthealth_analysis.json",
-        "blankslate": "blank_slate_technologies_analysis.json",
-        "blankslatetech": "blank_slate_technologies_analysis.json",
-        "blankslatetechnologies": "blank_slate_technologies_analysis.json",
-        "virtualsapiens": "virtualsapiens_analysis.json",
-        "mandalaforus": "mandalaforus_analysis.json",
-        "mandalaforusinc": "mandalaforus_analysis.json",
-        "mandala": "mandalaforus_analysis.json",
-        "paramean": "paramean_solutions_analysis.json",
-        "parameansolutions": "paramean_solutions_analysis.json",
-        "doktorconnect": "doktorconnect_analysis.json",
-        "hero": "hero_analysis.json",
-        "clasp": "clasp_analysis.json",
-        "clsp": "clasp_analysis.json",
-        "cryptomate": "cryptomate_analysis.json",
+        # Companies with "AI" in the name - comprehensive analysis files
+        "sunnyhealthai": "sunny_health_ai_comprehensive_analysis.json",
+        "sunnyhealth": "sunny_health_ai_comprehensive_analysis.json",
+        "sunny": "sunny_health_ai_comprehensive_analysis.json",
+        "graphioai": "graphioai_comprehensive_analysis.json",
+        "graphio": "graphioai_comprehensive_analysis.json",
+        "graphio.ai": "graphioai_comprehensive_analysis.json",
+        "logistifyai": "logistify_ai_comprehensive_analysis.json",
+        "logistify": "logistify_ai_comprehensive_analysis.json",
+        "borderlessai": "borderless_ai_comprehensive_analysis.json",
+        "borderless": "borderless_ai_comprehensive_analysis.json",
+
+        # Companies with spaces or special characters - comprehensive analysis files
+        "voltahealth": "volta_health_comprehensive_analysis.json",
+        "volta": "volta_health_comprehensive_analysis.json",
+        "jogohealth": "jogo_health_comprehensive_analysis.json",
+        "jogo": "jogo_health_comprehensive_analysis.json",
+        "joyahealth": "joya_health_comprehensive_analysis.json",
+        "joya": "joya_health_comprehensive_analysis.json",
+        "defianthealth": "defiant_health_comprehensive_analysis.json",
+        "defiant": "defiant_health_comprehensive_analysis.json",
+        "blankslate": "blank_slate_technologies_comprehensive_analysis.json",
+        "blankslatetech": "blank_slate_technologies_comprehensive_analysis.json",
+        "blankslatetechnologies": "blank_slate_technologies_comprehensive_analysis.json",
+        "virtualsapiens": "virtual_sapiens_comprehensive_analysis.json",
+        "mandalaforus": "mandala_for_us_inc_comprehensive_analysis.json",
+        "mandalaforusinc": "mandala_for_us_inc_comprehensive_analysis.json",
+        "mandala": "mandala_for_us_inc_comprehensive_analysis.json",
+        "paramean": "paramean_solutions_comprehensive_analysis.json",
+        "parameansolutions": "paramean_solutions_comprehensive_analysis.json",
+        "doktorconnect": "doktorconnect_comprehensive_analysis.json",
+        "hero": "hero_comprehensive_analysis.json",
+        "clasp": "clasp_comprehensive_analysis.json",
+        "clsp": "clasp_comprehensive_analysis.json",
+        "cryptomate": "cryptomate_comprehensive_analysis.json",
         "beacon": "beacon_comprehensive_analysis.json",
-        "aidora": "aidora_analysis.json",
-        "ezra": "ezra_analysis.json",
-        "gtmflow": "gtmflow_analysis.json",
-        "smartheritance": "smartheritance_analysis.json",
-        "guaranteedhealth": "guaranteed_health_inc_analysis.json",
-        "guaranteedhealth,inc": "guaranteed_health_inc_analysis.json",
-        "guaranteedhealthinc": "guaranteed_health_inc_analysis.json",
-        "guaranteed": "guaranteed_health_inc_analysis.json",
-        "keptinc": "kept_inc_analysis.json",
-        "kept": "kept_inc_analysis.json",
-        "wigglhealth": "wiggl_health_analysis.json",
-        "wiggl": "wiggl_health_analysis.json",
-        "lockwellinc": "lockwell_inc_analysis.json",
-        "lockwell": "lockwell_inc_analysis.json",
-        "gigeasy": "gigeasy_analysis.json",
-        "gighqai": "gighqai_analysis.json",
-        "gighq": "gighqai_analysis.json",
-        "icommute": "icommute_analysis.json",
-        "thepeoappinc": "thepeoappinc_analysis.json",
-        "thepeoapp": "thepeoappinc_analysis.json",
-        "peoapp": "thepeoappinc_analysis.json",
-        "cherrygiving": "cherrygiving_analysis.json"
+        "aidora": "aidora_comprehensive_analysis.json",
+        "ezra": "ezra_comprehensive_analysis.json",
+        "gtmflow": "gtmflow_comprehensive_analysis.json",
+        "smartheritance": "smartheritance_comprehensive_analysis.json",
+        "guaranteedhealth": "guaranteed_health_inc_comprehensive_analysis.json",
+        "guaranteedhealth,inc": "guaranteed_health_inc_comprehensive_analysis.json",
+        "guaranteedhealthinc": "guaranteed_health_inc_comprehensive_analysis.json",
+        "guaranteed": "guaranteed_health_inc_comprehensive_analysis.json",
+        "keptinc": "kept_inc_comprehensive_analysis.json",
+        "kept": "kept_inc_comprehensive_analysis.json",
+        "wigglhealth": "wiggl_health_comprehensive_analysis.json",
+        "wiggl": "wiggl_health_comprehensive_analysis.json",
+        "lockwellinc": "lockwell_inc_comprehensive_analysis.json",
+        "lockwell": "lockwell_inc_comprehensive_analysis.json",
+        "gigeasy": "gigeasy_comprehensive_analysis.json",
+        "gighqai": "gighqai_comprehensive_analysis.json",
+        "gighq": "gighqai_comprehensive_analysis.json",
+        "icommute": "icommute_comprehensive_analysis.json",
+        "thepeoappinc": "the_peo_app_inc_comprehensive_analysis.json",
+        "thepeoapp": "the_peo_app_inc_comprehensive_analysis.json",
+        "peoapp": "the_peo_app_inc_comprehensive_analysis.json",
+        "cherrygiving": "cherrygiving_comprehensive_analysis.json"
     }
     
     if company_name.lower() in special_cases:
@@ -738,6 +744,9 @@ def submission_detail(company_name):
     
     # Debug: Print all available analysis files
     print("Available analysis files:")
+    for file in ANALYSIS_DIR.glob('*_comprehensive_analysis.json'):
+        print(f"  - {file.name}")
+    print("Legacy analysis files:")
     for file in ANALYSIS_DIR.glob('*_analysis.json'):
         print(f"  - {file.name}")
     
