@@ -11,7 +11,6 @@ import json
 from openai import OpenAI
 from flask import Flask, render_template, jsonify, request, redirect, url_for, session, flash
 import argparse
-import secrets
 from functools import wraps
 from dotenv import load_dotenv
 import requests
@@ -56,7 +55,14 @@ else:
 
 
 # Add a secret key for session management
-app.secret_key = secrets.token_hex(16)
+# Use a consistent secret key to maintain sessions across app restarts
+app.secret_key = os.getenv('FLASK_SECRET_KEY', 'sempervirens-accelerator-secret-key-2024')
+
+# Configure session settings for better persistence
+app.config['PERMANENT_SESSION_LIFETIME'] = 86400  # 24 hours in seconds
+app.config['SESSION_COOKIE_SECURE'] = False  # Set to True in production with HTTPS
+app.config['SESSION_COOKIE_HTTPONLY'] = True
+app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
 
 # Password for accessing the site
 SITE_PASSWORD = "S@V25"  # Change this to your desired password
@@ -67,6 +73,7 @@ def login():
     if request.method == 'POST':
         password = request.form.get('password')
         if password == SITE_PASSWORD:
+            session.permanent = True  # Make session persistent
             session['authenticated'] = True
             return redirect(url_for('index'))
         else:
