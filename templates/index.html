@@ -475,8 +475,8 @@
         status.textContent = 'Processing companies...';
         status.className = 'text-lg font-medium text-yellow-400';
 
-        // Use sync_spreadsheet endpoint with the Google Sheets URL
-        const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8Ej8/edit'; // Replace with actual URL
+        // Use sync_spreadsheet endpoint with the actual Google Sheets URL
+        const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1XA04fIaZI038hTnZAsX5L_BoDk45K2OID7O1ol1Aoxw/edit?pli=1&gid=1201695147#gid=1201695147';
         fetch(`/sync_spreadsheet?url=${encodeURIComponent(spreadsheetUrl)}`)
             .then(response => response.json())
             .then(data => {

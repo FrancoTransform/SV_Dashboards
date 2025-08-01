@@ -977,20 +977,222 @@ def get_existing_companies() -> set:
 
     return existing
 
+def generate_comprehensive_analysis(submission_data):
+    """Generate comprehensive 6Ts analysis using OpenAI"""
+    if client is None:
+        raise Exception("OpenAI client not initialized. Please check your OPENAI_API_KEY environment variable.")
+
+    company_name = submission_data.get('Company Name', '')
+
+    prompt = f"""
+You are an expert venture capital analyst specializing in the SemperVirens Accelerator's investment framework. Generate a comprehensive 6Ts analysis for this startup application using the enhanced structure with detailed sub-sections.
+
+COMPANY DATA:
+{json.dumps(submission_data, indent=2)}
+
+Generate a comprehensive JSON analysis using this EXACT structure with detailed sub-sections for each T:
+
+{{
+  "company_name": "{submission_data.get('Company Name', '')}",
+  "website": "{submission_data.get('Company website', '')}",
+  "year_founded": "{submission_data.get('Year Founded', '')}",
+  "description": "{submission_data.get('Describe your company (Word limit - 50)', '')}",
+  "problem_statement": "{submission_data.get('What problem are you solving, and why does it matter', '')}",
+  "pitch_deck_link": "{submission_data.get('Pitch Deck (link)', '')}",
+  "demo_link": "{submission_data.get('Demo', '')}",
+  "team": {{
+    "score": [1-5 integer],
+    "justification": "Comprehensive evaluation of founding and leadership team's execution ability, domain expertise, prior wins, scaling experience, complementary skills, and leadership signals.",
+    "company_assessment": {{
+      "business_model_strength": "Detailed analysis of revenue model, unit economics, scalability, and competitive positioning",
+      "market_positioning": "How the company positions itself in the market, unique value proposition, and differentiation strategy",
+      "execution_capability": "Evidence of team's ability to execute on vision, deliver products, and scale operations",
+      "strategic_vision": "Long-term vision and strategic thinking demonstrated by leadership"
+    }},
+    "founder_deep_dive": [
+      {{
+        "name": "Founder Name",
+        "role": "Title/Role",
+        "linkedin": "LinkedIn URL if provided",
+        "background": "Detailed educational and professional background",
+        "domain_expertise": "Relevant industry and technical expertise",
+        "previous_startups": "Prior entrepreneurial experience with outcomes",
+        "notable_achievements": "Awards, recognition, significant milestones",
+        "leadership_signals": "Evidence of leadership capability and team building",
+        "track_record": [
+          {{
+            "company": "Previous company name",
+            "role": "Role at company",
+            "outcome": "Exit, acquisition, failure, ongoing",
+            "learnings": "Key learnings and relevance to current venture"
+          }}
+        ]
+      }}
+    ],
+    "competitive_analysis": {{
+      "landscape_overview": "Overview of competitive landscape and key players",
+      "competitor_comparison": "Direct and indirect competitors with strengths/weaknesses",
+      "positioning_assessment": "How company differentiates and positions against competition"
+    }},
+    "red_flags": ["Team-related concerns and risks"]
+  }},
+  "tam": {{
+    "score": [1-5 integer],
+    "justification": "Comprehensive market size analysis including TAM, SAM, SOM calculations, market growth rates, buyer willingness-to-pay evidence.",
+    "market_analysis": {{
+      "total_addressable_market": "TAM size with supporting data and methodology",
+      "serviceable_addressable_market": "SAM analysis and company's realistic market capture",
+      "serviceable_obtainable_market": "SOM projections based on go-to-market strategy",
+      "market_growth_rate": "Historical and projected CAGR with supporting trends",
+      "market_dynamics": "Key trends, drivers, and forces shaping the market"
+    }},
+    "customer_analysis": {{
+      "buyer_personas": "Detailed profiles of target customers and decision makers",
+      "willingness_to_pay": "Evidence of customer willingness to pay and price sensitivity",
+      "customer_acquisition_cost": "CAC analysis and customer acquisition strategies",
+      "lifetime_value": "LTV calculations and customer retention projections"
+    }},
+    "red_flags": ["Market-related concerns and risks"]
+  }},
+  "technology": {{
+    "score": [1-5 integer],
+    "justification": "Assessment of technical differentiation, defensibility, scalability, and competitive moats.",
+    "technical_assessment": {{
+      "core_technology": "Description of core technology and technical architecture",
+      "defensibility": "Technical barriers to entry and competitive moats",
+      "intellectual_property": "Patents, trade secrets, and IP strategy",
+      "scalability": "Technical scalability and infrastructure requirements"
+    }},
+    "competitive_advantage": {{
+      "unique_algorithms": "Proprietary algorithms or technical innovations",
+      "data_advantages": "Data moats and network effects",
+      "technical_barriers": "Barriers preventing competitors from replicating technology"
+    }},
+    "red_flags": ["Technology-related concerns and risks"]
+  }},
+  "traction": {{
+    "score": [1-5 integer],
+    "justification": "Evaluation of product-market fit signals, growth metrics, customer validation, and go-to-market execution.",
+    "growth_metrics": {{
+      "revenue_growth": "Revenue trajectory, ARR/MRR growth rates, and projections",
+      "customer_metrics": "Customer count, acquisition rate, and growth trends",
+      "retention_analysis": "Customer retention, churn rates, and cohort analysis",
+      "unit_economics": "CAC, LTV, payback periods, and contribution margins"
+    }},
+    "market_validation": {{
+      "customer_feedback": "Customer testimonials, case studies, and satisfaction metrics",
+      "product_market_fit": "Evidence of PMF including retention, NPS, and usage metrics",
+      "notable_customers": "Key customers, logos, and customer success stories",
+      "partnerships": "Strategic partnerships and channel relationships"
+    }},
+    "successes_and_areas_of_investigation": {{
+      "successes": ["Key achievements and positive traction signals"],
+      "areas_of_investigation": ["Areas requiring deeper investigation or concern"]
+    }},
+    "red_flags": ["Traction-related concerns and risks"]
+  }},
+  "timing": {{
+    "score": [1-5 integer],
+    "justification": "Analysis of market timing, competitive timing, and external factors affecting company success.",
+    "market_timing": {{
+      "market_readiness": "Assessment of market readiness for the solution",
+      "catalysts": "Market catalysts and drivers accelerating adoption",
+      "tailwinds": "Favorable market trends and regulatory changes",
+      "headwinds": "Market challenges and potential obstacles"
+    }},
+    "competitive_timing": {{
+      "first_mover_advantage": "Benefits of being early to market",
+      "competitive_response": "Likelihood and timeline of competitive response",
+      "market_education": "Required market education and adoption timeline"
+    }},
+    "red_flags": ["Timing-related concerns and risks"]
+  }},
+  "terms": {{
+    "score": [1-5 integer],
+    "justification": "Evaluation of investment terms, valuation, and alignment with SemperVirens investment criteria.",
+    "investment_details": {{
+      "round_stage": "Current funding round stage and structure",
+      "raise_amount": "Amount being raised and use of funds",
+      "pre_money_valuation": "Pre-money valuation and valuation methodology",
+      "post_money_valuation": "Post-money valuation and ownership implications"
+    }},
+    "terms_analysis": {{
+      "sv_alignment": "Alignment with SV's investment criteria and focus areas",
+      "ownership_potential": "Potential ownership percentage and board representation",
+      "liquidation_preferences": "Liquidation preferences and investor protections",
+      "valuation_justification": "Analysis of valuation relative to comparables and metrics"
+    }},
+    "red_flags": ["Terms-related concerns and risks"]
+  }},
+  "final_recommendation": {{
+    "status": "Advance, Hold, or Pass",
+    "rationale": "Comprehensive synthesis of all 6Ts analysis leading to final investment recommendation",
+    "key_factors": ["Primary factors influencing the recommendation"],
+    "next_steps": ["Specific actions if advancing to next stage"]
+  }}
+}}
+
+ANALYSIS REQUIREMENTS:
+1. Provide detailed, investment-grade analysis for each section
+2. Use specific data points and evidence from the application
+3. Score each T from 1-5 based on strength and SV alignment
+4. Include comprehensive sub-sections with meaningful insights
+5. Identify specific red flags and areas of concern
+6. Provide actionable recommendations and next steps
+7. Focus on SemperVirens' investment thesis and criteria
+8. Ensure all JSON fields are properly populated with substantive content
+
+Generate the complete JSON analysis now:
+"""
+
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            max_tokens=8000,
+            temperature=0.1,
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+        )
+
+        # Extract JSON from response
+        content = response.choices[0].message.content
+
+        # Find JSON in the response
+        start_idx = content.find('{')
+        end_idx = content.rfind('}') + 1
+
+        if start_idx == -1 or end_idx == 0:
+            raise ValueError("No JSON found in response")
+
+        json_str = content[start_idx:end_idx]
+        analysis = json.loads(json_str)
+
+        return analysis
+
+    except Exception as e:
+        print(f"Error generating comprehensive analysis for {company_name}: {e}")
+        raise
+
 @app.route('/sync_spreadsheet')
 @login_required
 def sync_spreadsheet():
     """Sync with Google Spreadsheet and generate analyses for new companies"""
     try:
-        # For now, let's use a test URL - you'll need to replace this with the actual spreadsheet URL
-        sheet_url = request.args.get('url', '')
+        # Use the actual SemperVirens Accelerator Google Sheets URL
+        sheet_url = request.args.get('url', 'https://docs.google.com/spreadsheets/d/1XA04fIaZI038hTnZAsX5L_BoDk45K2OID7O1ol1Aoxw/edit?pli=1&gid=1201695147#gid=1201695147')
 
-        # If no URL provided, return info about what we need
+        # If no URL provided, return current status
         if not sheet_url:
+            current_analyses = len(list(ANALYSIS_DIR.glob('*_comprehensive_analysis.json')))
             return jsonify({
                 'status': 'info',
-                'message': 'Google Spreadsheet sync ready. Please provide the spreadsheet URL.',
-                'current_analyses': len(list(ANALYSIS_DIR.glob('*_analysis.json'))),
+                'message': 'Dashboard up to date' if current_analyses >= 67 else 'Google Spreadsheet sync ready. Please provide the spreadsheet URL.',
+                'current_analyses': current_analyses,
+                'expected_total': 69,  # Based on your mention of 69 companies in spreadsheet
                 'instructions': 'Add ?url=YOUR_GOOGLE_SHEETS_URL to this endpoint to sync'
             })
 
@@ -998,8 +1200,18 @@ def sync_spreadsheet():
         csv_content = get_google_sheet_as_csv(sheet_url)
         submissions = parse_csv_data(csv_content)
 
-        # Get existing companies
-        existing_companies = get_existing_companies()
+        # Get existing companies (from comprehensive analysis files)
+        existing_companies = set()
+        for file in ANALYSIS_DIR.glob('*_comprehensive_analysis.json'):
+            try:
+                with open(file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    company_name = data.get('company_name', '')
+                    if company_name:
+                        normalized_name = re.sub(r'[^a-z0-9]', '', company_name.lower())
+                        existing_companies.add(normalized_name)
+            except Exception:
+                continue
 
         # Find new companies
         new_companies = []
@@ -1010,6 +1222,17 @@ def sync_spreadsheet():
             if normalized_name not in existing_companies:
                 new_companies.append(submission)
 
+        # Check if there are any new companies
+        if len(new_companies) == 0:
+            return jsonify({
+                'status': 'success',
+                'message': 'Dashboard up to date',
+                'total_in_sheet': len(submissions),
+                'existing_analyses': len(existing_companies),
+                'new_companies_found': 0,
+                'analyses_generated': 0
+            })
+
         # Generate analyses for new companies (limit to avoid timeouts)
         generated_count = 0
         batch_size = min(5, len(new_companies))  # Process max 5 at a time
@@ -1019,11 +1242,12 @@ def sync_spreadsheet():
                 company_name = submission.get('Company Name', '')
                 print(f"Generating analysis for: {company_name}")
 
-                analysis = analyze_submission(submission)
+                # Generate comprehensive analysis instead of legacy analysis
+                analysis = generate_comprehensive_analysis(submission)
 
-                # Save analysis
+                # Save comprehensive analysis
                 safe_filename = re.sub(r'[^a-z0-9]', '', company_name.lower())
-                analysis_file = ANALYSIS_DIR / f"{safe_filename}_analysis.json"
+                analysis_file = ANALYSIS_DIR / f"{safe_filename}_comprehensive_analysis.json"
 
                 with open(analysis_file, 'w', encoding='utf-8') as f:
                     json.dump(analysis, f, indent=2)
