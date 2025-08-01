@@ -1,0 +1,162 @@
+{
+  "company_name": "LyfebloodDAO",
+  "token": "3ykdaow7clkp3ykc1fzfva06tx4jc1fn",
+  "website": "https://lyfeblood.com/",
+  "year_founded": "2017",
+  "description": "LyfebloodDAI is a social media DAO utilizing a DEX & NFT marketplace.",
+  "problem_statement": "The problem I'm solving is providing a reliable brand in crypto transactions and offering additional services where it lacks in rising economies in Africa.",
+  "pitch_deck_link": "https://www.dropbox.com/scl/fi/dx7pye4ypvb1ngatn7rqq/LB-Pitch-Deck-Pres-07-28-25-DAO.pdf?rlkey=f4vg7oy2lhg7zt1fbv7hv354w&st=a8bng98p&dl=0",
+  "demo_link": "https://www.dropbox.com/scl/fi/ctkdzg081mdxzc5wbpor2/LB-Mobile-Concept.png?rlkey=wje5hpntmy6j4l7avymz1gqjr&st=apqe7m04&dl=0",
+  "team": {
+    "score": 2,
+    "justification": "The team is currently small with only three members, and the founder is seeking additional support for backend development. The founder has not demonstrated significant prior entrepreneurial success or domain expertise in the crypto space.",
+    "company_assessment": {
+      "business_model_strength": "The business model relies on generating revenue through DEX and NFT fees, which is common in the industry but lacks differentiation.",
+      "market_positioning": "The company aims to position itself as a reliable brand in crypto transactions in Africa, but lacks a clear differentiation strategy against established competitors.",
+      "execution_capability": "The team is in the design phase with no product in the market, indicating limited execution capability at this stage.",
+      "strategic_vision": "The strategic vision is to expand beyond crypto into societal developments, but lacks concrete plans or evidence of strategic thinking."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Nova Phoenix",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/nova-phoenix-86319440/",
+        "background": "No detailed educational or professional background provided.",
+        "domain_expertise": "Limited evidence of domain expertise in crypto or blockchain technology.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements or recognitions provided.",
+        "leadership_signals": "Limited evidence of leadership capability or team-building experience.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes major players like Facebook, Twitter, IG, Coinbase, Kraken, and Uniswap.",
+      "competitor_comparison": "Competitors have established platforms and user bases, while LyfebloodDAO is still in the design phase.",
+      "positioning_assessment": "The company lacks a clear differentiation strategy to compete with established players."
+    },
+    "red_flags": [
+      "Small team size",
+      "Lack of domain expertise",
+      "No product in market"
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The global crypto market is large and growing, but the company's ability to capture a significant share is uncertain.",
+    "market_analysis": {
+      "total_addressable_market": "The global crypto market is estimated at $3.3 trillion.",
+      "serviceable_addressable_market": "The NFT marketplace was $11.3 billion in 2021.",
+      "serviceable_obtainable_market": "No specific SOM projections provided.",
+      "market_growth_rate": "The crypto market is experiencing rapid growth, but specific CAGR data is not provided.",
+      "market_dynamics": "Key trends include increasing adoption of crypto in Africa and the rise of NFTs."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are crypto users in Africa and globally.",
+      "willingness_to_pay": "No evidence of customer willingness to pay provided.",
+      "customer_acquisition_cost": "No CAC analysis provided.",
+      "lifetime_value": "No LTV calculations provided."
+    },
+    "red_flags": [
+      "Lack of detailed market capture strategy",
+      "No customer willingness-to-pay evidence"
+    ]
+  },
+  "technology": {
+    "score": 2,
+    "justification": "The company is in the design phase with no proprietary technology or defensibility demonstrated.",
+    "technical_assessment": {
+      "core_technology": "The company plans to utilize a DEX and NFT marketplace.",
+      "defensibility": "No technical barriers to entry or competitive moats identified.",
+      "intellectual_property": "No IP strategy or patents mentioned.",
+      "scalability": "Scalability is uncertain without a developed product."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms or technical innovations mentioned.",
+      "data_advantages": "No data moats or network effects identified.",
+      "technical_barriers": "No barriers preventing competitors from replicating technology."
+    },
+    "red_flags": [
+      "No developed product",
+      "Lack of technical differentiation"
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "The company has no traction, product-market fit signals, or customer validation.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue or growth metrics available.",
+      "customer_metrics": "No customers or acquisition rate data available.",
+      "retention_analysis": "No retention or churn data available.",
+      "unit_economics": "No unit economics data available."
+    },
+    "market_validation": {
+      "customer_feedback": "No customer feedback or testimonials provided.",
+      "product_market_fit": "No evidence of product-market fit.",
+      "notable_customers": "No notable customers or success stories.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [],
+      "areas_of_investigation": [
+        "Lack of traction and market validation"
+      ]
+    },
+    "red_flags": [
+      "No product in market",
+      "No customer validation"
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market is growing, but the company's timing to enter and capture market share is uncertain.",
+    "market_timing": {
+      "market_readiness": "The market is ready for crypto solutions, especially in Africa.",
+      "catalysts": "Increasing crypto adoption and NFT interest.",
+      "tailwinds": "Favorable trends in crypto and blockchain adoption.",
+      "headwinds": "Regulatory challenges and competition from established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "No first-mover advantage as competitors are well-established.",
+      "competitive_response": "High likelihood of competitive response from established players.",
+      "market_education": "Significant market education may be required."
+    },
+    "red_flags": [
+      "High competition",
+      "Regulatory challenges"
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "The company is self-financed with no clear investment terms or valuation provided.",
+    "investment_details": {
+      "round_stage": "Currently fundraising.",
+      "raise_amount": "No specific amount mentioned.",
+      "pre_money_valuation": "No valuation provided.",
+      "post_money_valuation": "No valuation provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Limited alignment with SV's investment criteria due to lack of traction and product.",
+      "ownership_potential": "Unclear ownership potential due to lack of valuation details.",
+      "liquidation_preferences": "No investor protections or preferences mentioned.",
+      "valuation_justification": "No valuation justification provided."
+    },
+    "red_flags": [
+      "Lack of clear investment terms",
+      "No valuation details"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Pass",
+    "rationale": "The company lacks a developed product, traction, and clear differentiation in a competitive market. The team is small with limited domain expertise, and there are significant uncertainties around market capture and execution capability.",
+    "key_factors": [
+      "No product in market",
+      "Lack of traction",
+      "High competition",
+      "Small team size"
+    ],
+    "next_steps": [
+      "Consider revisiting once product is developed and traction is demonstrated."
+    ]
+  },
+  "submitted_at": "8/1/2025 21:51:33"
+}

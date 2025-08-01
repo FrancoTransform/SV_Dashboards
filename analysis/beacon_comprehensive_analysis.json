@@ -97,12 +97,37 @@
         }
       ],
       "competitive_matrix": {
-        "columns": ["Recruiter Verification", "AI-Driven Matching", "Quality Underwriting", "Data Analytics"],
+        "columns": [
+          "Recruiter Verification",
+          "AI-Driven Matching",
+          "Quality Underwriting",
+          "Data Analytics"
+        ],
         "rows": {
-          "Beacon": [true, true, true, true],
-          "Bullhorn": [false, false, false, false],
-          "Crelate": [false, false, false, false],
-          "BountyJobs": [false, false, false, false]
+          "Beacon": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "Bullhorn": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "Crelate": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "BountyJobs": [
+            false,
+            false,
+            false,
+            false
+          ]
         }
       },
       "competitive_positioning": "Beacon occupies a unique position as the first platform to focus specifically on recruiter quality underwriting. While competitors focus on workflow management or basic marketplace functions, Beacon addresses the fundamental problem of recruiter selection and verification, creating a defensible moat in data-driven hiring infrastructure."
@@ -268,5 +293,6 @@
       "Evaluate IP protection strategy and technical defensibility plans",
       "Reference check with existing customers and industry experts"
     ]
-  }
+  },
+  "submitted_at": "5/16/2025 17:14:43"
 }

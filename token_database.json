@@ -401,10 +401,35 @@
       "analysis_file": "tenyour_comprehensive_analysis.json",
       "matched_at": "2025-08-01T15:30:50.186515",
       "google_sheets_name": "TenYour"
+    },
+    "zizne9pl3c7vx7tap02zizne985h6dtb": {
+      "company_name": "RainyDayPal",
+      "analysis_file": "rainydaypal_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-01T15:44:05.959555"
+    },
+    "x23yms941oje2pm2dx23yms94p0a5sp4": {
+      "company_name": "Counter Fin",
+      "analysis_file": "counterfin_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-01T15:44:05.959651"
+    },
+    "gys0ihqi0kiiegys00vmvxl5knh8wr3l": {
+      "company_name": "BeSound",
+      "analysis_file": "besound_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-01T15:44:05.959685"
+    },
+    "3ykdaow7clkp3ykc1fzfva06tx4jc1fn": {
+      "company_name": "LyfebloodDAO",
+      "analysis_file": "lyfeblooddao_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-01T15:44:05.959700"
+    },
+    "llff9n2ofsminbn97llff9nh4pbzseni": {
+      "company_name": "MediaUClips Corporation",
+      "analysis_file": "mediauclipscorporation_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-01T16:01:38.076878"
     }
   },
-  "last_sync": "2025-08-01T15:30:50.186662",
-  "total_submissions": 71,
-  "analyzed_count": 67,
+  "last_sync": "2025-08-01T16:01:38.076899",
+  "total_submissions": 72,
+  "analyzed_count": 72,
   "unmatched_analyses": []
 }
