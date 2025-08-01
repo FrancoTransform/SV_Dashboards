@@ -1,0 +1,410 @@
+{
+  "analyzed_tokens": {
+    "66sbp7339jvytz4hmc66sblzk22yxyfd": {
+      "company_name": "Paramean Solutions",
+      "analysis_file": "paramean_solutions_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.166289",
+      "google_sheets_name": "Paramean Solutions"
+    },
+    "qf13s6qx5lg87qe1qf13s6j9gs6t3anh": {
+      "company_name": "The PEO App, Inc.",
+      "analysis_file": "the_peo_app_inc_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.166769",
+      "google_sheets_name": "The PEO App, Inc."
+    },
+    "ms2mr0xttcqzn9ny5rms2mr0x01te8pr": {
+      "company_name": "Audria",
+      "analysis_file": "audria_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.167238",
+      "google_sheets_name": "Audria"
+    },
+    "cone94ecvl7checonhsk7kw1omkxqm8e": {
+      "company_name": "GigHQ.ai",
+      "analysis_file": "gighqai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.167600",
+      "google_sheets_name": "GigHQ.ai"
+    },
+    "hjewtapfn3l8hj2cwsdr1ovgxevaq82c": {
+      "company_name": "Cherrygiving",
+      "analysis_file": "cherrygiving_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.167830",
+      "google_sheets_name": "Cherrygiving"
+    },
+    "3e3bjsql9b3ttzo3e3bjsleg666mf4g0": {
+      "company_name": "Deep Care",
+      "analysis_file": "deep_care_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.168089",
+      "google_sheets_name": "Deep Care"
+    },
+    "unkzun7i5zd4pmyantunkzunb250efgc": {
+      "company_name": "SmartHeritance",
+      "analysis_file": "smartheritance_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.168392",
+      "google_sheets_name": "SmartHeritance"
+    },
+    "2prq9tskw8brm0h2pr73hf26794dn089": {
+      "company_name": "Clasp",
+      "analysis_file": "clasp_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.168837",
+      "google_sheets_name": "Clasp"
+    },
+    "4bfqbqe118kbkzcg4bfrtwss6qmpd6le": {
+      "company_name": "Virtual Sapiens",
+      "analysis_file": "virtual_sapiens_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.169138",
+      "google_sheets_name": "Virtual Sapiens"
+    },
+    "wdinlrjykelsihd1quwdinl6tjmitcpw": {
+      "company_name": "Agave Health",
+      "analysis_file": "agave_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.169481",
+      "google_sheets_name": "Agave Health"
+    },
+    "6gyw6w8wjao7gybub6gywp3fdo7ezr7c": {
+      "company_name": "Beacon",
+      "analysis_file": "beacon_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.169859",
+      "google_sheets_name": "Beacon"
+    },
+    "ylzph54kulox3gaylzphwcf1a0g50jf4": {
+      "company_name": "GigEasy",
+      "analysis_file": "gigeasy_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.170157",
+      "google_sheets_name": "GigEasy"
+    },
+    "5qs4x2mdergb5m1pb6h5qs185tb8oyop": {
+      "company_name": "Herd Health",
+      "analysis_file": "herd_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.170922",
+      "google_sheets_name": "Herd Health"
+    },
+    "qk9wwwggmmr4lo93m3eqk9wwwgmrxck7": {
+      "company_name": "Magier AI",
+      "analysis_file": "magier_ai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.171589",
+      "google_sheets_name": "Magier AI"
+    },
+    "y5t6luu3pojljonx3j48ny5t6luu3j93": {
+      "company_name": "Sunny Health AI",
+      "analysis_file": "sunny_health_ai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.171976",
+      "google_sheets_name": "Sunny Health AI"
+    },
+    "l94t7zue7k78mtjnjmzkdvl94t7zuid8": {
+      "company_name": "Outro Health",
+      "analysis_file": "outro_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.172220",
+      "google_sheets_name": "Outro Health"
+    },
+    "ez629t5di74w8p2ez62xvx5zd22bwicf": {
+      "company_name": "GTMFlow",
+      "analysis_file": "gtmflow_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.172573",
+      "google_sheets_name": "GTMFlow"
+    },
+    "ve2vhzq0eqj8ei9kve2vhz9lwylu3q0q": {
+      "company_name": "Hero",
+      "analysis_file": "hero_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.172956",
+      "google_sheets_name": "Hero"
+    },
+    "hghhm15sseebhghhmym39tr6x6u9o6js": {
+      "company_name": "Aidora",
+      "analysis_file": "aidora_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.173286",
+      "google_sheets_name": "Aidora"
+    },
+    "ksgb2rko7xa20seeqxiu4sksgb2rhlxt": {
+      "company_name": "Toothsome",
+      "analysis_file": "toothsome_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.173531",
+      "google_sheets_name": "Toothsome"
+    },
+    "x58x4esx7mujkhajko2x58x4en0mp3hz": {
+      "company_name": "chainstaff",
+      "analysis_file": "chainstaff_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.173829",
+      "google_sheets_name": "chainstaff"
+    },
+    "pg0kugh6modnldypvpg0kugl7wxlhqen": {
+      "company_name": "NuCo Credentialing",
+      "analysis_file": "nuco_credentialing_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.174131",
+      "google_sheets_name": "NuCo Credentialing"
+    },
+    "stvp3psnn9qls6u1nnq7stvp3ph7bxzr": {
+      "company_name": "JOYA Health",
+      "analysis_file": "joya_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.174365",
+      "google_sheets_name": "JOYA Health"
+    },
+    "fcwidwwra3r5ks0zykbp4jnfcwidwpgs": {
+      "company_name": "RainyDayPal",
+      "analysis_file": "rainydaypal_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.174684",
+      "google_sheets_name": "RainyDayPal"
+    },
+    "iy8rmrrlaax43tsuufiy8rjl3aduy91q": {
+      "company_name": "DoktorConnect",
+      "analysis_file": "doktorconnect_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.174899",
+      "google_sheets_name": "DoktorConnect"
+    },
+    "j9jszuwigjrtrhfk6j9jsztd7b79ex9u": {
+      "company_name": "Defiant Health",
+      "analysis_file": "defiant_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.175192",
+      "google_sheets_name": "Defiant Health"
+    },
+    "cr9zvzwae0su3ub0szpycr9zvog9wo2h": {
+      "company_name": "Lockwell Inc",
+      "analysis_file": "lockwell_inc_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.175520",
+      "google_sheets_name": "Lockwell Inc"
+    },
+    "b8173v0axvmm38ppqmqokrrb8173ef3n": {
+      "company_name": "WayPave LLC",
+      "analysis_file": "waypave_llc_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.176100",
+      "google_sheets_name": "WayPave LLC"
+    },
+    "2h4ntp2uotw0cw32h4norwdan19ju1os": {
+      "company_name": "Axima AI",
+      "analysis_file": "axima_ai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.176629",
+      "google_sheets_name": "Axima AI"
+    },
+    "12lbcki3p0zypcvw9vs9712lbckit4cl": {
+      "company_name": "Factos Capital",
+      "analysis_file": "factos_capital_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.177155",
+      "google_sheets_name": "Factos Capital"
+    },
+    "j82fg9u1kxsracej827attithysqo69h": {
+      "company_name": "Kept Inc",
+      "analysis_file": "kept_inc_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.177447",
+      "google_sheets_name": "Kept Inc"
+    },
+    "v7gs1k3e254i4haq0wtduv7gs1k3e05o": {
+      "company_name": "Borderless AI",
+      "analysis_file": "borderless_ai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.177688",
+      "google_sheets_name": "Borderless AI"
+    },
+    "2vde9r8wqk9eh4x1ae2vde594er7c4ly": {
+      "company_name": "Fift Health",
+      "analysis_file": "fift_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.178024",
+      "google_sheets_name": "Fift Health"
+    },
+    "ayf6j83jyopu7fayfuxsz94inzxx7xgq": {
+      "company_name": "Whynda",
+      "analysis_file": "whynda_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.178237",
+      "google_sheets_name": "Whynda"
+    },
+    "k3k42045uesolodyhox8k3k42045zwyz": {
+      "company_name": "BetterYou",
+      "analysis_file": "betteryou_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.178475",
+      "google_sheets_name": "BetterYou"
+    },
+    "rzb6aog903f2goz2cc3l9oyp653qhbc2": {
+      "company_name": "JOGO Health",
+      "analysis_file": "jogo_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.178708",
+      "google_sheets_name": "JOGO Health"
+    },
+    "ycp6ekxsw7ehrzt7sycpf6ryo4n3z2pr": {
+      "company_name": "KELLS",
+      "analysis_file": "kells_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.178899",
+      "google_sheets_name": "KELLS"
+    },
+    "kub5nxeupvda74rkub5d4z17nu0hoijb": {
+      "company_name": "Therify",
+      "analysis_file": "therify_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.179222",
+      "google_sheets_name": "Therify"
+    },
+    "0dq7ht07qzoghtk0dq7g4yc44ctebas6": {
+      "company_name": "Workrz",
+      "analysis_file": "workrz_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.179546",
+      "google_sheets_name": "Workrz"
+    },
+    "9tb15n8kxqqeu566e70u9tb15nb0pz6c": {
+      "company_name": "My Benefit Options",
+      "analysis_file": "my_benefit_options_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.179850",
+      "google_sheets_name": "My Benefit Options"
+    },
+    "kwcqy2kf3oiqbunkwcqyb1uzeis3yodn": {
+      "company_name": "CryptoMate",
+      "analysis_file": "cryptomate_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.180065",
+      "google_sheets_name": "CryptoMate"
+    },
+    "vp9srpgix2tl3hq3vp9srprhv1imibxa": {
+      "company_name": "Kaatch",
+      "analysis_file": "kaatch_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.180283",
+      "google_sheets_name": "Kaatch"
+    },
+    "5bt3atm6hudwssli5bte3x97l6y56sfo": {
+      "company_name": "Multiply",
+      "analysis_file": "multiply_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.180566",
+      "google_sheets_name": "Multiply"
+    },
+    "zw4qx01p07tglzw4qtblq9oblxwia5iy": {
+      "company_name": "Value Buddy",
+      "analysis_file": "value_buddy_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.180813",
+      "google_sheets_name": "Value Buddy"
+    },
+    "u0415llbh0s59di5rwku041co35urroz": {
+      "company_name": "ProjectSet",
+      "analysis_file": "projectset_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.181150",
+      "google_sheets_name": "ProjectSet"
+    },
+    "dz2zbf8iqwdz5y6xydz2zbft6x5njnoo": {
+      "company_name": "Kottackal Technologies QFZ LLC",
+      "analysis_file": "kottackal_technologies_qfz_llc_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.181443",
+      "google_sheets_name": "Kottackal Technologies QFZ LLC"
+    },
+    "p3mfmn31hlf48br2c3xoup3mfmnjz2ly": {
+      "company_name": "RituWell",
+      "analysis_file": "rituwell_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.181653",
+      "google_sheets_name": "RituWell"
+    },
+    "dg8agwmatbsdmtc50dg8agwma33k47m8": {
+      "company_name": "Bogaisa Pty Ltd",
+      "analysis_file": "bogaisa_pty_ltd_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.181864",
+      "google_sheets_name": "Bogaisa Pty Ltd"
+    },
+    "iufuzdp53196siup6izu7du6xuqbpmzf": {
+      "company_name": "LOGISTIFY AI",
+      "analysis_file": "logistify_ai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.182087",
+      "google_sheets_name": "LOGISTIFY AI"
+    },
+    "vvatvkmet7wovveaq6ryj4z4bimkdrve": {
+      "company_name": "Graphio.ai",
+      "analysis_file": "graphioai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.182302",
+      "google_sheets_name": "Graphio.ai"
+    },
+    "z1fyuyk1asxu0ilh48xnz1fyu255dnl9": {
+      "company_name": "Bloom",
+      "analysis_file": "bloom_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.182613",
+      "google_sheets_name": "Bloom"
+    },
+    "qkt8dz00fkfoz1nhwbiqqkt8dz0c0bln": {
+      "company_name": "Counter Fin",
+      "analysis_file": "counter_fin_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.182907",
+      "google_sheets_name": "Counter Fin"
+    },
+    "7zpnflbpimynw40q83q7vw7zpnflbzn9": {
+      "company_name": "Ezra",
+      "analysis_file": "ezra_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.183082",
+      "google_sheets_name": "Ezra"
+    },
+    "yrs5wzt2h5bu9vyrqzyrs5wc2v7xwddk": {
+      "company_name": "DIYNation.ai",
+      "analysis_file": "diynationai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.183256",
+      "google_sheets_name": "DIYNation.ai"
+    },
+    "us3b88wb45b7ukyx35b77lus3b88aqak": {
+      "company_name": "iCommute",
+      "analysis_file": "icommute_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.183470",
+      "google_sheets_name": "iCommute"
+    },
+    "qvlb0znk43tyoh1t9sy3qvlb0znk376h": {
+      "company_name": "Mandala for Us Inc.",
+      "analysis_file": "mandala_for_us_inc_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.183776",
+      "google_sheets_name": "Mandala for Us Inc."
+    },
+    "zj62o9hxjtjbikfytzj62o5b36me00rs": {
+      "company_name": "Wiggl Health",
+      "analysis_file": "wiggl_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.183975",
+      "google_sheets_name": "Wiggl Health"
+    },
+    "4ngh5zck6sniexzdcelswfp54ngh5znp": {
+      "company_name": "Wave",
+      "analysis_file": "wave_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.184286",
+      "google_sheets_name": "Wave"
+    },
+    "lfo7wrnygfiheqf8ot9h26lfo7wrn9pk": {
+      "company_name": "Firepit Health",
+      "analysis_file": "firepit_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.184477",
+      "google_sheets_name": "Firepit Health"
+    },
+    "5azkz8bdw3mg3nsxhhaw5azkzs8bhggk": {
+      "company_name": "Volta Health",
+      "analysis_file": "volta_health_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.184784",
+      "google_sheets_name": "Volta Health"
+    },
+    "djo6tluej32jzsp1w8dndjo6tlurxx24": {
+      "company_name": "SUND LLC",
+      "analysis_file": "sund_llc_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.184990",
+      "google_sheets_name": "SUND LLC"
+    },
+    "845lx166u5yetafo845lx1d9xuz1m5uy": {
+      "company_name": "Teamcast.ai",
+      "analysis_file": "teamcastai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.185338",
+      "google_sheets_name": "Teamcast.ai"
+    },
+    "0y2f575zx2ytrbxpfczz30y2f52n8352": {
+      "company_name": "Affinity Test",
+      "analysis_file": "affinity_test_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.185522",
+      "google_sheets_name": "Affinity Test"
+    },
+    "92az8mafptej99sqgdzff92az8maf58f": {
+      "company_name": "Branca.ai",
+      "analysis_file": "brancaai_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.185815",
+      "google_sheets_name": "Branca.ai"
+    },
+    "8347c8jeejslarklei88347c8jbm188x": {
+      "company_name": "Blank Slate Technologies",
+      "analysis_file": "blank_slate_technologies_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.186016",
+      "google_sheets_name": "Blank Slate Technologies"
+    },
+    "lcpsebh2123l05lcps6v58dk2sa645a3": {
+      "company_name": "Guaranteed Health, Inc.",
+      "analysis_file": "guaranteed_health_inc_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.186205",
+      "google_sheets_name": "Guaranteed Health, Inc."
+    },
+    "ido7xnrlrag68x319nqrf5ido7xnrnc4": {
+      "company_name": "TenYour",
+      "analysis_file": "tenyour_comprehensive_analysis.json",
+      "matched_at": "2025-08-01T15:30:50.186515",
+      "google_sheets_name": "TenYour"
+    }
+  },
+  "last_sync": "2025-08-01T15:30:50.186662",
+  "total_submissions": 71,
+  "analyzed_count": 67,
+  "unmatched_analyses": []
+}

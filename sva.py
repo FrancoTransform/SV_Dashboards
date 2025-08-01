@@ -12,6 +12,7 @@ from openai import OpenAI
 from flask import Flask, render_template, jsonify, request, redirect, url_for, session, flash
 import argparse
 from functools import wraps
+from datetime import datetime
 from dotenv import load_dotenv
 import requests
 import io
@@ -994,6 +995,7 @@ Generate a comprehensive JSON analysis using this EXACT structure with detailed 
 
 {{
   "company_name": "{submission_data.get('Company Name', '')}",
+  "token": "{submission_data.get('Token', '')}",
   "website": "{submission_data.get('Company website', '')}",
   "year_founded": "{submission_data.get('Year Founded', '')}",
   "description": "{submission_data.get('Describe your company (Word limit - 50)', '')}",
@@ -1200,27 +1202,25 @@ def sync_spreadsheet():
         csv_content = get_google_sheet_as_csv(sheet_url)
         submissions = parse_csv_data(csv_content)
 
-        # Get existing companies (from comprehensive analysis files)
-        existing_companies = set()
-        for file in ANALYSIS_DIR.glob('*_comprehensive_analysis.json'):
-            try:
-                with open(file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    company_name = data.get('company_name', '')
-                    if company_name:
-                        normalized_name = re.sub(r'[^a-z0-9]', '', company_name.lower())
-                        existing_companies.add(normalized_name)
-            except Exception:
-                continue
+        # Load token database to track analyzed submissions
+        token_db_path = Path('token_database.json')
+        if token_db_path.exists():
+            with open(token_db_path, 'r', encoding='utf-8') as f:
+                token_db = json.load(f)
+        else:
+            token_db = {'analyzed_tokens': {}, 'last_sync': None, 'total_submissions': 0, 'analyzed_count': 0}
 
-        # Find new companies
+        analyzed_tokens = set(token_db.get('analyzed_tokens', {}).keys())
+
+        # Find new companies using token-based tracking
         new_companies = []
         for submission in submissions:
+            token = submission.get('Token', '').strip()
             company_name = submission.get('Company Name', '')
-            normalized_name = re.sub(r'[^a-z0-9]', '', company_name.lower())
 
-            if normalized_name not in existing_companies:
+            if token and token not in analyzed_tokens:
                 new_companies.append(submission)
+                print(f"Found new company: {company_name} (Token: {token})")
 
         # Check if there are any new companies
         if len(new_companies) == 0:
@@ -1228,7 +1228,7 @@ def sync_spreadsheet():
                 'status': 'success',
                 'message': 'Dashboard up to date',
                 'total_in_sheet': len(submissions),
-                'existing_analyses': len(existing_companies),
+                'existing_analyses': len(analyzed_tokens),
                 'new_companies_found': 0,
                 'analyses_generated': 0
             })
@@ -1259,11 +1259,30 @@ def sync_spreadsheet():
                 print(f"❌ Error generating analysis for {company_name}: {e}")
                 continue
 
+        # Update token database with new analyses
+        for submission in new_companies[:generated_count]:
+            token = submission.get('Token', '').strip()
+            company_name = submission.get('Company Name', '')
+            if token:
+                token_db['analyzed_tokens'][token] = {
+                    'company_name': company_name,
+                    'analysis_file': f"{re.sub(r'[^a-z0-9]', '', company_name.lower())}_comprehensive_analysis.json",
+                    'analyzed_at': datetime.now().isoformat()
+                }
+
+        token_db['analyzed_count'] = len(token_db['analyzed_tokens'])
+        token_db['total_submissions'] = len(submissions)
+        token_db['last_sync'] = datetime.now().isoformat()
+
+        # Save updated token database
+        with open(token_db_path, 'w', encoding='utf-8') as f:
+            json.dump(token_db, f, indent=2, ensure_ascii=False)
+
         return jsonify({
             'status': 'success',
             'message': f'Synced with spreadsheet. Generated {generated_count} new analyses.',
             'total_in_sheet': len(submissions),
-            'existing_analyses': len(existing_companies),
+            'existing_analyses': len(analyzed_tokens) + generated_count,
             'new_companies_found': len(new_companies),
             'analyses_generated': generated_count,
             'remaining_to_process': max(0, len(new_companies) - batch_size)
