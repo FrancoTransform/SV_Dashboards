@@ -996,6 +996,7 @@ Generate a comprehensive JSON analysis using this EXACT structure with detailed 
 {{
   "company_name": "{submission_data.get('Company Name', '')}",
   "token": "{submission_data.get('Token', '')}",
+  "submitted_at": "{submission_data.get('Submitted At', '')}",
   "website": "{submission_data.get('Company website', '')}",
   "year_founded": "{submission_data.get('Year Founded', '')}",
   "description": "{submission_data.get('Describe your company (Word limit - 50)', '')}",
@@ -1214,13 +1215,17 @@ def sync_spreadsheet():
 
         # Find new companies using token-based tracking
         new_companies = []
+        print(f"🔍 Checking {len(submissions)} submissions against {len(analyzed_tokens)} analyzed tokens")
+
         for submission in submissions:
             token = submission.get('Token', '').strip()
             company_name = submission.get('Company Name', '')
 
             if token and token not in analyzed_tokens:
                 new_companies.append(submission)
-                print(f"Found new company: {company_name} (Token: {token})")
+                print(f"🆕 Found new company: {company_name} (Token: {token})")
+
+        print(f"📊 Total new companies found: {len(new_companies)}")
 
         # Check if there are any new companies
         if len(new_companies) == 0:
@@ -1236,14 +1241,17 @@ def sync_spreadsheet():
         # Generate analyses for new companies (limit to avoid timeouts)
         generated_count = 0
         batch_size = min(5, len(new_companies))  # Process max 5 at a time
+        print(f"🔄 Starting analysis generation for {batch_size} companies")
 
         for submission in new_companies[:batch_size]:
             try:
                 company_name = submission.get('Company Name', '')
-                print(f"Generating analysis for: {company_name}")
+                token = submission.get('Token', '')
+                print(f"🔄 Generating analysis for: {company_name} (Token: {token})")
 
                 # Generate comprehensive analysis instead of legacy analysis
                 analysis = generate_comprehensive_analysis(submission)
+                print(f"✅ Analysis generated for: {company_name}")
 
                 # Save comprehensive analysis
                 safe_filename = re.sub(r'[^a-z0-9]', '', company_name.lower())
@@ -1251,12 +1259,15 @@ def sync_spreadsheet():
 
                 with open(analysis_file, 'w', encoding='utf-8') as f:
                     json.dump(analysis, f, indent=2)
+                print(f"💾 Analysis saved to: {analysis_file}")
 
                 generated_count += 1
-                print(f"✅ Generated analysis for {company_name}")
+                print(f"📈 Generated count: {generated_count}")
 
             except Exception as e:
                 print(f"❌ Error generating analysis for {company_name}: {e}")
+                import traceback
+                traceback.print_exc()
                 continue
 
         # Update token database with new analyses

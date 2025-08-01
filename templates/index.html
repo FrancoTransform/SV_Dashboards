@@ -207,7 +207,9 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {% for submission in cohort1_submissions|sort(attribute='_submission_date') %}
                     {% set submission_date = 'N/A' %}
-                    {% if submission.company_name and submission.company_name.strip() in date_mapping %}
+                    {% if submission.submitted_at %}
+                        {% set submission_date = submission.submitted_at %}
+                    {% elif submission.company_name and submission.company_name.strip() in date_mapping %}
                         {% set submission_date = date_mapping[submission.company_name.strip()]['display'] %}
                     {% endif %}
                     
@@ -295,7 +297,9 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {% for submission in cohort2_submissions|sort(attribute='_submission_date') %}
                     {% set submission_date = 'N/A' %}
-                    {% if submission.company_name and submission.company_name.strip() in date_mapping %}
+                    {% if submission.submitted_at %}
+                        {% set submission_date = submission.submitted_at %}
+                    {% elif submission.company_name and submission.company_name.strip() in date_mapping %}
                         {% set submission_date = date_mapping[submission.company_name.strip()]['display'] %}
                     {% endif %}
 
