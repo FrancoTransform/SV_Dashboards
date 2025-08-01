@@ -1260,23 +1260,37 @@ def sync_spreadsheet():
                 continue
 
         # Update token database with new analyses
-        for submission in new_companies[:generated_count]:
-            token = submission.get('Token', '').strip()
-            company_name = submission.get('Company Name', '')
-            if token:
-                token_db['analyzed_tokens'][token] = {
-                    'company_name': company_name,
-                    'analysis_file': f"{re.sub(r'[^a-z0-9]', '', company_name.lower())}_comprehensive_analysis.json",
-                    'analyzed_at': datetime.now().isoformat()
-                }
+        try:
+            for submission in new_companies[:generated_count]:
+                token = submission.get('Token', '').strip()
+                company_name = submission.get('Company Name', '')
+                if token:
+                    token_db['analyzed_tokens'][token] = {
+                        'company_name': company_name,
+                        'analysis_file': f"{re.sub(r'[^a-z0-9]', '', company_name.lower())}_comprehensive_analysis.json",
+                        'analyzed_at': datetime.now().isoformat()
+                    }
 
-        token_db['analyzed_count'] = len(token_db['analyzed_tokens'])
-        token_db['total_submissions'] = len(submissions)
-        token_db['last_sync'] = datetime.now().isoformat()
+            token_db['analyzed_count'] = len(token_db['analyzed_tokens'])
+            token_db['total_submissions'] = len(submissions)
+            token_db['last_sync'] = datetime.now().isoformat()
 
-        # Save updated token database
-        with open(token_db_path, 'w', encoding='utf-8') as f:
-            json.dump(token_db, f, indent=2, ensure_ascii=False)
+            # Save updated token database with error handling
+            import tempfile
+            import shutil
+
+            # Write to temporary file first, then move to avoid corruption
+            with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False, suffix='.json') as temp_file:
+                json.dump(token_db, temp_file, indent=2, ensure_ascii=False)
+                temp_path = temp_file.name
+
+            # Move temporary file to final location
+            shutil.move(temp_path, token_db_path)
+            print(f"✅ Token database updated successfully")
+
+        except Exception as e:
+            print(f"⚠️ Warning: Could not update token database: {e}")
+            # Continue without failing the entire sync
 
         return jsonify({
             'status': 'success',
