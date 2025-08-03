@@ -1,0 +1,184 @@
+{
+  "company_name": "Kelley Steven-Waiss",
+  "token": "zxsjt4edmv3vzrhailrmzxsjtfxnuxrq",
+  "submitted_at": "8/2/2025 14:03:19",
+  "website": "https://novaworks.ai",
+  "year_founded": "2025",
+  "description": "Novaworks is reimagining the next generation of workforce technology bringing to market the first-ever AI-native verticalized HCM built on the ServiceNow platform for the frontline workforce. The NovaHCM redefines the modern HR Operating Model and gives deskless workers a seamless and personalized career experience.",
+  "problem_statement": "HCM solutions today are built for the paradigms of work from the past and have been agnostic to industry failing to meet the needs of the frontline workforce. 80% of the workforce is \"deskless\" and yet research indicates their needs at work are not met. With the growth in areas like manufacturing and healthcare, we need to ensure we are addressing this part of the workforce. We believe by building a modern HCM with agents that serve the needs of these workers, we truly make work better for everyone.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1Ofnzvpelb4OR3jikiSvrWl35ZcYKrNeA/view?usp=sharing",
+  "demo_link": "https://novaworks.ai",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong track record with prior successful exits and deep domain expertise in HR technology. Kelley Steven-Waiss and Eswar Vandanapu have complementary skills, combining strategic vision with technical execution capabilities.",
+    "company_assessment": {
+      "business_model_strength": "The SaaS licensing model with a usage-based pricing strategy is well-aligned with industry standards, offering scalability and potential for high margins.",
+      "market_positioning": "Novaworks positions itself as a unique AI-native HCM solution for the underserved deskless workforce, differentiating from competitors by leveraging the ServiceNow platform.",
+      "execution_capability": "The team has demonstrated execution capability through previous ventures and strategic partnerships, indicating a strong potential to deliver on their vision.",
+      "strategic_vision": "The leadership has a clear long-term vision to disrupt the HR tech space with a focus on AI-native solutions, particularly for the frontline workforce."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kelley Steven-Waiss",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/kelleystevenwaiss/",
+        "background": "Kelley has over 13 years of experience as a CHRO and has previously founded Hitch Works, which was acquired by ServiceNow.",
+        "domain_expertise": "Extensive experience in HR operations and technology, with a focus on talent mobility and AI-driven solutions.",
+        "previous_startups": "Hitch Works, acquired by ServiceNow in 2022.",
+        "notable_achievements": "Successfully led Hitch Works to acquisition, recognized for innovative HR solutions.",
+        "leadership_signals": "Demonstrated leadership in scaling teams and strategic vision in HR tech.",
+        "track_record": [
+          {
+            "company": "Hitch Works",
+            "role": "Founder & CEO",
+            "outcome": "Acquired by ServiceNow",
+            "learnings": "Learned the importance of building a competitive moat and pivoting towards skills intelligence."
+          }
+        ]
+      },
+      {
+        "name": "Eswar Vandanapu",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/eswarv/",
+        "background": "Technical leader with experience in engineering and product roles at ServiceNow.",
+        "domain_expertise": "Expertise in building scalable HR tech solutions and AI integration.",
+        "previous_startups": "Worked with Kelley at Hitch Works.",
+        "notable_achievements": "Key contributor to the success of Hitch Works and its acquisition.",
+        "leadership_signals": "Strong technical leadership and ability to build high-performing engineering teams.",
+        "track_record": [
+          {
+            "company": "Hitch Works",
+            "role": "CTO",
+            "outcome": "Acquired by ServiceNow",
+            "learnings": "Gained insights into scaling tech solutions and integrating AI capabilities."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The HR tech space is competitive with established players like WorkDay and emerging solutions like Rippling and HiBob.",
+      "competitor_comparison": "Competitors often retrofit existing solutions for AI, whereas Novaworks offers a native AI approach, providing a more seamless experience.",
+      "positioning_assessment": "Novaworks differentiates by focusing on the deskless workforce and leveraging the ServiceNow platform for enhanced integration and scalability."
+    },
+    "red_flags": [
+      "Potential challenges in educating the market on the value of AI-native solutions."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a $15B+ opportunity within the broader $34B HCM market, growing at 8.5% CAGR. The focus on the deskless workforce addresses a significant unmet need.",
+    "market_analysis": {
+      "total_addressable_market": "The HCM market is projected to grow from $34B in 2024 to $64B by 2032, with Novaworks targeting a $15B+ segment.",
+      "serviceable_addressable_market": "Focus on mid-enterprise customers in healthcare, retail, manufacturing, and telco sectors.",
+      "serviceable_obtainable_market": "Realistic capture of market share through strategic partnerships and a differentiated product offering.",
+      "market_growth_rate": "8.5% CAGR projected for the HCM market, driven by digital transformation and AI adoption.",
+      "market_dynamics": "Key trends include the rise of AI in HR tech, increasing demand for personalized employee experiences, and the growth of the deskless workforce."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Targeting CHROs and Chief Talent Officers in mid-enterprise organizations.",
+      "willingness_to_pay": "Evidence from early adopter commitments and strategic partnerships indicates a willingness to invest in innovative HCM solutions.",
+      "customer_acquisition_cost": "Initial focus on founder-led sales and partnerships to optimize CAC.",
+      "lifetime_value": "Potential for high LTV through SaaS model and integration with existing ServiceNow infrastructure."
+    },
+    "red_flags": [
+      "Market education required to convey the value of AI-native solutions."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "Novaworks' technology is highly differentiated with AI-native architecture and integration with the ServiceNow platform, providing strong defensibility and scalability.",
+    "technical_assessment": {
+      "core_technology": "AI-native HCM built on the ServiceNow platform, offering seamless integration and enhanced user experience.",
+      "defensibility": "Strong technical barriers due to proprietary AI agents and integration capabilities.",
+      "intellectual_property": "Potential for IP protection through proprietary algorithms and AI models.",
+      "scalability": "Scalable architecture leveraging ServiceNow's infrastructure, capable of supporting large enterprise deployments."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI agents designed specifically for the deskless workforce.",
+      "data_advantages": "Integration with ServiceNow provides access to extensive data and workflow capabilities.",
+      "technical_barriers": "High barriers to entry due to the complexity of AI-native integration and platform capabilities."
+    },
+    "red_flags": [
+      "None identified."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Pre-product and pre-revenue stage, but strong early interest from potential customers and strategic partners indicates promising traction potential.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, but potential for rapid growth post-launch.",
+      "customer_metrics": "Early commitments from co-design partners and potential adopters.",
+      "retention_analysis": "Retention strategies will be critical post-launch, leveraging ServiceNow integration.",
+      "unit_economics": "Focus on optimizing CAC and LTV through strategic partnerships and scalable SaaS model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early discussions with potential customers.",
+      "product_market_fit": "Strong alignment with market needs for deskless workforce solutions.",
+      "notable_customers": "Potential for significant logos through ServiceNow partnership.",
+      "partnerships": "Strategic partnerships with ServiceNow and other GTM partners."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Strong strategic partnerships and early adopter interest."
+      ],
+      "areas_of_investigation": [
+        "Need to validate product-market fit post-launch."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue stage presents inherent risks."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Favorable market timing with increasing demand for AI-driven HR solutions and a growing focus on the deskless workforce.",
+    "market_timing": {
+      "market_readiness": "Market is increasingly ready for AI-native solutions, driven by digital transformation trends.",
+      "catalysts": "Growth in manufacturing and healthcare sectors, along with AI adoption in HR.",
+      "tailwinds": "Regulatory changes and workforce trends favoring digital solutions.",
+      "headwinds": "Potential challenges in market education and adoption timelines."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a strong position as an AI-native HCM provider.",
+      "competitive_response": "Competitors may respond by enhancing AI capabilities, but Novaworks' integration with ServiceNow provides a strong moat.",
+      "market_education": "Efforts needed to educate the market on the benefits of AI-native solutions."
+    },
+    "red_flags": [
+      "Potential delays in market adoption due to education requirements."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The terms of the $10M Seed Round are reasonable, with strategic alignment and potential for significant ownership and influence.",
+    "investment_details": {
+      "round_stage": "Seed Round",
+      "raise_amount": "$10M",
+      "pre_money_valuation": "Not specified, but implied to be reasonable given market opportunity.",
+      "post_money_valuation": "Dependent on final raise amount and investor commitments."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on innovative HR tech solutions.",
+      "ownership_potential": "Potential for significant ownership stake and influence in early-stage company.",
+      "liquidation_preferences": "Standard seed round terms expected.",
+      "valuation_justification": "Valuation appears justified by market opportunity and strategic partnerships."
+    },
+    "red_flags": [
+      "Potential dilution risk if additional funding is required."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Novaworks presents a compelling investment opportunity with a strong founding team, differentiated technology, and significant market potential. The strategic partnerships and focus on the deskless workforce align well with SV's investment thesis.",
+    "key_factors": [
+      "Strong team with proven track record",
+      "Differentiated AI-native technology",
+      "Significant market opportunity",
+      "Strategic partnerships with ServiceNow"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on market education strategies",
+      "Validate early adopter commitments",
+      "Assess potential for rapid scaling post-launch"
+    ]
+  }
+}

@@ -426,10 +426,20 @@
       "company_name": "MediaUClips Corporation",
       "analysis_file": "mediauclipscorporation_comprehensive_analysis.json",
       "analyzed_at": "2025-08-01T16:01:38.076878"
+    },
+    "zxsjt4edmv3vzrhailrmzxsjtfxnuxrq": {
+      "company_name": "Kelley Steven-Waiss",
+      "analysis_file": "kelleystevenwaiss_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-03T08:58:30.976421"
+    },
+    "86jhxxgzuyqsf3d84p86jh3up7te0gpl": {
+      "company_name": "Cognitiveview",
+      "analysis_file": "cognitiveview_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-03T08:58:30.976494"
     }
   },
-  "last_sync": "2025-08-01T16:01:38.076899",
-  "total_submissions": 72,
-  "analyzed_count": 72,
+  "last_sync": "2025-08-03T08:58:30.976509",
+  "total_submissions": 74,
+  "analyzed_count": 74,
   "unmatched_analyses": []
 }

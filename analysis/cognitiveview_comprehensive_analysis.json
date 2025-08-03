@@ -1,0 +1,158 @@
+{
+  "company_name": "Cognitiveview",
+  "token": "86jhxxgzuyqsf3d84p86jh3up7te0gpl",
+  "submitted_at": "8/3/2025 7:31:08",
+  "website": "https://www.cognitiveview.com",
+  "year_founded": "2022",
+  "description": "CognitiveView is an AI Governance platform for regulated industries. Our audit module, TRACE\u00e2\u0080\u0091RAI, transforms GenAI evaluation scores into signed, compliance-ready evidence. We\u00e2\u0080\u0099re helping hospitals, governments, and enterprises meet HIPAA, HITRUST, and EU AI Act requirements\u00e2\u0080\u0094already deployed across 80\u00e2\u0080\u0093100 hospitals and piloting with the U.S. Department of Defense.",
+  "problem_statement": "GenAI adoption is outpacing regulation, and enterprises \u00e2\u0080\u0094 especially in healthcare and government \u00e2\u0080\u0094 have no standardized way to prove their AI systems are safe, fair, or compliant. Existing tools generate metrics, but not audit-ready evidence. This gap blocks procurement, increases risk, and erodes trust in critical sectors.",
+  "pitch_deck_link": "https://docsend.com/view/92k2unn4p7kypadf",
+  "demo_link": "https://drive.google.com/file/d/19VjdAZOzaGG6zYw-UEFoNGspwDgB0Xqw/view?usp=sharing",
+  "team": {
+    "score": 4,
+    "justification": "The team is led by a founder with strong technical expertise and a clear understanding of the AI governance space. The team is lean but has a strong focus on execution, with a significant portion of the team dedicated to engineering and product development. The founder's background and the team's technical depth are strong indicators of their ability to execute the company's vision.",
+    "company_assessment": {
+      "business_model_strength": "The SaaS subscription model is scalable and aligns well with the needs of compliance-conscious enterprises. The company has already generated early revenue and has a clear path to scaling through enterprise contracts.",
+      "market_positioning": "CognitiveView positions itself as a leader in AI governance, focusing on audit-ready compliance evidence, which is a unique value proposition in the market.",
+      "execution_capability": "The team has demonstrated strong execution capability by securing significant pilots and early revenue, indicating their ability to deliver on their vision.",
+      "strategic_vision": "The company's strategic vision to become the default audit and compliance infrastructure for GenAI across regulated industries is ambitious and well-aligned with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Dilip Mohapatra",
+        "role": "Founder, Acting CTO, and Product Architect",
+        "linkedin": "https://www.linkedin.com/in/dilipmohapatra/",
+        "background": "Dilip Mohapatra has a strong technical background with experience in product architecture and AI governance.",
+        "domain_expertise": "Extensive expertise in AI governance and compliance, particularly in regulated industries.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Successfully pivoted the company to focus on AI governance, securing significant pilots and early revenue.",
+        "leadership_signals": "Demonstrated leadership in building a technically strong team and securing strategic partnerships.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes MLOps platforms, AI governance dashboards, and consulting firms. CognitiveView differentiates by providing audit-ready compliance evidence.",
+      "competitor_comparison": "Competitors focus on metrics and dashboards, lacking deep integration with evaluation metrics and automated evidence creation.",
+      "positioning_assessment": "CognitiveView's focus on audit-ready evidence and automation positions it uniquely against competitors who treat compliance as static documentation."
+    },
+    "red_flags": [
+      "Limited information on the founder's prior entrepreneurial experience."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The AI Governance and Assurance market is projected to reach $276B by 2030, with a high CAGR of 108%. CognitiveView's initial focus on a $255M SAM of AI-first regulated startups is well-defined and aligns with market growth trends.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $276B by 2030, driven by increasing regulatory requirements and AI adoption.",
+      "serviceable_addressable_market": "The SAM is $255M, focusing on AI-first regulated startups in healthtech, fintech, and legaltech.",
+      "serviceable_obtainable_market": "The SOM is projected based on the company's go-to-market strategy and partnerships.",
+      "market_growth_rate": "The market is growing at a CAGR of 108%, indicating strong demand and expansion opportunities.",
+      "market_dynamics": "Key trends include increasing regulatory requirements, the need for AI compliance, and the growing importance of audit-ready evidence."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include compliance-conscious enterprises in healthcare, government, and regulated AI vendors.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by early revenue and enterprise contracts.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is likely managed through strategic partnerships and direct sales.",
+      "lifetime_value": "LTV is expected to be high due to the recurring SaaS model and enterprise contracts."
+    },
+    "red_flags": [
+      "Potential challenges in educating the market on AI governance and compliance."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "CognitiveView's technology is differentiated by its focus on audit-ready compliance evidence and automation. The core technology is built in-house, providing defensibility and scalability.",
+    "technical_assessment": {
+      "core_technology": "The core technology includes the TRACE\u00e2\u0080\u0091RAI audit module, which automates the transformation of GenAI evaluation scores into compliance-ready evidence.",
+      "defensibility": "The in-house development of core logic and compliance mapping provides a competitive moat.",
+      "intellectual_property": "No specific patents or IP strategy mentioned, but the proprietary nature of the audit module is a strength.",
+      "scalability": "The SaaS model and technical architecture support scalability across multiple industries and geographies."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The TRACE\u00e2\u0080\u0091RAI module offers unique automation capabilities for compliance evidence generation.",
+      "data_advantages": "The platform's ability to integrate with existing AI systems and generate audit-ready evidence is a key advantage.",
+      "technical_barriers": "The complexity of compliance mapping and audit automation creates barriers for competitors."
+    },
+    "red_flags": [
+      "Lack of explicit IP protection could be a concern in the long term."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "CognitiveView has demonstrated strong early traction with significant pilots, early revenue, and strategic partnerships. The focus on converting pilots to ARR is a positive indicator of growth potential.",
+    "growth_metrics": {
+      "revenue_growth": "The company has generated $80K in early revenue, with a focus on scaling through enterprise contracts.",
+      "customer_metrics": "Currently has 4 paying customers and 5 active pilots, indicating strong interest and validation.",
+      "retention_analysis": "Retention metrics are not detailed, but the focus on long-term SaaS contracts suggests a strategy for high retention.",
+      "unit_economics": "Unit economics are not explicitly detailed, but the SaaS model supports favorable economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early customers and pilots, particularly in healthcare and government sectors.",
+      "product_market_fit": "Evidence of PMF is indicated by the exclusive rollout to hospitals and the DoD pilot.",
+      "notable_customers": "Key customers include a U.S. healthcare standards body and the U.S. Department of Defense.",
+      "partnerships": "Strategic partnerships with consulting firms and channel partners support distribution and scaling."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured significant pilots and early revenue, strong partner network."
+      ],
+      "areas_of_investigation": [
+        "Need to monitor conversion of pilots to long-term contracts."
+      ]
+    },
+    "red_flags": [
+      "Limited information on customer retention and churn rates."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable due to increasing regulatory requirements and the growing need for AI governance solutions. CognitiveView is well-positioned to capitalize on these trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for AI governance solutions, driven by regulatory pressures and enterprise needs.",
+      "catalysts": "Regulations like HIPAA, EU AI Act, and ISO 42001 are driving demand for compliance solutions.",
+      "tailwinds": "Favorable trends include the rapid adoption of GenAI and the need for audit-ready compliance evidence.",
+      "headwinds": "Potential challenges include market education and the pace of regulatory changes."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "CognitiveView has a first-mover advantage in providing audit-ready compliance evidence.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but CognitiveView's focus on automation provides a strong moat.",
+      "market_education": "Market education is required, but the company's partnerships and strategic pilots support this effort."
+    },
+    "red_flags": [
+      "Potential delays in regulatory adoption could impact timing."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a clear use of funds for scaling and customer acquisition. The terms align with early-stage investment criteria, but valuation details are limited.",
+    "investment_details": {
+      "round_stage": "Currently raising funds via SAFEs.",
+      "raise_amount": "The company has raised $450,000 to date and is seeking additional funding.",
+      "pre_money_valuation": "Valuation caps range from $3M to $10.8M, depending on the investor.",
+      "post_money_valuation": "Post-money valuation details are not explicitly provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on AI governance and compliance aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership and influence through early-stage investment.",
+      "liquidation_preferences": "Standard SAFE terms with no specific liquidation preferences mentioned.",
+      "valuation_justification": "Valuation is justified by early traction and market potential, but further details would be beneficial."
+    },
+    "red_flags": [
+      "Limited transparency on valuation methodology and post-money implications."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "CognitiveView demonstrates strong potential in a rapidly growing market with significant regulatory tailwinds. The team's technical expertise, early traction, and strategic vision align well with SemperVirens' investment thesis.",
+    "key_factors": [
+      "Strong market demand for AI governance solutions.",
+      "Unique value proposition with audit-ready compliance evidence.",
+      "Early traction with significant pilots and revenue."
+    ],
+    "next_steps": [
+      "Conduct a deeper due diligence on customer retention and churn metrics.",
+      "Evaluate the company's IP strategy and potential competitive threats.",
+      "Engage with the founder to discuss valuation and investment terms."
+    ]
+  }
+}
