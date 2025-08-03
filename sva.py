@@ -608,6 +608,21 @@ def health_check():
             'error': str(e)
         }), 500
 
+# Authentication status check (no login required)
+@app.route('/auth_status')
+def auth_status():
+    """Check authentication status"""
+    try:
+        return jsonify({
+            'authenticated': bool(session.get('authenticated')),
+            'session_keys': list(session.keys()),
+            'permanent': session.permanent if hasattr(session, 'permanent') else False
+        })
+    except Exception as e:
+        return jsonify({
+            'error': str(e)
+        }), 500
+
 # Flask routes
 @app.route('/')
 @login_required

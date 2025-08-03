@@ -482,7 +482,20 @@
         // Use sync_spreadsheet endpoint with the actual Google Sheets URL
         const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1XA04fIaZI038hTnZAsX5L_BoDk45K2OID7O1ol1Aoxw/edit?pli=1&gid=1201695147#gid=1201695147';
         fetch(`/sync_spreadsheet?url=${encodeURIComponent(spreadsheetUrl)}`)
-            .then(response => response.json())
+            .then(response => {
+                // Check if response is redirected to login page
+                if (response.redirected && response.url.includes('/login')) {
+                    throw new Error('Authentication required. Please refresh the page and log in again.');
+                }
+
+                // Check if response is JSON
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    throw new Error('Server returned non-JSON response. Please check your login status.');
+                }
+
+                return response.json();
+            })
             .then(data => {
                 if (data.status === 'success') {
                     status.textContent = data.message;
@@ -490,18 +503,24 @@
                     // Refresh the page after 2 seconds to show new analyses
                     setTimeout(() => location.reload(), 2000);
                 } else {
-                    status.textContent = 'Error: ' + data.message;
+                    status.textContent = 'Error: ' + (data.message || 'Unknown error occurred');
                     status.className = 'text-lg font-medium text-red-400';
                 }
             })
             .catch(error => {
+                console.error('Sync error:', error);
                 status.textContent = 'Error: ' + error.message;
                 status.className = 'text-lg font-medium text-red-400';
+
+                // If it's an authentication error, suggest refresh
+                if (error.message.includes('Authentication') || error.message.includes('login')) {
+                    status.textContent += ' Please refresh the page and try again.';
+                }
             })
             .finally(() => {
                 // Reset link state
                 link.style.pointerEvents = 'auto';
-                link.textContent = 'Generate Analyses';
+                link.textContent = 'Sync with Spreadsheet';
                 link.classList.remove('text-yellow-400');
                 link.classList.add('hover:text-sv-green');
             });
