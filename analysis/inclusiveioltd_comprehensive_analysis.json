@@ -1,0 +1,169 @@
+{
+  "company_name": "Inclusive.io Ltd.",
+  "token": "dgczanx8qrefpqudgxqk6t7gv2hk3yvx",
+  "submitted_at": "8/5/2025 10:45:27",
+  "website": "https://welcome.inclusive.io/",
+  "year_founded": "2023",
+  "description": "The first ATS that generates revenue \u00e2\u0080\u0093 we move hiring from cost-centre to profit centre.",
+  "problem_statement": "In a world where Talent Attraction professionals are expected to deliver more with a tighter budget, whilst increasing productivity, we are the only ATS product which has the potential to generate revenue and therefore eliminate costly subscription.",
+  "pitch_deck_link": "https://storage.googleapis.com/sboj-presentations/60459-pt-1754312207214.pdf",
+  "demo_link": "https://storage.googleapis.com/sboj-presentations/60459-pt-1754312207214.pdf",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a clear understanding of the ATS market. The CEO and CTO have previously collaborated, indicating a solid working relationship. The team is small but focused, with a clear division of roles.",
+    "company_assessment": {
+      "business_model_strength": "The business model is innovative, aiming to transform ATS from a cost center to a profit center. The model includes subscription fees and transaction-based revenue, which could be scalable.",
+      "market_positioning": "Inclusive.io positions itself uniquely by offering revenue-generating capabilities, differentiating from traditional ATS solutions.",
+      "execution_capability": "The team has developed a product, completed beta testing, and is in discussions with potential customers, demonstrating execution capability.",
+      "strategic_vision": "The strategic vision includes potential partnerships with existing ATS providers, which could accelerate market penetration."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Nick Gray",
+        "role": "CEO / Founder",
+        "linkedin": "https://www.linkedin.com/in/nickinclusive",
+        "background": "Nick has a background in talent acquisition and technology, with experience in leading projects that intersect these domains.",
+        "domain_expertise": "Strong expertise in ATS systems and talent acquisition processes.",
+        "previous_startups": "No prior startups mentioned, but has project leadership experience.",
+        "notable_achievements": "Successfully led the development of Inclusive.io's product from concept to beta testing.",
+        "leadership_signals": "Demonstrates leadership through strategic vision and team building.",
+        "track_record": []
+      },
+      {
+        "name": "Mat Best",
+        "role": "CTO / Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/mathew-best-7302362",
+        "background": "Mat has a technical background with expertise in software development and engineering.",
+        "domain_expertise": "Technical expertise in building scalable software solutions.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Led the technical development of Inclusive.io's platform.",
+        "leadership_signals": "Strong technical leadership and ability to execute on product development.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The ATS market is competitive with established players like Ashby and Teamtailor.",
+      "competitor_comparison": "Competitors focus on UX/UI but lack revenue-generating features. Inclusive.io offers additional candidate pools, providing a unique value proposition.",
+      "positioning_assessment": "Inclusive.io differentiates by offering cost savings and revenue generation, potentially appealing to cost-conscious talent leaders."
+    },
+    "red_flags": [
+      "Small team size may limit scalability without additional resources."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a $10B TAM. The company has identified a clear niche within the ATS market, focusing on mid-sized employers.",
+    "market_analysis": {
+      "total_addressable_market": "$10B, based on the size of the ATS market and potential customer base.",
+      "serviceable_addressable_market": "Mid-sized employers using legacy ATS systems, a significant portion of the TAM.",
+      "serviceable_obtainable_market": "Realistic capture of market share through partnerships and unique value proposition.",
+      "market_growth_rate": "The ATS market is growing as companies seek more efficient hiring solutions.",
+      "market_dynamics": "Key trends include cost reduction pressures and the integration of AI in hiring processes."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Talent leaders and HR directors in mid-sized companies, focused on cost efficiency.",
+      "willingness_to_pay": "Evidence suggests strong interest in cost-saving solutions, with potential for revenue generation.",
+      "customer_acquisition_cost": "Currently low due to bootstrapped operations, but may increase with scaling.",
+      "lifetime_value": "High LTV potential due to cost savings and revenue generation for customers."
+    },
+    "red_flags": [
+      "Market entry barriers due to established competitors."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology offers unique features that differentiate it from competitors, with potential for scalability and defensibility.",
+    "technical_assessment": {
+      "core_technology": "An ATS platform with additional candidate pools, offering a unique search capability.",
+      "defensibility": "The integration of external recruiter candidates and recycled candidates provides a competitive moat.",
+      "intellectual_property": "No patents mentioned, but the unique approach offers some defensibility.",
+      "scalability": "The platform is designed to scale with additional users and integrations."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for candidate pool integration.",
+      "data_advantages": "Access to unique candidate data pools.",
+      "technical_barriers": "Competitors would need to develop similar integrations to match features."
+    },
+    "red_flags": [
+      "Potential technical challenges in scaling integrations with existing ATS systems."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Early traction with soft users and upcoming ICP customers, but limited revenue generation to date.",
+    "growth_metrics": {
+      "revenue_growth": "Expected revenue of \u00a310K per month from first ICP user.",
+      "customer_metrics": "2 soft users and 3 ICP customers in discussions.",
+      "retention_analysis": "Retention data not yet available due to early stage.",
+      "unit_economics": "Potentially strong unit economics with low CAC and high LTV."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from beta testing, leading to product pivot.",
+      "product_market_fit": "Evidence of PMF through customer interest and feedback.",
+      "notable_customers": "No notable customers yet, but discussions with ICPs are promising.",
+      "partnerships": "Potential for strategic partnerships with existing ATS providers."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful beta testing and product pivot based on feedback."
+      ],
+      "areas_of_investigation": [
+        "Need to validate revenue generation model with paying customers."
+      ]
+    },
+    "red_flags": [
+      "Limited revenue and customer base at this stage."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Favorable market conditions with increasing demand for cost-efficient ATS solutions and potential for early mover advantage.",
+    "market_timing": {
+      "market_readiness": "Market is ready for cost-saving and revenue-generating ATS solutions.",
+      "catalysts": "Pressure on talent leaders to reduce costs and increase productivity.",
+      "tailwinds": "Growing adoption of AI and digital transformation in HR.",
+      "headwinds": "Potential economic downturns affecting hiring budgets."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage in offering revenue-generating ATS features.",
+      "competitive_response": "Competitors may respond by developing similar features.",
+      "market_education": "Requires educating the market on the benefits of revenue-generating ATS."
+    },
+    "red_flags": [
+      "Potential delays in market adoption due to economic factors."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Currently bootstrapped with minimal operational costs, but seeking funding to scale operations and validate GTM strategy.",
+    "investment_details": {
+      "round_stage": "Early stage, currently fundraising.",
+      "raise_amount": "Not specified, but seeking financial backing to scale.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Aligns with SV's focus on innovative HR tech solutions.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation needs to be justified based on traction and market potential."
+    },
+    "red_flags": [
+      "Lack of clarity on valuation and funding requirements."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Inclusive.io presents a unique value proposition in the ATS market with potential for significant disruption. The team has demonstrated execution capability and the market conditions are favorable for their solution. However, further validation of the revenue model and customer acquisition strategy is needed.",
+    "key_factors": [
+      "Innovative business model",
+      "Strong team with domain expertise",
+      "Favorable market conditions"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on customer acquisition strategy",
+      "Validate revenue model with paying customers",
+      "Explore potential partnerships with existing ATS providers"
+    ]
+  }
+}

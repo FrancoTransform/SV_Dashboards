@@ -436,10 +436,25 @@
       "company_name": "Cognitiveview",
       "analysis_file": "cognitiveview_comprehensive_analysis.json",
       "analyzed_at": "2025-08-03T08:58:30.976494"
+    },
+    "3e30iefhtgljjcx3e52mck7xqhvc4726": {
+      "company_name": "Atlas Games",
+      "analysis_file": "atlasgames_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-05T08:42:53.688881"
+    },
+    "dgczanx8qrefpqudgxqk6t7gv2hk3yvx": {
+      "company_name": "Inclusive.io Ltd.",
+      "analysis_file": "inclusiveioltd_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-05T08:42:53.688952"
+    },
+    "174c2kth4up3e1woser174c2kcd082w9": {
+      "company_name": "Funli MB",
+      "analysis_file": "funlimb_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-05T08:42:53.688957"
     }
   },
-  "last_sync": "2025-08-03T08:58:30.976509",
-  "total_submissions": 74,
-  "analyzed_count": 74,
+  "last_sync": "2025-08-05T08:42:53.688967",
+  "total_submissions": 77,
+  "analyzed_count": 77,
   "unmatched_analyses": []
 }

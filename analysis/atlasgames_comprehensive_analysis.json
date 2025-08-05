@@ -1,0 +1,183 @@
+{
+  "company_name": "Atlas Games",
+  "token": "3e30iefhtgljjcx3e52mck7xqhvc4726",
+  "submitted_at": "8/4/2025 15:57:21",
+  "website": "https://www.atlasgames.co",
+  "year_founded": "2025",
+  "description": "Atlas creates competitive team thinking game that helps players build essential workforce skills like reasoning, collaboration, and adaptability. Through fast-paced, team-based challenges, players strengthen the human intelligence needed in the age of AI.",
+  "problem_statement": "We are solving what we believe is the most urgent problem facing humanity: the decline of human intelligence. For the first time in recorded history, IQ scores are dropping. At the same time, artificial intelligence is accelerating rapidly, outsourcing our thinking, decision-making, and even our ability to connect with one another. If this continues, we risk a generation that cannot reason clearly, collaborate effectively, or adapt to uncertainty. These are the human skills that machines cannot replicate, and they are fading fast. This is not just an education problem. It is a global crisis. The systems meant to train and strengthen our intelligence are outdated and passive. Meanwhile, the tools we use daily are making us faster but cognitively weaker. Atlas is our response. We are creating a new category of competitive thinking games designed to train the human skills that matter most in the age of AI. By turning learning into cinematic, high-stakes entertainment, we aim to restore what is being lost: reasoning, critical thinking, adaptability, decision making, communication, and human connection. While the world races to build artificial intelligence, we are focused on the humans who will need to use it to stay relevant.",
+  "pitch_deck_link": "https://docsend.com/view/6qwh4a5z8x7jciwi",
+  "demo_link": "https://www.youtube.com/watch?v=fkYVnhefQtA",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong background in game technology and workforce development, with complementary skills in technology and growth. The co-founders have relevant experience from Synthesis and Clicked, indicating a solid understanding of the market and product development.",
+    "company_assessment": {
+      "business_model_strength": "Atlas Games has a clear B2C revenue model with plans to expand into B2B2C, leveraging competition entry fees and subscriptions. The model is scalable with potential for high margins.",
+      "market_positioning": "The company positions itself uniquely at the intersection of gaming and skill-building, targeting Gen Z's desire for meaningful gameplay.",
+      "execution_capability": "The team has demonstrated execution capability by developing a product ready for launch and securing initial funding.",
+      "strategic_vision": "Atlas Games has a strategic vision to become a talent engine, connecting gameplay with real-world skill validation for employers."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Jeff Sample",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/jeff-sample",
+        "background": "Jeff has a background in workforce development and was involved in Clicked, which was acquired by Ziplines Education.",
+        "domain_expertise": "Expertise in workforce development and educational technology.",
+        "previous_startups": "Worked on Clicked, which was acquired.",
+        "notable_achievements": "Successful acquisition of previous startup.",
+        "leadership_signals": "Demonstrated leadership in building and scaling a company to acquisition.",
+        "track_record": [
+          {
+            "company": "Clicked",
+            "role": "Co-founder",
+            "outcome": "Acquired by Ziplines Education",
+            "learnings": "Gained insights into workforce development and scaling educational platforms."
+          }
+        ]
+      },
+      {
+        "name": "Vivek Vidyasagaran",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/vivek-vidyasagaran-12168277/",
+        "background": "Vivek has experience in platform and game technology, having worked at Synthesis.",
+        "domain_expertise": "Expertise in game technology and platform development.",
+        "previous_startups": "Worked on Synthesis, contributing to platform and game technology.",
+        "notable_achievements": "Key contributor to Synthesis's platform development.",
+        "leadership_signals": "Strong technical leadership and product development skills.",
+        "track_record": [
+          {
+            "company": "Synthesis",
+            "role": "Platform and Game Technology Lead",
+            "outcome": "Contributed to successful platform development.",
+            "learnings": "Gained experience in developing educational games and platforms."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes traditional gaming companies and educational platforms.",
+      "competitor_comparison": "Roblox and Minecraft are indirect competitors but lack intentional skill-building design.",
+      "positioning_assessment": "Atlas Games differentiates by focusing on skill-building through competitive gameplay, appealing to Gen Z's desire for meaningful engagement."
+    },
+    "red_flags": [
+      "Small team size may limit execution capacity in scaling operations."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial with a TAM of $18bn, indicating significant potential. The company's focus on Gen Z and skill-building aligns with growing market trends.",
+    "market_analysis": {
+      "total_addressable_market": "$18bn, based on the gaming and educational technology sectors.",
+      "serviceable_addressable_market": "$3bn, targeting Gen Z and skill-building games.",
+      "serviceable_obtainable_market": "$60m, initial focus on competitive gaming for skill development.",
+      "market_growth_rate": "The gaming and edtech sectors are experiencing strong growth, with increasing demand for skill-building games.",
+      "market_dynamics": "Key trends include the rise of AI, demand for real-world skill development, and Gen Z's preference for meaningful gaming experiences."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Gen Z individuals seeking skill development through gaming, and employers looking for talent with critical thinking and collaboration skills.",
+      "willingness_to_pay": "91% of Gen Z are willing to pay for games that build real-life skills.",
+      "customer_acquisition_cost": "Low CAC due to direct outreach to campus leaders and social growth strategies.",
+      "lifetime_value": "Potentially high LTV with subscription model and employer partnerships."
+    },
+    "red_flags": [
+      "Market penetration may be challenging due to competition from established gaming platforms."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is innovative, focusing on competitive thinking games, but lacks clear defensibility and IP strategy.",
+    "technical_assessment": {
+      "core_technology": "Competitive thinking games designed to build workforce skills.",
+      "defensibility": "Limited technical barriers to entry; reliance on unique game design and user experience.",
+      "intellectual_property": "No mention of patents or IP strategy.",
+      "scalability": "Scalable platform with potential for international expansion."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "Potential data advantages from gameplay analytics.",
+      "technical_barriers": "Limited barriers; focus on unique game design and engagement."
+    },
+    "red_flags": [
+      "Lack of clear IP strategy and technical defensibility."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "The company is in the early stages with a product launch imminent. Initial traction is promising but unproven.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet; first game launching in October.",
+      "customer_metrics": "Targeting 30 colleges with 30 players each for initial competition.",
+      "retention_analysis": "No data available yet.",
+      "unit_economics": "Revenue model based on competition entry fees and subscriptions."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from game testing group.",
+      "product_market_fit": "Early signs of PMF with strong alignment to Gen Z's desires.",
+      "notable_customers": "N/A",
+      "partnerships": "Working with a design studio for game development."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured $250K non-dilutive grant from Carina Initiatives."
+      ],
+      "areas_of_investigation": [
+        "Need to validate B2B2C model and employer partnerships."
+      ]
+    },
+    "red_flags": [
+      "Lack of proven traction and revenue."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for skill-building games and Gen Z's growing skepticism of AI.",
+    "market_timing": {
+      "market_readiness": "Market is ready for innovative educational games.",
+      "catalysts": "Decline in human intelligence and rise of AI.",
+      "tailwinds": "Growing demand for real-world skill development.",
+      "headwinds": "Potential competition from established gaming platforms."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in skill-building gaming.",
+      "competitive_response": "Established platforms may respond by integrating similar features.",
+      "market_education": "Requires educating the market on the value of skill-building games."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response from established players."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is seeking $500K with a $250K grant already secured. Terms are reasonable but lack detailed valuation information.",
+    "investment_details": {
+      "round_stage": "Seed stage, seeking $500K.",
+      "raise_amount": "$500K total, with $250K grant contingent on additional $250K raise.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Aligned with SV's focus on innovative education and workforce development.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details not provided, making it difficult to assess."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and term information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Atlas Games presents a compelling opportunity at the intersection of gaming and skill-building, with a strong founding team and favorable market timing. While early-stage risks exist, the potential for significant impact and alignment with SV's investment thesis warrants advancing to the next stage.",
+    "key_factors": [
+      "Strong team with relevant experience",
+      "Favorable market timing",
+      "Innovative approach to skill-building games"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on B2B2C model",
+      "Assess potential partnerships with employers",
+      "Clarify valuation and investment terms"
+    ]
+  }
+}

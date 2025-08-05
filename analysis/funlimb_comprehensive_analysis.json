@@ -1,0 +1,187 @@
+{
+  "company_name": "Funli MB",
+  "token": "174c2kth4up3e1woser174c2kcd082w9",
+  "submitted_at": "8/5/2025 12:32:52",
+  "website": "https://rizzup.me/",
+  "year_founded": "2025",
+  "description": "We are creating social game platform for teens and event organizers",
+  "problem_statement": "Ice-breaker social games create an environment where strangers can have better relationship, current social games are dud",
+  "pitch_deck_link": "https://www.canva.com/design/DAGt3zN0aes/dFHLwFbLEehfRuIBpX_Qrg/edit?utm_content=DAGt3zN0aes&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  "demo_link": "https://play.google.com/store/apps/details?id=com.ug.rizzup",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has complementary skills and prior experience working together, which is a positive indicator of execution capability. However, the team is small, and there are concerns about their ability to scale operations quickly.",
+    "company_assessment": {
+      "business_model_strength": "The subscription model is straightforward but may face challenges in converting free users to paying customers. Scalability is possible but requires significant marketing efforts.",
+      "market_positioning": "The company targets a niche market of teens and event organizers with a unique value proposition of affordable social games.",
+      "execution_capability": "The team has demonstrated initial traction with 5.5k players but lacks paying customers, indicating a need for better monetization strategies.",
+      "strategic_vision": "The leadership has a clear vision to scale to 10M users, but the path to achieving this is not well-defined."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Gopal Chitaure",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/goops17/",
+        "background": "Gopal has experience in app development and has previously worked on a Hair Care App.",
+        "domain_expertise": "Experience in app development and user behavior.",
+        "previous_startups": "Worked on a Hair Care App.",
+        "notable_achievements": "Won VU Tech Hub Pre-accelerator.",
+        "leadership_signals": "Demonstrated leadership in winning a hackathon and pre-accelerator.",
+        "track_record": [
+          {
+            "company": "Hair Care App",
+            "role": "Developer",
+            "outcome": "Ongoing",
+            "learnings": "Gained experience in app development and user engagement."
+          }
+        ]
+      },
+      {
+        "name": "Aust\u0117ja Sini\u016bt\u0117",
+        "role": "Marketing Head",
+        "linkedin": "https://www.linkedin.com/in/austeja-siniute/",
+        "background": "Marketing expertise with a focus on digital strategies.",
+        "domain_expertise": "Digital marketing and user acquisition.",
+        "previous_startups": "None mentioned.",
+        "notable_achievements": "Participated in VU Tech Hub Pre-accelerator.",
+        "leadership_signals": "Strong marketing skills demonstrated in initial user acquisition.",
+        "track_record": []
+      },
+      {
+        "name": "Suprina Tamrakar",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/austeja-siniute/",
+        "background": "Technical expertise in app development.",
+        "domain_expertise": "App development and technical architecture.",
+        "previous_startups": "None mentioned.",
+        "notable_achievements": "Co-developed the current platform.",
+        "leadership_signals": "Technical leadership in building the product.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The market for social games is competitive with established players like Photo roulette, NGL, and skribbl.io.",
+      "competitor_comparison": "Competitors offer one-off games or lack active participation, which Funli MB aims to address.",
+      "positioning_assessment": "Funli MB differentiates by focusing on affordability and active participation."
+    },
+    "red_flags": [
+      "Small team size may limit scaling capabilities."
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market is large, with a TAM of 1B, but the company's ability to capture a significant portion is uncertain.",
+    "market_analysis": {
+      "total_addressable_market": "1B, based on the global market for social games.",
+      "serviceable_addressable_market": "Not clearly defined, but likely a subset of the TAM focusing on teens and event organizers.",
+      "serviceable_obtainable_market": "Dependent on successful marketing and conversion strategies.",
+      "market_growth_rate": "Social gaming is a growing sector, but specific CAGR is not provided.",
+      "market_dynamics": "Trends include increasing smartphone usage and demand for social interaction platforms."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Teens looking for affordable social games and event organizers seeking engaging activities.",
+      "willingness_to_pay": "Initial tests showed interest, but no current paying customers.",
+      "customer_acquisition_cost": "Not provided, but organic growth indicates low initial CAC.",
+      "lifetime_value": "LTV is uncertain due to lack of paying customers."
+    },
+    "red_flags": [
+      "Unclear path to monetizing the large user base."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is functional and has attracted users, but lacks clear defensibility and scalability plans.",
+    "technical_assessment": {
+      "core_technology": "Social gaming platform with a focus on ice-breaker games.",
+      "defensibility": "No significant technical barriers to entry identified.",
+      "intellectual_property": "No IP strategy or patents mentioned.",
+      "scalability": "Scalability is possible but requires infrastructure investment."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "Potential for data-driven insights from user interactions.",
+      "technical_barriers": "None identified."
+    },
+    "red_flags": [
+      "Lack of defensibility and IP strategy."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Initial user acquisition is promising, but lack of paying customers and unclear monetization strategy are concerns.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue growth due to lack of paying customers.",
+      "customer_metrics": "5.5k players with organic growth of 50 users daily.",
+      "retention_analysis": "Retention metrics not provided.",
+      "unit_economics": "CAC and LTV not clearly defined."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive initial user growth, but no detailed feedback provided.",
+      "product_market_fit": "Some evidence of PMF with user growth, but monetization is lacking.",
+      "notable_customers": "None mentioned.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Initial user growth and organic acquisition."
+      ],
+      "areas_of_investigation": [
+        "Monetization strategy and retention improvement."
+      ]
+    },
+    "red_flags": [
+      "No paying customers despite initial user base."
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market is ready for social gaming solutions, but competitive pressures and timing of monetization are concerns.",
+    "market_timing": {
+      "market_readiness": "High demand for social interaction platforms.",
+      "catalysts": "Increased smartphone usage and social media engagement.",
+      "tailwinds": "Growing interest in social gaming.",
+      "headwinds": "Competitive market with established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Limited, as competitors are already established.",
+      "competitive_response": "High likelihood of competitive response.",
+      "market_education": "Some market education required for new game formats."
+    },
+    "red_flags": [
+      "Competitive pressures and need for rapid scaling."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is in early-stage fundraising with a clear need for capital to scale, but valuation and terms are not specified.",
+    "investment_details": {
+      "round_stage": "Early-stage fundraising.",
+      "raise_amount": "Applied for 60k grant, no equity raise details provided.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on scalable tech solutions.",
+      "ownership_potential": "Unclear due to lack of valuation details.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "No valuation details provided."
+    },
+    "red_flags": [
+      "Lack of clarity on valuation and investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company shows potential with a growing user base and a clear market need, but significant concerns around monetization, scalability, and competitive differentiation need to be addressed.",
+    "key_factors": [
+      "User growth potential",
+      "Market demand",
+      "Monetization challenges"
+    ],
+    "next_steps": [
+      "Develop a clear monetization strategy",
+      "Strengthen technical defensibility",
+      "Clarify investment terms and valuation"
+    ]
+  }
+}
