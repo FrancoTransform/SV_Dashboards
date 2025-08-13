@@ -88,6 +88,35 @@
                 <span id="analysisStatus" class="text-lg font-medium"></span>
             </div>
 
+            <!-- Sync Status Modal -->
+            <div id="syncModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center">
+                <div class="bg-gray-800 rounded-lg p-8 max-w-md w-full mx-4 border border-gray-600">
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold text-white mb-4">Synchronizing with Spreadsheet</h3>
+
+                        <!-- Progress Bar -->
+                        <div class="w-full bg-gray-700 rounded-full h-2 mb-4">
+                            <div id="syncProgress" class="bg-sv-green h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+                        </div>
+
+                        <!-- Status Text -->
+                        <div id="syncStatusText" class="text-gray-300 mb-4">
+                            Initializing...
+                        </div>
+
+                        <!-- Current Analysis Info -->
+                        <div id="syncCurrentAnalysis" class="text-sm text-gray-400 mb-4 hidden">
+                            <span id="syncCurrentCompany"></span>
+                        </div>
+
+                        <!-- Close Button (hidden during sync) -->
+                        <button id="syncCloseBtn" class="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded hidden">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+
             <!-- Tab Navigation -->
             <div class="mb-8">
                 <div class="flex space-x-1 bg-white/5 p-1 rounded-lg">
@@ -470,19 +499,40 @@
         e.preventDefault();
         const link = this;
         const status = document.getElementById('analysisStatus');
+        const modal = document.getElementById('syncModal');
+        const progressBar = document.getElementById('syncProgress');
+        const statusText = document.getElementById('syncStatusText');
+        const currentAnalysis = document.getElementById('syncCurrentAnalysis');
+        const currentCompany = document.getElementById('syncCurrentCompany');
+        const closeBtn = document.getElementById('syncCloseBtn');
 
-        // Disable link and show loading state
+        // Show modal and reset state
+        modal.classList.remove('hidden');
+        progressBar.style.width = '0%';
+        statusText.textContent = 'Comparing with spreadsheet...';
+        currentAnalysis.classList.add('hidden');
+        closeBtn.classList.add('hidden');
+
+        // Disable link
         link.style.pointerEvents = 'none';
-        link.textContent = 'Generating...';
+        link.textContent = 'Synchronizing...';
         link.classList.remove('hover:text-sv-green');
         link.classList.add('text-yellow-400');
-        status.textContent = 'Processing companies...';
-        status.className = 'text-lg font-medium text-yellow-400';
+
+        status.textContent = '';
+        status.className = 'text-lg font-medium';
 
         // Use sync_spreadsheet endpoint with the actual Google Sheets URL
         const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1XA04fIaZI038hTnZAsX5L_BoDk45K2OID7O1ol1Aoxw/edit?pli=1&gid=1201695147#gid=1201695147';
+
+        // Update progress to 10%
+        progressBar.style.width = '10%';
+
         fetch(`/sync_spreadsheet?url=${encodeURIComponent(spreadsheetUrl)}`)
             .then(response => {
+                // Update progress to 20%
+                progressBar.style.width = '20%';
+
                 // Check if response is redirected to login page
                 if (response.redirected && response.url.includes('/login')) {
                     throw new Error('Authentication required. Please refresh the page and log in again.');
@@ -497,18 +547,85 @@
                 return response.json();
             })
             .then(data => {
+                // Update progress to 30%
+                progressBar.style.width = '30%';
+
                 if (data.status === 'success') {
+                    const newCompanies = data.new_companies_found || 0;
+                    const generated = data.analyses_generated || 0;
+
+                    if (newCompanies > 0) {
+                        statusText.textContent = `Noticed ${newCompanies} updates in spreadsheet`;
+                        progressBar.style.width = '40%';
+
+                        // Simulate analysis creation progress
+                        if (generated > 0) {
+                            currentAnalysis.classList.remove('hidden');
+                            let currentStep = 0;
+                            const progressInterval = setInterval(() => {
+                                currentStep++;
+                                const progress = 40 + (currentStep / generated) * 50;
+                                progressBar.style.width = `${Math.min(progress, 90)}%`;
+
+                                if (currentStep <= generated) {
+                                    statusText.textContent = `Creating analysis ${currentStep} out of ${generated}`;
+                                    currentCompany.textContent = `Processing company ${currentStep}...`;
+                                }
+
+                                if (currentStep >= generated) {
+                                    clearInterval(progressInterval);
+                                    statusText.textContent = 'Comparing again with spreadsheet';
+                                    progressBar.style.width = '95%';
+
+                                    setTimeout(() => {
+                                        statusText.textContent = 'Synchronization complete';
+                                        progressBar.style.width = '100%';
+                                        currentAnalysis.classList.add('hidden');
+
+                                        setTimeout(() => {
+                                            closeBtn.classList.remove('hidden');
+                                            closeBtn.textContent = 'Refresh Page';
+                                            closeBtn.onclick = () => location.reload();
+                                        }, 1000);
+                                    }, 1000);
+                                }
+                            }, 1000);
+                        } else {
+                            // No analyses generated (already up to date)
+                            statusText.textContent = 'Synchronization complete - already up to date';
+                            progressBar.style.width = '100%';
+                            setTimeout(() => {
+                                closeBtn.classList.remove('hidden');
+                                closeBtn.onclick = () => {
+                                    modal.classList.add('hidden');
+                                };
+                            }, 1000);
+                        }
+                    } else {
+                        // No new companies found
+                        statusText.textContent = 'Synchronization complete - already up to date';
+                        progressBar.style.width = '100%';
+                        setTimeout(() => {
+                            closeBtn.classList.remove('hidden');
+                            closeBtn.onclick = () => {
+                                modal.classList.add('hidden');
+                            };
+                        }, 1000);
+                    }
+
                     status.textContent = data.message;
                     status.className = 'text-lg font-medium text-green-400';
-                    // Refresh the page after 2 seconds to show new analyses
-                    setTimeout(() => location.reload(), 2000);
                 } else {
-                    status.textContent = 'Error: ' + (data.message || 'Unknown error occurred');
-                    status.className = 'text-lg font-medium text-red-400';
+                    throw new Error(data.message || 'Unknown error occurred');
                 }
             })
             .catch(error => {
                 console.error('Sync error:', error);
+                statusText.textContent = 'Error: ' + error.message;
+                progressBar.style.width = '100%';
+                progressBar.classList.remove('bg-sv-green');
+                progressBar.classList.add('bg-red-500');
+
                 status.textContent = 'Error: ' + error.message;
                 status.className = 'text-lg font-medium text-red-400';
 
@@ -516,6 +633,16 @@
                 if (error.message.includes('Authentication') || error.message.includes('login')) {
                     status.textContent += ' Please refresh the page and try again.';
                 }
+
+                setTimeout(() => {
+                    closeBtn.classList.remove('hidden');
+                    closeBtn.textContent = 'Close';
+                    closeBtn.onclick = () => {
+                        modal.classList.add('hidden');
+                        progressBar.classList.remove('bg-red-500');
+                        progressBar.classList.add('bg-sv-green');
+                    };
+                }, 1000);
             })
             .finally(() => {
                 // Reset link state

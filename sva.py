@@ -1320,12 +1320,13 @@ def sync_spreadsheet():
 
         return jsonify({
             'status': 'success',
-            'message': f'Synced with spreadsheet. Generated {generated_count} new analyses.',
+            'message': f'Synced with spreadsheet. Generated {generated_count} new analyses.' if generated_count > 0 else 'Dashboard up to date',
             'total_in_sheet': len(submissions),
             'existing_analyses': len(analyzed_tokens) + generated_count,
             'new_companies_found': len(new_companies),
             'analyses_generated': generated_count,
-            'remaining_to_process': max(0, len(new_companies) - batch_size)
+            'remaining_to_process': max(0, len(new_companies) - batch_size),
+            'companies_processed': [submission.get('Company Name', '') for submission in new_companies[:generated_count]]
         })
 
     except Exception as e:
