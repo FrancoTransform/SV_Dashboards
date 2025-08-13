@@ -528,7 +528,9 @@
         // Update progress to 10%
         progressBar.style.width = '10%';
 
-        fetch(`/sync_spreadsheet?url=${encodeURIComponent(spreadsheetUrl)}`)
+        // Add cache-busting parameter
+        const cacheBuster = Date.now();
+        fetch(`/sync_spreadsheet?url=${encodeURIComponent(spreadsheetUrl)}&_=${cacheBuster}`)
             .then(response => {
                 // Update progress to 20%
                 progressBar.style.width = '20%';
@@ -585,7 +587,12 @@
                                         setTimeout(() => {
                                             closeBtn.classList.remove('hidden');
                                             closeBtn.textContent = 'Refresh Page';
-                                            closeBtn.onclick = () => location.reload();
+                                            closeBtn.onclick = () => location.reload(true); // Force hard refresh
+
+                                            // Auto-refresh after 3 seconds if analyses were generated
+                                            setTimeout(() => {
+                                                location.reload(true);
+                                            }, 3000);
                                         }, 1000);
                                     }, 1000);
                                 }
