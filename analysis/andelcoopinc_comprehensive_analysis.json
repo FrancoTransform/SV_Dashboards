@@ -1,0 +1,174 @@
+{
+  "company_name": "Andel Co-op, inc.",
+  "token": "0d8u83xxqypj4ihzu40d8u8vjr10j1mg",
+  "submitted_at": "8/10/2025 17:53:58",
+  "website": "https://andel.org",
+  "year_founded": "2025",
+  "description": "Andel is a membership service and pharmacy benefit building a fairer way to get life-changing drugs. Insurance isn't working. And individuals can't afford to pay cash. But as a group, Andel members get guaranteed access\u2014at a more affordable price.",
+  "problem_statement": "The era of life-changing drugs is upon us. Obesity. Diabetes. Alzheimer\u2019s. Cancer. There\u2019s just one problem: traditional payers can\u2019t afford them. In 2025, outpatient prescription drug costs are projected to rise by 11.4%, up from a 9.9% increase in 2024. This is driven by an unprecedented combination of price, applicability, and indefinite use. Thanks to advances in AI-generated drug discovery and personalized medicine, there will soon be many new classes of drugs which are exceptionally beneficial but fundamentally uninsurable.",
+  "pitch_deck_link": "https://file.andel.org/dl/jJyJhWyHvBGw",
+  "demo_link": "https://file.andel.org/dl/D43jJkjkqFhB",
+  "team": {
+    "score": 4,
+    "justification": "The founding team demonstrates strong domain expertise and complementary skills. Jay Bregman has a solid track record in entrepreneurship, and Ritu Malhotra brings significant pharmacy expertise. The team has a clear strategic vision and execution capability, evidenced by their ability to secure LOIs with strategic partners.",
+    "company_assessment": {
+      "business_model_strength": "The business model leverages a membership fee and employer subsidies, which could provide a stable revenue stream. The model is scalable, targeting a large market with significant growth potential.",
+      "market_positioning": "Andel positions itself as a disruptor in the pharmacy benefits space, offering a unique value proposition by aggregating demand to negotiate better drug prices.",
+      "execution_capability": "The team has demonstrated execution capability by designing the product and securing initial partnerships, indicating a strong ability to deliver on their vision.",
+      "strategic_vision": "The leadership has a clear long-term vision to expand from GLP-1s to all prescription drugs, aiming to capture a significant portion of the $805.9bn market."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Jay Bregman",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/jaybregman/",
+        "background": "Jay Bregman is an experienced entrepreneur with a history of successful startups.",
+        "domain_expertise": "Strong expertise in insurance and technology-driven solutions.",
+        "previous_startups": "Has founded and exited multiple startups, including Hailo.",
+        "notable_achievements": "Recognized for innovation in the tech industry.",
+        "leadership_signals": "Demonstrated leadership in building and scaling teams.",
+        "track_record": [
+          {
+            "company": "Hailo",
+            "role": "Founder",
+            "outcome": "Acquired",
+            "learnings": "Gained insights into scaling tech-driven businesses and navigating regulatory environments."
+          }
+        ]
+      },
+      {
+        "name": "Ritu Malhotra",
+        "role": "Chief Pharmacy Officer",
+        "linkedin": "https://www.linkedin.com/in/ritupharmd/",
+        "background": "Ritu Malhotra has extensive experience in pharmacy management and operations.",
+        "domain_expertise": "Deep knowledge of pharmacy benefits and drug pricing.",
+        "previous_startups": "N/A",
+        "notable_achievements": "Led pharmacy operations at CVS Caremark.",
+        "leadership_signals": "Strong leadership in pharmacy operations and strategic partnerships.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The pharmacy benefits market is competitive with established players like LillyDirect and NovoCare.",
+      "competitor_comparison": "Competitors rely on legacy technology and have limitations in contracting with employers, providing Andel an opportunity to differentiate.",
+      "positioning_assessment": "Andel differentiates by offering a membership model that aggregates demand, providing a unique approach to drug pricing."
+    },
+    "red_flags": [
+      "The team is relatively small, which may impact their ability to scale quickly."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The target market is substantial, with GLP-1s alone representing a $200bn opportunity. The broader prescription drug market is valued at $805.9bn, providing significant growth potential.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM for prescription drugs is $805.9bn, with GLP-1s representing a $200bn segment.",
+      "serviceable_addressable_market": "The SAM is initially focused on GLP-1s, with plans to expand to the broader market.",
+      "serviceable_obtainable_market": "SOM projections are based on capturing a significant share of the GLP-1 market through strategic partnerships.",
+      "market_growth_rate": "The market is experiencing rapid growth, driven by advances in drug discovery and personalized medicine.",
+      "market_dynamics": "Key trends include rising drug costs, increased demand for personalized medicine, and the need for alternative payment models."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are large employers and benefits managers seeking cost-effective drug coverage solutions.",
+      "willingness_to_pay": "Employers are motivated to find alternatives to fully-funded coverage, indicating a willingness to pay for Andel's solution.",
+      "customer_acquisition_cost": "CAC is expected to be low due to the direct-to-employer model and strategic partnerships.",
+      "lifetime_value": "LTV is projected to be high due to recurring membership fees and employer subsidies."
+    },
+    "red_flags": [
+      "Potential regulatory changes could impact market dynamics."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is built in-house, providing control over development. However, there is limited information on technical differentiation and defensibility.",
+    "technical_assessment": {
+      "core_technology": "The platform aggregates demand to negotiate better drug prices, leveraging proprietary algorithms.",
+      "defensibility": "The business model provides some defensibility, but technical barriers to entry are not clearly defined.",
+      "intellectual_property": "No patents or IP strategy mentioned, which could be a concern for defensibility.",
+      "scalability": "The technology is designed to scale with the addition of new drugs and members."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for demand aggregation and pricing negotiation.",
+      "data_advantages": "Potential data advantages from member usage and pricing insights.",
+      "technical_barriers": "Limited information on technical barriers preventing replication."
+    },
+    "red_flags": [
+      "Lack of clear IP strategy and technical defensibility."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company is pre-revenue and has not yet launched its product. However, securing LOIs with strategic partners is a positive signal.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue to date as the product is still in development.",
+      "customer_metrics": "No customers yet, but LOIs indicate potential future growth.",
+      "retention_analysis": "N/A",
+      "unit_economics": "N/A"
+    },
+    "market_validation": {
+      "customer_feedback": "Limited customer feedback available as the product is not yet in market.",
+      "product_market_fit": "Early signs of PMF through LOIs with strategic partners.",
+      "notable_customers": "N/A",
+      "partnerships": "LOIs with a strategic partner and a leading pharma company."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured LOIs with strategic partners."
+      ],
+      "areas_of_investigation": [
+        "Need to validate product-market fit post-launch."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status and lack of customer validation."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to rising drug costs and demand for alternative payment models. However, market education may be required.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative solutions to address rising drug costs.",
+      "catalysts": "Advances in drug discovery and personalized medicine are driving demand.",
+      "tailwinds": "Favorable trends include increasing drug costs and employer demand for cost-effective solutions.",
+      "headwinds": "Potential regulatory changes and market education challenges."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a strong market position as a first mover in the membership-based pharmacy benefits space.",
+      "competitive_response": "Competitors may respond by adapting their models, but Andel's unique approach provides a buffer.",
+      "market_education": "Some market education may be required to shift employer mindsets."
+    },
+    "red_flags": [
+      "Potential regulatory changes could impact timing."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising, but specific terms and valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Currently fundraising.",
+      "raise_amount": "Not specified.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on healthcare innovation aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership if investing early.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, making it difficult to assess."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "While Andel shows promise with a strong team and significant market potential, the lack of traction and detailed investment terms warrant a cautious approach. Further validation of product-market fit and clarity on fundraising terms are needed.",
+    "key_factors": [
+      "Strong team and market potential",
+      "Lack of traction and detailed investment terms"
+    ],
+    "next_steps": [
+      "Monitor product launch and traction",
+      "Request detailed investment terms and valuation information"
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "company_name": "Aioma",
+  "token": "yz61vzvxew9h2cbps82yz61vzvdz2wdk",
+  "submitted_at": "8/11/2025 2:01:19",
+  "website": "https://www.ptcapm.com/",
+  "year_founded": "2025",
+  "description": "Aioma is an AI-powered, all-in-one business operating system that unifies data, strategy, and execution. Starting with insurance and financial services, it replaces fragmented tools with a single platform, turning business vision into real-time action while reducing build times from months to hours.",
+  "problem_statement": "Businesses rely on 10+ disconnected tools, creating siloed data, inefficiencies, and a gap between strategy and execution. Legacy systems limit what leaders can achieve. We unify operations into one AI-powered platform, enabling real-time execution from vision to results, and cutting delays, errors, and missed opportunities.",
+  "pitch_deck_link": "https://drive.google.com/file/d/19ZI4YlJy2tF4_qjj0ZGCB1234AQ_7mrN/view?usp=sharing",
+  "demo_link": "https://youtu.be/p5h581OYC14",
+  "team": {
+    "score": 4,
+    "justification": "The founding team consists of a CEO with industry experience in consulting, finance, and insurance, and a CTO with deep technical expertise. Their complementary skills and shared vision provide a strong foundation for execution. However, the team is currently small, which may limit their ability to scale rapidly without additional hires.",
+    "company_assessment": {
+      "business_model_strength": "The SaaS subscription model with tiered pricing is scalable and aligns with industry standards. The focus on enterprise and SMB plans allows for broad market penetration.",
+      "market_positioning": "Aioma positions itself as a unifying platform in a fragmented market, offering a unique value proposition by integrating strategy, execution, and data.",
+      "execution_capability": "The team has developed core proprietary code and an initial prototype, demonstrating their ability to execute on their vision.",
+      "strategic_vision": "The long-term vision includes expanding beyond insurance and financial services into other industries, showcasing strategic thinking."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Suo Wu",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/suowu/",
+        "background": "Suo Wu has a background in consulting, finance, and insurance, providing industry insights and strategic direction.",
+        "domain_expertise": "Expertise in business operations and strategy within financial services.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Led structured conversations with industry leaders to validate product-market fit.",
+        "leadership_signals": "Demonstrated leadership in guiding product vision and business architecture.",
+        "track_record": []
+      },
+      {
+        "name": "Ming Bao",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/ming-bao/",
+        "background": "Ming Bao has a strong technical background, leading technical architecture and development.",
+        "domain_expertise": "Deep technical expertise in AI and software development.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Developed core proprietary code and initial prototype.",
+        "leadership_signals": "Leads technical development and architecture.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes companies like Cognition, Adept, and others focusing on narrow workflows or developer tools.",
+      "competitor_comparison": "Competitors lack true AI-native, end-to-end capabilities and depend on multiple systems, whereas Aioma offers a unified platform.",
+      "positioning_assessment": "Aioma differentiates by eliminating tool sprawl and data silos, providing a comprehensive solution."
+    },
+    "red_flags": [
+      "Small team size may limit rapid scaling."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a $200B+ global business software market and a $60B segment in insurance and financial services. The company's approach to expand into other industries further enhances market potential.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $200B+, with a focus on the $60B insurance and financial services segment.",
+      "serviceable_addressable_market": "SAM is focused on mid-to-large enterprises within the initial target segment.",
+      "serviceable_obtainable_market": "SOM projections are based on successful pilot programs and enterprise adoption.",
+      "market_growth_rate": "The business software market is experiencing robust growth, driven by digital transformation trends.",
+      "market_dynamics": "Key trends include the need for integrated solutions and AI-driven business operations."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are mid-to-large enterprises in insurance and financial services, with decision-makers in C-suite roles.",
+      "willingness_to_pay": "Validated through structured conversations and surveys indicating strong demand.",
+      "customer_acquisition_cost": "Not explicitly detailed, but initial customer interest suggests manageable CAC.",
+      "lifetime_value": "LTV is expected to be high due to enterprise contracts and recurring revenue model."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating highly competitive markets."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Aioma's technology is differentiated by its AI-powered, all-in-one platform that unifies data, strategy, and execution. The in-house development and proprietary code provide defensibility.",
+    "technical_assessment": {
+      "core_technology": "The platform integrates AI to unify business operations, reducing build times significantly.",
+      "defensibility": "Proprietary technology and in-house development create barriers to entry.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary code is a key asset.",
+      "scalability": "The platform is designed to scale across industries and enterprise clients."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The platform's AI capabilities provide a unique advantage in real-time execution.",
+      "data_advantages": "Integration of data across operations eliminates silos and enhances decision-making.",
+      "technical_barriers": "Competitors' reliance on multiple systems contrasts with Aioma's unified approach."
+    },
+    "red_flags": [
+      "Lack of explicit IP strategy could be a concern."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "While pre-revenue, Aioma has validated demand through structured conversations and surveys. The development of core technology and initial prototype are positive indicators.",
+    "growth_metrics": {
+      "revenue_growth": "Pre-revenue stage with plans for pilot testing and full launch.",
+      "customer_metrics": "Interest from 10+ insurance companies and 5 financial institutions.",
+      "retention_analysis": "Not applicable at this stage.",
+      "unit_economics": "Planned pricing structure suggests strong unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from structured conversations and prototype reviews.",
+      "product_market_fit": "Evidence of PMF through strong interest and demand validation.",
+      "notable_customers": "Potential pilot participants include mid-to-large insurance companies.",
+      "partnerships": "No strategic partnerships mentioned yet."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Development of core technology and validation of demand."
+      ],
+      "areas_of_investigation": [
+        "Conversion of interest into paying customers."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status and need to convert interest into sales."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing demand for integrated business solutions and AI-driven operations. However, market education and competitive response are potential challenges.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that address tool sprawl and data silos.",
+      "catalysts": "Digital transformation and AI adoption are key drivers.",
+      "tailwinds": "Favorable trends in business software and AI integration.",
+      "headwinds": "Potential challenges in educating the market and overcoming legacy systems."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage in offering a comprehensive, unified platform.",
+      "competitive_response": "Competitors may respond by enhancing their offerings.",
+      "market_education": "Requires educating the market on the benefits of a unified platform."
+    },
+    "red_flags": [
+      "Need for market education and potential competitive responses."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently self-funded with plans to raise funds. The lack of external investors and detailed terms presents both an opportunity and a risk.",
+    "investment_details": {
+      "round_stage": "Pre-seed stage with plans to raise funds.",
+      "raise_amount": "Not specified, but seeking funding to scale operations.",
+      "pre_money_valuation": "Not provided.",
+      "post_money_valuation": "Not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on AI and business software aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, requiring further discussion."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Aioma presents a compelling opportunity with its AI-powered, all-in-one platform addressing significant pain points in business operations. The strong market potential, validated demand, and strategic vision align with SemperVirens' investment criteria.",
+    "key_factors": [
+      "Strong market potential",
+      "Validated demand",
+      "Innovative technology"
+    ],
+    "next_steps": [
+      "Engage in detailed discussions on funding requirements and terms",
+      "Facilitate introductions to potential pilot customers",
+      "Explore strategic partnerships to enhance market entry"
+    ]
+  }
+}

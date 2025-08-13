@@ -1,0 +1,161 @@
+{
+  "company_name": "Nutrium",
+  "token": "4c2ydkcm6g328vob4c2yda38ddzib2t0",
+  "submitted_at": "8/8/2025 17:14:06",
+  "website": "https://nutrium.com/",
+  "year_founded": "2015",
+  "description": "We help companies deliver effective and cost-efficient 1:1 nutrition care to their employees, powered by the world\u2019s largest dietitian network and leading tech that enables proactive care. $6M+ ARR, >100% NRR, trusted by Wellhub, Adidas, LinkedIn, and more.",
+  "problem_statement": "We're tackling the US eating habits crisis. The market today is full of solutions that are either economically unviable, like GLPs, or lack meaningful impact. We're bringing effective, scalable, and cost-efficient 1:1 nutrition to US employers. Whether as an alternative to GLPs (at 1/24th of the cost and 2.5x higher adherence) or as a layer that makes covering GLPs a more viable decision.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1FwukTgBMJI5NhPskH4Ak0vFCDd1IUCdY/view?usp=sharing",
+  "demo_link": "https://vimeo.com/1103083870(Password:NutriumShortsVideo)",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in technology and nutrition, with a proven track record of scaling operations and achieving significant ARR growth. The team is well-rounded with complementary skills across engineering, operations, and sales.",
+    "company_assessment": {
+      "business_model_strength": "Nutrium has a robust business model with multiple revenue streams, including direct sales to companies and indirect partnerships. The model is scalable with high gross margins.",
+      "market_positioning": "Nutrium positions itself as a cost-effective alternative to GLPs, with a focus on proactive, personalized nutrition care. This differentiation is compelling in a crowded market.",
+      "execution_capability": "The team has demonstrated strong execution capability, growing ARR from $3.7M to $5.8M in six months, and securing high-profile clients like Adidas and LinkedIn.",
+      "strategic_vision": "The leadership has a clear strategic vision to expand in the US market and leverage partnerships to accelerate growth."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Andr\u00e9 Santos",
+        "role": "Co-founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/andresantos-nutrium/",
+        "background": "Computer Science graduate from the University of Minho with extensive experience in software development and entrepreneurship.",
+        "domain_expertise": "Expertise in technology and nutrition, with a focus on leveraging tech to improve health outcomes.",
+        "previous_startups": "No prior startups mentioned, but significant experience in tech and nutrition.",
+        "notable_achievements": "Led Nutrium to achieve $6M+ ARR and >100% NRR.",
+        "leadership_signals": "Strong leadership demonstrated by strategic pivots and successful scaling.",
+        "track_record": [
+          {
+            "company": "Nutrium",
+            "role": "Co-founder & CEO",
+            "outcome": "Ongoing, with significant growth and market traction.",
+            "learnings": "Learned the importance of strategic partnerships and market adaptation."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The market is crowded with well-funded competitors like Noom and Vida Health, focusing on chronic disease management.",
+      "competitor_comparison": "Nutrium differentiates by focusing on preventive care and leveraging a global dietitian network.",
+      "positioning_assessment": "Nutrium's focus on cost-efficiency and proactive care positions it well against competitors who prioritize chronic care."
+    },
+    "red_flags": [
+      "Potential challenges in scaling US operations and building a strong US investor network."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market opportunity is substantial, with a TAM of $20B and a realistic SOM of $1B. The market is growing, driven by increasing employer focus on employee wellness.",
+    "market_analysis": {
+      "total_addressable_market": "TAM is estimated at $20B, based on 32M potential users at $600 ARPU.",
+      "serviceable_addressable_market": "SAM is aligned with the company's focus on large employers, capturing a significant portion of the market.",
+      "serviceable_obtainable_market": "SOM is projected at $1B with a 5% penetration in 5 years, supported by current growth rates.",
+      "market_growth_rate": "The market is experiencing strong growth, driven by rising healthcare costs and employer interest in wellness solutions.",
+      "market_dynamics": "Key trends include a shift towards preventive care and increasing adoption of digital health solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are large US employers with global workforces, facing challenges with GLP-1 costs.",
+      "willingness_to_pay": "Evidence of willingness to pay is strong, with existing customers and a growing sales pipeline.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but the company has a strategic approach to customer acquisition through partnerships.",
+      "lifetime_value": "LTV is likely high given the recurring revenue model and high NRR."
+    },
+    "red_flags": [
+      "Potential challenges in achieving market penetration targets in a competitive landscape."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Nutrium's technology is robust, with a strong focus on scalability and defensibility through its dietitian network and proprietary CRM.",
+    "technical_assessment": {
+      "core_technology": "The core technology includes a CRM for dietitians and a scalable platform for delivering personalized nutrition care.",
+      "defensibility": "The large dietitian network and proprietary CRM provide significant barriers to entry.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technology is proprietary.",
+      "scalability": "The platform is designed to scale globally, with infrastructure to support large employers."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The platform likely includes unique algorithms for personalized nutrition recommendations.",
+      "data_advantages": "The extensive dietitian network provides a data moat and network effects.",
+      "technical_barriers": "The integration of technology with a human-centered approach creates barriers for competitors."
+    },
+    "red_flags": [
+      "Potential risks in maintaining technology leadership and continuous innovation."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Nutrium has demonstrated strong traction with significant ARR growth, high-profile customers, and a robust sales pipeline.",
+    "growth_metrics": {
+      "revenue_growth": "ARR grew from $3.7M to $5.8M in six months, driven by Nutrium Care.",
+      "customer_metrics": "Supports over 20 direct customers and thousands more through partnerships.",
+      "retention_analysis": "High NRR (>100%) indicates strong customer retention and satisfaction.",
+      "unit_economics": "The business model supports high gross margins, with a focus on profitability."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive customer testimonials and case studies from well-known brands.",
+      "product_market_fit": "Strong PMF evidenced by rapid growth and high NRR.",
+      "notable_customers": "Key customers include Adidas, Vodafone, and AGEAS.",
+      "partnerships": "Strategic partnerships with Wellhub and others enhance market reach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Rapid ARR growth, high-profile customer acquisition, and strong market validation."
+      ],
+      "areas_of_investigation": [
+        "Further exploration of US market penetration strategies."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in sustaining growth rates and expanding in the US market."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing employer focus on wellness and cost-effective healthcare solutions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for cost-effective, preventive nutrition solutions.",
+      "catalysts": "Rising healthcare costs and employer interest in wellness are key catalysts.",
+      "tailwinds": "Favorable trends include digital health adoption and preventive care focus.",
+      "headwinds": "Potential regulatory challenges and competitive pressures."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Nutrium benefits from early adoption of a preventive care model.",
+      "competitive_response": "Competitors may respond with similar offerings, but Nutrium's network provides a moat.",
+      "market_education": "Some market education may be required to shift focus from chronic care to preventive care."
+    },
+    "red_flags": [
+      "Potential delays in market adoption due to regulatory or competitive factors."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms are favorable, with a strong alignment with SemperVirens' criteria and a clear path to Series B.",
+    "investment_details": {
+      "round_stage": "Series A, with a $12M raise close to announcement.",
+      "raise_amount": "Raising $12M to provide 18/24 months of runway.",
+      "pre_money_valuation": "Not explicitly stated, but implied to be favorable given profitability.",
+      "post_money_valuation": "Not explicitly stated, but aligned with growth and market potential."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on health and wellness solutions.",
+      "ownership_potential": "Potential for significant ownership and influence in future rounds.",
+      "liquidation_preferences": "Not detailed, but expected to be standard for Series A.",
+      "valuation_justification": "Valuation is justified by growth metrics and market potential."
+    },
+    "red_flags": [
+      "Potential risks in achieving Series B targets and maintaining valuation expectations."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Nutrium demonstrates strong traction, a compelling market opportunity, and a capable team. The alignment with SemperVirens' investment thesis in health and wellness is strong, and the company's strategic vision and execution capability are impressive.",
+    "key_factors": [
+      "Strong ARR growth, high-profile customers, robust technology platform, and favorable market timing."
+    ],
+    "next_steps": [
+      "Engage in deeper due diligence, particularly around US market expansion strategies and competitive positioning."
+    ]
+  }
+}

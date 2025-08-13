@@ -1,0 +1,176 @@
+{
+  "company_name": "Subconscious AI",
+  "token": "rkwursdnf1ny0lj4wjf7rkwursdyxmz5",
+  "submitted_at": "8/6/2025 14:28:51",
+  "website": "https://www.subconscious.ai/",
+  "year_founded": "2023",
+  "description": "A behavioral simulation engine that empowers enterprises and policymakers to run in-silico experiments on human decision-making before real-world deployment.",
+  "problem_statement": "Legacy research methods (surveys, A/B tests) are slow, costly, and reactive. We provide proactive, scalable behavioral insights to guide decisions with precision and speed.",
+  "pitch_deck_link": "https://app.trustfinta.com/i/avi-yashchin-investments/docs/jR1uFtFm9",
+  "demo_link": "https://app.subconscious.ai",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and complementary skills, with backgrounds in behavioral research from prestigious institutions like UPenn and MIT. The team has demonstrated execution capability by securing pilot projects with Fortune 500 companies.",
+    "company_assessment": {
+      "business_model_strength": "The B2B SaaS model with licensing for seats and experiments is scalable and aligns with industry standards. The pricing strategy is competitive, with a clear path to revenue growth.",
+      "market_positioning": "Subconscious AI positions itself uniquely by offering causal simulation capabilities, differentiating from traditional research firms and survey platforms.",
+      "execution_capability": "The team has successfully executed pilots with major enterprises, indicating strong operational capabilities.",
+      "strategic_vision": "The leadership has a clear vision to disrupt traditional research methods with innovative simulation technology."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Avi Yashchin",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/aviyashchin",
+        "background": "Avi has a background in behavioral research and has worked on interdisciplinary projects at UPenn and MIT.",
+        "domain_expertise": "Expertise in behavioral simulation and decision-making processes.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Secured pilot projects with Fortune 500 companies.",
+        "leadership_signals": "Demonstrated leadership in aligning team towards a common vision.",
+        "track_record": []
+      },
+      {
+        "name": "Subodh Dubey",
+        "role": "Chief Scientist",
+        "linkedin": "https://www.linkedin.com/in/subodh-dubey-587023146",
+        "background": "Subodh has a strong scientific background with experience in behavioral research.",
+        "domain_expertise": "Deep expertise in scientific research and simulation technologies.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Instrumental in developing the core simulation engine.",
+        "leadership_signals": "Key contributor to the technical vision and execution.",
+        "track_record": []
+      },
+      {
+        "name": "Tatevik Karapetyan",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/tatevik-karapetyan-17897418b",
+        "background": "Tatevik has a technical background with experience in engineering and technology development.",
+        "domain_expertise": "Expertise in technology development and engineering management.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Led the development of the in-house simulation engine.",
+        "leadership_signals": "Strong technical leadership and team management skills.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes traditional research firms like McKinsey and Qualtrics, as well as survey platforms.",
+      "competitor_comparison": "Competitors lack causal simulation capabilities and focus on historical data rather than predictive insights.",
+      "positioning_assessment": "Subconscious AI differentiates by offering proactive, scalable behavioral insights with a focus on future behavior prediction."
+    },
+    "red_flags": [
+      "Limited prior entrepreneurial experience among founders."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The estimated $5B+ market for enterprise research and decision intelligence services is substantial, with strong growth potential driven by the need for faster and more accurate decision-making tools.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $5B+ annually, based on enterprise research and decision intelligence services.",
+      "serviceable_addressable_market": "The SAM is significant, with a focus on enterprises seeking advanced decision-making tools.",
+      "serviceable_obtainable_market": "The SOM is promising, given the company's traction with Fortune 500 clients.",
+      "market_growth_rate": "The market is expected to grow at a healthy CAGR, driven by increasing demand for data-driven decision-making.",
+      "market_dynamics": "Key trends include the shift towards digital transformation and the need for predictive analytics in decision-making."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include enterprise product, policy, and insights teams.",
+      "willingness_to_pay": "Evidence of willingness to pay is strong, with clients spending $500k+ on consultant POCs.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but the sales cycle is 3-6 months, indicating a potentially high CAC.",
+      "lifetime_value": "LTV is likely high given the enterprise focus and potential for long-term contracts."
+    },
+    "red_flags": [
+      "Potential high CAC due to lengthy sales cycles."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "The technology is highly differentiated with a focus on causal simulation, providing a strong competitive moat and defensibility.",
+    "technical_assessment": {
+      "core_technology": "The core technology is a behavioral simulation engine that enables in-silico experiments on human decision-making.",
+      "defensibility": "The technology offers significant barriers to entry due to its unique simulation capabilities.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technology itself is a strong differentiator.",
+      "scalability": "The technology is scalable, with the potential to handle large volumes of data and experiments."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for behavioral simulation and decision-making insights.",
+      "data_advantages": "Potential data moats from enterprise clients and network effects.",
+      "technical_barriers": "High technical barriers due to the complexity of simulation technology."
+    },
+    "red_flags": [
+      "No explicit mention of IP protection or patents."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong traction with 70+ enterprise MAUs, $10k MRR, and a $750k pipeline ARR, indicating good product-market fit and growth potential.",
+    "growth_metrics": {
+      "revenue_growth": "Current MRR is $10k with a 30% MoM growth rate.",
+      "customer_metrics": "12 pilot customers, including notable names like SpaceX and PwC.",
+      "retention_analysis": "Retention metrics are not detailed, but engagement has tripled in 60 days after product adjustments.",
+      "unit_economics": "Pricing is $5k/month per pilot, with a focus on seat and experiment volume."
+    },
+    "market_validation": {
+      "customer_feedback": "High NPS of 86, indicating strong customer satisfaction.",
+      "product_market_fit": "Evidence of PMF with notable enterprise clients and rapid engagement growth.",
+      "notable_customers": "Key customers include SpaceX, PwC, Deloitte, and eBay.",
+      "partnerships": "No strategic partnerships mentioned, but potential for future collaborations."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured pilots with Fortune 500 companies, high NPS score."
+      ],
+      "areas_of_investigation": [
+        "Further validation of long-term customer retention and expansion potential."
+      ]
+    },
+    "red_flags": [
+      "Limited information on long-term retention and churn rates."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for predictive analytics and decision-making tools, but market education may be required.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative decision-making tools, driven by digital transformation trends.",
+      "catalysts": "Catalysts include the need for faster, more accurate decision-making in enterprises.",
+      "tailwinds": "Favorable trends in AI adoption and data-driven decision-making.",
+      "headwinds": "Potential challenges in educating the market on new simulation capabilities."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in offering causal simulation capabilities.",
+      "competitive_response": "Competitors may respond by enhancing their predictive analytics offerings.",
+      "market_education": "Market education is necessary to demonstrate the value of simulation technology."
+    },
+    "red_flags": [
+      "Need for significant market education and potential competitive responses."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a 12-month runway, but specific terms and valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Currently in a fundraising stage.",
+      "raise_amount": "Specific raise amount not detailed.",
+      "pre_money_valuation": "Pre-money valuation not provided.",
+      "post_money_valuation": "Post-money valuation not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on enterprise decision-making aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "No specific liquidation preferences mentioned.",
+      "valuation_justification": "Valuation details are lacking, making it difficult to assess justification."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Subconscious AI demonstrates strong potential with a differentiated technology, significant market opportunity, and early traction with enterprise clients. The team has the expertise to execute, and the market timing is favorable.",
+    "key_factors": [
+      "Unique simulation technology, strong enterprise traction, favorable market trends."
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence on customer retention, finalize valuation and investment terms, explore strategic partnerships."
+    ]
+  }
+}

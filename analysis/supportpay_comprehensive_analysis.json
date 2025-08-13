@@ -1,0 +1,165 @@
+{
+  "company_name": "SupportPay",
+  "token": "paafy890sqyyo2zpaafy8cmv6nqvuve3",
+  "submitted_at": "8/8/2025 14:59:00",
+  "website": "https://supportpay.com/",
+  "year_founded": "2018",
+  "description": "SupportPay is pioneering Modern Family Finances, helping families split, track, and manage shared expenses, payments, schedules, and communications across households. We end money conflicts, improve relationships, and boost productivity through a secure, certified, and easy-to-use platform for consumers and as a measurable, ROI-driven employee benefit.",
+  "problem_statement": "Families today are financially interdependent, but are forced to manage shared finances using spreadsheets, texts, Venmo, email, and arguments. It\u2019s a time-consuming, emotionally draining process that creates stress, erodes trust, and leads to lost productivity. SupportPay solves this by automating the process, storing everything in one place, and creating certified records. It matters because financial stress is the #1 cause of family conflict, and it\u2019s killing focus, well-being, and workplace performance.",
+  "pitch_deck_link": "https://supportpay.sharepoint.com/:b:/r/sites/Investor/Shared%20Documents/Fundraising/supportpay-investor-pitch-2025.pdf?csf=1&web=1&e=iazz3l",
+  "demo_link": "https://youtu.be/A8x8MtUctiY?feature=shared",
+  "team": {
+    "score": 4,
+    "justification": "The founding team, led by Sheri Atwood, demonstrates strong execution ability and domain expertise. Sheri's experience in rebuilding SupportPay after initial setbacks shows resilience and leadership. The team is small but focused, with a clear division of roles across product support, marketing, and executive leadership.",
+    "company_assessment": {
+      "business_model_strength": "SupportPay has a dual B2C and B2B revenue model with subscription and utilization-based pricing, which is scalable and aligns with industry standards.",
+      "market_positioning": "The company positions itself uniquely in the 'Modern Family Finances' category, offering a differentiated solution with certified records and automation.",
+      "execution_capability": "The team has successfully launched and scaled the product, securing contracts with Fortune 500 companies and achieving significant user growth.",
+      "strategic_vision": "SupportPay aims to lead the category of Modern Family Finances, with a strategic focus on partnerships and market education."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Sheri Atwood",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/sheriatwood",
+        "background": "Sheri Atwood has a background in technology and entrepreneurship, having previously worked in leadership roles at various tech companies.",
+        "domain_expertise": "Sheri has deep expertise in financial technology and consumer software, which is critical for SupportPay's success.",
+        "previous_startups": "Sheri previously founded SupportPay and repurchased it after being ousted, demonstrating resilience and commitment.",
+        "notable_achievements": "Sheri successfully rebuilt SupportPay into a leading platform in its category.",
+        "leadership_signals": "Sheri's ability to navigate challenges and rebuild the company showcases strong leadership and vision.",
+        "track_record": [
+          {
+            "company": "SupportPay (original)",
+            "role": "Founder & CEO",
+            "outcome": "Reacquired and rebuilt after initial investor challenges",
+            "learnings": "Importance of resilient leadership and owning the category narrative."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes indirect competitors like payment apps and budgeting tools, which lack SupportPay's comprehensive features.",
+      "competitor_comparison": "SupportPay offers unique features such as certified records and automation, which are not available in traditional payment or budgeting apps.",
+      "positioning_assessment": "SupportPay differentiates itself by focusing on shared financial ecosystems and providing a certified, automated solution."
+    },
+    "red_flags": [
+      "The team is relatively small, which may limit scaling capacity without additional hires."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial, with over 90 million adults in the U.S. managing finances across households and a $70B employee benefits market. SupportPay's addressable market is significant, with strong growth potential in financial wellness.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM includes 90 million U.S. adults and a $70B employee benefits market, with $4B+ addressable in financial wellness.",
+      "serviceable_addressable_market": "SupportPay targets both B2C and B2B segments, with a realistic capture of the financial wellness market.",
+      "serviceable_obtainable_market": "The SOM is supported by active pilots and contracts with enterprise clients, indicating strong market penetration potential.",
+      "market_growth_rate": "The financial wellness market is growing, driven by increasing awareness of financial stress impacts.",
+      "market_dynamics": "Key trends include the rise of multi-generational households and the increasing focus on employee financial wellness."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include modern families and employers seeking to reduce employee financial stress.",
+      "willingness_to_pay": "Evidence of willingness to pay is shown by the 60% of enterprise customers on paid plans.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but the sales cycle is 60-90 days, indicating a B2B focus.",
+      "lifetime_value": "High retention and utilization rates suggest strong LTV, though specific calculations are not provided."
+    },
+    "red_flags": [
+      "Potential challenges in educating the market about the new category of Modern Family Finances."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "SupportPay's technology is robust, with a focus on automation and certified records, providing a competitive moat. The use of third-party services for integrations is standard practice.",
+    "technical_assessment": {
+      "core_technology": "The platform automates financial management and provides certified records, centralizing shared financial responsibilities.",
+      "defensibility": "The certified records feature and automation provide a technical barrier to entry.",
+      "intellectual_property": "No specific IP strategy is mentioned, but the platform's unique features offer a competitive advantage.",
+      "scalability": "The technology is scalable, with infrastructure in place to support growth in both B2C and B2B markets."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The automation and certified records are proprietary features that differentiate SupportPay.",
+      "data_advantages": "The platform's ability to centralize and certify financial data creates a data moat.",
+      "technical_barriers": "The integration of certified records and automation is a barrier for competitors."
+    },
+    "red_flags": [
+      "Reliance on third-party services for integrations could pose risks if not managed properly."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "SupportPay shows strong traction with $250k MRR, high user growth, and significant enterprise contracts. The product-market fit is evident from customer feedback and utilization rates.",
+    "growth_metrics": {
+      "revenue_growth": "The company has achieved $250k MRR with 98% recurring revenue, indicating strong growth.",
+      "customer_metrics": "Over 175,000 users and active pilots with Fortune 100 companies demonstrate robust customer acquisition.",
+      "retention_analysis": "High retention and 83% weekly time savings reported by users indicate strong product engagement.",
+      "unit_economics": "The pricing model and high utilization rates suggest favorable unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive customer feedback with a 94% NPS and significant time savings reported.",
+      "product_market_fit": "Strong PMF is indicated by high retention, NPS, and utilization metrics.",
+      "notable_customers": "Contracts with Fortune 500 and enterprise clients validate the market demand.",
+      "partnerships": "Strategic partnerships with brokers and benefit platforms enhance market reach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "High MRR growth, strong enterprise adoption, and positive customer feedback."
+      ],
+      "areas_of_investigation": [
+        "Further exploration of international expansion and scaling GTM efforts."
+      ]
+    },
+    "red_flags": [
+      "None identified; traction is strong and well-supported."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing awareness of financial wellness and the rise of multi-generational households. However, market education is needed to establish the new category.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready for solutions addressing financial stress and shared finances.",
+      "catalysts": "Rising financial stress and the need for employee wellness solutions are key catalysts.",
+      "tailwinds": "Favorable trends include the growth of financial wellness and multi-generational households.",
+      "headwinds": "Market education and category creation pose challenges."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "SupportPay benefits from being an early mover in the Modern Family Finances category.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but SupportPay's unique features provide a buffer.",
+      "market_education": "Significant effort is required to educate the market on the benefits of the platform."
+    },
+    "red_flags": [
+      "The need for market education could slow adoption."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is not currently fundraising, but previous funding rounds have been successful. Future terms should align with growth and scaling needs.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising; previously raised $7.1M.",
+      "raise_amount": "N/A",
+      "pre_money_valuation": "N/A",
+      "post_money_valuation": "N/A"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on financial wellness aligns with SV's investment criteria.",
+      "ownership_potential": "Future fundraising could offer potential ownership opportunities.",
+      "liquidation_preferences": "N/A",
+      "valuation_justification": "N/A"
+    },
+    "red_flags": [
+      "No immediate fundraising, limiting current investment opportunities."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "SupportPay demonstrates strong traction, a unique market position, and a capable leadership team. The market opportunity is significant, and the company's technology provides a competitive advantage. While market education is a challenge, the company's achievements and strategic vision warrant advancing to the next stage.",
+    "key_factors": [
+      "Strong traction and revenue growth",
+      "Unique market positioning",
+      "Capable leadership and execution"
+    ],
+    "next_steps": [
+      "Engage with the company to explore potential future fundraising opportunities",
+      "Assist in market education and category creation efforts",
+      "Facilitate introductions to strategic partners and potential customers"
+    ]
+  }
+}

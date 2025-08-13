@@ -1,0 +1,180 @@
+{
+  "company_name": "Heartful Sprout",
+  "token": "oyuyl2t0veog4w21xoyuyltz0w6c7jke",
+  "submitted_at": "8/7/2025 21:43:46",
+  "website": "https://www.heartfulsprout.com",
+  "year_founded": "2022",
+  "description": "AI-powered pediatric nutrition platform",
+  "problem_statement": "1 in 3 children have preventable health conditions from poor early nutrition, costing society $180B+ annually, but pediatricians spend <2 minutes discussing nutrition due to lack of tools to properly diagnose, prescribe, and communicate nutrition.",
+  "pitch_deck_link": "https://docsend.com/view/ip85j5xrpcdv5wtp",
+  "demo_link": "https://www.canva.com/design/DAGo8_wwWHg/q2oiLNfqLmjjcPiOQOQ46g/watch",
+  "team": {
+    "score": 4,
+    "justification": "The founding team demonstrates strong execution ability and domain expertise. Kay Lim has a technical background and leads product development, Alison Smith handles sales and marketing, and Jiri Fiala focuses on growth. The team has complementary skills and has shown leadership in pivoting the business model based on customer feedback.",
+    "company_assessment": {
+      "business_model_strength": "Heartful Sprout operates a B2B2C subscription model, which is scalable and aligns with healthcare reimbursement opportunities. The model is designed to improve clinical productivity significantly.",
+      "market_positioning": "The company positions itself uniquely by addressing a critical gap in pediatric nutrition with AI-powered solutions, differentiating itself from competitors who lack pediatric-specific features.",
+      "execution_capability": "The team has successfully launched the product in the market and secured initial customers, demonstrating their ability to execute and scale operations.",
+      "strategic_vision": "The leadership has a clear vision to secure enterprise contracts and establish strategic partnerships, indicating strong strategic thinking."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kay Lim",
+        "role": "CEO, interim CTO",
+        "linkedin": "https://www.linkedin.com/in/kyunghalim/",
+        "background": "Kay has a technical background with experience in product development and fundraising.",
+        "domain_expertise": "Expertise in AI and healthcare technology.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Led the pivot from a direct-to-consumer app to a B2B2C platform.",
+        "leadership_signals": "Demonstrated leadership in forming the team and driving product development.",
+        "track_record": []
+      },
+      {
+        "name": "Alison Smith",
+        "role": "CCM",
+        "linkedin": "https://www.linkedin.com/in/alisonsmith5/",
+        "background": "Alison leads sales and marketing efforts.",
+        "domain_expertise": "Experience in healthcare marketing and sales.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Successfully led sales efforts to secure initial customers.",
+        "leadership_signals": "Strong sales leadership and customer engagement skills.",
+        "track_record": []
+      },
+      {
+        "name": "Jiri Fiala",
+        "role": "CXO",
+        "linkedin": "https://www.linkedin.com/in/jirifiala/",
+        "background": "Jiri focuses on growth and fundraising.",
+        "domain_expertise": "Experience in business growth and strategic partnerships.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Instrumental in growth strategy and securing partnerships.",
+        "leadership_signals": "Proven ability to drive business growth.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes incomplete EMR systems and manual nutrition counseling tools.",
+      "competitor_comparison": "Competitors lack pediatric-specific features and AI-powered solutions, which Heartful Sprout offers.",
+      "positioning_assessment": "Heartful Sprout differentiates itself with AI algorithms and medical-grade interventions tailored for pediatric needs."
+    },
+    "red_flags": [
+      "Limited team size may impact scalability and execution speed."
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market size is $475M, which is significant but niche. The company has identified a clear pain point and market need, but the TAM is relatively small compared to broader healthcare markets.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $475M, focusing on pediatric nutrition solutions.",
+      "serviceable_addressable_market": "The SAM is likely smaller, focusing on pediatricians and dietitians.",
+      "serviceable_obtainable_market": "The SOM is projected based on the company's go-to-market strategy targeting clinics and hospitals.",
+      "market_growth_rate": "The market is expected to grow as awareness of pediatric nutrition increases.",
+      "market_dynamics": "Key drivers include increasing awareness of pediatric health and the need for specialized nutrition tools."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Primary customers are pediatricians and dietitians with limited time for nutrition counseling.",
+      "willingness_to_pay": "Evidence of willingness to pay is shown by initial customer acquisition, though pricing is currently discounted.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is likely high given the B2B2C model.",
+      "lifetime_value": "LTV is expected to be high due to recurring subscription revenue and potential for upselling."
+    },
+    "red_flags": [
+      "Niche market size may limit long-term growth potential."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology is AI-powered and offers a unique solution in pediatric nutrition, providing a competitive moat. However, scalability and technical infrastructure requirements need further exploration.",
+    "technical_assessment": {
+      "core_technology": "AI-powered platform with pediatric-specific algorithms.",
+      "defensibility": "The platform's AI algorithms and pediatric focus create a defensible position.",
+      "intellectual_property": "All technical IPs are developed in-house, providing control over technology.",
+      "scalability": "Scalability is feasible but requires further investment in infrastructure."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms tailored for pediatric nutrition.",
+      "data_advantages": "Potential for data moats through clinical data collection and analysis.",
+      "technical_barriers": "High barriers due to specialized pediatric algorithms and clinical integration."
+    },
+    "red_flags": [
+      "Reliance on outsourced development for parts of the platform."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "The company has shown initial traction with paying customers and a growing sales pipeline. However, revenue is still in early stages, and scaling enterprise contracts remains a challenge.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue generation started 4 months ago with 'baby revenue' from 6 clinics.",
+      "customer_metrics": "Serving 6 clinics with 200+ patients, indicating initial market acceptance.",
+      "retention_analysis": "Retention metrics are not detailed but are critical for subscription model success.",
+      "unit_economics": "Pricing varies significantly, indicating experimentation with pricing models."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from initial customers, indicating product-market fit.",
+      "product_market_fit": "Evidence of PMF through customer acquisition and feedback.",
+      "notable_customers": "Includes a custom integration with a tube feeding practice.",
+      "partnerships": "In discussions with major obesity clinic groups and children's hospitals."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Initial customer acquisition and positive feedback."
+      ],
+      "areas_of_investigation": [
+        "Scaling enterprise contracts and optimizing pricing strategy."
+      ]
+    },
+    "red_flags": [
+      "Long sales cycles for clinics and hospitals may impact growth."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing awareness of pediatric nutrition and the lack of existing solutions. However, market education and adoption may take time.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative pediatric nutrition solutions.",
+      "catalysts": "Growing awareness of pediatric health and nutrition needs.",
+      "tailwinds": "Favorable trends in healthcare technology adoption.",
+      "headwinds": "Potential regulatory challenges and slow adoption in traditional healthcare settings."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in pediatric-specific AI solutions.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but Heartful Sprout's focus on pediatrics provides a buffer.",
+      "market_education": "Significant market education required to drive adoption."
+    },
+    "red_flags": [
+      "Regulatory changes could impact market dynamics."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a 6-month runway. Investment terms are not detailed, but alignment with SV's criteria is crucial.",
+    "investment_details": {
+      "round_stage": "Currently fundraising.",
+      "raise_amount": "Not specified, but critical for extending runway and scaling.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on healthcare innovation.",
+      "ownership_potential": "Ownership potential depends on valuation and raise amount.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation needs to be justified based on traction and market potential."
+    },
+    "red_flags": [
+      "Limited runway and unspecified valuation details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Heartful Sprout presents a compelling opportunity in a niche but critical market. The team has demonstrated execution capability, and the technology offers a unique solution. However, further investigation into scalability, pricing strategy, and enterprise contract execution is needed.",
+    "key_factors": [
+      "Strong team execution",
+      "Unique AI-powered solution",
+      "Initial market traction"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on enterprise sales strategy",
+      "Evaluate scalability of technology",
+      "Assess pricing strategy and unit economics"
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "company_name": "UnitedCode",
+  "token": "clo5j3zq15mxx48clo5j15j9vvrgfynn",
+  "submitted_at": "8/11/2025 3:23:37",
+  "website": "https://unitedcode.net",
+  "year_founded": "2019",
+  "description": "UnitedCode is a data-driven, AI-powered platform transforming tech recruitment. Since 2019, we\u2019ve applied advanced analytics to evaluate developers\u2019 skills, career histories, and profiles with unmatched precision. Combined with our proprietary resume format, expert recruiters, and sourcing in 25 countries, we deliver rigorously vetted talent through a fully transparent, flat-fee model.",
+  "problem_statement": "We are solving one of the most painful operational problems for scaling tech companies: hiring the right engineers - faster and with unmatched precision. The tech hiring market is at a breaking point. AI is rapidly advancing, and simply \u201cknowing how to code\u201d is no longer enough, projects now demand developers with highly specific, often niche, real-world experience that AI cannot replicate. Competition for these specialists has already begun, with global tech giants like Microsoft, Google, and Nvidia preparing talent pipelines years in advance. The number of technologies, frameworks, and versions is exploding, making it impossible for even the most seasoned recruiters to accurately classify and match skills to project needs. The outdated resume format, unchanged for decades, fails to capture the depth, relevance, and evolution of a developer\u2019s expertise. It works for filtering entry-level or non-technical candidates, but breaks entirely when assessing high-caliber engineers in an AI-driven world. Left unaddressed, this problem will intensify: demand for specialized talent will far outstrip supply, hiring costs will soar, mismatches will become more frequent, and companies will lose valuable time, money, and market opportunities.",
+  "pitch_deck_link": "https://app.box.com/s/k2li08zyobshs68xe3achndimjlj4urp",
+  "demo_link": "https://app.box.com/s/2gtl8fzg58nm2ohf1ottmboo1padz95z",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of UnitedCode demonstrates strong execution ability with over 19 years of IT experience. The complementary skills of the co-founders, with one focusing on technical implementation and the other on product management, provide a solid foundation for scaling. Their prior experience in building successful ventures and managing large projects adds credibility to their leadership capabilities.",
+    "company_assessment": {
+      "business_model_strength": "UnitedCode operates on a transparent, recurring revenue model with a flat-fee structure, which simplifies budgeting for clients and fosters long-term relationships. The model is scalable and aligns well with the needs of tech companies seeking specialized talent.",
+      "market_positioning": "The company positions itself as a solution to the outdated recruitment models, offering precision in matching developers to project needs. Their unique value proposition lies in their AI-powered platform and proprietary resume format.",
+      "execution_capability": "The team has demonstrated execution capability by automating their candidate selection process and expanding their market reach to 25 countries. Their ability to deliver on their vision is evident in their current traction.",
+      "strategic_vision": "UnitedCode's strategic vision is to address the growing demand for specialized tech talent by leveraging AI and advanced analytics. Their focus on refining their go-to-market strategy and scaling operations aligns with their long-term goals."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Dmytro (Dan) Bohatyrchuk",
+        "role": "CEO & Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/dan-dmytro-b-/",
+        "background": "Dmytro has a background in programming and has founded a successful web development studio. He has experience in using early ML and Big Data approaches and has grown platforms without direct marketing.",
+        "domain_expertise": "Dmytro possesses deep technical expertise and has been actively involved in IT projects of varying complexity.",
+        "previous_startups": "Founded a web development studio and launched a pioneering news portal in Ukraine.",
+        "notable_achievements": "Grew a news portal into one of Eastern Europe\u2019s leading platforms using innovative semantic text technologies.",
+        "leadership_signals": "Demonstrated leadership in building and scaling tech ventures.",
+        "track_record": [
+          {
+            "company": "Web Development Studio",
+            "role": "Founder",
+            "outcome": "Successful operation",
+            "learnings": "Gained insights into scaling tech ventures and leveraging innovative technologies."
+          }
+        ]
+      },
+      {
+        "name": "Yuliia Romanova",
+        "role": "COO & Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/yromanova/",
+        "background": "Yuliia started as a QA engineer and quickly rose to senior management, leading complex tech projects.",
+        "domain_expertise": "Expertise in tech product management and leading large developer teams.",
+        "previous_startups": "Co-founded an IT outsourcing venture.",
+        "notable_achievements": "Led high-value tech projects and attracted major clients like Stada and Merck.",
+        "leadership_signals": "Proven ability to manage and lead large teams effectively.",
+        "track_record": [
+          {
+            "company": "IT Outsourcing Venture",
+            "role": "Co-Founder",
+            "outcome": "Attracted major clients and successfully managed large projects.",
+            "learnings": "Recognized the importance of aligning developer expertise with project needs."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes online platforms like Toptal, Upwork, and UpStack, which connect businesses with software developers.",
+      "competitor_comparison": "Competitors rely on outdated models with hidden fees and unclear vetting processes, leading to poor hiring decisions.",
+      "positioning_assessment": "UnitedCode differentiates itself by offering a transparent, AI-driven platform with a proprietary resume format, addressing the shortcomings of traditional recruitment models."
+    },
+    "red_flags": [
+      "Potential challenges in scaling operations and acquiring large clients due to limited marketing expertise."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "UnitedCode operates in a large and growing market, with a TAM of $10T globally. The company's focus on U.S. startups with 10+ engineers provides a realistic SAM of $3B. The projected SOM of $165M by 2029 indicates a strong market capture potential.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $10T, targeting startups globally with 7+ engineers.",
+      "serviceable_addressable_market": "The SAM is $3B, focusing on U.S. startups with 10+ engineers.",
+      "serviceable_obtainable_market": "The SOM is projected to be $165M by 2029, based on the company's go-to-market strategy.",
+      "market_growth_rate": "The market is expected to grow at a CAGR of 22.6% from 2025 to 2030, driven by the increasing demand for specialized tech talent.",
+      "market_dynamics": "Key trends include the rapid adoption of AI, the growing complexity of tech projects, and the increasing competition for specialized talent."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include tech startups and enterprises expanding their development teams.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by the company's transparent pricing model and long-term client relationships.",
+      "customer_acquisition_cost": "The company uses email marketing, LinkedIn outreach, and industry events for customer acquisition.",
+      "lifetime_value": "The average client stays over 18 months, indicating strong customer retention and a high LTV."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating the U.S. market due to legal and regulatory complexities."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "UnitedCode's technology is highly differentiated, leveraging AI and advanced analytics to transform tech recruitment. The proprietary resume format and in-house developed platform provide a strong competitive moat.",
+    "technical_assessment": {
+      "core_technology": "The core technology includes an AI-powered platform that evaluates developers' skills and profiles with precision.",
+      "defensibility": "The proprietary resume format and AI-driven vetting process create significant barriers to entry.",
+      "intellectual_property": "The company has developed proprietary technologies and processes, although specific IP strategies are not detailed.",
+      "scalability": "The platform is designed to scale globally, with infrastructure to support operations in 25 countries."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The platform uses advanced analytics and AI algorithms to match developers to project needs.",
+      "data_advantages": "The company benefits from data moats through its extensive database of developer profiles and skills.",
+      "technical_barriers": "The proprietary resume format and AI-driven vetting process are difficult for competitors to replicate."
+    },
+    "red_flags": [
+      "Potential risks related to maintaining technological edge and continuous innovation."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "UnitedCode has demonstrated strong traction with 33 customers and 8 active paying clients. The company's growth metrics and customer validation indicate a solid product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "The company has a recurring revenue model with predictable growth, supported by long-term client relationships.",
+      "customer_metrics": "33 customers with 8 active paying clients, indicating a strong acquisition rate.",
+      "retention_analysis": "The average client stays over 18 months, demonstrating high retention and low churn.",
+      "unit_economics": "The transparent pricing model supports favorable unit economics with a flat fee structure."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback on the AI-powered matching and proprietary resume format.",
+      "product_market_fit": "Evidence of PMF is supported by customer retention and satisfaction metrics.",
+      "notable_customers": "The company has attracted major clients and has a strong sales pipeline.",
+      "partnerships": "Strategic partnerships and channel relationships are not detailed."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Automated candidate selection process, expanded market reach to 25 countries."
+      ],
+      "areas_of_investigation": [
+        "Further validation of U.S. market entry strategy and legal compliance."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in scaling customer acquisition and expanding into new markets."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing for UnitedCode's solution is favorable, with strong market catalysts and tailwinds supporting adoption. However, potential headwinds include market education and competitive response.",
+    "market_timing": {
+      "market_readiness": "The market is ready for AI-driven recruitment solutions, with increasing demand for specialized tech talent.",
+      "catalysts": "Rapid adoption of AI and the growing complexity of tech projects are driving demand.",
+      "tailwinds": "Favorable trends include the shift towards remote work and cross-border hiring.",
+      "headwinds": "Challenges include market education and potential regulatory hurdles."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "UnitedCode benefits from being an early adopter of AI-driven recruitment solutions.",
+      "competitive_response": "Competitors may respond by enhancing their own AI capabilities.",
+      "market_education": "The company may need to invest in educating the market on the benefits of their solution."
+    },
+    "red_flags": [
+      "Potential delays in market adoption due to education and regulatory challenges."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The investment terms are not fully detailed, but the company's bootstrapped status and current fundraising efforts indicate a need for capital to scale operations.",
+    "investment_details": {
+      "round_stage": "Currently fundraising with a target of $1M in their first institutional round.",
+      "raise_amount": "Seeking $1M to strengthen market growth, legal compliance, and scalable operations.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on AI-driven recruitment aligns with SV's investment criteria.",
+      "ownership_potential": "Potential ownership percentage and board representation are not detailed.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, making it difficult to assess relative to comparables."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "UnitedCode presents a compelling investment opportunity with strong technology differentiation, a large and growing market, and demonstrated traction. The team's execution capability and strategic vision align well with SemperVirens' investment thesis.",
+    "key_factors": [
+      "Strong technology differentiation and defensibility",
+      "Large and growing market opportunity",
+      "Demonstrated traction and customer validation"
+    ],
+    "next_steps": [
+      "Conduct a deeper due diligence on U.S. market entry strategy and legal compliance",
+      "Clarify valuation and investment terms",
+      "Explore potential strategic partnerships to enhance market penetration"
+    ]
+  }
+}
