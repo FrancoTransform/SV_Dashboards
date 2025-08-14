@@ -1,0 +1,158 @@
+{
+  "company_name": "NION Neuroscience",
+  "token": "l0okxjkxrgauxjl8l0ok0lb036xbemd8",
+  "submitted_at": "8/14/2025 8:16:50",
+  "website": "https://www.nionneuroscience.com/",
+  "year_founded": "2022",
+  "description": "Safe, Efficient & Immediate Focus Elevation",
+  "problem_statement": "Students Facing ADHD (Ages 21-30) to reclaim their academic potential; people facing Clinical Depression (Age 14-50) to reclaim their harmony; Business Professionals Managing Addictions (Ages 30-55) to strengthen their executive control; Adults Concerned About Cognitive Decline (Ages 55-75) to preserve and enhance their mental sharpness.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1I0PELYP1iA_PKLLyUGHEw3TXJLW_NVjD/view?usp=drive_link",
+  "demo_link": "https://www.youtube.com/watch?v=54yntv6fhO4&t=2s",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has a diverse set of skills and backgrounds, with experience in neuroscience, technology, and marketing. However, the team size is small, and there is a lack of demonstrated scaling experience.",
+    "company_assessment": {
+      "business_model_strength": "The business model relies on sales commissions and collaborations, which could be scalable but lacks clarity on unit economics.",
+      "market_positioning": "NION Neuroscience positions itself as a non-prescription, adjustable headband solution, differentiating from chemical competitors.",
+      "execution_capability": "The team has shown some ability to execute with pre-orders and pilots but lacks significant market traction.",
+      "strategic_vision": "The strategic vision includes expanding market reach and establishing a medical guarantee, but execution plans are not fully detailed."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Patrik \u0160lachta",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/patrik-%C5%A1lachta-3ab889167/",
+        "background": "Background in neuroscience and technology.",
+        "domain_expertise": "Expertise in neuroscience applications.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Led the team to secure pre-orders and pilots.",
+        "leadership_signals": "Demonstrated leadership in forming a diverse team.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes electric, magnetic, and chemical solutions for cognitive enhancement.",
+      "competitor_comparison": "Competitors like FLOW Neuroscience and Samphire Neuroscience focus on electric solutions but may lack real-time data capabilities.",
+      "positioning_assessment": "NION differentiates with real-time data measurement and non-prescription access."
+    },
+    "red_flags": [
+      "Small team size and limited scaling experience."
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market is sizable with 500,000 potential customers annually, but detailed TAM, SAM, and SOM calculations are missing.",
+    "market_analysis": {
+      "total_addressable_market": "Estimated at 500,000 potential customers annually.",
+      "serviceable_addressable_market": "Not explicitly defined, but likely a subset of TAM.",
+      "serviceable_obtainable_market": "Dependent on successful go-to-market execution.",
+      "market_growth_rate": "No specific CAGR provided, but cognitive enhancement is a growing field.",
+      "market_dynamics": "Increasing awareness of mental health and cognitive enhancement drives market growth."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Business professionals, students, and adults concerned about cognitive decline.",
+      "willingness_to_pay": "Initial pricing at $290/device suggests some willingness to pay.",
+      "customer_acquisition_cost": "Not detailed, but initial sales indicate low CAC.",
+      "lifetime_value": "LTV not calculated, but potential for repeat purchases exists."
+    },
+    "red_flags": [
+      "Lack of detailed market size calculations and growth projections."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology offers real-time data measurement and non-prescription use, providing a competitive edge.",
+    "technical_assessment": {
+      "core_technology": "Electric headband with real-time data measurement capabilities.",
+      "defensibility": "Real-time data and non-prescription use create barriers to entry.",
+      "intellectual_property": "No specific IP strategy or patents mentioned.",
+      "scalability": "Technology appears scalable with potential for mass production."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Real-time data measurement is a unique feature.",
+      "data_advantages": "Potential for data-driven insights and personalization.",
+      "technical_barriers": "Competitors may struggle to replicate real-time capabilities."
+    },
+    "red_flags": [
+      "Lack of detailed IP strategy and patent protection."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Limited traction with 10 pre-orders and over 30 pilots, but no significant revenue growth.",
+    "growth_metrics": {
+      "revenue_growth": "Minimal revenue growth with only 5+ paying customers.",
+      "customer_metrics": "10+ customers with a few paying, indicating early-stage traction.",
+      "retention_analysis": "No retention data provided.",
+      "unit_economics": "Basic pricing structure at $290/device, but no detailed unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Feedback indicates some awkwardness in device use.",
+      "product_market_fit": "Limited evidence of PMF with small customer base.",
+      "notable_customers": "No notable customers or logos mentioned.",
+      "partnerships": "Collaborations with wholesalers like MindTecStore and Caputron."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured pre-orders and pilots."
+      ],
+      "areas_of_investigation": [
+        "Need to validate product-market fit and improve customer feedback."
+      ]
+    },
+    "red_flags": [
+      "Limited traction and customer validation."
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market for cognitive enhancement is growing, but competitive timing and market readiness are uncertain.",
+    "market_timing": {
+      "market_readiness": "Growing interest in cognitive enhancement solutions.",
+      "catalysts": "Increased awareness of mental health and cognitive performance.",
+      "tailwinds": "Favorable trends in mental health and wellness.",
+      "headwinds": "Potential regulatory challenges and market education required."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage with real-time data capabilities.",
+      "competitive_response": "Competitors may respond with similar features.",
+      "market_education": "Significant market education may be needed for adoption."
+    },
+    "red_flags": [
+      "Uncertainty in market readiness and competitive response."
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "Current fundraising efforts are unclear, and the company has limited runway.",
+    "investment_details": {
+      "round_stage": "Currently fundraising with a 3-month runway.",
+      "raise_amount": "Not specified, but funding is a key outcome sought.",
+      "pre_money_valuation": "No valuation details provided.",
+      "post_money_valuation": "No valuation details provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on health and wellness.",
+      "ownership_potential": "Ownership implications not detailed.",
+      "liquidation_preferences": "No investor protections or preferences mentioned.",
+      "valuation_justification": "Lack of valuation details makes justification difficult."
+    },
+    "red_flags": [
+      "Lack of clarity on fundraising terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company shows potential with its unique technology and growing market, but lacks significant traction, detailed market analysis, and clear fundraising terms.",
+    "key_factors": [
+      "Unique real-time data technology",
+      "Growing market interest",
+      "Limited traction and unclear fundraising terms"
+    ],
+    "next_steps": [
+      "Request detailed market analysis and financial projections",
+      "Clarify fundraising terms and valuation",
+      "Explore potential strategic partnerships for market entry"
+    ]
+  }
+}

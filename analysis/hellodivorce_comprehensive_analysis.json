@@ -1,0 +1,161 @@
+{
+  "company_name": "Hello Divorce",
+  "token": "cele65jbsf8x24wsncelep0whi33iws1",
+  "submitted_at": "8/13/2025 23:11:29",
+  "website": "https://hellodivorce.com",
+  "year_founded": "2018",
+  "description": "Hello Divorce is a tech-enabled platform that combines legal expertise, software, and human support to help people navigate divorce faster, with less conflict, and at a fraction of the cost\u2014serving both consumers and employers as a modern divorce benefit.",
+  "problem_statement": "Divorce is one of the top life events impacting employee productivity, retention, and healthcare costs\u2014yet most benefits ignore it. The legal system is slow, adversarial, and costly, leaving employees distracted and financially strained. We provide an affordable, guided divorce benefit that reduces conflict and keeps employees focused and supported.",
+  "pitch_deck_link": "https://docsend.com/view/tdhvkc3wa5p4k69s",
+  "demo_link": "https://www.loom.com/share/1769c207de7747e3924e38d6cc13734b?sid=67393c47-38a2-4d35-865b-6bbb8762c096",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in legal services and a clear vision for disrupting the divorce process. Erin Levine, the CEO, has extensive experience in family law, which is crucial for the company's success. The team is complemented by strategic and product expertise, which enhances their execution capability.",
+    "company_assessment": {
+      "business_model_strength": "Hello Divorce employs a dual B2C and B2B model, generating revenue through fixed-fee plans and workplace benefits. This diversified approach enhances scalability and reduces dependency on a single revenue stream.",
+      "market_positioning": "The company positions itself as a modern, tech-enabled alternative to traditional divorce services, emphasizing affordability and reduced conflict. This unique value proposition differentiates it from competitors.",
+      "execution_capability": "The team has demonstrated strong execution by launching nationally and securing a significant B2B contract with a legal insurance partner.",
+      "strategic_vision": "The leadership has a clear strategic vision to expand distribution channels and refine their B2B sales playbook, indicating a focus on sustainable growth."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Erin Levine",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/erinlevine/",
+        "background": "Erin Levine is a seasoned family law attorney with over a decade of experience. She founded Hello Divorce to make the divorce process more accessible and humane.",
+        "domain_expertise": "Extensive expertise in family law and legal technology.",
+        "previous_startups": "Founded Levine Family Law Group, a successful family law firm.",
+        "notable_achievements": "Recognized for innovative approaches in legal services.",
+        "leadership_signals": "Demonstrated leadership in challenging traditional legal systems.",
+        "track_record": [
+          {
+            "company": "Levine Family Law Group",
+            "role": "Founder",
+            "outcome": "Ongoing successful law practice.",
+            "learnings": "Gained insights into the inefficiencies of the legal system, inspiring the creation of Hello Divorce."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The divorce services market is fragmented with traditional law firms and emerging tech platforms.",
+      "competitor_comparison": "Divorce.com is a primary competitor but lacks the human-centric approach and strategic partnerships of Hello Divorce.",
+      "positioning_assessment": "Hello Divorce differentiates itself through a combination of technology, human support, and strategic B2B partnerships."
+    },
+    "red_flags": [
+      "Potential challenges in scaling the B2B model due to long sales cycles."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The divorce services market is substantial, with a TAM of $15 billion. Hello Divorce's dual B2C and B2B approach allows it to capture a significant portion of this market.",
+    "market_analysis": {
+      "total_addressable_market": "$15 Billion, based on the size of the divorce services industry.",
+      "serviceable_addressable_market": "Focused on mid- to large-sized employers and their employees, providing a realistic capture of the market.",
+      "serviceable_obtainable_market": "Projected growth through strategic partnerships and national expansion.",
+      "market_growth_rate": "The market is expected to grow as more employers recognize the impact of divorce on productivity.",
+      "market_dynamics": "Increasing awareness of mental health and employee well-being is driving demand for divorce support services."
+    },
+    "customer_analysis": {
+      "buyer_personas": "HR leaders, benefit providers, and mid- to large-sized employers seeking to support employees through divorce.",
+      "willingness_to_pay": "Evidence from existing B2B contracts and consumer purchases indicates strong willingness to pay.",
+      "customer_acquisition_cost": "Optimized CAC with a 4-5 week payback period in the B2C channel.",
+      "lifetime_value": "High LTV due to recurring revenue from B2B contracts and subscription services."
+    },
+    "red_flags": [
+      "Potential market saturation and competition from traditional legal services."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The platform leverages technology to streamline the divorce process, but the reliance on external partners for AI development may pose risks.",
+    "technical_assessment": {
+      "core_technology": "A tech-enabled platform combining legal expertise with software solutions.",
+      "defensibility": "The combination of technology and human support creates a competitive moat.",
+      "intellectual_property": "No specific patents mentioned, but proprietary processes and partnerships enhance defensibility.",
+      "scalability": "The platform is scalable, but further investment in technology infrastructure may be needed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Development of an AI Divorce Assistant in collaboration with Personal.ai.",
+      "data_advantages": "Potential data advantages from user interactions and feedback.",
+      "technical_barriers": "The integration of legal expertise with technology creates barriers for traditional competitors."
+    },
+    "red_flags": [
+      "Dependence on external partners for AI development and potential technical debt."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong traction with a 5% MOM growth in B2C and a significant B2B contract, indicating product-market fit and growth potential.",
+    "growth_metrics": {
+      "revenue_growth": "B2B contract with $25K MRR, projected to scale to $2MM+ over 24 months.",
+      "customer_metrics": "66k members covered under the B2B contract, with potential to scale to 350k+.",
+      "retention_analysis": "Optimized payback period and recurring revenue model suggest strong retention.",
+      "unit_economics": "Efficient CAC and high LTV indicate healthy unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from B2B partners and consumer users.",
+      "product_market_fit": "Evidence of PMF through growth metrics and strategic partnerships.",
+      "notable_customers": "Partnership with a major legal insurance provider.",
+      "partnerships": "Negotiating 3 distribution partnerships with potential to 5x annual revenue."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "National expansion, strategic B2B contract, and optimized B2C model."
+      ],
+      "areas_of_investigation": [
+        "Further validation of B2B model scalability and sales cycle optimization."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in maintaining growth momentum and scaling operations."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Favorable market timing with increasing awareness of employee well-being and mental health, but potential headwinds from economic conditions.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready for innovative divorce solutions as employers seek to support employee well-being.",
+      "catalysts": "Growing recognition of the impact of divorce on productivity and mental health.",
+      "tailwinds": "Favorable trends in employee benefits and mental health awareness.",
+      "headwinds": "Economic downturns could impact employer budgets for new benefits."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into the B2B divorce benefits space provides a competitive edge.",
+      "competitive_response": "Potential for increased competition as the market matures.",
+      "market_education": "Ongoing need to educate employers on the benefits of divorce support services."
+    },
+    "red_flags": [
+      "Economic uncertainties and potential shifts in employer priorities."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising, with a focus on securing new partnerships and refining their sales strategy. Valuation details are not provided, which may impact investment decisions.",
+    "investment_details": {
+      "round_stage": "Currently fundraising.",
+      "raise_amount": "Not specified.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on employee well-being aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership depending on valuation and raise amount.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are needed for a comprehensive analysis."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Hello Divorce demonstrates strong traction, a compelling market opportunity, and alignment with SemperVirens' focus on employee well-being. The company's innovative approach to divorce services and strategic partnerships position it well for growth.",
+    "key_factors": [
+      "Strong team with domain expertise, significant market opportunity, and demonstrated traction."
+    ],
+    "next_steps": [
+      "Engage in due diligence to assess valuation and investment terms, and explore potential strategic partnerships."
+    ]
+  }
+}

@@ -576,10 +576,45 @@
       "company_name": "Architect Health",
       "analysis_file": "architecthealth_comprehensive_analysis.json",
       "analyzed_at": "2025-08-13T17:09:30.572434"
+    },
+    "cele65jbsf8x24wsncelep0whi33iws1": {
+      "company_name": "Hello Divorce",
+      "analysis_file": "hellodivorce_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-14T13:34:55.449982"
+    },
+    "a5xlw7z0i9j8a7np8ra5xlw7txrq1398": {
+      "company_name": "Toothsome",
+      "analysis_file": "toothsome_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-14T13:34:55.451561"
+    },
+    "l0okxjkxrgauxjl8l0ok0lb036xbemd8": {
+      "company_name": "NION Neuroscience",
+      "analysis_file": "nionneuroscience_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-14T13:34:55.451579"
+    },
+    "8k94ba8hdc7i35upb8k94bll8r8ciww3": {
+      "company_name": "Hera",
+      "analysis_file": "hera_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-14T13:34:55.451598"
+    },
+    "mz8vbgd72ajjagm71sh9b8qmz8vbgrm1": {
+      "company_name": "Skillsize",
+      "analysis_file": "skillsize_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-14T13:34:55.451602"
+    },
+    "9k5hb87uolecledhqjud9k5h6r3lofck": {
+      "company_name": "Aster",
+      "analysis_file": "aster_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-14T13:37:06.658957"
+    },
+    "t3sh0r9xoith3jvdh2t3shu8a0i26l7n": {
+      "company_name": "TietAI",
+      "analysis_file": "tietai_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-14T13:37:06.659180"
     }
   },
-  "last_sync": "2025-08-13T17:09:30.572450",
-  "total_submissions": 104,
-  "analyzed_count": 102,
+  "last_sync": "2025-08-14T13:37:06.659191",
+  "total_submissions": 109,
+  "analyzed_count": 109,
   "unmatched_analyses": []
 }

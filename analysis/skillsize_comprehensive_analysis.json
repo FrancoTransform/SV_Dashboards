@@ -1,0 +1,165 @@
+{
+  "company_name": "Skillsize",
+  "token": "mz8vbgd72ajjagm71sh9b8qmz8vbgrm1",
+  "submitted_at": "8/14/2025 15:43:41",
+  "website": "https://www.skillsize.io",
+  "year_founded": "2021",
+  "description": "Skillsize builds AI-powered workforce intelligence tools. Our latest product, XPQ, benchmarks executive career trajectories to predict leadership performance, de-risk appointments, and accelerate succession planning.",
+  "problem_statement": "Leadership mis-hires cost millions and can derail company strategy. Current assessments rely on subjective interviews and generic psychometrics. XPQ uses proprietary career signals and AI benchmarking to objectively evaluate leadership potential, enabling better hiring, succession, and portfolio value creation.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGv2m7bwaY/Iadz36-hnXxKNjSfecaf1A/view?utm_content=DAGv2m7bwaY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2d6623cb5f",
+  "demo_link": "https://www.canva.com/design/DAGv-V3VDUg/4gDD3jfuuNd-DNdGsRhOXA/view?utm_content=DAGv-V3VDUg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h676a00cabc",
+  "team": {
+    "score": 4,
+    "justification": "The founding team consists of brothers with complementary skills. Michael Boham brings strategic and commercial leadership, while Samuel Boham offers extensive software and big data expertise. Their prior collaboration on technology ventures and domain expertise in consulting and analytics strengthen their execution capability.",
+    "company_assessment": {
+      "business_model_strength": "Skillsize employs a B2B SaaS licensing model, project-based pricing, and API access, which are scalable and align with industry standards. The transition to a service delivery model indicates adaptability.",
+      "market_positioning": "Skillsize positions itself as a data-driven alternative to traditional psychometric assessments, offering predictive insights into leadership potential. This differentiation is crucial in a conservative market.",
+      "execution_capability": "The team has demonstrated execution capability by securing pilots with PE firms and generating revenue from paid assessments. Their ability to pivot based on feedback shows strategic agility.",
+      "strategic_vision": "The company's vision to integrate XPQ into partner platforms and refine its GTM playbook for PE and executive search firms indicates a clear strategic direction."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Michael Boham",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/michaelboham/",
+        "background": "Michael has a background in strategic and commercial leadership within consulting and analytics.",
+        "domain_expertise": "Expertise in strategic leadership and analytics.",
+        "previous_startups": "Collaborated on technology ventures with his brother.",
+        "notable_achievements": "Successfully pivoted the company based on market feedback.",
+        "leadership_signals": "Demonstrated leadership in strategic pivots and securing key partnerships.",
+        "track_record": []
+      },
+      {
+        "name": "Samuel Boham",
+        "role": "Co-founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/sam-boham/",
+        "background": "Samuel has 18 years of experience in software and big data.",
+        "domain_expertise": "Deep expertise in software development and big data.",
+        "previous_startups": "Collaborated on technology ventures with his brother.",
+        "notable_achievements": "Led the development of AI-powered workforce intelligence tools.",
+        "leadership_signals": "Strong technical leadership and product development skills.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The leadership assessment market is dominated by firms like Korn Ferry, ghSMART, and Hogan Assessments.",
+      "competitor_comparison": "Competitors rely on psychometrics and interviews, lacking Skillsize's data-driven benchmarking approach.",
+      "positioning_assessment": "Skillsize differentiates itself with AI-powered, predictive insights, addressing a critical gap in leadership evaluation."
+    },
+    "red_flags": [
+      "Limited team size may impact scalability and execution speed."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The global leadership assessment market is valued at $2.6B+, with a specific focus on the $700M+ private equity leadership due diligence market. Skillsize's data-driven approach aligns well with market needs.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is $2.6B+ for leadership assessments, with a focus on private equity due diligence.",
+      "serviceable_addressable_market": "Skillsize targets the $700M+ private equity leadership due diligence market.",
+      "serviceable_obtainable_market": "With strategic partnerships and a refined GTM strategy, Skillsize can capture a significant portion of the market.",
+      "market_growth_rate": "The market is expected to grow as companies increasingly seek data-driven solutions for leadership evaluation.",
+      "market_dynamics": "Key trends include the shift towards data-driven decision-making and the need for objective leadership assessments."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include private equity firms, executive search firms, and corporate boards.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by existing paying customers and positive feedback from trial users.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but the sales cycle is 4-8 weeks, involving senior decision-makers.",
+      "lifetime_value": "LTV is likely high given the strategic importance of leadership assessments and ongoing engagements."
+    },
+    "red_flags": [
+      "Conservative market may slow adoption despite clear value proposition."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Skillsize's AI-powered tools offer technical differentiation through proprietary career signals and benchmarking. The technology is scalable and defensible, with potential for integration into partner platforms.",
+    "technical_assessment": {
+      "core_technology": "AI-powered workforce intelligence tools with proprietary career signals.",
+      "defensibility": "Proprietary algorithms and data-driven insights provide a competitive moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary technology is a key asset.",
+      "scalability": "The technology is designed for scalability, with potential API integrations."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for benchmarking executive trajectories.",
+      "data_advantages": "Data-driven insights provide a significant advantage over traditional methods.",
+      "technical_barriers": "High technical barriers due to proprietary algorithms and data integration."
+    },
+    "red_flags": [
+      "Dependence on external data engineering for specific integrations."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Skillsize has demonstrated strong traction with pilots, paying customers, and positive feedback. The transition to a SaaS model and ongoing engagements indicate product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Generated \u00a325k in paid assessments with ongoing engagements.",
+      "customer_metrics": "5 paying customers with a pipeline of 12 active prospects.",
+      "retention_analysis": "Ongoing engagements suggest strong retention potential.",
+      "unit_economics": "Pricing ranges from \u00a37.5-10k per assessment, with SaaS licenses at \u00a32k/month."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from trial users and ongoing engagements.",
+      "product_market_fit": "Evidence of PMF with secured pilots and paying customers.",
+      "notable_customers": "Includes PE firms and executive search networks.",
+      "partnerships": "Strategic partnerships with PE and executive search firms."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured pilots, positive feedback, and revenue generation."
+      ],
+      "areas_of_investigation": [
+        "Scalability of team and technology for broader market capture."
+      ]
+    },
+    "red_flags": [
+      "Limited team size may impact ability to scale rapidly."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ripe for data-driven leadership assessments, with increasing demand for objective evaluation tools. Skillsize's timing aligns well with these trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative, data-driven solutions.",
+      "catalysts": "Growing demand for objective leadership assessments and data-driven decision-making.",
+      "tailwinds": "Favorable trends towards AI and data integration in HR processes.",
+      "headwinds": "Conservative nature of the market may slow adoption."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Skillsize has an advantage with its unique data-driven approach.",
+      "competitive_response": "Competitors may respond by enhancing their data capabilities.",
+      "market_education": "Requires educating the market on the benefits of data-driven assessments."
+    },
+    "red_flags": [
+      "Potential slow adoption due to market conservatism."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Skillsize is currently self-funded with revenue from consulting engagements. They are seeking external funding, but specific terms and valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Currently fundraising.",
+      "raise_amount": "Not specified.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative, data-driven solutions.",
+      "ownership_potential": "Ownership potential and board representation not detailed.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, making it difficult to assess."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Skillsize demonstrates strong potential with its innovative, data-driven approach to leadership assessment. The team has shown execution capability and market traction, aligning well with SemperVirens' investment criteria.",
+    "key_factors": [
+      "Innovative technology, strong team, market traction, and alignment with market trends."
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence, assess scalability of team and technology, and clarify investment terms."
+    ]
+  }
+}

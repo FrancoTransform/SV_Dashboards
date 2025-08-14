@@ -1,0 +1,183 @@
+{
+  "company_name": "TietAI",
+  "token": "t3sh0r9xoith3jvdh2t3shu8a0i26l7n",
+  "submitted_at": "8/14/2025 18:56:34",
+  "website": "https://www.tiet.ai",
+  "year_founded": "2025",
+  "description": "Tiet.ai provides AI-powered healthcare data integration for the European Health Data Space era. Our platform transforms fragmented health data into FHIR-compliant, interoperable formats in weeks, not years. Led by team with algorithm development and medical device regulatory expertise, enabling hospitals to achieve EHDS compliance.",
+  "problem_statement": "European healthcare generates massive data daily, yet citizens can't easily access their health records electronically, and researchers struggle to use this data for improved treatments. With 27 EU countries using incompatible healthcare systems and the EHDS compliance deadline of March 2027, healthcare organizations urgently need AI-powered data integration that ensures regulatory compliance while enabling interoperability. This matters because fragmented data prevents better patient outcomes, slows medical research, and hinders evidence-based healthcare policy.",
+  "pitch_deck_link": "https://tietai.docsend.com/view/xygk29xz85zvndne",
+  "demo_link": "https://www.tiet.ai",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in AI and healthcare data integration, with a proven track record of collaboration and execution in real-world healthcare settings. Their complementary skills and shared vision enhance their ability to lead TietAI effectively.",
+    "company_assessment": {
+      "business_model_strength": "TietAI employs a B2B SaaS subscription model with validated pricing and strong unit economics, targeting a significant market need for EHDS compliance.",
+      "market_positioning": "The company positions itself as a specialized EHDS-native solution, differentiating from generic ETL platforms by focusing on healthcare-specific compliance and interoperability.",
+      "execution_capability": "The team has demonstrated execution capability through successful technical validation with major hospitals and a clear path to commercial pilots.",
+      "strategic_vision": "TietAI's strategic vision aligns with the urgent market need for EHDS compliance, positioning them well for growth in the European healthcare data integration market."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Roberto Cruz",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/robertocruzperez/",
+        "background": "Roberto has a background in AI algorithm development and has held leadership roles in healthcare technology companies.",
+        "domain_expertise": "Expertise in AI/ML and healthcare data integration, with experience in regulatory compliance for medical devices.",
+        "previous_startups": "Interim CTO at Vitio, where he validated technology in healthcare settings.",
+        "notable_achievements": "Led successful AI integration projects in healthcare, contributing to improved data interoperability.",
+        "leadership_signals": "Demonstrated leadership in building and guiding technical teams, with a focus on innovation and compliance.",
+        "track_record": [
+          {
+            "company": "Vitio",
+            "role": "Interim CTO",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into healthcare data integration challenges and regulatory requirements."
+          }
+        ]
+      },
+      {
+        "name": "David Rey",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/davidreyblanco/",
+        "background": "David has a background in organizing AI educational programs and has collaborated on AI applications in healthcare.",
+        "domain_expertise": "Experience in AI education and healthcare technology, with a focus on compliance and integration.",
+        "previous_startups": "Collaborated on AI projects in healthcare settings, contributing to technology validation.",
+        "notable_achievements": "Organized AI educational programs and contributed to successful healthcare technology integrations.",
+        "leadership_signals": "Strong ability to build partnerships and drive strategic initiatives in healthcare technology.",
+        "track_record": [
+          {
+            "company": "Idoven",
+            "role": "Collaborator",
+            "outcome": "Ongoing",
+            "learnings": "Developed a deep understanding of healthcare data challenges and the importance of compliance."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes established players like Dedalus and Better.care, as well as traditional ETL platforms.",
+      "competitor_comparison": "Dedalus offers monolithic platforms with long implementation times, while Better.care focuses on EMR solutions. Traditional ETL platforms lack healthcare-specific compliance.",
+      "positioning_assessment": "TietAI differentiates by offering a specialized EHDS-native solution with faster implementation and compliance focus, addressing a critical market need."
+    },
+    "red_flags": [
+      "Potential challenges in scaling sales and navigating complex procurement processes in the Spanish NHS."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "TietAI targets a substantial market opportunity driven by the EHDS compliance deadline, with a clear path to capturing a significant share of the healthcare data integration market in Europe.",
+    "market_analysis": {
+      "total_addressable_market": "\u20ac405M addressable market in the EU, with \u20ac22.5M in Spain, driven by the need for EHDS compliance.",
+      "serviceable_addressable_market": "Focused on Spanish public hospitals and research institutions, with a realistic capture of the urgent compliance segment.",
+      "serviceable_obtainable_market": "SOM projections are supported by successful validation with major hospitals and a clear go-to-market strategy.",
+      "market_growth_rate": "The market is expected to grow significantly due to regulatory drivers and increasing demand for data interoperability.",
+      "market_dynamics": "Key trends include regulatory compliance deadlines, increasing healthcare data generation, and the need for interoperability."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Primary customers are Spanish public hospitals, with secondary focus on research institutions and private healthcare groups.",
+      "willingness_to_pay": "Validated pricing structure with hospital partners confirms willingness to pay for compliance and integration solutions.",
+      "customer_acquisition_cost": "CAC is expected to be optimized through reference validation and strategic partnerships.",
+      "lifetime_value": "High LTV due to recurring SaaS revenue model and strong customer retention potential."
+    },
+    "red_flags": [
+      "Potential challenges in expanding beyond initial validation partners and navigating complex procurement processes."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "TietAI's technology is highly differentiated with a focus on healthcare-specific compliance and interoperability, supported by strong technical expertise and in-house development.",
+    "technical_assessment": {
+      "core_technology": "AI-powered platform transforming fragmented health data into FHIR-compliant formats, ensuring interoperability and compliance.",
+      "defensibility": "Strong technical barriers to entry with specialized healthcare data integration capabilities and compliance focus.",
+      "intellectual_property": "In-house development ensures IP control, with potential for future patents and trade secrets.",
+      "scalability": "Platform is designed for scalability, with successful integration in major hospitals and regional health infrastructures."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for data mapping and integration, tailored for healthcare compliance.",
+      "data_advantages": "Access to real clinical data through validation partners, enhancing data-driven insights and improvements.",
+      "technical_barriers": "Complexity of healthcare data integration and compliance creates significant barriers for competitors."
+    },
+    "red_flags": [
+      "None identified; strong technical foundation and defensibility."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "TietAI has demonstrated strong traction through successful technical validation with major hospitals and a clear path to commercial pilots, supported by a validated business model.",
+    "growth_metrics": {
+      "revenue_growth": "Projected revenue growth with transition to commercial pilots and validated pricing structure.",
+      "customer_metrics": "On track to convert validation partners into paying customers, with a focus on expanding customer base.",
+      "retention_analysis": "High potential for customer retention due to compliance-driven demand and recurring revenue model.",
+      "unit_economics": "Strong unit economics with high gross margins and validated pricing acceptance."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from validation partners, confirming value proposition and compliance capabilities.",
+      "product_market_fit": "Evidence of PMF through successful integration and compliance validation with major hospitals.",
+      "notable_customers": "Hospital Gregorio Mara\u00f1\u00f3n and Navarra Digital as key validation partners.",
+      "partnerships": "Strategic partnerships with hospitals and regional health infrastructures, supporting market entry."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful technical validation with major hospitals, strong market demand for compliance solutions."
+      ],
+      "areas_of_investigation": [
+        "Scaling sales efforts and navigating complex procurement processes in the Spanish NHS."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in converting validation success into broader market adoption."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "TietAI is well-positioned to capitalize on the urgent market need for EHDS compliance, with favorable regulatory drivers and a clear path to market entry.",
+    "market_timing": {
+      "market_readiness": "Market is ready for EHDS compliance solutions, driven by regulatory deadlines and increasing data interoperability needs.",
+      "catalysts": "EHDS compliance deadline of March 2027 creates immediate procurement cycles and demand for solutions.",
+      "tailwinds": "Favorable regulatory environment and increasing focus on healthcare data interoperability.",
+      "headwinds": "Potential challenges in navigating complex procurement processes and competitive responses."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "TietAI benefits from being an early mover in the EHDS compliance space, with validated solutions and partnerships.",
+      "competitive_response": "Established vendors may develop competing solutions, but TietAI's specialized focus provides a competitive edge.",
+      "market_education": "Market education is supported by regulatory drivers and increasing awareness of compliance needs."
+    },
+    "red_flags": [
+      "None identified; strong alignment with market timing and regulatory drivers."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "TietAI is currently in a pre-commercial phase with a focus on validation and pilot programs, seeking funding to expand partnerships and prepare for Series A.",
+    "investment_details": {
+      "round_stage": "Pre-commercial validation phase, preparing for Series A in 2026.",
+      "raise_amount": "Seeking funding to expand partnerships and build metrics for Series A preparation.",
+      "pre_money_valuation": "Not specified; focus on building customer portfolio and metrics for future fundraising.",
+      "post_money_valuation": "Not specified; focus on strategic partnerships and market entry."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on healthcare technology and compliance-driven solutions.",
+      "ownership_potential": "Potential for significant ownership and influence in a high-growth market segment.",
+      "liquidation_preferences": "Not specified; focus on strategic alignment and market entry.",
+      "valuation_justification": "Valuation will be justified by successful market entry and customer acquisition."
+    },
+    "red_flags": [
+      "Lack of specified valuation and terms; focus on strategic preparation for Series A."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "TietAI demonstrates strong alignment with SemperVirens' investment thesis, with a compelling market opportunity driven by regulatory compliance needs, a differentiated technology platform, and a capable founding team.",
+    "key_factors": [
+      "Urgent market need for EHDS compliance solutions.",
+      "Strong technical differentiation and defensibility.",
+      "Successful validation with major hospitals and clear path to market entry."
+    ],
+    "next_steps": [
+      "Engage with TietAI to explore strategic partnerships and support Series A preparation.",
+      "Conduct deeper due diligence on sales scaling and procurement processes.",
+      "Evaluate potential for board representation and strategic influence."
+    ]
+  }
+}

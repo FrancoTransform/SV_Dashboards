@@ -1,0 +1,179 @@
+{
+  "company_name": "Aster",
+  "token": "9k5hb87uolecledhqjud9k5h6r3lofck",
+  "submitted_at": "8/14/2025 17:55:54",
+  "website": "https://www.astercare.com/",
+  "year_founded": "2023",
+  "description": "Aster is an AI-powered clinical decision support system designed for women's health providers. Replacing outdated legacy systems, Aster delivers streamlined administrative efficiency, enhances clinical workflows and our intuitive user interface simplifies healthcare management, giving time back to clinicians and generating revenue for practices.",
+  "problem_statement": "Healthcare providers struggle with three challenges: suboptimal patient outcomes, overwhelming administrative burden, and significant revenue loss. Aster's comprehensive platform addresses each of these core issues simultaneously. The current health system is not set up for preventative, high quality patient care, each one of us have experienced the result of a failing system particularly in Women\u2019s health, it matters to us, as founders, providers and patients.",
+  "pitch_deck_link": "https://docsend.com/view/87effvude8qahz2t",
+  "demo_link": "https://www.loom.com/share/44bba244fe344e1db311c343ba2baa84?sid=dea11e03-45b3-41a1-80f6-a1feccb5057e",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and complementary skills. Fifi Kara brings experience from Meta and YC, while Dr. Lailah Kara-Newton offers deep medical expertise. The team is small but focused, with a clear understanding of the healthcare landscape.",
+    "company_assessment": {
+      "business_model_strength": "Aster's SaaS model with a per-provider pricing structure is scalable and aligns with industry standards. The addition of revenue cycle management offers a diversified revenue stream.",
+      "market_positioning": "Aster positions itself as a specialized solution for women's health, differentiating from generalized EHR systems by addressing specific clinical and administrative needs.",
+      "execution_capability": "The team has demonstrated execution capability with 85 practices onboarded and a 31% MoM growth rate.",
+      "strategic_vision": "The leadership has a clear vision to expand beyond women's health and integrate AI more deeply into their platform."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Fifi Kara",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/fifikara/",
+        "background": "Formerly led Health & Fitness at Meta, ex-YC founder.",
+        "domain_expertise": "Strong background in tech and healthcare innovation.",
+        "previous_startups": "YC founder with experience in startup growth.",
+        "notable_achievements": "Led significant projects at Meta, successful YC alum.",
+        "leadership_signals": "Demonstrated leadership in building and scaling teams.",
+        "track_record": [
+          {
+            "company": "Meta",
+            "role": "Lead, Health & Fitness",
+            "outcome": "Contributed to hardware development in Reality Labs.",
+            "learnings": "Gained insights into product development and market needs."
+          }
+        ]
+      },
+      {
+        "name": "Dr. Lailah Kara-Newton",
+        "role": "Co-Founder & Chief Medical Officer",
+        "linkedin": "https://www.linkedin.com/in/lailahkaranewton/",
+        "background": "OB/GYN physician with a focus on global public health.",
+        "domain_expertise": "Extensive experience in women's health and clinical operations.",
+        "previous_startups": "Ran a women's health clinic in London.",
+        "notable_achievements": "Recognized for contributions to women's health.",
+        "leadership_signals": "Strong clinical leadership and strategic vision.",
+        "track_record": [
+          {
+            "company": "Women's Health Clinic, London",
+            "role": "Director",
+            "outcome": "Successfully managed clinic operations.",
+            "learnings": "Deep understanding of clinical workflows and patient care."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The EHR market is dominated by legacy systems like Athena and eClinicalWorks, which lack specialization.",
+      "competitor_comparison": "Competitors offer generalized solutions, whereas Aster provides a tailored approach for women's health.",
+      "positioning_assessment": "Aster's focus on AI-driven, specialty-specific solutions positions it well against competitors."
+    },
+    "red_flags": [
+      "Small team size may limit rapid scaling capabilities."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The women's health market is substantial, with a $42 billion TAM in healthcare software spending. Aster's focus on medium-sized practices offers a clear path to market capture.",
+    "market_analysis": {
+      "total_addressable_market": "$42 billion in annual healthcare software spending in the US.",
+      "serviceable_addressable_market": "Focus on medium-sized private practices provides a realistic capture opportunity.",
+      "serviceable_obtainable_market": "Current traction and waitlist indicate strong market interest.",
+      "market_growth_rate": "Healthcare software market is growing, driven by digital transformation and AI adoption.",
+      "market_dynamics": "Increasing demand for specialized, efficient healthcare solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Women's health clinics, OB/GYNs, midwives, and birth centers.",
+      "willingness_to_pay": "Clinics are willing to pay for specialized solutions that improve efficiency and outcomes.",
+      "customer_acquisition_cost": "Leverages industry connections and strategic partnerships to reduce CAC.",
+      "lifetime_value": "High LTV due to recurring SaaS revenue and potential upsell opportunities."
+    },
+    "red_flags": [
+      "Potential market saturation with existing EHR solutions."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Aster's AI-driven platform offers technical differentiation and scalability. However, the current system is not AI-native, which could limit future capabilities.",
+    "technical_assessment": {
+      "core_technology": "AI-powered clinical decision support system with a focus on women's health.",
+      "defensibility": "Specialized workflows and AI integration provide competitive moats.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary algorithms are implied.",
+      "scalability": "SaaS model supports scalability across practices."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "AI-driven insights tailored for women's health.",
+      "data_advantages": "Potential for data-driven improvements in clinical outcomes.",
+      "technical_barriers": "Specialized focus creates barriers for generalized competitors."
+    },
+    "red_flags": [
+      "Lack of AI-native architecture may hinder long-term innovation."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Strong traction with 85 practices, 50 paying customers, and a 31% MoM growth rate. Customer feedback indicates high satisfaction and demand.",
+    "growth_metrics": {
+      "revenue_growth": "Consistent 31% MoM growth since launch.",
+      "customer_metrics": "250 clinicians, 80+ practices, 10,000+ patients.",
+      "retention_analysis": "High retention with 6,500 active patients.",
+      "unit_economics": "Positive unit economics with scalable SaaS model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive testimonials and emotional responses from early adopters.",
+      "product_market_fit": "Strong PMF with a waitlist of 32 practices.",
+      "notable_customers": "80+ practices, including key women's health providers.",
+      "partnerships": "Strategic partnerships with maternity brands and advisory boards."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "High growth rate, strong customer satisfaction, and market demand."
+      ],
+      "areas_of_investigation": [
+        "Exploration of AI-native architecture for future scalability."
+      ]
+    },
+    "red_flags": [
+      "None identified."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ripe for AI-driven healthcare solutions, with increasing demand for specialized EHR systems. However, competition is intensifying.",
+    "market_timing": {
+      "market_readiness": "Healthcare providers are actively seeking specialized solutions.",
+      "catalysts": "AI adoption and digital transformation in healthcare.",
+      "tailwinds": "Regulatory support for digital health solutions.",
+      "headwinds": "Potential resistance from entrenched legacy systems."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into specialized EHR for women's health.",
+      "competitive_response": "Legacy systems may adapt, but Aster's specialization offers a buffer.",
+      "market_education": "Requires ongoing education to shift providers from legacy systems."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response from established players."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The company is currently fundraising with a strong pre-seed backing. The alignment with SemperVirens' focus on healthcare innovation is clear.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, previously closed a $2.4m pre-seed round.",
+      "raise_amount": "Not specified in the application.",
+      "pre_money_valuation": "Not specified in the application.",
+      "post_money_valuation": "Not specified in the application."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthcare and AI innovation.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "Not specified in the application.",
+      "valuation_justification": "Valuation details not provided, but growth metrics support a favorable valuation."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and fundraising terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Aster demonstrates strong traction, a clear market need, and a capable team. The alignment with SemperVirens' investment thesis in healthcare innovation and AI is evident.",
+    "key_factors": [
+      "Strong market demand, specialized focus, and robust growth metrics."
+    ],
+    "next_steps": [
+      "Conduct a deeper due diligence on AI-native architecture plans and finalize investment terms."
+    ]
+  }
+}
