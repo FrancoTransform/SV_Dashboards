@@ -1,0 +1,201 @@
+{
+  "company_name": "Harness Care",
+  "token": "8j0mb5qo6x42j80yu6tgl8j0mb5mykr4",
+  "submitted_at": "8/12/2025 18:09:53",
+  "website": "https://www.harness.care",
+  "year_founded": "2024",
+  "description": "We help mid-market employers cut costs and boost healthcare access with an AI-powered Concierge service. We uniquely combine AI agents with novel data access to proactively find cost savings, maximize benefits & ease care coordination with expert advocacy. We are saving patients up to 80% out of pocket costs in healthcare, while reducing 60% support burden for HR teams and brokers.",
+  "problem_statement": "- Out-of-pocket healthcare costs for U.S. patients exceed $500B annually and are rising 3x faster than inflation.\n- Up to 60% of this spend is avoidable with better benefits usage, billing error prevention, and cost-reduction programs.\n- Less than 10% of employees understand their benefits, leading to denied claims, surprise bills, and delayed care.\n- HR benefits teams spend 50%+ of their time resolving these issues, wasting employer dollars and lowering employee satisfaction.\n\nOur wedge: Affordable, scalable cost recovery and navigation for mid-market employers (100\u20131,000 employees) on captive & ICHRA plans, a segment underserved by legacy enterprise solutions.",
+  "pitch_deck_link": "https://pitch.com/v/hc-sv-4vkf7v",
+  "demo_link": "https://harness.care/start",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong background in healthcare, benefits, AI, and enterprise sales, with multiple successful exits. The team demonstrates complementary skills and a proven track record in scaling businesses.",
+    "company_assessment": {
+      "business_model_strength": "Harness Care employs a SaaS subscription model with a $5 PEPM pricing structure, which is scalable and aligns with industry standards. The model includes outcome-based success fees, enhancing revenue potential.",
+      "market_positioning": "The company targets mid-market employers, a segment underserved by legacy solutions, with a unique value proposition of cost savings and improved healthcare access.",
+      "execution_capability": "The team has demonstrated rapid execution capability by launching their first employer client within a month and securing partnerships with brokers and TPAs.",
+      "strategic_vision": "The leadership has a clear strategic vision to expand partnerships, increase covered lives, and position for a seed round, indicating long-term planning and growth orientation."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Akhilesh Gupta",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/akgup/",
+        "background": "Ex-VP & GM at Innovaccer, led $150M Series E raise; ex-Lyft, Salesforce.",
+        "domain_expertise": "Healthcare, benefits, AI, enterprise sales.",
+        "previous_startups": "Led significant fundraising efforts and scaling at Innovaccer.",
+        "notable_achievements": "Led $150M Series E raise at Innovaccer.",
+        "leadership_signals": "Demonstrated leadership in scaling operations and fundraising.",
+        "track_record": [
+          {
+            "company": "Innovaccer",
+            "role": "VP & GM",
+            "outcome": "Led $150M Series E raise.",
+            "learnings": "Gained insights into scaling healthcare platforms and fundraising."
+          }
+        ]
+      },
+      {
+        "name": "Jenn Knoop",
+        "role": "Co-founder & CRO",
+        "linkedin": "https://www.linkedin.com/in/jennknoop/",
+        "background": "Serial entrepreneur with 2 insurance & employee benefits exits; ex-Partner at Filice.",
+        "domain_expertise": "Insurance, employee benefits, sales.",
+        "previous_startups": "Successfully exited two insurance and benefits companies.",
+        "notable_achievements": "Multiple successful exits in the insurance sector.",
+        "leadership_signals": "Strong sales leadership and strategic partnership development.",
+        "track_record": [
+          {
+            "company": "Previous Insurance Company",
+            "role": "Founder",
+            "outcome": "Successful exit.",
+            "learnings": "Developed expertise in scaling and exiting insurance businesses."
+          }
+        ]
+      },
+      {
+        "name": "Dan Bonistalli",
+        "role": "Co-founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/dan-b-16609350/",
+        "background": "Clinical informatics & AI expert; ex-Epic.",
+        "domain_expertise": "Clinical informatics, AI, healthcare technology.",
+        "previous_startups": "Worked on care coordination platforms at Innovaccer.",
+        "notable_achievements": "Developed AI-driven healthcare solutions.",
+        "leadership_signals": "Technical leadership in developing scalable healthcare technologies.",
+        "track_record": [
+          {
+            "company": "Innovaccer",
+            "role": "Technical Lead",
+            "outcome": "Developed care coordination platform.",
+            "learnings": "Gained experience in AI-driven healthcare solutions."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes traditional benefit and care navigation companies.",
+      "competitor_comparison": "Competitors prioritize large enterprise contracts, leaving mid-market customers underserved. Harness Care offers faster deployment and proactive savings identification.",
+      "positioning_assessment": "Harness Care differentiates by focusing on mid-market employers with a scalable, cost-effective solution that provides immediate ROI."
+    },
+    "red_flags": [
+      "Potential challenges in scaling broker relationships and maintaining low cost per case."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a TAM of ~$4B annually from mid-market U.S. employers. The company has identified significant expansion potential.",
+    "market_analysis": {
+      "total_addressable_market": "TAM is estimated at ~$4B annually, based on mid-market employers at $5 PEPM.",
+      "serviceable_addressable_market": "SAM includes mid-market employers using ICHRA or captive plans.",
+      "serviceable_obtainable_market": "SOM projections are based on the company's go-to-market strategy and broker partnerships.",
+      "market_growth_rate": "The healthcare benefits market is growing, driven by rising medical costs and demand for cost-saving solutions.",
+      "market_dynamics": "Key trends include increasing healthcare costs, demand for cost-saving solutions, and the shift towards ICHRA and captive plans."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are mid-market employers with 100\u20131,000 employees.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by paid pilots and broker feedback.",
+      "customer_acquisition_cost": "CAC is minimized through broker partnerships and a utilization-based pricing model.",
+      "lifetime_value": "LTV is expected to be high due to cost savings and improved employee satisfaction."
+    },
+    "red_flags": [
+      "Potential challenges in capturing a significant share of the TAM due to competitive pressures."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology is differentiated by its AI-powered concierge service and novel data access, providing a competitive moat.",
+    "technical_assessment": {
+      "core_technology": "The core technology includes AI agents, claims parsing algorithms, and AI workflows.",
+      "defensibility": "The technology is defensible due to proprietary algorithms and data access.",
+      "intellectual_property": "All core IP is built internally, with no outsourcing.",
+      "scalability": "The technology is designed to be scalable, supporting rapid deployment and cost savings."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for claims parsing and cost savings identification.",
+      "data_advantages": "Access to novel data sources enhances the solution's effectiveness.",
+      "technical_barriers": "The integration of AI and data access creates barriers for competitors."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining technical differentiation as the market evolves."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has demonstrated strong early traction with rapid customer acquisition and broker partnerships.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth is supported by paid pilots and a growing customer base.",
+      "customer_metrics": "The company has over 30 brokers in the sales pipeline and expects to reach 3-5k employees soon.",
+      "retention_analysis": "Retention is expected to be high due to immediate ROI and cost savings.",
+      "unit_economics": "The pricing model supports favorable unit economics with a focus on cost savings."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from brokers and initial customers supports market validation.",
+      "product_market_fit": "Evidence of PMF includes rapid adoption and broker partnerships.",
+      "notable_customers": "Partnerships with a large national brokerage house and ICHRA vendor.",
+      "partnerships": "Strategic partnerships with brokers and TPAs enhance distribution."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Rapid customer acquisition and broker partnerships."
+      ],
+      "areas_of_investigation": [
+        "Further validation of long-term retention and scalability."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in sustaining growth and scaling operations."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to rising healthcare costs and demand for cost-saving solutions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that address rising healthcare costs and employee benefits challenges.",
+      "catalysts": "Catalysts include rising medical costs and the shift towards ICHRA and captive plans.",
+      "tailwinds": "Favorable trends include increasing demand for cost-saving solutions and improved healthcare access.",
+      "headwinds": "Potential obstacles include competitive pressures and regulatory changes."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "The company benefits from being early to market with a focus on mid-market employers.",
+      "competitive_response": "Competitors may respond by targeting mid-market segments.",
+      "market_education": "The company may need to invest in market education to drive adoption."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining competitive advantage as the market evolves."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a focus on closing a $3M seed round, but specific terms and valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Seed round.",
+      "raise_amount": "$3M.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on healthcare and benefits aligns with SV's investment criteria.",
+      "ownership_potential": "Potential ownership percentage and board representation are not specified.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, requiring further investigation."
+    },
+    "red_flags": [
+      "Lack of specific terms and valuation details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Harness Care demonstrates strong potential with a differentiated solution, experienced team, and favorable market timing. The company's focus on mid-market employers and rapid traction support advancing to the next stage.",
+    "key_factors": [
+      "Experienced founding team with domain expertise.",
+      "Strong early traction and broker partnerships.",
+      "Favorable market timing and demand for cost-saving solutions."
+    ],
+    "next_steps": [
+      "Conduct further due diligence on valuation and terms.",
+      "Explore potential for strategic partnerships through SV network.",
+      "Assess long-term scalability and retention metrics."
+    ]
+  }
+}

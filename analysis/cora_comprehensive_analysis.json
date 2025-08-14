@@ -1,0 +1,158 @@
+{
+  "company_name": "Cora",
+  "token": "w6y1ggv3v34gbvncw5yw6y1gu0cl9gl2",
+  "submitted_at": "8/13/2025 13:39:20",
+  "website": "",
+  "year_founded": "2025",
+  "description": "AI tool automating clinical trials",
+  "problem_statement": "I'm specifically referring to two critical inefficiencies in clinical trials today: manual monitoring and manual EDC data entry. Clinical trial monitoring today is highly manual, causing delays in detecting issues, increasing risks to patient safety, and trial integrity. Complex trials and CRA shortages add to inefficiencies, while manual monitoring drives 25\u201330% of total trial costs, placing significant financial burden on the $60B+ global clinical trial market. Manual EDC data entry is a massive time and cost burden\u2014taking up to 15 hr/week per coordinator and causing 8-day delays between patient visits and data availability. This lag slows down query resolution, increases risk, adds up to $30,000 per patient in transcription costs, and pulls site staff away from patient care.",
+  "pitch_deck_link": "https://1drv.ms/b/c/f9a361bfc63d7b4d/ESf9g8Ks8htJnA7OIPmpHEIB9oZ_svpsNIOjZ2zXsRtoeQ",
+  "demo_link": "https://1drv.ms/b/c/f9a361bfc63d7b4d/ESf9g8Ks8htJnA7OIPmpHEIB9oZ_svpsNIOjZ2zXsRtoeQ",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has complementary skills with domain expertise in clinical trials and technical expertise in AI/ML. However, the team size is small, and there is a need for additional hires to scale effectively.",
+    "company_assessment": {
+      "business_model_strength": "The B2B enterprise SaaS model is well-suited for the target market, with potential for scalability through annual subscriptions and add-ons.",
+      "market_positioning": "Cora positions itself as a solution to reduce manual inefficiencies in clinical trials, offering a unique value proposition in automating data entry and monitoring.",
+      "execution_capability": "The team has demonstrated initial execution capability through a trial sprint, but lacks market traction and customer validation.",
+      "strategic_vision": "The strategic vision is clear, focusing on removing manual processes and proving ROI, but execution remains to be seen."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Shantanu Girotra",
+        "role": "Co-Founder",
+        "linkedin": "https://linkedin.com/in/shantanu-girotra-a304782b",
+        "background": "Experienced CRA with expertise in clinical trials and regulatory compliance.",
+        "domain_expertise": "Strong understanding of clinical trial processes and inefficiencies.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Successfully identified a significant market pain point and developed a potential solution.",
+        "leadership_signals": "Demonstrates leadership through strategic vision and commitment to solving industry challenges.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The clinical trial automation market is competitive with several established players.",
+      "competitor_comparison": "Competitors often lack end-to-end solutions and struggle with unified auditability.",
+      "positioning_assessment": "Cora differentiates by offering a comprehensive platform that integrates protocol checks and audit trails."
+    },
+    "red_flags": [
+      "Small team size and lack of market traction."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The total addressable market is substantial at $60B+, with significant inefficiencies that Cora aims to address. The market is growing, driven by increasing complexity in clinical trials.",
+    "market_analysis": {
+      "total_addressable_market": "$60B+ global clinical trial market.",
+      "serviceable_addressable_market": "Focused on pharma and CROs, which represent a significant portion of the TAM.",
+      "serviceable_obtainable_market": "Initial focus on tech-forward CROs and mid-market biopharma for pilot evaluations.",
+      "market_growth_rate": "The clinical trial market is expected to grow due to increasing demand for faster and more efficient trials.",
+      "market_dynamics": "Key trends include the push for digital transformation and automation in clinical trials."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Pharma companies and CROs, with decision-makers in clinical operations and data management.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for solutions that reduce trial costs and improve efficiency.",
+      "customer_acquisition_cost": "Not yet determined due to lack of market traction.",
+      "lifetime_value": "Potentially high LTV due to recurring subscription model and add-on services."
+    },
+    "red_flags": [
+      "Lack of current customers and market traction."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Cora's technology leverages AI/ML to automate clinical trial processes, offering a defensible and scalable solution. However, the technology is still in development with no market validation.",
+    "technical_assessment": {
+      "core_technology": "AI tool automating clinical trials through OCR, CV, and LLM technologies.",
+      "defensibility": "Technical barriers include proprietary algorithms and integration capabilities.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "The technology is designed to scale with enterprise needs, but requires further development and validation."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for data extraction and protocol checks.",
+      "data_advantages": "Potential data moat through integration with existing EDC systems.",
+      "technical_barriers": "Complexity of integrating with existing clinical trial systems provides a barrier to entry."
+    },
+    "red_flags": [
+      "Technology is unproven in the market and lacks IP protection."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Cora has no current market traction or customers, which is a significant concern. The focus is on developing an MVP and securing pilot customers.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue to date.",
+      "customer_metrics": "No customers or acquisition rate data available.",
+      "retention_analysis": "Not applicable at this stage.",
+      "unit_economics": "Not applicable at this stage."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from initial conversations with industry professionals.",
+      "product_market_fit": "Potential PMF indicated by industry pain points, but unvalidated.",
+      "notable_customers": "None at this stage.",
+      "partnerships": "No strategic partnerships established."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Identified significant market pain points and developed a potential solution."
+      ],
+      "areas_of_investigation": [
+        "Need to validate product-market fit and secure initial customers."
+      ]
+    },
+    "red_flags": [
+      "Lack of traction and customer validation."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing demand for automation in clinical trials and regulatory pressures for efficiency. However, market education and adoption may take time.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready for digital transformation solutions.",
+      "catalysts": "Regulatory pressures and demand for faster trials are driving adoption.",
+      "tailwinds": "Favorable trends in digital health and AI adoption.",
+      "headwinds": "Potential resistance from established players and need for market education."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage in offering a comprehensive automation solution.",
+      "competitive_response": "Competitors may respond with similar offerings, but Cora's integrated approach provides differentiation.",
+      "market_education": "Significant market education required to drive adoption."
+    },
+    "red_flags": [
+      "Potential delays in market adoption due to education requirements."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Cora is currently fundraising with a $1M SAFE pre-seed round. The terms are typical for early-stage startups, but valuation and ownership details are not provided.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "$1M",
+      "pre_money_valuation": "Not provided",
+      "post_money_valuation": "Not provided"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The focus on digital health and automation aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership at this early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, making it difficult to assess."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and ownership information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Cora presents a compelling solution to a significant market problem, but lacks market traction and customer validation. The team is small and requires additional hires to scale effectively. The technology is promising but unproven in the market.",
+    "key_factors": [
+      "Lack of traction",
+      "Small team size",
+      "Unproven technology"
+    ],
+    "next_steps": [
+      "Monitor progress on MVP development and customer acquisition",
+      "Evaluate team expansion and hiring plans",
+      "Assess market validation and traction in upcoming months"
+    ]
+  }
+}

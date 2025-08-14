@@ -1,0 +1,180 @@
+{
+  "company_name": "Lilac Software",
+  "token": "1x1p9nt8qiizjd8cn23g1x1p9nt6fb6h",
+  "submitted_at": "8/12/2025 22:41:06",
+  "website": "http://www.lilacsoftware.com",
+  "year_founded": "2023",
+  "description": "Lilac Software is transforming how health plans operate by combining a modern data platform with cutting-edge agentic AI. Lilac's cloud-native infrastructure unifies messy, siloed data to power real-time decision-making and workflow automation across clinical quality, pharmacy, and operations.",
+  "problem_statement": "Payors have fragmented and messy data that is holding them back from efficient operations and analytics and useful AI ROI. This leaves payors in a growing market with compressing margins. The transformation is coming and Lilac will be one of the leading players in the space.",
+  "pitch_deck_link": "https://docsend.com/view/e5z55n9zbgs8dmmp",
+  "demo_link": "https://www.loom.com/share/ec3d6b6a104a4190a8de16abdc38e8eb",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of Lilac Software demonstrates strong execution ability and domain expertise. Neetu Rajpal, Alex Schaefer, and Marc S. Ryan bring complementary skills in technology, sales, and healthcare solutions, respectively. Their deliberate approach to forming the company and their combined experience in the industry are positive indicators of their capability to lead and scale the business.",
+    "company_assessment": {
+      "business_model_strength": "Lilac Software's business model is based on an annual subscription that scales with membership, providing a predictable revenue stream. The model is scalable and aligns well with industry standards.",
+      "market_positioning": "The company positions itself as a comprehensive solution provider for health plans, focusing on data aggregation and insights for Stars Performance. This differentiation is crucial in a market where competitors focus more on dashboarding.",
+      "execution_capability": "The team has demonstrated execution capability by launching a product in the market and securing contracts with two health plans. Their technical expertise and understanding of health plan data are significant assets.",
+      "strategic_vision": "The leadership has a clear strategic vision to become a leading player in transforming health plan operations through AI and data integration."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Neetu Rajpal",
+        "role": "CEO & CoFounder",
+        "linkedin": "https://www.linkedin.com/in/neeturajpal/",
+        "background": "Neetu has a strong technical background with experience in leading technology teams and developing enterprise solutions.",
+        "domain_expertise": "Expertise in data platforms and AI, particularly in healthcare applications.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Successfully led technology teams in previous roles.",
+        "leadership_signals": "Demonstrated leadership in forming and guiding the company.",
+        "track_record": []
+      },
+      {
+        "name": "Alex Schaefer",
+        "role": "Chief Commercial Officer & CoFounder",
+        "linkedin": "https://www.linkedin.com/in/alex-schaefer/",
+        "background": "Alex has a background in enterprise sales and commercial strategy.",
+        "domain_expertise": "Strong understanding of sales processes and market penetration strategies.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Led successful sales teams in previous roles.",
+        "leadership_signals": "Proven ability to create and lead sales motions.",
+        "track_record": []
+      },
+      {
+        "name": "Marc S. Ryan",
+        "role": "Chief Solutions Officer & CoFounder",
+        "linkedin": "https://www.linkedin.com/in/marc-s-ryan-%F0%9F%87%BA%F0%9F%87%A6-1a99529/",
+        "background": "Marc has extensive experience in healthcare solutions and data integration.",
+        "domain_expertise": "Deep knowledge of healthcare data and operational workflows.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Recognized for innovative solutions in healthcare data management.",
+        "leadership_signals": "Strong vision for healthcare data solutions.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes Innovalon, Cotivity, and Hyperlift, which focus on dashboarding and limited data insights.",
+      "competitor_comparison": "Lilac differentiates by offering comprehensive data aggregation and insights across all Star measures, whereas competitors focus on subsets or lack measure calculations.",
+      "positioning_assessment": "Lilac's unified data foundation and comprehensive solution provide a significant competitive edge."
+    },
+    "red_flags": [
+      "Potential challenges in scaling the team to meet growing demand."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a TAM of $60 billion. The company's focus on Medicare Advantage plans and Stars/Quality performance aligns well with market needs and growth trends.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $60 billion, driven by the growing need for data-driven decision-making in health plans.",
+      "serviceable_addressable_market": "The SAM is focused on Medicare Advantage plans, a segment with significant growth potential.",
+      "serviceable_obtainable_market": "The SOM is promising, given the company's early traction and pipeline of potential customers.",
+      "market_growth_rate": "The market is experiencing a healthy growth rate, supported by increasing demand for AI and data solutions in healthcare.",
+      "market_dynamics": "Key trends include the need for real-time data insights, regulatory changes, and the shift towards value-based care."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are heads of Stars/Quality in Medicare Advantage plans, who require timely data and insights.",
+      "willingness_to_pay": "Evidence of willingness to pay is demonstrated by existing contracts and pipeline interest.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is likely to be high given the enterprise sales model.",
+      "lifetime_value": "LTV is expected to be significant due to the subscription model and potential for upselling additional modules."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating a highly competitive market."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "Lilac Software's technology is highly differentiated, with a focus on comprehensive data aggregation and agentic AI. The technical team is experienced, and the platform is already in the market.",
+    "technical_assessment": {
+      "core_technology": "The core technology is a cloud-native data platform that integrates siloed data for real-time decision-making.",
+      "defensibility": "The platform's ability to unify disparate data sources and provide comprehensive insights is a strong competitive moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technical expertise and data integration capabilities are significant assets.",
+      "scalability": "The cloud-native infrastructure supports scalability as customer demand grows."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The use of agentic AI for real-time insights is a key differentiator.",
+      "data_advantages": "The ability to aggregate and analyze comprehensive data sets provides a significant advantage.",
+      "technical_barriers": "The depth of technical and healthcare knowledge within the team creates barriers for competitors."
+    },
+    "red_flags": [
+      "Potential risks in maintaining technical leadership as the market evolves."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Lilac Software has demonstrated strong early traction with two closed contracts and a robust pipeline. The company's ability to secure contracts with health plans validates its product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth is expected to accelerate as more contracts are secured.",
+      "customer_metrics": "The company has two paying customers and a pipeline of 26 additional plans.",
+      "retention_analysis": "Retention metrics are not detailed but are likely to be strong given the subscription model.",
+      "unit_economics": "Unit economics are not explicitly detailed but are likely favorable given the subscription model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from existing customers supports the value proposition.",
+      "product_market_fit": "Evidence of PMF is strong, with contracts secured and a growing pipeline.",
+      "notable_customers": "Two health plans have signed contracts, indicating early market acceptance.",
+      "partnerships": "No strategic partnerships mentioned, but potential for future collaborations."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Securing initial contracts and building a strong pipeline."
+      ],
+      "areas_of_investigation": [
+        "Exploring additional partnerships and expanding customer base."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in scaling sales and customer support."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable, with market readiness for data-driven solutions and regulatory changes driving demand. However, the competitive landscape is evolving rapidly.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that address data fragmentation and inefficiencies.",
+      "catalysts": "Regulatory changes and the shift towards value-based care are accelerating adoption.",
+      "tailwinds": "Favorable trends include increasing demand for AI and data solutions in healthcare.",
+      "headwinds": "Potential obstacles include competitive pressures and market education requirements."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Lilac has a first-mover advantage in offering comprehensive data solutions.",
+      "competitive_response": "Competitors are likely to respond, but Lilac's technical depth provides a buffer.",
+      "market_education": "Some market education may be required to demonstrate the value of comprehensive data solutions."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response and market saturation."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a runway of 8 months. The terms of the current round are not detailed, but alignment with SemperVirens' investment criteria is crucial.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, specifics not provided.",
+      "raise_amount": "Amount being raised is not specified.",
+      "pre_money_valuation": "Pre-money valuation is not detailed.",
+      "post_money_valuation": "Post-money valuation implications are not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on healthcare and data solutions is strong.",
+      "ownership_potential": "Potential ownership percentage and board representation are not detailed.",
+      "liquidation_preferences": "Not specified, but important for investor protections.",
+      "valuation_justification": "Valuation analysis relative to comparables is needed."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation metrics."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Lilac Software presents a compelling investment opportunity with strong technology, early traction, and a significant market opportunity. The team is experienced, and the product addresses a critical need in the healthcare industry.",
+    "key_factors": [
+      "Strong technical differentiation",
+      "Early market traction",
+      "Significant market opportunity"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on financials and terms",
+      "Explore potential strategic partnerships",
+      "Assess scalability of sales and support operations"
+    ]
+  }
+}

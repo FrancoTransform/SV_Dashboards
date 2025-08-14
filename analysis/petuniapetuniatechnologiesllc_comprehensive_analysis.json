@@ -1,0 +1,177 @@
+{
+  "company_name": "Petunia (Petunia Technologies LLC)",
+  "token": "78iltgsj0v4brw078ilt30oorl9zsyk8",
+  "submitted_at": "8/13/2025 18:38:45",
+  "website": "https://www.usepetunia.com",
+  "year_founded": "2024",
+  "description": "Petunia is a Wellness Benefit that helps busy families (GenX & Millennials) discover & decide on Senior Living for their Aging Loved Ones. Petunia provides unbiased tools, structure and guidance to help you make a life-changing decision for a Loved One, confidently.",
+  "problem_statement": "When aging in place is not an option or not preferred, choosing where your aging Loved One will live becomes a stressful, high-stakes decision, yet 200,000 families a year face this decision with almost no guidance. Across the 11MM Sandwich Generation employees in the workforce, and with more Baby Boomers turning 80 daily, this problem is accelerating rapidly.\n\nFor Families: Today, families have 3 paths to navigate the Assisted Living or Memory Care decision - one they\u2019re making for their Loved One with their Loved One\u2019s money:\n(1) Referral sites and \"consultants\" who get paid $5-10,000 only when your Loved One moves in. When advisors are incentivized to place your Loved One with a Community where they have a referral fee agreement, are they really working for you?\n(2) Online directories that function like paid advertising platforms; communities pay to boost their listings, so what you see isn't necessarily what's best for your family.\n(3) Google, spreadsheets, and hope - families struggle through 70+ hours of research, tours, and coordination with zero structure or guidance, leading to confusion, frustration, and doubt about such a critical decision.\n\nFor Employers: This decision process takes a toll on your workforce. Nearly 2 full work weeks are lost per affected employee as they navigate community tours, appointments, and assessments - all occurring during business hours. Your most valuable mid-career and senior employees (GenX & Millennials) are already stretched thin with Sandwich Generation responsibilities and now face this significant emotional and practical strain. As the largest generation in history ages, a significant portion of your workforce will face this decision in the coming years, making the productivity and retention impact massive.\n\nWhy Petunia matters: We step in after families Google \"Assisted Living Near Me\" and provide tools, structure and unbiased guidance to help them make an informed, confident Senior Living decision on behalf of their Loved One.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGv-hiDgGc/QvsmEiAD4YGKyYT8XV--ng/edit?utm_content=DAGv-hiDgGc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  "demo_link": "https://www.canva.com/design/DAGv-qpzsPw/4a_tghg5huNSARbRPI-UMQ/edit?utm_content=DAGv-qpzsPw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  "team": {
+    "score": 2,
+    "justification": "The team is currently a single founder, Greg Hearn, which presents significant execution risks. While Greg has demonstrated some domain expertise and a strong storytelling ability, the lack of a broader team with complementary skills and experience in scaling startups is a concern.",
+    "company_assessment": {
+      "business_model_strength": "The business model is transitioning from B2C to B2B2C, which could provide more scalability. However, the current traction is limited, and the pricing model is still evolving.",
+      "market_positioning": "Petunia aims to differentiate by offering unbiased guidance in a market dominated by referral fees and paid listings. However, the competitive landscape is crowded, and the unique value proposition needs clearer articulation.",
+      "execution_capability": "The founder has shown initiative in pivoting the business model and engaging with potential partners, but the lack of a team limits execution capability.",
+      "strategic_vision": "The strategic vision to address a growing need in the senior living decision-making process is sound, but execution risks remain high due to the limited team."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Greg Hearn",
+        "role": "Founder",
+        "linkedin": "www.linkedin.com/in/greghearn",
+        "background": "Greg has a background in corporate environments, with experience in product launches and storytelling.",
+        "domain_expertise": "Moderate expertise in the senior living and wellness benefits space.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Successfully launched products with significant ARR in a corporate setting.",
+        "leadership_signals": "Demonstrates strong storytelling and stakeholder engagement skills.",
+        "track_record": [
+          {
+            "company": "Ford Motor Company",
+            "role": "Various roles",
+            "outcome": "Ongoing",
+            "learnings": "Learned to navigate complex corporate environments and drive product launches."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The market is populated with referral sites, consultants, and directory services. Petunia aims to offer unbiased guidance, which is a differentiator.",
+      "competitor_comparison": "Competitors like A Place For Mom and Care.com have established networks but rely on referral fees, which Petunia seeks to avoid.",
+      "positioning_assessment": "Petunia's unbiased approach is a potential differentiator, but the market is crowded, and gaining traction will require significant effort."
+    },
+    "red_flags": [
+      "Single founder with no team",
+      "Limited startup experience",
+      "Execution risks due to lack of resources"
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The market opportunity is significant, with a $91B segment in the US alone. However, capturing a meaningful share will require overcoming significant competitive and awareness challenges.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM for the US Assisted Living and Memory Care segment is $91B, part of the broader $158B Senior Living industry.",
+      "serviceable_addressable_market": "The SAM is focused on the 200,000 families annually making senior living decisions.",
+      "serviceable_obtainable_market": "SOM projections are unclear due to early-stage traction and evolving business model.",
+      "market_growth_rate": "The market is expected to grow with the aging Baby Boomer population, but specific CAGR data is not provided.",
+      "market_dynamics": "Key drivers include the aging population and the increasing need for senior living solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Primary customers are mid-market and enterprise employers with GenX and Millennial employees. Secondary customers are the Sandwich Generation families.",
+      "willingness_to_pay": "Limited evidence of willingness to pay in the B2C model; exploring B2B2C for better traction.",
+      "customer_acquisition_cost": "CAC is not detailed, but initial B2C efforts have been costly.",
+      "lifetime_value": "LTV is not calculated due to early-stage traction and evolving pricing model."
+    },
+    "red_flags": [
+      "Unclear SOM projections",
+      "Limited evidence of willingness to pay",
+      "High CAC in initial B2C efforts"
+    ]
+  },
+  "technology": {
+    "score": 2,
+    "justification": "The technology is in its early stages, with initial development outsourced. There is limited evidence of technical differentiation or defensibility.",
+    "technical_assessment": {
+      "core_technology": "The platform provides tools and guidance for senior living decisions, but technical details are sparse.",
+      "defensibility": "No significant technical barriers to entry or competitive moats identified.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "Scalability is uncertain due to the early stage of development and lack of a technical team."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms or technical innovations mentioned.",
+      "data_advantages": "No data moats or network effects identified.",
+      "technical_barriers": "Limited technical barriers preventing competitors from replicating the solution."
+    },
+    "red_flags": [
+      "Lack of technical differentiation",
+      "No IP strategy",
+      "Early-stage technology with outsourced development"
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Traction is limited with only a few paying customers and a pivot in the business model. The company is still exploring product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Minimal revenue growth with only two paying customers in the B2C model.",
+      "customer_metrics": "Four total customers, with two paying and two unpaid.",
+      "retention_analysis": "Retention data is not available due to the early stage.",
+      "unit_economics": "Unit economics are unclear, with a high CAC in the B2C model."
+    },
+    "market_validation": {
+      "customer_feedback": "Limited customer feedback due to small customer base.",
+      "product_market_fit": "Product-market fit is still being explored, with a pivot to B2B2C.",
+      "notable_customers": "No notable customers or logos yet.",
+      "partnerships": "Handshake referral deal with Canterbury Court, but no significant partnerships."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Pivot to B2B2C model",
+        "Engagement with benefits brokers"
+      ],
+      "areas_of_investigation": [
+        "Product-market fit",
+        "Scalability of the new business model"
+      ]
+    },
+    "red_flags": [
+      "Limited traction",
+      "High CAC",
+      "Unclear product-market fit"
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The timing is favorable due to demographic shifts and the aging population, but competitive pressures and market education challenges exist.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready due to the aging Baby Boomer population.",
+      "catalysts": "Demographic shifts and the need for senior living solutions are key catalysts.",
+      "tailwinds": "Favorable demographic trends and increasing awareness of senior living needs.",
+      "headwinds": "Competitive pressures and the need for significant market education."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Limited first-mover advantage due to existing competitors.",
+      "competitive_response": "High likelihood of competitive response from established players.",
+      "market_education": "Significant market education required to differentiate from existing solutions."
+    },
+    "red_flags": [
+      "High competitive pressures",
+      "Need for market education"
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "No current fundraising, and the company is self-funded. Terms and valuation are not applicable at this stage.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising",
+      "raise_amount": "N/A",
+      "pre_money_valuation": "N/A",
+      "post_money_valuation": "N/A"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on wellness benefits, but early-stage risks are high.",
+      "ownership_potential": "N/A",
+      "liquidation_preferences": "N/A",
+      "valuation_justification": "N/A"
+    },
+    "red_flags": [
+      "No current fundraising",
+      "Early-stage risks"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Petunia is addressing a significant market need with a unique value proposition, but the company is in the early stages with limited traction and a single founder. The pivot to B2B2C is promising, but execution risks remain high.",
+    "key_factors": [
+      "Significant market opportunity",
+      "Unique value proposition",
+      "Execution risks due to single founder"
+    ],
+    "next_steps": [
+      "Monitor progress in B2B2C pivot",
+      "Evaluate team expansion",
+      "Assess traction and product-market fit in the coming months"
+    ]
+  }
+}
