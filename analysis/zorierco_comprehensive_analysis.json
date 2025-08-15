@@ -1,0 +1,158 @@
+{
+  "company_name": "Zo'rier Co",
+  "token": "rjemjylwzr5hh1gpq1cpkrjemjyqmpre",
+  "submitted_at": "8/15/2025 3:36:53",
+  "website": "https://www.instagram.com/zorierco",
+  "year_founded": "1",
+  "description": "Zo\u2019rier is a streetwear brand built on collaboration as the core growth engine, creating culturally-driven drops in partnership with local creatives and established voices. We merge storytelling, design, and community engagement into wearable statements, building a scalable model where every release expands both reach and cultural relevance.",
+  "problem_statement": "Currently, customers are turning to a mix of niche streetwear brands, fast fashion retailers, and large department stores to satisfy their style needs often based on trend, price, or identity. At Zo\u2019rier Co., we recognize that self-expression is not one-dimensional; so we offer a universal brand that bridges bold statement pieces, everyday wear, and diverse aesthetics, allowing customers to fully show up as themselves in one place.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGr-ZT-l5w/ujwY8S7PfyG_VwQq6yQWbg/edit?utm_content=DAGr-ZT-l5w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  "demo_link": "https://www.instagram.com/zorierco",
+  "team": {
+    "score": 2,
+    "justification": "The team is currently a solo founder, which limits execution capability and scalability. The founder has a clear vision but lacks a diverse team with complementary skills and experience in scaling businesses.",
+    "company_assessment": {
+      "business_model_strength": "The business model is B2C with a focus on online sales. Scalability is limited by the current solo operation and reliance on third-party manufacturing.",
+      "market_positioning": "Zo'rier positions itself as a community-driven streetwear brand, differentiating through collaboration with local creatives.",
+      "execution_capability": "Execution capability is limited due to the solo founder status and lack of a broader team.",
+      "strategic_vision": "The founder has a strategic vision focused on community engagement and collaboration, but execution remains a challenge."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kelvin Edwards",
+        "role": "Solo Founder",
+        "linkedin": "https://www.linkedin.com/in/kelvin-edwards-a63b94260/",
+        "background": "Kelvin Edwards is the creative director and marketing manager, handling all day-to-day operations.",
+        "domain_expertise": "Expertise in streetwear fashion and community engagement.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Developed the brand's aesthetic and voice.",
+        "leadership_signals": "Demonstrates leadership through brand development but lacks team-building experience.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The streetwear market is highly competitive with numerous established and emerging brands.",
+      "competitor_comparison": "Competitors focus on profit rather than community, which Zo'rier aims to leverage.",
+      "positioning_assessment": "Zo'rier differentiates through community focus and collaboration, but execution and market penetration are concerns."
+    },
+    "red_flags": [
+      "Solo founder limits scalability and execution capability."
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market is large, encompassing millennials and Gen Z, but the company's ability to capture a significant share is uncertain.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is large, targeting 18-35-year-olds interested in streetwear.",
+      "serviceable_addressable_market": "SAM is less clear due to the early stage and lack of market penetration.",
+      "serviceable_obtainable_market": "SOM projections are uncertain given the current pre-development stage.",
+      "market_growth_rate": "Streetwear market is growing, driven by cultural trends and youth engagement.",
+      "market_dynamics": "Trends include a shift towards community-driven brands and sustainable fashion."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are millennials and Gen Z interested in self-expression through fashion.",
+      "willingness_to_pay": "Price sensitivity is a concern, with products ranging from $15-$35 and higher for luxury items.",
+      "customer_acquisition_cost": "CAC is not defined due to the early stage.",
+      "lifetime_value": "LTV is not calculated, but retention strategies focus on community engagement."
+    },
+    "red_flags": [
+      "Unclear market capture strategy and customer acquisition cost."
+    ]
+  },
+  "technology": {
+    "score": 2,
+    "justification": "The company relies on third-party manufacturing with no proprietary technology or defensible IP.",
+    "technical_assessment": {
+      "core_technology": "No core technology; relies on Printify for manufacturing.",
+      "defensibility": "No technical barriers to entry or competitive moats.",
+      "intellectual_property": "No IP strategy or patents mentioned.",
+      "scalability": "Scalability is limited by reliance on third-party manufacturing."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "None.",
+      "data_advantages": "None.",
+      "technical_barriers": "None."
+    },
+    "red_flags": [
+      "Lack of proprietary technology and reliance on third-party manufacturing."
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "Minimal traction with only 10 sales and no significant market presence.",
+    "growth_metrics": {
+      "revenue_growth": "No significant revenue growth due to early stage.",
+      "customer_metrics": "Only 10 sales with no clear acquisition strategy.",
+      "retention_analysis": "No retention data available.",
+      "unit_economics": "Unit economics are not defined."
+    },
+    "market_validation": {
+      "customer_feedback": "Limited customer feedback due to low sales volume.",
+      "product_market_fit": "No evidence of product-market fit.",
+      "notable_customers": "None.",
+      "partnerships": "Potential future collaborations with creatives and NBA-related individuals."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Established brand aesthetic and voice."
+      ],
+      "areas_of_investigation": [
+        "Need to validate product-market fit and develop a customer acquisition strategy."
+      ]
+    },
+    "red_flags": [
+      "Lack of traction and market validation."
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market is ready for community-driven brands, but competitive timing and execution are concerns.",
+    "market_timing": {
+      "market_readiness": "Market is receptive to community-driven and collaborative brands.",
+      "catalysts": "Cultural shifts towards self-expression and community engagement.",
+      "tailwinds": "Growing interest in streetwear and sustainable fashion.",
+      "headwinds": "High competition and market saturation."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "No first-mover advantage; market is saturated.",
+      "competitive_response": "High likelihood of competitive response from established brands.",
+      "market_education": "Requires market education on community-driven brand value."
+    },
+    "red_flags": [
+      "High competition and lack of first-mover advantage."
+    ]
+  },
+  "terms": {
+    "score": 1,
+    "justification": "No current fundraising or investment terms provided.",
+    "investment_details": {
+      "round_stage": "Pre-development stage with no active fundraising.",
+      "raise_amount": "Not specified.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "No alignment with SV's investment criteria due to lack of fundraising.",
+      "ownership_potential": "Not applicable.",
+      "liquidation_preferences": "Not applicable.",
+      "valuation_justification": "Not applicable."
+    },
+    "red_flags": [
+      "No fundraising activity or investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Pass",
+    "rationale": "The company is in a very early stage with minimal traction, a solo founder, and no proprietary technology or clear market capture strategy. The lack of fundraising activity and investment terms further limits alignment with SemperVirens' investment criteria.",
+    "key_factors": [
+      "Solo founder limits scalability",
+      "Minimal traction and market validation",
+      "No proprietary technology or defensible IP"
+    ],
+    "next_steps": [
+      "Consider building a diverse team to enhance execution capability",
+      "Develop a clear customer acquisition strategy",
+      "Explore potential fundraising opportunities to support growth"
+    ]
+  }
+}

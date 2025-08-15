@@ -1,0 +1,180 @@
+{
+  "company_name": "Protyon",
+  "token": "e5idblusk6shbpaeu9e5idbluebki6yg",
+  "submitted_at": "8/15/2025 12:35:34",
+  "website": "https://protyon.tech/",
+  "year_founded": "2022",
+  "description": "Protyon is a software and service startup using advanced in silico molecular modeling technologies to support oncologists and molecular pathologists in choosing the most effective therapy. Our platform significantly reduces the number of non-responders of expensive advanced targeted therapy drugs by helping interpret rare or previously unseen mutations found in tumor sequencing data.",
+  "problem_statement": "Protyon\u2019s solution addresses the significant waste on misaligned targeted cancer drugs, high therapy costs, and a high percentage of non-responders. The business case highlights substantial issues in cancer treatment: \u20ac16B is wasted annually on misaligned advanced targeted drugs, which cost about \u20ac0.3M per course. In 2022, there were 2.5M new lung cancer cases and 1.8M deaths. Notably, 40% of patients do not respond to these therapies, and 30% present novel mutations lacking treatment guidelines.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1544RqzjbXKDJJgE30cB3IzQ8OXpNgyAa/view?usp=sharing",
+  "demo_link": "https://drive.google.com/file/d/1pywAxRc8hIe2Kg56_9Cc5KmJQZPxz6yk/view?usp=drive_link",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a proven track record in the field of oncology and molecular modeling. The team is well-balanced with complementary skills and a history of collaboration, which enhances their execution capability.",
+    "company_assessment": {
+      "business_model_strength": "Protyon operates a SaaS model with multiple payers, which is adaptive to different market needs. The model is scalable and aligns well with the healthcare industry's shift towards digital solutions.",
+      "market_positioning": "Protyon positions itself as a leader in AI-driven precision medicine, offering a unique value proposition with its ability to interpret rare mutations and reduce non-responder rates.",
+      "execution_capability": "The team has demonstrated execution capability by establishing a loyal user base in the Netherlands and engaging with major international cancer centers.",
+      "strategic_vision": "The leadership has a clear strategic vision for market expansion and engagement with key stakeholders in the US market."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Dr. Rositsa Jordanova",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/rositsa-jordanova/",
+        "background": "Dr. Jordanova has a background in oncology and molecular biology, with extensive experience in clinical research and innovation.",
+        "domain_expertise": "Expert in oncology and molecular modeling technologies.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Successfully led the development and clinical validation of Protyon's platform.",
+        "leadership_signals": "Demonstrated leadership in building a diverse and motivated team.",
+        "track_record": []
+      },
+      {
+        "name": "Prof. Matthew Groves",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/matthew-groves/",
+        "background": "Professor of molecular biology with a focus on computational modeling.",
+        "domain_expertise": "Renowned expert in molecular modeling and computational biology.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Developed the core technology behind Protyon's platform.",
+        "leadership_signals": "Strong academic leadership and innovation track record.",
+        "track_record": []
+      },
+      {
+        "name": "Dr. Josef Melcr",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/jmelcr/",
+        "background": "Expert in bioinformatics and software development.",
+        "domain_expertise": "Specializes in bioinformatics and software engineering.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Led the technical development and patent filing for Protyon's platform.",
+        "leadership_signals": "Effective in leading technical teams and product development.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The precision medicine market is competitive with several players focusing on AI-driven solutions.",
+      "competitor_comparison": "Protyon differentiates itself with its ability to measure drug efficacy and its existing clinical use.",
+      "positioning_assessment": "Protyon's platform offers faster and more precise outcomes with a lower regulatory burden compared to competitors."
+    },
+    "red_flags": [
+      "Potential challenges in scaling the team for international expansion."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The oncology drugs market is substantial with a TAM of \u20ac208B and a SOM of \u20ac30.8B, indicating significant market potential for Protyon's solution.",
+    "market_analysis": {
+      "total_addressable_market": "The global oncology drugs market is valued at \u20ac208B with an 8% CAGR.",
+      "serviceable_addressable_market": "Protyon's SAM is focused on precision medicine within oncology, with a realistic capture of \u20ac30.8B.",
+      "serviceable_obtainable_market": "The SOM is projected based on Protyon's go-to-market strategy and existing clinical relationships.",
+      "market_growth_rate": "The oncology market is growing at an 8% CAGR, driven by advancements in targeted therapies.",
+      "market_dynamics": "Key trends include the rise of precision medicine, increasing cancer incidence, and demand for cost-effective treatments."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include oncology units, healthcare insurers, and pharma companies.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by interest from hospitals and ongoing discussions with pharma companies.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is likely to be high due to the complex sales cycle in healthcare.",
+      "lifetime_value": "LTV is expected to be high given the recurring subscription model and potential for long-term partnerships."
+    },
+    "red_flags": [
+      "High CAC and long sales cycles in the healthcare industry."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "Protyon's technology is highly differentiated with strong defensibility due to its proprietary algorithms and patent protection.",
+    "technical_assessment": {
+      "core_technology": "The platform uses advanced in silico molecular modeling to interpret tumor sequencing data.",
+      "defensibility": "Protyon holds an exclusive license and has filed an international patent, creating significant barriers to entry.",
+      "intellectual_property": "The technology is protected by an international patent, enhancing its defensibility.",
+      "scalability": "The platform is fully digital, allowing for scalable deployment across multiple markets."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms enable precise interpretation of rare mutations.",
+      "data_advantages": "The platform benefits from data moats due to its clinical use and integration with leading centers.",
+      "technical_barriers": "Competitors face significant barriers in replicating Protyon's patented technology."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining technological edge as the market evolves."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Protyon has strong clinical validation and a growing user base, but is currently pre-revenue with no paying customers.",
+    "growth_metrics": {
+      "revenue_growth": "Pre-revenue with plans to monetize through a subscription model.",
+      "customer_metrics": "8 hospitals in the Netherlands use the service, with interest from major international centers.",
+      "retention_analysis": "High retention expected due to clinical integration and user satisfaction.",
+      "unit_economics": "Unit economics are not detailed, but the subscription model suggests potential for positive margins."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from clinical users and interest from leading cancer centers.",
+      "product_market_fit": "Evidence of PMF through clinical use and ongoing collaborations.",
+      "notable_customers": "Dutch University Medical Centers and discussions with Gustave Roussy and Memorial Sloan Kettering.",
+      "partnerships": "Potential partnerships with major pharma companies like AstraZeneca and Roche."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Clinical validation and strong interest from international centers."
+      ],
+      "areas_of_investigation": [
+        "Monetization strategy and conversion of interest into paying customers."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status and reliance on clinical validation for market entry."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing demand for precision medicine and advancements in cancer treatment.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that improve treatment efficacy and reduce costs.",
+      "catalysts": "Rising cancer incidence and demand for personalized treatments are key catalysts.",
+      "tailwinds": "Favorable regulatory changes and technological advancements support market entry.",
+      "headwinds": "Potential challenges include long sales cycles and reimbursement hurdles."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Protyon benefits from early clinical use and established relationships.",
+      "competitive_response": "Competitors may respond with similar AI-driven solutions, but Protyon's patent provides protection.",
+      "market_education": "Some market education is required to demonstrate the value of the platform."
+    },
+    "red_flags": [
+      "Potential delays in market adoption due to regulatory and reimbursement challenges."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Protyon is currently fundraising with a focus on validating its business model and engaging with US stakeholders.",
+    "investment_details": {
+      "round_stage": "Currently fundraising with SAFE notes and grants.",
+      "raise_amount": "Not specified, but previous funding totals \u20ac1.7M.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Protyon's focus on healthcare innovation aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given early-stage fundraising.",
+      "liquidation_preferences": "Not detailed, but likely standard for early-stage investments.",
+      "valuation_justification": "Valuation details are not provided, requiring further investigation."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and fundraising terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Protyon presents a compelling opportunity with its differentiated technology, strong team, and significant market potential. The company's focus on precision medicine aligns well with current healthcare trends, and its clinical validation provides a strong foundation for growth.",
+    "key_factors": [
+      "Strong team with domain expertise",
+      "Differentiated technology with patent protection",
+      "Significant market potential in precision medicine"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on monetization strategy and customer acquisition",
+      "Engage with Protyon to understand fundraising terms and valuation",
+      "Explore potential partnerships and strategic collaborations"
+    ]
+  }
+}

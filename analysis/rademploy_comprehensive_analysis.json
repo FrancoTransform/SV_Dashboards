@@ -1,0 +1,170 @@
+{
+  "company_name": "RadEmploy",
+  "token": "7kq8dfosdtj1gs3l7kq8dlo4fh4qdal5",
+  "submitted_at": "8/14/2025 22:04:58",
+  "website": "https://www.rademploy.com/",
+  "year_founded": "2024",
+  "description": "radEmploy is a radiology workforce platform leveraging Conversational AI. We connect enterprise hospital systems with qualified talent by region, helping them efficiently fill critical staffing shortages and build a national supply chain for healthcare professionals.",
+  "problem_statement": "The Problem: The healthcare industry is facing a critical and worsening staffing crisis, with over 85% of facilities experiencing a shortage of radiology professionals. The traditional recruiting process is slow, expensive, and inefficient, leaving hospitals and imaging centers critically understaffed and unable to meet patient demand. Why It Matters: This isn't just a business problem\u2014it directly impacts patient care, hospital revenue, and the well-being of a highly-stressed workforce. Our solution matters because by efficiently connecting qualified talent with facilities, we are helping to ensure patients get the care they need, hospitals can operate profitably, and healthcare professionals have access to the right opportunities. We are building a sustainable workforce pipeline for a vital sector of the healthcare industry.",
+  "pitch_deck_link": "https://docsend.com/view/k69hesifys6a8mjr",
+  "demo_link": "https://docsend.com/view/77gcfvff3q3pjukd",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a personal connection to the problem, which enhances their commitment and understanding. The CEO and CTO have a long-standing relationship, which suggests strong team cohesion. However, the team is small, and scaling may require additional hires.",
+    "company_assessment": {
+      "business_model_strength": "The hybrid revenue model of subscription and success-based fees is promising, providing both recurring revenue and performance incentives. However, the initial pivot away from upfront fees indicates potential pricing sensitivity.",
+      "market_positioning": "RadEmploy positions itself uniquely by focusing on radiology staffing, a niche but critical area, differentiating from generic job boards.",
+      "execution_capability": "The team has demonstrated execution capability by securing contracts with major hospital systems and growing their candidate pool significantly within nine months.",
+      "strategic_vision": "The strategic vision is clear, aiming to build a national supply chain for healthcare professionals, which aligns with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Joel Horsford",
+        "role": "CEO",
+        "linkedin": "www.linkedin.com/in/joel-horsford-ba-rt-r-85295483",
+        "background": "Joel has a background in radiology, providing him with industry-specific insights and credibility.",
+        "domain_expertise": "Extensive experience in radiology and healthcare staffing.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Secured contracts with major hospital systems.",
+        "leadership_signals": "Demonstrated leadership in driving initial sales and partnerships.",
+        "track_record": []
+      },
+      {
+        "name": "Matt Fried",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/matt-fried-ab44a9299/",
+        "background": "Matt has a technical background, crucial for developing the platform.",
+        "domain_expertise": "Technical expertise in AI and platform development.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Led the development of the platform.",
+        "leadership_signals": "Strong technical leadership and product development skills.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes generic job boards and traditional staffing agencies.",
+      "competitor_comparison": "Competitors lack specialization in radiology, leading to inefficiencies in matching qualified candidates.",
+      "positioning_assessment": "RadEmploy's focus on radiology and use of AI for matching provides a competitive edge."
+    },
+    "red_flags": [
+      "Small team size may limit scalability without additional hires."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial, with over $1 trillion globally, indicating significant opportunity. The focus on radiology staffing addresses a critical pain point in healthcare.",
+    "market_analysis": {
+      "total_addressable_market": "Over $1 trillion globally, driven by the healthcare staffing crisis.",
+      "serviceable_addressable_market": "Large hospital systems in the US, with a focus on radiology departments.",
+      "serviceable_obtainable_market": "Initial traction with major hospital systems suggests a realistic capture of a significant market share.",
+      "market_growth_rate": "The healthcare staffing market is growing due to increasing demand for specialized professionals.",
+      "market_dynamics": "Key drivers include the aging population, increasing healthcare needs, and technological advancements in medical imaging."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Large enterprise hospital systems with a need for specialized radiology staff.",
+      "willingness_to_pay": "Evidence of willingness to pay through secured contracts and feedback from design partners.",
+      "customer_acquisition_cost": "Currently founder-led sales; plans to hire dedicated sales representatives to optimize CAC.",
+      "lifetime_value": "High LTV potential due to recurring revenue model and critical nature of service."
+    },
+    "red_flags": [
+      "Potential pricing sensitivity as indicated by initial pivot away from upfront fees."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The use of Conversational AI for matching candidates is a strong technical differentiator. However, the defensibility of the technology and potential IP strategy need further exploration.",
+    "technical_assessment": {
+      "core_technology": "Conversational AI platform for matching radiology professionals with hospital systems.",
+      "defensibility": "Technical barriers include AI algorithms and data-driven matching processes.",
+      "intellectual_property": "No specific IP strategy or patents mentioned.",
+      "scalability": "The platform is scalable, but infrastructure requirements as the user base grows need consideration."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for candidate matching.",
+      "data_advantages": "Growing database of qualified professionals enhances matching accuracy.",
+      "technical_barriers": "AI-driven matching process is a barrier to entry for competitors."
+    },
+    "red_flags": [
+      "Lack of explicit IP strategy or patents."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong initial traction with major hospital systems and a growing candidate pool. However, the transition from founder-led sales to a scalable sales model is crucial.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth from secured contracts with major hospital systems.",
+      "customer_metrics": "Three paying clients with a pipeline of 25,000 enterprise clients.",
+      "retention_analysis": "High retention potential due to critical nature of service.",
+      "unit_economics": "Positive unit economics with recurring revenue and success-based fees."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from design partners and paying clients.",
+      "product_market_fit": "Evidence of PMF through secured contracts and growing candidate pool.",
+      "notable_customers": "Trinity Health, RadNet, Akumin, and Baylor Scott & White.",
+      "partnerships": "Strategic partnerships with major hospital systems."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured contracts with major hospital systems.",
+        "Growing candidate pool."
+      ],
+      "areas_of_investigation": [
+        "Scalability of sales model beyond founder-led efforts."
+      ]
+    },
+    "red_flags": [
+      "Dependence on founder-led sales for growth."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is ideal due to the acute staffing crisis in healthcare, particularly in radiology. Market readiness and demand are high.",
+    "market_timing": {
+      "market_readiness": "High market readiness due to urgent staffing needs in healthcare.",
+      "catalysts": "Staffing shortages and increasing demand for radiology services.",
+      "tailwinds": "Favorable trends in healthcare staffing and technological adoption.",
+      "headwinds": "Potential regulatory challenges in healthcare staffing."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into a niche market provides a first-mover advantage.",
+      "competitive_response": "Competitors may respond, but RadEmploy's specialization provides a buffer.",
+      "market_education": "Minimal market education required due to existing awareness of staffing issues."
+    },
+    "red_flags": [
+      "Potential regulatory challenges."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The company is currently fundraising, with a focus on strategic partnerships and extending runway. Alignment with SemperVirens' focus on healthcare and technology is strong.",
+    "investment_details": {
+      "round_stage": "Currently fundraising.",
+      "raise_amount": "Not specified, but focused on extending runway and strategic hires.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthcare technology and workforce solutions.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details not provided, but traction and market size support a favorable valuation."
+    },
+    "red_flags": [
+      "Lack of specific valuation and raise amount details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "RadEmploy demonstrates strong alignment with SemperVirens' investment criteria, addressing a critical market need with a scalable solution. The team's domain expertise, initial traction, and market timing are compelling.",
+    "key_factors": [
+      "Strong market need and timing.",
+      "Initial traction with major hospital systems.",
+      "Unique technical solution with AI-driven matching."
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on technology defensibility and IP strategy.",
+      "Evaluate scalability of sales model and potential hires.",
+      "Clarify valuation and fundraising details."
+    ]
+  }
+}

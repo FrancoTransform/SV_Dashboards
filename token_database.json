@@ -611,10 +611,55 @@
       "company_name": "TietAI",
       "analysis_file": "tietai_comprehensive_analysis.json",
       "analyzed_at": "2025-08-14T13:37:06.659180"
+    },
+    "dzm1oilh4s0mmzjhywk9jdzm1oicq7tt": {
+      "company_name": "Care Hero",
+      "analysis_file": "carehero_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:05:16.353504"
+    },
+    "7kq8dfosdtj1gs3l7kq8dlo4fh4qdal5": {
+      "company_name": "RadEmploy",
+      "analysis_file": "rademploy_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:05:16.353586"
+    },
+    "rn1jkzczam9f2bn08trn19kp8sqpqyhn": {
+      "company_name": "Newlane University",
+      "analysis_file": "newlaneuniversity_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:05:16.353592"
+    },
+    "r0bjkhxwvn65ad1eypptnkv47vr0bjkh": {
+      "company_name": "Mila Health",
+      "analysis_file": "milahealth_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:05:16.353597"
+    },
+    "ghbafb9r1lput0ii65odohnaghbafb94": {
+      "company_name": "OneRange",
+      "analysis_file": "onerange_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:05:16.353601"
+    },
+    "rjemjylwzr5hh1gpq1cpkrjemjyqmpre": {
+      "company_name": "Zo'rier Co",
+      "analysis_file": "zorierco_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:10:36.956401"
+    },
+    "h5g9af0u2e1rh7jyn3a5oh5g9afamgbj": {
+      "company_name": "Hadley",
+      "analysis_file": "hadley_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:10:36.956470"
+    },
+    "e5idblusk6shbpaeu9e5idbluebki6yg": {
+      "company_name": "Protyon",
+      "analysis_file": "protyon_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:10:36.956474"
+    },
+    "duy7lubzvwuvmihduy7g7vpl9d4so2yq": {
+      "company_name": "The After Cancer",
+      "analysis_file": "theaftercancer_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T07:10:36.956479"
     }
   },
-  "last_sync": "2025-08-14T13:37:06.659191",
-  "total_submissions": 109,
-  "analyzed_count": 109,
+  "last_sync": "2025-08-15T07:10:36.956482",
+  "total_submissions": 118,
+  "analyzed_count": 118,
   "unmatched_analyses": []
 }

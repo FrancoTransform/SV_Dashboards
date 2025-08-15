@@ -1,0 +1,179 @@
+{
+  "company_name": "OneRange",
+  "token": "ghbafb9r1lput0ii65odohnaghbafb94",
+  "submitted_at": "8/15/2025 3:31:24",
+  "website": "https://onerange.co",
+  "year_founded": "2021",
+  "description": "OneRange is an AI-powered people development platform and global learning marketplace that connects employees with the most relevant, high-impact resources, aligning individual goals with company skill strategies. We combine AI personalization, advanced budget controls, and measurable ROI to transform corporate learning into a driver of internal mobility, retention, and growth.",
+  "problem_statement": "Corporate learning is broken. Despite spending an average of $1,600 per employee annually, companies see low engagement, poor relevance, and little measurable ROI. Traditional LMS platforms push generic content that fails to meet the evolving demands of a workforce facing historic skills gaps, AI-driven job disruption, and a growing need for continuous upskilling. Employees are frustrated by the inability to access the best resources, HR leaders lack visibility into ROI, and budgets are wasted on underused tools. With 94% of employees stating they would stay longer if given better growth opportunities, solving this problem directly impacts retention, performance, and competitiveness. OneRange addresses these issues by curating the world\u2019s best learning resources through our Infinite Marketplace, leveraging AI for personalized recommendations and skills tagging, enabling seamless approvals, and offering a flexible pay-per-use model so companies only pay for what\u2019s used. The result is an engaged workforce, targeted skill development, and a direct link between learning investments and business outcomes.",
+  "pitch_deck_link": "https://docsend.com/view/7tjh5sikippe4jn5",
+  "demo_link": "https://www.loom.com/share/7fa0049e2d2e4a8ea559cbee03750ec0?sid=bf1553cd-70ae-43ad-9ab8-a2a9e5710a41",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong track record of entrepreneurship and domain expertise. Steve Gilman and Houtan Fanisalek bring complementary skills in business development and technology, respectively. Their previous experiences in scaling ventures and deep understanding of the corporate learning space position them well for success.",
+    "company_assessment": {
+      "business_model_strength": "OneRange's hybrid SaaS and marketplace model is robust, allowing for recurring revenue and capturing value from learning transactions. The model is scalable and aligns well with market needs.",
+      "market_positioning": "The company positions itself uniquely by combining AI personalization with a broad marketplace, differentiating from traditional LMS platforms and content providers.",
+      "execution_capability": "The team has demonstrated strong execution capability, evidenced by significant traction, strategic partnerships, and a growing customer base.",
+      "strategic_vision": "The leadership has a clear strategic vision to transform corporate learning into a driver of internal mobility and growth, aligning with market trends."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Steve Gilman",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/stevegilman26/",
+        "background": "Steve has a background in scaling ventures and a passion for learning and professional growth. He has experience working with the Department of Defense and leading teams in high-pressure environments.",
+        "domain_expertise": "Corporate learning and development, entrepreneurship",
+        "previous_startups": "Blockparty, a nationwide live event company",
+        "notable_achievements": "Successfully scaled Blockparty and developed strong leadership skills",
+        "leadership_signals": "Demonstrated ability to build and lead teams effectively",
+        "track_record": [
+          {
+            "company": "Blockparty",
+            "role": "Co-Founder",
+            "outcome": "Scaled successfully",
+            "learnings": "Importance of empowering teams and building scalable processes"
+          }
+        ]
+      },
+      {
+        "name": "Houtan Fanisalek",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/houtanfanisalek/",
+        "background": "Houtan has over 20 years of experience in SaaS and fintech, with expertise in AI integrations and software architecture.",
+        "domain_expertise": "AI, SaaS, software development",
+        "previous_startups": "SensorKit, a machine-learning application",
+        "notable_achievements": "Developed SensorKit and led architecture for OneRange",
+        "leadership_signals": "Strong technical leadership and innovation capabilities",
+        "track_record": [
+          {
+            "company": "SensorKit",
+            "role": "Founder",
+            "outcome": "Developed innovative AI technology",
+            "learnings": "Gained deep technical expertise and understanding of AI applications"
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The corporate learning market is competitive, with traditional LMS platforms and content providers dominating. However, these incumbents lack personalization and flexibility.",
+      "competitor_comparison": "Competitors like Cornerstone and SuccessFactors offer centralized training but lack personalization. LinkedIn Learning and Udemy Business limit content choice.",
+      "positioning_assessment": "OneRange differentiates by offering a personalized, flexible platform that unifies learning resources and aligns with company skill priorities."
+    },
+    "red_flags": [
+      "Potential challenges in scaling enterprise sales capacity and expanding distribution channels."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The corporate learning market is substantial, with a TAM of over $360B. OneRange's focus on mid-market and enterprise companies in North America provides a clear path to capturing a significant share.",
+    "market_analysis": {
+      "total_addressable_market": "The global corporate learning market is valued at over $360B, driven by the need for continuous upskilling and talent retention.",
+      "serviceable_addressable_market": "OneRange's SAM exceeds $24B, focusing on mid-market and enterprise companies in North America.",
+      "serviceable_obtainable_market": "The SOM is realistic given the company's go-to-market strategy and focus on industries undergoing rapid skill transformation.",
+      "market_growth_rate": "The market is growing rapidly, driven by AI adoption and the shift toward skills-based organizations.",
+      "market_dynamics": "Key trends include workforce disruption from AI, the need for continuous upskilling, and increased budget scrutiny for L&D investments."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are mid-market and enterprise companies with technical and distributed workforces, facing fragmented upskilling investments.",
+      "willingness_to_pay": "Evidence suggests strong willingness to pay for solutions that align learning investments with business outcomes.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is likely manageable given the company's traction and sales cycle.",
+      "lifetime_value": "High LTV is indicated by strong customer retention and expansion metrics."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating large, complex organizations."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "OneRange's technology is differentiated by its AI-powered personalization and comprehensive marketplace. The platform is scalable and offers competitive moats through its unique approach.",
+    "technical_assessment": {
+      "core_technology": "AI-powered people development platform with a global learning marketplace.",
+      "defensibility": "The combination of AI personalization and a broad marketplace creates technical barriers to entry.",
+      "intellectual_property": "No specific patents mentioned, but the platform's architecture and AI integrations are proprietary.",
+      "scalability": "The platform is designed to scale with enterprise customers, supported by in-house development and robust infrastructure."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for personalized learning recommendations.",
+      "data_advantages": "Data-driven insights and analytics provide a competitive edge.",
+      "technical_barriers": "The integration of AI and a comprehensive marketplace creates barriers for competitors."
+    },
+    "red_flags": [
+      "Potential risks in maintaining technical differentiation as the market evolves."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "OneRange has demonstrated strong traction with significant growth metrics, customer validation, and strategic partnerships. The company's ability to secure enterprise customers and expand accounts is a positive indicator.",
+    "growth_metrics": {
+      "revenue_growth": "Strong revenue growth with a 146% net revenue retention rate.",
+      "customer_metrics": "15 enterprise customers with 10,000 users on the platform.",
+      "retention_analysis": "High customer retention and expansion, evidenced by a 75 NPS.",
+      "unit_economics": "Positive unit economics with a high average customer ACV."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive customer feedback and high NPS indicate strong product-market fit.",
+      "product_market_fit": "Evidence of PMF with high adoption and ROI demonstrated in pilots.",
+      "notable_customers": "Key customers include Riot Games, with a successful pilot leading to a company-wide rollout.",
+      "partnerships": "Strategic partnerships in the HR tech ecosystem enhance market reach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful pilot with Riot Games, high NPS, strong customer retention."
+      ],
+      "areas_of_investigation": [
+        "Exploring further enterprise sales capacity and distribution channels."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in scaling sales and distribution."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable for OneRange, with market readiness for AI-driven learning solutions and strong catalysts driving adoption. The company is well-positioned to capitalize on these trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for AI-driven, personalized learning solutions.",
+      "catalysts": "AI adoption and skills transformation initiatives are accelerating demand.",
+      "tailwinds": "Favorable trends include the shift toward skills-based organizations and increased L&D budget scrutiny.",
+      "headwinds": "Potential challenges include market education and competitive responses."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "OneRange benefits from being early to market with a unique solution.",
+      "competitive_response": "Competitors may respond, but OneRange's differentiation provides a buffer.",
+      "market_education": "Some market education may be required, but the demand for solutions is clear."
+    },
+    "red_flags": [
+      "Potential competitive responses as the market matures."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms are reasonable, with a clear alignment with SemperVirens' investment criteria. The company's valuation and funding strategy support its growth objectives.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising, but previously raised $3M in SAFE financing.",
+      "raise_amount": "N/A",
+      "pre_money_valuation": "N/A",
+      "post_money_valuation": "N/A"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SemperVirens' focus on HR and Future of Work.",
+      "ownership_potential": "Potential for meaningful ownership and influence in future rounds.",
+      "liquidation_preferences": "Standard SAFE terms with no unusual preferences.",
+      "valuation_justification": "Valuation is not explicitly detailed, but growth metrics support a strong valuation."
+    },
+    "red_flags": [
+      "Potential need for additional funding to scale enterprise sales."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "OneRange demonstrates strong alignment with SemperVirens' investment thesis, with a compelling solution in a large and growing market. The team has proven execution capability, and the company's traction and timing are favorable.",
+    "key_factors": [
+      "Strong team and leadership, significant market opportunity, robust traction and growth metrics, favorable market timing."
+    ],
+    "next_steps": [
+      "Engage in deeper due diligence, explore strategic partnerships, and assess potential for future funding rounds."
+    ]
+  }
+}

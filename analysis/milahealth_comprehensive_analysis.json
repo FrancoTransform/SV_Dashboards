@@ -1,0 +1,166 @@
+{
+  "company_name": "Mila Health",
+  "token": "r0bjkhxwvn65ad1eypptnkv47vr0bjkh",
+  "submitted_at": "8/15/2025 0:43:15",
+  "website": "https://www.milahealth.com",
+  "year_founded": "2023",
+  "description": "We are addressing the shortage of healthcare workers with the first platform that scales personalized care by creating safe AI Healthcare workers. Mila Health APIs are customizable and integrate into EMR to autonomously guide patients through medication adherence, symptom tracking, vital checks, and appointments in text and voice.",
+  "problem_statement": "Health care staff shortages are causing suboptimal patient care plan adherence, increased burnout, and reduced revenue at health systems. This is a $234 billion opportunity.",
+  "pitch_deck_link": "https://docsend.com/view/mqka4t4xzq7ba4w4",
+  "demo_link": "https://voice.aiworkers.milahealth.com/",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a proven track record in healthcare and technology, having worked together at AWS and UHG. Their complementary skills and deep trust in each other's capabilities are significant assets.",
+    "company_assessment": {
+      "business_model_strength": "Mila Health's subscription-based model with task-based pricing ($2-$10/task) is scalable and aligns well with healthcare providers' needs to optimize revenue and reduce costs.",
+      "market_positioning": "The company positions itself uniquely by focusing on clinically anchored patient engagement and leveraging an API-driven strategy for scalability.",
+      "execution_capability": "The team has demonstrated strong execution capability with 11 signed customers and an 8x revenue increase in the last 3 months.",
+      "strategic_vision": "The leadership's vision to create an intelligent, autonomous operating system of care reflects strategic thinking and ambition."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Shailu Verma",
+        "role": "Co-Founder, CEO",
+        "linkedin": "https://www.linkedin.com/in/shailuverma/",
+        "background": "Extensive experience in healthcare technology, previously at AWS and UHG.",
+        "domain_expertise": "Strong expertise in healthcare systems and AI technology.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Led significant projects at AWS and UHG.",
+        "leadership_signals": "Demonstrated leadership in building and scaling teams.",
+        "track_record": [
+          {
+            "company": "AWS",
+            "role": "Senior Leader",
+            "outcome": "Successful project completions",
+            "learnings": "Gained insights into scalable technology solutions."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The healthcare AI space is competitive with players like Hippocratic, Hyro, and Ellipsis.",
+      "competitor_comparison": "Competitors focus on office automation, lacking clinical anchoring and API-driven scalability.",
+      "positioning_assessment": "Mila Health differentiates by integrating clinical insights and offering both text and voice communication."
+    },
+    "red_flags": [
+      "Potential challenges in scaling the engineering team to meet demand."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The healthcare AI market is substantial, with a TAM of $20-$28 billion. Mila Health's focus on a $234 billion opportunity in healthcare staff shortages is compelling.",
+    "market_analysis": {
+      "total_addressable_market": "Estimated at $20-$28 billion, driven by healthcare automation needs.",
+      "serviceable_addressable_market": "Focused on large-clinic networks and health systems.",
+      "serviceable_obtainable_market": "Realistic capture through strategic partnerships and API integration.",
+      "market_growth_rate": "Healthcare AI is experiencing rapid growth, with increasing adoption of AI solutions.",
+      "market_dynamics": "Key drivers include staff shortages, cost pressures, and the need for improved patient care."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Targeting CEOs, COOs, CFOs, and VPs of Population Health in healthcare systems.",
+      "willingness_to_pay": "Evidence of willingness to pay through existing customer base and subscription model.",
+      "customer_acquisition_cost": "Not explicitly detailed, but strategic partnerships suggest efficient acquisition strategies.",
+      "lifetime_value": "High potential LTV due to recurring revenue model and integration into healthcare systems."
+    },
+    "red_flags": [
+      "Potential market saturation and competition from established players."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "Mila Health's technology is highly differentiated with proprietary AI algorithms and a focus on clinical integration.",
+    "technical_assessment": {
+      "core_technology": "AI-driven platform that integrates with EMR systems for personalized patient care.",
+      "defensibility": "Strong technical barriers with proprietary algorithms and clinical focus.",
+      "intellectual_property": "Internally built and proprietary technology.",
+      "scalability": "API-driven model supports scalability across diverse healthcare systems."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for personalized care.",
+      "data_advantages": "Integration with EMR systems provides valuable data insights.",
+      "technical_barriers": "High barriers due to clinical integration and AI sophistication."
+    },
+    "red_flags": [
+      "Potential challenges in maintaining technical edge as competition increases."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong traction with 11 signed customers, 8x revenue growth, and a projected $2M ARR by EOY.",
+    "growth_metrics": {
+      "revenue_growth": "8x increase in the last 3 months, tracking $500K ARR.",
+      "customer_metrics": "11 signed customers with 80+ in the pipeline.",
+      "retention_analysis": "High retention potential due to integration into healthcare systems.",
+      "unit_economics": "Positive unit economics with task-based pricing."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from existing customers.",
+      "product_market_fit": "Evidence of PMF with rapid customer acquisition and revenue growth.",
+      "notable_customers": "Revenue Well as a key customer.",
+      "partnerships": "Strategic partnerships with practice management systems."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Rapid revenue growth and customer acquisition."
+      ],
+      "areas_of_investigation": [
+        "Sustaining growth and scaling operations."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in scaling operations to meet demand."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "Favorable market timing with increasing demand for AI solutions in healthcare due to staff shortages and cost pressures.",
+    "market_timing": {
+      "market_readiness": "High readiness with increasing adoption of AI in healthcare.",
+      "catalysts": "Staff shortages and cost pressures driving demand.",
+      "tailwinds": "Regulatory support for AI in healthcare.",
+      "headwinds": "Potential regulatory hurdles and market education needs."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into a rapidly growing market.",
+      "competitive_response": "Competitors may respond, but Mila's clinical focus provides an edge.",
+      "market_education": "Ongoing need for market education on AI benefits."
+    },
+    "red_flags": [
+      "Potential regulatory changes impacting AI adoption."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "Current fundraising aligns with growth needs, but valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Pre-seed round completed, currently fundraising.",
+      "raise_amount": "Not specified, but seeking capital to scale operations.",
+      "pre_money_valuation": "Not provided.",
+      "post_money_valuation": "Not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthcare innovation.",
+      "ownership_potential": "Potential for significant ownership with early investment.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details needed for comprehensive analysis."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Mila Health demonstrates strong potential with a differentiated technology, significant market opportunity, and impressive traction. The team has the expertise and vision to execute on their ambitious goals.",
+    "key_factors": [
+      "Strong team and leadership",
+      "Differentiated technology",
+      "Significant market opportunity",
+      "Impressive traction and growth"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on financials and valuation",
+      "Explore strategic partnerships to accelerate growth",
+      "Assess scalability of operations and technology"
+    ]
+  }
+}

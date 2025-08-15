@@ -1,0 +1,154 @@
+{
+  "company_name": "Hadley",
+  "token": "h5g9af0u2e1rh7jyn3a5oh5g9afamgbj",
+  "submitted_at": "8/15/2025 4:41:20",
+  "website": "https://www.gohadley.com/",
+  "year_founded": "2020",
+  "description": "Hadley enables employers to offer 529 savings benefits. 529 savings are lifelong savings accounts for both adults and children, and funds grow tax-free for costs related to education K-12 through graduate school; technical and trade school; student loans; retirement; disability costs; apprenticeships; professional certifications and career credentials; and more.",
+  "problem_statement": "We help employers offer 529 benefits with our turnkey solution.\n\nLike 401k, 529 is on the federal tax code.\nUnlike 401k, 529 Plans are governed state-by-state, creating a ton of complexity for employers - until Hadley.\n\nBecause there are 150+ 529 Plans, it's been nearly impossible for PEOs and enterprises to offer 529 payroll benefits to employees. Some employees already have 529's set up, often through their advisors, and most employees don't even know about 529's. \n\nHadley solves the problem around offering 529 benefits. Employees link existing accounts, or use Hadley to find and open their best account. Then, payroll connects to every 529 Plan any employee can have. Employees then use the Hadley app to connect and save more with colleagues, family, friends, and neighbors - think Venmo for 529's. Hadley is the only 529 benefits solution that has universal 529 payment rails and a personalized platform that routes users to their best plan.\n\nOur solution is turnkey. Hadley auto-syncs with payroll, making it easy to administer with no manual entry or file feeds.\n\nWhy now? 529's got a massive revamp under the new Trump tax bill for both adults and children, making it an even richer benefit and critical for Americans. 529's cover: education K-12 through grad school; student loans; retirement; disability costs; professional and career credentials and certifications; and more. \n\nPlus, employers now can also earn corporate tax credits for offering 529 benefits. Also, employees in most states can deduct their 529 contributions from income taxes, creating immediate savings.  \n\nWe educate employees throughout the year, and it's important because nationally America has $2T in student debt with 7 in 10 Americans unaware of 529's. Plus, funds transfer tax-free among family and even future descendants, making 529's critical intergenerational wealth builders every American should have.",
+  "pitch_deck_link": "https://docsend.com/view/ngjwsfd4rg7jf64g",
+  "demo_link": "https://youtu.be/92wMVLDt3_Y",
+  "team": {
+    "score": 4,
+    "justification": "The founding team demonstrates strong execution ability and domain expertise. Yosh Miller and Dave Renz have complementary skills, with Yosh's strategic vision and Dave's technical prowess. Their backgrounds and shared passion for financial solutions are evident in their pivot from B2C to B2B, showcasing adaptability and strategic thinking.",
+    "company_assessment": {
+      "business_model_strength": "Hadley's revenue model is based on a monthly flat fee per employee, which is scalable and aligns with enterprise SaaS models. The model leverages existing payroll systems, reducing friction for adoption.",
+      "market_positioning": "Hadley positions itself uniquely by offering a comprehensive 529 benefits solution that integrates with payroll systems, differentiating from competitors who focus on B2C or limited plan offerings.",
+      "execution_capability": "The team has successfully pivoted from a B2C to a B2B model, indicating strong execution capability. Their traction with 14 enterprise clients and $10K MRR supports this.",
+      "strategic_vision": "The leadership has a clear vision of making 529 plans as ubiquitous as 401ks, leveraging policy changes and market trends to drive adoption."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Yosh Miller",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/yoshmiller/",
+        "background": "Yosh has a background in strategic planning and operations, with experience in financial services.",
+        "domain_expertise": "Expertise in financial planning and benefits administration.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Led Hadley to win the SXSW Pitch investment.",
+        "leadership_signals": "Demonstrates strong leadership through strategic pivots and team building.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes UNest, EarlyBird, and Backer, which have not effectively addressed the B2B market or the complexity of 529 plans.",
+      "competitor_comparison": "Competitors focus on B2C or limited plan offerings, lacking Hadley's comprehensive payroll integration and plan flexibility.",
+      "positioning_assessment": "Hadley differentiates by offering a universal 529 payment rail and a social app for contributions, positioning it as a leader in the B2B 529 benefits space."
+    },
+    "red_flags": [
+      "Potential reliance on external tech development through Tanooki Labs."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market for 529 savings plans is substantial, with a TAM of $10B. The market is growing due to policy changes and increasing awareness of 529 benefits.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $10B, driven by the need for tax-advantaged savings solutions.",
+      "serviceable_addressable_market": "SAM includes employers with 100+ FTEs and PEOs, representing a significant portion of the TAM.",
+      "serviceable_obtainable_market": "SOM is projected to grow as more employers adopt 529 benefits due to tax incentives and employee demand.",
+      "market_growth_rate": "The market is expected to grow at a healthy rate, supported by favorable policy changes and increasing employer interest.",
+      "market_dynamics": "Key drivers include tax incentives, increasing student debt, and the need for financial wellness solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are HR leaders, CFOs, and COOs at enterprises and PEOs.",
+      "willingness_to_pay": "Employers are willing to pay for solutions that simplify 529 plan administration and offer tax benefits.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but targeting progressive employers suggests a strategic approach.",
+      "lifetime_value": "LTV is likely high due to the recurring revenue model and the stickiness of payroll-integrated solutions."
+    },
+    "red_flags": [
+      "Potential challenges in educating the market about 529 benefits."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Hadley's technology is differentiated by its universal 529 payment rails and integration with payroll systems, providing a competitive moat.",
+    "technical_assessment": {
+      "core_technology": "The core technology includes a platform that integrates with payroll systems and offers a social app for contributions.",
+      "defensibility": "The integration with payroll systems and universal payment rails create barriers to entry.",
+      "intellectual_property": "No specific IP strategy mentioned, but the platform's unique integration offers a competitive advantage.",
+      "scalability": "The technology is scalable, leveraging existing payroll infrastructure to support growth."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The platform's ability to route users to the best 529 plan is a key differentiator.",
+      "data_advantages": "Potential data advantages from payroll integration and user engagement.",
+      "technical_barriers": "The complexity of integrating with multiple 529 plans and payroll systems creates a barrier for competitors."
+    },
+    "red_flags": [
+      "Dependence on external tech development could pose risks."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Hadley shows strong traction with 14 enterprise clients and $10K MRR, indicating product-market fit and effective go-to-market execution.",
+    "growth_metrics": {
+      "revenue_growth": "Current MRR is $10K with potential for growth as more employers adopt 529 benefits.",
+      "customer_metrics": "14 enterprise clients and 1000+ public users demonstrate growing adoption.",
+      "retention_analysis": "Retention metrics are not detailed, but the recurring revenue model suggests potential for high retention.",
+      "unit_economics": "Unit economics are not explicitly detailed, but the flat fee model suggests predictable revenue."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from HR leaders and high conversion rates at workplace info sessions.",
+      "product_market_fit": "Evidence of PMF through enterprise adoption and alignment with market trends.",
+      "notable_customers": "14 enterprise clients, including PEOs, validate the solution's appeal.",
+      "partnerships": "Partnerships with payroll systems and PEOs enhance market reach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful pivot to B2B model and traction with enterprise clients."
+      ],
+      "areas_of_investigation": [
+        "Further validation of long-term retention and customer satisfaction."
+      ]
+    },
+    "red_flags": [
+      "Long sales cycles could impact growth."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is highly favorable due to recent policy changes, increasing awareness of 529 benefits, and the growing need for financial wellness solutions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that simplify 529 plan administration and offer tax benefits.",
+      "catalysts": "Recent policy changes and tax incentives are driving adoption.",
+      "tailwinds": "Favorable trends include increasing student debt and demand for financial wellness solutions.",
+      "headwinds": "Potential challenges include market education and awareness."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Hadley benefits from being an early mover in the B2B 529 benefits space.",
+      "competitive_response": "Competitors may struggle to replicate Hadley's comprehensive solution.",
+      "market_education": "Ongoing market education is needed to drive adoption."
+    },
+    "red_flags": [
+      "None identified."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms align with SemperVirens' criteria, with a focus on accelerating sales and refining the go-to-market strategy.",
+    "investment_details": {
+      "round_stage": "Currently fundraising to accelerate growth and refine strategy.",
+      "raise_amount": "Specific raise amount not detailed, but funds will be used for sales acceleration and strategy refinement.",
+      "pre_money_valuation": "Valuation details not provided.",
+      "post_money_valuation": "Valuation details not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on financial wellness and benefits aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given the early stage and growth potential.",
+      "liquidation_preferences": "Not detailed, but standard terms expected.",
+      "valuation_justification": "Valuation should be justified based on traction and market potential."
+    },
+    "red_flags": [
+      "Lack of detailed valuation information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Hadley demonstrates strong alignment with market trends, a compelling value proposition, and early traction in the B2B 529 benefits space. The team has shown adaptability and strategic vision, making it a promising candidate for investment.",
+    "key_factors": [
+      "Strong market timing, differentiated technology, and early traction with enterprise clients."
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on customer retention and satisfaction, and validate long-term scalability of the technology."
+    ]
+  }
+}

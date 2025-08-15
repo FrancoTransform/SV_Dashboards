@@ -1,0 +1,180 @@
+{
+  "company_name": "The After Cancer",
+  "token": "duy7lubzvwuvmihduy7g7vpl9d4so2yq",
+  "submitted_at": "8/15/2025 13:13:00",
+  "website": "https://www.theaftercancer.com",
+  "year_founded": "2023",
+  "description": "The After Cancer enables organizations to launch scalable, virtual survivorship programs by merging their clinical expertise with our technology. We deliver personalized care plans addressing patients\u2019 side effects, mental health, and recurrence risk, while aligning oncology stakeholders to improve patient outcomes and lower costs through real-world data.",
+  "problem_statement": "As a society, we invested heavily in better cancer treatments and earlier diagnoses and we\u2019re now seeing the results: over 18 million cancer survivors in the US. Survivors face ongoing challenges, with 74% experiencing physical and psychosocial side effects such as pain, fatigue, and distress. As survival rates climb, the demand for long-term care to manage side effects and prevent recurrence is outpacing the growth in supply. Healthcare has been slow to adapt. Survivorship programs, proven to improve outcomes and reduce recurrence, are absent in most hospitals due to a lack of staff, limited expertise, insufficient infrastructure, and difficulty tracking patient outcomes. This leaves survivors navigating recovery alone, leading to worse health outcomes and higher costs across the system. This challenge will only intensify. Cancer incidence is rising, in particular for younger generations, creating a growing population at high risk for late effects of treatment and potential cancer recurrence. Without adequate long-term support, these patients are likely to reenter the healthcare system in costly and preventable ways, affecting every stakeholder in oncology from patients and providers to payers.",
+  "pitch_deck_link": "https://docsend.com/view/msnmd9mu6tdtdpcd",
+  "demo_link": "https://youtu.be/YSC8zJHF5jE",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong blend of domain expertise, technical skills, and leadership experience. Mariana Arnaut and Caroline Knudsen bring strategic and operational expertise from their MBA backgrounds, while Dr. Chasse Bailey-Dorton provides deep clinical insights. Thierry Silbermann's technical leadership in AI and machine learning adds a robust technical foundation.",
+    "company_assessment": {
+      "business_model_strength": "The B2B2C model with annual subscription agreements is scalable and aligns with industry trends. The focus on oncology stakeholders provides a clear path to revenue diversification.",
+      "market_positioning": "The company positions itself as a technology enabler for survivorship programs, differentiating from competitors by avoiding reliance on in-house nurse teams.",
+      "execution_capability": "The team has demonstrated execution capability by launching an MVP, securing early traction, and building a strong sales pipeline.",
+      "strategic_vision": "The strategic vision is clear, focusing on empowering healthcare organizations to deliver scalable survivorship care, with plans to expand revenue streams across the oncology ecosystem."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Mariana Arnaut",
+        "role": "Co-founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/mariana-arnaut-32067577/",
+        "background": "MBA from HEC Paris with 10+ years in direct-to-consumer product development.",
+        "domain_expertise": "Strong background in oncology and healthcare strategy.",
+        "previous_startups": "No prior startups, but extensive experience in product development.",
+        "notable_achievements": "Successfully pivoted the company based on customer feedback.",
+        "leadership_signals": "Demonstrated leadership in building a cohesive team and strategic partnerships.",
+        "track_record": []
+      },
+      {
+        "name": "Caroline Knudsen",
+        "role": "Co-Founder & COO",
+        "linkedin": "https://www.linkedin.com/in/cnknudsen/",
+        "background": "MBA from HEC Paris with experience in healthcare operations.",
+        "domain_expertise": "Expertise in healthcare operations and oncology.",
+        "previous_startups": "No prior startups, but significant operational experience.",
+        "notable_achievements": "Instrumental in company incorporation and operational scaling.",
+        "leadership_signals": "Strong operational leadership and strategic planning skills.",
+        "track_record": []
+      },
+      {
+        "name": "Dr. Chasse Bailey-Dorton",
+        "role": "Co-Founder & Medical Director",
+        "linkedin": "https://www.linkedin.com/in/chasse-bailey-dorton-2325731a9/",
+        "background": "Former Head of Survivorship at Levine Cancer Institute.",
+        "domain_expertise": "Extensive clinical expertise in oncology and survivorship care.",
+        "previous_startups": "No prior startups, but deep clinical leadership experience.",
+        "notable_achievements": "Key contributor to clinical vision and strategic partnerships.",
+        "leadership_signals": "Strong clinical leadership and industry connections.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes tech-enabled services like OncoveryCare, which rely on in-house nurse teams.",
+      "competitor_comparison": "OncoveryCare's model is less scalable due to staffing constraints, while The After Cancer's platform approach offers scalability and empowers existing hospital teams.",
+      "positioning_assessment": "The After Cancer differentiates by providing a digital platform that enables hospitals to create their own programs, avoiding the need for additional staffing."
+    },
+    "red_flags": [
+      "Limited direct experience in selling to healthcare organizations."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The cancer survivorship ecosystem is a $285B annual market, with a growing population of 18.6M cancer survivors in the U.S. alone. The company's focus on healthcare organizations provides a clear path to capturing a significant portion of this market.",
+    "market_analysis": {
+      "total_addressable_market": "$285B annual market across stakeholders, including $91B from hospitals.",
+      "serviceable_addressable_market": "Initial focus on U.S. healthcare organizations, directly impacting patient retention and follow-up care revenues.",
+      "serviceable_obtainable_market": "Strong go-to-market strategy targeting healthcare organizations with scalable survivorship programs.",
+      "market_growth_rate": "The population of cancer survivors is growing at 10% annually, indicating strong market growth.",
+      "market_dynamics": "Key trends include rising cancer incidence, increasing demand for survivorship care, and healthcare system pressures."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Healthcare organizations, oncology stakeholders, and decision-makers in clinical and financial roles.",
+      "willingness_to_pay": "Evidence of willingness to pay through early traction and customer leads.",
+      "customer_acquisition_cost": "CAC analysis needed as the company scales its B2B2C model.",
+      "lifetime_value": "LTV projections based on annual subscription agreements and potential add-ons."
+    },
+    "red_flags": [
+      "Potential challenges in navigating complex healthcare sales cycles."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The platform's technical differentiation lies in its ability to empower healthcare organizations to create scalable survivorship programs. The use of real-world data and personalized care plans adds defensibility.",
+    "technical_assessment": {
+      "core_technology": "A digital platform that integrates clinical expertise with technology to deliver personalized care plans.",
+      "defensibility": "The platform's ability to integrate with existing hospital systems and provide scalable solutions offers a competitive moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but the platform's unique approach provides some defensibility.",
+      "scalability": "The platform is designed to be scalable, enabling organizations to launch their own programs without additional staffing."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Potential use of machine learning for personalized care plans.",
+      "data_advantages": "Real-world data integration provides a competitive advantage.",
+      "technical_barriers": "The platform's integration capabilities and scalability present barriers to entry for competitors."
+    },
+    "red_flags": [
+      "No specific mention of intellectual property or patents."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has demonstrated strong early traction with 304 MVP users, 5 closed customers, and a robust sales pipeline. The focus on B2B2C growth and strategic partnerships is promising.",
+    "growth_metrics": {
+      "revenue_growth": "Achieved average monthly revenue of $1k with MVP, with potential for significant growth as B2B2C model scales.",
+      "customer_metrics": "304 MVP users and 5 closed customers indicate early traction.",
+      "retention_analysis": "Retention metrics not detailed, but early customer interest is strong.",
+      "unit_economics": "Pricing structure updated for B2B2C model, with potential for strong unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early users and growing brand awareness.",
+      "product_market_fit": "Evidence of PMF through customer leads and interest from healthcare organizations.",
+      "notable_customers": "Notable early traction with healthcare organizations.",
+      "partnerships": "Strategic partnerships with oncology stakeholders and participation in ACS BrightEdge Project Health Cohort 2025."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Strong early traction and sales pipeline.",
+        "Participation in ACS BrightEdge Project Health Cohort 2025."
+      ],
+      "areas_of_investigation": [
+        "Detailed retention analysis and CAC/LTV metrics needed."
+      ]
+    },
+    "red_flags": [
+      "Complexity of healthcare sales cycles and potential challenges in scaling."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable with rising cancer incidence, increasing demand for survivorship care, and healthcare system pressures. The company's solution addresses a critical gap in the market.",
+    "market_timing": {
+      "market_readiness": "The market is ready for scalable survivorship solutions, with increasing awareness and demand.",
+      "catalysts": "Rising cancer incidence and survivorship rates are key catalysts.",
+      "tailwinds": "Favorable trends include healthcare system pressures and demand for cost-effective solutions.",
+      "headwinds": "Potential challenges include slow adoption of new care models by healthcare organizations."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "The company has a first-mover advantage in providing scalable digital survivorship solutions.",
+      "competitive_response": "Competitors may respond by enhancing their digital offerings, but the company's platform approach provides a defensible position.",
+      "market_education": "Some market education may be required, but increasing awareness of survivorship care is a positive trend."
+    },
+    "red_flags": [
+      "Potential slow adoption by healthcare organizations."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is not currently fundraising, but the previous raise of $330k from business angels and funds provides a foundation. The current runway is limited, indicating a need for additional funding soon.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising.",
+      "raise_amount": "Previous raise of $330k.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on healthcare innovation aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership as the company scales.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details not provided, but early traction and market potential are strong."
+    },
+    "red_flags": [
+      "Limited runway and need for additional funding soon."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "The After Cancer presents a compelling investment opportunity with strong market potential, a scalable business model, and a capable team. The company's focus on addressing a critical gap in cancer survivorship care aligns with SemperVirens' investment thesis.",
+    "key_factors": [
+      "Strong market potential and timing.",
+      "Scalable business model and early traction.",
+      "Capable and experienced team."
+    ],
+    "next_steps": [
+      "Engage in deeper due diligence on customer acquisition strategies and retention metrics.",
+      "Explore potential strategic partnerships and funding opportunities."
+    ]
+  }
+}
