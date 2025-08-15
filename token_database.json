@@ -656,10 +656,35 @@
       "company_name": "The After Cancer",
       "analysis_file": "theaftercancer_comprehensive_analysis.json",
       "analyzed_at": "2025-08-15T07:10:36.956479"
+    },
+    "q5pxbhklxmy5j8l3qg2vq5a49bye44xc": {
+      "company_name": "Stance Health",
+      "analysis_file": "stancehealth_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T12:02:25.191730"
+    },
+    "hfos7112c3h9bsbxj3hfoamdzm393plk": {
+      "company_name": "LUCY",
+      "analysis_file": "lucy_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T12:02:25.192882"
+    },
+    "6blz86ky0hnvh2wnb6blzzb26cv3vokm": {
+      "company_name": "Bivicare",
+      "analysis_file": "bivicare_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T12:02:25.192917"
+    },
+    "t5tnp2tk5odzt5tlyoqc20b05qgt5o27": {
+      "company_name": "ADELAB Inc.",
+      "analysis_file": "adelabinc_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T12:02:25.192943"
+    },
+    "jv6dwhzep74fe6ux2iide47ejv6dwhjv": {
+      "company_name": "Clausal AI",
+      "analysis_file": "clausalai_comprehensive_analysis.json",
+      "analyzed_at": "2025-08-15T12:02:25.192948"
     }
   },
-  "last_sync": "2025-08-15T07:10:36.956482",
-  "total_submissions": 118,
-  "analyzed_count": 118,
+  "last_sync": "2025-08-15T12:02:25.192975",
+  "total_submissions": 123,
+  "analyzed_count": 123,
   "unmatched_analyses": []
 }

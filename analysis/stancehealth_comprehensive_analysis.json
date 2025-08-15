@@ -1,0 +1,184 @@
+{
+  "company_name": "Stance Health",
+  "token": "q5pxbhklxmy5j8l3qg2vq5a49bye44xc",
+  "submitted_at": "8/15/2025 16:05:15",
+  "website": "https://www.mystance.co/",
+  "year_founded": "2024",
+  "description": "Stance Health is an AI-powered virtual therapy marketplace that delivers specialized psychotherapy to 67 million chronic pain sufferers. We provide clinically proven, non-drug behavioral health treatments to patients that can\u2019t access or afford care.",
+  "problem_statement": "Chronic pain drives $635B in annual costs, outpacing the combined costs of cancer and diabetes. It\u2019s the leading driver of opioid prescriptions, fueling a $1T opioid crisis. The gold-standard biopsychosocial model of care requires behavioral health intervention, but most physicians lack referral access to pain-specialized psychotherapists. Stance Health solves this by connecting chronic pain patients directly to licensed therapists trained in evidence-based chronic pain interventions - reducing costs, improving function, and preventing opioid dependence. This crisis claims lives daily. Families lose homes to bankruptcy from the cost of chronic pain care. Millions of Americans become dependent on opioids prescribed for pain. Without access to pain-specialized therapists, doctors are unable to deliver the gold-standard biopsychosocial model, leaving patients to suffer indefinitely, families devastated, and society bearing enormous financial and emotional costs.",
+  "pitch_deck_link": "https://docsend.com/view/yv2t6dykhndzvcbb",
+  "demo_link": "https://www.mystance.co/",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a personal connection to the problem, which enhances their commitment and understanding. Brad Baum and Adam Katzman have a history of collaboration and successful scaling experience, notably with SmileDirectClub. The team is complemented by advisors with significant industry experience.",
+    "company_assessment": {
+      "business_model_strength": "Stance Health's business model leverages a fee-based structure for providing infrastructure to therapists, with revenue from reimbursable teletherapy sessions and contracts with employers and payers. This model is scalable and aligns with industry trends.",
+      "market_positioning": "The company positions itself as a licensed-therapy-only platform, differentiating from competitors who use health coaches. This enhances trust and adoption among physicians and payers.",
+      "execution_capability": "The team has demonstrated execution capability by securing partnerships, onboarding therapists, and achieving significant MoM growth in key metrics.",
+      "strategic_vision": "The leadership has a clear strategic vision to transition from a directory model to a network model, enhancing control over service delivery and quality."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Brad Baum",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/baumbrad/",
+        "background": "Brad has a strong background in healthcare and technology, with personal ties to chronic pain issues.",
+        "domain_expertise": "Significant expertise in healthcare technology and chronic pain management.",
+        "previous_startups": "Experience with multiple projects and co-investments with Adam Katzman.",
+        "notable_achievements": "Co-founded Stance Health, leveraging personal and professional experience to address chronic pain.",
+        "leadership_signals": "Demonstrated leadership in building and scaling teams, with a focus on culture and mission alignment.",
+        "track_record": [
+          {
+            "company": "SmileDirectClub",
+            "role": "First Employee",
+            "outcome": "Scaled to $9B IPO",
+            "learnings": "Gained experience in telehealth and expanding access to care."
+          }
+        ]
+      },
+      {
+        "name": "Adam Katzman",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/adam-katzman4/",
+        "background": "Adam has a background in scaling healthcare companies, with a focus on telehealth.",
+        "domain_expertise": "Expertise in telehealth and healthcare operations.",
+        "previous_startups": "Significant experience in scaling healthcare startups.",
+        "notable_achievements": "Played a key role in SmileDirectClub's growth and IPO.",
+        "leadership_signals": "Strong leadership skills demonstrated through successful scaling and strategic partnerships.",
+        "track_record": [
+          {
+            "company": "SmileDirectClub",
+            "role": "Key Contributor",
+            "outcome": "Contributed to $9B IPO",
+            "learnings": "Learned about the importance of telehealth in expanding access to care."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes platforms like Lin Health, which use health coaches instead of licensed therapists.",
+      "competitor_comparison": "Stance Health differentiates by using licensed therapists, which enhances clinical authority and speeds adoption.",
+      "positioning_assessment": "The company is well-positioned to capture market share due to its focus on licensed therapy and direct physician referrals."
+    },
+    "red_flags": [
+      "Potential challenges in rapidly scaling therapist supply to meet demand."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The market for chronic pain management is substantial, with 67 million sufferers in the U.S. and $635B in annual costs. The company's focus on a significant pain point and its alignment with payer and employer needs supports a strong TAM assessment.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $635B annually, driven by chronic pain management costs.",
+      "serviceable_addressable_market": "SAM includes chronic pain sufferers who can access teletherapy services, with a focus on those referred by physicians.",
+      "serviceable_obtainable_market": "SOM is projected based on the company's ability to capture a significant share of physician referrals and employer contracts.",
+      "market_growth_rate": "The market is expected to grow due to increasing recognition of the need for non-drug interventions and new reimbursement codes.",
+      "market_dynamics": "Key trends include the opioid crisis, increasing healthcare costs, and a shift towards non-drug interventions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include chronic pain patients, physicians, self-insured employers, and commercial payers.",
+      "willingness_to_pay": "Evidence suggests strong willingness to pay among payers and employers seeking cost-saving solutions.",
+      "customer_acquisition_cost": "CAC is managed through direct physician referrals and strategic partnerships.",
+      "lifetime_value": "LTV is expected to be high due to recurring teletherapy sessions and long-term contracts with payers."
+    },
+    "red_flags": [
+      "Potential challenges in convincing payers and employers to adopt new models quickly."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology leverages AI to enhance therapy delivery and outcomes tracking, with a focus on scalability and defensibility through licensed therapist networks.",
+    "technical_assessment": {
+      "core_technology": "AI-powered virtual therapy platform with integrated EHR and administrative functionalities.",
+      "defensibility": "Defensibility is enhanced by the use of licensed therapists and partnerships with insurers.",
+      "intellectual_property": "No specific IP strategy mentioned, but the use of proprietary algorithms and data tracking is implied.",
+      "scalability": "The platform is designed to scale with increasing therapist and patient numbers."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Potential use of AI algorithms to match patients with therapists and track outcomes.",
+      "data_advantages": "Data tracking through partnerships like Veraband provides a competitive edge.",
+      "technical_barriers": "The use of licensed therapists and integration with insurer networks creates barriers to entry."
+    },
+    "red_flags": [
+      "Dependence on off-the-shelf technology for backend functions could limit differentiation."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Strong traction is evidenced by rapid growth in physician referrals, patient bookings, and strategic partnerships, indicating strong product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth is supported by increasing teletherapy sessions and partnerships.",
+      "customer_metrics": "475 patients referred, with significant MoM growth in referrals and bookings.",
+      "retention_analysis": "High retention expected due to ongoing therapy needs and payer contracts.",
+      "unit_economics": "Positive unit economics with a 40% fee structure and high-margin services."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from physicians and patients, with demonstrated outcomes.",
+      "product_market_fit": "Strong PMF indicated by rapid adoption and demand from physicians.",
+      "notable_customers": "Partnerships with major health systems and organizations like the Amputee Coalition.",
+      "partnerships": "Strategic partnerships with Veraband and Grow Therapy enhance market reach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Rapid growth in physician referrals and patient bookings.",
+        "Successful partnerships with major health systems."
+      ],
+      "areas_of_investigation": [
+        "Exploring B2B opportunities with self-insured employers and payers."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in scaling operations to meet growing demand."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable due to increasing awareness of the opioid crisis, new reimbursement codes, and a shift towards non-drug interventions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions addressing the opioid crisis and chronic pain management.",
+      "catalysts": "New ICD-11 classification and reimbursement codes drive adoption.",
+      "tailwinds": "Favorable trends include increasing healthcare costs and demand for non-drug interventions.",
+      "headwinds": "Potential regulatory challenges and slow payer adoption could pose obstacles."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into the licensed-therapy-only market provides a competitive edge.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but Stance Health's focus on licensed therapists provides a moat.",
+      "market_education": "Ongoing education efforts are needed to shift perceptions towards non-drug interventions."
+    },
+    "red_flags": [
+      "Regulatory changes could impact reimbursement and adoption rates."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "The investment terms align with SemperVirens' criteria, with a focus on scaling operations and expanding market reach.",
+    "investment_details": {
+      "round_stage": "Pre-Seed round, closing out with angel investors and venture funds.",
+      "raise_amount": "Specific raise amount not disclosed, but focused on scaling operations.",
+      "pre_money_valuation": "Valuation details not provided, but expected to align with market comparables.",
+      "post_money_valuation": "Post-money valuation implications not detailed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthcare innovation and scalable solutions.",
+      "ownership_potential": "Potential for significant ownership and influence in early-stage investment.",
+      "liquidation_preferences": "Standard preferences expected, but not detailed.",
+      "valuation_justification": "Valuation likely justified by strong traction and market potential."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and term specifics could pose risks."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Stance Health demonstrates strong alignment with SemperVirens' investment thesis, with significant market potential, strong traction, and a capable team. The company's focus on licensed therapy and strategic partnerships positions it well for growth.",
+    "key_factors": [
+      "Strong market potential and alignment with healthcare trends.",
+      "Demonstrated traction and strategic partnerships.",
+      "Capable and experienced founding team."
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence to assess operational scalability.",
+      "Explore strategic introductions to self-insured employers and payers.",
+      "Evaluate potential for board representation and influence."
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "company_name": "ADELAB Inc.",
+  "token": "t5tnp2tk5odzt5tlyoqc20b05qgt5o27",
+  "submitted_at": "8/15/2025 17:34:44",
+  "website": "https://bizcrush.ai/",
+  "year_founded": "2025",
+  "description": "Adelab builds BizCrush, an AI-powered In-Person Meeting Agent that records and summarizes offline conversations, drafts personalized follow-up emails, and syncs directly to CRMs like Salesforce and HubSpot\u2014transforming a 30-minute manual process into a 1-minute review to eliminate missed follow-ups and maximize revenue from real-world relationships.",
+  "problem_statement": "In-person meetings drive the most valuable deals, yet 80% of event leads are never followed up on and 70% of conversation details vanish within 24 hours. This leakage costs companies over $60K per rep annually. Existing CRMs and AI note takers focus on online interactions, leaving offline workflows broken. BizCrush captures every in-person conversation, generates instant personalized follow-up emails, and syncs them to CRMs\u2014ensuring no opportunity is lost.",
+  "pitch_deck_link": "https://featpaper.com/l/TPmcb7Me",
+  "demo_link": "https://www.youtube.com/watch?v=2S0_egxwvyw",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in AI and a proven track record of launching AI products. The CEO and CTO have previously co-founded an AI startup, demonstrating execution capability. The CGO has firsthand experience with the problem, adding valuable insight into the market need.",
+    "company_assessment": {
+      "business_model_strength": "BizCrush operates on a B2B SaaS subscription model, which is scalable and aligns with industry standards. The pricing strategy is competitive, with a clear path to revenue through subscriptions and enterprise contracts.",
+      "market_positioning": "The company positions itself uniquely by focusing on offline meeting automation, a gap not addressed by competitors. This differentiation is a strong competitive advantage.",
+      "execution_capability": "The team has demonstrated the ability to execute by launching an MVP and securing partnerships. Their structured approach to user feedback and product iteration is promising.",
+      "strategic_vision": "The leadership has a clear vision to expand into API partnerships and enterprise markets, showing strategic foresight."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Taemin Kwak",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/taem/",
+        "background": "Taemin has a background in AI product development and has co-founded a previous AI startup.",
+        "domain_expertise": "Strong expertise in AI and product commercialization.",
+        "previous_startups": "Co-founded an AI startup with successful product launches.",
+        "notable_achievements": "Launched multiple commercial AI products.",
+        "leadership_signals": "Demonstrated leadership in building and scaling teams.",
+        "track_record": [
+          {
+            "company": "Previous AI Startup",
+            "role": "Co-Founder",
+            "outcome": "Launched three AI products",
+            "learnings": "Gained experience in AI product development and market entry."
+          }
+        ]
+      },
+      {
+        "name": "Ethan Kim",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/jyk92/",
+        "background": "Ethan has extensive experience in AI technology development.",
+        "domain_expertise": "Expert in AI and software engineering.",
+        "previous_startups": "Co-founded an AI startup with Taemin.",
+        "notable_achievements": "Led development of multiple AI products.",
+        "leadership_signals": "Strong technical leadership and team management skills.",
+        "track_record": [
+          {
+            "company": "Previous AI Startup",
+            "role": "Co-Founder",
+            "outcome": "Successful product launches",
+            "learnings": "Technical execution and product-market fit strategies."
+          }
+        ]
+      },
+      {
+        "name": "Kelly Oh",
+        "role": "CGO",
+        "linkedin": "https://www.linkedin.com/in/kellyo2025/",
+        "background": "Kelly has a background in GTM strategies and has firsthand experience with the problem BizCrush addresses.",
+        "domain_expertise": "Expertise in go-to-market strategies and sales.",
+        "previous_startups": "N/A",
+        "notable_achievements": "Originated the BizCrush concept.",
+        "leadership_signals": "Strong network and community-building skills.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes online AI meeting assistants like Gong and Otter.ai, which focus on virtual environments.",
+      "competitor_comparison": "Competitors excel in online transcription but fail to address offline meetings, which is BizCrush's focus.",
+      "positioning_assessment": "BizCrush differentiates by offering offline-first AI meeting capture and CRM integration, addressing a significant market gap."
+    },
+    "red_flags": [
+      "Potential challenges in scaling the team and maintaining product differentiation as competitors evolve."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial, with a $15B+ opportunity in the U.S. SMB and mid-market segment alone. The company's focus on AI-driven offline sales automation is well-aligned with market trends.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is over $15B annually in the U.S. for AI-driven offline sales automation.",
+      "serviceable_addressable_market": "The SAM includes field sales teams in high-value B2B industries.",
+      "serviceable_obtainable_market": "The SOM is projected based on initial adoption in SMBs and expansion into larger enterprises.",
+      "market_growth_rate": "The market is projected to exceed $30B globally by 2028, driven by AI advancements.",
+      "market_dynamics": "Key trends include the shift towards AI-driven sales productivity and the need for offline workflow automation."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include field GTM professionals in industries like B2B SaaS, real estate, and consulting.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by the high cost of missed follow-ups and revenue leakage.",
+      "customer_acquisition_cost": "CAC strategies include leveraging individual champions and expanding to teams.",
+      "lifetime_value": "LTV is expected to be high due to the recurring subscription model and potential for enterprise contracts."
+    },
+    "red_flags": [
+      "Potential challenges in market education and adoption for offline-first solutions."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology is differentiated by its focus on offline meeting capture and CRM integration. The in-house development ensures control over the core technology.",
+    "technical_assessment": {
+      "core_technology": "The core technology includes AI-powered meeting capture and CRM synchronization.",
+      "defensibility": "The offline-first approach and CRM integration provide competitive moats.",
+      "intellectual_property": "No specific IP strategy mentioned, but in-house development suggests potential for IP protection.",
+      "scalability": "The technology is scalable, with plans for API partnerships and enterprise integration."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for offline meeting capture and email generation.",
+      "data_advantages": "Potential data advantages from CRM integration and meeting analytics.",
+      "technical_barriers": "Competitors may struggle to replicate the offline-first approach and CRM-native automation."
+    },
+    "red_flags": [
+      "Challenges in maintaining accuracy and consent in offline environments."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "The company has achieved early traction with 3,000+ installs and 463 MAU. However, it is pre-revenue, and the transition to paid users is a critical next step.",
+    "growth_metrics": {
+      "revenue_growth": "Pre-revenue, with plans to launch a paid tier in August 2025.",
+      "customer_metrics": "400 MAU and 3,000+ installs indicate early interest.",
+      "retention_analysis": "65% repeat usage suggests potential product-market fit.",
+      "unit_economics": "CAC and LTV not yet established due to pre-revenue status."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from early adopters and partnerships.",
+      "product_market_fit": "Early signs of PMF with repeat usage and committed early adopters.",
+      "notable_customers": "15 committed early adopters on the paid tier waitlist.",
+      "partnerships": "Partnerships with Seattle Partners and others to drive adoption."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Early traction with installs and partnerships."
+      ],
+      "areas_of_investigation": [
+        "Conversion of free users to paid subscribers."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status and need for rapid conversion to paid users."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to the growing demand for AI-driven sales productivity and the lack of solutions for offline workflows.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that automate offline sales processes.",
+      "catalysts": "Advancements in AI and CRM integration are driving adoption.",
+      "tailwinds": "Favorable trends in AI adoption and sales automation.",
+      "headwinds": "Potential challenges in changing established offline workflows."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "BizCrush has a first-mover advantage in offline meeting automation.",
+      "competitive_response": "Competitors may respond by expanding into offline solutions.",
+      "market_education": "Some market education is required to shift offline behaviors."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response as the market matures."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a target of $1.5M. The terms and valuation are not detailed, but alignment with SV's criteria is possible.",
+    "investment_details": {
+      "round_stage": "Pre-seed/Seed stage.",
+      "raise_amount": "$1.5M target raise.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative tech and market disruption.",
+      "ownership_potential": "Ownership potential depends on valuation and raise amount.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are needed for a comprehensive analysis."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "ADELAB Inc. presents a compelling opportunity with its unique focus on offline meeting automation, strong founding team, and early traction. The market timing is favorable, and the technology offers a clear competitive advantage. However, the company needs to demonstrate revenue generation and provide more detailed terms for investment consideration.",
+    "key_factors": [
+      "Unique market positioning",
+      "Strong founding team",
+      "Favorable market timing"
+    ],
+    "next_steps": [
+      "Engage in detailed discussions to understand valuation and terms",
+      "Monitor conversion of free users to paid subscribers",
+      "Evaluate potential for strategic partnerships and enterprise expansion"
+    ]
+  }
+}
