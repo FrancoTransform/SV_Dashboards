@@ -125,7 +125,7 @@ export default function FounderSuccessDashboard() {
               onMouseEnter={(e) => e.currentTarget.style.background = '#26c6da'}
               onMouseLeave={(e) => e.currentTarget.style.background = '#4dd0e1'}
             >
-              View Sample Data
+              View Data
             </a>
           </div>
         </div>

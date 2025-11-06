@@ -41,6 +41,18 @@ export default function PartnerROISampleDataPage() {
       </section>
 
       <main className="max-w-7xl mx-auto px-6 py-8 space-y-8">
+        {/* Data Source */}
+        <section className="rounded-lg shadow-lg p-6" style={{ background: '#3a4f63', borderLeft: '4px solid #4dd0e1' }}>
+          <h2 className="text-xl font-bold text-cyan-400 mb-3 uppercase tracking-wide">Data Source</h2>
+          <p className="text-gray-300 mb-2">
+            This data is derived from <span className="font-semibold text-white">GTM & Corp Dev Intros PY8.xlsx</span>, which tracks corporate partner engagement across the portfolio.
+          </p>
+          <p className="text-sm text-gray-400">
+            <span className="font-semibold">Real data:</span> Partner names (Unum, ADP, Cigna, Paychex, Prudential), intro counts, industry classification<br/>
+            <span className="font-semibold">Synthetic data:</span> Commercial value, ROI multiples, cost savings, innovation scores (for privacy)
+          </p>
+        </section>
+
         {/* Data Overview */}
         <section className="rounded-lg shadow-lg p-6" style={{ background: '#3a4f63' }}>
           <h2 className="text-xl font-bold text-cyan-400 mb-4 uppercase tracking-wide">Data Overview</h2>

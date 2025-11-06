@@ -81,14 +81,14 @@ export default function PortfolioTrendsDashboard() {
                 Analyzing sector performance and investment opportunities
               </p>
             </div>
-            <a 
-              href="/sample-data/portfolio-trends" 
+            <a
+              href="/sample-data/portfolio-trends"
               className="px-6 py-3 rounded-lg text-sm font-semibold transition-colors"
               style={{ background: '#4dd0e1', color: '#2d3e50' }}
               onMouseEnter={(e) => e.currentTarget.style.background = '#26c6da'}
               onMouseLeave={(e) => e.currentTarget.style.background = '#4dd0e1'}
             >
-              View Sample Data
+              View Data
             </a>
           </div>
         </div>

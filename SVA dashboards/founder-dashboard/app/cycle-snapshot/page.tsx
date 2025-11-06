@@ -67,14 +67,14 @@ export default function CycleSnapshotDashboard() {
                 Key stats and highlights for each cohort
               </p>
             </div>
-            <a 
-              href="/sample-data/cycle-snapshot" 
+            <a
+              href="/sample-data/cycle-snapshot"
               className="px-6 py-3 rounded-lg text-sm font-semibold transition-colors"
               style={{ background: '#4dd0e1', color: '#2d3e50' }}
               onMouseEnter={(e) => e.currentTarget.style.background = '#26c6da'}
               onMouseLeave={(e) => e.currentTarget.style.background = '#4dd0e1'}
             >
-              View Sample Data
+              View Data
             </a>
           </div>
         </div>

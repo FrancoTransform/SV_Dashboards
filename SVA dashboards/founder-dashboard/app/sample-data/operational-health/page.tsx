@@ -30,11 +30,29 @@ export default function OperationalHealthSampleData() {
           </p>
         </div>
 
+        {/* Data Source */}
+        <div style={{
+          background: '#3a4f63',
+          borderRadius: '12px',
+          padding: '30px',
+          marginBottom: '30px',
+          borderLeft: '4px solid #4dd0e1'
+        }}>
+          <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '15px', color: '#4dd0e1' }}>Data Source</h2>
+          <p style={{ color: '#ddd', marginBottom: '10px' }}>
+            This data represents operational metrics derived from program management systems and aggregated from <span style={{ fontWeight: 600, color: '#fff' }}>GTM & Corp Dev Intros PY8.xlsx</span>.
+          </p>
+          <p style={{ color: '#aaa', fontSize: '0.9rem' }}>
+            <span style={{ fontWeight: 600 }}>Real data:</span> Company counts per cycle, mentor hours, session counts<br/>
+            <span style={{ fontWeight: 600 }}>Synthetic data:</span> Budget figures, efficiency scores, ROI metrics (for privacy)
+          </p>
+        </div>
+
         {/* Data Overview */}
-        <div style={{ 
-          background: '#3a4f63', 
-          borderRadius: '12px', 
-          padding: '30px', 
+        <div style={{
+          background: '#3a4f63',
+          borderRadius: '12px',
+          padding: '30px',
           marginBottom: '30px',
           border: '1px solid #4a5f73'
         }}>
