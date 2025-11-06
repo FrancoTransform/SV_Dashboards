@@ -17,6 +17,11 @@ interface Application {
   traction: string;
   runway_months: string;
   submitted_at: string | null;
+  company_website: string;
+  pitch_deck: string;
+  demo_link: string;
+  founders: string;
+  team_size: string;
 }
 
 export default function ApplicationsSampleDataPage() {
@@ -52,13 +57,11 @@ export default function ApplicationsSampleDataPage() {
         <section className="rounded-lg shadow-lg p-6 mb-8" style={{ background: '#3a4f63', borderLeft: '4px solid #4dd0e1' }}>
           <h2 className="text-xl font-bold text-cyan-400 mb-3 uppercase tracking-wide">Data Source</h2>
           <p className="text-gray-300 mb-2">
-            This data is derived from two sources:<br/>
-            • <span className="font-semibold text-white">SVA Cohort 1 - Scoring.xlsx</span> - 8 companies from Cohort 1<br/>
-            • <span className="font-semibold text-white">SVA Applications.xlsx</span> - 125 applications from Cohort 2
+            This data is derived from <span className="font-semibold text-white">SVA Applications.xlsx</span> - "Raw Application Data" sheet, which contains 164 applications across 3 cohorts.
           </p>
           <p className="text-sm text-gray-400">
-            <span className="font-semibold">Real data:</span> Company names, application status, year founded, fundraising status, referral sources, application responses<br/>
-            <span className="font-semibold">Note:</span> All application data is real from actual submissions to the SemperVirens Accelerator program
+            <span className="font-semibold">Real data:</span> Company names, year founded, company descriptions, problem statements, founders, team size, website links, pitch decks, demo links<br/>
+            <span className="font-semibold">Cohort breakdown:</span> Cohort 1 (22 companies), Cohort 2 (127 companies), Cohort 3 (15 companies)
           </p>
         </section>
 
@@ -155,27 +158,37 @@ export default function ApplicationsSampleDataPage() {
                       </div>
                       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                         <div>
-                          <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Target Customer</h4>
-                          <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.target_customer}</p>
+                          <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Founders</h4>
+                          <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.founders || 'N/A'}</p>
                         </div>
                         <div>
-                          <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Market Size</h4>
-                          <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.market_size}</p>
+                          <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Team Size</h4>
+                          <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.team_size || 'N/A'}</p>
                         </div>
                       </div>
-                      <div>
-                        <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Traction (Last 6 Months)</h4>
-                        <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.traction}</p>
-                      </div>
-                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
-                        <div>
-                          <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Runway</h4>
-                          <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.runway_months}</p>
-                        </div>
-                        {app.submitted_at && (
+                      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '16px' }}>
+                        {app.company_website && (
                           <div>
-                            <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Submitted</h4>
-                            <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.submitted_at}</p>
+                            <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Website</h4>
+                            <a href={app.company_website} target="_blank" rel="noopener noreferrer" style={{ color: '#4dd0e1', textDecoration: 'none' }}>
+                              Visit Site →
+                            </a>
+                          </div>
+                        )}
+                        {app.pitch_deck && (
+                          <div>
+                            <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Pitch Deck</h4>
+                            <a href={app.pitch_deck} target="_blank" rel="noopener noreferrer" style={{ color: '#4dd0e1', textDecoration: 'none' }}>
+                              View Deck →
+                            </a>
+                          </div>
+                        )}
+                        {app.demo_link && (
+                          <div>
+                            <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Demo</h4>
+                            <a href={app.demo_link} target="_blank" rel="noopener noreferrer" style={{ color: '#4dd0e1', textDecoration: 'none' }}>
+                              Watch Demo →
+                            </a>
                           </div>
                         )}
                       </div>

@@ -19,6 +19,11 @@ interface Application {
   traction: string;
   runway_months: string;
   submitted_at: string | null;
+  company_website: string;
+  pitch_deck: string;
+  demo_link: string;
+  founders: string;
+  team_size: string;
 }
 
 export default function ApplicationsPage() {
@@ -145,6 +150,24 @@ export default function ApplicationsPage() {
               }}
             >
               Cohort 2
+            </button>
+            <button
+              onClick={() => setSelectedCohort('Cohort 3')}
+              style={{
+                padding: '12px 24px',
+                borderRadius: '8px 8px 0 0',
+                border: 'none',
+                background: selectedCohort === 'Cohort 3' ? '#4dd0e1' : 'transparent',
+                color: selectedCohort === 'Cohort 3' ? '#2d3e50' : '#fff',
+                fontWeight: 700,
+                fontSize: '1rem',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+              }}
+            >
+              Cohort 3
             </button>
           </div>
         </section>
@@ -290,25 +313,43 @@ export default function ApplicationsPage() {
                             </div>
                             <div>
                               <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Problem Statement</h4>
-                              <p style={{ color: '#b0bec5', margin: 0 }}>{app.problem_statement}</p>
+                              <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.problem_statement}</p>
                             </div>
                             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                               <div>
-                                <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Target Customer</h4>
-                                <p style={{ color: '#b0bec5', margin: 0 }}>{app.target_customer}</p>
+                                <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Founders</h4>
+                                <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.founders || 'N/A'}</p>
                               </div>
                               <div>
-                                <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Market Size</h4>
-                                <p style={{ color: '#b0bec5', margin: 0 }}>{app.market_size}</p>
+                                <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Team Size</h4>
+                                <p style={{ color: '#b0bec5', margin: 0, lineHeight: '1.6' }}>{app.team_size || 'N/A'}</p>
                               </div>
                             </div>
-                            <div>
-                              <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Traction (Last 6 Months)</h4>
-                              <p style={{ color: '#b0bec5', margin: 0 }}>{app.traction}</p>
-                            </div>
-                            <div>
-                              <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Runway</h4>
-                              <p style={{ color: '#b0bec5', margin: 0 }}>{app.runway_months}</p>
+                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '16px' }}>
+                              {app.company_website && (
+                                <div>
+                                  <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Website</h4>
+                                  <a href={app.company_website} target="_blank" rel="noopener noreferrer" style={{ color: '#4dd0e1', textDecoration: 'none' }}>
+                                    Visit Site →
+                                  </a>
+                                </div>
+                              )}
+                              {app.pitch_deck && (
+                                <div>
+                                  <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Pitch Deck</h4>
+                                  <a href={app.pitch_deck} target="_blank" rel="noopener noreferrer" style={{ color: '#4dd0e1', textDecoration: 'none' }}>
+                                    View Deck →
+                                  </a>
+                                </div>
+                              )}
+                              {app.demo_link && (
+                                <div>
+                                  <h4 style={{ color: '#4dd0e1', fontSize: '0.9rem', fontWeight: 700, marginBottom: '8px' }}>Demo</h4>
+                                  <a href={app.demo_link} target="_blank" rel="noopener noreferrer" style={{ color: '#4dd0e1', textDecoration: 'none' }}>
+                                    Watch Demo →
+                                  </a>
+                                </div>
+                              )}
                             </div>
                           </div>
                         </td>
