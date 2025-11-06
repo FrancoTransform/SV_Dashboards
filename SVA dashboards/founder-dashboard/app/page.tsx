@@ -107,6 +107,13 @@ export default function FounderSuccessDashboard() {
                 </a>
               </div>
             </div>
+            <a
+              href="/sample-data/founder-success"
+              className="px-6 py-3 rounded-lg text-sm font-semibold transition-colors"
+              style={{ background: '#4dd0e1', color: '#2d3e50' }}
+            >
+              View Data
+            </a>
           </nav>
         </div>
       </header>
@@ -114,25 +121,14 @@ export default function FounderSuccessDashboard() {
       {/* Hero Section */}
       <section className="py-12" style={{ background: '#3a4f63' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-cyan-400 text-sm font-medium mb-2">SemperVirens Venture Capital</p>
-              <h1 className="text-4xl font-bold text-white mb-2">
-                <span className="text-cyan-400">Founder Success Dashboard</span>
-              </h1>
-              <p className="text-xl text-gray-300">
-                Tracking accelerator performance and portfolio company growth
-              </p>
-            </div>
-            <a
-              href="/sample-data/founder-success"
-              className="px-6 py-3 rounded-lg text-sm font-semibold transition-colors"
-              style={{ background: '#4dd0e1', color: '#2d3e50' }}
-              onMouseEnter={(e) => e.currentTarget.style.background = '#26c6da'}
-              onMouseLeave={(e) => e.currentTarget.style.background = '#4dd0e1'}
-            >
-              View Data
-            </a>
+          <div>
+            <p className="text-cyan-400 text-sm font-medium mb-2">SemperVirens Venture Capital</p>
+            <h1 className="text-4xl font-bold text-white mb-2">
+              <span className="text-cyan-400">Founder Success Dashboard</span>
+            </h1>
+            <p className="text-xl text-gray-300">
+              Tracking accelerator performance and portfolio company growth
+            </p>
           </div>
         </div>
       </section>

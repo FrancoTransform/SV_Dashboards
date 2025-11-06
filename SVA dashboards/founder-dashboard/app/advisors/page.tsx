@@ -136,6 +136,13 @@ export default function AdvisorsPage() {
                 </a>
               </div>
             </div>
+            <a
+              href="/sample-data/advisors"
+              className="px-6 py-3 rounded-lg text-sm font-semibold transition-colors"
+              style={{ background: '#4dd0e1', color: '#2d3e50' }}
+            >
+              View Data
+            </a>
           </nav>
         </div>
       </header>
@@ -237,27 +244,6 @@ export default function AdvisorsPage() {
             <div style={{ fontSize: '0.85rem', color: '#b0bec5', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>Female Advisors</div>
             <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#4dd0e1' }}>{kpis.femaleAdvisors}</div>
           </div>
-        </div>
-
-        {/* View Sample Data Button */}
-        <div style={{ marginBottom: '30px', textAlign: 'center' }}>
-          <Link
-            href="/sample-data/advisors"
-            style={{
-              display: 'inline-block',
-              background: '#4dd0e1',
-              color: '#2d3e50',
-              padding: '12px 32px',
-              borderRadius: '8px',
-              fontWeight: 700,
-              textDecoration: 'none',
-              textTransform: 'uppercase',
-              letterSpacing: '1px',
-              fontSize: '0.9rem',
-            }}
-          >
-            View Sample Data
-          </Link>
         </div>
 
         {/* Advisors Table */}
