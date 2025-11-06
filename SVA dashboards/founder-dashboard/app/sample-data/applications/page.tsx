@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 interface Application {
   application_uid: string;
   company_name: string;
+  cohort: string;
   application_status: string;
   year_founded: number | null;
   currently_fundraising: boolean;
@@ -22,11 +23,11 @@ export default function ApplicationsSampleDataPage() {
   const [data] = useState<Application[]>(require('../../../public/mart_applications.json'));
   const [expandedCard, setExpandedCard] = useState<string | null>(null);
 
-  // Group by status
+  // Group by cohort
   const groupedData = data.reduce((acc, app) => {
-    const status = app.application_status;
-    if (!acc[status]) acc[status] = [];
-    acc[status].push(app);
+    const cohort = app.cohort;
+    if (!acc[cohort]) acc[cohort] = [];
+    acc[cohort].push(app);
     return acc;
   }, {} as { [key: string]: Application[] });
 
@@ -51,7 +52,9 @@ export default function ApplicationsSampleDataPage() {
         <section className="rounded-lg shadow-lg p-6 mb-8" style={{ background: '#3a4f63', borderLeft: '4px solid #4dd0e1' }}>
           <h2 className="text-xl font-bold text-cyan-400 mb-3 uppercase tracking-wide">Data Source</h2>
           <p className="text-gray-300 mb-2">
-            This data is derived from <span className="font-semibold text-white">SVA Applications.xlsx</span> - "Cohort 2 Status" sheet, which contains 125 complete application records.
+            This data is derived from two sources:<br/>
+            • <span className="font-semibold text-white">SVA Cohort 1 - Scoring.xlsx</span> - 8 companies from Cohort 1<br/>
+            • <span className="font-semibold text-white">SVA Applications.xlsx</span> - 125 applications from Cohort 2
           </p>
           <p className="text-sm text-gray-400">
             <span className="font-semibold">Real data:</span> Company names, application status, year founded, fundraising status, referral sources, application responses<br/>
@@ -68,7 +71,7 @@ export default function ApplicationsSampleDataPage() {
             </div>
             <div style={{ background: '#3a4f63', borderRadius: '12px', padding: '20px', boxShadow: '0 2px 12px rgba(0,0,0,0.3)' }}>
               <div style={{ fontSize: '2rem', fontWeight: 800, color: '#4dd0e1' }}>{Object.keys(groupedData).length}</div>
-              <div style={{ fontSize: '0.9rem', color: '#b0bec5', marginTop: '8px' }}>Application Statuses</div>
+              <div style={{ fontSize: '0.9rem', color: '#b0bec5', marginTop: '8px' }}>Cohorts</div>
             </div>
             <div style={{ background: '#3a4f63', borderRadius: '12px', padding: '20px', boxShadow: '0 2px 12px rgba(0,0,0,0.3)' }}>
               <div style={{ fontSize: '2rem', fontWeight: 800, color: '#4dd0e1' }}>
@@ -85,11 +88,11 @@ export default function ApplicationsSampleDataPage() {
           </div>
         </section>
 
-        {/* Applications by Status */}
-        {Object.entries(groupedData).map(([status, apps]) => (
-          <section key={status} style={{ marginBottom: '40px' }}>
+        {/* Applications by Cohort */}
+        {Object.entries(groupedData).sort((a, b) => a[0].localeCompare(b[0])).map(([cohort, apps]) => (
+          <section key={cohort} style={{ marginBottom: '40px' }}>
             <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '20px', color: '#4dd0e1', textTransform: 'uppercase', letterSpacing: '1px' }}>
-              {status} ({apps.length})
+              {cohort} ({apps.length} Applications)
             </h2>
             <div style={{ display: 'grid', gap: '16px' }}>
               {apps.map((app) => (

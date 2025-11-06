@@ -7,6 +7,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 interface Application {
   application_uid: string;
   company_name: string;
+  cohort: string;
   application_status: string;
   year_founded: number | null;
   currently_fundraising: boolean;
@@ -22,13 +23,13 @@ interface Application {
 
 export default function ApplicationsPage() {
   const [data] = useState<Application[]>(require('../../public/mart_applications.json'));
-  const [statusFilter, setStatusFilter] = useState<string[]>(['PASSED', 'PENDING', 'REJECTED']);
+  const [selectedCohort, setSelectedCohort] = useState<string>('Cohort 1');
   const [expandedRow, setExpandedRow] = useState<string | null>(null);
 
-  // Filter data
+  // Filter data by cohort
   const filteredData = useMemo(() => {
-    return data.filter(app => statusFilter.includes(app.application_status));
-  }, [data, statusFilter]);
+    return data.filter(app => app.cohort === selectedCohort);
+  }, [data, selectedCohort]);
 
   // Calculate KPIs
   const kpis = useMemo(() => {
@@ -82,9 +83,6 @@ export default function ApplicationsPage() {
 
   const COLORS = ['#4dd0e1', '#c084fc'];
 
-  // Status filter options
-  const statusOptions = ['PASSED', 'PENDING', 'REJECTED'];
-
   return (
     <div style={{ background: '#2d3e50', minHeight: '100vh', color: '#fff' }}>
       {/* Header */}
@@ -109,47 +107,79 @@ export default function ApplicationsPage() {
 
       {/* Main Content */}
       <main style={{ maxWidth: '1400px', margin: '0 auto', padding: '40px' }}>
-        {/* Filters */}
+        {/* Cohort Tabs */}
         <section style={{ marginBottom: '32px' }}>
-          <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '12px', color: '#4dd0e1', textTransform: 'uppercase', letterSpacing: '1px' }}>
-            Filter by Status
-          </h3>
-          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-            {statusOptions.map(status => (
-              <button
-                key={status}
-                onClick={() => {
-                  if (statusFilter.includes(status)) {
-                    setStatusFilter(statusFilter.filter(s => s !== status));
-                  } else {
-                    setStatusFilter([...statusFilter, status]);
-                  }
-                }}
-                style={{
-                  padding: '8px 16px',
-                  borderRadius: '6px',
-                  border: '2px solid #4a5f73',
-                  background: statusFilter.includes(status) ? '#4dd0e1' : 'transparent',
-                  color: statusFilter.includes(status) ? '#2d3e50' : '#fff',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  transition: 'all 0.2s',
-                }}
-              >
-                {status}
-              </button>
-            ))}
+          <div style={{ display: 'flex', gap: '12px', borderBottom: '2px solid #4a5f73', paddingBottom: '0' }}>
+            <button
+              onClick={() => setSelectedCohort('Cohort 1')}
+              style={{
+                padding: '12px 24px',
+                borderRadius: '8px 8px 0 0',
+                border: 'none',
+                background: selectedCohort === 'Cohort 1' ? '#4dd0e1' : 'transparent',
+                color: selectedCohort === 'Cohort 1' ? '#2d3e50' : '#fff',
+                fontWeight: 700,
+                fontSize: '1rem',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+              }}
+            >
+              Cohort 1
+            </button>
+            <button
+              onClick={() => setSelectedCohort('Cohort 2')}
+              style={{
+                padding: '12px 24px',
+                borderRadius: '8px 8px 0 0',
+                border: 'none',
+                background: selectedCohort === 'Cohort 2' ? '#4dd0e1' : 'transparent',
+                color: selectedCohort === 'Cohort 2' ? '#2d3e50' : '#fff',
+                fontWeight: 700,
+                fontSize: '1rem',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+              }}
+            >
+              Cohort 2
+            </button>
           </div>
         </section>
 
         {/* KPI Tiles */}
-        <section style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '40px' }}>
-          <KPITile label="Total Applications" value={kpis.totalApplications.toString()} />
-          <KPITile label="Applications Passed" value={kpis.applicationsPassed.toString()} />
-          <KPITile label="Acceptance Rate" value={`${kpis.acceptanceRate.toFixed(1)}%`} />
-          <KPITile label="Currently Fundraising" value={kpis.currentlyFundraising.toString()} />
-          <KPITile label="Fundraising Rate" value={`${kpis.fundraisingRate.toFixed(1)}%`} />
-          <KPITile label="Avg Company Age" value={`${kpis.avgCompanyAge} years`} />
+        <section style={{ marginBottom: '40px' }}>
+          <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '20px', color: '#4dd0e1', textTransform: 'uppercase', letterSpacing: '1px' }}>
+            {selectedCohort} Overview
+          </h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px' }}>
+            <div style={{ background: '#3a4f63', borderRadius: '12px', padding: '20px', boxShadow: '0 2px 12px rgba(0,0,0,0.3)' }}>
+              <div style={{ fontSize: '0.85rem', color: '#b0bec5', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>Total Applications</div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#4dd0e1' }}>{kpis.totalApplications}</div>
+            </div>
+            <div style={{ background: '#3a4f63', borderRadius: '12px', padding: '20px', boxShadow: '0 2px 12px rgba(0,0,0,0.3)' }}>
+              <div style={{ fontSize: '0.85rem', color: '#b0bec5', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>Applications Passed</div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#4dd0e1' }}>{kpis.applicationsPassed}</div>
+            </div>
+            <div style={{ background: '#3a4f63', borderRadius: '12px', padding: '20px', boxShadow: '0 2px 12px rgba(0,0,0,0.3)' }}>
+              <div style={{ fontSize: '0.85rem', color: '#b0bec5', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>Acceptance Rate</div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#4dd0e1' }}>{kpis.acceptanceRate.toFixed(1)}%</div>
+            </div>
+            <div style={{ background: '#3a4f63', borderRadius: '12px', padding: '20px', boxShadow: '0 2px 12px rgba(0,0,0,0.3)' }}>
+              <div style={{ fontSize: '0.85rem', color: '#b0bec5', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>Currently Fundraising</div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#4dd0e1' }}>{kpis.currentlyFundraising}</div>
+            </div>
+            <div style={{ background: '#3a4f63', borderRadius: '12px', padding: '20px', boxShadow: '0 2px 12px rgba(0,0,0,0.3)' }}>
+              <div style={{ fontSize: '0.85rem', color: '#b0bec5', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>Fundraising Rate</div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#4dd0e1' }}>{kpis.fundraisingRate.toFixed(1)}%</div>
+            </div>
+            <div style={{ background: '#3a4f63', borderRadius: '12px', padding: '20px', boxShadow: '0 2px 12px rgba(0,0,0,0.3)' }}>
+              <div style={{ fontSize: '0.85rem', color: '#b0bec5', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>Avg Company Age</div>
+              <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#4dd0e1' }}>{isNaN(kpis.avgCompanyAge) ? 'N/A' : `${kpis.avgCompanyAge} yrs`}</div>
+            </div>
+          </div>
         </section>
 
         {/* Charts */}

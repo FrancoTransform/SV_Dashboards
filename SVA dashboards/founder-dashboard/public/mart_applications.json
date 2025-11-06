@@ -1,7 +1,136 @@
 [
   {
-    "application_uid": "APP-000",
+    "application_uid": "APP-C1-000",
+    "company_name": "Borderless",
+    "cohort": "Cohort 1",
+    "application_status": "PASSED",
+    "year_founded": null,
+    "currently_fundraising": false,
+    "referral_source": "Unknown",
+    "company_description": "",
+    "problem_statement": "",
+    "target_customer": "",
+    "market_size": "",
+    "traction": "",
+    "runway_months": "",
+    "submitted_at": null
+  },
+  {
+    "application_uid": "APP-C1-001",
+    "company_name": "Kept",
+    "cohort": "Cohort 1",
+    "application_status": "PASSED",
+    "year_founded": null,
+    "currently_fundraising": false,
+    "referral_source": "Unknown",
+    "company_description": "",
+    "problem_statement": "",
+    "target_customer": "",
+    "market_size": "",
+    "traction": "",
+    "runway_months": "",
+    "submitted_at": null
+  },
+  {
+    "application_uid": "APP-C1-002",
+    "company_name": "Sunny Health",
+    "cohort": "Cohort 1",
+    "application_status": "PASSED",
+    "year_founded": null,
+    "currently_fundraising": false,
+    "referral_source": "Unknown",
+    "company_description": "",
+    "problem_statement": "",
+    "target_customer": "",
+    "market_size": "",
+    "traction": "",
+    "runway_months": "",
+    "submitted_at": null
+  },
+  {
+    "application_uid": "APP-C1-003",
+    "company_name": "Clasp",
+    "cohort": "Cohort 1",
+    "application_status": "PASSED",
+    "year_founded": null,
+    "currently_fundraising": false,
+    "referral_source": "Unknown",
+    "company_description": "",
+    "problem_statement": "",
+    "target_customer": "",
+    "market_size": "",
+    "traction": "",
+    "runway_months": "",
+    "submitted_at": null
+  },
+  {
+    "application_uid": "APP-C1-004",
+    "company_name": "Defiant",
+    "cohort": "Cohort 1",
+    "application_status": "PASSED",
+    "year_founded": null,
+    "currently_fundraising": false,
+    "referral_source": "Unknown",
+    "company_description": "",
+    "problem_statement": "",
+    "target_customer": "",
+    "market_size": "",
+    "traction": "",
+    "runway_months": "",
+    "submitted_at": null
+  },
+  {
+    "application_uid": "APP-C1-005",
+    "company_name": "Outro",
+    "cohort": "Cohort 1",
+    "application_status": "PASSED",
+    "year_founded": null,
+    "currently_fundraising": false,
+    "referral_source": "Unknown",
+    "company_description": "",
+    "problem_statement": "",
+    "target_customer": "",
+    "market_size": "",
+    "traction": "",
+    "runway_months": "",
+    "submitted_at": null
+  },
+  {
+    "application_uid": "APP-C1-006",
+    "company_name": "Volta",
+    "cohort": "Cohort 1",
+    "application_status": "PASSED",
+    "year_founded": null,
+    "currently_fundraising": false,
+    "referral_source": "Unknown",
+    "company_description": "",
+    "problem_statement": "",
+    "target_customer": "",
+    "market_size": "",
+    "traction": "",
+    "runway_months": "",
+    "submitted_at": null
+  },
+  {
+    "application_uid": "APP-C1-007",
+    "company_name": "Lockwell",
+    "cohort": "Cohort 1",
+    "application_status": "PASSED",
+    "year_founded": null,
+    "currently_fundraising": false,
+    "referral_source": "Unknown",
+    "company_description": "",
+    "problem_statement": "",
+    "target_customer": "",
+    "market_size": "",
+    "traction": "",
+    "runway_months": "",
+    "submitted_at": null
+  },
+  {
+    "application_uid": "APP-C2-000",
     "company_name": "ADELAB Inc.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -15,8 +144,9 @@
     "submitted_at": "2025-08-15 17:34:44"
   },
   {
-    "application_uid": "APP-001",
+    "application_uid": "APP-C2-001",
     "company_name": "Agave Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": false,
@@ -30,8 +160,9 @@
     "submitted_at": "2025-07-10 04:36:21"
   },
   {
-    "application_uid": "APP-002",
+    "application_uid": "APP-C2-002",
     "company_name": "Aioma",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -45,8 +176,9 @@
     "submitted_at": "2025-08-11 02:01:19"
   },
   {
-    "application_uid": "APP-003",
+    "application_uid": "APP-C2-003",
     "company_name": "All Good",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -60,8 +192,9 @@
     "submitted_at": "2025-08-16 04:03:18"
   },
   {
-    "application_uid": "APP-004",
+    "application_uid": "APP-C2-004",
     "company_name": "Andel Co-op, inc.",
+    "cohort": "Cohort 2",
     "application_status": "SELECTED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -75,8 +208,9 @@
     "submitted_at": "2025-08-10 17:53:58"
   },
   {
-    "application_uid": "APP-005",
+    "application_uid": "APP-C2-005",
     "company_name": "Architect Health",
+    "cohort": "Cohort 2",
     "application_status": "FINALIST",
     "year_founded": 2023,
     "currently_fundraising": false,
@@ -90,8 +224,9 @@
     "submitted_at": "2025-08-13 22:50:00"
   },
   {
-    "application_uid": "APP-006",
+    "application_uid": "APP-C2-006",
     "company_name": "Armadillo Home Solutions, Inc",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": false,
@@ -105,8 +240,9 @@
     "submitted_at": "2025-08-16 15:15:02"
   },
   {
-    "application_uid": "APP-007",
+    "application_uid": "APP-C2-007",
     "company_name": "Aster",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -120,8 +256,9 @@
     "submitted_at": "2025-08-14 17:55:54"
   },
   {
-    "application_uid": "APP-008",
+    "application_uid": "APP-C2-008",
     "company_name": "Atlas Games",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -135,8 +272,9 @@
     "submitted_at": "2025-08-04 15:57:21"
   },
   {
-    "application_uid": "APP-009",
+    "application_uid": "APP-C2-009",
     "company_name": "Audria",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -150,8 +288,9 @@
     "submitted_at": "2025-06-19 22:39:49"
   },
   {
-    "application_uid": "APP-010",
+    "application_uid": "APP-C2-010",
     "company_name": "Axima AI",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -165,8 +304,9 @@
     "submitted_at": "2025-07-08 01:56:17"
   },
   {
-    "application_uid": "APP-011",
+    "application_uid": "APP-C2-011",
     "company_name": "Beacon",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": false,
@@ -180,8 +320,9 @@
     "submitted_at": null
   },
   {
-    "application_uid": "APP-012",
+    "application_uid": "APP-C2-012",
     "company_name": "Beaming Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": false,
@@ -195,8 +336,9 @@
     "submitted_at": "2025-08-16 12:48:38"
   },
   {
-    "application_uid": "APP-013",
+    "application_uid": "APP-C2-013",
     "company_name": "Beginly, Inc.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -210,8 +352,9 @@
     "submitted_at": "2025-08-15 20:28:47"
   },
   {
-    "application_uid": "APP-014",
+    "application_uid": "APP-C2-014",
     "company_name": "BenOsphere",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": false,
@@ -225,8 +368,9 @@
     "submitted_at": "2025-08-15 19:14:57"
   },
   {
-    "application_uid": "APP-015",
+    "application_uid": "APP-C2-015",
     "company_name": "BeSound",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": false,
@@ -240,8 +384,9 @@
     "submitted_at": "2025-07-31 23:50:26"
   },
   {
-    "application_uid": "APP-016",
+    "application_uid": "APP-C2-016",
     "company_name": "BetterYou",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2018,
     "currently_fundraising": false,
@@ -255,8 +400,9 @@
     "submitted_at": "2025-06-05 13:28:07"
   },
   {
-    "application_uid": "APP-017",
+    "application_uid": "APP-C2-017",
     "company_name": "BillCare",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -270,8 +416,9 @@
     "submitted_at": "2025-08-15 22:15:27"
   },
   {
-    "application_uid": "APP-018",
+    "application_uid": "APP-C2-018",
     "company_name": "Bivicare",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": false,
@@ -285,8 +432,9 @@
     "submitted_at": "2025-08-15 17:30:03"
   },
   {
-    "application_uid": "APP-019",
+    "application_uid": "APP-C2-019",
     "company_name": "Blank Slate Technologies",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2019,
     "currently_fundraising": true,
@@ -300,8 +448,9 @@
     "submitted_at": "2025-05-23 14:08:10"
   },
   {
-    "application_uid": "APP-020",
+    "application_uid": "APP-C2-020",
     "company_name": "Bloom",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -315,8 +464,9 @@
     "submitted_at": "2025-07-31 12:14:22"
   },
   {
-    "application_uid": "APP-021",
+    "application_uid": "APP-C2-021",
     "company_name": "Bluespine",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": false,
@@ -330,8 +480,9 @@
     "submitted_at": "2025-08-07 10:46:21"
   },
   {
-    "application_uid": "APP-022",
+    "application_uid": "APP-C2-022",
     "company_name": "Bogaisa Pty Ltd",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -345,8 +496,9 @@
     "submitted_at": "2025-06-13 08:07:13"
   },
   {
-    "application_uid": "APP-023",
+    "application_uid": "APP-C2-023",
     "company_name": "Brailleo",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": false,
@@ -360,8 +512,9 @@
     "submitted_at": "2025-08-18 05:17:03"
   },
   {
-    "application_uid": "APP-024",
+    "application_uid": "APP-C2-024",
     "company_name": "Branca.ai",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": false,
@@ -375,8 +528,9 @@
     "submitted_at": "2025-07-30 04:18:51"
   },
   {
-    "application_uid": "APP-025",
+    "application_uid": "APP-C2-025",
     "company_name": "Care Hero",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -390,8 +544,9 @@
     "submitted_at": "2025-08-14 22:04:48"
   },
   {
-    "application_uid": "APP-026",
+    "application_uid": "APP-C2-026",
     "company_name": "Carefam",
+    "cohort": "Cohort 2",
     "application_status": "SELECTED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -405,8 +560,9 @@
     "submitted_at": "2025-08-11 07:21:16"
   },
   {
-    "application_uid": "APP-027",
+    "application_uid": "APP-C2-027",
     "company_name": "chainstaff",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -420,8 +576,9 @@
     "submitted_at": "2025-06-03 08:44:10"
   },
   {
-    "application_uid": "APP-028",
+    "application_uid": "APP-C2-028",
     "company_name": "Cherrygiving",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -435,8 +592,9 @@
     "submitted_at": "2025-07-23 18:27:28"
   },
   {
-    "application_uid": "APP-029",
+    "application_uid": "APP-C2-029",
     "company_name": "Clausal AI",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -450,8 +608,9 @@
     "submitted_at": "2025-08-15 18:41:08"
   },
   {
-    "application_uid": "APP-030",
+    "application_uid": "APP-C2-030",
     "company_name": "Cognitiveview",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -465,8 +624,9 @@
     "submitted_at": "2025-08-03 07:31:08"
   },
   {
-    "application_uid": "APP-031",
+    "application_uid": "APP-C2-031",
     "company_name": "Cora",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -480,8 +640,9 @@
     "submitted_at": "2025-08-13 13:39:20"
   },
   {
-    "application_uid": "APP-032",
+    "application_uid": "APP-C2-032",
     "company_name": "Counter Fin",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -495,8 +656,9 @@
     "submitted_at": "2025-07-10 02:52:33"
   },
   {
-    "application_uid": "APP-033",
+    "application_uid": "APP-C2-033",
     "company_name": "CryptoMate",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": true,
@@ -510,8 +672,9 @@
     "submitted_at": "2025-06-03 10:51:38"
   },
   {
-    "application_uid": "APP-034",
+    "application_uid": "APP-C2-034",
     "company_name": "Deep Care",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2020,
     "currently_fundraising": false,
@@ -525,8 +688,9 @@
     "submitted_at": "2025-06-19 11:09:12"
   },
   {
-    "application_uid": "APP-035",
+    "application_uid": "APP-C2-035",
     "company_name": "DIYNation.ai",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -540,8 +704,9 @@
     "submitted_at": "2025-07-26 17:23:08"
   },
   {
-    "application_uid": "APP-036",
+    "application_uid": "APP-C2-036",
     "company_name": "Emma",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -555,8 +720,9 @@
     "submitted_at": "2025-08-20 13:40:57"
   },
   {
-    "application_uid": "APP-037",
+    "application_uid": "APP-C2-037",
     "company_name": "Enthea",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -570,8 +736,9 @@
     "submitted_at": "2025-08-16 02:24:51"
   },
   {
-    "application_uid": "APP-038",
+    "application_uid": "APP-C2-038",
     "company_name": "EQ Community Inc.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -585,8 +752,9 @@
     "submitted_at": "2025-08-15 23:21:32"
   },
   {
-    "application_uid": "APP-039",
+    "application_uid": "APP-C2-039",
     "company_name": "Equal Teaching, Inc.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -600,8 +768,9 @@
     "submitted_at": "2025-08-16 03:45:36"
   },
   {
-    "application_uid": "APP-040",
+    "application_uid": "APP-C2-040",
     "company_name": "Factos Capital",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -615,8 +784,9 @@
     "submitted_at": "2025-07-28 17:42:14"
   },
   {
-    "application_uid": "APP-041",
+    "application_uid": "APP-C2-041",
     "company_name": "Fift Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -630,8 +800,9 @@
     "submitted_at": "2025-07-10 13:20:25"
   },
   {
-    "application_uid": "APP-042",
+    "application_uid": "APP-C2-042",
     "company_name": "Firepit Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -645,8 +816,9 @@
     "submitted_at": "2025-07-11 07:07:50"
   },
   {
-    "application_uid": "APP-043",
+    "application_uid": "APP-C2-043",
     "company_name": "FORA",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": false,
@@ -660,8 +832,9 @@
     "submitted_at": "2025-08-16 04:54:33"
   },
   {
-    "application_uid": "APP-044",
+    "application_uid": "APP-C2-044",
     "company_name": "Funli MB",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -675,8 +848,9 @@
     "submitted_at": "2025-08-05 12:32:52"
   },
   {
-    "application_uid": "APP-045",
+    "application_uid": "APP-C2-045",
     "company_name": "GigEasy",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -690,8 +864,9 @@
     "submitted_at": "2025-07-18 01:10:01"
   },
   {
-    "application_uid": "APP-046",
+    "application_uid": "APP-C2-046",
     "company_name": "GigHQ.ai",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -705,8 +880,9 @@
     "submitted_at": "2025-07-21 22:27:47"
   },
   {
-    "application_uid": "APP-047",
+    "application_uid": "APP-C2-047",
     "company_name": "Ginni One",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -720,8 +896,9 @@
     "submitted_at": "2025-08-09 01:11:28"
   },
   {
-    "application_uid": "APP-048",
+    "application_uid": "APP-C2-048",
     "company_name": "Graphio.ai",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -735,8 +912,9 @@
     "submitted_at": "2025-06-03 16:11:54"
   },
   {
-    "application_uid": "APP-049",
+    "application_uid": "APP-C2-049",
     "company_name": "Hadley",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2020,
     "currently_fundraising": true,
@@ -750,8 +928,9 @@
     "submitted_at": "2025-08-15 04:41:20"
   },
   {
-    "application_uid": "APP-050",
+    "application_uid": "APP-C2-050",
     "company_name": "Harness Care",
+    "cohort": "Cohort 2",
     "application_status": "FINALIST",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -765,8 +944,9 @@
     "submitted_at": "2025-08-12 18:09:53"
   },
   {
-    "application_uid": "APP-051",
+    "application_uid": "APP-C2-051",
     "company_name": "Heartful Sprout",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -780,8 +960,9 @@
     "submitted_at": "2025-08-07 21:43:46"
   },
   {
-    "application_uid": "APP-052",
+    "application_uid": "APP-C2-052",
     "company_name": "Hello Divorce",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2018,
     "currently_fundraising": true,
@@ -795,8 +976,9 @@
     "submitted_at": "2025-08-13 23:11:29"
   },
   {
-    "application_uid": "APP-053",
+    "application_uid": "APP-C2-053",
     "company_name": "Hera",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -810,8 +992,9 @@
     "submitted_at": "2025-08-14 08:53:26"
   },
   {
-    "application_uid": "APP-054",
+    "application_uid": "APP-C2-054",
     "company_name": "Herd Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -825,8 +1008,9 @@
     "submitted_at": "2025-06-05 02:07:19"
   },
   {
-    "application_uid": "APP-055",
+    "application_uid": "APP-C2-055",
     "company_name": "iCleanMedX",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -840,8 +1024,9 @@
     "submitted_at": "2025-08-15 23:40:24"
   },
   {
-    "application_uid": "APP-056",
+    "application_uid": "APP-C2-056",
     "company_name": "iCommute",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -855,8 +1040,9 @@
     "submitted_at": "2025-07-22 22:14:28"
   },
   {
-    "application_uid": "APP-057",
+    "application_uid": "APP-C2-057",
     "company_name": "Immersed Games",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2015,
     "currently_fundraising": true,
@@ -870,8 +1056,9 @@
     "submitted_at": "2025-08-16 19:49:17"
   },
   {
-    "application_uid": "APP-058",
+    "application_uid": "APP-C2-058",
     "company_name": "Inclusive.io Ltd.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -885,8 +1072,9 @@
     "submitted_at": "2025-08-05 10:45:27"
   },
   {
-    "application_uid": "APP-059",
+    "application_uid": "APP-C2-059",
     "company_name": "Kaatch",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -900,8 +1088,9 @@
     "submitted_at": "2025-07-08 17:22:05"
   },
   {
-    "application_uid": "APP-060",
+    "application_uid": "APP-C2-060",
     "company_name": "Kelley Steven-Waiss",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -915,8 +1104,9 @@
     "submitted_at": "2025-08-02 14:03:19"
   },
   {
-    "application_uid": "APP-061",
+    "application_uid": "APP-C2-061",
     "company_name": "KELLS",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2019,
     "currently_fundraising": true,
@@ -930,8 +1120,9 @@
     "submitted_at": "2025-07-24 19:43:55"
   },
   {
-    "application_uid": "APP-062",
+    "application_uid": "APP-C2-062",
     "company_name": "Kindly Human Inc.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2019,
     "currently_fundraising": true,
@@ -945,8 +1136,9 @@
     "submitted_at": "2025-08-13 22:13:15"
   },
   {
-    "application_uid": "APP-063",
+    "application_uid": "APP-C2-063",
     "company_name": "Kottackal Technologies QFZ LLC",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": false,
@@ -960,8 +1152,9 @@
     "submitted_at": "2025-06-08 15:17:41"
   },
   {
-    "application_uid": "APP-064",
+    "application_uid": "APP-C2-064",
     "company_name": "Lilac Software",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -975,8 +1168,9 @@
     "submitted_at": "2025-08-12 22:41:06"
   },
   {
-    "application_uid": "APP-065",
+    "application_uid": "APP-C2-065",
     "company_name": "LOGISTIFY AI",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": true,
@@ -990,8 +1184,9 @@
     "submitted_at": "2025-06-02 20:14:01"
   },
   {
-    "application_uid": "APP-066",
+    "application_uid": "APP-C2-066",
     "company_name": "LUCY",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -1005,8 +1200,9 @@
     "submitted_at": "2025-08-15 16:20:01"
   },
   {
-    "application_uid": "APP-067",
+    "application_uid": "APP-C2-067",
     "company_name": "LyfebloodDAO",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2017,
     "currently_fundraising": true,
@@ -1020,8 +1216,9 @@
     "submitted_at": "2025-08-01 21:51:33"
   },
   {
-    "application_uid": "APP-068",
+    "application_uid": "APP-C2-068",
     "company_name": "Magier AI",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1035,8 +1232,9 @@
     "submitted_at": "2025-07-12 01:53:42"
   },
   {
-    "application_uid": "APP-069",
+    "application_uid": "APP-C2-069",
     "company_name": "Mandala.AI",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": false,
@@ -1050,8 +1248,9 @@
     "submitted_at": "2025-08-05 21:14:20"
   },
   {
-    "application_uid": "APP-070",
+    "application_uid": "APP-C2-070",
     "company_name": "MediaUClips Corporation",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -1065,8 +1264,9 @@
     "submitted_at": "2025-08-01 22:51:49"
   },
   {
-    "application_uid": "APP-071",
+    "application_uid": "APP-C2-071",
     "company_name": "Mila Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -1080,8 +1280,9 @@
     "submitted_at": "2025-08-15 00:43:15"
   },
   {
-    "application_uid": "APP-072",
+    "application_uid": "APP-C2-072",
     "company_name": "Modus Health LLC",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2017,
     "currently_fundraising": true,
@@ -1095,8 +1296,9 @@
     "submitted_at": "2025-08-16 01:31:20"
   },
   {
-    "application_uid": "APP-073",
+    "application_uid": "APP-C2-073",
     "company_name": "My Benefit Options",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1110,8 +1312,9 @@
     "submitted_at": "2025-07-17 00:43:08"
   },
   {
-    "application_uid": "APP-074",
+    "application_uid": "APP-C2-074",
     "company_name": "Navira Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": false,
@@ -1125,8 +1328,9 @@
     "submitted_at": "2025-08-15 19:51:33"
   },
   {
-    "application_uid": "APP-075",
+    "application_uid": "APP-C2-075",
     "company_name": "Newlane University",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2017,
     "currently_fundraising": true,
@@ -1140,8 +1344,9 @@
     "submitted_at": "2025-08-14 22:10:56"
   },
   {
-    "application_uid": "APP-076",
+    "application_uid": "APP-C2-076",
     "company_name": "NION Neuroscience",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -1155,8 +1360,9 @@
     "submitted_at": "2025-08-14 08:16:50"
   },
   {
-    "application_uid": "APP-077",
+    "application_uid": "APP-C2-077",
     "company_name": "Nora AI",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -1170,8 +1376,9 @@
     "submitted_at": "2025-08-06 03:43:02"
   },
   {
-    "application_uid": "APP-078",
+    "application_uid": "APP-C2-078",
     "company_name": "NuCo Credentialing",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": true,
@@ -1185,8 +1392,9 @@
     "submitted_at": "2025-06-03 23:11:42"
   },
   {
-    "application_uid": "APP-079",
+    "application_uid": "APP-C2-079",
     "company_name": "Nutrium",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2015,
     "currently_fundraising": false,
@@ -1200,8 +1408,9 @@
     "submitted_at": "2025-08-08 17:14:06"
   },
   {
-    "application_uid": "APP-080",
+    "application_uid": "APP-C2-080",
     "company_name": "OneRange",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": false,
@@ -1215,8 +1424,9 @@
     "submitted_at": "2025-08-15 03:31:24"
   },
   {
-    "application_uid": "APP-081",
+    "application_uid": "APP-C2-081",
     "company_name": "Opus Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1230,8 +1440,9 @@
     "submitted_at": "2025-08-15 22:45:20"
   },
   {
-    "application_uid": "APP-082",
+    "application_uid": "APP-C2-082",
     "company_name": "Origin",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2020,
     "currently_fundraising": true,
@@ -1245,8 +1456,9 @@
     "submitted_at": "2025-08-20 02:17:19"
   },
   {
-    "application_uid": "APP-083",
+    "application_uid": "APP-C2-083",
     "company_name": "Oro (formally ORO Impact Inc., a Public Benefit Corporation)",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": false,
@@ -1260,8 +1472,9 @@
     "submitted_at": "2025-08-18 22:19:58"
   },
   {
-    "application_uid": "APP-084",
+    "application_uid": "APP-C2-084",
     "company_name": "Osara Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2015,
     "currently_fundraising": false,
@@ -1275,8 +1488,9 @@
     "submitted_at": "2025-08-13 21:34:00"
   },
   {
-    "application_uid": "APP-085",
+    "application_uid": "APP-C2-085",
     "company_name": "Overalls, Inc.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": false,
@@ -1290,8 +1504,9 @@
     "submitted_at": "2025-08-15 19:11:45"
   },
   {
-    "application_uid": "APP-086",
+    "application_uid": "APP-C2-086",
     "company_name": "Petunia (Petunia Technologies LLC)",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": false,
@@ -1305,8 +1520,9 @@
     "submitted_at": "2025-08-13 18:38:45"
   },
   {
-    "application_uid": "APP-087",
+    "application_uid": "APP-C2-087",
     "company_name": "plain",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -1320,8 +1536,9 @@
     "submitted_at": "2025-08-08 14:52:42"
   },
   {
-    "application_uid": "APP-088",
+    "application_uid": "APP-C2-088",
     "company_name": "ProjectSet",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2019,
     "currently_fundraising": true,
@@ -1335,8 +1552,9 @@
     "submitted_at": "2025-06-11 16:01:54"
   },
   {
-    "application_uid": "APP-089",
+    "application_uid": "APP-C2-089",
     "company_name": "Protyon",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -1350,8 +1568,9 @@
     "submitted_at": "2025-08-15 12:35:34"
   },
   {
-    "application_uid": "APP-090",
+    "application_uid": "APP-C2-090",
     "company_name": "RadEmploy",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1365,8 +1584,9 @@
     "submitted_at": "2025-08-14 22:04:58"
   },
   {
-    "application_uid": "APP-091",
+    "application_uid": "APP-C2-091",
     "company_name": "RainyDayPal",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2022,
     "currently_fundraising": true,
@@ -1380,8 +1600,9 @@
     "submitted_at": "2025-06-03 19:47:09"
   },
   {
-    "application_uid": "APP-092",
+    "application_uid": "APP-C2-092",
     "company_name": "RainyDayPal",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -1395,8 +1616,9 @@
     "submitted_at": "2025-08-16 03:04:45"
   },
   {
-    "application_uid": "APP-093",
+    "application_uid": "APP-C2-093",
     "company_name": "Respiris Inc",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": false,
@@ -1410,8 +1632,9 @@
     "submitted_at": "2025-08-16 00:36:16"
   },
   {
-    "application_uid": "APP-094",
+    "application_uid": "APP-C2-094",
     "company_name": "Second Door Health, Inc",
+    "cohort": "Cohort 2",
     "application_status": "SELECTED",
     "year_founded": 2022,
     "currently_fundraising": false,
@@ -1425,8 +1648,9 @@
     "submitted_at": "2025-08-16 05:57:32"
   },
   {
-    "application_uid": "APP-095",
+    "application_uid": "APP-C2-095",
     "company_name": "Skillsize",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": true,
@@ -1440,8 +1664,9 @@
     "submitted_at": "2025-08-14 15:43:41"
   },
   {
-    "application_uid": "APP-096",
+    "application_uid": "APP-C2-096",
     "company_name": "SmartHeritance",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1455,8 +1680,9 @@
     "submitted_at": "2025-06-02 20:34:51"
   },
   {
-    "application_uid": "APP-097",
+    "application_uid": "APP-C2-097",
     "company_name": "Smirk Health, Inc",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1470,8 +1696,9 @@
     "submitted_at": "2025-08-07 14:11:36"
   },
   {
-    "application_uid": "APP-098",
+    "application_uid": "APP-C2-098",
     "company_name": "Sorem LLC",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -1485,8 +1712,9 @@
     "submitted_at": "2025-08-15 21:29:14"
   },
   {
-    "application_uid": "APP-099",
+    "application_uid": "APP-C2-099",
     "company_name": "Stance Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1500,8 +1728,9 @@
     "submitted_at": "2025-08-15 16:05:15"
   },
   {
-    "application_uid": "APP-100",
+    "application_uid": "APP-C2-100",
     "company_name": "Subconscious AI",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -1515,8 +1744,9 @@
     "submitted_at": "2025-08-06 14:28:51"
   },
   {
-    "application_uid": "APP-101",
+    "application_uid": "APP-C2-101",
     "company_name": "SUND LLC",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": false,
@@ -1530,8 +1760,9 @@
     "submitted_at": "2025-06-07 16:23:25"
   },
   {
-    "application_uid": "APP-102",
+    "application_uid": "APP-C2-102",
     "company_name": "SupportPay",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2018,
     "currently_fundraising": false,
@@ -1545,8 +1776,9 @@
     "submitted_at": "2025-08-08 14:59:00"
   },
   {
-    "application_uid": "APP-103",
+    "application_uid": "APP-C2-103",
     "company_name": "Talkola",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -1560,8 +1792,9 @@
     "submitted_at": "2025-08-13 17:56:48"
   },
   {
-    "application_uid": "APP-104",
+    "application_uid": "APP-C2-104",
     "company_name": "Teal Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2018,
     "currently_fundraising": false,
@@ -1575,8 +1808,9 @@
     "submitted_at": "2025-08-16 01:33:30"
   },
   {
-    "application_uid": "APP-105",
+    "application_uid": "APP-C2-105",
     "company_name": "Teamcast.ai",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1590,8 +1824,9 @@
     "submitted_at": "2025-07-31 07:44:22"
   },
   {
-    "application_uid": "APP-106",
+    "application_uid": "APP-C2-106",
     "company_name": "TenYour",
+    "cohort": "Cohort 2",
     "application_status": "FINALIST",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -1605,8 +1840,9 @@
     "submitted_at": "2025-07-11 02:06:24"
   },
   {
-    "application_uid": "APP-107",
+    "application_uid": "APP-C2-107",
     "company_name": "The After Cancer",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": false,
@@ -1620,8 +1856,9 @@
     "submitted_at": "2025-08-15 13:13:00"
   },
   {
-    "application_uid": "APP-108",
+    "application_uid": "APP-C2-108",
     "company_name": "The PEO App, Inc.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -1635,8 +1872,9 @@
     "submitted_at": "2025-07-23 18:17:19"
   },
   {
-    "application_uid": "APP-109",
+    "application_uid": "APP-C2-109",
     "company_name": "There for You",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": false,
@@ -1650,8 +1888,9 @@
     "submitted_at": "2025-08-16 03:39:48"
   },
   {
-    "application_uid": "APP-110",
+    "application_uid": "APP-C2-110",
     "company_name": "Therify",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": true,
@@ -1665,8 +1904,9 @@
     "submitted_at": "2025-07-15 00:37:15"
   },
   {
-    "application_uid": "APP-111",
+    "application_uid": "APP-C2-111",
     "company_name": "TietAI",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -1680,8 +1920,9 @@
     "submitted_at": "2025-08-14 18:56:34"
   },
   {
-    "application_uid": "APP-112",
+    "application_uid": "APP-C2-112",
     "company_name": "Toothsome",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -1695,8 +1936,9 @@
     "submitted_at": "2025-08-13 23:23:23"
   },
   {
-    "application_uid": "APP-113",
+    "application_uid": "APP-C2-113",
     "company_name": "TrueClaim",
+    "cohort": "Cohort 2",
     "application_status": "SELECTED",
     "year_founded": 2023,
     "currently_fundraising": false,
@@ -1710,8 +1952,9 @@
     "submitted_at": "2025-08-15 21:18:42"
   },
   {
-    "application_uid": "APP-114",
+    "application_uid": "APP-C2-114",
     "company_name": "U Startups Inc",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2020,
     "currently_fundraising": true,
@@ -1725,8 +1968,9 @@
     "submitted_at": "2025-08-05 16:20:53"
   },
   {
-    "application_uid": "APP-115",
+    "application_uid": "APP-C2-115",
     "company_name": "UnitedCode",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2019,
     "currently_fundraising": true,
@@ -1740,8 +1984,9 @@
     "submitted_at": "2025-08-11 03:23:37"
   },
   {
-    "application_uid": "APP-116",
+    "application_uid": "APP-C2-116",
     "company_name": "Value Buddy",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -1755,8 +2000,9 @@
     "submitted_at": "2025-07-10 15:03:33"
   },
   {
-    "application_uid": "APP-117",
+    "application_uid": "APP-C2-117",
     "company_name": "Vivian Services, Inc.",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1770,8 +2016,9 @@
     "submitted_at": "2025-08-05 15:52:50"
   },
   {
-    "application_uid": "APP-118",
+    "application_uid": "APP-C2-118",
     "company_name": "Wave",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": true,
@@ -1785,8 +2032,9 @@
     "submitted_at": "2025-05-30 22:28:27"
   },
   {
-    "application_uid": "APP-119",
+    "application_uid": "APP-C2-119",
     "company_name": "Wayola",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2025,
     "currently_fundraising": true,
@@ -1800,8 +2048,9 @@
     "submitted_at": "2025-08-11 20:31:50"
   },
   {
-    "application_uid": "APP-120",
+    "application_uid": "APP-C2-120",
     "company_name": "WayPave LLC",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1815,8 +2064,9 @@
     "submitted_at": "2025-06-26 17:05:24"
   },
   {
-    "application_uid": "APP-121",
+    "application_uid": "APP-C2-121",
     "company_name": "Whynda",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2023,
     "currently_fundraising": true,
@@ -1830,8 +2080,9 @@
     "submitted_at": "2025-07-29 20:55:53"
   },
   {
-    "application_uid": "APP-122",
+    "application_uid": "APP-C2-122",
     "company_name": "Wiggl Health",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2021,
     "currently_fundraising": true,
@@ -1845,8 +2096,9 @@
     "submitted_at": "2025-06-03 16:42:11"
   },
   {
-    "application_uid": "APP-123",
+    "application_uid": "APP-C2-123",
     "company_name": "Workrz",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 2024,
     "currently_fundraising": true,
@@ -1860,8 +2112,9 @@
     "submitted_at": "2025-06-04 18:33:48"
   },
   {
-    "application_uid": "APP-124",
+    "application_uid": "APP-C2-124",
     "company_name": "Zo'rier Co",
+    "cohort": "Cohort 2",
     "application_status": "PASSED",
     "year_founded": 1,
     "currently_fundraising": false,
