@@ -99,8 +99,11 @@ export default function FounderSuccessDashboard() {
                 <a href="/operational-health" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
                   Operational Health Dashboard
                 </a>
-                <a href="/applications" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors rounded-b-lg">
+                <a href="/applications" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
                   Applications Dashboard
+                </a>
+                <a href="/advisors" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors rounded-b-lg">
+                  Advisory Board Dashboard
                 </a>
               </div>
             </div>
