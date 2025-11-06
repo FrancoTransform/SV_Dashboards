@@ -62,8 +62,11 @@ export default function OperationalHealthDashboard() {
                 <a href="/portfolio-trends" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
                   Portfolio Trends Tracker
                 </a>
-                <a href="/operational-health" className="block px-4 py-3 text-sm text-cyan-400 hover:bg-cyan-900 transition-colors font-semibold rounded-b-lg">
+                <a href="/operational-health" className="block px-4 py-3 text-sm text-cyan-400 hover:bg-cyan-900 transition-colors font-semibold">
                   Operational Health Dashboard
+                </a>
+                <a href="/applications" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors rounded-b-lg">
+                  Applications Dashboard
                 </a>
               </div>
             </div>
