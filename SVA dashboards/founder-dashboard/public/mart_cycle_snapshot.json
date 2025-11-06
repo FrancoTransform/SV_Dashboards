@@ -14,11 +14,11 @@
     "avg_founder_nps": 75,
     "graduation_rate_pct": 100,
     "job_creation": 12,
-    "sectors_represented": ["HRTech", "HealthTech", "FinTech"],
+    "sectors_represented": ["HRTech", "HealthTech", "Workforce Dev"],
     "top_achievements": [
-      "NovaPayroll raised $1.5M Series A",
-      "HealthTrack secured partnership with major hospital network",
-      "All companies achieved product-market fit"
+      "TrueClaim raised $1.5M Series A and signed partnership with Unum",
+      "Tezi completed pilot with ADP Marketplace",
+      "Athena formed clinical advisory council with 13 strategic intros"
     ],
     "media_mentions": 8,
     "demo_day_attendance": 150,
@@ -41,11 +41,11 @@
     "avg_founder_nps": 67,
     "graduation_rate_pct": null,
     "job_creation": 8,
-    "sectors_represented": ["Workforce Dev", "Productivity", "HealthTech"],
+    "sectors_represented": ["HRTech", "HealthTech", "Productivity"],
     "top_achievements": [
-      "WorkForce AI launched beta with 500 users",
-      "TaskMaster secured 2 enterprise pilots",
-      "MindWell raised $350K pre-seed"
+      "Andel secured pilot with Paychex (12 strategic intros)",
+      "CareFam signed partnership with Cigna (11 strategic intros)",
+      "Clasp launched beta with 4 design partners"
     ],
     "media_mentions": 5,
     "demo_day_attendance": null,
@@ -68,11 +68,11 @@
     "avg_founder_nps": 78,
     "graduation_rate_pct": 100,
     "job_creation": 18,
-    "sectors_represented": ["FinTech", "HealthTech", "EdTech", "CleanTech"],
+    "sectors_represented": ["HRTech", "HealthTech", "Workforce Dev", "Productivity"],
     "top_achievements": [
-      "FinFlow acquired by major bank for $12M",
-      "EduConnect reached 10K students",
-      "GreenEnergy secured $2M Series A"
+      "Second Door completed 13 strategic intros with enterprise partners",
+      "Trial Library secured 9 strategic partnerships",
+      "Stepful achieved 6 strategic intros and strong pilot traction"
     ],
     "media_mentions": 12,
     "demo_day_attendance": 200,

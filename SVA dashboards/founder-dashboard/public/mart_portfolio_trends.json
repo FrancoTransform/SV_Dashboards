@@ -15,7 +15,7 @@
     "team_strength_score": 8.0,
     "investment_thesis": "Strong market demand, proven business models",
     "risk_factors": ["Regulatory changes", "Market saturation"],
-    "top_performers": ["NovaPayroll", "FinFlow"]
+    "top_performers": ["TrueClaim", "Second Door"]
   },
   {
     "sector": "HealthTech",
@@ -33,7 +33,7 @@
     "team_strength_score": 8.2,
     "investment_thesis": "Healthcare digitization, aging population",
     "risk_factors": ["HIPAA compliance", "Long sales cycles"],
-    "top_performers": ["HealthTrack", "MindWell"]
+    "top_performers": ["TrueClaim", "CareFam"]
   },
   {
     "sector": "HRTech",
@@ -51,7 +51,7 @@
     "team_strength_score": 8.3,
     "investment_thesis": "Remote work trends, talent shortage",
     "risk_factors": ["Competition from incumbents"],
-    "top_performers": ["WorkForce AI"]
+    "top_performers": ["Tezi", "Andel"]
   },
   {
     "sector": "Productivity",
@@ -69,7 +69,7 @@
     "team_strength_score": 7.8,
     "investment_thesis": "Efficiency gains, AI integration",
     "risk_factors": ["Crowded market", "Low switching costs"],
-    "top_performers": ["TaskMaster"]
+    "top_performers": ["Clasp"]
   },
   {
     "sector": "Workforce Dev",
@@ -87,7 +87,7 @@
     "team_strength_score": 7.5,
     "investment_thesis": "Skills gap, workforce transformation",
     "risk_factors": ["Government policy changes", "Economic cycles"],
-    "top_performers": ["SkillBridge"]
+    "top_performers": ["Athena", "Stepful"]
   },
   {
     "sector": "EdTech",

@@ -371,13 +371,98 @@ Example record:
 
 ---
 
-## 10) Implementation Status
+## 10) Real Data Integration
+
+**Status**: ✅ COMPLETE
+
+**Implementation Date**: 2025-11-06
+
+### Hybrid Approach: Real Names + Synthetic Metrics
+
+We've implemented a **best-balance hybrid approach** using real company and partner names from actual SVA data while keeping financial metrics synthetic for privacy and illustration purposes.
+
+#### Data Sources Used
+
+1. **GTM & Corp Dev Intros PY8.xlsx** (196 intros)
+   - Real portfolio company names
+   - Real corporate partner names
+   - Actual intro counts and engagement data
+
+2. **SVA Cohort 1 - Scoring.xlsx**
+   - Cohort 1 company validation
+   - Company selection data
+
+3. **SVA Applications.xlsx**
+   - Application volume: 164 total applications
+   - Acceptance rate data
+
+#### Real Portfolio Companies (by GTM Activity)
+
+| Company | Intros | Used In Dashboard | Sector |
+|---------|--------|-------------------|--------|
+| Tezi | 16 | Founder Success | HRTech |
+| TrueClaim | 14 | Founder Success | HealthTech |
+| Second Door | 13 | Portfolio Trends | FinTech |
+| Athena | 13 | Founder Success | Workforce Dev |
+| Andel | 12 | Founder Success | HRTech |
+| CareFam | 11 | Founder Success | HealthTech |
+| Trial Library | 9 | Cycle Snapshot | HealthTech |
+| Clasp | 6 | Founder Success | Productivity |
+| Stepful | 6 | Portfolio Trends | Workforce Dev |
+
+#### Real Corporate Partners (by Engagement)
+
+| Partner | Intros | Used In Dashboard | Industry |
+|---------|--------|-------------------|----------|
+| Unum | 9 | Partner ROI | Insurance & Benefits |
+| ADP | 7 | Partner ROI | HR Technology |
+| Cigna | 5 | Partner ROI | Healthcare |
+| Paychex | 5 | Partner ROI | HR Technology |
+| Prudential | 4 | Partner ROI | Financial Services |
+
+#### What's Real vs. Synthetic
+
+**Real Data** ✅:
+- Company names (Tezi, TrueClaim, Athena, Andel, CareFam, Clasp)
+- Partner names (Unum, ADP, Cigna, Paychex, Prudential)
+- Intro counts (included in "notable_outcomes")
+- Application volume (164 applications)
+- Sector distribution
+
+**Synthetic Data** ⚠️ (Illustrative):
+- Revenue growth percentages
+- Funding amounts
+- NPS scores
+- Attendance rates
+- Mentor hours
+- Commercial value
+- ROI multiples
+- Innovation scores
+
+#### Benefits
+
+1. **Authenticity**: Real names make dashboards relatable and credible
+2. **Privacy**: Sensitive financial data is protected
+3. **Demo-Ready**: Can show to stakeholders without revealing confidential metrics
+4. **Validation**: Real intro counts validate engagement patterns
+5. **Marketing**: Can use for external communications with disclaimer
+
+#### Documentation
+
+See **`REAL_DATA_MAPPING.md`** for complete mapping details, data sources, and refresh log.
+
+**Disclaimer**: Financial metrics shown in dashboards are illustrative examples and do not represent actual company performance.
+
+---
+
+## 11) Implementation Status
 
 **Status**: ✅ COMPLETE
 
 **Implementation Date**: 2025-11-04
+**Last Updated**: 2025-11-06 (Real data integration)
 
-### What Was Built
+### 11.1) What Was Built
 
 A fully functional Next.js 16 dashboard application with the following features:
 
@@ -449,7 +534,7 @@ Follows SemperVirens brand guidelines:
 - **Style**: Clean, modern, professional with generous whitespace
 - **Components**: Rounded corners (12px), subtle shadows, uppercase headings
 
-### Running the Application
+### 11.2) Running the Application
 
 ```bash
 cd founder-dashboard
@@ -458,7 +543,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Validation Results
+### 11.3) Validation Results
 
 - [x] Cycle totals match KPI tiles
 - [x] Deliberate handling for companies with zero funding
@@ -466,7 +551,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - [x] Narrative only mentions meaningful movements
 - [x] PII: surfaces founder names only in restricted views (not implemented in current version)
 
-### Design Updates (2025-11-05)
+### 11.4) Design Updates (2025-11-05)
 
 Updated the dashboard to match the SemperVirens homepage design:
 - **Dark Theme**: Changed from light theme to dark blue-gray background (#2d3e50)
@@ -481,7 +566,7 @@ Updated the dashboard to match the SemperVirens homepage design:
 - **Navigation**: Simplified to single "Sample Data" link
 - **Removed**: Purple announcement banner and full navigation menu
 
-### Sample Data Page
+### 11.5) Sample Data Page
 
 Created a new `/sample-data` route that displays:
 - Data overview with total companies, program cycles, and records
@@ -490,7 +575,7 @@ Created a new `/sample-data` route that displays:
 - Raw JSON data viewer at the bottom
 - Consistent dark theme styling matching the main dashboard
 
-### Data Architecture Alignment (2025-11-05)
+### 11.6) Data Architecture Alignment (2025-11-05)
 
 Updated all dashboards to align with the Accelerator Data Architecture PDF specification:
 
@@ -533,14 +618,14 @@ These metrics are now displayed in a new "Recruitment & Sourcing" section with 4
 - Brand Reach card (media, co-marketing, press releases)
 - Follow-on Readiness card (commercial, capital efficiency, market positioning)
 
-### Known Limitations
+### 11.7) Known Limitations
 
 1. **Data Source**: Currently uses static JSON file. For production, connect to live data source.
 2. **PII Protection**: Founder names are not currently displayed (as per spec).
 3. **Export**: PDF export feature not yet implemented (extension idea).
 4. **Responsive**: Optimized for desktop; mobile experience could be enhanced.
 
-### Next Steps / Extension Ideas
+### 11.8) Next Steps / Extension Ideas
 
 - [ ] Connect to live data API instead of static JSON
 - [ ] Add PDF export functionality
@@ -554,7 +639,7 @@ These metrics are now displayed in a new "Recruitment & Sourcing" section with 4
 
 ---
 
-## 11) Partner ROI Dashboard
+## 12) Partner ROI Dashboard
 
 **Status**: ✅ COMPLETE
 
@@ -700,7 +785,7 @@ The Partner ROI dashboard includes data for 5 corporate partners:
 
 ---
 
-## 12) Cycle Snapshot Dashboard
+## 13) Cycle Snapshot Dashboard
 
 **Status**: ✅ COMPLETE
 
@@ -748,7 +833,7 @@ A public-facing dashboard showcasing key stats and highlights for each cohort. D
 
 ---
 
-## 13) Portfolio Trends Tracker Dashboard
+## 14) Portfolio Trends Tracker Dashboard
 
 **Status**: ✅ COMPLETE
 
@@ -799,7 +884,7 @@ An investment strategy dashboard analyzing sector performance, funding trends, a
 
 ---
 
-## 14) Operational Health Dashboard
+## 15) Operational Health Dashboard
 
 **Status**: ✅ COMPLETE
 
