@@ -1,0 +1,10 @@
+partner_uid,quarter,total_engagements,active_pilots,completed_pilots,total_commercial_value_usd,avg_innovation_score,time_to_pilot_days,cost_savings_usd,new_capabilities_gained,employee_engagement_hours,patents_filed,market_insights_gained
+P-ACME,2024-Q1,2,1,1,400000,7.5,45,150000,3,240,1,5
+P-ACME,2024-Q2,2,1,1,400000,7.5,38,180000,2,280,0,4
+P-NOVA,2024-Q1,1,1,0,500000,9,52,200000,4,320,2,6
+P-NOVA,2024-Q2,2,2,0,575000,7.5,48,220000,3,360,1,5
+P-TECH,2024-Q2,1,1,0,180000,8,42,80000,2,160,0,3
+P-RETAIL,2024-Q1,1,1,0,320000,9,40,140000,3,200,1,4
+P-RETAIL,2024-Q2,2,1,1,420000,8,35,160000,2,240,0,5
+P-ENERGY,2024-Q2,1,1,0,120000,8,50,60000,2,120,0,3
+

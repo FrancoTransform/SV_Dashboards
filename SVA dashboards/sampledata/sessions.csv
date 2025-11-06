@@ -1,0 +1,8 @@
+program_cycle_uid,company_uid,session_id,attended,minutes,mentor_hours
+ACC-2025-Spring,C-ALTO,S101,1,90,2
+ACC-2025-Spring,C-ALTO,S102,1,60,3
+ACC-2025-Spring,C-HELI,S101,1,90,2
+ACC-2025-Spring,C-NOVA,S101,1,90,1
+ACC-2025-Fall,C-QUAD,S201,1,75,2
+ACC-2025-Fall,C-EMBER,S202,1,60,3
+ACC-2025-Fall,C-ZEPH,S201,0,0,0

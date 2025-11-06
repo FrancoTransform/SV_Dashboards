@@ -1,0 +1,7 @@
+company_uid,canonical_name,domain,sector,hq_country,stage,headcount,product_readiness,gtm_maturity,icp_clarity,sales_motion
+C-ALTO,AltoWorks,altoworks.ai,HRTech,USA,Seed,12,Beta,Founder-led,Emerging,PLG+Sales
+C-HELI,Heliotrope Labs,heliotrope.health,HealthTech,USA,Pre-Seed,8,MVP,Pre-GTM,Low,Founder-led
+C-NOVA,NovaPayroll,novapayroll.io,FinTech,USA,Seed,18,GA,Scaling,High,Sales-led
+C-QUAD,Quadratic People,quadraticpeople.com,HRTech,CAN,Seed,10,Beta,Early,Medium,PLG
+C-EMBER,EmberPath,emberpath.co,Workforce Dev,USA,Seed,14,MVP,Early,Medium,PLG+Sales
+C-ZEPH,ZephyrNote,zephyrnote.com,Productivity,UK,Pre-Seed,6,MVP,Pre-GTM,Low,PLG

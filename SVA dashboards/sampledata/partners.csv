@@ -1,0 +1,7 @@
+partner_uid,partner_name,industry,company_size,engagement_start_date,partnership_tier,primary_contact_title
+P-ACME,Acme Healthcare Systems,Healthcare,Enterprise,2024-01-15,Platinum,Chief Innovation Officer
+P-NOVA,NovaBank Financial,Financial Services,Enterprise,2024-02-01,Gold,VP of Digital Transformation
+P-TECH,TechCorp Industries,Technology,Mid-Market,2024-03-10,Silver,Director of Innovation
+P-RETAIL,RetailMax Group,Retail,Enterprise,2024-01-20,Platinum,SVP of Strategy
+P-ENERGY,EnergyFlow Solutions,Energy,Mid-Market,2024-04-05,Gold,Head of Ventures
+

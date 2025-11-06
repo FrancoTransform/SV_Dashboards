@@ -1,0 +1,83 @@
+[
+  {
+    "program_cycle_uid": "ACC-2025-Spring",
+    "cycle_name": "Spring 2025 Cohort",
+    "start_date": "2025-01-15",
+    "end_date": "2025-04-15",
+    "status": "Completed",
+    "total_companies": 3,
+    "total_founders": 8,
+    "avg_revenue_growth_pct": 45.8,
+    "total_funding_raised_usd": 2500000,
+    "total_pilots": 5,
+    "total_partnerships": 3,
+    "avg_founder_nps": 75,
+    "graduation_rate_pct": 100,
+    "job_creation": 12,
+    "sectors_represented": ["HRTech", "HealthTech", "FinTech"],
+    "top_achievements": [
+      "NovaPayroll raised $1.5M Series A",
+      "HealthTrack secured partnership with major hospital network",
+      "All companies achieved product-market fit"
+    ],
+    "media_mentions": 8,
+    "demo_day_attendance": 150,
+    "investor_connections": 45,
+    "mentor_hours_total": 67,
+    "avg_session_attendance_pct": 88
+  },
+  {
+    "program_cycle_uid": "ACC-2025-Fall",
+    "cycle_name": "Fall 2025 Cohort",
+    "start_date": "2025-08-15",
+    "end_date": "2025-11-15",
+    "status": "In Progress",
+    "total_companies": 3,
+    "total_founders": 9,
+    "avg_revenue_growth_pct": 30.8,
+    "total_funding_raised_usd": 1050000,
+    "total_pilots": 4,
+    "total_partnerships": 2,
+    "avg_founder_nps": 67,
+    "graduation_rate_pct": null,
+    "job_creation": 8,
+    "sectors_represented": ["Workforce Dev", "Productivity", "HealthTech"],
+    "top_achievements": [
+      "WorkForce AI launched beta with 500 users",
+      "TaskMaster secured 2 enterprise pilots",
+      "MindWell raised $350K pre-seed"
+    ],
+    "media_mentions": 5,
+    "demo_day_attendance": null,
+    "investor_connections": 32,
+    "mentor_hours_total": 40,
+    "avg_session_attendance_pct": 83
+  },
+  {
+    "program_cycle_uid": "ACC-2024-Fall",
+    "cycle_name": "Fall 2024 Cohort",
+    "start_date": "2024-08-15",
+    "end_date": "2024-11-15",
+    "status": "Completed",
+    "total_companies": 4,
+    "total_founders": 10,
+    "avg_revenue_growth_pct": 52.3,
+    "total_funding_raised_usd": 3200000,
+    "total_pilots": 7,
+    "total_partnerships": 5,
+    "avg_founder_nps": 78,
+    "graduation_rate_pct": 100,
+    "job_creation": 18,
+    "sectors_represented": ["FinTech", "HealthTech", "EdTech", "CleanTech"],
+    "top_achievements": [
+      "FinFlow acquired by major bank for $12M",
+      "EduConnect reached 10K students",
+      "GreenEnergy secured $2M Series A"
+    ],
+    "media_mentions": 12,
+    "demo_day_attendance": 200,
+    "investor_connections": 58,
+    "mentor_hours_total": 85,
+    "avg_session_attendance_pct": 92
+  }
+]

@@ -1,0 +1,10 @@
+partner_uid,company_uid,engagement_type,start_date,status,commercial_value_usd,innovation_score,pilot_success,deployment_timeline_months,partner_satisfaction_score,strategic_alignment_score
+P-ACME,C-VITA,Pilot,2024-02-01,Active,250000,8,Yes,6,85,9
+P-ACME,C-CARE,POC,2024-03-15,Completed,150000,7,Yes,4,78,8
+P-NOVA,C-NOVA,Pilot,2024-03-01,Active,500000,9,Yes,8,92,10
+P-NOVA,C-FLEX,POC,2024-04-10,Active,75000,6,Pending,3,70,7
+P-TECH,C-SYNC,Pilot,2024-04-01,Active,180000,8,Yes,5,88,9
+P-RETAIL,C-FLEX,Pilot,2024-02-15,Completed,320000,9,Yes,6,90,9
+P-RETAIL,C-NOVA,POC,2024-05-01,Active,100000,7,Pending,4,75,8
+P-ENERGY,C-SYNC,POC,2024-05-15,Active,120000,8,Pending,5,82,8
+
