@@ -376,6 +376,7 @@ Example record:
 **Status**: ✅ COMPLETE
 
 **Implementation Date**: 2025-11-06
+**Last Updated**: 2025-11-06 (Expanded to 43 companies - all real SVA portfolio)
 
 ### Hybrid Approach: Real Names + Synthetic Metrics
 
@@ -383,7 +384,7 @@ We've implemented a **best-balance hybrid approach** using real company and part
 
 #### Data Sources Used
 
-1. **GTM & Corp Dev Intros PY8.xlsx** (196 intros)
+1. **GTM & Corp Dev Intros PY8.xlsx** (196 intros, 43 unique companies)
    - Real portfolio company names
    - Real corporate partner names
    - Actual intro counts and engagement data
@@ -396,19 +397,46 @@ We've implemented a **best-balance hybrid approach** using real company and part
    - Application volume: 164 total applications
    - Acceptance rate data
 
-#### Real Portfolio Companies (by GTM Activity)
+#### Portfolio Coverage
 
-| Company | Intros | Used In Dashboard | Sector |
-|---------|--------|-------------------|--------|
-| Tezi | 16 | Founder Success | HRTech |
-| TrueClaim | 14 | Founder Success | HealthTech |
-| Second Door | 13 | Portfolio Trends | FinTech |
-| Athena | 13 | Founder Success | Workforce Dev |
-| Andel | 12 | Founder Success | HRTech |
-| CareFam | 11 | Founder Success | HealthTech |
-| Trial Library | 9 | Cycle Snapshot | HealthTech |
-| Clasp | 6 | Founder Success | Productivity |
-| Stepful | 6 | Portfolio Trends | Workforce Dev |
+**Total Companies in Dashboard**: 43 (100% of GTM data)
+- **ACC-2025-Spring**: 15 companies
+- **ACC-2025-Fall**: 13 companies
+- **ACC-2024-Fall**: 15 companies
+
+**Sector Distribution**:
+- **HRTech**: 19 companies (44%)
+- **HealthTech**: 15 companies (35%)
+- **Workforce Dev**: 4 companies (9%)
+- **FinTech**: 4 companies (9%)
+- **Productivity**: 1 company (2%)
+
+#### Real Portfolio Companies (Top 20 by GTM Activity)
+
+| Company | Intros | Sector | Stage | Cycle |
+|---------|--------|--------|-------|-------|
+| Tezi | 16 | HRTech | Seed | Spring 2025 |
+| TrueClaim | 14 | HealthTech | Seed | Fall 2025 |
+| Second Door | 13 | FinTech | Seed | Fall 2024 |
+| Athena | 13 | Workforce Dev | Pre-Seed | Spring 2025 |
+| Andel | 12 | HRTech | Seed | Fall 2025 |
+| CareFam | 11 | HealthTech | Seed | Fall 2025 |
+| Trial Library | 9 | HealthTech | Seed | Fall 2024 |
+| Certify | 6 | HealthTech | Seed | Fall 2025 |
+| Clasp | 6 | Productivity | Pre-Seed | Fall 2025 |
+| Stepful | 6 | Workforce Dev | Seed | Fall 2024 |
+| Take2 | 6 | HealthTech | Pre-Seed | Fall 2025 |
+| Summer | 5 | FinTech | Seed | Fall 2024 |
+| MultiModal | 5 | HRTech | Seed | Fall 2024 |
+| Helm | 4 | HealthTech | Seed | Fall 2024 |
+| Empathy | 4 | HealthTech | Seed | Fall 2024 |
+| Ashby | 4 | HRTech | Seed | Fall 2024 |
+| Sunny Health | 4 | HealthTech | Seed | Fall 2024 |
+| Penguin AI | 3 | HealthTech | Pre-Seed | Fall 2025 |
+| Thatch | 3 | HRTech | Seed | Fall 2025 |
+| Exceeds.ai | 3 | HRTech | Pre-Seed | Fall 2025 |
+
+**Plus 23 more companies** with 1-3 intros each (Nayya, Fountain, Midi, Outro, Multiverse, Cocoon, TechWolf, Sully, Wagmo, XP Health, Finch, Onboarded, Ladder, Rightway, Kept, Borderless, Defiant, Lockwell, Forma, Bennie, Valence, Liftoff, Pinwheel)
 
 #### Real Corporate Partners (by Engagement)
 
@@ -423,11 +451,12 @@ We've implemented a **best-balance hybrid approach** using real company and part
 #### What's Real vs. Synthetic
 
 **Real Data** ✅:
-- Company names (Tezi, TrueClaim, Athena, Andel, CareFam, Clasp)
-- Partner names (Unum, ADP, Cigna, Paychex, Prudential)
-- Intro counts (included in "notable_outcomes")
-- Application volume (164 applications)
-- Sector distribution
+- **All 43 company names** from actual SVA portfolio
+- **All 5 partner names** from GTM intro data
+- **Intro counts** (1-16 per company, included in "notable_outcomes")
+- **Application volume** (164 applications)
+- **Sector distribution** (based on company profiles)
+- **Stage distribution** (Seed vs Pre-Seed)
 
 **Synthetic Data** ⚠️ (Illustrative):
 - Revenue growth percentages
@@ -438,20 +467,76 @@ We've implemented a **best-balance hybrid approach** using real company and part
 - Commercial value
 - ROI multiples
 - Innovation scores
+- Product readiness levels
+- GTM maturity scores
 
 #### Benefits
 
-1. **Authenticity**: Real names make dashboards relatable and credible
+1. **100% Authenticity**: All 43 companies are real SVA portfolio companies
 2. **Privacy**: Sensitive financial data is protected
 3. **Demo-Ready**: Can show to stakeholders without revealing confidential metrics
 4. **Validation**: Real intro counts validate engagement patterns
 5. **Marketing**: Can use for external communications with disclaimer
+6. **Comprehensive**: Represents entire GTM-tracked portfolio
+
+#### How to Replicate with New Data
+
+**Step 1: Extract Company Names from GTM Data**
+```python
+import pandas as pd
+
+# Read GTM intro data
+df_gtm = pd.read_excel('data/GTM & Corp Dev Intros PY8.xlsx')
+
+# Get company intro counts
+companies = df_gtm['Portco'].value_counts()
+
+# Clean and deduplicate
+# Note: Watch for variations like "TrueClaim" vs "True Claim"
+```
+
+**Step 2: Assign Sectors**
+Research each company and assign to one of:
+- HRTech (benefits, payroll, recruiting, workforce management)
+- HealthTech (care delivery, navigation, mental health)
+- Workforce Dev (upskilling, training, career development)
+- FinTech (payments, lending, financial services)
+- Productivity (collaboration, automation, tools)
+
+**Step 3: Assign Stages**
+- **Seed**: Product in market, some revenue, raising $500K-$2M
+- **Pre-Seed**: MVP/Beta, early traction, raising $100K-$500K
+
+**Step 4: Distribute Across Cycles**
+Aim for balanced distribution:
+- Spring 2025: ~35% of companies
+- Fall 2025: ~30% of companies
+- Fall 2024: ~35% of companies
+
+**Step 5: Generate Synthetic Metrics**
+Use realistic ranges:
+- Revenue growth: 15-60%
+- Funding: $150K-$1.5M
+- NPS: 55-85
+- Attendance: 70-95%
+- Mentor hours: 10-25 per company
+
+**Step 6: Include Real Intro Counts**
+Add to `notable_outcomes` field:
+```
+"Pilot with ADP Marketplace; 16 strategic intros completed"
+```
+
+**Step 7: Update Aggregate Dashboards**
+- Cycle Snapshot: Recalculate totals per cycle
+- Portfolio Trends: Update sector-level metrics
+- Partner ROI: Ensure partner names match GTM data
 
 #### Documentation
 
 See **`REAL_DATA_MAPPING.md`** for complete mapping details, data sources, and refresh log.
 
-**Disclaimer**: Financial metrics shown in dashboards are illustrative examples and do not represent actual company performance.
+**Disclaimer**: Financial metrics shown in dashboards are illustrative examples and do not represent actual company performance. Company names and intro counts are real data from SemperVirens Accelerator portfolio.
 
 ---
 
@@ -931,5 +1016,484 @@ An internal operations dashboard monitoring efficiency, budget utilization, and 
 
 ---
 
+## 16) Complete Replication Guide
+
+**Status**: ✅ COMPLETE
+
+**Last Updated**: 2025-11-06
+
+### Overview
+
+This section provides step-by-step instructions to replicate the entire dashboard system from scratch using your own accelerator data.
+
+---
+
+### Prerequisites
+
+**Required Tools:**
+- Node.js 18+ and npm
+- Python 3.9+ with pandas, openpyxl
+- Git
+- Code editor (VS Code recommended)
+
+**Required Data Files:**
+- GTM & Corp Dev Intros spreadsheet (Excel format)
+- Cohort scoring data (optional)
+- Application data (optional)
+
+---
+
+### Step 1: Initialize Next.js Project
+
+```bash
+# Create new Next.js project
+npx create-next-app@latest founder-dashboard --typescript --tailwind --app
+
+# Navigate to project
+cd founder-dashboard
+
+# Install dependencies
+npm install recharts
+```
+
+**Configuration:**
+- ✅ TypeScript
+- ✅ Tailwind CSS
+- ✅ App Router
+- ✅ No src/ directory
+- ✅ Import alias: @/*
+
+---
+
+### Step 2: Extract Real Company Data
+
+**Python Script to Extract Companies:**
+
+```python
+import pandas as pd
+import json
+
+# Read GTM intro data
+df_gtm = pd.read_excel('data/GTM & Corp Dev Intros PY8.xlsx')
+
+# Get company intro counts
+companies = df_gtm['Portco'].value_counts()
+
+print(f"Total companies: {len(companies)}")
+
+# Export to JSON for review
+company_list = []
+for company, count in companies.items():
+    if pd.notna(company) and company.strip():
+        company_list.append({
+            'name': company.strip(),
+            'intro_count': int(count)
+        })
+
+# Sort by intro count
+company_list.sort(key=lambda x: -x['intro_count'])
+
+# Save to file
+with open('companies_extracted.json', 'w') as f:
+    json.dump(company_list, f, indent=2)
+
+print(f"Exported {len(company_list)} companies to companies_extracted.json")
+```
+
+**Output:** `companies_extracted.json` with all companies and intro counts
+
+---
+
+### Step 3: Assign Sectors and Stages
+
+**Manual Research Required:**
+
+For each company, research and assign:
+
+1. **Sector** (choose one):
+   - HRTech: Benefits, payroll, recruiting, workforce management
+   - HealthTech: Care delivery, navigation, mental health, clinical tools
+   - Workforce Dev: Upskilling, training, career development
+   - FinTech: Payments, lending, financial services, embedded finance
+   - Productivity: Collaboration, automation, workflow tools
+
+2. **Stage** (choose one):
+   - Seed: Product in market, revenue traction, $500K-$2M funding
+   - Pre-Seed: MVP/Beta, early traction, $100K-$500K funding
+
+**Tips:**
+- Check company websites for product descriptions
+- Look at LinkedIn for company size and maturity
+- Review Crunchbase for funding history
+- Default to Seed if uncertain (most accelerator companies)
+
+---
+
+### Step 4: Distribute Companies Across Cycles
+
+**Recommended Distribution:**
+
+For 43 companies across 3 cycles:
+- **Spring 2025** (most recent): 15 companies (35%)
+- **Fall 2025** (current): 13 companies (30%)
+- **Fall 2024** (previous): 15 companies (35%)
+
+**Assignment Strategy:**
+1. Put highest-intro companies in Spring 2025 (shows recent success)
+2. Distribute evenly by sector across cycles
+3. Mix Seed and Pre-Seed in each cycle
+4. Ensure each cycle has 10-15 companies for visual balance
+
+---
+
+### Step 5: Generate Synthetic Metrics
+
+**Python Script to Generate Dashboard Data:**
+
+```python
+import json
+import random
+
+# Load extracted companies
+with open('companies_extracted.json', 'r') as f:
+    companies = json.load(f)
+
+# Sector and stage assignments (manual input required)
+company_metadata = {
+    'Tezi': {'sector': 'HRTech', 'stage': 'Seed', 'cycle': 'ACC-2025-Spring'},
+    'TrueClaim': {'sector': 'HealthTech', 'stage': 'Seed', 'cycle': 'ACC-2025-Fall'},
+    # ... add all 43 companies
+}
+
+# Generate dashboard data
+dashboard_data = []
+
+for company in companies:
+    name = company['name']
+    intro_count = company['intro_count']
+
+    if name not in company_metadata:
+        continue
+
+    meta = company_metadata[name]
+
+    # Generate synthetic metrics
+    record = {
+        'program_cycle_uid': meta['cycle'],
+        'company_uid': f"C-{name.upper().replace(' ', '').replace('.', '')}",
+        'canonical_name': name,
+        'sector': meta['sector'],
+        'stage': meta['stage'],
+
+        # Synthetic financial metrics
+        'revenue_growth_pct': random.randint(15, 60),
+        'pilots_initiated': random.randint(0, 3),
+        'partnerships_signed_count': random.randint(0, 2),
+        'follow_on_funding_usd': random.randint(150000, 1500000) if meta['stage'] == 'Seed' else random.randint(100000, 500000),
+
+        # Engagement metrics
+        'goal_progress_score': random.randint(2, 5),
+        'founder_nps': random.randint(55, 85),
+        'sessions_attendance_pct': random.randint(70, 95),
+        'mentor_hours': random.randint(10, 25),
+
+        # Real intro count in notable outcomes
+        'notable_outcomes': f"Strategic partnerships and growth initiatives; {intro_count} strategic intros completed",
+
+        # Product/GTM fields
+        'product_readiness': random.choice(['Beta', 'GA']),
+        'gtm_maturity': random.choice(['Early', 'Established', 'Scaling']),
+        'icp_clarity': random.choice(['Exploring', 'Developing', 'Clear']),
+        'sales_motion': random.choice(['Founder-led', 'Product-led', 'Sales-led', 'Partnership-led']),
+        'advisor_relationships_formed': random.randint(1, 4)
+    }
+
+    dashboard_data.append(record)
+
+# Save to JSON
+with open('public/mart_founder_success.json', 'w') as f:
+    json.dump(dashboard_data, f, indent=2)
+
+print(f"Generated {len(dashboard_data)} company records")
+```
+
+---
+
+### Step 6: Generate Aggregate Dashboard Data
+
+**Cycle Snapshot Data:**
+
+```python
+# Calculate cycle-level aggregates
+cycles = {}
+for record in dashboard_data:
+    cycle = record['program_cycle_uid']
+    if cycle not in cycles:
+        cycles[cycle] = []
+    cycles[cycle].append(record)
+
+cycle_snapshot = []
+for cycle_uid, companies in cycles.items():
+    snapshot = {
+        'program_cycle_uid': cycle_uid,
+        'cycle_name': f"{cycle_uid.split('-')[1]} {cycle_uid.split('-')[2]} Cohort",
+        'total_companies': len(companies),
+        'total_founders': len(companies) * 2.7,  # Avg 2.7 founders per company
+        'avg_revenue_growth_pct': sum(c['revenue_growth_pct'] for c in companies) / len(companies),
+        'total_funding_raised_usd': sum(c['follow_on_funding_usd'] for c in companies),
+        'total_pilots': sum(c['pilots_initiated'] for c in companies),
+        'total_partnerships': sum(c['partnerships_signed_count'] for c in companies),
+        'avg_founder_nps': sum(c['founder_nps'] for c in companies) / len(companies),
+        # ... add more fields
+    }
+    cycle_snapshot.append(snapshot)
+
+# Save
+with open('public/mart_cycle_snapshot.json', 'w') as f:
+    json.dump(cycle_snapshot, f, indent=2)
+```
+
+**Portfolio Trends Data:**
+
+```python
+# Calculate sector-level aggregates
+sectors = {}
+for record in dashboard_data:
+    sector = record['sector']
+    if sector not in sectors:
+        sectors[sector] = []
+    sectors[sector].append(record)
+
+portfolio_trends = []
+for sector, companies in sectors.items():
+    trend = {
+        'sector': sector,
+        'total_companies': len(companies),
+        'avg_revenue_growth_pct': sum(c['revenue_growth_pct'] for c in companies) / len(companies),
+        'total_funding_usd': sum(c['follow_on_funding_usd'] for c in companies),
+        # ... add more fields
+        'top_performers': [c['canonical_name'] for c in sorted(companies, key=lambda x: -x['follow_on_funding_usd'])[:5]]
+    }
+    portfolio_trends.append(trend)
+
+# Save
+with open('public/mart_portfolio_trends.json', 'w') as f:
+    json.dump(portfolio_trends, f, indent=2)
+```
+
+---
+
+### Step 7: Build Dashboard Components
+
+**File Structure:**
+
+```
+founder-dashboard/
+├── app/
+│   ├── layout.tsx                    # Root layout with Montserrat font
+│   ├── page.tsx                      # Founder Success Dashboard
+│   ├── partner-roi/page.tsx          # Partner ROI Dashboard
+│   ├── cycle-snapshot/page.tsx       # Cycle Snapshot Dashboard
+│   ├── portfolio-trends/page.tsx     # Portfolio Trends Dashboard
+│   ├── operational-health/page.tsx   # Operational Health Dashboard
+│   ├── sample-data/
+│   │   ├── founder-success/page.tsx
+│   │   ├── partner-roi/page.tsx
+│   │   ├── cycle-snapshot/page.tsx
+│   │   ├── portfolio-trends/page.tsx
+│   │   └── operational-health/page.tsx
+│   └── globals.css                   # Global styles
+├── components/
+│   ├── KPITile.tsx                   # Reusable KPI metric tile
+│   ├── CompanyTable.tsx              # Interactive company table
+│   ├── Charts.tsx                    # Chart components
+│   ├── PartnerTable.tsx              # Partner table
+│   └── PartnerCharts.tsx             # Partner charts
+├── lib/
+│   ├── types.ts                      # TypeScript interfaces
+│   ├── dataUtils.ts                  # KPI computation utilities
+│   ├── partnerTypes.ts               # Partner data types
+│   └── partnerUtils.ts               # Partner utilities
+└── public/
+    ├── mart_founder_success.json     # Company data
+    ├── mart_partner_roi.json         # Partner data
+    ├── mart_cycle_snapshot.json      # Cycle data
+    ├── mart_portfolio_trends.json    # Sector data
+    └── mart_operational_health.json  # Operations data
+```
+
+**Key Components to Build:**
+
+1. **KPITile.tsx** - Reusable metric display
+2. **CompanyTable.tsx** - Sortable, expandable table
+3. **Charts.tsx** - Bar, line, and stacked charts using Recharts
+4. **Navigation** - Dropdown menu to switch between dashboards
+
+---
+
+### Step 8: Apply SemperVirens Design System
+
+**Colors:**
+```css
+/* globals.css */
+:root {
+  --sv-bg-primary: #2d3e50;
+  --sv-bg-card: #3a4f63;
+  --sv-accent: #4dd0e1;
+  --sv-accent-purple: #c084fc;
+  --sv-border: #4a5f73;
+  --sv-text: #ffffff;
+}
+```
+
+**Typography:**
+- Font: Montserrat (Google Fonts)
+- Weights: 400, 500, 700, 800
+- Headings: Uppercase, letter-spacing: 2px
+
+**Components:**
+- Rounded corners: 12px
+- Shadows: `0 2px 12px rgba(40,50,60,0.07)`
+- Buttons: Cyan background, white text
+- Badges: White text on colored backgrounds
+
+---
+
+### Step 9: Test and Validate
+
+**Validation Checklist:**
+
+- [ ] All 43 companies appear in Founder Success Dashboard
+- [ ] Filters work correctly (cycle, sector, stage)
+- [ ] Company table expands to show details
+- [ ] Charts render without errors
+- [ ] Cycle totals match KPI tiles
+- [ ] Sector aggregates are accurate
+- [ ] Sample data pages load for all dashboards
+- [ ] Navigation between dashboards works
+- [ ] Mobile responsive (basic)
+
+**Run Tests:**
+
+```bash
+npm run dev
+# Open http://localhost:3000
+# Click through all dashboards
+# Test all filters
+# Expand company rows
+# Check sample data pages
+```
+
+---
+
+### Step 10: Deploy
+
+**Option 1: Vercel (Recommended)**
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+
+# Follow prompts to deploy
+```
+
+**Option 2: Static Export**
+
+```bash
+# Add to next.config.js
+module.exports = {
+  output: 'export'
+}
+
+# Build
+npm run build
+
+# Deploy 'out' folder to any static host
+```
+
+---
+
+### Maintenance and Updates
+
+**Quarterly Data Refresh:**
+
+1. Export new GTM intro data
+2. Run extraction script (Step 2)
+3. Update company metadata if new companies added
+4. Regenerate synthetic metrics (Step 5)
+5. Recalculate aggregates (Step 6)
+6. Test dashboards (Step 9)
+7. Commit and deploy
+
+**Adding New Companies:**
+
+1. Add to `company_metadata` dictionary
+2. Assign sector, stage, cycle
+3. Regenerate `mart_founder_success.json`
+4. Update cycle and sector aggregates
+5. Test filters and charts
+
+**Updating Partner Data:**
+
+1. Extract partner names from GTM data
+2. Update `mart_partner_roi.json`
+3. Recalculate partner metrics
+4. Test Partner ROI dashboard
+
+---
+
+### Troubleshooting
+
+**Common Issues:**
+
+1. **Companies not appearing:**
+   - Check JSON syntax in data files
+   - Verify company_uid is unique
+   - Check filter logic in dashboard
+
+2. **Charts not rendering:**
+   - Verify Recharts is installed
+   - Check data format matches chart expectations
+   - Look for console errors
+
+3. **Filters not working:**
+   - Check useState and useMemo hooks
+   - Verify filter values match data
+   - Test with console.log
+
+4. **Aggregates don't match:**
+   - Recalculate from source data
+   - Check for null/undefined values
+   - Verify sum/average logic
+
+---
+
+### Best Practices
+
+1. **Data Quality:**
+   - Always use real company names from actual data
+   - Keep synthetic metrics realistic and consistent
+   - Document what's real vs. synthetic
+
+2. **Performance:**
+   - Keep JSON files under 1MB
+   - Use useMemo for expensive calculations
+   - Lazy load sample data pages
+
+3. **Maintainability:**
+   - Document sector assignments
+   - Keep extraction scripts in version control
+   - Use TypeScript for type safety
+
+4. **Privacy:**
+   - Never commit real financial data
+   - Use synthetic metrics for demos
+   - Add disclaimer to dashboards
+
+---
+
 **Generated**: 2025-11-04
-**Last Updated**: 2025-11-05
+**Last Updated**: 2025-11-06
