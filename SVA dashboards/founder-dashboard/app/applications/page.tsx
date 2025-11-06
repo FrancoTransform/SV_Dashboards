@@ -89,16 +89,49 @@ export default function ApplicationsPage() {
   const COLORS = ['#4dd0e1', '#c084fc'];
 
   return (
-    <div style={{ background: '#2d3e50', minHeight: '100vh', color: '#fff' }}>
+    <div className="min-h-screen" style={{ background: '#2d3e50' }}>
       {/* Header */}
-      <header style={{ background: '#1a2332', padding: '20px 40px', borderBottom: '1px solid #4a5f73' }}>
-        <div style={{ maxWidth: '1400px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div>
-            <h1 style={{ fontSize: '2rem', fontWeight: 800, margin: 0, color: '#fff' }}>APPLICATIONS DASHBOARD</h1>
-            <p style={{ margin: '8px 0 0 0', color: '#b0bec5' }}>Recruitment Funnel & Application Analytics</p>
+      <header className="border-b" style={{ borderColor: '#4a5f73' }}>
+        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+          <div className="flex items-center space-x-4">
+            <img
+              src="/SemperVirens-white-logo.avif"
+              alt="SemperVirens"
+              className="h-8"
+            />
           </div>
-          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-            <a href="/" style={{ color: '#4dd0e1', textDecoration: 'none', fontWeight: 600 }}>Dashboards</a>
+          <nav className="flex items-center space-x-6">
+            <div className="relative group">
+              <button className="text-white text-sm font-medium hover:text-cyan-400 transition-colors flex items-center space-x-1">
+                <span>Dashboards</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className="absolute right-0 mt-2 w-56 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50" style={{ background: '#3a4f63', border: '1px solid #4a5f73' }}>
+                <a href="/" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors rounded-t-lg">
+                  Founder Success Dashboard
+                </a>
+                <a href="/partner-roi" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Partner ROI Dashboard
+                </a>
+                <a href="/cycle-snapshot" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Cycle Snapshot
+                </a>
+                <a href="/portfolio-trends" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Portfolio Trends Tracker
+                </a>
+                <a href="/operational-health" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Operational Health Dashboard
+                </a>
+                <a href="/applications" className="block px-4 py-3 text-sm text-cyan-400 hover:bg-cyan-900 transition-colors font-semibold">
+                  Applications Dashboard
+                </a>
+                <a href="/advisors" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors rounded-b-lg">
+                  Advisory Board Dashboard
+                </a>
+              </div>
+            </div>
             <a
               href="/sample-data/applications"
               className="px-6 py-3 rounded-lg text-sm font-semibold transition-colors"
@@ -106,12 +139,20 @@ export default function ApplicationsPage() {
             >
               View Data
             </a>
-          </div>
+          </nav>
         </div>
       </header>
 
       {/* Main Content */}
-      <main style={{ maxWidth: '1400px', margin: '0 auto', padding: '40px' }}>
+      <main style={{ maxWidth: '1400px', margin: '0 auto', padding: '40px', color: '#fff' }}>
+        <div style={{ marginBottom: '40px' }}>
+          <h1 style={{ fontSize: '2.5rem', fontWeight: 800, margin: 0, textTransform: 'uppercase', letterSpacing: '2px' }}>
+            Applications Dashboard
+          </h1>
+          <p style={{ color: '#b0bec5', marginTop: '8px' }}>
+            Recruitment Funnel & Application Analytics
+          </p>
+        </div>
         {/* Cohort Tabs */}
         <section style={{ marginBottom: '32px' }}>
           <div style={{ display: 'flex', gap: '12px', borderBottom: '2px solid #4a5f73', paddingBottom: '0' }}>

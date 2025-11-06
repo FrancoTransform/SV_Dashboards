@@ -93,48 +93,62 @@ export default function AdvisorsPage() {
   }, [filteredData]);
 
   return (
-    <div style={{ minHeight: '100vh', background: '#2d3e50', color: '#fff', padding: '40px 20px' }}>
+    <div className="min-h-screen" style={{ background: '#2d3e50' }}>
       {/* Header */}
-      <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '40px' }}>
-          <div>
-            <h1 style={{ fontSize: '2.5rem', fontWeight: 800, margin: 0, textTransform: 'uppercase', letterSpacing: '2px' }}>
-              Advisory Board Dashboard
-            </h1>
-            <p style={{ color: '#b0bec5', marginTop: '8px' }}>
-              Manage and track SemperVirens advisor network, expertise, and portfolio company connections
-            </p>
+      <header className="border-b" style={{ borderColor: '#4a5f73' }}>
+        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+          <div className="flex items-center space-x-4">
+            <img
+              src="/SemperVirens-white-logo.avif"
+              alt="SemperVirens"
+              className="h-8"
+            />
           </div>
-          
-          {/* Dashboard Dropdown */}
-          <div style={{ position: 'relative' }}>
-            <select
-              style={{
-                background: '#3a4f63',
-                color: '#fff',
-                border: '1px solid #4a5f73',
-                borderRadius: '8px',
-                padding: '12px 40px 12px 16px',
-                fontSize: '1rem',
-                fontWeight: 600,
-                cursor: 'pointer',
-                appearance: 'none',
-              }}
-              onChange={(e) => {
-                if (e.target.value) window.location.href = e.target.value;
-              }}
-              defaultValue=""
-            >
-              <option value="" disabled>Switch Dashboard</option>
-              <option value="/">Founder Success</option>
-              <option value="/partner-roi">Partner ROI</option>
-              <option value="/cycle-snapshot">Cycle Snapshot</option>
-              <option value="/portfolio-trends">Portfolio Trends</option>
-              <option value="/operational-health">Operational Health</option>
-              <option value="/applications">Applications</option>
-              <option value="/advisors">Advisory Board (Current)</option>
-            </select>
-          </div>
+          <nav className="flex items-center space-x-6">
+            <div className="relative group">
+              <button className="text-white text-sm font-medium hover:text-cyan-400 transition-colors flex items-center space-x-1">
+                <span>Dashboards</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className="absolute right-0 mt-2 w-56 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50" style={{ background: '#3a4f63', border: '1px solid #4a5f73' }}>
+                <a href="/" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors rounded-t-lg">
+                  Founder Success Dashboard
+                </a>
+                <a href="/partner-roi" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Partner ROI Dashboard
+                </a>
+                <a href="/cycle-snapshot" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Cycle Snapshot
+                </a>
+                <a href="/portfolio-trends" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Portfolio Trends Tracker
+                </a>
+                <a href="/operational-health" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Operational Health Dashboard
+                </a>
+                <a href="/applications" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
+                  Applications Dashboard
+                </a>
+                <a href="/advisors" className="block px-4 py-3 text-sm text-cyan-400 hover:bg-cyan-900 transition-colors rounded-b-lg font-semibold">
+                  Advisory Board Dashboard
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '40px 20px', color: '#fff' }}>
+        <div style={{ marginBottom: '40px' }}>
+          <h1 style={{ fontSize: '2.5rem', fontWeight: 800, margin: 0, textTransform: 'uppercase', letterSpacing: '2px' }}>
+            Advisory Board Dashboard
+          </h1>
+          <p style={{ color: '#b0bec5', marginTop: '8px' }}>
+            Manage and track SemperVirens advisor network, expertise, and portfolio company connections
+          </p>
         </div>
 
         {/* Filters */}
@@ -280,7 +294,7 @@ export default function AdvisorsPage() {
                     >
                       <td style={{ padding: '16px', fontWeight: 600 }}>{advisor.full_name}</td>
                       <td style={{ padding: '16px' }}>
-                        <span style={{ padding: '4px 12px', borderRadius: '12px', fontSize: '0.75rem', fontWeight: 600, background: '#4dd0e1', color: '#2d3e50' }}>
+                        <span style={{ padding: '4px 12px', borderRadius: '12px', fontSize: '0.75rem', fontWeight: 600, background: '#4dd0e1', color: '#2d3e50', whiteSpace: 'nowrap', display: 'inline-block' }}>
                           {advisor.role}
                         </span>
                       </td>
