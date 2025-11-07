@@ -1,30 +1,22 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import founderData from '@/public/mart_founder_success.json';
-import partnerData from '@/public/mart_partner_roi.json';
 import { CompanyData } from '@/lib/types';
-import { PartnerData } from '@/lib/partnerTypes';
 
 export default function SampleDataPage() {
-  const pathname = usePathname();
-  const isPartnerROI = pathname?.includes('partner-roi');
+  const [selectedCompany, setSelectedCompany] = useState<CompanyData | null>(null);
 
-  const [selectedItem, setSelectedItem] = useState<any | null>(null);
+  const data = founderData as CompanyData[];
 
-  const data = isPartnerROI ? (partnerData as PartnerData[]) : (founderData as CompanyData[]);
-
-  // Group data by program cycle (only for company data)
-  const cycleGroups = isPartnerROI
-    ? {}
-    : (founderData as CompanyData[]).reduce((acc, company) => {
-        if (!acc[company.program_cycle_uid]) {
-          acc[company.program_cycle_uid] = [];
-        }
-        acc[company.program_cycle_uid].push(company);
-        return acc;
-      }, {} as Record<string, CompanyData[]>);
+  // Group data by program cycle
+  const cycleGroups = data.reduce((acc, company) => {
+    if (!acc[company.program_cycle_uid]) {
+      acc[company.program_cycle_uid] = [];
+    }
+    acc[company.program_cycle_uid].push(company);
+    return acc;
+  }, {} as Record<string, CompanyData[]>);
 
   return (
     <div className="min-h-screen" style={{ background: '#2d3e50' }}>
