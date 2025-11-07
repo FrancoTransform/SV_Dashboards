@@ -2,6 +2,8 @@
 
 This CLAUDE.md contains everything needed to vibe-code the **SemperVirens Accelerator Dashboards** using sample data that mirrors your accelerator. It includes data dictionaries, CSV links, metric definitions, SQL/JSON snippets, and a lightweight build plan.
 
+**GitHub Repository**: https://github.com/FrancoTransform/SV_Dashboards.git
+
 ## Dashboards
 
 1. **Founder Success Dashboard** - Tracking accelerator performance and portfolio company growth
