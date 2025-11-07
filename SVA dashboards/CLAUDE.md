@@ -9,6 +9,8 @@ This CLAUDE.md contains everything needed to vibe-code the **SemperVirens Accele
 3. **Cycle Snapshot** - Key stats and highlights for each cohort (public/marketing)
 4. **Portfolio Trends Tracker** - Analyzing which sectors and models are performing best (investment/strategy)
 5. **Operational Health Dashboard** - Monitoring efficiency and resource utilization across cycles (platform/ops team)
+6. **Applications Dashboard** - Recruitment funnel and application analytics across cohorts
+7. **Advisory Board Dashboard** - Advisor network management and engagement tracking
 
 ---
 
@@ -545,7 +547,7 @@ See **`REAL_DATA_MAPPING.md`** for complete mapping details, data sources, and r
 **Status**: ✅ COMPLETE
 
 **Implementation Date**: 2025-11-04
-**Last Updated**: 2025-11-06 (Real data integration)
+**Last Updated**: 2025-11-07 (Navigation and UX standardization)
 
 ### 11.1) What Was Built
 
@@ -562,18 +564,39 @@ A fully functional Next.js 16 dashboard application with the following features:
 ```
 founder-dashboard/
 ├── app/
-│   ├── layout.tsx          # Root layout with Montserrat font
-│   ├── page.tsx            # Main dashboard page
-│   └── globals.css         # Global styles with SV branding
+│   ├── layout.tsx                      # Root layout with Montserrat font
+│   ├── page.tsx                        # Founder Success Dashboard
+│   ├── globals.css                     # Global styles with SV branding
+│   ├── partner-roi/page.tsx            # Partner ROI Dashboard
+│   ├── cycle-snapshot/page.tsx         # Cycle Snapshot Dashboard
+│   ├── portfolio-trends/page.tsx       # Portfolio Trends Tracker
+│   ├── operational-health/page.tsx     # Operational Health Dashboard
+│   ├── applications/page.tsx           # Applications Dashboard
+│   ├── advisors/page.tsx               # Advisory Board Dashboard
+│   └── sample-data/                    # Sample data viewers for each dashboard
+│       ├── founder-success/page.tsx
+│       ├── partner-roi/page.tsx
+│       ├── cycle-snapshot/page.tsx
+│       ├── portfolio-trends/page.tsx
+│       ├── operational-health/page.tsx
+│       ├── applications/page.tsx
+│       └── advisors/page.tsx
 ├── components/
-│   ├── KPITile.tsx         # Reusable KPI metric tile
-│   ├── CompanyTable.tsx    # Interactive company table with drill-down
-│   └── Charts.tsx          # Three chart components (Funding, Revenue, Pilots/Partnerships)
+│   ├── KPITile.tsx                     # Reusable KPI metric tile
+│   ├── CompanyTable.tsx                # Interactive company table with drill-down
+│   └── Charts.tsx                      # Chart components (Funding, Revenue, Pilots/Partnerships)
 ├── lib/
-│   ├── types.ts            # TypeScript interfaces
-│   └── dataUtils.ts        # KPI computation and narrative generation
+│   ├── types.ts                        # TypeScript interfaces
+│   └── dataUtils.ts                    # KPI computation and narrative generation
 └── public/
-    └── mart_founder_success.json  # Sample data
+    ├── mart_founder_success.json       # 43 portfolio companies
+    ├── mart_partner_roi.json           # Partner engagement data
+    ├── mart_cycle_snapshot.json        # Cohort highlights
+    ├── mart_portfolio_trends.json      # Sector performance data
+    ├── mart_operational_health.json    # Operational metrics
+    ├── mart_applications.json          # 164 applications (3 cohorts)
+    ├── mart_advisors.json              # 178 advisors
+    └── SemperVirens-white-logo.avif    # Logo asset
 ```
 
 #### Features Implemented
@@ -1016,7 +1039,191 @@ An internal operations dashboard monitoring efficiency, budget utilization, and 
 
 ---
 
-## 16) Complete Replication Guide
+## 16) Applications Dashboard
+
+**Status**: ✅ COMPLETE
+
+**Implementation Date**: 2025-11-06
+
+### Overview
+
+A recruitment analytics dashboard tracking application volume, acceptance rates, and fundraising status across multiple cohorts.
+
+### Data Structure
+
+**mart_applications.json** - Application records from "Raw Application Data" sheet:
+```json
+{
+  "cohort": "Cohort 1",
+  "company_name": "Example Corp",
+  "company_description": "AI-powered platform...",
+  "problem_statement": "Solving X problem...",
+  "status": "PASSED",
+  "currently_fundraising": "Yes",
+  "company_age_years": 2,
+  "founders": "John Doe, Jane Smith",
+  "team_size": 5,
+  "company_website": "https://example.com",
+  "pitch_deck": "https://...",
+  "demo_link": "https://..."
+}
+```
+
+### Features
+
+- **Cohort Tabs**: Switch between Cohort 1 (22), Cohort 2 (127), Cohort 3 (15)
+- **6 KPI Tiles per Cohort**:
+  - Total Applications
+  - Applications Passed
+  - Acceptance Rate
+  - Currently Fundraising
+  - Fundraising Rate
+  - Average Company Age
+- **Interactive Table**: Expandable rows showing full company details
+- **Real Data**: 164 total applications from `SVA Applications.xlsx` - "Raw Application Data" sheet
+
+---
+
+## 17) Advisory Board Dashboard
+
+**Status**: ✅ COMPLETE
+
+**Implementation Date**: 2025-11-06
+
+### Overview
+
+An advisor network management dashboard showing advisor profiles, expertise areas, engagement levels, and portfolio company connections.
+
+### Data Structure
+
+**mart_advisors.json** - Advisor records from "Full Contact List" sheet:
+```json
+{
+  "advisor_uid": "ADV-001",
+  "name": "John Smith",
+  "email": "john@example.com",
+  "linkedin_url": "https://linkedin.com/in/...",
+  "role": "HR Venture Advisor",
+  "company": "Acme Corp",
+  "title": "VP of HR",
+  "location": "Bay Area",
+  "areas_of_expertise": "Benefits, Compensation, Talent Acquisition",
+  "portfolio_company_advisor": "Company A, Company B",
+  "engagement_status": "Active",
+  "female": "Yes",
+  "urm": "No",
+  "date_added": "2024-01-15"
+}
+```
+
+### Features
+
+- **6 KPI Tiles**:
+  - Total Advisors: 178
+  - HR Venture Advisors: 151
+  - Executive Advisors: 18
+  - Insights Advisors: 8
+  - PortCo Connections: 9
+  - Female Advisors: 87 (48.9%)
+- **Filters**: Role (All, HR Venture, Executive, Insights) and Location (All, Bay Area, NYC, etc.)
+- **Interactive Directory**: Expandable advisor cards with full profiles
+- **Real Data**: 178 advisors from `SemperVirens Advisory Board.xlsx` - "Full Contact List" sheet
+
+---
+
+## 18) Navigation & UX Standardization
+
+**Status**: ✅ COMPLETE
+
+**Implementation Date**: 2025-11-07
+
+### Overview
+
+All 7 dashboards now have consistent navigation and UX patterns for a unified experience.
+
+### Standardized Components
+
+#### **1. Header Navigation**
+All dashboards use the same header structure:
+- **SemperVirens logo** (left side)
+- **Dashboards dropdown menu** (right side, hover-activated)
+- **View Data button** (right side, next to dropdown)
+
+**Navigation Pattern**:
+```tsx
+<header className="border-b" style={{ borderColor: '#4a5f73' }}>
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div className="flex items-center space-x-4">
+      <img src="/SemperVirens-white-logo.avif" alt="SemperVirens" className="h-8" />
+    </div>
+    <nav className="flex items-center space-x-6">
+      <div className="relative group">
+        {/* Hover-activated dropdown with all 7 dashboards */}
+      </div>
+      <a href="/sample-data/[dashboard]" className="px-6 py-3 rounded-lg...">
+        View Data
+      </a>
+    </nav>
+  </div>
+</header>
+```
+
+#### **2. Hero Section**
+Simplified hero sections across all dashboards:
+- **Consistent styling**: `py-12` padding, `#3a4f63` background
+- **SemperVirens branding**: "SemperVirens Venture Capital" subtitle
+- **Dashboard title**: Highlighted in cyan (`text-cyan-400`)
+- **Description**: Gray text below title
+- **No buttons**: All navigation moved to header
+
+**Hero Pattern**:
+```tsx
+<section className="py-12" style={{ background: '#3a4f63' }}>
+  <div className="max-w-7xl mx-auto px-6">
+    <div>
+      <p className="text-cyan-400 text-sm font-medium mb-2">SemperVirens Venture Capital</p>
+      <h1 className="text-4xl font-bold text-white mb-2">
+        <span className="text-cyan-400">[Dashboard Name]</span>
+      </h1>
+      <p className="text-xl text-gray-300">
+        [Dashboard description]
+      </p>
+    </div>
+  </div>
+</section>
+```
+
+#### **3. View Data Button Location**
+**Before**: Inconsistent locations (hero section, centered, header)
+**After**: Always in header navigation, next to Dashboards dropdown
+
+**Benefits**:
+- ✅ Consistent user experience across all dashboards
+- ✅ Navigation controls grouped together
+- ✅ Cleaner hero sections
+- ✅ Easier to find sample data
+
+### Updated Dashboards
+
+All 7 dashboards updated with consistent navigation:
+1. ✅ Founder Success Dashboard
+2. ✅ Partner ROI Dashboard
+3. ✅ Cycle Snapshot
+4. ✅ Portfolio Trends Tracker
+5. ✅ Operational Health Dashboard
+6. ✅ Applications Dashboard
+7. ✅ Advisory Board Dashboard
+
+### Design Fixes
+
+**Role Badge Text Wrapping** (Advisory Board):
+- **Problem**: "Executive Advisor" text was wrapping to two lines
+- **Solution**: Added `whiteSpace: 'nowrap'` and `display: 'inline-block'` to badge styling
+- **Result**: All role labels now display on a single line
+
+---
+
+## 19) Complete Replication Guide
 
 **Status**: ✅ COMPLETE
 
@@ -1495,5 +1702,56 @@ npm run build
 
 ---
 
+## Summary
+
+### What Was Built
+
+A complete Next.js 16 dashboard system with **7 fully functional dashboards**:
+
+1. ✅ **Founder Success Dashboard** - 43 portfolio companies with growth metrics
+2. ✅ **Partner ROI Dashboard** - Corporate partner value measurement
+3. ✅ **Cycle Snapshot** - Cohort highlights and comparisons
+4. ✅ **Portfolio Trends Tracker** - Sector performance analysis
+5. ✅ **Operational Health Dashboard** - Efficiency and resource monitoring
+6. ✅ **Applications Dashboard** - 164 applications across 3 cohorts
+7. ✅ **Advisory Board Dashboard** - 178 advisors with expertise tracking
+
+### Key Features
+
+- **Real Data Integration**: All dashboards use real data from Excel files
+- **Consistent Navigation**: Hover-based dropdown menu across all dashboards
+- **Standardized UX**: Uniform header, hero sections, and button placement
+- **Interactive Tables**: Expandable rows with detailed information
+- **Dynamic Filtering**: Multi-select filters for cohorts, sectors, roles, locations
+- **Rich Visualizations**: Recharts-based charts and KPI tiles
+- **Sample Data Viewers**: Dedicated pages to inspect raw data
+- **Responsive Design**: Tailwind CSS with SemperVirens branding
+
+### Data Sources
+
+- **GTM & Corp Dev Intros PY8.xlsx** → 43 portfolio companies
+- **SVA Applications.xlsx** → 164 applications (3 cohorts)
+- **SemperVirens Advisory Board.xlsx** → 178 advisors
+
+### Technology Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Charts**: Recharts
+- **Font**: Montserrat (Google Fonts)
+- **Data Processing**: Python with pandas and openpyxl
+
+### Git Commits
+
+- `Checkpoint: All 5 dashboards complete with 43 companies, View Data buttons, and data source references`
+- `Checkpoint: Applications Dashboard complete with 164 applications (22/127/15 across 3 cohorts) from Raw Application Data`
+- `Add Advisory Board Dashboard with 178 advisors from SemperVirens Advisory Board.xlsx`
+- `Standardize dashboard dropdown navigation across all dashboards and fix role label wrapping in Advisory Board`
+- `Standardize View Data button location to header navigation across all dashboards`
+- `Checkpoint: Consistent navigation and View Data button across all 7 dashboards`
+
+---
+
 **Generated**: 2025-11-04
-**Last Updated**: 2025-11-06
+**Last Updated**: 2025-11-07
