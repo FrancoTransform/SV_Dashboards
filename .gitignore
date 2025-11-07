@@ -70,3 +70,4 @@ node_modules/
 
 # Test files
 test_app.py
+.DS_Store
