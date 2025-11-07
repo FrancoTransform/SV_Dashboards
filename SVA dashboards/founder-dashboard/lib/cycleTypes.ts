@@ -66,5 +66,15 @@ export interface OperationalHealthData {
   roi_on_investment: number;
   partner_engagement_score: number;
   alumni_engagement_score: number;
+  application_volume: number;
+  applications_accepted: number;
+  acceptance_rate_pct: number;
+  source_quality_score: number;
+  media_mentions: number;
+  co_marketing_outputs: number;
+  press_releases: number;
+  commercial_validation_score: number;
+  capital_efficiency_score: number;
+  market_positioning_score: number;
 }
 
