@@ -101,37 +101,12 @@ export default function ApplicationsPage() {
             />
           </div>
           <nav className="flex items-center space-x-6">
-            <div className="relative group">
-              <button className="text-white text-sm font-medium hover:text-cyan-400 transition-colors flex items-center space-x-1">
-                <span>Dashboards</span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              <div className="absolute right-0 mt-2 w-56 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50" style={{ background: '#3a4f63', border: '1px solid #4a5f73' }}>
-                <a href="/" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors rounded-t-lg">
-                  Founder Success Dashboard
-                </a>
-                <a href="/partner-roi" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
-                  Partner ROI Dashboard
-                </a>
-                <a href="/cycle-snapshot" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
-                  Cycle Snapshot
-                </a>
-                <a href="/portfolio-trends" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
-                  Portfolio Trends Tracker
-                </a>
-                <a href="/operational-health" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors">
-                  Operational Health Dashboard
-                </a>
-                <a href="/applications" className="block px-4 py-3 text-sm text-cyan-400 hover:bg-cyan-900 transition-colors font-semibold">
-                  Applications Dashboard
-                </a>
-                <a href="/advisors" className="block px-4 py-3 text-sm text-white hover:bg-cyan-900 hover:text-cyan-400 transition-colors rounded-b-lg">
-                  Advisory Board Dashboard
-                </a>
-              </div>
-            </div>
+            <a
+              href="/"
+              className="text-white text-sm font-medium hover:text-cyan-400 transition-colors"
+            >
+              ← Back to Home
+            </a>
             <a
               href="/sample-data/applications"
               className="px-6 py-3 rounded-lg text-sm font-semibold transition-colors"
