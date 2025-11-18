@@ -44,6 +44,12 @@ export default function DashboardIndex() {
       href: '/advisors',
       icon: '👥',
     },
+    {
+      title: 'Investment Portfolio Dashboard',
+      description: 'Track portfolio company funding, follow-on investments, sector distribution, and corporate investor relationships.',
+      href: '/investment-portfolio',
+      icon: '💰',
+    },
   ];
 
   return (
