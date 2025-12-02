@@ -3,7 +3,7 @@
 import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import portfolioData from '@/public/mart_investment_portfolio.json';
+import { useCartaData } from '@/lib/useCartaData';
 
 function LayoutContent({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -11,8 +11,18 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
   const searchParams = useSearchParams();
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
-  const data = portfolioData as any;
+  const { data, loading } = useCartaData();
   const selectedFund = searchParams.get('fund') || 'all';
+
+  // Default empty counts if data is loading or not available
+  const fundCounts = {
+    fundI: data?.fundI?.length || 0,
+    fundII: data?.fundII?.length || 0,
+    fundIII: data?.fundIII?.length || 0,
+    gofI: data?.gofI?.length || 0,
+    gofII: data?.gofII?.length || 0,
+  };
+  const totalCount = fundCounts.fundI + fundCounts.fundII + fundCounts.fundIII + fundCounts.gofI + fundCounts.gofII;
 
   const handleFundChange = (fund: string) => {
     const params = new URLSearchParams(searchParams.toString());
@@ -75,7 +85,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                 border: selectedFund === 'all' ? 'none' : '1px solid #dadada'
               }}
             >
-              All Funds ({data.fundI.length + data.fundII.length + data.fundIII.length + data.gofI.length + data.gofII.length})
+              All Funds {loading ? '' : `(${totalCount})`}
             </button>
             <button
               onClick={() => handleFundChange('Fund I')}
@@ -86,7 +96,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                 border: selectedFund === 'Fund I' ? 'none' : '1px solid #dadada'
               }}
             >
-              Fund I ({data.fundI.length})
+              Fund I {loading ? '' : `(${fundCounts.fundI})`}
             </button>
             <button
               onClick={() => handleFundChange('Fund II')}
@@ -97,7 +107,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                 border: selectedFund === 'Fund II' ? 'none' : '1px solid #dadada'
               }}
             >
-              Fund II ({data.fundII.length})
+              Fund II {loading ? '' : `(${fundCounts.fundII})`}
             </button>
             <button
               onClick={() => handleFundChange('Fund III')}
@@ -108,7 +118,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                 border: selectedFund === 'Fund III' ? 'none' : '1px solid #dadada'
               }}
             >
-              Fund III ({data.fundIII.length})
+              Fund III {loading ? '' : `(${fundCounts.fundIII})`}
             </button>
             <button
               onClick={() => handleFundChange('GOF I')}
@@ -119,7 +129,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                 border: selectedFund === 'GOF I' ? 'none' : '1px solid #dadada'
               }}
             >
-              GOF I ({data.gofI.length})
+              GOF I {loading ? '' : `(${fundCounts.gofI})`}
             </button>
             <button
               onClick={() => handleFundChange('GOF II')}
@@ -130,7 +140,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
                 border: selectedFund === 'GOF II' ? 'none' : '1px solid #dadada'
               }}
             >
-              GOF II ({data.gofII.length})
+              GOF II {loading ? '' : `(${fundCounts.gofII})`}
             </button>
           </div>
         </div>
