@@ -1,0 +1,380 @@
+
+================================================================================
+File: SemperVirens Fund II Workbook - 2025.12.31.xlsx
+================================================================================
+Sheet Names: ['Fund Dashboard', 'Investment Performance Summary', 'Supporting Worksheets -->', 'Statement of Investments', 'Portfolio Construction', 'Investment Characteristics', 'Investment Rollover', 'Reserves old2', 'Reserves', 'Reserves old', 'Sheet1', 'Fund Pacing', 'Exit Forecast']
+--------------------------------------------------------------------------------
+
+--- Sheet: 'Fund Dashboard' ---
+Dimensions: (15, 6)
+First 5 rows:
+   Unnamed: 0                    Unnamed: 1        Unnamed: 2  Unnamed: 3                   Unnamed: 4        Unnamed: 5
+0         NaN  SemperVirens Fund II Summary               NaN         NaN                          NaN               NaN
+1         NaN                           NaN  As of 12/31/2025         NaN                          NaN  As of 12/31/2025
+2         NaN                           NaN               NaN         NaN                          NaN               NaN
+3         NaN                 Fund Capital:               NaN         NaN  Quarterly Invested Capital:               NaN
+4         NaN             Committed Capital          20730000         NaN              New Investments                 0
+
+
+--- Sheet: 'Investment Performance Summary' ---
+Dimensions: (49, 11)
+First 5 rows:
+   Unnamed: 0                               Unnamed: 1    Unnamed: 2    Unnamed: 3 Unnamed: 4  Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10
+0         NaN  SemperVirens Fund II Investment Summary           NaN           NaN        NaN         NaN        NaN        NaN        NaN        NaN         NaN
+1         NaN                                      NaN           NaN           NaN        NaN         NaN        NaN        NaN        NaN        NaN         NaN
+2         NaN                         As of 12/31/2025  Initial Inv.  Initial Exit   Dollars   Unrealized   Realized      Total     Gross       Gross         NaN
+3         NaN                                  Company          Date          Date   Invested       Value      Value      Value   Multiple        IRR         NaN
+4         NaN                       Realized Portfolio           NaN           NaN        NaN         NaN        NaN        NaN        NaN        NaN         NaN
+
+
+--- Sheet: 'Supporting Worksheets -->' ---
+Dimensions: (0, 0)
+First 5 rows:
+Empty DataFrame
+Columns: []
+Index: []
+
+
+--- Sheet: 'Statement of Investments' ---
+Dimensions: (227, 25)
+First 5 rows:
+  2025-12-31 00:00:00 As of 2025-12-31 00:00:00.1  Unnamed: 3 Unnamed: 4 Unnamed: 5          Unnamed: 6  Unnamed: 7 Unnamed: 8  Unnamed: 9    Unnamed: 10    Unnamed: 11  Unnamed: 12    Unnamed: 13    Unnamed: 14  Unnamed: 15 Unnamed: 16 Unnamed: 17          Unnamed: 18  Unnamed: 19 Unnamed: 20  Unnamed: 21 Unnamed: 22  Unnamed: 23  Unnamed: 24
+0                 NaN   NaN           Investment   Liquidity         NaN        NaN                 NaN         NaN        NaN         NaN  Original Cost            NaN          NaN  Current Value            NaN          NaN       Gross         NaN                  NaN          NaN         NaN          NaN         NaN          NaN          NaN
+1                 NaN   NaN                  Date        Date        NaN   Security  Stock Certificates         NaN     Shares         NaN      Per Share  Total Dollars          NaN      Per Share  Total Dollars          NaN        MOIC         IRR                  NaN          NaN         NaN          NaN         NaN          NaN          NaN
+2                 NaN   NaN                   NaN         NaN        NaN        NaN                 NaN         NaN        NaN         NaN            NaN            NaN          NaN            NaN            NaN          NaN         NaN         NaN  2018-01-01 00:00:00         -0.1         NaN          NaN         NaN          NaN          NaN
+3            REALIZED   NaN                   NaN         NaN        NaN        NaN                 NaN         NaN        NaN         NaN            NaN            NaN          NaN            NaN            NaN          NaN         NaN         NaN                  NaN          NaN         NaN          NaN         NaN          NaN          NaN
+4                 NaN   NaN                   NaN         NaN        NaN        NaN                 NaN         NaN        NaN         NaN            NaN            NaN          NaN            NaN            NaN          NaN         NaN         NaN                  NaN          NaN         NaN          NaN         NaN          NaN          NaN
+
+
+--- Sheet: 'Portfolio Construction' ---
+Dimensions: (35, 7)
+First 5 rows:
+   Unnamed: 0 Unnamed: 1           Unnamed: 2       20600000  Unnamed: 4       73000000 Unnamed: 6
+0         NaN        NaN                  NaN         Fund I         NaN        Fund II   % change
+1         NaN       Seed           # of Deals             14         NaN             12  -0.142857
+2         NaN        NaN       % of Portfolio            0.5         NaN       0.413793  -0.172414
+3         NaN        NaN   Avg. Initital Inv.  258412.482257         NaN  688344.201667   1.663742
+4         NaN        NaN  Inv. % of Fund Size       0.012544         NaN       0.009429  -0.248314
+
+
+--- Sheet: 'Investment Characteristics' ---
+Dimensions: (93, 59)
+First 5 rows:
+  Unnamed: 0                          Unnamed: 1           Unnamed: 2 Unnamed: 3  Unnamed: 4  Unnamed: 5                     Unnamed: 6 Unnamed: 7 Unnamed: 8  Unnamed: 9                         Unnamed: 10 Unnamed: 11 Unnamed: 12 Updated as of 9.30    Unnamed: 14 Unnamed: 15     Unnamed: 16        Unnamed: 17 Unnamed: 18   Unnamed: 19 Unnamed: 20      74000000  Unnamed: 22          Unnamed: 23          Unnamed: 24          Unnamed: 25          Unnamed: 26          Unnamed: 27          Unnamed: 28          Unnamed: 29          Unnamed: 30          Unnamed: 31          Unnamed: 32          Unnamed: 33                                                                                                                                                                                                                                                                       Unnamed: 34 Unnamed: 35  Unnamed: 36  Unnamed: 37                      Unnamed: 38 Unnamed: 39 Unnamed: 40 Unnamed: 41 Unnamed: 42  Unnamed: 43 Unnamed: 44 Unnamed: 45             Unnamed: 46 Unnamed: 47 Unnamed: 48 Unnamed: 49    Unnamed: 50   Unnamed: 51  Unnamed: 52 Unnamed: 53  Unnamed: 54               Unnamed: 55 Unnamed: 56 Unnamed: 57 Unnamed: 58
+0        NaN  Initial Investment Characteristics                  NaN        NaN         NaN         NaN                            NaN        NaN        NaN         NaN  Current Investment Characteristics         NaN         NaN                NaN            NaN         NaN             NaN                NaN         NaN           NaN         NaN           NaN          NaN                  NaN                  NaN                  NaN                  NaN                  NaN                  NaN                  NaN                  NaN                  NaN                  NaN                  NaN                                                                                                                                                                                                                                                                               NaN         NaN          NaN          NaN  VOTING - "overall" by IC member         NaN         NaN         NaN         NaN          NaN         NaN         NaN  Avg Vote - by category         NaN         NaN         NaN  *Missing Vote  Double-check          NaN         NaN          NaN  Scorecards - by category         NaN         NaN         NaN
+1        NaN                             Company                 Date     Series      Sector  $ Invested                   VC Syndicate        FD%  Avg. Cost         NaN                             Company      Series  $ Invested                FD%  Initital Cost   Avg. Cost  Last Valuation      Holding Value  $ Invested  Market Value    Multiple           RTF          NaN  2021-03-30 00:00:00  2021-09-30 00:00:00  2022-06-30 00:00:00  2022-12-31 00:00:00  2023-06-30 00:00:00  2023-12-31 00:00:00  2024-06-30 00:00:00  2024-09-30 00:00:00  2024-12-31 00:00:00  2025-06-30 00:00:00  2025-09-30 00:00:00                                                                                                                                                                                                                                                                         Rationale      Runway          NaN          NaN                              ABG        CBOU       Colin        Greg       Robby          NaN     Overall        Team                    Tech         TAM      Timing       Terms            NaN           NaN          NaN        Lead  Qual. Total              Quant. Total  Deal Terms       Total       Notes
+2        NaN                          Brightline  2020-08-04 00:00:00          A  Healthtech   499998.47       GV, Oak HC/FT, Threshold    0.00625   80000000         NaN                          Brightline           C  1499987.04            0.00603       80000000   248800000       757442906          757442906  1499987.04  4521963.6696    3.014668  12271.856507          NaN                    0                    0                   -1                    0                    0                    1                    1                    1                    1                    1                    0  Revenue is down slightly yoy, profitable this year. Focusing on delivering care in person, opened 3rd clinic in NY, leadership change, revenue growth -ve, have they de-risked the hybrid model yet? Can it grow and scale? Valuation multiple seems high given the fact pattern         NaN          NaN          NaN                                2           1           2           1           2          NaN         1.6         1.8                     0.6           2           2         0.2            NaN           NaN          NaN         ABG         49.8                       6.5           7        63.3         NaN
+3        NaN                              Murmur  2020-09-24 00:00:00       Seed   Workforce      225000  Lerer Hippeau, Human Ventures   0.026472    8500000         NaN                              Murmur        Seed     1574998            0.06407        8500000    24600000        28000000                  0     1574998             0           0   1154.992297          NaN                    0                    0                    1                    0                    0                    1                    0                    0                   -1                   -1                   -1                                                                                                                                                                                                                                                                    N/A - shutdown         NaN          NaN          NaN                                1           1           1           1           1          NaN           1         1.3                     0.7         1.7           2           2            NaN           NaN          NaN         ABG           44                         8           9          61         NaN
+4        NaN                            Pinwheel  2020-10-01 00:00:00          A   Financial   499997.04   Coatue, First Round, Upfront      0.005  100000000         NaN                            Pinwheel           B  1453156.07           0.005793      100000000   250900000    506374335.28  Pref Stack - $78M  1453156.07    1453156.07           1  12774.644412          NaN                    0                    1                    1                    1                    0                    0                    0                    0                    0                    0                    0                                                                                                                                                                                                            30 months of runway, undergoing CEO change, written-down to cost in Q3   30 months          NaN          NaN                                2           1           1           1           1          NaN         1.2           1                     0.6           2         1.8         0.2            NaN           NaN          NaN      RP/ABG         46.5                      10.5           7          64         NaN
+
+
+--- Sheet: 'Investment Rollover' ---
+Dimensions: (38, 14)
+First 5 rows:
+   Unnamed: 0  Unnamed: 1       Unnamed: 2 Unnamed: 3    Unnamed: 4       Unnamed: 5  Unnamed: 6      Unnamed: 7       Unnamed: 8 Unnamed: 9   Unnamed: 10   Unnamed: 11      Unnamed: 12 Unnamed: 13
+0         NaN        Cost              NaN        NaN           NaN              NaN         NaN  Carrying Value              NaN        NaN           NaN           NaN              NaN         NaN
+1         NaN     Company  6/30/2025 Value  Additions  Dispositions  9/30/2025 Value         NaN         Company  6/30/2025 Value  Additions  Dispositions  Writeup/Down  9/30/2025 Value        MOIC
+2         NaN  Brightline       1499987.04          0             0       1499987.04         NaN      Brightline     4521963.6696          0             0             0     4521963.6696    3.014668
+3         NaN      Murmur          1574998          0             0          1574998         NaN          Murmur          1574998          0             0      -1574998                0           0
+4         NaN    Pinwheel       1453156.07          0             0       1453156.07         NaN        Pinwheel     3035952.2046          0             0 -1582796.1346       1453156.07           1
+
+
+--- Sheet: 'Reserves old2' ---
+Dimensions: (47, 16)
+First 5 rows:
+   Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5              Unnamed: 6 Unnamed: 7 Unnamed: 8  Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15
+0         NaN        NaN        NaN        NaN        NaN        NaN    Total Remaining Cash    8383280        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+1         NaN        NaN        NaN        NaN        NaN        NaN  3 Yrs. Management Fees   -3359850        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+2         NaN        NaN        NaN        NaN        NaN        NaN     Net Investable Cash    5023430        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+3         NaN        NaN        NaN        NaN        NaN        NaN          Total Reserves   -8500000        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+4         NaN        NaN        NaN        NaN        NaN        NaN           Net Remaining   -3476570        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+
+
+--- Sheet: 'Reserves' ---
+Dimensions: (63, 14)
+First 5 rows:
+   Unnamed: 0  Unnamed: 1     Unnamed: 2 Unnamed: 3      Unnamed: 4  Unnamed: 5  Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9 Unnamed: 10        Unnamed: 11  Unnamed: 12  Unnamed: 13
+0         NaN         NaN            NaN        NaN             NaN         NaN         NaN         NaN         NaN         NaN         NaN                NaN          NaN          NaN
+1         NaN         NaN            NaN        NaN             NaN         NaN     Initial         NaN       Total         NaN         NaN                NaN          NaN          NaN
+2         NaN     Company  Current Stage  Ownership  Last Valuation         NaN  $ Invested  Follow-Ons  $ Invested         NaN    Reserves  Inv. and Reserved          NaN          NaN
+3         NaN  Brightline              C    0.00603       757442906         NaN   499998.47   999988.57  1499987.04         NaN           0         1499987.04          NaN          NaN
+4         NaN      Murmur           Seed    0.06407        28000000         NaN      225000     1349998     1574998         NaN           0            1574998          NaN          NaN
+
+
+--- Sheet: 'Reserves old' ---
+Dimensions: (85, 17)
+First 5 rows:
+   Unnamed: 0  Unnamed: 1  Unnamed: 2  Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6 Unnamed: 7 Unnamed: 8      Unnamed: 9 Unnamed: 10  Unnamed: 11    Unnamed: 12 Unnamed: 13     Unnamed: 14 Unnamed: 15 Unnamed: 16
+0         NaN         NaN         NaN     Initial         NaN       Total  Portfolio                6277500             NaN  Portfolio           NaN            NaN         NaN             NaN         NaN            
+1         NaN     Company      Sector  $ Invested  Follow-Ons  $ Invested  Allocation        NaN   Reserves  Total+Reserves  Allocation          NaN  Current Stage   Avg. Cost  Last Valuation         NaN         NaN
+2         NaN  Brightline  Healthtech   499998.47   999988.57  1499987.04         NaN        NaN          0      1499987.04     0.02027          NaN              C   248800000       757442906         NaN         NaN
+3         NaN      Murmur   Workforce      225000     1349998     1574998         NaN        NaN          0         1574998    0.021284          NaN           Seed    28000000        28000000         NaN         NaN
+4         NaN    Pinwheel   Financial   499997.04   953159.03  1453156.07         NaN        NaN          0      1453156.07    0.019637          NaN              B   250900000    506374335.28         NaN         NaN
+
+
+--- Sheet: 'Sheet1' ---
+Dimensions: (11, 3)
+First 5 rows:
+   Unnamed: 0        Unnamed: 1   Unnamed: 2
+0         NaN  Invested Capital  43303070.94
+1         NaN               NaN          NaN
+2         NaN          Net Cash  11155435.00
+3         NaN  Callable Capital  15884916.00
+4         NaN  Pending New Inv.          NaN
+
+
+--- Sheet: 'Fund Pacing' ---
+Dimensions: (31, 38)
+First 5 rows:
+   Unnamed: 0                Unnamed: 1           Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16 Unnamed: 17 Unnamed: 18 Unnamed: 19 Unnamed: 20 Unnamed: 21 Unnamed: 22 Unnamed: 23 Unnamed: 24 Unnamed: 25 Unnamed: 26 Unnamed: 27 Unnamed: 28 Unnamed: 29 Unnamed: 30 Unnamed: 31 Unnamed: 32 Unnamed: 33 Unnamed: 34 Unnamed: 35 Unnamed: 36 Unnamed: 37
+0         NaN                 Fund Size             50000000        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+1         NaN                 Reserve %                  0.5        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+2         NaN  Average Total Investment              1750000        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+3         NaN   Investment Period (mos)                   36        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+4         NaN     Investment Start Date  2020-08-01 00:00:00        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+
+
+--- Sheet: 'Exit Forecast' ---
+Dimensions: (33, 20)
+First 5 rows:
+   Unnamed: 0      9.30.2025 Unnamed: 2     Unnamed: 3 Unnamed: 4  Unnamed: 5       Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9      Unnamed: 10 Unnamed: 11    Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15    Unnamed: 16     Unnamed: 17    Unnamed: 18 Unnamed: 19
+0         NaN            NaN        NaN            NaN        NaN         NaN              NaN        NaN        NaN        NaN              NaN         NaN            NaN         NaN         NaN         NaN            NaN             NaN            NaN         NaN
+1         NaN  Exit Forecast        NaN            NaN        NaN         NaN              NaN        NaN        NaN        NaN              NaN         NaN            NaN         NaN         NaN         NaN            NaN             NaN            NaN         NaN
+2         NaN            NaN        NaN            NaN        NaN         NaN              NaN    Revenue        NaN        NaN              NaN         NaN            NaN        0.25         0.5        0.25            NaN             NaN            NaN         NaN
+3         NaN        Company    Partner  Current Stage  Ownership  Total Inv.       Mkt. Value      2023A      2024A      2025E  ARR as of Q2 25   3 Yr CAGR  Holding Value        Bear        Base        Bull  Weighted Exit  Exit Ownership  Exit Proceeds   Exit MOIC
+4         NaN           Rula         CT              C      0.022     4500000  25285301.022347   56849444  121610895  224398598     664899269.88        0.99     1250000000  1250000000  2000000000  5000000000     2562500000         0.01979       50711875   11.269306
+
+
+================================================================================
+File: SemperVirens Fund III Workbook - 2025.12.31.xlsx
+================================================================================
+Sheet Names: ['Fund Dashboard', 'Investment Performance Summary', 'Supporting Worksheets -->', 'Sheet2', 'Statement of Investments', 'Investment Characteristics', 'Portfolio Construction', 'Investment Rollover', 'Reserves (2)', 'Allocation Tracking', 'Vitalis Allocation', 'Reserves', 'Exit Forecast', 'Fund Model', 'Forecast Exits', 'GG Exit', 'Q2 2025 Financials', 'Fund III Tactyc Quant', 'Fund III Multiples', 'Sheet1', 'Fund Pacing']
+--------------------------------------------------------------------------------
+
+--- Sheet: 'Fund Dashboard' ---
+Dimensions: (15, 6)
+First 5 rows:
+   Unnamed: 0                    Unnamed: 1        Unnamed: 2  Unnamed: 3                   Unnamed: 4        Unnamed: 5
+0         NaN  SemperVirens Fund II Summary               NaN         NaN                          NaN               NaN
+1         NaN                           NaN  As of 12/31/2025         NaN                          NaN  As of 12/31/2025
+2         NaN                           NaN               NaN         NaN                          NaN               NaN
+3         NaN                 Fund Capital:               NaN         NaN  Quarterly Invested Capital:               NaN
+4         NaN             Committed Capital          20730000         NaN              New Investments           5749995
+
+
+--- Sheet: 'Investment Performance Summary' ---
+Dimensions: (43, 11)
+First 5 rows:
+   Unnamed: 0                                Unnamed: 1    Unnamed: 2    Unnamed: 3 Unnamed: 4  Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10
+0         NaN  SemperVirens Fund III Investment Summary           NaN           NaN        NaN         NaN        NaN        NaN        NaN        NaN     Markup 
+1         NaN                                       NaN           NaN           NaN        NaN         NaN        NaN        NaN        NaN        NaN         NaN
+2         NaN                          As of 12/31/2025  Initial Inv.  Initial Exit   Dollars   Unrealized   Realized      Total     Gross       Gross         NaN
+3         NaN                                   Company          Date          Date   Invested       Value      Value      Value   Multiple        IRR         NaN
+4         NaN                                       NaN           NaN           NaN        NaN         NaN        NaN        NaN        NaN        NaN         NaN
+
+
+--- Sheet: 'Supporting Worksheets -->' ---
+Dimensions: (0, 0)
+First 5 rows:
+Empty DataFrame
+Columns: []
+Index: []
+
+
+--- Sheet: 'Sheet2' ---
+Dimensions: (8, 7)
+First 5 rows:
+   Unnamed: 0  Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4          Unnamed: 5  Unnamed: 6
+0         NaN         NaN        NaN        NaN        NaN                 NaN         NaN
+1         NaN  Exit Value   Proceeds  Deal MOIC  Fund MOIC  % of Fund Returned         NaN
+2         NaN      $200 M       $7 M       3.33       0.05                0.05    0.047619
+3         NaN      $500 M      $17 M       8.33       0.12                0.12    0.119119
+4         NaN    $1,000 M      $33 M      16.65       0.24                0.23         NaN
+
+
+--- Sheet: 'Statement of Investments' ---
+Dimensions: (204, 21)
+First 5 rows:
+  2025-12-31 00:00:00 As of 2025-12-31 00:00:00.1  Unnamed: 3 Unnamed: 4 Unnamed: 5          Unnamed: 6  Unnamed: 7 Unnamed: 8  Unnamed: 9    Unnamed: 10    Unnamed: 11  Unnamed: 12    Unnamed: 13    Unnamed: 14  Unnamed: 15 Unnamed: 16 Unnamed: 17 Unnamed: 18  Unnamed: 19  Unnamed: 20
+0                 NaN   NaN           Investment   Liquidity         NaN        NaN                 NaN         NaN        NaN         NaN  Original Cost            NaN          NaN  Current Value            NaN          NaN       Gross         NaN         NaT          NaN          NaN
+1                 NaN   NaN                  Date        Date        NaN   Security  Stock Certificates         NaN     Shares         NaN      Per Share  Total Dollars          NaN      Per Share  Total Dollars          NaN        MOIC         IRR         NaT          NaN          NaN
+2                 NaN   NaN                   NaN         NaN        NaN        NaN                 NaN         NaN        NaN         NaN            NaN            NaN          NaN            NaN            NaN          NaN         NaN         NaN  2018-01-01         -0.1          NaN
+3            REALIZED   NaN                   NaN         NaN        NaN        NaN                 NaN         NaN        NaN         NaN            NaN            NaN          NaN            NaN            NaN          NaN         NaN         NaN         NaT          NaN          NaN
+4                 NaN   NaN                   NaN         NaN        NaN        NaN                 NaN         NaN        NaN         NaN            NaN            NaN          NaN            NaN            NaN          NaN         NaN         NaN         NaT          NaN          NaN
+
+
+--- Sheet: 'Investment Characteristics' ---
+Dimensions: (109, 35)
+First 5 rows:
+  Unnamed: 0                               Unnamed: 1           Unnamed: 2 Unnamed: 3  Unnamed: 4  Unnamed: 5                    Unnamed: 6 Unnamed: 7 Unnamed: 8  Unnamed: 9                         Unnamed: 10 Unnamed: 11 Unnamed: 12                 Unnamed: 13    Unnamed: 14 Unnamed: 15  1499860.122631    Unnamed: 17     Unnamed: 18            Unnamed: 19      Unnamed: 20 Unnamed: 21 Unnamed: 22 Unnamed: 23    143000000 Unnamed: 25  Unnamed: 26          Unnamed: 27          Unnamed: 28          Unnamed: 29          Unnamed: 30 Unnamed: 31 Unnamed: 32  Unnamed: 33 Unnamed: 34
+0        NaN  Core Initial Investment Characteristics                  NaN        NaN         NaN         NaN                           NaN        NaN        NaN         NaN  Current Investment Characteristics         NaN         NaN                         NaN            NaN         NaN             NaN            NaN             NaN                    NaN              NaN         NaN         NaN         NaN          NaN         NaN          NaN                  NaN                  NaN                  NaN                  NaN         NaT         NaT          NaN         NaN
+1        NaN                                  Company                 Date     Series      Sector  $ Invested                  VC Syndicate        FD%  Avg. Cost         NaN                             Company      Series  FD% Actual  With warrants fully vested  Initital Cost   Avg. Cost  Last Valuation  Holding Value      $ Invested  Follow -On Investment     Market Value    Multiple        Lead  Allocation          RTF  Board Seat          NaN  2023-06-30 00:00:00  2024-06-30 00:00:00  2024-09-30 00:00:00  2024-12-31 00:00:00  2025-06-30  2025-09-30          NaN   Rationale
+2          x                            Laguna Health  2023-04-05 00:00:00          A  Healthtech   3999999.7                  HC9, Pitango    0.07547   53000000         NaN                       Laguna Health           A    0.077935                    0.077935       53000000    64200000        53000000       53000000       4999999.7                1000000        4999999.7           1          RP          GG  1834.862662         NaN          NaN                    1                    1                    0                    0         NaT         NaT          NaN         NaN
+3          x                                  Stepful  2023-09-14 00:00:00          A   Workforce  3999995.71          Reach, Alleycorp, YC    0.04359   91800000         NaN                             Stepful           B    0.052805                    0.052805       91800000   149200000       261500000      261500000  7878030.450396         3878034.740396  13609279.523364    1.727498         ABG         ABG  2708.052877         NaN          NaN                    -                    1                    1                    1         NaT         NaT          NaN         NaN
+4        NaN                                   Summer  2023-10-10 00:00:00       Seed   Financial     3250000  GC, QED, Flourish, Rebalance   0.092857   35000000         NaN                              Summer           A    0.117345                    0.117345       35000000    27700000        41544018       41544018         3250000                      0          3250000           1          RP          RP  1218.625607         NaN          NaN                    -                    1                    0                   -1         NaT         NaT          NaN         NaN
+
+
+--- Sheet: 'Portfolio Construction' ---
+Dimensions: (35, 7)
+First 5 rows:
+   Unnamed: 0 Unnamed: 1           Unnamed: 2       20600000  Unnamed: 4        73000000 Unnamed: 6
+0         NaN        NaN                  NaN         Fund I         NaN         Fund II   % change
+1         NaN       Seed           # of Deals             14         NaN              11  -0.214286
+2         NaN        NaN       % of Portfolio            0.5         NaN        0.478261  -0.043478
+3         NaN        NaN   Avg. Initital Inv.  258412.482257         NaN  1926135.980909   6.453727
+4         NaN        NaN  Inv. % of Fund Size       0.012544         NaN        0.026385    1.10338
+
+
+--- Sheet: 'Investment Rollover' ---
+Dimensions: (37, 14)
+First 5 rows:
+   Unnamed: 0     Unnamed: 1      Unnamed: 2 Unnamed: 3    Unnamed: 4      Unnamed: 5  Unnamed: 6      Unnamed: 7       Unnamed: 8 Unnamed: 9   Unnamed: 10  Unnamed: 11      Unnamed: 12 Unnamed: 13
+0         NaN           Cost             NaN        NaN           NaN             NaN         NaN  Carrying Value              NaN        NaN           NaN          NaN              NaN         NaN
+1         NaN        Company       6/30/2025  Additions  Dispositions       9/30/2025         NaN         Company        6/30/2025  Additions  Dispositions  Net Writeup        9/30/2025        MOIC
+2         NaN  Laguna Health       4999999.7          0             0       4999999.7         NaN   Laguna Health        4999999.7          0             0            0        4999999.7           1
+3         NaN        Stepful  7878030.450396          0             0  7878030.450396         NaN         Stepful  13609279.523364          0             0            0  13609279.523364    1.727498
+4         NaN         Summer         3250000          0             0         3250000         NaN          Summer          3250000          0             0            0          3250000           1
+
+
+--- Sheet: 'Reserves (2)' ---
+Dimensions: (40, 24)
+First 5 rows:
+   Unnamed: 0           Unnamed: 1       Unnamed: 2     Unnamed: 3     Unnamed: 4       Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9  Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14  Unnamed: 15 Unnamed: 16 Unnamed: 17  Unnamed: 18         Unnamed: 19 Unnamed: 20  Unnamed: 21  Unnamed: 22 Unnamed: 23
+0         NaN           Total Fund           Amount  Reserve ratio  % of Inv. Cap  % of Total Fund        NaN        NaN        NaN        NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN                 NaN         NaN          NaN          NaN         NaN
+1         NaN     Initial Invested      39365503.75        0.51577       0.346527         0.277222        NaN        NaN        NaN        NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN  Partner Allocation         NaN          NaN          NaN         NaN
+2         NaN  Follow-On + Reserve  36958305.230396        0.48423       0.325337          0.26027        NaN        NaN        NaN        NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN               Total         NaN          NaN          NaN         NaN
+3         NaN    Inv. and Reserved  76323808.980396              1       0.671865         0.537492        NaN        NaN        NaN        NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN                 NaN      Target       Actual    Remaining           %
+4         NaN                  NaN              NaN            NaN      113600000        142000000        NaN        NaN        NaN        NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN            Invested    70000000  39365503.75  30634496.25    0.562364
+
+
+--- Sheet: 'Allocation Tracking' ---
+Dimensions: (87, 8)
+First 5 rows:
+   Unnamed: 0 Unnamed: 1 Partner Deals Remaining  Capital Remaining SVA Deals Remaining Unnamed: 6 Unnamed: 7
+0         NaN        NaN     ABG        0.559519     6319950.342461                   1        NaN        NaN
+1         NaN        NaN      RP        0.846196     2834777.472857                   1        NaN        NaN
+2         NaN        NaN      GG               0     -829964.467143                   1        NaN        NaN
+3         NaN        NaN      CH        1.322621     2381432.671429                   0        NaN        NaN
+4         NaN        NaN   Total        2.728336    10706196.019604                   3        NaN        NaN
+
+
+--- Sheet: 'Vitalis Allocation' ---
+Dimensions: (16, 23)
+First 5 rows:
+   Unnamed: 0 Unnamed: 1       Unnamed: 2 Unnamed: 3      Unnamed: 4 Unnamed: 5       Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10  Unnamed: 11 Unnamed: 12      Unnamed: 13 Unnamed: 14 Unnamed: 15     Unnamed: 16 Unnamed: 17      Unnamed: 18 Unnamed: 19 Unnamed: 20 Unnamed: 21 Unnamed: 22
+0         NaN        NaN         Invested   Reserved      Dry Powder        NaN            Total        NaN        NaN        NaN         NaN          NaN         NaN         Invested    Reserves         NaN      Dry Powder         NaN            Total         NaN         NaN         NaN         NaN
+1         NaN        NaN              NaN        NaN            Core        SVA              NaN        NaN        NaN        NaN         NaN          NaN         NaN              NaN        Core     Vitalis            Core         SVA              NaN         NaN         NaN         NaN         NaN
+2         NaN        ABG  21942906.800396    4000000  6319950.342461    2800000  35062857.142857        NaN        NaN        NaN         NaN          NaN         ABG  21942906.800396     4000000           0  6319950.342461     2800000  35062857.142857         NaN         NaN         NaN         NaN
+3         NaN         GG      27842821.61    5000000               0    2800000      35642821.61        NaN        NaN        NaN         NaN          NaN          GG      27842821.61     5000000     6000000               0           0      38842821.61         NaN         NaN         NaN         NaN
+4         NaN         RP      21228079.67    8000000  2834777.472857    2800000  34862857.142857        NaN        NaN        NaN         NaN          NaN          RP      21228079.67     8000000           0  2834777.472857     2800000  34862857.142857         NaN         NaN         NaN         NaN
+
+
+--- Sheet: 'Reserves' ---
+Dimensions: (51, 33)
+First 5 rows:
+   Unnamed: 0            Unnamed: 1       Unnamed: 2     Unnamed: 3     Unnamed: 4       Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15  Unnamed: 16 Unnamed: 17 Unnamed: 18  Unnamed: 19         Unnamed: 20 Unnamed: 21  Unnamed: 22 Unnamed: 23  Unnamed: 24 Unnamed: 25  Unnamed: 26          Unnamed: 27 Unnamed: 28      Unnamed: 29 Unnamed: 30      Unnamed: 31 Unnamed: 32
+0         NaN            Total Fund           Amount  Reserve ratio  % of Inv. Cap  % of Total Fund        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN             Current         NaN          NaN         NaN          NaN         NaN          NaN  Full SVA Allocation         NaN              NaN         NaN              NaN         NaN
+1         NaN      Initial Invested      59005498.75       0.611685       0.483176         0.412626        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN  Partner Allocation         NaN          NaN         NaN          NaN         NaN          NaN   Partner Allocation         NaN              NaN         NaN              NaN         NaN
+2         NaN  Follow-On + Reserves  37458305.230396       0.388315       0.306734         0.261946        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN               Total         NaN          NaN         NaN          NaN         NaN          NaN                Total         NaN              NaN         NaN              NaN         NaN
+3         NaN     Inv. and Reserves  96463803.980396            1.0        0.78991         0.674572        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN                 NaN      Target       Actual    Reserved    Remaining           %          NaN                  NaN      Target           Actual    Reserved        Remaining           %
+4         NaN                   NaN              NaN            NaN      122120000        143000000        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN            Invested    69400000  59005498.75           0  10394501.25    0.850223          NaN             Invested    69400000  96463803.980396           0 -27063803.980396    1.389968
+
+
+--- Sheet: 'Exit Forecast' ---
+Dimensions: (33, 23)
+First 5 rows:
+   Unnamed: 0           Unnamed: 1       Unnamed: 2        Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6  Unnamed: 7 Unnamed: 8 Unnamed: 9  Unnamed: 10 Unnamed: 11 Unnamed: 12  Unnamed: 13    Unnamed: 14 Unnamed: 15 Unnamed: 16  Unnamed: 17 Unnamed: 18 Unnamed: 19 Unnamed: 20  Unnamed: 21 Unnamed: 22
+0         NaN                  NaN        Full Fund      Inv. Capital        NaN        NaN        NaN         NaN        NaN        NaN          NaN         NaN         NaN          NaN            NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN
+1         NaN               Amount        142000000   52173808.980396        NaN        NaN        NaN         NaN        NaN        NaN          NaN         NaN         NaN          NaN            NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN
+2         5.0      5x Gross Target        710000000  260869044.901978        NaN        NaN        NaN         NaN        NaN        NaN          NaN         NaN         NaN          NaN            NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN
+3         NaN       Current Proj.   237926718.45497   237926718.45497        NaN        NaN        NaN         NaN        NaN        NaN          NaN         NaN         NaN          NaN            NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN
+4         NaN  Surplus/(Shortfall) -472073281.54503  -22942326.447009        NaN        NaN        NaN         NaN        NaN        NaN          NaN         NaN         NaN          NaN  Partner Input         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN
+
+
+--- Sheet: 'Fund Model' ---
+Dimensions: (46, 12)
+First 5 rows:
+   Unnamed: 0          Unnamed: 1 Unnamed: 2    Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6 Unnamed: 7  Unnamed: 8  Unnamed: 9 Unnamed: 10  Unnamed: 11
+0         NaN  Summary Fund Model        NaN           NaN         NaN         NaN         NaN        NaN         NaN         NaN         NaN          NaN
+1         NaN                 NaN   Fund III           NaN         NaN         NaN         NaN        NaN         NaN         NaN         NaN          NaN
+2         NaN           Fund Size  142000000           NaN         NaN         NaN         NaN        NaN         NaN         NaN         NaN          NaN
+3         NaN          # of Deals         30           NaN         NaN         NaN         NaN        NaN         NaN         NaN         NaN          NaN
+4         0.2   Deals that Matter          6  20% of deals         NaN         NaN         NaN        NaN         NaN         NaN         NaN          NaN
+
+
+--- Sheet: 'Forecast Exits' ---
+Dimensions: (130, 46)
+First 5 rows:
+   Unnamed: 0           Unnamed: 1 Unnamed: 2       Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6  Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12  Unnamed: 13 Unnamed: 14 Unnamed: 15  Unnamed: 16 Unnamed: 17 Unnamed: 18 Unnamed: 19  Unnamed: 20 Unnamed: 21 Unnamed: 22 Unnamed: 23 Unnamed: 24  Unnamed: 25 Unnamed: 26 Unnamed: 27 Dilution  Unnamed: 29 Unnamed: 30 Unnamed: 31 Unnamed: 32 Unnamed: 33 Unnamed: 34 Unnamed: 35 Unnamed: 36 Unnamed: 37 Unnamed: 38  Unnamed: 39 Unnamed: 40 Unnamed: 41  Unnamed: 42 Unnamed: 43 Unnamed: 44 Unnamed: 45
+0         NaN        Power Law KPI     Target           Actual        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN      NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN
+1         NaN    Average Valuation   65000000  60936363.636364        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN      NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN
+2         NaN  Power Law Companies          6                2        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN      NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN
+3         NaN   Power Law Hit Rate        0.2         0.090909        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN      NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN
+4         NaN    Avg. PL Ownership   0.072821         0.042474        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN      NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN
+
+
+--- Sheet: 'GG Exit' ---
+Dimensions: (99, 49)
+First 5 rows:
+   Unnamed: 0  Date forecasted to: 2031-01-04 00:00:00    Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6  Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12  Unnamed: 13 Unnamed: 14 Unnamed: 15  Unnamed: 16 Unnamed: 17 Unnamed: 18 Unnamed: 19  Unnamed: 20 Unnamed: 21 Unnamed: 22 Unnamed: 23 Unnamed: 24  Unnamed: 25 Unnamed: 26 Dilution  Unnamed: 28 Unnamed: 29 Unnamed: 30 Unnamed: 31 Unnamed: 32 Unnamed: 33 Unnamed: 34 Unnamed: 35 Unnamed: 36 Unnamed: 37  Unnamed: 38 Unnamed: 39 Unnamed: 40  Unnamed: 41 Unnamed: 42 Unnamed: 43 Unnamed: 44 Unnamed: 45 Unnamed: 46 Unnamed: 47  Unnamed: 48
+0         NaN       Warrant Toggle                  No           NaN        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN      NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaT          NaN
+1         NaN                  NaN                 NaN           NaN        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN      NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaT          NaN
+2         NaN  Partner Allocation:                 NaN           NaN        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN      NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaT          NaN
+3         NaN                   GG         Full Amount  Inv. Capital        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN     Seed         0.80         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaT          NaN
+4         NaN               Amount     31762857.142857   28592821.61        NaN        NaN        NaN         NaN        NaN        NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN          NaN         NaN        A         0.85         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN          NaN         NaN         NaN          NaN         NaN         NaN         NaN         NaN         NaN         NaT          NaN
+
+
+--- Sheet: 'Q2 2025 Financials' ---
+Dimensions: (47, 20)
+First 5 rows:
+   Unnamed: 0  Unnamed: 1      Unnamed: 2      Unnamed: 3       Unnamed: 4 Unnamed: 5 Unnamed: 6  Unnamed: 7 Unnamed: 8 Unnamed: 9       Unnamed: 10      Unnamed: 11  Unnamed: 12              Unnamed: 13  Unnamed: 14     Unnamed: 15              Unnamed: 16 Unnamed: 17  Unnamed: 18                             Unnamed: 19
+0         NaN         NaN             NaN             NaN              NaN        NaN        NaN         NaN        NaN        NaN               NaN              NaN          NaN                      NaN          NaN             NaN                      NaN         NaN          NaN                                     NaN
+1         NaN         NaN             NaN             NaN              NaN        NaN        NaN         NaN        NaN        NaN               NaN              NaN          NaN                      NaN          NaN             NaN                      NaN         NaN          NaN                                     NaN
+2         NaN     Company  Total Invested  Holding Value     Market Value     % Total      MOIC          NaN        NaN      2024A  2025E (Q4 2024)   2025E (Q2 2025)          NaN                   Sector          NaN  Comps Multiple  Est. Value at Mkt Comps       % Dif          NaN                                  Notes 
+3         NaN  OneImaging         4000000       250000000  14640928.186798   0.201662   3.660232         NaN    Revenue   32237.09    3582920.115249          3331008          NaN  Digital Care & Benefits          NaN        7.336294         166245143.913749   -0.335019          NaN  Using ARR since such a big difference 
+4         NaN         NaN             NaN             NaN              NaN        NaN        NaN         NaN        ARR      77000           5939000         22660644          NaN                      NaN          NaN             NaN                      NaN         NaN          NaN                                     NaN
+
+
+--- Sheet: 'Fund III Tactyc Quant' ---
+Dimensions: (236, 11)
+First 5 rows:
+   Unnamed: 0 Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9   Unnamed: 10
+0         NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN           NaN
+1         NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN           NaN
+2         NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN           NaN
+3         NaN        NaN        NaN        NaN        NaN     ACTUAL        NaN     PROJE.        NaN        NaN           NaN
+4  Investment        KPI       Type  Frequency        NaN         q1         q2         q3         q4        NaN  Gross Margin
+
+
+--- Sheet: 'Fund III Multiples' ---
+Dimensions: (47, 20)
+First 5 rows:
+   Unnamed: 0  Unnamed: 1      Unnamed: 2      Unnamed: 3       Unnamed: 4 Unnamed: 5 Unnamed: 6  Unnamed: 7 Unnamed: 8 Unnamed: 9       Unnamed: 10      Unnamed: 11  Unnamed: 12              Unnamed: 13  Unnamed: 14     Unnamed: 15              Unnamed: 16 Unnamed: 17  Unnamed: 18                             Unnamed: 19
+0         NaN         NaN             NaN             NaN              NaN        NaN        NaN         NaN        NaN        NaN               NaN              NaN          NaN                      NaN          NaN             NaN                      NaN         NaN          NaN                                     NaN
+1         NaN         NaN             NaN             NaN              NaN        NaN        NaN         NaN        NaN        NaN               NaN              NaN          NaN                      NaN          NaN             NaN                      NaN         NaN          NaN                                     NaN
+2         NaN     Company  Total Invested  Holding Value     Market Value     % Total      MOIC          NaN        NaN      2024A  2025E (Q4 2024)   2025E (Q2 2025)          NaN                   Sector          NaN  Comps Multiple  Est. Value at Mkt Comps       % Dif          NaN                                  Notes 
+3         NaN  OneImaging         4000000       250000000  14640928.186798   0.201662   3.660232         NaN    Revenue   32237.09    3582920.115249          3331008          NaN  Digital Care & Benefits          NaN        7.336294         166245143.913749   -0.335019          NaN  Using ARR since such a big difference 
+4         NaN         NaN             NaN             NaN              NaN        NaN        NaN         NaN        ARR      77000           5939000         22660644          NaN                      NaN          NaN             NaN                      NaN         NaN          NaN                                     NaN
+
+
+--- Sheet: 'Sheet1' ---
+Dimensions: (11, 3)
+First 5 rows:
+   Unnamed: 0        Unnamed: 1   Unnamed: 2
+0         NaN  Invested Capital  43303070.94
+1         NaN               NaN          NaN
+2         NaN          Net Cash  11155435.00
+3         NaN  Callable Capital  15884916.00
+4         NaN  Pending New Inv.          NaN
+
+
+--- Sheet: 'Fund Pacing' ---
+Dimensions: (31, 38)
+First 5 rows:
+   Unnamed: 0                Unnamed: 1           Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16 Unnamed: 17 Unnamed: 18 Unnamed: 19 Unnamed: 20 Unnamed: 21 Unnamed: 22 Unnamed: 23 Unnamed: 24 Unnamed: 25 Unnamed: 26 Unnamed: 27 Unnamed: 28 Unnamed: 29 Unnamed: 30 Unnamed: 31 Unnamed: 32 Unnamed: 33 Unnamed: 34 Unnamed: 35 Unnamed: 36 Unnamed: 37
+0         NaN                 Fund Size             50000000        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+1         NaN                 Reserve %                  0.5        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+2         NaN  Average Total Investment              1750000        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+3         NaN   Investment Period (mos)                   36        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+4         NaN     Investment Start Date  2020-08-01 00:00:00        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN
+
