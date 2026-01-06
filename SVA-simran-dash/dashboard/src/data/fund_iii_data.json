@@ -1,0 +1,1182 @@
+{
+  "fund_name": "SemperVirens Fund III",
+  "last_updated": "2025-12-31",
+  "fund_metrics": {
+    "committed_capital": 84748564.77647477,
+    "invested_capital": 70623803.98039564,
+    "total_value": 92399729.42792512,
+    "unrealized_value": 92399729.42792512,
+    "realized_value": 0.0,
+    "gross_irr": 0.3780283267436426,
+    "gross_moic": 1.3083369093737038,
+    "raw_data": {
+      "MOIC": 1.3083369093737038,
+      "Gross IRR": 0.3780283267436426,
+      "Avg Entry Ownership": 0.0092
+    }
+  },
+  "investments": [
+    {
+      "id": "company",
+      "name": "Company",
+      "sector": "Sector",
+      "syndicate": "VC Syndicate",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "Date",
+      "entry": {
+        "date": "Date",
+        "series": "Series",
+        "invested_amount": 0,
+        "ownership_percentage": 0,
+        "implied_valuation": 0
+      },
+      "current": {
+        "market_value": 0,
+        "unrealized_gain": 0,
+        "multiple": 0,
+        "gross_irr": 0,
+        "realized_value": 0,
+        "unrealized_value": 0,
+        "holding_value": 0,
+        "last_valuation": 0,
+        "series": "Series",
+        "ownership_percentage": 0
+      }
+    },
+    {
+      "id": "unrealized-portfolio",
+      "name": "Unrealized Portfolio",
+      "sector": "Unknown",
+      "syndicate": "",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": null,
+      "entry": {
+        "date": null,
+        "series": "Unknown",
+        "invested_amount": 0,
+        "ownership_percentage": 0,
+        "implied_valuation": 0
+      },
+      "current": {
+        "market_value": 0,
+        "unrealized_gain": 0,
+        "multiple": 0,
+        "gross_irr": 0,
+        "realized_value": 0,
+        "unrealized_value": 0,
+        "holding_value": 0,
+        "last_valuation": 0,
+        "series": "Unknown",
+        "ownership_percentage": 0
+      }
+    },
+    {
+      "id": "laguna-health",
+      "name": "Laguna Health",
+      "sector": "Healthtech",
+      "syndicate": "HC9, Pitango",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2023-04-05",
+      "entry": {
+        "date": "2023-04-05",
+        "series": "A",
+        "invested_amount": 4999999.7,
+        "ownership_percentage": 0.07547,
+        "implied_valuation": 66251486.683450386
+      },
+      "current": {
+        "market_value": 4999999.7,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 2.9802322387695314e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 4999999.7,
+        "holding_value": 4999999.7,
+        "last_valuation": 53000000.0,
+        "series": "A",
+        "ownership_percentage": 0.07547
+      }
+    },
+    {
+      "id": "stepful",
+      "name": "Stepful",
+      "sector": "Workforce",
+      "syndicate": "Reach, Alleycorp, YC",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2023-09-14",
+      "entry": {
+        "date": "2023-09-14",
+        "series": "A",
+        "invested_amount": 7878030.450395651,
+        "ownership_percentage": 0.04358988669390506,
+        "implied_valuation": 180730693.46833596
+      },
+      "current": {
+        "market_value": 13609279.52336372,
+        "unrealized_gain": 5731249.072968069,
+        "multiple": 1.727497705048885,
+        "gross_irr": 0.38251794433593755,
+        "realized_value": 0.0,
+        "unrealized_value": 13609279.52336372,
+        "holding_value": 13609279.52336372,
+        "last_valuation": 261500000.0,
+        "series": "A",
+        "ownership_percentage": 0.04358988669390506
+      }
+    },
+    {
+      "id": "summer",
+      "name": "Summer",
+      "sector": "Financial",
+      "syndicate": "GC, QED, Flourish, Rebalance",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2023-10-10",
+      "entry": {
+        "date": "2023-10-10",
+        "series": "Seed",
+        "invested_amount": 3250000.0,
+        "ownership_percentage": 0.09285714285714286,
+        "implied_valuation": 35000000.0
+      },
+      "current": {
+        "market_value": 3250000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 3250000.0,
+        "holding_value": 3250000.0,
+        "last_valuation": 41544018.0,
+        "series": "Seed",
+        "ownership_percentage": 0.09285714285714286
+      }
+    },
+    {
+      "id": "wagmo",
+      "name": "Wagmo",
+      "sector": "Financial",
+      "syndicate": "Revolution, MS&AD",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2023-10-10",
+      "entry": {
+        "date": "2023-10-10",
+        "series": "A",
+        "invested_amount": 1499998.04,
+        "ownership_percentage": 0.03180843002242043,
+        "implied_valuation": 47157248.53262843
+      },
+      "current": {
+        "market_value": 1499998.04,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 1499998.04,
+        "holding_value": 1499998.04,
+        "last_valuation": 47200000.0,
+        "series": "A",
+        "ownership_percentage": 0.03180843002242043
+      }
+    },
+    {
+      "id": "kubera",
+      "name": "Kubera",
+      "sector": "Healthtech",
+      "syndicate": "Upfront Ventures",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2023-12-14",
+      "entry": {
+        "date": "2023-12-14",
+        "series": "Seed",
+        "invested_amount": 528082.67,
+        "ownership_percentage": 0.03333326666666667,
+        "implied_valuation": 15842511.785023572
+      },
+      "current": {
+        "market_value": 1011413.188244671,
+        "unrealized_gain": 483330.51824467094,
+        "multiple": 1.9152554054551172,
+        "gross_irr": 0.46074746582031256,
+        "realized_value": 0.0,
+        "unrealized_value": 1011413.188244671,
+        "holding_value": 1011413.188244671,
+        "last_valuation": 30000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.03333326666666667
+      }
+    },
+    {
+      "id": "solara",
+      "name": "Solara",
+      "sector": "Healthtech",
+      "syndicate": "Define Ventures, USVP",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2024-02-07",
+      "entry": {
+        "date": "2024-02-07",
+        "series": "Seed",
+        "invested_amount": 4552198.75,
+        "ownership_percentage": 0.13793101724137932,
+        "implied_valuation": 33003445.06293063
+      },
+      "current": {
+        "market_value": 5296211.1774,
+        "unrealized_gain": 744012.4274000004,
+        "multiple": 1.163440233667302,
+        "gross_irr": 0.17761299316406254,
+        "realized_value": 0.0,
+        "unrealized_value": 5296211.1774,
+        "holding_value": 5296211.1774,
+        "last_valuation": 40000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.13793101724137932
+      }
+    },
+    {
+      "id": "salsa",
+      "name": "Salsa",
+      "sector": "Financial",
+      "syndicate": "BTV, Greycroft",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2024-02-07",
+      "entry": {
+        "date": "2024-02-07",
+        "series": "Seed",
+        "invested_amount": 5499997.86,
+        "ownership_percentage": 0.056818181818181816,
+        "implied_valuation": 96799962.33600001
+      },
+      "current": {
+        "market_value": 5912934.034102183,
+        "unrealized_gain": 412936.1741021825,
+        "multiple": 1.0750793335949012,
+        "gross_irr": 0.05804069824218751,
+        "realized_value": 0.0,
+        "unrealized_value": 5912934.034102183,
+        "holding_value": 5912934.034102183,
+        "last_valuation": 70000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.056818181818181816
+      }
+    },
+    {
+      "id": "hireguide",
+      "name": "Hireguide",
+      "sector": "Workforce",
+      "syndicate": "Wing, NEA, GGV",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2024-02-29",
+      "entry": {
+        "date": "2024-02-29",
+        "series": "Seed",
+        "invested_amount": 3000000.0,
+        "ownership_percentage": 0.09375,
+        "implied_valuation": 32000000.0
+      },
+      "current": {
+        "market_value": 500000.0,
+        "unrealized_gain": -2500000.0,
+        "multiple": 0.16666666666666666,
+        "gross_irr": -0.6226767595093325,
+        "realized_value": 0.0,
+        "unrealized_value": 500000.0,
+        "holding_value": 500000.0,
+        "last_valuation": 32000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.09375
+      }
+    },
+    {
+      "id": "take2-ai",
+      "name": "Take2 AI",
+      "sector": "Workforce",
+      "syndicate": "Reach Capital",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2024-03-25",
+      "entry": {
+        "date": "2024-03-25",
+        "series": "Seed",
+        "invested_amount": 700000.0,
+        "ownership_percentage": 0.07,
+        "implied_valuation": 9999999.999999998
+      },
+      "current": {
+        "market_value": 700000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 700000.0,
+        "holding_value": 700000.0,
+        "last_valuation": 10000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.07
+      }
+    },
+    {
+      "id": "techwolf",
+      "name": "Techwolf",
+      "sector": "Workforce",
+      "syndicate": "Felix Capital, Stride VC",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2024-06-24",
+      "entry": {
+        "date": "2024-06-24",
+        "series": "B",
+        "invested_amount": 5037377.0,
+        "ownership_percentage": 0.0357260780141844,
+        "implied_valuation": 141000000.0
+      },
+      "current": {
+        "market_value": 5037377.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 5037377.0,
+        "holding_value": 5037377.0,
+        "last_valuation": 141000000.0,
+        "series": "B",
+        "ownership_percentage": 0.0357260780141844
+      }
+    },
+    {
+      "id": "thatch",
+      "name": "Thatch",
+      "sector": "Healthtech",
+      "syndicate": "Index, GV, GC, a16z",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2024-08-09",
+      "entry": {
+        "date": "2024-08-09",
+        "series": "A",
+        "invested_amount": 4040625.16,
+        "ownership_percentage": 0.0297037180177556,
+        "implied_valuation": 136030956.04343837
+      },
+      "current": {
+        "market_value": 10304094.228016667,
+        "unrealized_gain": 6263469.068016667,
+        "multiple": 2.5501237605560685,
+        "gross_irr": 1.4000928808593756,
+        "realized_value": 0.0,
+        "unrealized_value": 10304094.228016667,
+        "holding_value": 10304094.228016667,
+        "last_valuation": 450000000.0,
+        "series": "A",
+        "ownership_percentage": 0.0297037180177556
+      }
+    },
+    {
+      "id": "multimodal",
+      "name": "Multimodal",
+      "sector": "Financial",
+      "syndicate": "",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2024-11-18",
+      "entry": {
+        "date": "2024-11-18",
+        "series": "Seed",
+        "invested_amount": 2000000.0,
+        "ownership_percentage": 0.06666666666666667,
+        "implied_valuation": 30000000.0
+      },
+      "current": {
+        "market_value": 2000000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 2000000.0,
+        "holding_value": 2000000.0,
+        "last_valuation": 30000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.06666666666666667
+      }
+    },
+    {
+      "id": "oneimaging",
+      "name": "OneImaging",
+      "sector": "Healthtech",
+      "syndicate": "Aquiline, Six Thirty, Vy Capital",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-01-08",
+      "entry": {
+        "date": "2025-01-08",
+        "series": "Seed",
+        "invested_amount": 4000000.0,
+        "ownership_percentage": 0.05555555555555555,
+        "implied_valuation": 72000000.0
+      },
+      "current": {
+        "market_value": 14640928.186797883,
+        "unrealized_gain": 10640928.186797883,
+        "multiple": 3.6602320466994707,
+        "gross_irr": 6.5936677734375015,
+        "realized_value": 0.0,
+        "unrealized_value": 14640928.186797883,
+        "holding_value": 14640928.186797883,
+        "last_valuation": 250000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.05555555555555555
+      }
+    },
+    {
+      "id": "exceedsai",
+      "name": "ExceedsAI",
+      "sector": "Workforce",
+      "syndicate": "Venrock",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-01-09",
+      "entry": {
+        "date": "2025-01-09",
+        "series": "Seed",
+        "invested_amount": 1187499.84,
+        "ownership_percentage": 0.079166656,
+        "implied_valuation": 15000000.0
+      },
+      "current": {
+        "market_value": 1187499.84,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 1187499.84,
+        "holding_value": 1187499.84,
+        "last_valuation": 15000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.079166656
+      }
+    },
+    {
+      "id": "sullyai",
+      "name": "Sully.AI",
+      "sector": "Healthtech",
+      "syndicate": "Amity Ventures",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-01-09",
+      "entry": {
+        "date": "2025-01-09",
+        "series": "A",
+        "invested_amount": 3999999.51,
+        "ownership_percentage": 0.0533333268,
+        "implied_valuation": 75000000.0
+      },
+      "current": {
+        "market_value": 3999999.5099999993,
+        "unrealized_gain": -4.656612873077393e-10,
+        "multiple": 0.9999999999999999,
+        "gross_irr": -4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 3999999.5099999993,
+        "holding_value": 3999999.5099999993,
+        "last_valuation": 75000000.0,
+        "series": "A",
+        "ownership_percentage": 0.0533333268
+      }
+    },
+    {
+      "id": "athenaai",
+      "name": "Athena.AI",
+      "sector": "Workforce",
+      "syndicate": "Village Global",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-05-01",
+      "entry": {
+        "date": "2025-05-01",
+        "series": "Seed",
+        "invested_amount": 3150000.0,
+        "ownership_percentage": 0.09,
+        "implied_valuation": 35000000.0
+      },
+      "current": {
+        "market_value": 3150000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 3150000.0,
+        "holding_value": 3150000.0,
+        "last_valuation": 35000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.09
+      }
+    },
+    {
+      "id": "onboarded",
+      "name": "Onboarded",
+      "sector": "Workforce",
+      "syndicate": "SV, Resolute",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-06-16",
+      "entry": {
+        "date": "2025-06-16",
+        "series": "A",
+        "invested_amount": 5000000.0,
+        "ownership_percentage": 0.08695652173913043,
+        "implied_valuation": 57500000.0
+      },
+      "current": {
+        "market_value": 5000000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 5000000.0,
+        "holding_value": 5000000.0,
+        "last_valuation": 57500000.0,
+        "series": "A",
+        "ownership_percentage": 0.08695652173913043
+      }
+    },
+    {
+      "id": "penguinai",
+      "name": "PenguinAI",
+      "sector": "Healthtech",
+      "syndicate": "GreyCroft, UPMC",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-06-13",
+      "entry": {
+        "date": "2025-06-13",
+        "series": "A",
+        "invested_amount": 4000000.0,
+        "ownership_percentage": 0.024242424242424242,
+        "implied_valuation": 165000000.0
+      },
+      "current": {
+        "market_value": 4000000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 4000000.0,
+        "holding_value": 4000000.0,
+        "last_valuation": 165000000.0,
+        "series": "A",
+        "ownership_percentage": 0.024242424242424242
+      }
+    },
+    {
+      "id": "clasp",
+      "name": "Clasp",
+      "sector": "Workforce",
+      "syndicate": "SV",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-05-30",
+      "entry": {
+        "date": "2025-05-30",
+        "series": "Seed - SVA",
+        "invested_amount": 250000.0,
+        "ownership_percentage": 0.007142857142857143,
+        "implied_valuation": 35000000.0
+      },
+      "current": {
+        "market_value": 250000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 250000.0,
+        "holding_value": 250000.0,
+        "last_valuation": 35000000.0,
+        "series": "Seed - SVA",
+        "ownership_percentage": 0.007142857142857143
+      }
+    },
+    {
+      "id": "sunny-health",
+      "name": "Sunny Health",
+      "sector": "Healthtech",
+      "syndicate": "SV",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-05-29",
+      "entry": {
+        "date": "2025-05-29",
+        "series": "Seed - SVA",
+        "invested_amount": 50000.0,
+        "ownership_percentage": 0.003125,
+        "implied_valuation": 16000000.0
+      },
+      "current": {
+        "market_value": 50000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 50000.0,
+        "holding_value": 50000.0,
+        "last_valuation": 16000000.0,
+        "series": "Seed - SVA",
+        "ownership_percentage": 0.003125
+      }
+    },
+    {
+      "id": "outro-health",
+      "name": "Outro Health",
+      "sector": "Healthtech",
+      "syndicate": "SV",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-05-29",
+      "entry": {
+        "date": "2025-05-29",
+        "series": "Seed - SVA",
+        "invested_amount": 250000.0,
+        "ownership_percentage": 0.025,
+        "implied_valuation": 10000000.0
+      },
+      "current": {
+        "market_value": 250000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 250000.0,
+        "holding_value": 250000.0,
+        "last_valuation": 10000000.0,
+        "series": "Seed - SVA",
+        "ownership_percentage": 0.025
+      }
+    },
+    {
+      "id": "tezi",
+      "name": "Tezi",
+      "sector": "Workforce",
+      "syndicate": "8VC, Audacious",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-07-31",
+      "entry": {
+        "date": "2025-07-31",
+        "series": "Seed",
+        "invested_amount": 1999997.0,
+        "ownership_percentage": 0.03333328333333333,
+        "implied_valuation": 60000000.0
+      },
+      "current": {
+        "market_value": 1999997.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 1999997.0,
+        "holding_value": 1999997.0,
+        "last_valuation": 60000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.03333328333333333
+      }
+    },
+    {
+      "id": "trial-library",
+      "name": "Trial Library",
+      "sector": "Healthtech",
+      "syndicate": "Lux, Next Ventures",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-08-08",
+      "entry": {
+        "date": "2025-08-08",
+        "series": "A",
+        "invested_amount": 2999998.0,
+        "ownership_percentage": 0.05999996,
+        "implied_valuation": 50000000.0
+      },
+      "current": {
+        "market_value": 2999998.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 2999998.0,
+        "holding_value": 2999998.0,
+        "last_valuation": 50000000.0,
+        "series": "A",
+        "ownership_percentage": 0.05999996
+      }
+    },
+    {
+      "id": "trueclaim",
+      "name": "TrueClaim",
+      "sector": "Healthtech",
+      "syndicate": "SV",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-09-24",
+      "entry": {
+        "date": "2025-09-24",
+        "series": "Seed - SVA",
+        "invested_amount": 250000.0,
+        "ownership_percentage": 0.010416666666666666,
+        "implied_valuation": 24000000.0
+      },
+      "current": {
+        "market_value": 250000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 250000.0,
+        "holding_value": 250000.0,
+        "last_valuation": 24000000.0,
+        "series": "Seed - SVA",
+        "ownership_percentage": 0.010416666666666666
+      }
+    },
+    {
+      "id": "andel",
+      "name": "Andel",
+      "sector": "Healthtech",
+      "syndicate": "SV",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-09-24",
+      "entry": {
+        "date": "2025-09-24",
+        "series": "Seed - SVA",
+        "invested_amount": 250000.0,
+        "ownership_percentage": 0.011111111111111112,
+        "implied_valuation": 22500000.0
+      },
+      "current": {
+        "market_value": 250000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 250000.0,
+        "holding_value": 250000.0,
+        "last_valuation": 22500000.0,
+        "series": "Seed - SVA",
+        "ownership_percentage": 0.011111111111111112
+      }
+    },
+    {
+      "id": "second-door",
+      "name": "Second Door",
+      "sector": "Healthtech",
+      "syndicate": "SV",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2025-09-24",
+      "entry": {
+        "date": "2025-09-24",
+        "series": "Seed - SVA",
+        "invested_amount": 250000.0,
+        "ownership_percentage": 0.017857142857142856,
+        "implied_valuation": 14000000.0
+      },
+      "current": {
+        "market_value": 250000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 250000.0,
+        "holding_value": 250000.0,
+        "last_valuation": 14000000.0,
+        "series": "Seed - SVA",
+        "ownership_percentage": 0.017857142857142856
+      }
+    },
+    {
+      "id": "006",
+      "name": "0.06",
+      "sector": "Unknown",
+      "syndicate": "",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": null,
+      "entry": {
+        "date": null,
+        "series": "Unknown",
+        "invested_amount": 0,
+        "ownership_percentage": 0,
+        "implied_valuation": 0
+      },
+      "current": {
+        "market_value": 0,
+        "unrealized_gain": 0,
+        "multiple": 0,
+        "gross_irr": 0,
+        "realized_value": 0,
+        "unrealized_value": 0,
+        "holding_value": 0,
+        "last_valuation": 0,
+        "series": "Unknown",
+        "ownership_percentage": 0
+      }
+    }
+  ],
+  "performance_table": [
+    {
+      "company": "Company",
+      "initial_date": "Date",
+      "exit_date": null,
+      "invested": 0,
+      "unrealized": 0,
+      "realized": 0,
+      "total_value": 0,
+      "gross_multiple": 0,
+      "gross_irr": 0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Unrealized Portfolio",
+      "initial_date": null,
+      "exit_date": null,
+      "invested": 0,
+      "unrealized": 0,
+      "realized": 0,
+      "total_value": 0,
+      "gross_multiple": 0,
+      "gross_irr": 0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Laguna Health",
+      "initial_date": "2023-04-05",
+      "exit_date": null,
+      "invested": 4999999.7,
+      "unrealized": 4999999.7,
+      "realized": 0.0,
+      "total_value": 4999999.7,
+      "gross_multiple": 1.0,
+      "gross_irr": 2.9802322387695314e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Stepful",
+      "initial_date": "2023-09-14",
+      "exit_date": null,
+      "invested": 7878030.450395651,
+      "unrealized": 13609279.52336372,
+      "realized": 0.0,
+      "total_value": 13609279.52336372,
+      "gross_multiple": 1.727497705048885,
+      "gross_irr": 0.38251794433593755,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Summer",
+      "initial_date": "2023-10-10",
+      "exit_date": null,
+      "invested": 3250000.0,
+      "unrealized": 3250000.0,
+      "realized": 0.0,
+      "total_value": 3250000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Wagmo",
+      "initial_date": "2023-10-10",
+      "exit_date": null,
+      "invested": 1499998.04,
+      "unrealized": 1499998.04,
+      "realized": 0.0,
+      "total_value": 1499998.04,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Kubera",
+      "initial_date": "2023-12-14",
+      "exit_date": null,
+      "invested": 528082.67,
+      "unrealized": 1011413.188244671,
+      "realized": 0.0,
+      "total_value": 1011413.188244671,
+      "gross_multiple": 1.9152554054551172,
+      "gross_irr": 0.46074746582031256,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Solara",
+      "initial_date": "2024-02-07",
+      "exit_date": null,
+      "invested": 4552198.75,
+      "unrealized": 5296211.1774,
+      "realized": 0.0,
+      "total_value": 5296211.1774,
+      "gross_multiple": 1.163440233667302,
+      "gross_irr": 0.17761299316406254,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Salsa",
+      "initial_date": "2024-02-07",
+      "exit_date": null,
+      "invested": 5499997.86,
+      "unrealized": 5912934.034102183,
+      "realized": 0.0,
+      "total_value": 5912934.034102183,
+      "gross_multiple": 1.0750793335949012,
+      "gross_irr": 0.05804069824218751,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Hireguide",
+      "initial_date": "2024-02-29",
+      "exit_date": null,
+      "invested": 3000000.0,
+      "unrealized": 500000.0,
+      "realized": 0.0,
+      "total_value": 500000.0,
+      "gross_multiple": 0.16666666666666666,
+      "gross_irr": -0.6226767595093325,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Take2 AI",
+      "initial_date": "2024-03-25",
+      "exit_date": null,
+      "invested": 700000.0,
+      "unrealized": 700000.0,
+      "realized": 0.0,
+      "total_value": 700000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Techwolf",
+      "initial_date": "2024-06-24",
+      "exit_date": null,
+      "invested": 5037377.0,
+      "unrealized": 5037377.0,
+      "realized": 0.0,
+      "total_value": 5037377.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Thatch",
+      "initial_date": "2024-08-09",
+      "exit_date": null,
+      "invested": 4040625.16,
+      "unrealized": 10304094.228016667,
+      "realized": 0.0,
+      "total_value": 10304094.228016667,
+      "gross_multiple": 2.5501237605560685,
+      "gross_irr": 1.4000928808593756,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Multimodal",
+      "initial_date": "2024-11-18",
+      "exit_date": null,
+      "invested": 2000000.0,
+      "unrealized": 2000000.0,
+      "realized": 0.0,
+      "total_value": 2000000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "OneImaging",
+      "initial_date": "2025-01-08",
+      "exit_date": null,
+      "invested": 4000000.0,
+      "unrealized": 14640928.186797883,
+      "realized": 0.0,
+      "total_value": 14640928.186797883,
+      "gross_multiple": 3.6602320466994707,
+      "gross_irr": 6.5936677734375015,
+      "status": "Unrealized"
+    },
+    {
+      "company": "ExceedsAI",
+      "initial_date": "2025-01-09",
+      "exit_date": null,
+      "invested": 1187499.84,
+      "unrealized": 1187499.84,
+      "realized": 0.0,
+      "total_value": 1187499.84,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Sully.AI",
+      "initial_date": "2025-01-09",
+      "exit_date": null,
+      "invested": 3999999.51,
+      "unrealized": 3999999.5099999993,
+      "realized": 0.0,
+      "total_value": 3999999.5099999993,
+      "gross_multiple": 0.9999999999999999,
+      "gross_irr": -4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Athena.AI",
+      "initial_date": "2025-05-01",
+      "exit_date": null,
+      "invested": 3150000.0,
+      "unrealized": 3150000.0,
+      "realized": 0.0,
+      "total_value": 3150000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Onboarded",
+      "initial_date": "2025-06-16",
+      "exit_date": null,
+      "invested": 5000000.0,
+      "unrealized": 5000000.0,
+      "realized": 0.0,
+      "total_value": 5000000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "PenguinAI",
+      "initial_date": "2025-06-13",
+      "exit_date": null,
+      "invested": 4000000.0,
+      "unrealized": 4000000.0,
+      "realized": 0.0,
+      "total_value": 4000000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Clasp",
+      "initial_date": "2025-05-30",
+      "exit_date": null,
+      "invested": 250000.0,
+      "unrealized": 250000.0,
+      "realized": 0.0,
+      "total_value": 250000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Sunny Health",
+      "initial_date": "2025-05-29",
+      "exit_date": null,
+      "invested": 50000.0,
+      "unrealized": 50000.0,
+      "realized": 0.0,
+      "total_value": 50000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Outro Health",
+      "initial_date": "2025-05-29",
+      "exit_date": null,
+      "invested": 250000.0,
+      "unrealized": 250000.0,
+      "realized": 0.0,
+      "total_value": 250000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Tezi",
+      "initial_date": "2025-07-31",
+      "exit_date": null,
+      "invested": 1999997.0,
+      "unrealized": 1999997.0,
+      "realized": 0.0,
+      "total_value": 1999997.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Trial Library",
+      "initial_date": "2025-08-08",
+      "exit_date": null,
+      "invested": 2999998.0,
+      "unrealized": 2999998.0,
+      "realized": 0.0,
+      "total_value": 2999998.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "TrueClaim",
+      "initial_date": "2025-09-24",
+      "exit_date": null,
+      "invested": 250000.0,
+      "unrealized": 250000.0,
+      "realized": 0.0,
+      "total_value": 250000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Andel",
+      "initial_date": "2025-09-24",
+      "exit_date": null,
+      "invested": 250000.0,
+      "unrealized": 250000.0,
+      "realized": 0.0,
+      "total_value": 250000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Second Door",
+      "initial_date": "2025-09-24",
+      "exit_date": null,
+      "invested": 250000.0,
+      "unrealized": 250000.0,
+      "realized": 0.0,
+      "total_value": 250000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "0.06",
+      "initial_date": null,
+      "exit_date": null,
+      "invested": 0,
+      "unrealized": 0,
+      "realized": 0,
+      "total_value": 0,
+      "gross_multiple": 0,
+      "gross_irr": 0,
+      "status": "Unrealized"
+    }
+  ]
+}

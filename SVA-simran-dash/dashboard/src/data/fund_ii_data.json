@@ -1,0 +1,1342 @@
+{
+  "fund_name": "SemperVirens Fund II",
+  "last_updated": "2025-12-31",
+  "fund_metrics": {
+    "committed_capital": 80507022.25707506,
+    "invested_capital": 67089185.21422922,
+    "total_value": 144660243.14804366,
+    "unrealized_value": 144035865.82398742,
+    "realized_value": 624377.3240562361,
+    "gross_irr": 0.17821145819000575,
+    "gross_moic": 2.1562378897003223,
+    "raw_data": {
+      "MOIC": 2.1562378897003223,
+      "Gross IRR": 0.17821145819000575,
+      "Avg Entry Ownership": 0.0092
+    }
+  },
+  "investments": [
+    {
+      "id": "company",
+      "name": "Company",
+      "sector": "Unknown",
+      "syndicate": "",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "Date",
+      "entry": {
+        "date": "Date",
+        "series": "Unknown",
+        "invested_amount": 0,
+        "ownership_percentage": 0,
+        "implied_valuation": 0
+      },
+      "current": {
+        "market_value": 0,
+        "unrealized_gain": 0,
+        "multiple": 0,
+        "gross_irr": 0,
+        "realized_value": 0,
+        "unrealized_value": 0,
+        "holding_value": 0,
+        "last_valuation": 0,
+        "series": "Unknown",
+        "ownership_percentage": 0
+      }
+    },
+    {
+      "id": "realized-portfolio",
+      "name": "Realized Portfolio",
+      "sector": "Unknown",
+      "syndicate": "",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": null,
+      "entry": {
+        "date": null,
+        "series": "Unknown",
+        "invested_amount": 0,
+        "ownership_percentage": 0,
+        "implied_valuation": 0
+      },
+      "current": {
+        "market_value": 0,
+        "unrealized_gain": 0,
+        "multiple": 0,
+        "gross_irr": 0,
+        "realized_value": 0,
+        "unrealized_value": 0,
+        "holding_value": 0,
+        "last_valuation": 0,
+        "series": "Unknown",
+        "ownership_percentage": 0
+      }
+    },
+    {
+      "id": "easop",
+      "name": "Easop",
+      "sector": "Workforce",
+      "syndicate": "Partech Ventures, Boldstart Ventures",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2023-05-19",
+      "entry": {
+        "date": "2023-05-19",
+        "series": "Seed",
+        "invested_amount": 218533.69405623607,
+        "ownership_percentage": 0.06666666666666667,
+        "implied_valuation": 3278005.410843541
+      },
+      "current": {
+        "market_value": 0.0,
+        "unrealized_gain": 0,
+        "multiple": 1.2049606592403723,
+        "gross_irr": 0.18573675292968755,
+        "realized_value": 263324.50405623607,
+        "unrealized_value": 0.0,
+        "holding_value": 0.0,
+        "last_valuation": 15000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.06666666666666667
+      }
+    },
+    {
+      "id": "mathison",
+      "name": "Mathison",
+      "sector": "Workforce",
+      "syndicate": "Bain Capital",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": "2020-12-11",
+      "entry": {
+        "date": "2020-12-11",
+        "series": "Seed",
+        "invested_amount": 2049994.1861729803,
+        "ownership_percentage": 0.020000165,
+        "implied_valuation": 102498863.69302355
+      },
+      "current": {
+        "market_value": 0.0,
+        "unrealized_gain": 0,
+        "multiple": 0.13282906938791836,
+        "gross_irr": -0.3876824912615121,
+        "realized_value": 272298.82,
+        "unrealized_value": 0.0,
+        "holding_value": 0.0,
+        "last_valuation": 70000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.020000165
+      }
+    },
+    {
+      "id": "patch-caregiving",
+      "name": "Patch Caregiving",
+      "sector": "Workforce",
+      "syndicate": "AlleyCorp",
+      "comments": "Acquired by Wellthy, our share is valued at ~600k. No access to FI",
+      "geography": "",
+      "initial_investment_date": "2022-11-14",
+      "entry": {
+        "date": "2022-11-14",
+        "series": "Seed",
+        "invested_amount": 88754.0,
+        "ownership_percentage": 0.062499981249999996,
+        "implied_valuation": 1420064.426019328
+      },
+      "current": {
+        "market_value": 0.0,
+        "unrealized_gain": 0,
+        "multiple": 1.0,
+        "gross_irr": 0.26417754394531245,
+        "realized_value": 88754.0,
+        "unrealized_value": 0.0,
+        "holding_value": 0.0,
+        "last_valuation": 8000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.062499981249999996
+      }
+    },
+    {
+      "id": "unrealized-portfolio",
+      "name": "Unrealized Portfolio",
+      "sector": "Unknown",
+      "syndicate": "",
+      "comments": "",
+      "geography": "",
+      "initial_investment_date": null,
+      "entry": {
+        "date": null,
+        "series": "Unknown",
+        "invested_amount": 0,
+        "ownership_percentage": 0,
+        "implied_valuation": 0
+      },
+      "current": {
+        "market_value": 0,
+        "unrealized_gain": 0,
+        "multiple": 0,
+        "gross_irr": 0,
+        "realized_value": 0,
+        "unrealized_value": 0,
+        "holding_value": 0,
+        "last_valuation": 0,
+        "series": "Unknown",
+        "ownership_percentage": 0
+      }
+    },
+    {
+      "id": "brightline",
+      "name": "Brightline",
+      "sector": "Healthtech",
+      "syndicate": "GV, Oak HC/FT, Threshold",
+      "comments": "Revenue is down slightly yoy, profitable this year. Focusing on delivering care in person, opened 3rd clinic in NY, leadership change, revenue growth -ve, have they de-risked the hybrid model yet? Can it grow and scale? Valuation multiple seems high given the fact pattern",
+      "geography": "",
+      "initial_investment_date": "2020-08-04",
+      "entry": {
+        "date": "2020-08-04",
+        "series": "A",
+        "invested_amount": 1499987.04,
+        "ownership_percentage": 0.006249969,
+        "implied_valuation": 239999116.7956193
+      },
+      "current": {
+        "market_value": 4521963.669600001,
+        "unrealized_gain": 3021976.6296000006,
+        "multiple": 3.014668493135781,
+        "gross_irr": 0.2523328840732575,
+        "realized_value": 0.0,
+        "unrealized_value": 4521963.669600001,
+        "holding_value": 4521963.669600001,
+        "last_valuation": 757442906.0,
+        "series": "A",
+        "ownership_percentage": 0.006249969
+      }
+    },
+    {
+      "id": "murmur",
+      "name": "Murmur",
+      "sector": "Workforce",
+      "syndicate": "Lerer Hippeau, Human Ventures",
+      "comments": "N/A - shutdown",
+      "geography": "",
+      "initial_investment_date": "2020-09-24",
+      "entry": {
+        "date": "2020-09-24",
+        "series": "Seed",
+        "invested_amount": 1574998.0,
+        "ownership_percentage": 0.0264715105726706,
+        "implied_valuation": 59497851.30985463
+      },
+      "current": {
+        "market_value": 0.0,
+        "unrealized_gain": 0,
+        "multiple": 0.0,
+        "gross_irr": -1.0,
+        "realized_value": 0.0,
+        "unrealized_value": 0.0,
+        "holding_value": 0.0,
+        "last_valuation": 28000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.0264715105726706
+      }
+    },
+    {
+      "id": "pinwheel",
+      "name": "Pinwheel",
+      "sector": "Financial",
+      "syndicate": "Coatue, First Round, Upfront",
+      "comments": "30 months of runway, undergoing CEO change, written-down to cost in Q3",
+      "geography": "",
+      "initial_investment_date": "2020-10-01",
+      "entry": {
+        "date": "2020-10-01",
+        "series": "A",
+        "invested_amount": 1453156.07,
+        "ownership_percentage": 0.005,
+        "implied_valuation": 290631214.0
+      },
+      "current": {
+        "market_value": 1453156.07,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 1453156.07,
+        "holding_value": 1453156.07,
+        "last_valuation": 506374335.28,
+        "series": "A",
+        "ownership_percentage": 0.005
+      }
+    },
+    {
+      "id": "cleo",
+      "name": "Cleo",
+      "sector": "Healthtech",
+      "syndicate": "Felicis, Forerunner, Greylock",
+      "comments": "N/A - proactive write-off",
+      "geography": "",
+      "initial_investment_date": "2020-11-20",
+      "entry": {
+        "date": "2020-11-20",
+        "series": "B",
+        "invested_amount": 599997.84,
+        "ownership_percentage": 0.00521737252173913,
+        "implied_valuation": 115000000.0
+      },
+      "current": {
+        "market_value": 0.0,
+        "unrealized_gain": 0,
+        "multiple": 0.0,
+        "gross_irr": -1.0,
+        "realized_value": 0.0,
+        "unrealized_value": 0.0,
+        "holding_value": 0.0,
+        "last_valuation": 231000000.0,
+        "series": "B",
+        "ownership_percentage": 0.00521737252173913
+      }
+    },
+    {
+      "id": "rightfoot",
+      "name": "Rightfoot",
+      "sector": "Financial",
+      "syndicate": "Bain Capital, LSVP",
+      "comments": "Showing signs of significant growth after undergoing pivot, monitoring to write back up to cost",
+      "geography": "",
+      "initial_investment_date": "2020-12-10",
+      "entry": {
+        "date": "2020-12-10",
+        "series": "Seed",
+        "invested_amount": 399999.32,
+        "ownership_percentage": 0.02,
+        "implied_valuation": 19999966.0
+      },
+      "current": {
+        "market_value": 0.0,
+        "unrealized_gain": 0,
+        "multiple": 0.0,
+        "gross_irr": -1.0,
+        "realized_value": 0.0,
+        "unrealized_value": 0.0,
+        "holding_value": 0.0,
+        "last_valuation": 55000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.02
+      }
+    },
+    {
+      "id": "galileo",
+      "name": "Galileo",
+      "sector": "Healthtech",
+      "syndicate": "Foresite Capital, Oak HC/FT, 8VC",
+      "comments": "Completed recap in Q3, completing transition away from shared savings to FFS / Capitated",
+      "geography": "",
+      "initial_investment_date": "2021-02-05",
+      "entry": {
+        "date": "2021-02-05",
+        "series": "C",
+        "invested_amount": 2163901.66,
+        "ownership_percentage": 0.0050633026769583145,
+        "implied_valuation": 427369604.0031966
+      },
+      "current": {
+        "market_value": 1724878.7951323895,
+        "unrealized_gain": -439022.8648676106,
+        "multiple": 0.7971151494621939,
+        "gross_irr": -0.04880394180495291,
+        "realized_value": 0.0,
+        "unrealized_value": 1724878.7951323895,
+        "holding_value": 1724878.7951323895,
+        "last_valuation": 361500000.0,
+        "series": "C",
+        "ownership_percentage": 0.0050633026769583145
+      }
+    },
+    {
+      "id": "cocoon",
+      "name": "Cocoon",
+      "sector": "Workforce",
+      "syndicate": "Index Ventures, XYZ Capital",
+      "comments": "Contracted ARR at ~$10M, strong product expansion and channel traction with Gurdian/Sedgewick moving into enterprises, moved into variable hourly workers market (increased TAM?). Increased distribution scale + partner validation should move this into green? Rev multiple seems high",
+      "geography": "",
+      "initial_investment_date": "2021-02-05",
+      "entry": {
+        "date": "2021-02-05",
+        "series": "Seed",
+        "invested_amount": 4224996.6,
+        "ownership_percentage": 0.007374467789327065,
+        "implied_valuation": 572922239.3668545
+      },
+      "current": {
+        "market_value": 4224996.6,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 0.31390677246093757,
+        "realized_value": 0.0,
+        "unrealized_value": 4224996.6,
+        "holding_value": 4224996.6,
+        "last_valuation": 162501580.5852,
+        "series": "Seed",
+        "ownership_percentage": 0.007374467789327065
+      }
+    },
+    {
+      "id": "rula",
+      "name": "Rula",
+      "sector": "Healthtech",
+      "syndicate": "Wing Ventures, Upfront Ventures",
+      "comments": "Forecasting 2x y/y growth with revenue run rate above $200M by year end",
+      "geography": "",
+      "initial_investment_date": "2021-03-10",
+      "entry": {
+        "date": "2021-03-10",
+        "series": "A",
+        "invested_amount": 4500000.0,
+        "ownership_percentage": 0.023774265792510206,
+        "implied_valuation": 189280293.20752653
+      },
+      "current": {
+        "market_value": 25285301.022347115,
+        "unrealized_gain": 20785301.022347115,
+        "multiple": 5.618955782743804,
+        "gross_irr": 0.5004662597656249,
+        "realized_value": 0.0,
+        "unrealized_value": 25285301.022347115,
+        "holding_value": 25285301.022347115,
+        "last_valuation": 1250000000.0,
+        "series": "A",
+        "ownership_percentage": 0.023774265792510206
+      }
+    },
+    {
+      "id": "origin",
+      "name": "Origin",
+      "sector": "Financial",
+      "syndicate": "Felicis, 01 Advisors, General Catalyst",
+      "comments": "Wrote down to preference stack, undergoing pivot away from B2B model",
+      "geography": "",
+      "initial_investment_date": "2021-04-21",
+      "entry": {
+        "date": "2021-04-21",
+        "series": "A",
+        "invested_amount": 3699992.1100000003,
+        "ownership_percentage": 0.01359997664,
+        "implied_valuation": 272058710.6831972
+      },
+      "current": {
+        "market_value": 3699992.1100000003,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 3699992.1100000003,
+        "holding_value": 3699992.1100000003,
+        "last_valuation": 401250000.0,
+        "series": "A",
+        "ownership_percentage": 0.01359997664
+      }
+    },
+    {
+      "id": "nayya",
+      "name": "Nayya",
+      "sector": "Healthtech",
+      "syndicate": "Felicis, Iconiq, SVB Capital",
+      "comments": "Reduced ARR forecast by 20%, reduced growth <2x, strong partnerships are encouraging but needs to convert to ARR contribution and signed deployments. Would suggest yellow.",
+      "geography": "",
+      "initial_investment_date": "2021-05-28",
+      "entry": {
+        "date": "2021-05-28",
+        "series": "B",
+        "invested_amount": 2699987.12,
+        "ownership_percentage": 0.002173913043478261,
+        "implied_valuation": 1241994075.2
+      },
+      "current": {
+        "market_value": 3853385.3579150615,
+        "unrealized_gain": 1153398.2379150614,
+        "multiple": 1.4271865703992919,
+        "gross_irr": 0.09124563964843753,
+        "realized_value": 0.0,
+        "unrealized_value": 3853385.3579150615,
+        "holding_value": 3853385.3579150615,
+        "last_valuation": 504953502.56999993,
+        "series": "B",
+        "ownership_percentage": 0.002173913043478261
+      }
+    },
+    {
+      "id": "praisidio",
+      "name": "Praisidio",
+      "sector": "Workforce",
+      "syndicate": "Signal Fire, Storm Ventures",
+      "comments": "N/A - proactive write-off",
+      "geography": "",
+      "initial_investment_date": "2021-06-23",
+      "entry": {
+        "date": "2021-06-23",
+        "series": "Seed",
+        "invested_amount": 200000.0,
+        "ownership_percentage": 0.01,
+        "implied_valuation": 20000000.0
+      },
+      "current": {
+        "market_value": 0.0,
+        "unrealized_gain": 0,
+        "multiple": 0.0,
+        "gross_irr": -1.0,
+        "realized_value": 0.0,
+        "unrealized_value": 0.0,
+        "holding_value": 0.0,
+        "last_valuation": 20000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.01
+      }
+    },
+    {
+      "id": "bravely",
+      "name": "Bravely",
+      "sector": "Workforce",
+      "syndicate": "Telescope Partners, Primary Venture Partners",
+      "comments": "Looking to capture AI tailwinds with a $5M+ install base",
+      "geography": "",
+      "initial_investment_date": "2021-07-02",
+      "entry": {
+        "date": "2021-07-02",
+        "series": "A",
+        "invested_amount": 1249999.55,
+        "ownership_percentage": 0.01851854183107483,
+        "implied_valuation": 67499890.7258698
+      },
+      "current": {
+        "market_value": 1249999.55,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 1249999.55,
+        "holding_value": 1249999.55,
+        "last_valuation": 67500000.0,
+        "series": "A",
+        "ownership_percentage": 0.01851854183107483
+      }
+    },
+    {
+      "id": "remote",
+      "name": "Remote",
+      "sector": "Workforce",
+      "syndicate": "Accel, General Catalyst, Index, Sequoia",
+      "comments": "Forecasting to accelerate above $350M ARR, continued tailwinds from global workforce",
+      "geography": "",
+      "initial_investment_date": "2021-07-21",
+      "entry": {
+        "date": "2021-07-21",
+        "series": "B",
+        "invested_amount": 4781445.954,
+        "ownership_percentage": 0.003999978867031726,
+        "implied_valuation": 1195367803.9174688
+      },
+      "current": {
+        "market_value": 10354761.5341,
+        "unrealized_gain": 5573315.5801,
+        "multiple": 2.1656130036223766,
+        "gross_irr": 0.2078252294921875,
+        "realized_value": 0.0,
+        "unrealized_value": 10354761.5341,
+        "holding_value": 10354761.5341,
+        "last_valuation": 3000000000.0,
+        "series": "B",
+        "ownership_percentage": 0.003999978867031726
+      }
+    },
+    {
+      "id": "finch",
+      "name": "Finch",
+      "sector": "Financial",
+      "syndicate": "Menlo, General Catalyst, Box Group",
+      "comments": "HR Tech API, Modest growth in Rev, ARR is down ~10% when compared to product traction (seems substantial), high growth margins ~80%, val multiples seem high when compared to industry (peaking at ~20x), retention/churn metrics and high val multiple would suggest yellow (high yellow - cautious but positive)",
+      "geography": "",
+      "initial_investment_date": "2021-08-27",
+      "entry": {
+        "date": "2021-08-27",
+        "series": "A",
+        "invested_amount": 500003.42,
+        "ownership_percentage": 0.004346743374237041,
+        "implied_valuation": 115029431.6806229
+      },
+      "current": {
+        "market_value": 740862.1200000001,
+        "unrealized_gain": 240858.70000000013,
+        "multiple": 1.4817141050755216,
+        "gross_irr": 0.09464863769531254,
+        "realized_value": 0.0,
+        "unrealized_value": 740862.1200000001,
+        "holding_value": 740862.1200000001,
+        "last_valuation": 230000392.0,
+        "series": "A",
+        "ownership_percentage": 0.004346743374237041
+      }
+    },
+    {
+      "id": "midi",
+      "name": "Midi",
+      "sector": "Healthtech",
+      "syndicate": "Icon Ventures",
+      "comments": "Beating and raising, ~$190M in revenue growing ~5x y/y",
+      "geography": "",
+      "initial_investment_date": "2021-09-16",
+      "entry": {
+        "date": "2021-09-16",
+        "series": "Seed",
+        "invested_amount": 5531506.98,
+        "ownership_percentage": 0.0510137,
+        "implied_valuation": 108431793.42019889
+      },
+      "current": {
+        "market_value": 48185998.94934,
+        "unrealized_gain": 42654491.96934,
+        "multiple": 8.711188311533144,
+        "gross_irr": 0.9595956542968749,
+        "realized_value": 0.0,
+        "unrealized_value": 48185998.94934,
+        "holding_value": 48185998.94934,
+        "last_valuation": 1150000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.0510137
+      }
+    },
+    {
+      "id": "ianacare",
+      "name": "ianacare",
+      "sector": "Healthtech",
+      "syndicate": "Greycroft, 8VC",
+      "comments": "Regulatory tailwinds from GUIDE program driving growth as company shifts away from employer. Expect GUIDE revenue to ramp from 6 digit ARR to 7 digit ARR in the next 6-9 months. They revised 2025E ARR projectons down by 25% but expect visibility into GUIDE related ARR to dramatically increase over next 12 months.",
+      "geography": "",
+      "initial_investment_date": "2021-12-17",
+      "entry": {
+        "date": "2021-12-17",
+        "series": "A",
+        "invested_amount": 2999984.87,
+        "ownership_percentage": 0.016666455687427625,
+        "implied_valuation": 180001370.79313418
+      },
+      "current": {
+        "market_value": 2999984.87,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 2999984.87,
+        "holding_value": 2999984.87,
+        "last_valuation": 60000000.0,
+        "series": "A",
+        "ownership_percentage": 0.016666455687427625
+      }
+    },
+    {
+      "id": "vivante",
+      "name": "Vivante",
+      "sector": "Healthtech",
+      "syndicate": "7Wire, NFP",
+      "comments": "Down round, strucured pay to play with punitive provisions",
+      "geography": "",
+      "initial_investment_date": "2021-12-22",
+      "entry": {
+        "date": "2021-12-22",
+        "series": "A",
+        "invested_amount": 2204142.33,
+        "ownership_percentage": 0.04592855166078821,
+        "implied_valuation": 47990677.91815
+      },
+      "current": {
+        "market_value": 3130662.0066708787,
+        "unrealized_gain": 926519.6766708787,
+        "multiple": 1.4203538328992025,
+        "gross_irr": 0.11739946777343753,
+        "realized_value": 0.0,
+        "unrealized_value": 3130662.0066708787,
+        "holding_value": 3130662.0066708787,
+        "last_valuation": 84077295.57201,
+        "series": "A",
+        "ownership_percentage": 0.04592855166078821
+      }
+    },
+    {
+      "id": "ateam",
+      "name": "a.team",
+      "sector": "Workforce",
+      "syndicate": "Spruce, Tiger, Insight, BoxGroup",
+      "comments": "Over 2 years of runway, $10M+ ARR, Company is running talent marketplace and the model is aligned with usage based model, rather than classic ARR",
+      "geography": "",
+      "initial_investment_date": "2022-01-06",
+      "entry": {
+        "date": "2022-01-06",
+        "series": "A",
+        "invested_amount": 999998.86,
+        "ownership_percentage": 0.0030769219624870816,
+        "implied_valuation": 324999747.2122104
+      },
+      "current": {
+        "market_value": 999998.86,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 999998.86,
+        "holding_value": 999998.86,
+        "last_valuation": 325000000.0,
+        "series": "A",
+        "ownership_percentage": 0.0030769219624870816
+      }
+    },
+    {
+      "id": "covergo",
+      "name": "CoverGo",
+      "sector": "Financial",
+      "syndicate": "",
+      "comments": "Reaccelerated growth, forecasting 2x y/y growth and close to breakeven, yellow for now, will see how the raise goes",
+      "geography": "",
+      "initial_investment_date": "2022-03-01",
+      "entry": {
+        "date": "2022-03-01",
+        "series": "A",
+        "invested_amount": 4000000.0,
+        "ownership_percentage": 0.09302325581395349,
+        "implied_valuation": 43000000.0
+      },
+      "current": {
+        "market_value": 5294506.94904037,
+        "unrealized_gain": 1294506.94904037,
+        "multiple": 1.3236267372600925,
+        "gross_irr": 0.0839192236328125,
+        "realized_value": 0.0,
+        "unrealized_value": 5294506.94904037,
+        "holding_value": 5294506.94904037,
+        "last_valuation": 43000000.0,
+        "series": "A",
+        "ownership_percentage": 0.09302325581395349
+      }
+    },
+    {
+      "id": "ashby",
+      "name": "Ashby",
+      "sector": "Workforce",
+      "syndicate": "F-Prime, Elad Gil",
+      "comments": "Closed a $50M Series D at a ~2x step-up from previous round, strong growth",
+      "geography": "",
+      "initial_investment_date": "2022-02-07",
+      "entry": {
+        "date": "2022-02-07",
+        "series": "B",
+        "invested_amount": 5000000.0,
+        "ownership_percentage": 0.017142857142857144,
+        "implied_valuation": 291666666.6666666
+      },
+      "current": {
+        "market_value": 10135319.148715518,
+        "unrealized_gain": 5135319.148715518,
+        "multiple": 2.0270638297431036,
+        "gross_irr": 0.21993770996093753,
+        "realized_value": 0.0,
+        "unrealized_value": 10135319.148715518,
+        "holding_value": 10135319.148715518,
+        "last_valuation": 500000000.0,
+        "series": "B",
+        "ownership_percentage": 0.017142857142857144
+      }
+    },
+    {
+      "id": "delfina",
+      "name": "Delfina",
+      "sector": "Healthtech",
+      "syndicate": "Story Ventures",
+      "comments": "Didn't provide revenue projections but taking a hit due to Medicaid budget cuts. Actuals down from projections",
+      "geography": "",
+      "initial_investment_date": "2022-03-01",
+      "entry": {
+        "date": "2022-03-01",
+        "series": "Seed",
+        "invested_amount": 1549999.92,
+        "ownership_percentage": 0.05333333333333334,
+        "implied_valuation": 29062498.499999996
+      },
+      "current": {
+        "market_value": 2097344.5779999997,
+        "unrealized_gain": 547344.6579999998,
+        "multiple": 1.3531256040322892,
+        "gross_irr": 0.1189651416015625,
+        "realized_value": 0.0,
+        "unrealized_value": 2097344.5779999997,
+        "holding_value": 2097344.5779999997,
+        "last_valuation": 52000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.05333333333333334
+      }
+    },
+    {
+      "id": "mosey",
+      "name": "Mosey",
+      "sector": "Workforce",
+      "syndicate": "Canaan",
+      "comments": "Revenue growing ~46% y/y and significant integrations into payroll providers, val multiple too high",
+      "geography": "",
+      "initial_investment_date": "2022-05-26",
+      "entry": {
+        "date": "2022-05-26",
+        "series": "A",
+        "invested_amount": 3999998.91,
+        "ownership_percentage": 0.045455,
+        "implied_valuation": 87999096.02903971
+      },
+      "current": {
+        "market_value": 3999998.9100000006,
+        "unrealized_gain": 4.656612873077393e-10,
+        "multiple": 1.0000000000000002,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 3999998.9100000006,
+        "holding_value": 3999998.9100000006,
+        "last_valuation": 88000000.0,
+        "series": "A",
+        "ownership_percentage": 0.045455
+      }
+    },
+    {
+      "id": "violet",
+      "name": "Violet",
+      "sector": "Healthtech",
+      "syndicate": "The Venture Collective, Northwell",
+      "comments": "Modest growth yoy (1.53x) Actively pursuing M&A, UCare contract cancelled as Medicaid related churn coming to fruition, $2.7M ARR Churn (230k/month)",
+      "geography": "",
+      "initial_investment_date": "2022-06-10",
+      "entry": {
+        "date": "2022-06-10",
+        "series": "Seed",
+        "invested_amount": 2599995.27,
+        "ownership_percentage": 0.11818160318181818,
+        "implied_valuation": 22000000.0
+      },
+      "current": {
+        "market_value": 2599995.27,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 2599995.27,
+        "holding_value": 2599995.27,
+        "last_valuation": 22000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.11818160318181818
+      }
+    },
+    {
+      "id": "gable",
+      "name": "Gable",
+      "sector": "Workforce",
+      "syndicate": "Foundation Capital",
+      "comments": "Forecasting $7.8M ARR by end of Q1'26. Sep run rate at $3.6M.\nRaised internal bridge round, forecasting ~3x growth and scale appropriate for Series B.  Reduced burn, have reduced costs and improved EBITDA. Rev multiple seems high, would want to keep this at yellow.",
+      "geography": "",
+      "initial_investment_date": "2022-10-14",
+      "entry": {
+        "date": "2022-10-14",
+        "series": "A",
+        "invested_amount": 4000000.0,
+        "ownership_percentage": 0.08,
+        "implied_valuation": 50000000.0
+      },
+      "current": {
+        "market_value": 3999999.9999999995,
+        "unrealized_gain": -4.656612873077393e-10,
+        "multiple": 0.9999999999999999,
+        "gross_irr": -4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 3999999.9999999995,
+        "holding_value": 3999999.9999999995,
+        "last_valuation": 50000000.0,
+        "series": "A",
+        "ownership_percentage": 0.08
+      }
+    },
+    {
+      "id": "patch-caregiving-1",
+      "name": "Patch Caregiving",
+      "sector": "Workforce",
+      "syndicate": "AlleyCorp",
+      "comments": "Acquired by Wellthy, our share is valued at ~600k. No access to FI",
+      "geography": "",
+      "initial_investment_date": "2022-11-14",
+      "entry": {
+        "date": "2022-11-14",
+        "series": "Seed",
+        "invested_amount": 411245.85,
+        "ownership_percentage": 0.062499981249999996,
+        "implied_valuation": 6579935.573980672
+      },
+      "current": {
+        "market_value": 586415.2938,
+        "unrealized_gain": 175169.4438,
+        "multiple": 1.4259482346144041,
+        "gross_irr": 0.26417754394531245,
+        "realized_value": 0.0,
+        "unrealized_value": 586415.2938,
+        "holding_value": 586415.2938,
+        "last_valuation": 8000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.062499981249999996
+      }
+    },
+    {
+      "id": "formally",
+      "name": "Formally",
+      "sector": "Workforce",
+      "syndicate": "Bessemer",
+      "comments": "Legal AI is driving renewed interest and company continues to sell well into legal firms",
+      "geography": "",
+      "initial_investment_date": "2023-03-21",
+      "entry": {
+        "date": "2023-03-21",
+        "series": "Seed",
+        "invested_amount": 1000000.0,
+        "ownership_percentage": 0.04,
+        "implied_valuation": 25000000.0
+      },
+      "current": {
+        "market_value": 1000000.0,
+        "unrealized_gain": 0.0,
+        "multiple": 1.0,
+        "gross_irr": 4.8828125e-09,
+        "realized_value": 0.0,
+        "unrealized_value": 1000000.0,
+        "holding_value": 1000000.0,
+        "last_valuation": 25000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.04
+      }
+    },
+    {
+      "id": "liftoff",
+      "name": "Liftoff",
+      "sector": "Workforce",
+      "syndicate": "Torch Capital, Kleiner Perkins Spark Fund",
+      "comments": "Came out of stealth in Oct 25, good organic growth, no real monetization yet, positive for now but will need to watch the story unfold from here",
+      "geography": "",
+      "initial_investment_date": "2023-05-18",
+      "entry": {
+        "date": "2023-05-18",
+        "series": "Seed",
+        "invested_amount": 886565.6599999999,
+        "ownership_percentage": 0.05,
+        "implied_valuation": 17731313.199999996
+      },
+      "current": {
+        "market_value": 1896344.1593260823,
+        "unrealized_gain": 1009778.4993260824,
+        "multiple": 2.138977680825222,
+        "gross_irr": 0.42452903808593756,
+        "realized_value": 0.0,
+        "unrealized_value": 1896344.1593260823,
+        "holding_value": 1896344.1593260823,
+        "last_valuation": 39000000.0,
+        "series": "Seed",
+        "ownership_percentage": 0.05
+      }
+    }
+  ],
+  "performance_table": [
+    {
+      "company": "Company",
+      "initial_date": "Date",
+      "exit_date": null,
+      "invested": 0,
+      "unrealized": 0,
+      "realized": 0,
+      "total_value": 0,
+      "gross_multiple": 0,
+      "gross_irr": 0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Realized Portfolio",
+      "initial_date": null,
+      "exit_date": null,
+      "invested": 0,
+      "unrealized": 0,
+      "realized": 0,
+      "total_value": 0,
+      "gross_multiple": 0,
+      "gross_irr": 0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Easop",
+      "initial_date": "2023-05-19",
+      "exit_date": null,
+      "invested": 218533.69405623607,
+      "unrealized": 0.0,
+      "realized": 263324.50405623607,
+      "total_value": 263324.50405623607,
+      "gross_multiple": 1.2049606592403723,
+      "gross_irr": 0.18573675292968755,
+      "status": "Realized"
+    },
+    {
+      "company": "Mathison",
+      "initial_date": "2020-12-11",
+      "exit_date": null,
+      "invested": 2049994.1861729803,
+      "unrealized": 0.0,
+      "realized": 272298.82,
+      "total_value": 272298.82,
+      "gross_multiple": 0.13282906938791836,
+      "gross_irr": -0.3876824912615121,
+      "status": "Realized"
+    },
+    {
+      "company": "Patch Caregiving",
+      "initial_date": "2022-11-14",
+      "exit_date": null,
+      "invested": 88754.0,
+      "unrealized": 0.0,
+      "realized": 88754.0,
+      "total_value": 88754.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 0.26417754394531245,
+      "status": "Realized"
+    },
+    {
+      "company": "Unrealized Portfolio",
+      "initial_date": null,
+      "exit_date": null,
+      "invested": 0,
+      "unrealized": 0,
+      "realized": 0,
+      "total_value": 0,
+      "gross_multiple": 0,
+      "gross_irr": 0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Brightline",
+      "initial_date": "2020-08-04",
+      "exit_date": null,
+      "invested": 1499987.04,
+      "unrealized": 4521963.669600001,
+      "realized": 0.0,
+      "total_value": 4521963.669600001,
+      "gross_multiple": 3.014668493135781,
+      "gross_irr": 0.2523328840732575,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Murmur",
+      "initial_date": "2020-09-24",
+      "exit_date": null,
+      "invested": 1574998.0,
+      "unrealized": 0.0,
+      "realized": 0.0,
+      "total_value": 0.0,
+      "gross_multiple": 0.0,
+      "gross_irr": -1.0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Pinwheel",
+      "initial_date": "2020-10-01",
+      "exit_date": null,
+      "invested": 1453156.07,
+      "unrealized": 1453156.07,
+      "realized": 0.0,
+      "total_value": 1453156.07,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Cleo",
+      "initial_date": "2020-11-20",
+      "exit_date": null,
+      "invested": 599997.84,
+      "unrealized": 0.0,
+      "realized": 0.0,
+      "total_value": 0.0,
+      "gross_multiple": 0.0,
+      "gross_irr": -1.0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Rightfoot",
+      "initial_date": "2020-12-10",
+      "exit_date": null,
+      "invested": 399999.32,
+      "unrealized": 0.0,
+      "realized": 0.0,
+      "total_value": 0.0,
+      "gross_multiple": 0.0,
+      "gross_irr": -1.0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Galileo",
+      "initial_date": "2021-02-05",
+      "exit_date": null,
+      "invested": 2163901.66,
+      "unrealized": 1724878.7951323895,
+      "realized": 0.0,
+      "total_value": 1724878.7951323895,
+      "gross_multiple": 0.7971151494621939,
+      "gross_irr": -0.04880394180495291,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Cocoon",
+      "initial_date": "2021-02-05",
+      "exit_date": null,
+      "invested": 4224996.6,
+      "unrealized": 4224996.6,
+      "realized": 0.0,
+      "total_value": 4224996.6,
+      "gross_multiple": 1.0,
+      "gross_irr": 0.31390677246093757,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Rula",
+      "initial_date": "2021-03-10",
+      "exit_date": null,
+      "invested": 4500000.0,
+      "unrealized": 25285301.022347115,
+      "realized": 0.0,
+      "total_value": 25285301.022347115,
+      "gross_multiple": 5.618955782743804,
+      "gross_irr": 0.5004662597656249,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Origin",
+      "initial_date": "2021-04-21",
+      "exit_date": null,
+      "invested": 3699992.1100000003,
+      "unrealized": 3699992.1100000003,
+      "realized": 0.0,
+      "total_value": 3699992.1100000003,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Nayya",
+      "initial_date": "2021-05-28",
+      "exit_date": null,
+      "invested": 2699987.12,
+      "unrealized": 3853385.3579150615,
+      "realized": 0.0,
+      "total_value": 3853385.3579150615,
+      "gross_multiple": 1.4271865703992919,
+      "gross_irr": 0.09124563964843753,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Praisidio",
+      "initial_date": "2021-06-23",
+      "exit_date": null,
+      "invested": 200000.0,
+      "unrealized": 0.0,
+      "realized": 0.0,
+      "total_value": 0.0,
+      "gross_multiple": 0.0,
+      "gross_irr": -1.0,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Bravely",
+      "initial_date": "2021-07-02",
+      "exit_date": null,
+      "invested": 1249999.55,
+      "unrealized": 1249999.55,
+      "realized": 0.0,
+      "total_value": 1249999.55,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Remote",
+      "initial_date": "2021-07-21",
+      "exit_date": null,
+      "invested": 4781445.954,
+      "unrealized": 10354761.5341,
+      "realized": 0.0,
+      "total_value": 10354761.5341,
+      "gross_multiple": 2.1656130036223766,
+      "gross_irr": 0.2078252294921875,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Finch",
+      "initial_date": "2021-08-27",
+      "exit_date": null,
+      "invested": 500003.42,
+      "unrealized": 740862.1200000001,
+      "realized": 0.0,
+      "total_value": 740862.1200000001,
+      "gross_multiple": 1.4817141050755216,
+      "gross_irr": 0.09464863769531254,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Midi",
+      "initial_date": "2021-09-16",
+      "exit_date": null,
+      "invested": 5531506.98,
+      "unrealized": 48185998.94934,
+      "realized": 0.0,
+      "total_value": 48185998.94934,
+      "gross_multiple": 8.711188311533144,
+      "gross_irr": 0.9595956542968749,
+      "status": "Unrealized"
+    },
+    {
+      "company": "ianacare",
+      "initial_date": "2021-12-17",
+      "exit_date": null,
+      "invested": 2999984.87,
+      "unrealized": 2999984.87,
+      "realized": 0.0,
+      "total_value": 2999984.87,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Vivante",
+      "initial_date": "2021-12-22",
+      "exit_date": null,
+      "invested": 2204142.33,
+      "unrealized": 3130662.0066708787,
+      "realized": 0.0,
+      "total_value": 3130662.0066708787,
+      "gross_multiple": 1.4203538328992025,
+      "gross_irr": 0.11739946777343753,
+      "status": "Unrealized"
+    },
+    {
+      "company": "a.team",
+      "initial_date": "2022-01-06",
+      "exit_date": null,
+      "invested": 999998.86,
+      "unrealized": 999998.86,
+      "realized": 0.0,
+      "total_value": 999998.86,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "CoverGo",
+      "initial_date": "2022-03-01",
+      "exit_date": null,
+      "invested": 4000000.0,
+      "unrealized": 5294506.94904037,
+      "realized": 0.0,
+      "total_value": 5294506.94904037,
+      "gross_multiple": 1.3236267372600925,
+      "gross_irr": 0.0839192236328125,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Ashby",
+      "initial_date": "2022-02-07",
+      "exit_date": null,
+      "invested": 5000000.0,
+      "unrealized": 10135319.148715518,
+      "realized": 0.0,
+      "total_value": 10135319.148715518,
+      "gross_multiple": 2.0270638297431036,
+      "gross_irr": 0.21993770996093753,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Delfina",
+      "initial_date": "2022-03-01",
+      "exit_date": null,
+      "invested": 1549999.92,
+      "unrealized": 2097344.5779999997,
+      "realized": 0.0,
+      "total_value": 2097344.5779999997,
+      "gross_multiple": 1.3531256040322892,
+      "gross_irr": 0.1189651416015625,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Mosey",
+      "initial_date": "2022-05-26",
+      "exit_date": null,
+      "invested": 3999998.91,
+      "unrealized": 3999998.9100000006,
+      "realized": 0.0,
+      "total_value": 3999998.9100000006,
+      "gross_multiple": 1.0000000000000002,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Violet",
+      "initial_date": "2022-06-10",
+      "exit_date": null,
+      "invested": 2599995.27,
+      "unrealized": 2599995.27,
+      "realized": 0.0,
+      "total_value": 2599995.27,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Gable",
+      "initial_date": "2022-10-14",
+      "exit_date": null,
+      "invested": 4000000.0,
+      "unrealized": 3999999.9999999995,
+      "realized": 0.0,
+      "total_value": 3999999.9999999995,
+      "gross_multiple": 0.9999999999999999,
+      "gross_irr": -4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Patch Caregiving",
+      "initial_date": "2022-11-14",
+      "exit_date": null,
+      "invested": 411245.85,
+      "unrealized": 586415.2938,
+      "realized": 0.0,
+      "total_value": 586415.2938,
+      "gross_multiple": 1.4259482346144041,
+      "gross_irr": 0.26417754394531245,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Formally",
+      "initial_date": "2023-03-21",
+      "exit_date": null,
+      "invested": 1000000.0,
+      "unrealized": 1000000.0,
+      "realized": 0.0,
+      "total_value": 1000000.0,
+      "gross_multiple": 1.0,
+      "gross_irr": 4.8828125e-09,
+      "status": "Unrealized"
+    },
+    {
+      "company": "Liftoff",
+      "initial_date": "2023-05-18",
+      "exit_date": null,
+      "invested": 886565.6599999999,
+      "unrealized": 1896344.1593260823,
+      "realized": 0.0,
+      "total_value": 1896344.1593260823,
+      "gross_multiple": 2.138977680825222,
+      "gross_irr": 0.42452903808593756,
+      "status": "Unrealized"
+    }
+  ]
+}
