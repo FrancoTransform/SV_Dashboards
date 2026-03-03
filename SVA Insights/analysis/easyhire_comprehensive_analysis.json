@@ -1,0 +1,154 @@
+{
+  "company_name": "EasyHire",
+  "token": "0z8qjujukplmuc0e6x0z8qjud1q0e4t4",
+  "submitted_at": "10/13/2025 9:47:06",
+  "website": "https://easyhireapp.com",
+  "year_founded": "2024",
+  "description": "EasyHire helps SMBs hire in days, not weeks. Our AI screens CVs, runs avatar-led structured interviews, and delivers ranked shortlists with fit scores and insights\u2014saving 23h per hire and closing roles up to 70% faster. No HR team required.",
+  "problem_statement": "SMBs spend ~23h per hire on manual screening and scheduling. Slow cycles = lost candidates to faster competitors. Interviews are inconsistent; decisions lack clear evidence. Founders/teams without HR struggle to run a fair, structured process. Result: churned candidates, bias risk, poor ROI and time lost from core work.",
+  "pitch_deck_link": "https://www.genspark.ai/slides?project_id=4bf93301-b6f5-43f5-895f-cb14a914575f",
+  "demo_link": "https://www.youtube.com/watch?v=qlq1rtzYBDY",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has complementary skills in AI/product engineering and GTM/recruiting ops, which are crucial for executing their vision. Alejandro Peghin, the founder, has a strong background in marketing and operations, which is essential for scaling the business.",
+    "company_assessment": {
+      "business_model_strength": "The B2B SaaS model with monthly/annual plans and add-ons is scalable and offers clear ROI to customers, which is a strong competitive advantage.",
+      "market_positioning": "EasyHire positions itself as an end-to-end hiring solution for SMBs, differentiating from legacy ATS and interview point solutions by offering automation and structured insights.",
+      "execution_capability": "The team has demonstrated execution capability by launching an MVP, securing pilot customers, and achieving significant time savings for users.",
+      "strategic_vision": "The strategic vision includes expanding to US markets and integrating with ATS/HRIS platforms, which aligns with market needs and growth opportunities."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Alejandro Peghin",
+        "role": "Founder & CMO",
+        "linkedin": "https://www.linkedin.com/in/peghin/",
+        "background": "Alejandro has a background in marketing and operations, with experience in tech startups.",
+        "domain_expertise": "Expertise in recruiting operations and AI-driven product development.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Successfully launched EasyHire MVP and secured pilot customers.",
+        "leadership_signals": "Demonstrated leadership in aligning team skills and executing the product vision.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes legacy ATS like Greenhouse and Lever, and interview solutions like HireVue.",
+      "competitor_comparison": "Competitors lack end-to-end automation and structured insights, which EasyHire provides.",
+      "positioning_assessment": "EasyHire differentiates by offering a comprehensive solution that automates the entire hiring process, reducing time and bias."
+    },
+    "red_flags": [
+      "Limited brand awareness in a crowded HR tech space."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with ~5M SMBs in the EU/CEE & UK, and plans to expand to the US. The market is growing due to increased demand for efficient hiring solutions.",
+    "market_analysis": {
+      "total_addressable_market": "TAM is ~5M SMBs in target segments hiring 10-50 roles/year.",
+      "serviceable_addressable_market": "Initial focus on tech-enabled services, SaaS, and agencies in the EU/CEE & UK.",
+      "serviceable_obtainable_market": "SOM projections are realistic given the current traction and GTM strategy.",
+      "market_growth_rate": "The market is expected to grow as SMBs increasingly adopt AI-driven hiring solutions.",
+      "market_dynamics": "Key trends include the shift to remote work, AI adoption, and the need for faster hiring cycles."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Non-HR founders, hiring managers, and overworked recruiters in SMBs.",
+      "willingness_to_pay": "Strong willingness to pay due to clear ROI and time savings.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is likely low due to the PLG strategy.",
+      "lifetime_value": "LTV is expected to be high due to recurring revenue model and customer retention."
+    },
+    "red_flags": [
+      "Potential resistance to AI-driven solutions among traditional SMBs."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology leverages AI for automation and structured insights, providing a competitive advantage. The use of LLM APIs and in-house development ensures scalability and defensibility.",
+    "technical_assessment": {
+      "core_technology": "AI-driven CV screening, avatar-led interviews, and ranked shortlists.",
+      "defensibility": "In-house development of core evaluation logic and rubrics provides a moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary algorithms are a key asset.",
+      "scalability": "The technology is scalable, leveraging standard frameworks and APIs."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary evaluation logic and rubrics.",
+      "data_advantages": "Potential for data-driven insights and continuous improvement.",
+      "technical_barriers": "Competitors may struggle to replicate the comprehensive automation and insights."
+    },
+    "red_flags": [
+      "Concerns about LLM evaluation accuracy and potential bias."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has demonstrated strong early traction with pilot customers and significant time savings. The GTM strategy is well-defined and shows promise for scaling.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth is not detailed, but early customer adoption is promising.",
+      "customer_metrics": "Several paying customers in paid trials, with a strong pipeline.",
+      "retention_analysis": "Retention metrics are not detailed, but early feedback is positive.",
+      "unit_economics": "Unit economics are favorable, with clear ROI for customers."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback on time savings and faster hiring cycles.",
+      "product_market_fit": "Evidence of PMF with early adopters and strong interest.",
+      "notable_customers": "Pilot customers in tech-enabled services, SaaS, and agencies.",
+      "partnerships": "Active conversations with accelerators and dev shops for partnerships."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Launched MVP, secured pilot customers, and demonstrated time savings."
+      ],
+      "areas_of_investigation": [
+        "Conversion of pilots to annual contracts and scaling GTM."
+      ]
+    },
+    "red_flags": [
+      "Limited data on long-term retention and customer satisfaction."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable with the rise of remote work, AI adoption, and the need for efficient hiring solutions. Market readiness and catalysts are strong.",
+    "market_timing": {
+      "market_readiness": "The market is ready for AI-driven hiring solutions, especially post-remote work shift.",
+      "catalysts": "Increased demand for faster hiring cycles and structured interviews.",
+      "tailwinds": "Favorable trends in AI adoption and remote work.",
+      "headwinds": "Potential resistance to change among traditional SMBs."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into a growing market provides a competitive edge.",
+      "competitive_response": "Competitors may respond, but EasyHire's comprehensive solution offers a strong defense.",
+      "market_education": "Some market education may be required, but the value proposition is clear."
+    },
+    "red_flags": [
+      "None identified."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is raising a pre-seed round to extend runway and scale operations. Valuation and terms are not detailed, but alignment with SV's focus on workforce tech is strong.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on workforce tech and SMB solutions.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation details are not provided, but early traction supports a reasonable valuation."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "EasyHire demonstrates strong potential with a compelling solution for SMB hiring challenges, favorable market timing, and early traction. The team has the necessary skills and vision to execute and scale.",
+    "key_factors": [
+      "Strong product-market fit, favorable market timing, and a scalable business model."
+    ],
+    "next_steps": [
+      "Engage in due diligence, validate customer feedback, and assess detailed financials and terms."
+    ]
+  }
+}

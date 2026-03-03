@@ -1,0 +1,171 @@
+{
+  "company_name": "gertie ai",
+  "token": "xjdridulwxx3p8yipxjdriyv7txov6cj",
+  "submitted_at": "12/10/2025 17:17:13",
+  "website": "https://www.meetgertie.com",
+  "year_founded": "2025",
+  "description": "gertie is an ai health companion that provides continuous care intelligence for users, insurers and health care providers.",
+  "problem_statement": "Healthcare operates on sporadic touchpoints - 12-minute appointments every few months, occasional nurse calls, wearable data limited to vitals, and patient portals with near-zero engagement. But real health issues emerge between these appointments: symptoms that fluctuate daily, side effects from new medications, emotional stress and mood shifts, cognitive fog, fatigue, and early signs of deterioration. Insurers and care teams only see these problems after they escalate into avoidable claims or preventable ER visits. There is no system that captures the daily lived experience of patients in a structured, scalable, clinically useful way - creating a massive blind spot where early intervention could prevent expensive downstream outcomes.",
+  "pitch_deck_link": "https://gamma.app/docs/gertie-ai-pitch-deck-hbrp1de34g2l62v",
+  "demo_link": "https://www.meetgertie.com",
+  "team": {
+    "score": 3,
+    "justification": "The team is currently a solo founder, which presents challenges in scaling and execution. However, the founder has significant industry experience and connections.",
+    "company_assessment": {
+      "business_model_strength": "The business model is primarily B2B with insurers and care organizations, which is a strong approach given the target market. The pricing model is clear and potentially high-margin.",
+      "market_positioning": "The company positions itself as a continuous care intelligence provider, differentiating from competitors by focusing on insurers rather than direct-to-consumer.",
+      "execution_capability": "The founder has initiated a pilot with 20 users and plans to expand to 100, showing initial execution capability.",
+      "strategic_vision": "The strategic vision is to provide a missing intelligence layer for insurers, which aligns with market needs for early intervention tools."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Elana Ostrega",
+        "role": "Solo Founder",
+        "linkedin": "https://www.linkedin.com/in/elanaostrega/",
+        "background": "Elana has over 15 years of experience in tech, having worked at Financeit, Clearco, and Durable.",
+        "domain_expertise": "Strong expertise in tech and healthcare, with a focus on AI applications.",
+        "previous_startups": "No previous startups mentioned, but extensive experience in tech companies.",
+        "notable_achievements": "Well-connected in the investor space and founder community.",
+        "leadership_signals": "Demonstrates leadership through industry connections and strategic vision.",
+        "track_record": [
+          {
+            "company": "Financeit",
+            "role": "Role not specified",
+            "outcome": "Ongoing",
+            "learnings": "Gained experience in tech and finance sectors."
+          },
+          {
+            "company": "Clearco",
+            "role": "Role not specified",
+            "outcome": "Ongoing",
+            "learnings": "Developed skills in scaling tech solutions."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes chat-based health AI and tele-health services.",
+      "competitor_comparison": "Competitors like august.ai focus on direct-to-consumer, which may not be sustainable without a strong approach.",
+      "positioning_assessment": "gertie ai differentiates by targeting insurers, providing a free service to end users and offering insurers valuable data insights."
+    },
+    "red_flags": [
+      "Solo founder may face challenges in scaling and execution without a broader team."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market for continuous care intelligence is substantial, exceeding $100 billion, with strong growth drivers.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is over $100 billion, driven by the need for continuous care solutions.",
+      "serviceable_addressable_market": "The SAM is significant, focusing on insurers and care organizations.",
+      "serviceable_obtainable_market": "The SOM is realistic given the B2B approach and market demand.",
+      "market_growth_rate": "The market is growing due to rising chronic conditions and the shift towards preventative care.",
+      "market_dynamics": "Key trends include the rise of chronic conditions, staffing shortages, and the maturity of AI technologies."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are insurers and care facilities, with end users being individuals with chronic conditions.",
+      "willingness_to_pay": "Insurers are likely willing to pay for solutions that reduce claims and ER visits.",
+      "customer_acquisition_cost": "CAC is not detailed but expected to be high given the B2B focus.",
+      "lifetime_value": "LTV is potentially high due to the recurring revenue model and long-term insurer relationships."
+    },
+    "red_flags": [
+      "High CAC and long sales cycles with insurers could impact cash flow."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology leverages AI for continuous care, but details on technical differentiation and defensibility are limited.",
+    "technical_assessment": {
+      "core_technology": "AI-driven health companion providing continuous care intelligence.",
+      "defensibility": "Limited information on technical barriers to entry.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "Scalability is feasible with a SaaS model, but technical infrastructure needs are not detailed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Potential for unique algorithms in conversational AI.",
+      "data_advantages": "Data collected from daily interactions could provide a competitive moat.",
+      "technical_barriers": "No significant technical barriers identified."
+    },
+    "red_flags": [
+      "Lack of detailed IP strategy and technical differentiation."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Early traction with a small pilot and a waitlist, but pre-revenue and limited customer validation.",
+    "growth_metrics": {
+      "revenue_growth": "Pre-revenue with no current revenue growth.",
+      "customer_metrics": "20 active testers with plans to expand to 100.",
+      "retention_analysis": "Retention metrics not available due to early stage.",
+      "unit_economics": "Unit economics not detailed, as the company is pre-revenue."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from initial testers.",
+      "product_market_fit": "Early signs of PMF with a waitlist and active testers.",
+      "notable_customers": "No notable customers yet.",
+      "partnerships": "Working on letters of intent with insurers."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Initial pilot with positive feedback."
+      ],
+      "areas_of_investigation": [
+        "Need to validate business model and secure paying customers."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status and long sales cycles with insurers."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Favorable market timing with increasing demand for preventative care and AI solutions.",
+    "market_timing": {
+      "market_readiness": "Market is ready for solutions that address continuous care gaps.",
+      "catalysts": "Rising chronic conditions and AI maturity are key catalysts.",
+      "tailwinds": "Shift towards value-based care models and preventative solutions.",
+      "headwinds": "Potential regulatory challenges and slow insurer adoption."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in targeting insurers with AI solutions.",
+      "competitive_response": "Competitors may respond by enhancing their offerings.",
+      "market_education": "Some market education may be required for insurers."
+    },
+    "red_flags": [
+      "Regulatory challenges and slow adoption by insurers."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Currently fundraising with no detailed terms provided, but alignment with SV's focus on healthcare innovation.",
+    "investment_details": {
+      "round_stage": "Early-stage fundraising.",
+      "raise_amount": "Not specified.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Aligned with SV's focus on healthcare and AI innovation.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation not provided, making justification difficult."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company shows potential in a large and growing market, but the solo founder status, pre-revenue stage, and lack of detailed technical differentiation present risks.",
+    "key_factors": [
+      "Large market opportunity",
+      "Early traction with positive feedback",
+      "Solo founder challenges"
+    ],
+    "next_steps": [
+      "Encourage building a broader team",
+      "Secure initial paying customers",
+      "Develop a detailed IP strategy"
+    ]
+  }
+}

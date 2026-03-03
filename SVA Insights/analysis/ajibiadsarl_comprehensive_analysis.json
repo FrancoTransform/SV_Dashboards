@@ -1,0 +1,163 @@
+{
+  "company_name": "AJI-BIAD S.A.R.L",
+  "token": "9rfets18u7c4sl2rsw79rfet1mobzs9d",
+  "submitted_at": "10/25/2025 10:20:50",
+  "website": "https://online.fliphtml5.com/gznkj/qmdu/#p=1",
+  "year_founded": "2021",
+  "description": "project for the treatment of petroleum waste, recycling of used oils, destruction of all types of solid biodegradable and non-biodegradable waste",
+  "problem_statement": "Environmental pollution due to excessive waste is very harmful to human health in Cameroon and in Africa. Global warming, desertification of the earth, water pollution, environmental pollution, deterioration of human health and deterioration of the health of animals and that of trees and plants are due to an excessive presence of very harmful waste dumped in nature, in waters, in seas, on roads, on land, along roadsides, which constitute a great danger for humanity and for the future of the world. to associate with this the problem of industrialization in Africa, the accelerated unemployment in Africa, the problem of misery, of poverty.",
+  "pitch_deck_link": "https://online.fliphtml5.com/gznkj/qmdu/#p=1",
+  "demo_link": "https://online.fliphtml5.com/gznkj/qmdu/#p=1",
+  "team": {
+    "score": 2,
+    "justification": "The team is currently a single founder with plans to expand to 100 employees. There is a lack of demonstrated execution ability and domain expertise in the current setup.",
+    "company_assessment": {
+      "business_model_strength": "The business model aims to create a circular economy by recycling waste into raw materials. However, the model lacks clarity on revenue streams and unit economics.",
+      "market_positioning": "The company positions itself as a local alternative to imported waste treatment solutions, but lacks a clear differentiation strategy.",
+      "execution_capability": "There is no evidence of the team's ability to execute on the vision, as the company is still in the planning phase.",
+      "strategic_vision": "The strategic vision is ambitious but lacks a clear roadmap and milestones for execution."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Marillon Stephane NYA",
+        "role": "Promoter",
+        "linkedin": null,
+        "background": "Bachelor's degree in applied management science with over 10 years of business experience.",
+        "domain_expertise": "Limited expertise in waste management and recycling.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements highlighted.",
+        "leadership_signals": "Limited evidence of leadership capability and team building.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes imported waste treatment products.",
+      "competitor_comparison": "Imported products are more expensive, but the company lacks a clear competitive edge.",
+      "positioning_assessment": "The company plans to use local production as a cost advantage but lacks a strong differentiation strategy."
+    },
+    "red_flags": [
+      "Single founder with no team",
+      "Lack of domain expertise",
+      "No demonstrated execution capability"
+    ]
+  },
+  "tam": {
+    "score": 2,
+    "justification": "The target market is defined as Cameroon and Central Africa, but lacks detailed market size analysis and growth projections.",
+    "market_analysis": {
+      "total_addressable_market": "No specific TAM size provided.",
+      "serviceable_addressable_market": "SAM analysis is not detailed.",
+      "serviceable_obtainable_market": "SOM projections are not provided.",
+      "market_growth_rate": "No historical or projected CAGR provided.",
+      "market_dynamics": "General trends in environmental awareness and industrialization in Africa."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include industrial companies and factories.",
+      "willingness_to_pay": "No evidence of customer willingness to pay provided.",
+      "customer_acquisition_cost": "CAC analysis is not provided.",
+      "lifetime_value": "LTV calculations are not provided."
+    },
+    "red_flags": [
+      "Lack of detailed market size analysis",
+      "No evidence of customer willingness to pay"
+    ]
+  },
+  "technology": {
+    "score": 2,
+    "justification": "The technology involves recycling waste, but lacks technical differentiation and defensibility.",
+    "technical_assessment": {
+      "core_technology": "Recycling of used oils and waste treatment.",
+      "defensibility": "No technical barriers to entry identified.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "Scalability is not addressed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "No data moats or network effects identified.",
+      "technical_barriers": "No significant technical barriers identified."
+    },
+    "red_flags": [
+      "Lack of technical differentiation",
+      "No IP strategy"
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "The company is pre-revenue with no product in the market and lacks customer validation.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue or growth metrics available.",
+      "customer_metrics": "No paying customers or acquisition rate provided.",
+      "retention_analysis": "No retention or churn data available.",
+      "unit_economics": "No unit economics provided."
+    },
+    "market_validation": {
+      "customer_feedback": "No customer feedback or testimonials available.",
+      "product_market_fit": "No evidence of product-market fit.",
+      "notable_customers": "No notable customers or partnerships.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [],
+      "areas_of_investigation": [
+        "Lack of market traction",
+        "No customer validation"
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue",
+      "No product in market",
+      "No customer validation"
+    ]
+  },
+  "timing": {
+    "score": 2,
+    "justification": "The market for waste treatment is growing, but the company lacks a clear timing advantage.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly aware of environmental issues.",
+      "catalysts": "Growing industrialization and environmental regulations.",
+      "tailwinds": "Increased focus on sustainability.",
+      "headwinds": "Economic instability and regulatory challenges in Africa."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "No clear first-mover advantage.",
+      "competitive_response": "Potential for rapid competitive response.",
+      "market_education": "Significant market education required."
+    },
+    "red_flags": [
+      "No clear timing advantage",
+      "Potential regulatory challenges"
+    ]
+  },
+  "terms": {
+    "score": 1,
+    "justification": "The company is seeking $100,000 to structure financing, but lacks clarity on investment terms and valuation.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "$100,000",
+      "pre_money_valuation": "Not provided",
+      "post_money_valuation": "Not provided"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Limited alignment with SV's investment criteria due to lack of traction and clarity.",
+      "ownership_potential": "Ownership potential not discussed.",
+      "liquidation_preferences": "Not provided",
+      "valuation_justification": "No valuation justification provided."
+    },
+    "red_flags": [
+      "Lack of clarity on investment terms",
+      "No valuation provided"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Pass",
+    "rationale": "The company lacks traction, a clear team structure, and technical differentiation. The market opportunity is not well-defined, and there are significant execution risks.",
+    "key_factors": [
+      "Lack of team and execution capability",
+      "No market traction",
+      "Unclear business model"
+    ],
+    "next_steps": [
+      "Consider revisiting once there is a more defined team and market traction."
+    ]
+  }
+}

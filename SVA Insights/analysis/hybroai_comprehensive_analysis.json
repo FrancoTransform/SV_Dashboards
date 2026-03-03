@@ -1,0 +1,167 @@
+{
+  "company_name": "Hybro AI",
+  "token": "4u92v38cvxdud7k4u92vzs8fnham2kbw",
+  "submitted_at": "12/17/2025 7:45:11",
+  "website": "https://hybro.ai",
+  "year_founded": "2025",
+  "description": "Hybro is building the missing interoperability layer for the Agentic future. We enable agents to collaborate and interoperate across boundaries securely and seamlessly.",
+  "problem_statement": "AI agents are quickly improving in all industries, but they are still trapped in silos. A support agent from company A cannot coordinate with a logistics agent from company B. This lack of cross-boundary interoperability has been overlooked by most people and quietly become the biggest bottleneck to unlocking agentic AI\u2019s true potential.",
+  "pitch_deck_link": "https://docsend.com/view/qggt5mptjmqxpf4z",
+  "demo_link": "https://hybro.ai",
+  "team": {
+    "score": 3,
+    "justification": "The founding team consists of two members with complementary skills in engineering and business development. However, the small team size and lack of broader functional expertise could be a limitation as the company scales.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on subscriptions and profit sharing with agent builders, which could be scalable but lacks current validation due to pre-revenue status.",
+      "market_positioning": "Hybro positions itself as a neutral interoperability layer, differentiating from competitors by focusing on openness and neutrality.",
+      "execution_capability": "The team has demonstrated initial execution capability by launching an alpha product and engaging early users.",
+      "strategic_vision": "The strategic vision is clear in addressing a significant bottleneck in AI agent interoperability, but execution risks remain due to the nascent stage."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kevin Lu",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/kefalu/",
+        "background": "Kevin has a background in product development and business strategy, having worked on various tech projects.",
+        "domain_expertise": "Strong understanding of AI and interoperability challenges.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Successfully launched an alpha product in a complex technical domain.",
+        "leadership_signals": "Demonstrates leadership through strategic vision and product development.",
+        "track_record": []
+      },
+      {
+        "name": "Jerome Cai",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/jiangnancai00/",
+        "background": "Jerome has a technical background with expertise in engineering and AI systems.",
+        "domain_expertise": "Deep technical expertise in AI and software engineering.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Led the development of the alpha product.",
+        "leadership_signals": "Technical leadership demonstrated through product development.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes major players like Google AgentSpace and smaller hubs like agent.ai and poe.com.",
+      "competitor_comparison": "Google AgentSpace is enterprise-locked, while others lack interoperability support. Hybro's open and neutral approach is a key differentiator.",
+      "positioning_assessment": "Hybro's focus on interoperability and neutrality positions it uniquely against enterprise-locked and non-interoperable competitors."
+    },
+    "red_flags": [
+      "Small team size may limit execution capability as the company scales."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial with a $500M initial market and potential to grow to a $1B+ category. The market is poised for growth as interoperability becomes foundational.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $500M, targeting independent agent builders and AI-native SaaS companies.",
+      "serviceable_addressable_market": "SAM is aligned with the initial target market, with potential expansion as interoperability becomes more critical.",
+      "serviceable_obtainable_market": "SOM projections depend on successful GTM execution and market education.",
+      "market_growth_rate": "The market is expected to grow significantly as AI agent interoperability becomes a necessity.",
+      "market_dynamics": "Key trends include the rise of AI agents and the need for cross-boundary interoperability."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include independent agent builders and AI-native startups.",
+      "willingness_to_pay": "Evidence of willingness to pay is limited due to pre-revenue status, but early user engagement is promising.",
+      "customer_acquisition_cost": "CAC is not yet established due to the early stage of the company.",
+      "lifetime_value": "LTV projections are speculative at this stage."
+    },
+    "red_flags": [
+      "Pre-revenue status limits validation of market assumptions."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Hybro's technology is differentiated by its focus on interoperability and neutrality, providing a competitive moat against enterprise-locked solutions.",
+    "technical_assessment": {
+      "core_technology": "The core technology is an interoperability layer for AI agents, enabling cross-boundary collaboration.",
+      "defensibility": "The open and neutral approach provides a defensible position against enterprise-locked competitors.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technical approach is unique.",
+      "scalability": "The technology is designed to scale as interoperability becomes more critical."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The focus on interoperability is a unique technical innovation.",
+      "data_advantages": "Potential for data network effects as more agents adopt the platform.",
+      "technical_barriers": "The open and neutral approach creates barriers for competitors locked into proprietary systems."
+    },
+    "red_flags": [
+      "Lack of detailed IP strategy could be a concern."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Traction is limited due to the early stage, with only an alpha product and pre-revenue status. However, early user engagement is a positive signal.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue growth due to pre-revenue status.",
+      "customer_metrics": "60 early users engaged in alpha testing.",
+      "retention_analysis": "Retention metrics are not available at this stage.",
+      "unit_economics": "Unit economics are not yet established."
+    },
+    "market_validation": {
+      "customer_feedback": "Early user feedback is being used to iterate on the product.",
+      "product_market_fit": "Evidence of PMF is limited but early engagement is promising.",
+      "notable_customers": "No notable customers yet due to early stage.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Launch of alpha product and engagement with early users."
+      ],
+      "areas_of_investigation": [
+        "Validation of revenue model and customer acquisition strategies."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status and limited traction are significant concerns."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable as the need for AI agent interoperability is becoming more apparent, but market education is required.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready for interoperability solutions as AI agents proliferate.",
+      "catalysts": "The rise of AI agents and the need for cross-boundary collaboration are key catalysts.",
+      "tailwinds": "Favorable trends include the growth of AI and the need for interoperability.",
+      "headwinds": "Market education and adoption timeline could be challenges."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in a nascent market.",
+      "competitive_response": "Competitors may respond by developing interoperability features.",
+      "market_education": "Significant market education is required to drive adoption."
+    },
+    "red_flags": [
+      "Market education and adoption timeline could delay traction."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising, but specific terms and valuation details are not provided, limiting the assessment.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, but stage and structure are not specified.",
+      "raise_amount": "Amount being raised is not specified.",
+      "pre_money_valuation": "Pre-money valuation is not provided.",
+      "post_money_valuation": "Post-money valuation and ownership implications are not available."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative technology and market disruption.",
+      "ownership_potential": "Ownership potential is unclear without valuation details.",
+      "liquidation_preferences": "No information on liquidation preferences.",
+      "valuation_justification": "Valuation justification is not possible without specific details."
+    },
+    "red_flags": [
+      "Lack of specific investment terms and valuation details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Hybro AI presents a compelling vision and addresses a significant market need, but the early stage and lack of traction and revenue validation warrant a cautious approach.",
+    "key_factors": [
+      "Strong market potential and unique technology differentiation.",
+      "Early stage with limited traction and pre-revenue status."
+    ],
+    "next_steps": [
+      "Monitor progress on traction and revenue validation.",
+      "Engage with the team to understand fundraising terms and valuation."
+    ]
+  }
+}

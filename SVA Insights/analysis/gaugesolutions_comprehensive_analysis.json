@@ -1,0 +1,178 @@
+{
+  "company_name": "Gauge Solutions",
+  "token": "x62e83moils2jvs1x62e8lyq7030zcwx",
+  "submitted_at": "12/12/2025 11:26:54",
+  "website": "https://www.gaugesolution.com/",
+  "year_founded": "2024",
+  "description": "Gauge is an AI-powered energy intelligence platform that helps SMEs reduce energy waste, cut operational costs, and lower greenhouse gas emissions through real-time energy monitoring, automated digitisation of energy spend, and anomaly/wastage detection.",
+  "problem_statement": "Gauge solves the problem of energy waste, leakage, theft, and poor visibility in SME energy operations. SMEs across Africa lose up to 30% of energy spend because they cannot track multi-source consumption (diesel, petrol, grid), detect anomalies, or forecast accurately. This matters because energy is one of the highest operational costs for SMEs\u2014lack of transparency directly impacts profitability, efficiency, and climate impact.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1mBCiAPBbu996TUutyswqMQ6YV1C1GkQv/view?usp=drivesdk",
+  "demo_link": "https://youtu.be/QEcruFST7EE",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and complementary skills. Kingsley Oti has a background in operations and scaling, having co-founded SEND, a YC-backed startup. Sharon Nweke brings deep operational insight in energy supply chains. The team has demonstrated the ability to execute and scale operations.",
+    "company_assessment": {
+      "business_model_strength": "Gauge operates a SaaS model with a $100 annual subscription and optional $200 hardware package. The model is scalable and targets a large market of energy-intensive SMEs.",
+      "market_positioning": "Gauge positions itself as an affordable, AI-driven solution for SMEs, differentiating from enterprise-focused competitors by offering multi-energy tracking and carbon-credit enablement.",
+      "execution_capability": "The team has successfully onboarded 28 paying customers and implemented multi-site energy tracking, demonstrating execution capability.",
+      "strategic_vision": "The company aims to expand carbon-credit monetization and strengthen distribution partnerships, indicating a clear strategic vision."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kingsley Oti",
+        "role": "Co-Founder & CEO",
+        "linkedin": "N/A",
+        "background": "Operations, strategy, and scaling expertise; previously Co-Founder of SEND (YC W20).",
+        "domain_expertise": "Experience in logistics and energy operations.",
+        "previous_startups": "Co-Founder of SEND, a logistics startup.",
+        "notable_achievements": "Co-founded a YC-backed startup.",
+        "leadership_signals": "Demonstrated leadership in scaling operations and strategic planning.",
+        "track_record": [
+          {
+            "company": "SEND",
+            "role": "Co-Founder",
+            "outcome": "Ongoing",
+            "learnings": "Gained experience in scaling operations and strategic execution."
+          }
+        ]
+      },
+      {
+        "name": "Sharon Nweke",
+        "role": "Co-Founder & COO",
+        "linkedin": "N/A",
+        "background": "Energy operations, procurement, and client deployment.",
+        "domain_expertise": "Deep operational insight across energy supply chains.",
+        "previous_startups": "N/A",
+        "notable_achievements": "Significant experience in energy procurement.",
+        "leadership_signals": "Strong operational leadership and client management skills.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes manual tracking, Galooli, and Gas360. These competitors lack unified multi-energy tracking and real-time AI analytics.",
+      "competitor_comparison": "Competitors are more expensive and enterprise-oriented, lacking SME-friendly solutions and carbon-credit tracking.",
+      "positioning_assessment": "Gauge differentiates by offering a comprehensive, affordable platform with AI insights and carbon-credit enablement."
+    },
+    "red_flags": [
+      "Limited brand awareness in a fragmented energy market"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with Africa's energy expense market at $110B and $80B attributed to Sub-Saharan SMEs. Gauge's initial serviceable segment in Nigeria is $30M.",
+    "market_analysis": {
+      "total_addressable_market": "$110B, with $80B attributed to Sub-Saharan SMEs.",
+      "serviceable_addressable_market": "$30M in Nigeria, targeting over 2 million energy-intensive SMEs.",
+      "serviceable_obtainable_market": "Realistic market capture through targeted SME verticals and partnerships.",
+      "market_growth_rate": "Growing demand for energy efficiency and carbon-credit solutions.",
+      "market_dynamics": "Rising energy costs and demand for real-time optimization drive market growth."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Energy-intensive SMEs in retail, manufacturing, logistics, and hospitality.",
+      "willingness_to_pay": "Evidence of willingness to pay through 28 paying customers.",
+      "customer_acquisition_cost": "CAC not explicitly stated, but early traction indicates effective acquisition strategies.",
+      "lifetime_value": "LTV projections based on subscription model and customer retention."
+    },
+    "red_flags": [
+      "Potential adoption friction due to manual processes"
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Gauge's technology is built in-house, offering real-time energy monitoring and AI-powered insights. The platform is scalable and provides a competitive moat through its unique features.",
+    "technical_assessment": {
+      "core_technology": "AI-powered energy intelligence platform with real-time monitoring and anomaly detection.",
+      "defensibility": "Technical barriers include proprietary AI models and multi-energy tracking capabilities.",
+      "intellectual_property": "No patents mentioned, but proprietary technology provides defensibility.",
+      "scalability": "Platform is designed for scalability across multiple SME verticals."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI models for anomaly and wastage detection.",
+      "data_advantages": "Data-driven insights and carbon-credit tracking provide a competitive edge.",
+      "technical_barriers": "Complexity of replicating AI models and multi-energy tracking."
+    },
+    "red_flags": [
+      "Hardware installation complexity for some customers"
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Gauge has demonstrated strong early traction with 28 paying customers and successful implementation of multi-site energy tracking.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth supported by subscription model and hardware sales.",
+      "customer_metrics": "28 paying customers with a growing pipeline of SMEs.",
+      "retention_analysis": "Early engagement indicates strong retention potential.",
+      "unit_economics": "Positive unit economics with subscription and upsell opportunities."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from SME energy teams.",
+      "product_market_fit": "Evidence of PMF through customer adoption and engagement.",
+      "notable_customers": "Key customers in retail, hospitality, and logistics sectors.",
+      "partnerships": "Potential for strategic partnerships to enhance distribution."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful onboarding of 28 paying customers",
+        "Implementation of AI anomaly detection"
+      ],
+      "areas_of_investigation": [
+        "Exploration of carbon-credit monetization pathways"
+      ]
+    },
+    "red_flags": [
+      "Limited brand awareness and market education required"
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to rising energy costs and increasing demand for energy efficiency solutions.",
+    "market_timing": {
+      "market_readiness": "Market is ready for affordable, AI-driven energy solutions.",
+      "catalysts": "Rising diesel/petrol costs and demand for carbon-credit solutions.",
+      "tailwinds": "Favorable regulatory changes and sustainability trends.",
+      "headwinds": "Potential challenges in market education and adoption."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to capture market share with a unique offering.",
+      "competitive_response": "Competitors may respond by enhancing their offerings.",
+      "market_education": "Requires education on AI-driven energy optimization."
+    },
+    "red_flags": [
+      "Potential competitive response and market education challenges"
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Gauge is currently fundraising with a 6-month runway. Terms and valuation details are not provided, requiring further investigation.",
+    "investment_details": {
+      "round_stage": "Currently fundraising",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on scalable, tech-driven solutions.",
+      "ownership_potential": "Ownership potential and board representation not specified.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Requires further analysis based on comparables and metrics."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation information"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Gauge Solutions demonstrates strong potential with a scalable business model, early traction, and a favorable market environment. The team has relevant expertise and a clear strategic vision. However, further investigation into investment terms and market education strategies is needed.",
+    "key_factors": [
+      "Strong team with domain expertise",
+      "Scalable SaaS model",
+      "Early traction and customer validation",
+      "Favorable market timing"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on investment terms",
+      "Explore strategic partnerships for distribution",
+      "Develop market education strategies"
+    ]
+  }
+}

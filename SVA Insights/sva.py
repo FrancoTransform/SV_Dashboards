@@ -649,6 +649,15 @@ def index():
                         print(f"Company name processing:")
                         print(f"  Original: '{original_name}'")
                         print(f"  URL-safe: '{data['url_company_name']}'")
+                        # Normalize submitted_at to YYYY-MM-DD HH:MM:SS format for cohort sorting
+                        raw_date = data.get('submitted_at', '')
+                        if raw_date and '/' in raw_date:
+                            try:
+                                from datetime import datetime as dt
+                                parsed = dt.strptime(raw_date, '%m/%d/%Y %H:%M:%S')
+                                data['submitted_at'] = parsed.strftime('%Y-%m-%d %H:%M:%S')
+                            except (ValueError, TypeError):
+                                pass
                     submissions.append(data)
             except Exception as e:
                 print(f"Error processing file {file}: {e}")

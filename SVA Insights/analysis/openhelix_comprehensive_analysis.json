@@ -1,0 +1,160 @@
+{
+  "company_name": "Openhelix",
+  "token": "j9fxjty57hk13phij9fxjtiwv1rhxwvj",
+  "submitted_at": "12/9/2025 22:22:04",
+  "website": "https://www.openhelix.co/",
+  "year_founded": "2025",
+  "description": "We provide an AI copilot to life science sales reps to provide coaching, sales intelligence and workflow automation.",
+  "problem_statement": "Pharma lags in sales & ops tooling from every other industry by 10 years. Sales reps rely on chatgpt for intelligence & spend 20% of their time on admin work. It matters because drugs have a shelf-life, unlike other products, and the first 60 days of launch are the most critical in the entire life of that drug. This means big pharma companies are desperate to gain any competitive edge they can.",
+  "pitch_deck_link": "https://openhelix.notion.site/AI-Agents-for-Life-Science-Sales-Ops-Orchestration-Live-2aefe1b043798038baa7f9c8bf6355b2",
+  "demo_link": "https://www.notion.so/openhelix/AI-Agents-for-Life-Science-Sales-Ops-Orchestration-Live-2aefe1b043798038baa7f9c8bf6355b2?source=copy_link#2befe1b043798087bef8ca74e59056c8",
+  "team": {
+    "score": 3,
+    "justification": "The founding team is small, with only one founder, Samuel Ting, who has a background in AI and computer science. While the founder has pivoted towards application and business model innovation, the lack of a co-founder or a larger leadership team may limit execution capability and strategic vision.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on a subscription fee of $250 PUPM for the AI Copilot, which is competitive but may face pricing pressure in different markets.",
+      "market_positioning": "Openhelix positions itself as a field-first solution, focusing on high-frequency workflows for sales reps, which differentiates it from competitors like Synthio Labs and Veeva.",
+      "execution_capability": "The company has demonstrated initial traction with $20k ARR and a pilot pipeline with major pharma companies, indicating some execution capability.",
+      "strategic_vision": "The strategic vision is to capture value through application and business model innovation, but the long-term vision needs further articulation."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Samuel Ting",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/samuel-ting-16atc/",
+        "background": "Samuel Ting has a background in AI and computer science, with a focus on application layer and business model innovation.",
+        "domain_expertise": "Expertise in AI and sales operations, particularly in the life sciences sector.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Pivoted the company towards application and business model innovation.",
+        "leadership_signals": "Limited evidence of leadership capability due to small team size.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes direct competitors like Synthio Labs and horizontal tools like Gong and Veeva.",
+      "competitor_comparison": "Openhelix differentiates by focusing on field-first solutions and compliance with pharma regulations, unlike generic tools.",
+      "positioning_assessment": "The company positions itself as a compliance-focused, workflow-integrated solution, which is a strong differentiator."
+    },
+    "red_flags": [
+      "Small team size and lack of co-founders may limit execution and strategic capabilities."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial at $4B, with a clear pain point for VP Sales at Big Pharma. The market is growing, driven by the need for competitive edge in drug launches.",
+    "market_analysis": {
+      "total_addressable_market": "$4B, based on the need for sales and ops tooling in the pharma industry.",
+      "serviceable_addressable_market": "Focused on VP Sales at Big Pharma, who are key decision-makers.",
+      "serviceable_obtainable_market": "Potential to capture significant market share with strategic partnerships and pilot success.",
+      "market_growth_rate": "The market is expected to grow as pharma companies increasingly adopt AI-driven solutions.",
+      "market_dynamics": "Key trends include the shift towards AI in sales operations and the critical nature of drug launch periods."
+    },
+    "customer_analysis": {
+      "buyer_personas": "VP Sales and VP Commercial Ops at Big Pharma, with a focus on improving P&L forecasts and rep productivity.",
+      "willingness_to_pay": "Evidence of willingness to pay through pilot engagements and existing customer base.",
+      "customer_acquisition_cost": "Not explicitly detailed, but initial traction suggests manageable CAC.",
+      "lifetime_value": "Potentially high LTV due to the critical nature of the solution and integration into workflows."
+    },
+    "red_flags": [
+      "Potential pricing pressure in different markets and need for broader customer validation."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology leverages AI for sales intelligence and workflow automation, but lacks proprietary technology or significant technical barriers.",
+    "technical_assessment": {
+      "core_technology": "AI-driven copilot for sales reps, integrated into existing workflows.",
+      "defensibility": "Limited technical barriers to entry; relies on application and business model innovation.",
+      "intellectual_property": "No mention of patents or trade secrets.",
+      "scalability": "Scalable through SaaS model, but requires integration with existing pharma systems."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "Focus on compliance and integration with pharma datasets provides some data advantages.",
+      "technical_barriers": "Compliance with pharma regulations is a barrier for generic tools."
+    },
+    "red_flags": [
+      "Lack of proprietary technology and potential for replication by competitors."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Initial traction with $20k ARR and pilot pipeline with major pharma companies, but limited customer base and revenue growth.",
+    "growth_metrics": {
+      "revenue_growth": "$20k ARR with potential for growth through pilot conversions.",
+      "customer_metrics": "1 paying customer with 200 users; pilot pipeline with 3 pharma companies.",
+      "retention_analysis": "Retention data not provided; early stage with focus on pilot success.",
+      "unit_economics": "Pricing structure varies by region; potential for strong unit economics with scale."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive initial feedback from pilot engagements.",
+      "product_market_fit": "Early signs of PMF with interest from major pharma companies.",
+      "notable_customers": "Bayer included in pilot pipeline.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Pilot pipeline with major pharma companies, including Bayer."
+      ],
+      "areas_of_investigation": [
+        "Need for broader customer base and revenue growth."
+      ]
+    },
+    "red_flags": [
+      "Limited customer base and early-stage revenue."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Favorable market timing with increasing adoption of AI in pharma sales operations and critical need for competitive edge in drug launches.",
+    "market_timing": {
+      "market_readiness": "Market is ready for AI-driven solutions to improve sales operations.",
+      "catalysts": "Critical nature of drug launch periods and need for competitive edge.",
+      "tailwinds": "Regulatory changes and increasing focus on AI in pharma.",
+      "headwinds": "Potential resistance to change and integration challenges."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in field-first, compliance-focused solutions.",
+      "competitive_response": "Competitors may respond with similar solutions, but compliance focus is a differentiator.",
+      "market_education": "Some market education required, but early adopters are present."
+    },
+    "red_flags": [
+      "Integration challenges and potential resistance to change."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Currently fundraising with a $15k SAFE angel investment and 6 months of runway. Terms need further clarification.",
+    "investment_details": {
+      "round_stage": "Early-stage fundraising with a focus on completing pilots.",
+      "raise_amount": "Not specified; focus on growing revenue by 200% during the program.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on innovative solutions in the life sciences sector.",
+      "ownership_potential": "Potential for significant ownership with early-stage investment.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation needs further clarification and alignment with traction."
+    },
+    "red_flags": [
+      "Lack of clarity on valuation and investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Openhelix shows potential with a substantial market opportunity and initial traction, but faces challenges with team size, technology defensibility, and early-stage revenue. Further validation and clarification of terms are needed.",
+    "key_factors": [
+      "Substantial market opportunity",
+      "Initial traction with major pharma companies",
+      "Small team size and lack of co-founders",
+      "Need for broader customer base and revenue growth"
+    ],
+    "next_steps": [
+      "Clarify investment terms and valuation",
+      "Expand team to enhance execution capability",
+      "Focus on converting pilot pipeline to paying customers",
+      "Strengthen technology defensibility and proprietary aspects"
+    ]
+  }
+}

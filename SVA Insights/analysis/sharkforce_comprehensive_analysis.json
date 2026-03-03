@@ -1,0 +1,180 @@
+{
+  "company_name": "Sharkforce",
+  "token": "p8mdzl2g0akp6jjt6dp81kykbydf8fti",
+  "submitted_at": "8/30/2025 13:23:05",
+  "website": "https://shark-force.com/",
+  "year_founded": "2025",
+  "description": "Sharkforce is an AI-powered workforce management platform that uses facial recognition, geofencing, and automated workflows to verify people and work in real time, eliminating time theft fraud.",
+  "problem_statement": "Sharkforce solves the costly problem of time theft, payroll fraud, and unverifiable work in hybrid teams by enabling organizations to prove attendance and automate compliance. This matters because global businesses lose billions each year to inefficiency and fraud, Sharkforce ensures every hour worked is real, trusted, and productive, safeguarding revenue and accelerating growth.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1e0Gktiii8--dJilZTH7C6OtRA407DSol/view?usp=sharing",
+  "demo_link": "https://shark-force.com/",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in AI and operations, with complementary skills that cover technology, business development, and compliance. The team has demonstrated the ability to execute by developing the product in-house and securing early customer pilots.",
+    "company_assessment": {
+      "business_model_strength": "Sharkforce operates on a B2B subscription SaaS model with tiered pricing, which is scalable and aligns well with industry standards. The model allows for predictable revenue streams and potential upselling opportunities.",
+      "market_positioning": "The company positions itself as a comprehensive solution for workforce management, differentiating through real-time, multilayered AI validation. This positions Sharkforce well against competitors who offer less robust solutions.",
+      "execution_capability": "The team has successfully launched an MVP and secured early pilots, indicating strong execution capabilities. The in-house development approach ensures control over product quality and innovation.",
+      "strategic_vision": "The leadership has a clear vision to expand into enterprise partnerships and refine their go-to-market strategy, demonstrating strategic foresight and adaptability."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Asim Ahmed",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/asim-ahmed-ibrahim/",
+        "background": "Asim has a background in AI engineering and leadership, with experience in developing technology solutions.",
+        "domain_expertise": "Expertise in AI and workforce management solutions.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Successfully led the development and launch of Sharkforce's MVP.",
+        "leadership_signals": "Demonstrated leadership through strategic direction and team building.",
+        "track_record": []
+      },
+      {
+        "name": "Mohamed Magdy",
+        "role": "Co-founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/maraie/",
+        "background": "Mohamed has a strong technical background in AI and product development.",
+        "domain_expertise": "Deep expertise in AI and technology development.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Led the technical development of Sharkforce's platform.",
+        "leadership_signals": "Strong technical leadership and innovation capabilities.",
+        "track_record": []
+      },
+      {
+        "name": "Abdullah Salman",
+        "role": "Co-founder & COO",
+        "linkedin": "https://www.linkedin.com/in/abdallah-salman1/",
+        "background": "Abdullah has experience in operations and compliance management.",
+        "domain_expertise": "Expertise in operations and compliance within tech startups.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Ensured compliance and operational efficiency for Sharkforce.",
+        "leadership_signals": "Effective operational leadership and strategic planning.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The workforce management market is competitive with several established players.",
+      "competitor_comparison": "Competitors like Humanec AI and Time Doctor offer basic attendance tracking, but lack Sharkforce's real-time AI validation.",
+      "positioning_assessment": "Sharkforce differentiates through its comprehensive AI-driven platform, offering greater flexibility and fraud prevention."
+    },
+    "red_flags": [
+      "Limited prior entrepreneurial experience among founders."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The workforce management market is substantial, with a TAM exceeding $30 billion globally. Sharkforce's focus on hybrid and distributed teams aligns with growing market trends.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is over $30 billion, driven by the need for digital workforce management solutions.",
+      "serviceable_addressable_market": "SAM is significant, focusing on mid-sized to large enterprises with hybrid teams.",
+      "serviceable_obtainable_market": "SOM projections are promising given the company's early traction and scalable model.",
+      "market_growth_rate": "The market is expected to grow at a healthy CAGR due to increasing hybrid workforces.",
+      "market_dynamics": "Key trends include the rise of remote work, increasing compliance demands, and the need for fraud prevention."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are HR and operations managers in mid to large enterprises.",
+      "willingness_to_pay": "Early customer interest and pilot participation indicate a willingness to pay for robust solutions.",
+      "customer_acquisition_cost": "CAC is not detailed, but the SaaS model suggests manageable acquisition costs.",
+      "lifetime_value": "LTV is expected to be high due to subscription model and potential for upselling."
+    },
+    "red_flags": [
+      "Potential challenges in capturing a significant market share quickly."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Sharkforce's technology is robust, leveraging AI for real-time verification, which provides a competitive edge. The in-house development ensures control over innovation and quality.",
+    "technical_assessment": {
+      "core_technology": "The platform uses AI-powered facial recognition, geofencing, and automated workflows.",
+      "defensibility": "The use of multilayered AI validation creates a strong barrier to entry.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary technology is implied.",
+      "scalability": "The SaaS model and cloud-based infrastructure support scalability."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for real-time workforce verification.",
+      "data_advantages": "Potential for data-driven insights and continuous improvement.",
+      "technical_barriers": "Complex AI integration and real-time processing are difficult to replicate."
+    },
+    "red_flags": [
+      "No explicit mention of patents or formal IP protection."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Sharkforce has shown promising early traction with pilot customers and strong demo approval rates. However, transitioning pilots to paying customers remains a challenge.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet as customers are in pilot phase.",
+      "customer_metrics": "3 early customers in pilot phase, with a growing sales pipeline.",
+      "retention_analysis": "Retention data not available due to early stage.",
+      "unit_economics": "Unit economics not detailed, but SaaS model suggests potential for positive margins."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilot customers and strong demo approval rates.",
+      "product_market_fit": "Early signs of PMF with inbound interest and pilot participation.",
+      "notable_customers": "No notable customers mentioned yet.",
+      "partnerships": "No strategic partnerships detailed."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful MVP launch and early customer pilots."
+      ],
+      "areas_of_investigation": [
+        "Conversion of pilots to paying customers and scaling sales efforts."
+      ]
+    },
+    "red_flags": [
+      "Lack of paying customers and revenue at this stage."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to the increasing shift towards hybrid work and the need for compliance solutions. However, competitive response and market education are potential challenges.",
+    "market_timing": {
+      "market_readiness": "The market is ready for advanced workforce management solutions.",
+      "catalysts": "Hybrid work trends and compliance demands are driving adoption.",
+      "tailwinds": "Favorable trends include digital transformation and fraud prevention needs.",
+      "headwinds": "Potential headwinds include market education and competitive entry."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into a growing niche provides a first-mover advantage.",
+      "competitive_response": "Competitors may respond with similar features, requiring continuous innovation.",
+      "market_education": "Some market education may be needed to demonstrate value."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently bootstrapped and seeking funding. Terms are not detailed, but alignment with SemperVirens' criteria is possible given the market potential and technology.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, no specific round stage mentioned.",
+      "raise_amount": "Amount being raised is not specified.",
+      "pre_money_valuation": "Valuation details not provided.",
+      "post_money_valuation": "Valuation implications not detailed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on technology and market potential.",
+      "ownership_potential": "Ownership potential not detailed.",
+      "liquidation_preferences": "No liquidation preferences mentioned.",
+      "valuation_justification": "Valuation justification not provided."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Sharkforce demonstrates strong potential with its innovative technology and favorable market timing. The team has shown execution capability, and the market opportunity is significant. However, the company needs to convert pilots to paying customers and secure funding to scale.",
+    "key_factors": [
+      "Innovative AI-driven technology with real-time verification.",
+      "Favorable market trends and significant TAM.",
+      "Strong early traction with pilot customers."
+    ],
+    "next_steps": [
+      "Engage with Sharkforce to understand detailed funding requirements.",
+      "Assist in refining go-to-market strategy and customer conversion.",
+      "Explore potential partnerships and strategic alliances."
+    ]
+  }
+}

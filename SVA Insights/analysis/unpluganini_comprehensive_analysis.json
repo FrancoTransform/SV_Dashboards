@@ -1,0 +1,169 @@
+{
+  "company_name": "Unpluganini",
+  "token": "me3kn9usfwci4uf6me3yqddl8bhau7av",
+  "submitted_at": "9/27/2025 18:29:36",
+  "website": "https://unpluganini.com/",
+  "year_founded": "2025",
+  "description": "Unpluganini is an AI-driven burnout prevention engine that delivers multi-layered resilience by detecting early risk signals and prompting personalized microbreaks\u2014helping companies cut burnout costs, safeguard employees, and boost sustainable productivity.",
+  "problem_statement": "Burnout is costing companies \u20ac7.5\u201315k per employee each year, amounting to hundreds of billions globally. Current wellbeing solutions are reactive and digital-first\u2014therapy, coaching, or mindfulness apps that intervene only when burnout is already visible. They add to screen fatigue and overlook the invisible stress that silently accumulates in hyperconnected, post-pandemic workplaces. Prevention instead builds resilience and sustainable workforces, protecting both employee health and organizational productivity.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1VYBSWvnNovkeknyUsulpLdVdQAo7yN0X/view?usp=drive_link",
+  "demo_link": "https://drive.google.com/file/d/1z98G1D9wj6YLsRgoFyy1G97Y-zTKAnt4/view?usp=drive_link",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has complementary skills with expertise in AI and occupational therapy, which are relevant to the company's mission. However, the team is small and lacks a track record of scaling a startup.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on a B2B SaaS approach with potential for scalability. However, the pricing strategy and market adoption remain untested.",
+      "market_positioning": "Unpluganini positions itself as a preventive solution in the corporate wellness market, differentiating from reactive digital-first competitors.",
+      "execution_capability": "The team has secured LOIs and early pilot commitments, indicating some execution capability, but lacks market traction.",
+      "strategic_vision": "The strategic vision is clear, focusing on preventive health and resilience, but the roadmap for execution needs further development."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "I-Chin Tsai",
+        "role": "Founder/CEO",
+        "linkedin": "https://www.linkedin.com/in/i-chin-tsai/",
+        "background": "Background in occupational therapy and neuroscience.",
+        "domain_expertise": "Expertise in occupational therapy and preventive health.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements listed.",
+        "leadership_signals": "Demonstrates leadership through the development of the company's vision.",
+        "track_record": []
+      },
+      {
+        "name": "Andreas Urban",
+        "role": "Co-founder/CTO",
+        "linkedin": "https://www.linkedin.com/in/andreas-urban-itcs/",
+        "background": "Expertise in AI engineering.",
+        "domain_expertise": "Strong technical background in AI.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements listed.",
+        "leadership_signals": "Technical leadership in building the product.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The corporate wellness market is competitive with established players like Unmind, MindFi, and Nilo Health.",
+      "competitor_comparison": "Competitors are reactive and digital-first, while Unpluganini focuses on preventive and offline engagement.",
+      "positioning_assessment": "Unpluganini differentiates by addressing digital fatigue and focusing on preventive measures."
+    },
+    "red_flags": [
+      "Small team size and lack of prior startup scaling experience."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The corporate wellness market is large and growing, with significant opportunities in Europe and Asia. Unpluganini's focus on preventive solutions aligns well with market needs.",
+    "market_analysis": {
+      "total_addressable_market": "The global corporate wellness market is valued at $70B+, with significant growth potential.",
+      "serviceable_addressable_market": "Focus on Europe and Asia, with Germany as a strategic entry point.",
+      "serviceable_obtainable_market": "Initial focus on mid-sized companies in high-stress sectors.",
+      "market_growth_rate": "The market is growing, driven by increasing awareness of mental health and regulatory support.",
+      "market_dynamics": "Key trends include the shift towards preventive health and the impact of hybrid work environments."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are HR leaders and Chief People Officers in mid-sized companies.",
+      "willingness_to_pay": "Evidence of willingness to pay through LOIs and pilot commitments.",
+      "customer_acquisition_cost": "CAC not yet established due to pre-market stage.",
+      "lifetime_value": "LTV projections are speculative at this stage."
+    },
+    "red_flags": [
+      "Pre-market stage with no established customer base."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology leverages AI for burnout detection, which is innovative, but the defensibility and scalability of the solution are yet to be proven.",
+    "technical_assessment": {
+      "core_technology": "AI-driven engine for detecting burnout and prompting microbreaks.",
+      "defensibility": "Potential defensibility through proprietary algorithms, but no IP strategy mentioned.",
+      "intellectual_property": "No patents or IP strategy detailed.",
+      "scalability": "Scalability is possible with a SaaS model, but untested."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI algorithms for burnout detection.",
+      "data_advantages": "Potential data advantages from early adopters and clinical trials.",
+      "technical_barriers": "Barriers include the complexity of AI development and integration with existing systems."
+    },
+    "red_flags": [
+      "Lack of IP strategy and unproven scalability."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company is at a pre-revenue stage with no customers, but has secured LOIs and pilot commitments, indicating potential interest.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue to date.",
+      "customer_metrics": "No customers yet, but early interest from potential partners.",
+      "retention_analysis": "Retention metrics unavailable due to pre-market stage.",
+      "unit_economics": "Unit economics are speculative at this stage."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from potential pilot partners.",
+      "product_market_fit": "Potential PMF indicated by LOIs and pilot commitments.",
+      "notable_customers": "No notable customers yet.",
+      "partnerships": "Engagement with professors for clinical trials."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured LOIs and pilot commitments in Taiwan and Germany."
+      ],
+      "areas_of_investigation": [
+        "Need to validate product-market fit and establish revenue streams."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue stage with no paying customers."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing awareness of mental health and the need for preventive solutions in the workplace.",
+    "market_timing": {
+      "market_readiness": "Market is ready for preventive solutions due to burnout prevalence.",
+      "catalysts": "Regulatory support and increasing mental health awareness.",
+      "tailwinds": "Trends towards hybrid work and mental health prioritization.",
+      "headwinds": "Potential resistance to new solutions and market education required."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in preventive burnout solutions.",
+      "competitive_response": "Competitors may respond by enhancing their offerings.",
+      "market_education": "Significant market education may be required to shift from reactive to preventive solutions."
+    },
+    "red_flags": [
+      "Market education and adoption timeline may be longer than anticipated."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with no specific terms provided, making it difficult to assess alignment with SV's criteria.",
+    "investment_details": {
+      "round_stage": "Pre-seed stage.",
+      "raise_amount": "Amount not specified.",
+      "pre_money_valuation": "Valuation not provided.",
+      "post_money_valuation": "Valuation implications not detailed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on health and wellness.",
+      "ownership_potential": "Ownership potential unclear without specific terms.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation justification not provided."
+    },
+    "red_flags": [
+      "Lack of specific investment terms and valuation details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Unpluganini shows potential in a growing market with a unique preventive approach to burnout. However, the lack of traction, small team size, and unproven technology warrant a cautious approach.",
+    "key_factors": [
+      "Potential market opportunity",
+      "Unique preventive approach",
+      "Lack of traction and team size"
+    ],
+    "next_steps": [
+      "Monitor product development and pilot outcomes",
+      "Assess market adoption post-MVP launch",
+      "Evaluate team expansion and strategic partnerships"
+    ]
+  }
+}

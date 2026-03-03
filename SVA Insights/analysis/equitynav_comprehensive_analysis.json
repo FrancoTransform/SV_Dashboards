@@ -1,0 +1,168 @@
+{
+  "company_name": "EquityNav",
+  "token": "7bxn0kd49skv64lr3nug7b29fsp4bcab",
+  "submitted_at": "12/2/2025 2:55:11",
+  "website": "https://equitynav.io",
+  "year_founded": "2025",
+  "description": "EquityNav is an AI native equity and tax planning engine for advisors and CPAs. It transforms complex stock compensation into precise, optimized strategies instantly. Built on deep, domain trained intelligence, EquityNav replaces spreadsheets with financial grade reasoning for the $10T+ equity compensation market.",
+  "problem_statement": "EquityNav solves the complexity of equity compensation planning, which is a $10T+ market where advisors still rely on spreadsheets and generic tools that can\u2019t model tax timing, AMT, QSBS, or liquidity. The result is inconsistent guidance and missed opportunities. Advisors want new innovation to deliver complex planning topics at scale and their clients want more sophisticated solutions to optimize their finances. We bring AI native, financial grade intelligence to the part of wealth management that needs it most.",
+  "pitch_deck_link": "https://www.icloud.com/iclouddrive/001wZJWJoCgTv94qjotZdgWkw#EquityNav_Deck",
+  "demo_link": "https://youtu.be/P2Un9V_1nmo",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in finance and wealth management, with complementary skills in technology and operations. The CEO and CTO have relevant experience and have demonstrated early execution capability by securing pilot programs with wealth management firms.",
+    "company_assessment": {
+      "business_model_strength": "EquityNav employs a subscription model targeting enterprises, which is scalable and aligns with industry standards. The pricing structure is competitive and validated by pilot feedback.",
+      "market_positioning": "The company positions itself as an AI-native solution for equity compensation planning, differentiating itself from competitors by addressing complex tax scenarios with domain-trained AI.",
+      "execution_capability": "The team has shown the ability to execute by developing an MVP and securing pilot programs within a short timeframe.",
+      "strategic_vision": "The leadership demonstrates strategic thinking by focusing on a niche market with significant pain points and leveraging AI to provide a unique solution."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Nick Knepper",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/nick-knepper-cfp-24267185/",
+        "background": "Nick has a background in finance and wealth management, with 8 years of experience in the industry.",
+        "domain_expertise": "Strong expertise in financial planning and equity compensation.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Selected for the Jones Day Finaccelerate program.",
+        "leadership_signals": "Demonstrated leadership in securing pilot programs and building a strategic partnership with TheAgentic.",
+        "track_record": []
+      },
+      {
+        "name": "Luca Pejretti",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/lucp/",
+        "background": "Luca has a technical background with expertise in AI/ML engineering.",
+        "domain_expertise": "Technical expertise in building AI-driven solutions.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Developed the core technology for EquityNav.",
+        "leadership_signals": "Key role in technology development and strategic partnership formation.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes companies like Grantd, Trayecto, and Holistiplan, which offer generic planning tools.",
+      "competitor_comparison": "Competitors lack AI-native solutions and fail to address complex tax scenarios effectively.",
+      "positioning_assessment": "EquityNav differentiates itself with a domain-trained AI engine that automates complex equity planning, providing a significant competitive advantage."
+    },
+    "red_flags": [
+      "Limited startup experience among founders."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market for equity compensation planning is substantial, with a TAM of $10T+. The company targets a large number of wealth management and CPA firms, indicating a significant opportunity.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $10T+, driven by the complexity of equity compensation planning.",
+      "serviceable_addressable_market": "SAM includes 22,000 wealth management firms and 50,000 CPA firms.",
+      "serviceable_obtainable_market": "SOM projections are based on the company's ability to capture a portion of the SAM through its go-to-market strategy.",
+      "market_growth_rate": "The market is expected to grow as more firms seek AI-driven solutions for complex financial planning.",
+      "market_dynamics": "Key trends include increasing demand for AI solutions and the need for sophisticated financial planning tools."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are financial advisors and CPAs dealing with stock compensation.",
+      "willingness_to_pay": "Pilot feedback indicates willingness to pay $2500 per advisor per year.",
+      "customer_acquisition_cost": "CAC analysis is not provided but is expected to be low due to direct sales efforts.",
+      "lifetime_value": "LTV is expected to be high given the subscription model and industry retention rates."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating large firms without established brand recognition."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "EquityNav's technology is highly differentiated, leveraging AI to address complex equity compensation scenarios. The partnership with TheAgentic enhances scalability and technical depth.",
+    "technical_assessment": {
+      "core_technology": "AI-native equity and tax planning engine with domain-trained intelligence.",
+      "defensibility": "Strong technical barriers due to proprietary AI algorithms and domain expertise.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technology is inherently defensible.",
+      "scalability": "Scalable architecture supported by TheAgentic's expertise."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for modeling complex tax scenarios.",
+      "data_advantages": "Domain-trained AI provides a significant data advantage.",
+      "technical_barriers": "High barriers due to the complexity of replicating the AI engine."
+    },
+    "red_flags": [
+      "Dependence on TheAgentic for scaling technology."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has demonstrated strong early traction with pilot programs and interest from wealth management firms.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, but strong interest from pilot firms.",
+      "customer_metrics": "4 pilot users with 5 more in the pipeline.",
+      "retention_analysis": "Retention metrics not available due to early stage.",
+      "unit_economics": "Pricing validated by pilot feedback, indicating strong unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilot firms, indicating strong product-market fit.",
+      "product_market_fit": "Early signs of PMF with interest from multiple firms.",
+      "notable_customers": "Pilot programs with wealth management firms.",
+      "partnerships": "Strategic partnership with TheAgentic for technology scaling."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured pilot programs and strategic partnership."
+      ],
+      "areas_of_investigation": [
+        "Conversion of pilot users to paying customers."
+      ]
+    },
+    "red_flags": [
+      "No paying customers yet."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ripe for AI-driven solutions in financial planning, with increasing demand for sophisticated tools.",
+    "market_timing": {
+      "market_readiness": "The market is ready for AI solutions, driven by complexity in equity compensation.",
+      "catalysts": "Growing demand for AI in financial planning.",
+      "tailwinds": "Favorable trends in AI adoption and financial planning complexity.",
+      "headwinds": "Potential resistance from firms accustomed to traditional tools."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into a niche market with limited AI-native competition.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but EquityNav's AI focus provides a moat.",
+      "market_education": "Some market education required to shift firms from traditional tools."
+    },
+    "red_flags": [
+      "Potential slow adoption by conservative firms."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is in the early stages of fundraising, with a focus on securing strategic partnerships and scaling technology.",
+    "investment_details": {
+      "round_stage": "Early-stage fundraising with $50k from angels.",
+      "raise_amount": "Not specified, but focus on scaling and technology development.",
+      "pre_money_valuation": "Not provided.",
+      "post_money_valuation": "Not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on AI and financial technology.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details not provided, but early traction supports potential valuation growth."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and fundraising terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "EquityNav demonstrates strong potential with a differentiated AI-driven solution in a large and complex market. The team's domain expertise and early traction with pilot programs indicate a promising path forward.",
+    "key_factors": [
+      "Strong domain expertise",
+      "Differentiated AI technology",
+      "Early traction with pilot programs"
+    ],
+    "next_steps": [
+      "Engage in deeper due diligence on technology scalability and customer conversion",
+      "Explore potential strategic partnerships to enhance market penetration"
+    ]
+  }
+}

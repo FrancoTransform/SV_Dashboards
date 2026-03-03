@@ -1,0 +1,158 @@
+{
+  "company_name": "Entravia",
+  "token": "k89tjm33nkdgd6gfkk89tpyfwix88slj",
+  "submitted_at": "12/1/2025 22:02:37",
+  "website": "https://entravia.co",
+  "year_founded": "2025",
+  "description": "Entravia is a secure, AI-driven platform that lets small businesses complete one application and instantly compare standardized PEO quotes, cutting shopping time from weeks to minutes while improving accuracy, transparency, and vendor fit.",
+  "problem_statement": "Small businesses waste weeks navigating 500+ PEO vendors, repeating the same paperwork, and comparing quotes that all look different. Half abandon the process entirely. This creates overspend, compliance risk, and poor vendor fit. Entravia fixes this by standardizing data intake and pricing so SMBs can make fast, accurate decisions.",
+  "pitch_deck_link": "https://www.canva.com/design/DAG2W5v7sio/60CPPjr-Q0JyGzle39XTFA/view?utm_content=DAG2W5v7sio&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha7bd6fe084",
+  "demo_link": "https://entravia.co/signup",
+  "team": {
+    "score": 3,
+    "justification": "The team is led by a solo founder, Kasey Devine, who has demonstrated strong execution capabilities by securing initial traction and partnerships. However, the lack of a co-founder or a larger leadership team may pose challenges in scaling and diversifying expertise.",
+    "company_assessment": {
+      "business_model_strength": "Entravia has a diversified revenue model with four streams, including direct commissions and SaaS offerings, which provides multiple avenues for growth and stability.",
+      "market_positioning": "The company positions itself as a workflow engine rather than a traditional broker, offering a unique value proposition by standardizing the PEO shopping process.",
+      "execution_capability": "The founder has successfully launched the product, secured initial customers, and established partnerships, indicating strong execution capabilities.",
+      "strategic_vision": "Entravia aims to expand its channel distribution and deepen enterprise integrations, showing a clear strategic vision for growth."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Kasey Devine",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/kaseydevine",
+        "background": "Kasey Devine has a background in technology and entrepreneurship, with experience in building and scaling startups.",
+        "domain_expertise": "Expertise in HR technology and workflow automation, which is critical for Entravia's success.",
+        "previous_startups": "No prior startups mentioned, but has demonstrated entrepreneurial skills in founding Entravia.",
+        "notable_achievements": "Secured pre-seed funding and established partnerships with 30+ PEOs.",
+        "leadership_signals": "Strong leadership signals through successful product launch and initial traction.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes traditional PEO brokers, single-vendor sales teams, HR consultants, and SaaS marketplaces.",
+      "competitor_comparison": "Competitors rely on manual processes and inconsistent pricing, while Entravia offers a standardized, automated solution.",
+      "positioning_assessment": "Entravia differentiates itself by focusing on workflow standardization, which addresses key pain points in the PEO shopping process."
+    },
+    "red_flags": [
+      "Lack of a co-founder or larger leadership team may impact scaling and diversification of expertise."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The U.S. PEO market is substantial, with a TAM of $414B and a growing demand for outsourced HR solutions. Entravia targets a significant segment of this market, with clear evidence of demand and growth potential.",
+    "market_analysis": {
+      "total_addressable_market": "The U.S. PEO market is valued at $414B, serving over 6M eligible small businesses.",
+      "serviceable_addressable_market": "Entravia targets 1.2M SMBs actively evaluating outsourced HR solutions.",
+      "serviceable_obtainable_market": "The company's initial focus on SMBs provides a realistic market capture strategy.",
+      "market_growth_rate": "The PEO market is growing at 15% YoY, driven by increasing demand for HR outsourcing.",
+      "market_dynamics": "Key trends include the shift towards automation and standardization in HR processes."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are U.S. small businesses with 10-500 employees, primarily founders, CEOs, COOs, or heads of HR.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by the successful acquisition of paying customers.",
+      "customer_acquisition_cost": "The platform's free offering to SMBs suggests a low CAC, with revenue generated through partnerships.",
+      "lifetime_value": "LTV is expected to be high due to recurring revenue streams and ongoing cost monitoring services."
+    },
+    "red_flags": [
+      "Potential challenges in capturing a significant share of the large TAM due to competitive pressures."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Entravia's technology offers significant differentiation through its AI-driven platform and standardized workflow, providing a competitive moat in the fragmented PEO market.",
+    "technical_assessment": {
+      "core_technology": "The platform uses AI to standardize data intake and pricing, reducing time-to-quote by 83%.",
+      "defensibility": "The standardized workflow and AI-driven approach create technical barriers to entry.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technology itself provides a competitive advantage.",
+      "scalability": "The platform is designed to scale with additional vendor integrations and enterprise partnerships."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for data standardization and pricing comparison.",
+      "data_advantages": "The platform's ability to handle data from 500+ PEOs creates a significant data moat.",
+      "technical_barriers": "The complexity of standardizing diverse vendor formats presents a barrier to competitors."
+    },
+    "red_flags": [
+      "Potential challenges in rapidly scaling integrations with 500+ vendors."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Entravia has demonstrated initial traction with paying customers and partnerships, but further validation and scaling are needed to achieve significant market penetration.",
+    "growth_metrics": {
+      "revenue_growth": "Initial revenue from two paying customers, with a pipeline of four more.",
+      "customer_metrics": "Two paying customers and a growing pipeline indicate early traction.",
+      "retention_analysis": "No specific retention data provided, but 100% completion in pilots suggests strong customer engagement.",
+      "unit_economics": "Revenue share agreements with PEOs provide a sustainable revenue model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilots, with 100% completion and reduced quote timelines.",
+      "product_market_fit": "Evidence of PMF through successful pilots and customer acquisition.",
+      "notable_customers": "No specific notable customers mentioned, but initial traction is promising.",
+      "partnerships": "Partnerships with 30+ PEOs and broker partners provide market validation."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured pre-seed funding, established partnerships, and achieved compliance certifications."
+      ],
+      "areas_of_investigation": [
+        "Need to scale customer acquisition and validate long-term retention."
+      ]
+    },
+    "red_flags": [
+      "Limited customer base and need for further scaling to achieve significant market penetration."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to growing demand for HR outsourcing and the inefficiencies in the current PEO shopping process, which Entravia addresses effectively.",
+    "market_timing": {
+      "market_readiness": "The market is ready for a solution that simplifies and standardizes the PEO shopping process.",
+      "catalysts": "Increasing complexity in HR compliance and benefits management drives demand for PEO solutions.",
+      "tailwinds": "Favorable trends in automation and digital transformation in HR processes.",
+      "headwinds": "Potential resistance from traditional brokers and slow adoption of new workflows."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Entravia's early entry into the standardized PEO shopping space provides a first-mover advantage.",
+      "competitive_response": "Competitors may respond by enhancing their own offerings, but Entravia's head start is significant.",
+      "market_education": "Some market education may be required to shift SMBs from traditional brokers to a standardized platform."
+    },
+    "red_flags": [
+      "Potential resistance from entrenched brokers and slow adoption of new workflows."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is not currently fundraising, but previous funding rounds and investor support provide a solid foundation. Future terms will need to align with scaling goals.",
+    "investment_details": {
+      "round_stage": "Pre-seed round completed, not currently fundraising.",
+      "raise_amount": "Previous funding from M25 and Cambrian Ventures.",
+      "pre_money_valuation": "Not specified, but pre-seed funding indicates early-stage valuation.",
+      "post_money_valuation": "Not specified, but likely aligned with early-stage metrics."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Entravia aligns with SV's focus on workflow automation and HR technology.",
+      "ownership_potential": "Future funding rounds will determine ownership potential and board representation.",
+      "liquidation_preferences": "Not specified, but standard early-stage terms likely apply.",
+      "valuation_justification": "Valuation should reflect early traction and growth potential in a large market."
+    },
+    "red_flags": [
+      "Future funding terms and valuation alignment with scaling goals."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Entravia demonstrates strong potential in a large and growing market, with a unique solution that addresses significant pain points in the PEO shopping process. The company's early traction, strategic vision, and favorable market timing support advancing to the next stage.",
+    "key_factors": [
+      "Strong market potential",
+      "Unique value proposition",
+      "Early traction and partnerships"
+    ],
+    "next_steps": [
+      "Engage with the founder to explore scaling strategies",
+      "Assess potential for deeper partnerships and integrations",
+      "Evaluate readiness for a future funding round"
+    ]
+  }
+}

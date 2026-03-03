@@ -1,0 +1,158 @@
+{
+  "company_name": "Voygic",
+  "token": "g92u7t7pgjttrg92u7o7yh92preuytso",
+  "submitted_at": "11/26/2025 7:06:15",
+  "website": "https://main.voygic.cloud/",
+  "year_founded": "2025",
+  "description": "OpenAI for human understanding",
+  "problem_statement": "We help companies run fast, cost-effective market research using synthetic personas. Our platform generates AI-simulated focus groups and pricing surveys that replicate real customer feedback in minutes, not weeks. Companies can test messaging, positioning, and pricing with 2 to 80 personas, reducing cost by up to 99% and improving research accuracy compared to traditional methods.",
+  "pitch_deck_link": "https://www.canva.com/design/DAG333AGwZE/PV8gU0qMsfSq4EQ00MqkMg/edit?utm_content=DAG333AGwZE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  "demo_link": "https://youtu.be/z9J6pSkw4ig",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has a strong technical background and a clear vision, but lacks extensive entrepreneurial experience and a larger team to support rapid scaling.",
+    "company_assessment": {
+      "business_model_strength": "Voygic employs a SaaS model with potential for scalability through enterprise contracts. However, the current customer base is small, and the pricing strategy may need refinement.",
+      "market_positioning": "Voygic differentiates itself by using synthetic personas for market research, a novel approach that could carve out a unique niche.",
+      "execution_capability": "The team has demonstrated initial execution capability by launching an MVP and securing early users, but scaling operations remains a challenge.",
+      "strategic_vision": "The founders have a clear strategic vision to expand multimodal capabilities, which aligns with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Yilin Du",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/yilin-du27/",
+        "background": "Yilin has a strong technical background in front-end and back-end engineering.",
+        "domain_expertise": "Expertise in AI and software development.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Successfully launched an MVP and secured initial users.",
+        "leadership_signals": "Demonstrates technical leadership and product development skills.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The market research industry is competitive with established players like Artificial Society and OpinioAI.",
+      "competitor_comparison": "Competitors rely on traditional methods, while Voygic offers a unique approach with synthetic personas.",
+      "positioning_assessment": "Voygic's focus on synthetic personas and multimodal capabilities provides a competitive edge."
+    },
+    "red_flags": [
+      "Limited team size and lack of extensive entrepreneurial experience."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market research industry is valued at over $100B, indicating a large TAM. However, the company's ability to capture a significant portion remains to be proven.",
+    "market_analysis": {
+      "total_addressable_market": "$100B, based on the overall market research industry.",
+      "serviceable_addressable_market": "Potentially large, but dependent on the adoption of AI-powered research tools.",
+      "serviceable_obtainable_market": "Initial traction suggests a small SOM, but growth potential exists with effective go-to-market strategies.",
+      "market_growth_rate": "The industry is experiencing growth due to increasing demand for faster, AI-powered solutions.",
+      "market_dynamics": "Key trends include the shift towards AI and automation in market research."
+    },
+    "customer_analysis": {
+      "buyer_personas": "UI/UX leads, PMs, and startups struggling with market research.",
+      "willingness_to_pay": "Initial willingness to pay is evidenced by early adopters, but broader market acceptance is uncertain.",
+      "customer_acquisition_cost": "Currently low due to organic growth, but may increase with scaling efforts.",
+      "lifetime_value": "LTV is currently low due to limited customer base and retention data."
+    },
+    "red_flags": [
+      "Uncertainty in broader market acceptance and scalability of customer acquisition."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Voygic's use of synthetic personas and AI-simulated focus groups is innovative and potentially defensible, but scalability and technical barriers need further validation.",
+    "technical_assessment": {
+      "core_technology": "AI-simulated focus groups and pricing surveys using synthetic personas.",
+      "defensibility": "Unique approach with potential for defensibility through continuous innovation.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "Scalability is promising but requires further infrastructure development."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for synthetic personas and pricing models.",
+      "data_advantages": "Potential data moat through unique customer insights.",
+      "technical_barriers": "Barriers exist in replicating the specific combination of synthetic personas and pricing models."
+    },
+    "red_flags": [
+      "Lack of IP protection and potential scalability challenges."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Early traction is promising with initial users and paid customers, but broader market validation and growth metrics are needed.",
+    "growth_metrics": {
+      "revenue_growth": "Limited revenue growth with only four paying customers.",
+      "customer_metrics": "100+ users with a small conversion to paid plans.",
+      "retention_analysis": "Retention data is limited due to the early stage.",
+      "unit_economics": "Current unit economics are not well-defined due to limited data."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive initial feedback from early adopters.",
+      "product_market_fit": "Early signs of PMF, but broader validation is needed.",
+      "notable_customers": "No notable customers or logos mentioned.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Launch of MVP and initial user acquisition."
+      ],
+      "areas_of_investigation": [
+        "Broader market validation and customer retention strategies."
+      ]
+    },
+    "red_flags": [
+      "Limited revenue and customer base."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for AI-powered market research solutions, but competitive response and market education are potential challenges.",
+    "market_timing": {
+      "market_readiness": "Market is increasingly ready for AI-driven solutions.",
+      "catalysts": "Growing demand for faster, cost-effective market research.",
+      "tailwinds": "Advancements in AI and data analytics.",
+      "headwinds": "Potential resistance from traditional market research firms."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in synthetic persona-based research.",
+      "competitive_response": "Competitors may quickly adapt similar technologies.",
+      "market_education": "Significant market education may be required for adoption."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response and need for market education."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is in early fundraising stages with a short runway, and terms are not fully defined.",
+    "investment_details": {
+      "round_stage": "Early-stage fundraising.",
+      "raise_amount": "Not specified, but runway is limited to 3 months.",
+      "pre_money_valuation": "Not provided.",
+      "post_money_valuation": "Not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative AI solutions.",
+      "ownership_potential": "Ownership potential is unclear due to lack of valuation details.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are missing, making justification difficult."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and short runway."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Voygic shows potential with its innovative approach and early traction, but requires further validation in market acceptance, scalability, and financial terms.",
+    "key_factors": [
+      "Innovative use of synthetic personas",
+      "Early traction and user interest",
+      "Large TAM in market research"
+    ],
+    "next_steps": [
+      "Conduct deeper market validation",
+      "Develop a detailed fundraising strategy",
+      "Expand team to support scaling"
+    ]
+  }
+}

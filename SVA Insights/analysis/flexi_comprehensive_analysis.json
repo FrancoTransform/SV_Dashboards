@@ -1,0 +1,164 @@
+{
+  "company_name": "Flexi",
+  "token": "xuzx5gwkywt9yxuzkea30q8vol3faeoa",
+  "submitted_at": "12/9/2025 21:15:10",
+  "website": "https://www.workwithflexi.com",
+  "year_founded": "2025",
+  "description": "Flexi is a W-2 shift marketplace that helps businesses fill shifts while giving workers real flexibility, stability, benefits, and next-day pay. We bridge the gap between employers needing reliable staffing and workers wanting freedom without losing security.",
+  "problem_statement": "Businesses are constantly understaffed, dealing with turnover and scrambling to hire / fill shifts. Workers want flexibility, but gig apps don't offer benefits or stability. Flexi solves both by providing reliable W-2 shift workers for employers and flexible, secure work for people. It matters because the current labor model is failing both sides.",
+  "pitch_deck_link": "https://www.dropbox.com/scl/fo/ulidq28wryaetcm4vj9ey/ALqKvqMUH023pIAoWBHJwZo?rlkey=nsenzl65zn5b2co7h30ry7bgo&st=nyoks9xc&dl=0",
+  "demo_link": "https://www.dropbox.com/scl/fo/ulidq28wryaetcm4vj9ey/ALqKvqMUH023pIAoWBHJwZo?rlkey=nsenzl65zn5b2co7h30ry7bgo&st=nyoks9xc&dl=0",
+  "team": {
+    "score": 2,
+    "justification": "The team is currently a solo founder with limited execution capability and no co-founders or team members to support scaling. The founder has demonstrated strategic pivoting based on feedback but lacks a track record of scaling startups.",
+    "company_assessment": {
+      "business_model_strength": "The business model is promising with a per-shift markup and potential for subscription services, but it remains untested in the market.",
+      "market_positioning": "Flexi positions itself as a W-2 alternative to gig platforms, offering stability and benefits, which is a strong differentiator.",
+      "execution_capability": "Execution capability is limited due to the solo founder status and lack of a technical team.",
+      "strategic_vision": "The strategic vision is clear, focusing on solving a significant problem in the staffing industry with a unique approach."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Brittany Gull",
+        "role": "Founder",
+        "linkedin": "www.linkedin.com/in/brittany-gull",
+        "background": "Brittany has a background in HR and staffing, providing relevant industry expertise.",
+        "domain_expertise": "Strong understanding of staffing challenges and HR tech.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Pivoted the business model based on market feedback.",
+        "leadership_signals": "Demonstrated adaptability and strategic thinking.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes gig platforms like Instawork and traditional staffing agencies.",
+      "competitor_comparison": "Instawork lacks worker protections, while traditional staffing is slow and costly. Flexi's W-2 model addresses these gaps.",
+      "positioning_assessment": "Flexi's W-2 model with benefits is a strong differentiator in a market dominated by 1099 gig platforms."
+    },
+    "red_flags": [
+      "Solo founder with no technical team",
+      "Pre-launch status with no market validation"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a $170B+ TAM in the U.S. shift-based workforce. The market is growing, driven by demand for flexible labor solutions.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is $170B+, covering temp staffing and hourly labor.",
+      "serviceable_addressable_market": "SAM is significant, focusing on high-turnover industries like restaurants and retail.",
+      "serviceable_obtainable_market": "SOM projections are optimistic, given the unique value proposition.",
+      "market_growth_rate": "The market is experiencing growth due to increasing demand for flexible work arrangements.",
+      "market_dynamics": "Key trends include the shift towards flexible work and the need for worker protections."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are businesses in high-turnover industries needing reliable staffing solutions.",
+      "willingness_to_pay": "Evidence suggests businesses are willing to pay for reliable, flexible staffing solutions.",
+      "customer_acquisition_cost": "CAC is not yet established due to pre-launch status.",
+      "lifetime_value": "LTV is projected to be high due to recurring shift needs and potential subscription services."
+    },
+    "red_flags": [
+      "Pre-launch status limits market validation"
+    ]
+  },
+  "technology": {
+    "score": 2,
+    "justification": "The technology is in the early stages, with the MVP built but no technical team to support development and scaling.",
+    "technical_assessment": {
+      "core_technology": "The core technology is a marketplace platform connecting employers with W-2 workers.",
+      "defensibility": "Defensibility is limited without proprietary technology or IP.",
+      "intellectual_property": "No IP strategy or patents mentioned.",
+      "scalability": "Scalability is a concern without a technical team to support growth."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No unique algorithms or technical innovations noted.",
+      "data_advantages": "Potential data advantages from marketplace interactions, but not yet realized.",
+      "technical_barriers": "Limited technical barriers to entry."
+    },
+    "red_flags": [
+      "Lack of technical team and IP strategy",
+      "Pre-launch status with untested technology"
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "Flexi is pre-launch with no revenue or customer traction. The MVP is built, and there is a waitlist, but no market validation.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue to date.",
+      "customer_metrics": "Pre-launch with a waitlist but no active customers.",
+      "retention_analysis": "No retention data available.",
+      "unit_economics": "Unit economics are theoretical at this stage."
+    },
+    "market_validation": {
+      "customer_feedback": "Initial feedback from potential customers is positive, but no active validation.",
+      "product_market_fit": "No evidence of PMF due to pre-launch status.",
+      "notable_customers": "No customers yet.",
+      "partnerships": "No partnerships established."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "MVP built and initial demand validated through waitlist"
+      ],
+      "areas_of_investigation": [
+        "Need to validate product-market fit and establish customer traction"
+      ]
+    },
+    "red_flags": [
+      "No revenue or customer traction",
+      "Pre-launch status"
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The timing is favorable due to increasing demand for flexible work solutions, but competitive response and market education are potential challenges.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions offering flexibility and worker protections.",
+      "catalysts": "Catalysts include high turnover rates and dissatisfaction with gig platforms.",
+      "tailwinds": "Favorable trends towards flexible work arrangements.",
+      "headwinds": "Potential regulatory challenges and competitive responses."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Limited first-mover advantage due to existing competitors.",
+      "competitive_response": "Competitors may quickly adapt to offer similar benefits.",
+      "market_education": "Significant market education required to shift from gig to W-2 models."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response",
+      "Need for market education"
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "The terms are not fully defined, with a pre-seed round in progress. Valuation and alignment with SV's criteria need further clarification.",
+    "investment_details": {
+      "round_stage": "Pre-seed round",
+      "raise_amount": "Amount not specified",
+      "pre_money_valuation": "Valuation not specified",
+      "post_money_valuation": "Valuation implications not clear"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on HR tech and future of work.",
+      "ownership_potential": "Ownership potential unclear without valuation details.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation justification needed based on comparables and metrics."
+    },
+    "red_flags": [
+      "Lack of clarity on valuation and terms",
+      "Pre-seed stage with undefined raise amount"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Flexi presents a compelling solution to a significant market problem, but the pre-launch status, lack of a technical team, and undefined terms present risks. Further validation and team development are needed.",
+    "key_factors": [
+      "Strong market opportunity",
+      "Unique W-2 model",
+      "Pre-launch status",
+      "Solo founder"
+    ],
+    "next_steps": [
+      "Encourage building a technical team",
+      "Seek further market validation",
+      "Clarify investment terms and valuation"
+    ]
+  }
+}

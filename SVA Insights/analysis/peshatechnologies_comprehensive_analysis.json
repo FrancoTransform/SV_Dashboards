@@ -1,0 +1,161 @@
+{
+  "company_name": "Pesha Technologies",
+  "token": "nhsmf9k3rxcnbpnhsfnzsbzrlncmfnzs",
+  "submitted_at": "10/6/2025 13:27:55",
+  "website": "https://pesha.co.ke/",
+  "year_founded": "2024",
+  "description": "At Pesha we have built a digital expense management platform for African businesses. It simplifies how organizations track, control, and optimize spending through real-time visibility, automated approvals, and seamless ERP integrations - reducing inefficiencies, fraud, and compliance risks.",
+  "problem_statement": "African businesses lose 10\u201320% of revenue to inefficient expense management due to manual tracking, fraud, and poor financial visibility. Pesha digitizes this process, enabling real-time monitoring, transparency, and control; critical for SMEs, NGOs, and enterprises navigating fragmented financial systems and mobile-money-heavy economies.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1t7gIWmlR6dURVFK7mP3_VZdEgEoOrF0W/view?usp=sharing",
+  "demo_link": "https://drive.google.com/file/d/12Gh6hESgyVp1RmkWCPlMie-xMCeLWZXT/view?usp=sharing",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and complementary skills, with a history of collaboration and successful project execution. The team is small but well-rounded, covering key areas such as engineering, product, sales, and operations.",
+    "company_assessment": {
+      "business_model_strength": "Pesha employs a transaction-based revenue model with potential for scalability through premium analytics and integrations. The model aligns well with the target market's needs.",
+      "market_positioning": "Pesha differentiates itself by focusing on SMEs and informal businesses, offering real-time controls and ERP/mobile money integrations, which are critical in the African context.",
+      "execution_capability": "The team has demonstrated execution capability by developing a product that has gained traction with 72 active businesses and processing over 5,000 transactions.",
+      "strategic_vision": "The leadership has a clear vision for regional scaling and enhancing compliance and investor readiness, which aligns with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Tracy Mwangi",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/tracy-mwangi-b1a425117/",
+        "background": "Tracy has a background in Computer Technology from Jomo Kenyatta University of Agriculture and Technology.",
+        "domain_expertise": "Expertise in digital expense management and fintech solutions.",
+        "previous_startups": "Co-founded Guiderig, a project developed during a hackathon.",
+        "notable_achievements": "Successfully led the development and launch of Pesha.",
+        "leadership_signals": "Demonstrated leadership in guiding the team through product development and market entry.",
+        "track_record": [
+          {
+            "company": "Guiderig",
+            "role": "Co-founder",
+            "outcome": "Project developed during a hackathon, showcasing early collaboration skills.",
+            "learnings": "Gained experience in team collaboration and product development."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The expense management market in Africa is competitive with players like Zemo and OpenFloat.",
+      "competitor_comparison": "Zemo focuses on corporate clients, while OpenFloat targets float disbursement. Pesha's focus on SMEs and informal businesses provides a unique positioning.",
+      "positioning_assessment": "Pesha's integration with mobile money and ERP systems offers a competitive edge in the African market."
+    },
+    "red_flags": [
+      "Limited team size may impact scalability and rapid execution."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a TAM of $770M. Pesha's focus on SMEs and informal businesses in Africa is well-aligned with market needs.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $770M, based on the number of businesses in Africa and their expense management needs.",
+      "serviceable_addressable_market": "Pesha aims to capture 10% of Africa's 50M+ businesses, translating to significant revenue potential.",
+      "serviceable_obtainable_market": "With a strategic go-to-market approach, Pesha could realistically capture a significant portion of the SAM.",
+      "market_growth_rate": "The market is expected to grow due to increasing digital adoption and the need for compliance-ready tools.",
+      "market_dynamics": "Key trends include the rise of mobile money, digital transformation, and the need for financial transparency."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include SMEs, NGOs, and enterprises with a need for improved expense management.",
+      "willingness_to_pay": "Evidence of willingness to pay is seen in the current customer base and transaction fees.",
+      "customer_acquisition_cost": "High CAC is a concern, but targeted outreach and partnerships could mitigate this.",
+      "lifetime_value": "LTV is promising given the recurring nature of transaction fees and potential upsell opportunities."
+    },
+    "red_flags": [
+      "High CAC and limited marketing resources could hinder rapid market penetration."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Pesha's technology is robust, with real-time visibility and seamless integrations. The focus on mobile money and ERP systems is a strong differentiator.",
+    "technical_assessment": {
+      "core_technology": "The platform offers real-time expense tracking, automated approvals, and ERP integrations.",
+      "defensibility": "Integration with mobile money and ERP systems provides a competitive moat.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technology is proprietary.",
+      "scalability": "The platform is designed for scalability, with a focus on security and control."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The platform's real-time tracking and automation features are key innovations.",
+      "data_advantages": "Potential for data-driven insights and analytics as a value-add service.",
+      "technical_barriers": "Integration capabilities and real-time processing are barriers to entry for competitors."
+    },
+    "red_flags": [
+      "No mention of patents or formal IP protection."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Pesha has demonstrated strong early traction with 72 active businesses and significant transaction volume.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue is growing with the increase in processed transactions and active users.",
+      "customer_metrics": "Customer base has grown from 46 to 72 businesses in six months.",
+      "retention_analysis": "Retention is strong, supported by customer feedback and product improvements.",
+      "unit_economics": "Positive unit economics with transaction-based revenue model."
+    },
+    "market_validation": {
+      "customer_feedback": "Feedback has driven product pivots, such as M-PESA integration, improving retention.",
+      "product_market_fit": "Strong PMF indicated by user growth and transaction volume.",
+      "notable_customers": "Includes SMEs and accounting firms, indicating market acceptance.",
+      "partnerships": "Potential for strategic partnerships to enhance market reach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Doubling of retention rates and significant transaction volume growth."
+      ],
+      "areas_of_investigation": [
+        "Explore additional partnerships and marketing strategies to reduce CAC."
+      ]
+    },
+    "red_flags": [
+      "Limited marketing resources could slow growth."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing digital adoption and regulatory support for fintech solutions in Africa.",
+    "market_timing": {
+      "market_readiness": "The market is ready for digital expense management solutions, driven by mobile money adoption.",
+      "catalysts": "Regulatory support and digital transformation trends are accelerating adoption.",
+      "tailwinds": "Favorable trends include the rise of mobile money and demand for compliance tools.",
+      "headwinds": "Potential challenges include economic instability and competition."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Pesha has an advantage by focusing on underserved SMEs and informal businesses.",
+      "competitive_response": "Competitors may respond, but Pesha's integrations provide a strong moat.",
+      "market_education": "Some market education may be required, but digital adoption is growing."
+    },
+    "red_flags": [
+      "Economic instability in target regions could impact growth."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is bootstrapped with a clear fundraising goal, but valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Currently fundraising with a focus on scaling and compliance readiness.",
+      "raise_amount": "Specific raise amount not provided, but runway is approximately 6 months.",
+      "pre_money_valuation": "No pre-money valuation provided.",
+      "post_money_valuation": "No post-money valuation provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The focus on fintech and regional scaling aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "Not specified, but important for investor protection.",
+      "valuation_justification": "Valuation details needed for comprehensive analysis."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Pesha Technologies demonstrates strong potential with a solid team, promising market opportunity, and early traction. The focus on SMEs and informal businesses in Africa aligns well with market needs and SV's investment thesis.",
+    "key_factors": [
+      "Strong team execution, favorable market timing, and unique market positioning."
+    ],
+    "next_steps": [
+      "Engage in due diligence to assess valuation and investment terms, explore potential partnerships, and evaluate scalability plans."
+    ]
+  }
+}

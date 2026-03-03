@@ -1,0 +1,183 @@
+{
+  "company_name": "Gigged.AI",
+  "token": "7lbg73qp1smc9nu78jyo7lbg76nn91d9",
+  "submitted_at": "12/2/2025 21:32:51",
+  "website": "https://gigged.ai",
+  "year_founded": "2021",
+  "description": "Workforce Orchestration for Enterprise. Connecting tasks to internal employees, contingent talent and AI Agents.",
+  "problem_statement": "Skill shortages is costing Enterprise CIO's $5.5 trillion. We fill skill shortages through orchestrating internal employees, contingent workers and AI Agents.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1Min81aetpNwopQ0tLulg3QjgoyFbzm62/edit?usp=sharing&ouid=111251934373981989961&rtpof=true&sd=true",
+  "demo_link": "https://www.loom.com/share/d785f03ac1c542e9b9ec364e9ff9efd2",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a proven track record in digital transformation. The CEO and CTO have a long-standing relationship and complementary skills, which enhances their execution capability.",
+    "company_assessment": {
+      "business_model_strength": "Gigged.AI operates a dual revenue model with a marketplace take rate and a SaaS subscription, providing diversified income streams and scalability.",
+      "market_positioning": "The company uniquely targets CIOs and CTOs, addressing a critical pain point of skill shortages with a comprehensive solution beyond internal mobility.",
+      "execution_capability": "Demonstrated ability to pivot from SME to enterprise focus, indicating strategic agility and execution strength.",
+      "strategic_vision": "The leadership has a clear vision of integrating AI agents with human talent to address skill shortages, aligning with market trends."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Rich Wilson",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/richlwilson/",
+        "background": "Rich has a background in digital transformation and has worked on major projects in the tech industry.",
+        "domain_expertise": "Extensive experience in workforce orchestration and digital transformation.",
+        "previous_startups": "No prior startups mentioned, but significant experience in relevant industry roles.",
+        "notable_achievements": "Successfully pivoted the company from SME to enterprise focus, demonstrating strategic foresight.",
+        "leadership_signals": "Strong leadership evidenced by strategic pivots and team restructuring.",
+        "track_record": [
+          {
+            "company": "Previous Company",
+            "role": "Role at company",
+            "outcome": "Ongoing",
+            "learnings": "Learned the importance of focusing on enterprise clients for scalability."
+          }
+        ]
+      },
+      {
+        "name": "Craig Short",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/craig-short-gigged/",
+        "background": "Craig has a technical background with expertise in building scalable platforms.",
+        "domain_expertise": "Deep technical expertise in platform development and AI integration.",
+        "previous_startups": "No prior startups mentioned, but extensive technical experience.",
+        "notable_achievements": "Led the re-platforming of the solution to focus on enterprise clients.",
+        "leadership_signals": "Demonstrated technical leadership and ability to execute complex projects.",
+        "track_record": [
+          {
+            "company": "Previous Company",
+            "role": "Role at company",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into scalable platform development and enterprise needs."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes companies like Gloat and Eightfold, which focus on internal mobility for CHROs.",
+      "competitor_comparison": "Gigged.AI differentiates by targeting CIOs and CTOs with a broader solution that includes AI agents.",
+      "positioning_assessment": "The company positions itself as a comprehensive solution for skill shortages, leveraging AI and a dual marketplace approach."
+    },
+    "red_flags": [
+      "Limited sales team size may impact enterprise-level sales execution."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The target market is substantial, with a TAM of $218 billion. The company's focus on enterprise CIOs aligns with significant market demand and willingness to pay.",
+    "market_analysis": {
+      "total_addressable_market": "$218 billion, supported by industry reports and market trends.",
+      "serviceable_addressable_market": "Focused on enterprise clients in financial services, technology, and energy sectors.",
+      "serviceable_obtainable_market": "Realistic capture through strategic partnerships and targeted sales efforts.",
+      "market_growth_rate": "High growth potential driven by digital transformation and AI adoption trends.",
+      "market_dynamics": "Key trends include digital skill shortages, rise of freelance talent, and AI agent integration."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Enterprise CIOs and CTOs in financial services, technology, and energy sectors.",
+      "willingness_to_pay": "Strong willingness to pay due to critical need for skill orchestration solutions.",
+      "customer_acquisition_cost": "CAC not explicitly detailed, but enterprise focus suggests higher acquisition costs.",
+      "lifetime_value": "High LTV potential due to enterprise contracts and SaaS model."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating highly competitive enterprise markets."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology leverages AI agents and a dual marketplace model, providing a competitive edge and scalability.",
+    "technical_assessment": {
+      "core_technology": "AI-driven workforce orchestration platform connecting tasks to talent.",
+      "defensibility": "Strong defensibility through AI integration and dual marketplace approach.",
+      "intellectual_property": "No specific IP strategy mentioned, but potential for proprietary algorithms.",
+      "scalability": "Platform designed for scalability to handle enterprise-level demands."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Potential for proprietary algorithms in task matching and AI agent integration.",
+      "data_advantages": "Data-driven insights from marketplace interactions provide a competitive moat.",
+      "technical_barriers": "Complexity of integrating AI agents and managing a dual marketplace."
+    },
+    "red_flags": [
+      "Lack of explicit IP strategy could be a concern for long-term defensibility."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong traction with 225% growth and 20 enterprise MSAs, indicating product-market fit and demand.",
+    "growth_metrics": {
+      "revenue_growth": "225% growth over the last 6 months, indicating strong market demand.",
+      "customer_metrics": "20 enterprise MSAs with a $3m ACV pipeline.",
+      "retention_analysis": "Retention not explicitly detailed, but enterprise focus suggests lower churn.",
+      "unit_economics": "Positive unit economics with dual revenue streams."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from enterprise clients, indicating satisfaction.",
+      "product_market_fit": "Evidence of PMF with strong growth and enterprise adoption.",
+      "notable_customers": "20 enterprise MSAs, showcasing credibility and market acceptance.",
+      "partnerships": "Potential for strategic partnerships to enhance market reach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Strong enterprise adoption and revenue growth."
+      ],
+      "areas_of_investigation": [
+        "Detailed retention metrics and customer satisfaction analysis."
+      ]
+    },
+    "red_flags": [
+      "Limited sales team may impact ability to sustain growth trajectory."
+    ]
+  },
+  "timing": {
+    "score": 5,
+    "justification": "The timing is favorable with strong market trends supporting digital transformation and AI adoption.",
+    "market_timing": {
+      "market_readiness": "High market readiness due to urgent need for skill orchestration solutions.",
+      "catalysts": "Digital skill shortages and AI adoption are accelerating market demand.",
+      "tailwinds": "Favorable trends in freelance talent and AI agent integration.",
+      "headwinds": "Potential economic downturns affecting enterprise budgets."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early mover advantage in targeting CIOs with a comprehensive solution.",
+      "competitive_response": "Competitors may respond by expanding offerings, but Gigged.AI's focus on AI agents provides a unique edge.",
+      "market_education": "Some market education required for AI agent integration, but trends are favorable."
+    },
+    "red_flags": [
+      "Economic uncertainties could impact enterprise spending."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Current fundraising efforts and valuation details are not fully disclosed, limiting assessment.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, details not specified.",
+      "raise_amount": "Amount being raised not disclosed.",
+      "pre_money_valuation": "Valuation details not provided.",
+      "post_money_valuation": "Ownership implications not clear."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative workforce solutions.",
+      "ownership_potential": "Ownership percentage and board representation not specified.",
+      "liquidation_preferences": "Investor protections not detailed.",
+      "valuation_justification": "Valuation analysis limited due to lack of details."
+    },
+    "red_flags": [
+      "Lack of detailed fundraising and valuation information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Gigged.AI demonstrates strong market traction, a compelling solution to a significant problem, and favorable market timing. The team has shown strategic agility and execution capability, making it a promising candidate for further consideration.",
+    "key_factors": [
+      "Strong market demand for skill orchestration solutions.",
+      "Innovative use of AI agents and dual marketplace model.",
+      "Significant traction with enterprise clients."
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on customer retention and satisfaction metrics.",
+      "Clarify fundraising details and valuation expectations.",
+      "Explore potential strategic partnerships to enhance market reach."
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "company_name": "frova",
+  "token": "9jsq9mflxufrk19suzk9jsqa1a0bs6wt",
+  "submitted_at": "11/26/2025 1:30:12",
+  "website": "https://frova.lovable.app",
+  "year_founded": "2024",
+  "description": "Frova is the world's first Empathy-as-a-Service (EaaS) platform. We deliver a Behavioral Simulation RPG that uses proprietary XAI and synthetic AI personas to turn communication and leadership into an immersive, measurable mastery journey. We are raising a pre-seed round.",
+  "problem_statement": "The core problem Frova solves is the 'Soft Skills Tax'\u2014the measurable, hidden cost of poor communication, conflict avoidance, and ineffective leadership that plagues both individual careers and large organizations. Existing solutions are insufficient because they treat symptoms (stress, lack of knowledge) but fail to change ingrained behavioral patterns through repeatable, measurable practice. We bridge the massive gap between knowing what to do and mastering the skill under pressure. This matters because soft skills have become the defining factor for career progression and organizational success; however, they remain the hardest skills to train, measure, and scale. Frova transforms this abstract, high-stakes challenge into a safe, addictive, and quantifiable mastery journey, making behavioral evolution accessible and fun.",
+  "pitch_deck_link": "https://gamma.app/docs/frovapitchdeck-teid9q9kfm2fln8?mode=doc",
+  "demo_link": "https://drive.google.com/file/d/1v6eGeEZ-znrqswoEZ1USoQn0HCANycuR/view",
+  "team": {
+    "score": 3,
+    "justification": "The team is led by a solo founder with a strong technical background in cybersecurity and AI, but lacks a complete team with diverse skills necessary for rapid scaling.",
+    "company_assessment": {
+      "business_model_strength": "The dual-track B2C and B2B model is promising, but unproven at this stage. The focus on subscriptions and enterprise licensing aligns with industry trends.",
+      "market_positioning": "Frova positions itself uniquely with its EaaS platform, but must clearly differentiate from existing L&D solutions.",
+      "execution_capability": "The founder has demonstrated technical execution capability, but the lack of a broader team raises concerns about scaling.",
+      "strategic_vision": "The vision to redefine soft skills training is compelling, but requires validation through market traction and partnerships."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Temmy Bada",
+        "role": "Solo Founder and CEO",
+        "linkedin": "https://www.linkedin.com/in/temmy-bada-428398355/",
+        "background": "Master of Science in Cybersecurity Technology with experience at Bank of America and Fannie Mae.",
+        "domain_expertise": "Expertise in AI and cybersecurity, relevant to Frova's technical foundation.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Developed the core FBA-5 XAI diagnostic layer and simulation infrastructure.",
+        "leadership_signals": "Strong technical leadership, but lacks evidence of team-building experience.",
+        "track_record": [
+          {
+            "company": "Bank of America",
+            "role": "Architect",
+            "outcome": "Contributed to scalable AI platforms.",
+            "learnings": "Gained experience in scalable AI systems, relevant to Frova's development."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The market includes fragmented competitors in coaching, gamified learning, and consumer AI chat.",
+      "competitor_comparison": "Competitors like BetterUp and Duolingo focus on different aspects, lacking Frova's diagnostic and simulation integration.",
+      "positioning_assessment": "Frova's integration of diagnostics, simulation, and engagement is a unique proposition, but needs market validation."
+    },
+    "red_flags": [
+      "Lack of a complete team and potential challenges in scaling operations."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market opportunity is substantial, intersecting multiple large and growing sectors, but requires precise targeting and execution.",
+    "market_analysis": {
+      "total_addressable_market": "Estimated at hundreds of billions, combining mobile learning, enterprise L&D, and behavioral AI sectors.",
+      "serviceable_addressable_market": "Focus on high-performing professionals and enterprise L&D programs.",
+      "serviceable_obtainable_market": "Dependent on successful go-to-market execution and partnership development.",
+      "market_growth_rate": "Strong growth in mobile learning and AI-driven L&D solutions.",
+      "market_dynamics": "Increasing demand for scalable, measurable soft skills training solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Targeting professionals aged 25-45 in leadership roles, motivated by career advancement.",
+      "willingness_to_pay": "Evidence from similar subscription models suggests willingness to pay for effective solutions.",
+      "customer_acquisition_cost": "Not yet defined, but critical for scaling B2C and B2B models.",
+      "lifetime_value": "Potentially high if retention and engagement strategies are effective."
+    },
+    "red_flags": [
+      "Execution risk in capturing market share and establishing brand presence."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Frova's technology is innovative with a strong technical foundation, but requires further validation and scaling.",
+    "technical_assessment": {
+      "core_technology": "FBA-5 XAI diagnostic engine and simulation framework.",
+      "defensibility": "Proprietary technology offers a competitive moat, but needs continuous innovation.",
+      "intellectual_property": "No patents mentioned, but proprietary algorithms are a key asset.",
+      "scalability": "Scalability is feasible with the right engineering team and infrastructure."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary FBA-5 XAI diagnostic engine.",
+      "data_advantages": "Potential for data-driven insights and personalization.",
+      "technical_barriers": "High technical expertise required to replicate Frova's solution."
+    },
+    "red_flags": [
+      "Dependence on a solo founder for technical development and potential IP risks."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Currently at prototype stage with no revenue or customer validation, but foundational technology is promising.",
+    "growth_metrics": {
+      "revenue_growth": "Pre-revenue, focusing on technology development.",
+      "customer_metrics": "No customers yet, focus on building initial user base post-funding.",
+      "retention_analysis": "Retention strategies not yet tested.",
+      "unit_economics": "Not applicable at this stage."
+    },
+    "market_validation": {
+      "customer_feedback": "Initial feedback led to pivot towards measurable behavioral change.",
+      "product_market_fit": "Potential PMF with unique EaaS offering, but unproven.",
+      "notable_customers": "None yet, focus on securing design partners.",
+      "partnerships": "No partnerships, but strategic alliances are planned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Development of core technology and pivot to EaaS model."
+      ],
+      "areas_of_investigation": [
+        "Market validation and customer acquisition strategies."
+      ]
+    },
+    "red_flags": [
+      "Lack of market traction and customer validation."
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market is ripe for innovation in soft skills training, but competitive response and market education are challenges.",
+    "market_timing": {
+      "market_readiness": "Growing demand for effective soft skills training solutions.",
+      "catalysts": "Increased focus on employee development and leadership skills.",
+      "tailwinds": "Advancements in AI and gamification technologies.",
+      "headwinds": "Potential resistance to new training methodologies."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage in defining EaaS category.",
+      "competitive_response": "Competitors may quickly adapt or replicate features.",
+      "market_education": "Significant effort required to educate market on new category."
+    },
+    "red_flags": [
+      "Need for rapid market education and potential competitive pressures."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Pre-seed round with no prior funding, terms need to align with early-stage risk and potential.",
+    "investment_details": {
+      "round_stage": "Pre-seed",
+      "raise_amount": "Not specified, but aimed at building engineering team and scaling development.",
+      "pre_money_valuation": "Not specified, requires alignment with market potential and risk.",
+      "post_money_valuation": "Dependent on raise amount and investor interest."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative tech and L&D solutions.",
+      "ownership_potential": "Opportunity for significant ownership given early stage.",
+      "liquidation_preferences": "Standard pre-seed terms expected.",
+      "valuation_justification": "Valuation should reflect early-stage risk and market potential."
+    },
+    "red_flags": [
+      "Lack of clarity on raise amount and valuation expectations."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Frova presents a compelling vision and innovative technology, but requires further validation and team development before advancing.",
+    "key_factors": [
+      "Innovative EaaS platform",
+      "Strong technical foundation",
+      "Lack of market traction",
+      "Solo founder risk"
+    ],
+    "next_steps": [
+      "Encourage team expansion",
+      "Seek initial customer validation",
+      "Clarify funding requirements and valuation expectations"
+    ]
+  }
+}

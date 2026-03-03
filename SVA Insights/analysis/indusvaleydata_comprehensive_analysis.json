@@ -1,0 +1,179 @@
+{
+  "company_name": "Indus Valey Data",
+  "token": "g23j6ofod4cryqaw4mfm0g23j6ofrgz0",
+  "submitted_at": "11/26/2025 14:33:03",
+  "website": "https://www.indusvalleydata.com/",
+  "year_founded": "2025",
+  "description": "Indus Valley Data supplies frontier labs and developers with the real-world, non-internet data and domain experts for evals and training.",
+  "problem_statement": "As internet data saturates, the bottleneck for AGI becomes accessing rare, human-sourced data for model alignment and safety. Data is the main bottleneck for achieving AGI",
+  "pitch_deck_link": "https://drive.google.com/file/d/1RNjDxOLeqVgjjI9dgEsLAn1yC2Papaxd/view?usp=sharing",
+  "demo_link": "https://drive.google.com/file/d/1RNjDxOLeqVgjjI9dgEsLAn1yC2Papaxd/view?usp=sharing",
+  "team": {
+    "score": 2,
+    "justification": "The founding team is small, consisting of only two members, which raises concerns about their ability to execute and scale. While they have a clear vision and some domain expertise, the lack of a broader team with diverse skills is a significant risk.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on subscriptions and custom datasets, which can be scalable. However, the lack of current revenue and customers is a concern.",
+      "market_positioning": "The company positions itself as a provider of rare, human-sourced data, which is a unique value proposition. However, the market positioning is not yet validated by customer traction.",
+      "execution_capability": "The team has not demonstrated significant execution capability yet, as they are pre-revenue and have no customers.",
+      "strategic_vision": "The strategic vision is aligned with the growing need for non-internet data in AI development, but execution remains unproven."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Fuad Ali Khan",
+        "role": "CEO",
+        "linkedin": "www.linkedin.com/in/ali-khan-531128381",
+        "background": "Fuad has a background in data science and AI, with experience in developing data-driven solutions.",
+        "domain_expertise": "Strong expertise in AI and data science, particularly in sourcing and utilizing non-internet data.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements or awards mentioned.",
+        "leadership_signals": "Limited evidence of leadership capability due to small team size.",
+        "track_record": []
+      },
+      {
+        "name": "Muhammad Abdullah",
+        "role": "CFO",
+        "linkedin": "https://www.linkedin.com/in/muhammad-abdullah-919995192/",
+        "background": "Muhammad has a financial background, likely with experience in managing startup finances.",
+        "domain_expertise": "Financial expertise with a focus on startup financial management.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements or awards mentioned.",
+        "leadership_signals": "Limited evidence of leadership capability due to small team size.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes companies like Mercor and Surge AI, which focus on data labeling.",
+      "competitor_comparison": "Competitors focus on labeling, capturing only 20% of the data value chain. Indus Valley Data aims to capture 100% by owning data as IP.",
+      "positioning_assessment": "The company differentiates by owning the data as IP, but this strategy is unproven without customer traction."
+    },
+    "red_flags": [
+      "Small team size",
+      "Lack of customer traction",
+      "No prior entrepreneurial experience"
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market is substantial at $30 billion, but the company's ability to capture a significant portion is unproven.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $30 billion, driven by the need for non-internet data in AI development.",
+      "serviceable_addressable_market": "The SAM is not clearly defined, but the company aims to capture a significant portion by owning the data value chain.",
+      "serviceable_obtainable_market": "SOM projections are unclear due to the lack of a defined go-to-market strategy.",
+      "market_growth_rate": "The market is expected to grow as AI development increasingly requires non-internet data.",
+      "market_dynamics": "Key trends include the saturation of internet data and the need for human-sourced data for AI alignment."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are AI labs and developers, with decision-makers being Heads of Data and Procurement.",
+      "willingness_to_pay": "Some interest in datasets has been noted, but no evidence of willingness to pay.",
+      "customer_acquisition_cost": "CAC is not defined due to the lack of customers.",
+      "lifetime_value": "LTV is not calculable without customer data."
+    },
+    "red_flags": [
+      "Unproven market capture ability",
+      "Lack of defined go-to-market strategy"
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is promising with a focus on proprietary data, but the lack of technical team members and IP protection is a concern.",
+    "technical_assessment": {
+      "core_technology": "The core technology involves proprietary data aggregation and delivery via API.",
+      "defensibility": "Owning data as IP provides some defensibility, but this is unproven without legal protections.",
+      "intellectual_property": "No patents or trade secrets mentioned, raising concerns about IP strategy.",
+      "scalability": "The technology is scalable, with pipelines to increase data supply significantly."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No unique algorithms mentioned.",
+      "data_advantages": "The main advantage is the ownership of proprietary data.",
+      "technical_barriers": "Barriers include the difficulty of replicating proprietary data pipelines."
+    },
+    "red_flags": [
+      "Lack of IP protection",
+      "Small technical team"
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "The company is pre-revenue with no customers, indicating a lack of traction.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue growth as the company is pre-revenue.",
+      "customer_metrics": "Zero customers, indicating no acquisition or growth trends.",
+      "retention_analysis": "No retention data available.",
+      "unit_economics": "Unit economics are not calculable without revenue or customer data."
+    },
+    "market_validation": {
+      "customer_feedback": "No customer feedback available.",
+      "product_market_fit": "No evidence of product-market fit.",
+      "notable_customers": "No notable customers.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Aggregated over $1M in proprietary data"
+      ],
+      "areas_of_investigation": [
+        "Customer acquisition strategy",
+        "Revenue generation plan"
+      ]
+    },
+    "red_flags": [
+      "No customers",
+      "Pre-revenue status",
+      "Lack of market validation"
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The timing is favorable due to the saturation of internet data, but the company's readiness to capitalize on this is uncertain.",
+    "market_timing": {
+      "market_readiness": "The market is ready for non-internet data solutions as AI development requires new data sources.",
+      "catalysts": "Catalysts include the exhaustion of internet data and the need for AI model alignment.",
+      "tailwinds": "Favorable trends include the growing demand for human-sourced data.",
+      "headwinds": "Challenges include the need for market education and customer acquisition."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in owning the data value chain.",
+      "competitive_response": "Competitors may respond by expanding their data offerings.",
+      "market_education": "Significant market education may be required to demonstrate the value of proprietary data."
+    },
+    "red_flags": [
+      "Unproven market readiness",
+      "Need for market education"
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "The company is in early-stage fundraising with a short runway, which may lead to unfavorable terms.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, likely in a seed or pre-seed stage.",
+      "raise_amount": "Amount being raised is not specified.",
+      "pre_money_valuation": "Valuation is not specified, raising concerns about potential overvaluation.",
+      "post_money_valuation": "Not specified, leading to uncertainty about ownership implications."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on innovative data solutions, but lack of traction is a concern.",
+      "ownership_potential": "Potential for significant ownership due to early-stage investment.",
+      "liquidation_preferences": "Not specified, raising concerns about investor protections.",
+      "valuation_justification": "Valuation is not justified due to lack of revenue and customers."
+    },
+    "red_flags": [
+      "Short runway",
+      "Unspecified valuation",
+      "Potential for unfavorable terms"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company has a promising concept with a large market opportunity, but the lack of traction, small team, and short runway are significant concerns. Further validation and customer acquisition are needed before advancing.",
+    "key_factors": [
+      "Large market opportunity",
+      "Unique value proposition",
+      "Lack of traction"
+    ],
+    "next_steps": [
+      "Develop a detailed customer acquisition strategy",
+      "Secure initial customers",
+      "Clarify fundraising terms and valuation"
+    ]
+  }
+}

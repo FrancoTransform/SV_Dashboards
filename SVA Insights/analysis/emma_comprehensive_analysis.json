@@ -1,0 +1,176 @@
+{
+  "company_name": "Emma",
+  "token": "ww6txpwajs3vcouonww6txpillhtnevv",
+  "submitted_at": "8/20/2025 13:40:57",
+  "website": "https://myemmaai.com",
+  "year_founded": "2024",
+  "description": "Emma is an AI powered, talent optimization platform that builds better managers and teams. We do this by quantifying soft skills like EQ and communication and correlating them with productivity metrics so that company leadership knows which teams excel, which struggle, why, and most importantly how to fix it.",
+  "problem_statement": "Over 50% of first time managers fail in their first leadership role. First time managers, especially on remote teams, are promoted because of technical skills but, as managers, need a radically different skillset. Currently there is no actionable playbook for a first-time manager to manage their specific, unique team. That failure to adequately support first time managers creates team dysfunction, costing even small teams hundreds of thousands of dollars per year in lost productivity.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1ltYVkw3MtcQXyEGqSYFgfCL0G4QI6Qa1/view?usp=sharing",
+  "demo_link": "https://engage.myemmaai.com/onboarding",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and complementary skills. Shelley Prevost brings executive coaching experience, while Andrew Scales provides technical development skills. Their previous collaboration and shared mission enhance their execution capability.",
+    "company_assessment": {
+      "business_model_strength": "Emma's subscription-based model with potential for additional revenue streams through AI coaching and marketplace services is promising. The model is scalable and aligns with industry trends.",
+      "market_positioning": "Emma positions itself uniquely at the intersection of HR Tech, talent optimization, and leadership coaching, offering a differentiated value proposition by focusing on first-time managers.",
+      "execution_capability": "The team has demonstrated the ability to pivot effectively based on market feedback, indicating strong execution capability.",
+      "strategic_vision": "The leadership has a clear vision to scale personalized leadership development through technology, addressing a significant market gap."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Shelley Prevost",
+        "role": "Co-Founder, Sales & Subject Matter Expert",
+        "linkedin": "https://www.linkedin.com/in/shelleybprevost/",
+        "background": "Shelley has a background in executive coaching and training, with experience running her own business and working inside a VC firm.",
+        "domain_expertise": "Expert in leadership development and coaching.",
+        "previous_startups": "Involved in previous startups with a focus on leadership and coaching.",
+        "notable_achievements": "Founded Big Self School, a coaching business.",
+        "leadership_signals": "Strong leadership skills demonstrated through successful coaching and business management.",
+        "track_record": [
+          {
+            "company": "Big Self School",
+            "role": "Founder",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into leadership challenges and market needs."
+          }
+        ]
+      },
+      {
+        "name": "Andrew Scales",
+        "role": "Co-Founder, Developer",
+        "linkedin": "https://www.linkedin.com/in/andrew-scales/",
+        "background": "Andrew is a talented developer with a passion for building technology solutions.",
+        "domain_expertise": "Technical development and AI integration.",
+        "previous_startups": "Worked on technology projects with a focus on AI.",
+        "notable_achievements": "Contributed to the development of Emma's AI platform.",
+        "leadership_signals": "Demonstrated technical leadership and innovation.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The HR Tech and leadership development markets are competitive, with players like Lattice, 15Five, Wonderlic, and Predictive Index.",
+      "competitor_comparison": "Competitors focus on measurement or hiring, while Emma targets leadership development for first-time managers.",
+      "positioning_assessment": "Emma differentiates by providing actionable insights and personalized coaching for first-time managers, addressing a critical gap."
+    },
+    "red_flags": [
+      "Limited team size may impact scalability and speed of execution."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a TAM of $10 billion at the intersection of HR Tech and leadership development. The market is growing, driven by the increasing need for remote team management solutions.",
+    "market_analysis": {
+      "total_addressable_market": "Estimated at $10 billion, combining HR Tech and leadership development sectors.",
+      "serviceable_addressable_market": "Focused on first-time managers in remote teams, a significant subset of the TAM.",
+      "serviceable_obtainable_market": "Realistic capture of market share through targeted go-to-market strategies.",
+      "market_growth_rate": "Projected CAGR is strong, supported by trends in remote work and leadership development.",
+      "market_dynamics": "Key drivers include the rise of remote work, demand for leadership skills, and AI integration in HR solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "First-time engineering managers on remote teams, decision-makers include HR leaders and C-suite executives.",
+      "willingness_to_pay": "Positive feedback on pricing, with potential for higher price points reflecting value.",
+      "customer_acquisition_cost": "Initial CAC is low due to partnerships and referrals.",
+      "lifetime_value": "LTV is promising with subscription model and potential upsells."
+    },
+    "red_flags": [
+      "Market entry barriers due to established competitors."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "Emma's technology leverages AI to quantify soft skills, offering a unique approach. However, the lack of an AI expert on the team may limit technical defensibility.",
+    "technical_assessment": {
+      "core_technology": "AI-powered platform quantifying soft skills and correlating them with productivity metrics.",
+      "defensibility": "Moderate defensibility due to lack of proprietary technology or patents.",
+      "intellectual_property": "No patents or trade secrets mentioned.",
+      "scalability": "Platform is scalable, but technical infrastructure needs further development."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for soft skills quantification.",
+      "data_advantages": "Potential data moat from unique insights into team dynamics.",
+      "technical_barriers": "Limited barriers without proprietary technology."
+    },
+    "red_flags": [
+      "Lack of AI expertise and potential technical scalability challenges."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Early traction with 6 paying clients and a growing sales pipeline. However, the company is in the early stages of market validation.",
+    "growth_metrics": {
+      "revenue_growth": "Initial revenue from 6 clients, with plans to increase pricing.",
+      "customer_metrics": "6 paying clients, 10 teams in early-stage conversations.",
+      "retention_analysis": "Retention data not yet available due to early stage.",
+      "unit_economics": "Introductory pricing suggests positive unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from beta testers and early clients.",
+      "product_market_fit": "Early signs of PMF with interest from multiple teams.",
+      "notable_customers": "Partnership with Big Self School provides credibility.",
+      "partnerships": "Strategic partnership with Big Self School for initial clients."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful pivot to B2B model with initial client traction."
+      ],
+      "areas_of_investigation": [
+        "Need to validate pricing strategy and long-term retention."
+      ]
+    },
+    "red_flags": [
+      "Limited customer base and early-stage market validation."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with the rise of remote work and increased focus on leadership development. However, competitive response and market education are potential challenges.",
+    "market_timing": {
+      "market_readiness": "Market is ready for solutions addressing remote team management challenges.",
+      "catalysts": "Remote work trends and leadership skill gaps are driving demand.",
+      "tailwinds": "Favorable trends in AI adoption and leadership development.",
+      "headwinds": "Potential challenges in educating the market and differentiating from competitors."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a strong position in a niche market.",
+      "competitive_response": "Competitors may respond with similar offerings.",
+      "market_education": "Requires educating the market on the value of soft skills quantification."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is in the early stages of fundraising with a reasonable runway. However, valuation and terms need further clarification.",
+    "investment_details": {
+      "round_stage": "Early-stage fundraising.",
+      "raise_amount": "Specific amount not disclosed.",
+      "pre_money_valuation": "Valuation details not provided.",
+      "post_money_valuation": "Valuation implications need clarification."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Aligns with SV's focus on HR Tech and leadership development.",
+      "ownership_potential": "Potential for meaningful ownership with early investment.",
+      "liquidation_preferences": "Details not provided.",
+      "valuation_justification": "Valuation needs to be justified with comparables and metrics."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Emma presents a compelling opportunity in a growing market with a strong founding team and early traction. The focus on first-time managers and remote teams aligns with current market trends. However, further investigation into technology scalability and detailed investment terms is needed.",
+    "key_factors": [
+      "Strong team with domain expertise",
+      "Favorable market timing",
+      "Early traction and customer interest"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on technology and scalability",
+      "Clarify investment terms and valuation",
+      "Explore potential partnerships and customer acquisition strategies"
+    ]
+  }
+}

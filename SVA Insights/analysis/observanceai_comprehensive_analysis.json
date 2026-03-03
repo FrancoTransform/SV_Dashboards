@@ -1,0 +1,158 @@
+{
+  "company_name": "Observance AI",
+  "token": "as9pygeglvfz11got3qas9ptibw2j843",
+  "submitted_at": "11/26/2025 4:14:05",
+  "website": "https://observanceai.com",
+  "year_founded": "2025",
+  "description": "Observance AI is building a regulatory intelligence and change management platform for private funds (Private Equity, Hedge funds)",
+  "problem_statement": "We are helping regulatory compliance analysts to detect changes to regulations, identify its impact, and update policies & controls to accommodate these changes.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1cBP5ohnXPXXhK3rmcxc3i8cPyRp19aFP1_K-AeY3BXE/edit?usp=drivesdk",
+  "demo_link": "https://youtu.be/PIJRpNzRZ14?si=qMgfpoDa-Ob8fU_n",
+  "team": {
+    "score": 2,
+    "justification": "The team consists of a solo founder, which presents execution risks due to lack of complementary skills and scaling experience. The founder is building the tech and product alone, indicating potential capacity constraints.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on a subscription fee of $129 per user/month, targeting fund administrators. While the model is straightforward, scalability and competitive positioning need further validation.",
+      "market_positioning": "Observance AI aims to differentiate by focusing on post-regulatory change processes, but lacks a clear unique value proposition against established competitors.",
+      "execution_capability": "Limited evidence of execution capability due to the early stage and lack of a co-founding team.",
+      "strategic_vision": "The strategic vision is to address inefficiencies in regulatory change management, but the lack of a team and market traction raises concerns about execution."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Vikas",
+        "role": "Founder",
+        "linkedin": "Not provided",
+        "background": "No detailed educational or professional background provided.",
+        "domain_expertise": "Limited information on industry expertise; however, the focus on regulatory intelligence suggests some domain knowledge.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No awards or significant milestones noted.",
+        "leadership_signals": "Limited evidence of leadership capability due to solo operation.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes Cardamon, Cube, Ascent, and Wolters Kluwer, which focus on multiple verticals.",
+      "competitor_comparison": "Competitors focus on regulatory intelligence but lack depth in post-change processes, which Observance AI aims to address.",
+      "positioning_assessment": "Observance AI's differentiation is in addressing post-regulatory change inefficiencies, but execution capability is a concern."
+    },
+    "red_flags": [
+      "Solo founder with no team, limited execution capability, lack of domain expertise"
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market is estimated at $300-$400 million, with a focus on private funds in the US. The market size is moderate, but the niche focus could limit scalability.",
+    "market_analysis": {
+      "total_addressable_market": "Estimated at $300-$400 million, based on 50k private funds in the US.",
+      "serviceable_addressable_market": "SAM is not explicitly defined, but the focus on fund administrators suggests a narrower market.",
+      "serviceable_obtainable_market": "SOM projections are unclear, but capturing a major fund administrator could lead to significant user adoption.",
+      "market_growth_rate": "No specific CAGR provided, but regulatory changes and compliance needs suggest steady growth.",
+      "market_dynamics": "Key trends include increasing regulatory complexity and the need for efficient compliance management."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are compliance analysts at fund administration companies.",
+      "willingness_to_pay": "The proposed pricing of $129 per user/month indicates some willingness to pay, but further validation is needed.",
+      "customer_acquisition_cost": "CAC is not provided, and acquisition strategies are not detailed.",
+      "lifetime_value": "LTV calculations are not provided, and customer retention strategies are unclear."
+    },
+    "red_flags": [
+      "Limited market validation, unclear CAC and LTV, niche market focus"
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology leverages LLMs for regulatory intelligence, but defensibility and scalability are concerns due to the early stage and lack of technical team.",
+    "technical_assessment": {
+      "core_technology": "Utilizes LLMs to identify regulatory gaps and generate controls.",
+      "defensibility": "Defensibility is limited by the lack of proprietary technology and potential replication by competitors.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "Scalability is uncertain due to the solo founder's capacity constraints."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "Potential data advantages from regulatory context integration, but not fully realized.",
+      "technical_barriers": "Limited barriers to entry due to lack of proprietary technology."
+    },
+    "red_flags": [
+      "Lack of technical team, limited defensibility, no IP strategy"
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company is in the demo stage with no paying customers, indicating limited traction and product-market fit validation.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue or growth metrics available.",
+      "customer_metrics": "No customers acquired yet.",
+      "retention_analysis": "Retention and churn rates are not applicable at this stage.",
+      "unit_economics": "Unit economics are not provided."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from 6 potential customers, but no conversions.",
+      "product_market_fit": "PMF is not validated due to lack of paying customers.",
+      "notable_customers": "No notable customers or logos.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Positive initial feedback from potential customers"
+      ],
+      "areas_of_investigation": [
+        "Need to validate PMF and acquire design partners or paying customers"
+      ]
+    },
+    "red_flags": [
+      "No paying customers, limited market validation, early-stage traction"
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The timing is favorable due to increasing regulatory complexity, but competitive response and market education are challenges.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready for regulatory intelligence solutions.",
+      "catalysts": "Regulatory changes and compliance demands are key catalysts.",
+      "tailwinds": "Favorable trends include growing regulatory scrutiny and compliance needs.",
+      "headwinds": "Challenges include market education and competitive response."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Limited first-mover advantage due to existing competitors.",
+      "competitive_response": "High likelihood of competitive response from established players.",
+      "market_education": "Significant market education required to differentiate from existing solutions."
+    },
+    "red_flags": [
+      "Competitive response, market education challenges"
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "The company is self-funded with a short runway, and terms are not clearly defined, posing risks for investors.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, but round stage is not specified.",
+      "raise_amount": "Amount being raised is not specified.",
+      "pre_money_valuation": "Valuation details are not provided.",
+      "post_money_valuation": "Valuation implications are unclear."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Limited alignment with SV's criteria due to early stage and lack of traction.",
+      "ownership_potential": "Ownership potential is unclear due to lack of valuation details.",
+      "liquidation_preferences": "Investor protections are not specified.",
+      "valuation_justification": "Valuation justification is not provided."
+    },
+    "red_flags": [
+      "Unclear terms, short runway, lack of valuation details"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Observance AI shows potential in addressing regulatory change management inefficiencies, but significant execution risks, lack of traction, and unclear terms warrant a cautious approach.",
+    "key_factors": [
+      "Solo founder risk",
+      "Lack of market traction",
+      "Unclear investment terms"
+    ],
+    "next_steps": [
+      "Encourage building a co-founding team",
+      "Validate product-market fit with design partners",
+      "Clarify fundraising terms and valuation"
+    ]
+  }
+}

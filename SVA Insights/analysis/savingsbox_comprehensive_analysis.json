@@ -1,0 +1,165 @@
+{
+  "company_name": "SAVINGSBOX",
+  "token": "8j2r1750nwbf64jj8j2r12ydvyatpq26",
+  "submitted_at": "11/26/2025 15:14:36",
+  "website": "https://www.savingsbox.ng/",
+  "year_founded": "2024",
+  "description": "SavingsBox provides a digital platform that automates savings, offers goal-based financial planning, and gives users access to secure, high-yield investment options, all in one easy-to-use app.",
+  "problem_statement": "SavingsBox is solving the problem of poor and inconsistent savings culture and limited access to funds for SMEs and MSMEs to grow and scale their product.",
+  "pitch_deck_link": "https://pitch.com/v/new-pitch-savingbox-sbsg6j",
+  "demo_link": "https://youtu.be/aqko8GX7c5o",
+  "team": {
+    "score": 3,
+    "justification": "The team is small but has a clear focus on engineering and product development. The founder has a technical background, but there is a lack of diversity in leadership roles and experience in scaling startups.",
+    "company_assessment": {
+      "business_model_strength": "The business model is diversified with multiple revenue streams, but lacks clarity on pricing structure and customer conversion to paying users.",
+      "market_positioning": "SavingsBox positions itself uniquely by integrating savings and credit scoring, but faces strong competition from established players.",
+      "execution_capability": "The team has developed a functional product and achieved some traction, but needs to demonstrate ability to scale operations and improve retention.",
+      "strategic_vision": "The strategic vision includes refining the product and scaling user acquisition, but lacks detailed execution plans."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Bayonle Omoyele",
+        "role": "Founder",
+        "linkedin": "linkedin.com/in/bayonleomoyele",
+        "background": "Technical background with experience in software development and product management.",
+        "domain_expertise": "Expertise in fintech and digital savings platforms.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Developed a functional fintech platform with 13,000 users.",
+        "leadership_signals": "Demonstrates technical leadership but needs to build a more diverse and experienced team.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The fintech space in Nigeria is competitive with players like PiggyVest, Cowrywise, and Kuda.",
+      "competitor_comparison": "Competitors offer either savings or credit, but not both in a unified ecosystem.",
+      "positioning_assessment": "SavingsBox differentiates by using savings behavior as a credit score, but needs to prove this model's effectiveness."
+    },
+    "red_flags": [
+      "Lack of experienced leadership in scaling startups",
+      "High competition from established players"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is large with over 40-50 million potential users, but the company needs to demonstrate effective market capture strategies.",
+    "market_analysis": {
+      "total_addressable_market": "Estimated at over 40-50 million low- to middle-income Nigerians.",
+      "serviceable_addressable_market": "Focus on users who save informally and need affordable credit.",
+      "serviceable_obtainable_market": "Dependent on effective go-to-market strategy and user acquisition.",
+      "market_growth_rate": "Fintech adoption in Nigeria is growing rapidly, driven by mobile penetration.",
+      "market_dynamics": "Key trends include digital transformation, financial inclusion, and mobile-first solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Low- to middle-income Nigerians seeking disciplined savings and credit access.",
+      "willingness_to_pay": "No paying customers yet, indicating potential price sensitivity.",
+      "customer_acquisition_cost": "No detailed CAC analysis provided.",
+      "lifetime_value": "LTV not calculated due to lack of paying customers."
+    },
+    "red_flags": [
+      "No evidence of customer willingness to pay",
+      "Lack of detailed CAC and LTV analysis"
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is developed in-house with a focus on security and control, but lacks evidence of technical defensibility and scalability.",
+    "technical_assessment": {
+      "core_technology": "Includes backend infrastructure, mobile app, and credit-scoring engine.",
+      "defensibility": "No patents or unique technical barriers mentioned.",
+      "intellectual_property": "Developed in-house, but no IP strategy detailed.",
+      "scalability": "Needs to demonstrate ability to handle high transaction volumes."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Credit-scoring engine based on savings behavior.",
+      "data_advantages": "Potential data moat from user savings behavior.",
+      "technical_barriers": "No significant barriers preventing replication by competitors."
+    },
+    "red_flags": [
+      "Lack of technical defensibility and IP strategy",
+      "Scalability concerns"
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company has 13,000 users but no paying customers, indicating a need for better conversion strategies.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue from paying customers.",
+      "customer_metrics": "13,000 users with a 35% retention rate.",
+      "retention_analysis": "Retention rate is moderate but needs improvement.",
+      "unit_economics": "No detailed unit economics provided."
+    },
+    "market_validation": {
+      "customer_feedback": "No customer testimonials or case studies provided.",
+      "product_market_fit": "Some evidence of PMF with user growth, but no paying customers.",
+      "notable_customers": "No notable customers mentioned.",
+      "partnerships": "No strategic partnerships detailed."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Achieved 13,000 users"
+      ],
+      "areas_of_investigation": [
+        "Conversion to paying customers",
+        "Improving retention"
+      ]
+    },
+    "red_flags": [
+      "No paying customers",
+      "Lack of strategic partnerships"
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ripe for digital savings solutions, but competitive timing and market education are challenges.",
+    "market_timing": {
+      "market_readiness": "High readiness due to mobile penetration and fintech adoption.",
+      "catalysts": "Increased demand for financial inclusion and digital solutions.",
+      "tailwinds": "Favorable regulatory environment for fintech.",
+      "headwinds": "Competition and user trust in digital platforms."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential advantage in integrating savings and credit scoring.",
+      "competitive_response": "High likelihood of competitive response from established players.",
+      "market_education": "Requires significant effort to educate users on digital savings."
+    },
+    "red_flags": [
+      "High competition",
+      "Need for market education"
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is seeking $300k but lacks clarity on valuation and detailed use of funds.",
+    "investment_details": {
+      "round_stage": "Early-stage fundraising",
+      "raise_amount": "$300k",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Aligned with SV's focus on fintech and financial inclusion.",
+      "ownership_potential": "Potential for significant ownership due to early-stage investment.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Lacks detailed valuation methodology."
+    },
+    "red_flags": [
+      "Lack of valuation details",
+      "Unclear use of funds"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "SavingsBox shows potential in a large and growing market but needs to address key concerns around customer conversion, scalability, and competitive differentiation.",
+    "key_factors": [
+      "Large target market",
+      "Unique integration of savings and credit scoring",
+      "High competition"
+    ],
+    "next_steps": [
+      "Develop a detailed go-to-market strategy",
+      "Improve customer conversion and retention",
+      "Clarify valuation and use of funds"
+    ]
+  }
+}

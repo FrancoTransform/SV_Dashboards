@@ -1,0 +1,169 @@
+{
+  "company_name": "Flint",
+  "token": "0w4j01lbeqkdrg8036om40w4j01s96xy",
+  "submitted_at": "11/29/2025 21:35:44",
+  "website": "https://www.flint-investing.com/",
+  "year_founded": "2025",
+  "description": "Flint puts all your financial apps in one place and lets you manage money and place trade requests through connected brokerages. Banks, cards, crypto, and investments unified in one clean app to help people stay organized and take action fast.",
+  "problem_statement": "People manage money across too many apps. Banks, credit cards, investments, crypto, and budgets are scattered, so no one actually knows where they stand. Flint fixes this by putting everything in one place and letting people take action, not just watch. Better decisions, less stress, real control.",
+  "pitch_deck_link": "https://www.canva.com/design/DAG2ilY-mJI/CJckjAlvXY6wao6yvkKGGg/view?utm_content=DAG2ilY-mJI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hce4c87bbac",
+  "demo_link": "https://www.canva.com/design/DAG2ilY-mJI/CJckjAlvXY6wao6yvkKGGg/view?utm_content=DAG2ilY-mJI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hce4c87bbac",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has relevant domain expertise and a clear understanding of the problem space. However, the team size is small, which may limit execution capacity.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on a subscription service, which is scalable but currently untested with paying customers.",
+      "market_positioning": "Flint positions itself as a unified financial management platform, differentiating by enabling actions rather than just visibility.",
+      "execution_capability": "The team has demonstrated initial execution capability by launching the MVP and acquiring early users.",
+      "strategic_vision": "The founders have a clear vision to create a comprehensive financial management tool, but strategic partnerships and scaling plans need further development."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Sebastian Capota",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/sebastian-capota/",
+        "background": "Sebastian has a background in technology and finance, having worked in corporate roles prior to founding Flint.",
+        "domain_expertise": "Strong understanding of fintech and user needs in financial management.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Successfully launched Flint's MVP and onboarded initial users.",
+        "leadership_signals": "Demonstrates leadership through product development and initial market entry.",
+        "track_record": []
+      },
+      {
+        "name": "Sebastian Rodriguez",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/sebastian-rodriguez316/",
+        "background": "Sebastian has experience in go-to-market strategies and customer acquisition.",
+        "domain_expertise": "Expertise in market strategies and customer engagement.",
+        "previous_startups": "No prior entrepreneurial experience noted.",
+        "notable_achievements": "Instrumental in developing Flint's go-to-market strategy.",
+        "leadership_signals": "Strong GTM skills and insight into the target customer profile.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The personal finance app market is competitive with established players like Monarch and Copilot.",
+      "competitor_comparison": "Competitors focus on data visibility, while Flint emphasizes actionable insights and unified management.",
+      "positioning_assessment": "Flint's differentiation lies in its ability to allow users to take financial actions directly within the app."
+    },
+    "red_flags": [
+      "Small team size may limit scalability and execution speed."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market for personal finance apps is large and growing rapidly, with significant potential for Flint to capture market share.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $150 billion, supported by industry reports forecasting significant growth.",
+      "serviceable_addressable_market": "Flint targets a broad demographic of 18-40 year olds, which is a substantial portion of the TAM.",
+      "serviceable_obtainable_market": "Initial focus on tech-savvy users and students, with plans to expand as the product matures.",
+      "market_growth_rate": "The market is projected to grow at a 23.4% CAGR, indicating strong demand for financial management solutions.",
+      "market_dynamics": "Key trends include the increasing complexity of personal finances and the demand for integrated financial solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are young adults managing multiple financial accounts, seeking simplicity and control.",
+      "willingness_to_pay": "Initial feedback suggests willingness to pay for a comprehensive solution, but this needs further validation.",
+      "customer_acquisition_cost": "Current CAC is low due to organic growth strategies, but scalability of these methods is uncertain.",
+      "lifetime_value": "LTV is not yet established due to the lack of paying customers, but potential is high with subscription model."
+    },
+    "red_flags": [
+      "Need to validate willingness to pay and refine customer acquisition strategies."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "Flint's technology offers a unique integration of financial services, but lacks defensibility and scalability details.",
+    "technical_assessment": {
+      "core_technology": "The platform integrates various financial services into a single app, allowing for unified management.",
+      "defensibility": "Currently, there are no significant technical barriers to entry or competitive moats.",
+      "intellectual_property": "No patents or IP strategy mentioned, which could be a concern for long-term defensibility.",
+      "scalability": "Scalability is not fully addressed, particularly in terms of handling large user volumes and data security."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "Potential for data-driven insights as user base grows.",
+      "technical_barriers": "Lack of significant technical barriers to prevent replication by competitors."
+    },
+    "red_flags": [
+      "Lack of IP strategy and scalability details."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Early traction is limited with only 20 users and no paying customers, but there is potential for growth.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue growth as the product is currently free.",
+      "customer_metrics": "20 active users with a waitlist, indicating initial interest.",
+      "retention_analysis": "Retention data is not available due to the early stage of the product.",
+      "unit_economics": "Unit economics are not established due to the lack of paying customers."
+    },
+    "market_validation": {
+      "customer_feedback": "Feedback indicates a desire for actionable financial management, which Flint addresses.",
+      "product_market_fit": "Early signs of PMF with user interest, but needs further validation with paying customers.",
+      "notable_customers": "No notable customers yet.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful MVP launch and initial user acquisition."
+      ],
+      "areas_of_investigation": [
+        "Need to convert free users to paying customers and establish revenue streams."
+      ]
+    },
+    "red_flags": [
+      "Lack of paying customers and established revenue model."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with strong market growth and increasing demand for integrated financial solutions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that simplify financial management.",
+      "catalysts": "Growing complexity of personal finances and digital adoption are key catalysts.",
+      "tailwinds": "Favorable trends include the rise of fintech and digital banking.",
+      "headwinds": "Potential regulatory challenges and competition from established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish a foothold in a growing market with a unique value proposition.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but Flint's action-oriented approach is a differentiator.",
+      "market_education": "Some market education may be required to shift users from passive tracking to active management."
+    },
+    "red_flags": [
+      "Regulatory challenges and competitive pressures."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is bootstrapped and currently fundraising, but specific terms and valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Currently in a fundraising stage, seeking seed investment.",
+      "raise_amount": "Amount being raised is not specified.",
+      "pre_money_valuation": "Pre-money valuation is not provided.",
+      "post_money_valuation": "Post-money valuation and ownership implications are not detailed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on fintech and scalable solutions.",
+      "ownership_potential": "Ownership potential is unclear without specific valuation details.",
+      "liquidation_preferences": "No information on liquidation preferences or investor protections.",
+      "valuation_justification": "Valuation justification is not possible without specific data."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Flint shows potential in a growing market with a unique value proposition, but requires further validation of its business model and traction with paying customers.",
+    "key_factors": [
+      "Early stage with limited traction",
+      "Strong market potential",
+      "Need for validation of revenue model"
+    ],
+    "next_steps": [
+      "Monitor user conversion to paid plans",
+      "Develop strategic partnerships",
+      "Refine go-to-market strategy"
+    ]
+  }
+}

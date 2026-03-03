@@ -1,0 +1,182 @@
+{
+  "company_name": "Olli",
+  "token": "4krj5pxwkncpdoia94krj51y9uey5tqj",
+  "submitted_at": "10/14/2025 15:35:46",
+  "website": "https://www.olli.insure",
+  "year_founded": "2025",
+  "description": "Olli, Inc. is an AI-powered insurance platform for solopreneurs, offering curated, transparent coverage in 90 seconds via an API-first design. Targeting 70.4M underinsured gig workers, we aim for 5,000 customers and $10M in premiums in Year 1.",
+  "problem_statement": "Olli addresses the overwhelming, opaque insurance buying experience for 70.4 million underinsured solopreneurs and gig workers, 75% of whom lack adequate coverage. This matters because it leaves America\u2019s fastest-growing workforce vulnerable, impacting economic stability and growth, especially as traditional systems fail to serve this $106B market.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1vEocn5he-bfT1KxNjbMg-alaVnePvq01/edit?usp=sharing&ouid=109898056963868390366&rtpof=true&sd=true",
+  "demo_link": "https://olli-feedback-form.replit.app/",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in insurance and technology, with prior experience working together. The team is small but focused, with a clear vision for addressing a significant market need.",
+    "company_assessment": {
+      "business_model_strength": "Olli's revenue model is based on commissions from carrier premiums, which is scalable and aligns with industry standards. The plan to add subscription fees and service revenue could enhance revenue streams.",
+      "market_positioning": "Olli positions itself uniquely by targeting solopreneurs and gig workers with an API-first approach, differentiating from competitors through ease of use and transparency.",
+      "execution_capability": "The team has demonstrated execution capability by developing a product and securing partnerships within a year of founding.",
+      "strategic_vision": "Olli's strategic vision is clear, focusing on partnerships and leveraging technology to capture a significant share of the underinsured gig worker market."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Carrie Hartman",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/carriehartman1/",
+        "background": "Carrie has a strong background in insurance and technology, with experience in leadership roles.",
+        "domain_expertise": "Extensive experience in the insurance industry, particularly in digital transformation.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Successfully led teams in previous roles, contributing to significant business growth.",
+        "leadership_signals": "Demonstrated leadership in forming a cohesive team and driving the company's vision.",
+        "track_record": []
+      },
+      {
+        "name": "Sean Miller",
+        "role": "COO",
+        "linkedin": "https://www.linkedin.com/in/seancorymiller/",
+        "background": "Sean has a background in operations and technology, with a focus on product development.",
+        "domain_expertise": "Expertise in building technology solutions for the insurance sector.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Key role in developing Olli's technology platform.",
+        "leadership_signals": "Strong operational leadership and technical skills.",
+        "track_record": []
+      },
+      {
+        "name": "Christian Goy",
+        "role": "CMO",
+        "linkedin": "https://www.linkedin.com/in/goy909/",
+        "background": "Christian has a marketing background with experience in brand strategy and customer engagement.",
+        "domain_expertise": "Expertise in marketing and customer acquisition strategies.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Developed successful marketing campaigns in previous roles.",
+        "leadership_signals": "Effective in building brand awareness and customer engagement.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The insurtech market is competitive with established players like Next Insurance, Hiscox, Thimble, and Lemonade.",
+      "competitor_comparison": "Competitors often lack solopreneur-specific solutions and seamless API integration, which Olli addresses.",
+      "positioning_assessment": "Olli differentiates by focusing on ease of use, transparency, and targeting a niche market of solopreneurs and gig workers."
+    },
+    "red_flags": [
+      "Small team size may limit scalability without additional resources."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The target market is large and growing, with a clear need for better insurance solutions for solopreneurs and gig workers.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is $106 billion, based on 70.4 million solopreneurs and gig workers.",
+      "serviceable_addressable_market": "The SAM is $46 billion, considering the average annual premium of $1,500.",
+      "serviceable_obtainable_market": "Olli aims to capture a significant portion of the SAM by leveraging partnerships and technology.",
+      "market_growth_rate": "The embedded insurance sector is projected to grow at a 27.8% CAGR to $802B by 2032.",
+      "market_dynamics": "Key trends include the rise of gig work, demand for transparent insurance solutions, and technological advancements in insurtech."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are solopreneurs and gig workers who need simple, transparent insurance solutions.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for better customer experience and transparency.",
+      "customer_acquisition_cost": "CAC is expected to be low due to the API-first approach and partnerships.",
+      "lifetime_value": "LTV is projected to be high due to recurring commissions and potential subscription fees."
+    },
+    "red_flags": [
+      "Potential regulatory challenges in the insurance industry."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Olli's technology is innovative, with an API-first design that simplifies the insurance buying process.",
+    "technical_assessment": {
+      "core_technology": "The platform is built on an API-first architecture, enabling quick and easy integration with gig platforms.",
+      "defensibility": "The technology is defensible through its unique approach and focus on a niche market.",
+      "intellectual_property": "No specific IP strategy mentioned, but the technology itself offers a competitive advantage.",
+      "scalability": "The platform is designed to scale with the growing demand for embedded insurance solutions."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The use of AI to streamline the insurance process is a key differentiator.",
+      "data_advantages": "Potential for data-driven insights and personalized insurance offerings.",
+      "technical_barriers": "The API-first approach creates barriers for competitors to replicate the seamless integration."
+    },
+    "red_flags": [
+      "Dependence on third-party platforms for API integration."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Olli has shown initial traction through partnerships, but direct customer acquisition is still in early stages.",
+    "growth_metrics": {
+      "revenue_growth": "Current ARR is $750K from embedded partner integrations.",
+      "customer_metrics": "No direct customers yet, but a strong pipeline with potential partners.",
+      "retention_analysis": "Retention metrics are not yet available due to the early stage of customer acquisition.",
+      "unit_economics": "Unit economics are promising with a commission-based model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from partners and potential customers.",
+      "product_market_fit": "Evidence of PMF through partnerships and interest from gig platforms.",
+      "notable_customers": "Potential partnerships with AON Gig Partner Group and others.",
+      "partnerships": "Strategic partnerships are a key focus, with several in the pipeline."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured $750K ARR from partnerships.",
+        "Strong interest from potential partners."
+      ],
+      "areas_of_investigation": [
+        "Direct customer acquisition strategies need further development."
+      ]
+    },
+    "red_flags": [
+      "Lack of direct customer traction."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with the growing gig economy and demand for better insurance solutions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative insurance solutions tailored to gig workers.",
+      "catalysts": "Growth in the gig economy and dissatisfaction with traditional insurance models.",
+      "tailwinds": "Favorable trends in digital transformation and embedded insurance.",
+      "headwinds": "Potential regulatory challenges and competition from established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Olli has an advantage by focusing on a niche market with specific needs.",
+      "competitive_response": "Competitors may respond by enhancing their offerings, but Olli's focus on solopreneurs provides a buffer.",
+      "market_education": "Some market education may be required to shift perceptions of insurance buying."
+    },
+    "red_flags": [
+      "Regulatory changes could impact market dynamics."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Olli is seeking $2.8M in seed funding, which aligns with their growth plans but requires careful consideration of valuation and terms.",
+    "investment_details": {
+      "round_stage": "Seed stage",
+      "raise_amount": "$2.8M",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The investment aligns with SV's focus on innovative insurtech solutions.",
+      "ownership_potential": "Potential for significant ownership given the early stage.",
+      "liquidation_preferences": "Standard seed stage preferences expected.",
+      "valuation_justification": "Valuation should be justified based on market potential and traction."
+    },
+    "red_flags": [
+      "Lack of detailed valuation information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Olli presents a compelling opportunity in a large and underserved market with a strong team and innovative technology. The focus on partnerships and an API-first approach aligns well with market trends.",
+    "key_factors": [
+      "Large target market",
+      "Innovative technology",
+      "Strong team",
+      "Strategic partnerships"
+    ],
+    "next_steps": [
+      "Conduct detailed due diligence on technology and partnerships",
+      "Clarify valuation and terms",
+      "Explore potential regulatory challenges"
+    ]
+  }
+}

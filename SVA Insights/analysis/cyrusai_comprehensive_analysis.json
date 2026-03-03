@@ -1,0 +1,165 @@
+{
+  "company_name": "Cyrus AI",
+  "token": "z72w00d1ek49znsm5du6z72w00pz6ysq",
+  "submitted_at": "12/2/2025 21:46:56",
+  "website": "https://heycyrus.ai/",
+  "year_founded": "2025",
+  "description": "We automate the most time-consuming workflows of the world's greatest sales teams",
+  "problem_statement": "Sellers spend only 28% of their week selling and spend 72% of their week on manual work that slows deals. We're building Cyrus as the autonomous teammate that handles that work so sellers can sell 3x more",
+  "pitch_deck_link": "https://docsend.com/view/jbt3n8qiv6yfb6es",
+  "demo_link": "https://app.storylane.io/share/7hucd7qmuuxk",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and a proven track record in sales and operations, evidenced by their previous roles at Vendr and other tech companies. They have complementary skills in engineering, product, and go-to-market strategies.",
+    "company_assessment": {
+      "business_model_strength": "The business model leverages both PLG and enterprise sales, with a clear pricing strategy of $1200/user/year. The model is scalable and targets a large market with significant pain points.",
+      "market_positioning": "Cyrus AI positions itself as an autonomous teammate for sales teams, differentiating from competitors by focusing on automating manual tasks rather than just providing insights.",
+      "execution_capability": "The team has demonstrated execution capability by developing a product and securing design partners, including notable companies like Ramp.",
+      "strategic_vision": "The leadership has a clear vision to capture and educate the market before it becomes saturated, leveraging their networks for traction."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Ali Zolfaghari",
+        "role": "Co-founder",
+        "linkedin": "https://www.linkedin.com/in/ali-zolfaghari/",
+        "background": "Ali has a strong background in sales and operations, having been a top performer at Vendr and co-founding a GTM consulting company.",
+        "domain_expertise": "Expertise in B2B sales processes and operations.",
+        "previous_startups": "Co-founded a GTM consulting company.",
+        "notable_achievements": "Top performer at Vendr, advisor roles at Ramp and other tech companies.",
+        "leadership_signals": "Demonstrated leadership in building and scaling sales operations.",
+        "track_record": [
+          {
+            "company": "Vendr",
+            "role": "Top Performer",
+            "outcome": "Contributed to company growth and success.",
+            "learnings": "Gained insights into sales processes and operations."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes companies like Rox, Jeeva.ai, Reevo.ai, and Artisan AI, each focusing on different aspects of sales automation.",
+      "competitor_comparison": "Cyrus AI differentiates by focusing on automating manual tasks rather than just providing insights or data enrichment.",
+      "positioning_assessment": "Cyrus AI's focus on being an autonomous teammate provides a unique value proposition that sets it apart from competitors."
+    },
+    "red_flags": [
+      "Limited founding experience and lack of venture capital network."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The total addressable market is substantial at $112B, with clear pain points and a large potential customer base in B2B SaaS sales.",
+    "market_analysis": {
+      "total_addressable_market": "$112B TAM, supported by the widespread need for sales process automation.",
+      "serviceable_addressable_market": "Significant portion of the TAM is serviceable given the broad applicability of the solution.",
+      "serviceable_obtainable_market": "Realistic SOM projections based on initial traction and design partner agreements.",
+      "market_growth_rate": "High growth potential driven by increasing demand for sales efficiency solutions.",
+      "market_dynamics": "Key trends include the shift towards automation and AI in sales processes."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are B2B SaaS sellers, particularly revenue leaders and sales reps.",
+      "willingness_to_pay": "Evidence of willingness to pay through design partner agreements and pricing strategy.",
+      "customer_acquisition_cost": "Initial CAC is low due to PLG strategy, but needs further validation.",
+      "lifetime_value": "High LTV potential given the recurring revenue model and critical nature of the solution."
+    },
+    "red_flags": [
+      "Market education required to drive adoption."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology is innovative with a focus on automation, but lacks detailed information on defensibility and IP strategy.",
+    "technical_assessment": {
+      "core_technology": "The core technology automates manual sales tasks, enhancing productivity.",
+      "defensibility": "Potential defensibility through unique algorithms and process automation.",
+      "intellectual_property": "No specific IP strategy or patents mentioned.",
+      "scalability": "The technology is designed to scale with enterprise needs."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Focus on agentic AI provides a competitive edge.",
+      "data_advantages": "Potential data advantages through integration with sales processes.",
+      "technical_barriers": "Barriers include the complexity of automating diverse sales tasks."
+    },
+    "red_flags": [
+      "Lack of detailed IP strategy and potential replication by competitors."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Early traction with design partners and a growing pipeline, but pre-revenue status and limited customer base.",
+    "growth_metrics": {
+      "revenue_growth": "Pre-revenue, but $800k in active pipeline indicates potential.",
+      "customer_metrics": "12 companies in pipeline, with 5 design partners.",
+      "retention_analysis": "Retention metrics not yet available due to early stage.",
+      "unit_economics": "Pricing structure suggests strong unit economics, but needs validation."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from design partners, but broader validation needed.",
+      "product_market_fit": "Initial signs of PMF with design partner agreements.",
+      "notable_customers": "Ramp as a design partner is a strong validation signal.",
+      "partnerships": "Strategic partnerships with design partners in place."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured design partners and active pipeline."
+      ],
+      "areas_of_investigation": [
+        "Need to validate broader market adoption and revenue generation."
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status and limited customer base."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ripe for disruption, but timing is critical to capture early market share.",
+    "market_timing": {
+      "market_readiness": "Market is ready for automation solutions in sales.",
+      "catalysts": "Increasing demand for sales efficiency and automation.",
+      "tailwinds": "Favorable trends towards AI adoption in sales.",
+      "headwinds": "Potential competition and market education challenges."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Opportunity to establish early leadership in a nascent market.",
+      "competitive_response": "Competitors may respond quickly, necessitating rapid execution.",
+      "market_education": "Significant market education required to drive adoption."
+    },
+    "red_flags": [
+      "Need to quickly establish market presence before competitors."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Currently raising a pre-seed round with a reasonable target, but valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Pre-seed round.",
+      "raise_amount": "Raising $500-750k.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Aligned with SV's focus on innovative tech solutions.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation needs to be justified with further traction and revenue."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Cyrus AI presents a compelling opportunity with a strong team, large market potential, and innovative technology. However, further validation of traction and revenue generation is needed.",
+    "key_factors": [
+      "Strong team with domain expertise",
+      "Large TAM and market readiness",
+      "Innovative technology with potential competitive advantage"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on traction and customer feedback",
+      "Clarify valuation and terms",
+      "Explore potential for strategic partnerships"
+    ]
+  }
+}

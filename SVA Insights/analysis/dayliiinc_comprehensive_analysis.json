@@ -1,0 +1,172 @@
+{
+  "company_name": "daylii, Inc.",
+  "token": "54zrjb9igcev5iu9s7e49gxnpw91gcvi",
+  "submitted_at": "12/2/2025 19:31:01",
+  "website": "https://www.godaylii.com",
+  "year_founded": "2025",
+  "description": "daylii is a consumer-first HSA/FSA platform that modernizes how 50M Americans manage $150B in tax-advantaged funds. We streamline education, eligibility, and spending through an AI-driven marketplace and automation layer, reducing waste, increasing utilization, and unlocking actionable SKU-level insights for employers, TPAs, retailers, and CPG brands.",
+  "problem_statement": "daylii is solving the fact that HSA/FSA accounts are confusing, underutilized, and built on 30-year-old infrastructure, causing consumers to overspend, underspend, or lose money, and leaving employers/TPAs with avoidable service costs. This matters because $150B flows through these accounts annually, yet ~$4B in FSA funds expire each year and tens of billions in HSA dollars sit idle, directly harming consumers and wasting benefits budgets. By modernizing education, eligibility, and spending\u2014and connecting it to a real-time, AI-powered marketplace\u2014daylii reduces waste, increases savings, and gives every stakeholder (consumers, employers, TPAs, retailers, and CPG brands) access to clearer value and better outcomes.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1ImDYL4tQMDU4125X85G7XF5CuETwFuwD/view",
+  "demo_link": "https://drive.google.com/file/d/1ImDYL4tQMDU4125X85G7XF5CuETwFuwD/view",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has relevant domain expertise and a strong personal connection, which can be advantageous for team cohesion. However, the team is small, with only two members, and relies on contracted engineers, which may limit execution capability and scalability.",
+    "company_assessment": {
+      "business_model_strength": "The business model leverages a revenue-sharing agreement with Walmart and a subscription or percentage fee model for the monitoring platform. This dual approach provides multiple revenue streams but requires validation through market traction.",
+      "market_positioning": "daylii positions itself as a modern solution to outdated HSA/FSA management systems, with a unique value proposition of reducing costs and increasing utilization through AI-driven insights.",
+      "execution_capability": "The team has demonstrated initial execution capability by securing a partnership with Walmart and generating significant social media impressions. However, the lack of a full-time engineering team may hinder rapid product development.",
+      "strategic_vision": "The strategic vision is clear, focusing on modernizing HSA/FSA management and expanding partnerships with TPAs and retailers. The founders' previous entrepreneurial experience adds credibility to their strategic planning."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Nick DiMauro",
+        "role": "CEO",
+        "linkedin": "linkedin.com/in/nick-dimauro-b2207129",
+        "background": "Nick has a background in entrepreneurship with a successful exit in the medical supplies sector. He has a strong understanding of the healthcare and financial services industries.",
+        "domain_expertise": "Nick's expertise lies in healthcare financial services, with a focus on consumer-first solutions.",
+        "previous_startups": "Nick successfully exited his first venture to a large strategic medical supplies partner.",
+        "notable_achievements": "Led a successful exit in the medical supplies industry.",
+        "leadership_signals": "Demonstrated leadership through previous entrepreneurial success and strategic partnerships.",
+        "track_record": [
+          {
+            "company": "Previous Venture",
+            "role": "Founder",
+            "outcome": "Successful exit",
+            "learnings": "Gained insights into strategic partnerships and market positioning."
+          }
+        ]
+      },
+      {
+        "name": "Michael Langley",
+        "role": "CTO",
+        "linkedin": "linkedin.com/in/michael-langley-27407b28",
+        "background": "Michael has a technical background with experience in software development and engineering.",
+        "domain_expertise": "Michael's expertise is in software engineering and technology development.",
+        "previous_startups": "No prior entrepreneurial ventures noted.",
+        "notable_achievements": "Co-founded daylii and developed the initial product architecture.",
+        "leadership_signals": "Demonstrates technical leadership and product development skills.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes traditional retailers and specialized platforms like FSA Store. The market is ripe for disruption due to outdated infrastructure and pricing models.",
+      "competitor_comparison": "FSA Store is a direct competitor with higher pricing. daylii's partnership with Walmart offers a pricing advantage.",
+      "positioning_assessment": "daylii differentiates itself through competitive pricing and a unique AI-driven marketplace, positioning itself as a cost-effective and modern alternative."
+    },
+    "red_flags": [
+      "Reliance on contracted engineers may impact product development speed and quality."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market for HSA/FSA management is substantial, with $150 billion in funds and significant growth potential. The company's focus on reducing waste and increasing utilization addresses a clear market need.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $150 billion, based on the total funds in HSA and FSA accounts.",
+      "serviceable_addressable_market": "The SAM includes the 50 million Americans with HSA/FSA accounts, with a focus on those seeking better management solutions.",
+      "serviceable_obtainable_market": "The SOM is projected based on partnerships with TPAs and retailers, aiming to capture a significant portion of the market through strategic alliances.",
+      "market_growth_rate": "The market is experiencing growth due to increasing healthcare costs and consumer interest in tax-advantaged accounts.",
+      "market_dynamics": "Key trends include the shift towards consumer-driven healthcare and the need for modern financial management tools."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include individual HSA/FSA account holders, employers, and TPAs seeking cost-effective management solutions.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for solutions that reduce costs and increase fund utilization.",
+      "customer_acquisition_cost": "CAC is expected to be low due to direct marketing strategies and social media engagement.",
+      "lifetime_value": "LTV is projected to be high due to recurring revenue models and strong retention potential."
+    },
+    "red_flags": [
+      "Market education may be required to drive adoption of new management solutions."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology leverages AI to provide actionable insights, but the reliance on contracted engineers raises concerns about scalability and technical depth.",
+    "technical_assessment": {
+      "core_technology": "The core technology includes an AI-driven marketplace and automation layer for HSA/FSA management.",
+      "defensibility": "The partnership with Walmart and AI-driven insights provide some defensibility, but technical barriers are not fully established.",
+      "intellectual_property": "No patents or trade secrets mentioned, indicating a potential gap in IP strategy.",
+      "scalability": "Scalability may be limited by the current team structure and reliance on external engineers."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "AI algorithms provide SKU-level insights and automation, offering a competitive edge.",
+      "data_advantages": "Data insights from partnerships with retailers and TPAs create a potential data moat.",
+      "technical_barriers": "The first-to-market advantage with direct retail integration offers a temporary barrier."
+    },
+    "red_flags": [
+      "Lack of in-house technical team may hinder rapid scaling and innovation."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "The company has generated significant social media traction and secured a key partnership with Walmart, but lacks customer sales and revenue data.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue data available yet, as the product is not yet live.",
+      "customer_metrics": "No paying customers yet, but strong social media engagement indicates potential demand.",
+      "retention_analysis": "Retention metrics are unavailable at this stage.",
+      "unit_economics": "Unit economics are not yet established due to the early stage of the company."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from social media impressions and market research.",
+      "product_market_fit": "Initial indicators of PMF through social engagement and partnership interest.",
+      "notable_customers": "No notable customers yet, but Walmart partnership is a significant validation.",
+      "partnerships": "Strategic partnership with Walmart for distribution and pricing advantage."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured Walmart partnership, strong social media presence."
+      ],
+      "areas_of_investigation": [
+        "Need to validate customer acquisition and retention strategies."
+      ]
+    },
+    "red_flags": [
+      "Lack of revenue and customer data at this stage."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing consumer interest in HSA/FSA accounts and the need for modern management solutions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for disruption due to outdated systems and consumer demand for better solutions.",
+      "catalysts": "Rising healthcare costs and consumer-driven healthcare trends are key catalysts.",
+      "tailwinds": "Favorable regulatory changes and increasing adoption of tax-advantaged accounts.",
+      "headwinds": "Potential challenges include market education and competitive responses."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "First-to-market with direct retail integration offers a temporary advantage.",
+      "competitive_response": "Competitors may respond quickly, but daylii's pricing advantage is significant.",
+      "market_education": "Some market education may be required to drive adoption."
+    },
+    "red_flags": [
+      "Potential for rapid competitive response."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is in the early stages of fundraising, with a focus on securing a large funding round to expand the team and product offerings.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, seeking a large funding round.",
+      "raise_amount": "Specific raise amount not disclosed, but focus on team and product expansion.",
+      "pre_money_valuation": "Valuation details not provided, requiring further investigation.",
+      "post_money_valuation": "Post-money valuation implications not available."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on healthcare and financial services aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership depending on the size of the funding round.",
+      "liquidation_preferences": "Details on liquidation preferences not provided.",
+      "valuation_justification": "Valuation justification requires further analysis based on market comparables."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "daylii shows promise with a strong market opportunity and strategic partnerships, but the lack of revenue and customer data, as well as reliance on contracted engineers, suggests a need for further validation before advancing.",
+    "key_factors": [
+      "Strong market opportunity, Walmart partnership, early-stage traction."
+    ],
+    "next_steps": [
+      "Monitor product launch and initial customer acquisition, validate technical scalability, and assess detailed fundraising terms."
+    ]
+  }
+}

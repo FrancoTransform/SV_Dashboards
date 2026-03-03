@@ -1,0 +1,158 @@
+{
+  "company_name": "EvolveNP",
+  "token": "ixv67uuk5e14okdh9i0ixv6754qaokkp",
+  "submitted_at": "10/15/2025 4:21:01",
+  "website": "http://www.evolve-np.com",
+  "year_founded": "2025",
+  "description": "We are a Fintech company that has built a compliance-first fundraising infrastructure for nonprofits using blockchain technology. We enable organizations to issue symbolic tokens with an accompanying smart contract stack that delivers predictable and automated funds to the nonprofits monthly.",
+  "problem_statement": "Nonprofits face lumpy, costly, and opaque fundraising. Cash inflows are irregular, creating long gaps that stall programs. Donor acquisition is expensive\u2014events and campaigns consume budget before impact is delivered. Reporting is opaque and delayed, eroding donor trust. The result is a lack of a predictable, transparent mechanism to raise meaningful capital consistently that prevents nonprofits from functioning as efficiently and effectively as they could be.",
+  "pitch_deck_link": "https://docs.google.com/presentation/d/1zDRHwBBpNocjGoAFQwUvCimfdKZYkNYh8nA0gRvnkBQ/edit?usp=sharing",
+  "demo_link": "https://docs.google.com/document/d/1-mHF5CuAMTbJJOJSZZP0AohkKI0kuEEa-GLFeqDxXsg/edit?usp=sharing",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has a strong technical background with a Sr. Blockchain engineer and a systems admin, but lacks extensive entrepreneurial experience and a proven track record in scaling startups.",
+    "company_assessment": {
+      "business_model_strength": "The business model is innovative, leveraging blockchain for recurring donations, but lacks validation and proven scalability.",
+      "market_positioning": "EvolveNP positions itself uniquely by offering predictable, automated funding for nonprofits, differentiating from competitors who focus on one-time donations.",
+      "execution_capability": "The team has developed a provisional patent and MVP, indicating execution capability, but lacks market launch experience.",
+      "strategic_vision": "The strategic vision is clear in addressing nonprofit fundraising pain points, but requires further validation and market feedback."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Zak Roskos",
+        "role": "Founder/CEO",
+        "linkedin": "https://www.linkedin.com/in/zachary-roskos-19760b23b/",
+        "background": "Zak has a background in corporate roles post-university, with a focus on building impactful solutions.",
+        "domain_expertise": "Limited direct experience in nonprofit fundraising or blockchain, but has technical and leadership skills.",
+        "previous_startups": "No prior entrepreneurial ventures mentioned.",
+        "notable_achievements": "Provisional patent filed for infrastructure architecture.",
+        "leadership_signals": "Demonstrates leadership through team management and strategic vision.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes The Giving Block, Endaoment, and Classy, which focus on one-time donations.",
+      "competitor_comparison": "Competitors lack the recurring donation model, which EvolveNP aims to address.",
+      "positioning_assessment": "EvolveNP differentiates by offering a blockchain-based recurring donation model, but needs to validate market acceptance."
+    },
+    "red_flags": [
+      "Limited entrepreneurial experience and market launch expertise."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is large, focusing on mid-sized nonprofits across various impactful verticals, with significant growth potential.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is large, encompassing mid-sized nonprofits in sectors like wildlife conservation, veterans care, and more.",
+      "serviceable_addressable_market": "SAM focuses on nonprofits with a need for predictable funding, a significant subset of the TAM.",
+      "serviceable_obtainable_market": "SOM projections depend on successful market entry and adoption of the blockchain model.",
+      "market_growth_rate": "The nonprofit sector is growing, with increasing interest in blockchain solutions for transparency.",
+      "market_dynamics": "Key trends include the need for transparency and efficiency in nonprofit fundraising."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are nonprofit executives seeking efficient fundraising solutions.",
+      "willingness_to_pay": "Evidence suggests nonprofits are willing to pay for solutions that offer predictable funding.",
+      "customer_acquisition_cost": "CAC is currently undefined due to pre-launch status.",
+      "lifetime_value": "LTV projections are speculative but could be high with successful adoption."
+    },
+    "red_flags": [
+      "Market entry and adoption risks due to reliance on blockchain technology."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The use of blockchain for recurring donations is technically innovative and potentially defensible, but requires market validation.",
+    "technical_assessment": {
+      "core_technology": "Blockchain-based fundraising infrastructure with smart contracts for automated donations.",
+      "defensibility": "Provisional patent filed, offering some defensibility.",
+      "intellectual_property": "Provisional patent for infrastructure architecture.",
+      "scalability": "Scalability depends on blockchain infrastructure and adoption."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Smart contract stack for automated, predictable donations.",
+      "data_advantages": "Potential for data-driven insights into donor behavior.",
+      "technical_barriers": "Blockchain expertise and patent provide barriers to entry."
+    },
+    "red_flags": [
+      "Dependence on blockchain adoption and regulatory environment."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Pre-launch status with no customers or revenue, but a provisional patent and MVP indicate potential.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue to date, pre-launch status.",
+      "customer_metrics": "No customers yet, with plans to reach out to target nonprofits.",
+      "retention_analysis": "Retention analysis not applicable pre-launch.",
+      "unit_economics": "Unit economics are speculative without market data."
+    },
+    "market_validation": {
+      "customer_feedback": "No customer feedback available pre-launch.",
+      "product_market_fit": "Product-market fit is unproven, pending market entry.",
+      "notable_customers": "No customers yet.",
+      "partnerships": "No partnerships established."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Provisional patent and MVP development."
+      ],
+      "areas_of_investigation": [
+        "Market validation and customer acquisition strategies."
+      ]
+    },
+    "red_flags": [
+      "Lack of market traction and customer validation."
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market is increasingly interested in blockchain solutions, but timing depends on regulatory and adoption factors.",
+    "market_timing": {
+      "market_readiness": "Growing interest in blockchain for transparency in fundraising.",
+      "catalysts": "Increased demand for transparency and efficiency in nonprofit funding.",
+      "tailwinds": "Positive trends in blockchain adoption.",
+      "headwinds": "Regulatory challenges and market education required."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in recurring blockchain donations.",
+      "competitive_response": "Competitors may respond by integrating similar features.",
+      "market_education": "Significant market education required for blockchain adoption."
+    },
+    "red_flags": [
+      "Regulatory uncertainties and market education challenges."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is in early fundraising stages, seeking capital for product launch and market entry.",
+    "investment_details": {
+      "round_stage": "Pre-seed stage, seeking initial funding.",
+      "raise_amount": "Amount needed for third-party audit and market entry.",
+      "pre_money_valuation": "Valuation not specified, early-stage company.",
+      "post_money_valuation": "Dependent on raise amount and investor terms."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on innovative fintech solutions.",
+      "ownership_potential": "Early-stage investment offers potential for significant ownership.",
+      "liquidation_preferences": "Standard early-stage investor protections expected.",
+      "valuation_justification": "Valuation should reflect pre-revenue status and market potential."
+    },
+    "red_flags": [
+      "Unspecified valuation and early-stage risks."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "EvolveNP presents an innovative solution with potential, but requires market validation and traction before advancing.",
+    "key_factors": [
+      "Innovative use of blockchain",
+      "Large target market",
+      "Pre-launch status"
+    ],
+    "next_steps": [
+      "Monitor market entry and traction",
+      "Assess regulatory environment",
+      "Evaluate customer acquisition strategies"
+    ]
+  }
+}

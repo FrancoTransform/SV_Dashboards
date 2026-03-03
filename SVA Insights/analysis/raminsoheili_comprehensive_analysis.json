@@ -1,0 +1,166 @@
+{
+  "company_name": "Ramin Soheili",
+  "token": "es6znitru2661vwuwg7es6znit1p1k6u",
+  "submitted_at": "11/25/2025 23:03:07",
+  "website": "https://www.joojoomee.com",
+  "year_founded": "2018",
+  "description": "JooJooMee is a smart wearable device platform where kids use simple drag-and-drop tools to create and customize interactive Apps, no coding needed, and download them to fun, configurable devices to play, share, and learn. Thereby empowering our kids to become creators rather than consumers of digital content.",
+  "problem_statement": "In the US, children aged 8 to 12 spend an average of 5.5 hours* per day on screen time. At JooJooMee, our mission is to transform a meaningful portion of that time into a more productive, engaging experience. Shifting from passive screen consumption to purposeful digital interaction.",
+  "pitch_deck_link": "https://docsend.com/v/zkjch/joojoomeprimarypitchdeck",
+  "demo_link": "https://docsend.com/view/j9brpipk97zhdkzf",
+  "team": {
+    "score": 2,
+    "justification": "The team is small with only two members, which raises concerns about their ability to execute and scale. The founder has some domain expertise, but the lack of a larger, more experienced team is a significant risk.",
+    "company_assessment": {
+      "business_model_strength": "The business model includes both DTC and B2B strategies, which could provide diversified revenue streams. However, the company is pre-revenue, and the scalability of the model is unproven.",
+      "market_positioning": "JooJooMee positions itself as a unique platform for children to create digital content. The differentiation strategy is clear, but execution remains untested.",
+      "execution_capability": "The team has built the software in-house, but hardware development relies on external resources, indicating potential execution challenges.",
+      "strategic_vision": "The long-term vision includes partnerships with major toy companies, which could be strategic if executed well."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Ramin Soheili",
+        "role": "CEO/Founder",
+        "linkedin": "https://www.linkedin.com/in/ramin-soheili-349961/",
+        "background": "Ramin has a background in technology and entrepreneurship, with experience in small project collaborations.",
+        "domain_expertise": "Moderate expertise in digital content creation and children's educational technology.",
+        "previous_startups": "No significant prior entrepreneurial experience noted.",
+        "notable_achievements": "Successfully developed the software platform in-house.",
+        "leadership_signals": "Limited evidence of leadership capability due to small team size.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes educational platforms like Code.org and hardware like Arduino.",
+      "competitor_comparison": "Competitors focus on coding education, while JooJooMee emphasizes configurability without coding.",
+      "positioning_assessment": "JooJooMee differentiates by offering a no-code platform, but market acceptance is unproven."
+    },
+    "red_flags": [
+      "Small team size",
+      "Lack of proven execution capability",
+      "Pre-revenue stage"
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market is large, with over 30 million children in the US alone. However, the company's ability to capture a significant share is uncertain.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is substantial, with a global population under 15 years old accounting for 25%.",
+      "serviceable_addressable_market": "SAM is not clearly defined, but the focus on children aged 6-13 suggests a significant opportunity.",
+      "serviceable_obtainable_market": "SOM projections are unclear due to the lack of a go-to-market strategy.",
+      "market_growth_rate": "The market for educational technology is growing, driven by increasing digital literacy needs.",
+      "market_dynamics": "Key trends include the rise of digital education tools and the need for engaging, educational content for children."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are children aged 6-13, with parents as decision-makers.",
+      "willingness_to_pay": "No concrete evidence of willingness to pay, as the product is pre-revenue.",
+      "customer_acquisition_cost": "CAC is not defined due to the lack of a sales pipeline.",
+      "lifetime_value": "LTV is speculative without customer data."
+    },
+    "red_flags": [
+      "Unclear market capture strategy",
+      "Lack of customer validation"
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is innovative, focusing on no-code app creation for children. However, the reliance on external resources for hardware is a concern.",
+    "technical_assessment": {
+      "core_technology": "The core technology is a drag-and-drop app creation platform for children.",
+      "defensibility": "The platform's uniqueness lies in its no-code approach, but defensibility against larger competitors is uncertain.",
+      "intellectual_property": "No mention of patents or IP strategy.",
+      "scalability": "Software scalability is promising, but hardware scalability is uncertain."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "No data moats or network effects identified.",
+      "technical_barriers": "The no-code approach is a barrier, but easily replicable by larger players."
+    },
+    "red_flags": [
+      "Reliance on external hardware resources",
+      "Lack of IP strategy"
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "The company is pre-revenue with no customers, making it difficult to assess traction.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue to date.",
+      "customer_metrics": "No customers or acquisition data.",
+      "retention_analysis": "No retention data available.",
+      "unit_economics": "Unit economics are speculative without sales data."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from alpha testers, but limited in scope.",
+      "product_market_fit": "No evidence of PMF due to lack of market presence.",
+      "notable_customers": "No notable customers.",
+      "partnerships": "No strategic partnerships established."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Positive alpha tester feedback"
+      ],
+      "areas_of_investigation": [
+        "Market validation",
+        "Customer acquisition strategy"
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue stage",
+      "No customer base"
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market is ripe for educational technology, but competitive timing and market readiness are concerns.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready for digital educational tools.",
+      "catalysts": "Growing emphasis on digital literacy in education.",
+      "tailwinds": "Favorable trends in educational technology adoption.",
+      "headwinds": "Potential market saturation and competition from established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Limited first-mover advantage due to existing competitors.",
+      "competitive_response": "High likelihood of competitive response from established players.",
+      "market_education": "Significant market education required for adoption."
+    },
+    "red_flags": [
+      "Competitive pressure",
+      "Market education challenges"
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "The company is currently fundraising with no clear terms outlined, making it difficult to assess alignment with SV's criteria.",
+    "investment_details": {
+      "round_stage": "Pre-seed or seed stage, as the company is pre-revenue.",
+      "raise_amount": "Not specified.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on educational technology, but terms are unclear.",
+      "ownership_potential": "Ownership potential is speculative without terms.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "No valuation data provided."
+    },
+    "red_flags": [
+      "Lack of clear fundraising terms",
+      "Unspecified valuation"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company has a promising concept but lacks traction, a proven team, and clear market validation. Further investigation is needed to assess execution capability and market fit.",
+    "key_factors": [
+      "Pre-revenue stage",
+      "Small team size",
+      "Unproven market fit"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on market validation",
+      "Assess team expansion plans",
+      "Clarify fundraising terms and valuation expectations"
+    ]
+  }
+}

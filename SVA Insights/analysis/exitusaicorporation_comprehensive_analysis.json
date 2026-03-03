@@ -1,0 +1,174 @@
+{
+  "company_name": "Exitus AI Corporation",
+  "token": "cxpoysnkifcc9twnfwucxpoys7vxsndc",
+  "submitted_at": "10/15/2025 21:31:53",
+  "website": "https://exitus.ai/",
+  "year_founded": "2025",
+  "description": "We\u2019ve built a semantic matching engine and API layer that integrates directly with existing ATS/VMS platforms to dramatically improve candidate\u2013job matching accuracy \u2014 without requiring a rip-and-replace.",
+  "problem_statement": "We\u2019ve built a semantic matching engine and API layer that integrates directly with existing ATS/VMS platforms to dramatically improve candidate\u2013job matching accuracy \u2014 without requiring a rip-and-replace. Traditional keyword systems miss the nuance of real hiring data. Our engine parses job descriptions, ingests candidate resumes in bulk, and generates structured summaries and fit scores through a feedback loop \u2014 lifting match accuracy by up to 90% vs. legacy ATS in early testing.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1Socg0pmpI6Wga_uWOnzHxsMhVEmTC8eu/view?usp=drive_link",
+  "demo_link": "https://locum.twisterdigital.net/#/login",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has relevant domain expertise and a clear understanding of the problem space, having experienced it firsthand. However, the team is small, with only three members, which may limit execution capacity. The lack of previous startup success or notable achievements is a concern.",
+    "company_assessment": {
+      "business_model_strength": "The business model is a B2B SaaS and API platform with a usage-based pricing structure, which aligns well with industry standards and customer needs. However, the company is pre-revenue, and the model is yet to be validated in the market.",
+      "market_positioning": "Exitus AI positions itself as a semantic matching engine that integrates with existing ATS/VMS platforms, offering a unique value proposition by improving match accuracy without requiring system replacement.",
+      "execution_capability": "The team has developed a working product and initiated discussions with potential partners, indicating some execution capability. However, the lack of paying customers and reliance on a single internal user is a concern.",
+      "strategic_vision": "The strategic vision is clear, focusing on integration with existing systems rather than replacement, which aligns with market needs. The company aims to secure pilot agreements and strategic partnerships to scale."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "JP Rattie",
+        "role": "Founder and CEO",
+        "linkedin": "N/A",
+        "background": "JP Rattie has a background in HR systems and has experienced the challenges of legacy ATS platforms firsthand.",
+        "domain_expertise": "Strong expertise in HR systems and recruitment processes.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "N/A",
+        "leadership_signals": "Demonstrates leadership through the development of the product and initial market engagement.",
+        "track_record": []
+      },
+      {
+        "name": "Chad Barry",
+        "role": "Head of Engineering",
+        "linkedin": "N/A",
+        "background": "Chad Barry has a technical background and is responsible for building the technology.",
+        "domain_expertise": "Technical expertise in software development and engineering.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "N/A",
+        "leadership_signals": "Technical leadership in developing the core product.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes legacy ATS platforms and AI resume matching tools. Legacy platforms are slow to innovate, while AI tools often require system replacement.",
+      "competitor_comparison": "Exitus AI differentiates by offering a drop-in semantic infrastructure layer that integrates with existing systems, avoiding the need for replacement.",
+      "positioning_assessment": "The company is well-positioned to address a significant pain point in the market with its unique integration approach."
+    },
+    "red_flags": [
+      "Small team size may limit execution capacity",
+      "Lack of previous startup success or notable achievements"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial, with a TAM of $300B+ and over 30,000 potential customers. The company's focus on ATS/VMS platforms and staffing firms aligns well with market needs.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $300B+, covering ATS, VMS, staffing, recruiting, and HR companies.",
+      "serviceable_addressable_market": "The SAM is significant, focusing on ATS/VMS platforms and large staffing firms.",
+      "serviceable_obtainable_market": "The SOM is realistic given the company's API integration approach, which reduces adoption friction.",
+      "market_growth_rate": "The market is growing, driven by the need for more accurate and efficient recruitment solutions.",
+      "market_dynamics": "Key trends include the shift towards modular AI infrastructure and the inefficiency of legacy keyword-based systems."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include ATS/VMS platforms and large staffing firms, with decision-makers in product, AI/ML, and recruiting operations.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for solutions that improve match accuracy without requiring system replacement.",
+      "customer_acquisition_cost": "CAC is not yet established, but the API model suggests a scalable acquisition strategy.",
+      "lifetime_value": "LTV is expected to be high due to the recurring revenue model and integration into existing systems."
+    },
+    "red_flags": [
+      "Pre-revenue status limits validation of market assumptions"
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology is innovative, offering a semantic matching engine that integrates with existing systems. The defensibility is strong due to the technical complexity and integration approach.",
+    "technical_assessment": {
+      "core_technology": "The core technology is a semantic matching engine and API layer that improves candidate-job matching accuracy.",
+      "defensibility": "The integration approach and technical complexity provide defensibility against competitors.",
+      "intellectual_property": "No patents or IP strategy mentioned, but the technology itself offers a competitive moat.",
+      "scalability": "The API model is scalable, allowing for integration with multiple platforms."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The semantic matching algorithms are proprietary and offer significant improvements over keyword-based systems.",
+      "data_advantages": "The ability to parse and analyze large volumes of data provides a data advantage.",
+      "technical_barriers": "The complexity of the technology and integration approach creates barriers for competitors."
+    },
+    "red_flags": [
+      "Lack of patents or formal IP strategy"
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company has developed a working product and initiated discussions with potential partners, but it is pre-revenue with only one internal user.",
+    "growth_metrics": {
+      "revenue_growth": "Pre-revenue, with no paying customers yet.",
+      "customer_metrics": "Only one internal user, with no external customer validation.",
+      "retention_analysis": "N/A",
+      "unit_economics": "N/A"
+    },
+    "market_validation": {
+      "customer_feedback": "Limited feedback from internal use only.",
+      "product_market_fit": "Early discussions with potential partners suggest interest, but no formal agreements yet.",
+      "notable_customers": "N/A",
+      "partnerships": "Early discussions with ATS platforms, but no formal partnerships."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Development of a working product",
+        "Initiation of discussions with potential partners"
+      ],
+      "areas_of_investigation": [
+        "Conversion of discussions into formal agreements",
+        "Validation of product-market fit"
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status",
+      "Lack of external customer validation"
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The market is ready for solutions that improve recruitment efficiency, and the company's integration approach aligns with current trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that improve recruitment efficiency without requiring system replacement.",
+      "catalysts": "The inefficiency of legacy systems and the shift towards modular AI infrastructure are key catalysts.",
+      "tailwinds": "Favorable trends include the need for more accurate recruitment solutions and the inefficiency of keyword-based systems.",
+      "headwinds": "Potential obstacles include integration timelines with large enterprise vendors."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "The company has an advantage by offering a unique integration approach.",
+      "competitive_response": "Competitors may respond by developing similar integration solutions.",
+      "market_education": "Some market education may be required to demonstrate the benefits of semantic matching."
+    },
+    "red_flags": [
+      "Integration timelines with large enterprise vendors"
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is seeking pre-seed or seed funding with a clean cap table, but the lack of external investors and limited runway are concerns.",
+    "investment_details": {
+      "round_stage": "Pre-seed or seed",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on HRTech and AI infrastructure aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given the clean cap table.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation not specified, but the pre-revenue status may impact valuation expectations."
+    },
+    "red_flags": [
+      "Lack of external investors",
+      "Limited runway"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company has a promising technology and market opportunity, but the pre-revenue status and lack of external customer validation are concerns. Further validation of product-market fit and conversion of discussions into formal agreements are needed.",
+    "key_factors": [
+      "Promising technology and market opportunity",
+      "Pre-revenue status",
+      "Lack of external customer validation"
+    ],
+    "next_steps": [
+      "Monitor progress on securing pilot agreements",
+      "Evaluate product-market fit once external validation is achieved",
+      "Consider investment once traction is demonstrated"
+    ]
+  }
+}

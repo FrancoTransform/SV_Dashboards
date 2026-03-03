@@ -1,0 +1,180 @@
+{
+  "company_name": "Miraqules",
+  "token": "9ns3qrpjex0tyjnn28tk69ns3qrpovyi",
+  "submitted_at": "12/11/2025 8:31:06",
+  "website": "https://miraqules.com/",
+  "year_founded": "2018",
+  "description": "Developing biomaterials for advanced bleeding control & wound management applications post-trauma & surgery. Just finished human study for our hemostatic material, which stops bleeding in under a minute & is now nearing market launch.",
+  "problem_statement": "Uncontrolled bleeding in hospital, military, and civilian life settings is a global public health problem, claiming more than 6 million lives annually, surpassing HIV, tuberculosis, and malaria combined. For instance, the Global Burden of Diseases study (GBD) demonstrates that road traffic injuries are among the leading causes of death and disability-adjusted life years (DALYs), accounting for 2.12% of total annual deaths and 2.87% of total DALYs. Countries like India contribute to this with nearly 700 road deaths daily, with 30% due to excessive blood loss. The USA records close to 40 million personal injury cases every year. Globally, over 700 million injuries are reported each year & reports suggest most of them could be saved if bleeding were stopped early.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1ZEVoOqlMmjUEsINC4TlXQfRQdVihSZXJ/view?usp=sharing",
+  "demo_link": "https://youtu.be/_awewHFIBos",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise and complementary skills. Sabir Hossain, the CEO, has a background in biomaterials, while Dr. Mubeen Midda brings medical expertise. Dr. Devendra Verma adds significant R&D experience. The team has demonstrated execution capability by advancing from a master's project to a startup nearing market launch.",
+    "company_assessment": {
+      "business_model_strength": "Miraqules plans to generate revenue through B2B and B2G sales with a high-margin, consumable-driven model. The pricing strategy is well-defined, ranging from $7 to $60 per unit, depending on application severity.",
+      "market_positioning": "The company positions itself as a provider of advanced bleeding control solutions, differentiating through a novel biomaterial that outperforms existing biopolymers.",
+      "execution_capability": "The team has successfully completed human studies and secured MOUs with the Indian Army, indicating strong execution capability.",
+      "strategic_vision": "Miraqules has a clear strategic vision to expand from emergency and trauma care to consumer first-aid and other biomedical applications."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Sabir Hossain",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/sabir-hossain-b7b2947b/",
+        "background": "Sabir Hossain has a background in biomaterials, having developed the core technology during his master's research.",
+        "domain_expertise": "Expertise in biomaterials and bleeding control technologies.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Successfully transitioned a master's project into a startup nearing market launch.",
+        "leadership_signals": "Demonstrated leadership by building a team and securing strategic partnerships.",
+        "track_record": []
+      },
+      {
+        "name": "Dr. Mubeen Midda",
+        "role": "CMO",
+        "linkedin": "https://www.linkedin.com/in/mubeen-midda-04a280178/",
+        "background": "Dr. Midda has a medical background, previously practicing in the plastic surgery department.",
+        "domain_expertise": "Medical expertise in surgery and trauma care.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Provided early validation for the technology and transitioned to a full-time role.",
+        "leadership_signals": "Strong commitment to the venture, evidenced by leaving medical practice to join full-time.",
+        "track_record": []
+      },
+      {
+        "name": "Dr. Devendra Verma",
+        "role": "Chief Scientific Advisor",
+        "linkedin": "https://www.linkedin.com/in/devendra-verma-4799416/",
+        "background": "Dr. Verma is a professor with extensive R&D experience in biomaterials.",
+        "domain_expertise": "R&D expertise in biomaterials and hemostatic technologies.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Oversees R&D and has contributed to the development of the core technology.",
+        "leadership_signals": "Provides strategic R&D direction and mentorship.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes traditional methods like pressure and tourniquets, as well as companies using unmodified biopolymers.",
+      "competitor_comparison": "Miraqules differentiates by developing a novel biomaterial that outperforms existing solutions.",
+      "positioning_assessment": "The company is well-positioned to capture market share with its superior technology and strategic partnerships."
+    },
+    "red_flags": [
+      "Limited full-time team size may impact scaling and execution."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The market size is substantial, with a TAM of $17 billion for emergency bleeding management and additional opportunities in surgical and consumer markets.",
+    "market_analysis": {
+      "total_addressable_market": "TAM is estimated at $17 billion for emergency bleeding management, with additional opportunities in surgical and consumer markets.",
+      "serviceable_addressable_market": "SAM is estimated between $5 billion and $8.5 billion, focusing on severe injuries requiring immediate bleeding control.",
+      "serviceable_obtainable_market": "SOM projections for initial focus markets (USA and India) range from $336 million to $560 million.",
+      "market_growth_rate": "The market is expected to grow due to increasing awareness and demand for advanced bleeding control solutions.",
+      "market_dynamics": "Key drivers include the high incidence of trauma cases and the need for rapid bleeding control solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include EMS, ambulances, ER & trauma centers, military, police, and disaster relief organizations.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by interest from the Indian Army and government hospitals.",
+      "customer_acquisition_cost": "CAC details are not provided, but the sales cycle is estimated at 2 to 4 months.",
+      "lifetime_value": "LTV calculations are not provided, but the recurring revenue model suggests strong potential."
+    },
+    "red_flags": [
+      "Potential regulatory hurdles in different markets."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The technology is highly differentiated with a novel biomaterial that offers superior performance. The company holds patents in multiple countries.",
+    "technical_assessment": {
+      "core_technology": "The core technology is a novel biomaterial for hemostatic applications.",
+      "defensibility": "The technology is defensible with patents granted in the USA, Israel, and Australia.",
+      "intellectual_property": "Strong IP strategy with patents in key markets.",
+      "scalability": "The technology is scalable, with plans to expand into consumer and surgical markets."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The biomaterial composition is proprietary and offers unique performance benefits.",
+      "data_advantages": "Not applicable.",
+      "technical_barriers": "The novel material composition creates a barrier to entry for competitors."
+    },
+    "red_flags": [
+      "Manufacturing scalability and cost management need careful planning."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has strong early traction with MOUs and pilot studies, indicating product-market fit and customer interest.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue growth is projected post-market launch in April 2026.",
+      "customer_metrics": "Interest from 3 battalions of the Indian Army, 24 government hospitals, and 16 private hospitals.",
+      "retention_analysis": "Retention metrics are not available pre-launch.",
+      "unit_economics": "COGS is 14%, and distribution channel costs are 30%, indicating healthy margins."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilot studies and interest from strategic partners.",
+      "product_market_fit": "Strong indicators of PMF with interest from military and healthcare sectors.",
+      "notable_customers": "Indian Army and government hospitals are key potential customers.",
+      "partnerships": "Strategic partnerships with the Indian Army and government bodies."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Patent grants, MOUs with the Indian Army, and pilot studies initiated."
+      ],
+      "areas_of_investigation": [
+        "Regulatory approval process and market entry strategy."
+      ]
+    },
+    "red_flags": [
+      "Regulatory approval delays could impact market entry timeline."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for advanced bleeding control solutions and strategic partnerships in place.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative bleeding control solutions due to high incidence of trauma cases.",
+      "catalysts": "Increasing awareness and demand for rapid bleeding control solutions.",
+      "tailwinds": "Favorable trends in healthcare innovation and trauma care.",
+      "headwinds": "Regulatory challenges and market education requirements."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage with a novel biomaterial.",
+      "competitive_response": "Competitors may respond with similar innovations, but the patented technology provides a buffer.",
+      "market_education": "Market education will be necessary to drive adoption."
+    },
+    "red_flags": [
+      "Potential delays in regulatory approvals and market education challenges."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a clear use of funds, but specific terms and valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Currently fundraising.",
+      "raise_amount": "Specific raise amount not provided.",
+      "pre_money_valuation": "Valuation details not provided.",
+      "post_money_valuation": "Valuation details not provided."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on healthcare innovation aligns with SV's investment criteria.",
+      "ownership_potential": "Ownership potential and board representation details not provided.",
+      "liquidation_preferences": "Liquidation preferences not provided.",
+      "valuation_justification": "Valuation justification not provided."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Miraqules demonstrates strong potential with a novel technology, significant market opportunity, and strategic partnerships. The team has shown execution capability and the market timing is favorable.",
+    "key_factors": [
+      "Novel biomaterial technology",
+      "Strategic partnerships with the Indian Army",
+      "Large market opportunity"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence on regulatory strategy and manufacturing scalability",
+      "Clarify investment terms and valuation",
+      "Explore potential pilot opportunities and mentorship support through the accelerator program"
+    ]
+  }
+}

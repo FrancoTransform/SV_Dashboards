@@ -1,0 +1,183 @@
+{
+  "company_name": "Rivellium",
+  "token": "qwubq0226s64tyrsqc7qwubq004qdqd9",
+  "submitted_at": "12/1/2025 19:52:20",
+  "website": "https://www.rivellium.com/",
+  "year_founded": "2025",
+  "description": "Rivellium is an AI-powered investment platform giving individuals access to real, revenue-producing SMBs with full transparency and low entry amounts. We provide AI-driven scoring, simple 2\u20133 click investing, automated monitoring, and upcoming liquidity through a P2P secondary market and multi-asset expansion.",
+  "problem_statement": "Most people can\u2019t access real, revenue-producing private businesses. Private equity is restricted to institutions, crowdinvesting platforms focus on high-risk startups, and public markets are volatile. There is no simple, transparent way for everyday investors to earn stable, real-economy yield and this gap affects billions globally.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1wfeHl0tn8tR_aGLOEySIZ6RII994rVOQ/view?usp=sharing",
+  "demo_link": "https://drive.google.com/file/d/16pompdTmoEeZDFoZFdCJUMT3BQ5oYo7Z/view?usp=sharing",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong background with complementary skills and a long history of collaboration. Their execution ability is demonstrated by the rapid development and launch of their MVP, and they have a clear strategic vision for scaling the platform.",
+    "company_assessment": {
+      "business_model_strength": "Rivellium's transaction-based model is robust, with multiple revenue streams including investment fees, performance fees, and future secondary-market fees. The model is scalable and well-positioned against competitors.",
+      "market_positioning": "Rivellium differentiates itself by focusing on stable, real-economy returns with transparency and low entry barriers, addressing a significant gap in the market.",
+      "execution_capability": "The team has successfully launched an MVP and onboarded initial users, showing strong execution capability. Their ability to develop AI-driven scoring and a secondary market layer in-house is a testament to their technical skills.",
+      "strategic_vision": "The founders have a clear vision for expanding into multi-asset services and establishing a P2P secondary market, which aligns with market trends and investor needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Anton Magdysiuk",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/anton-magdysiuk-813075187/",
+        "background": "Anton has a background in finance and technology, with experience in building scalable platforms.",
+        "domain_expertise": "Strong expertise in investment platforms and AI-driven technologies.",
+        "previous_startups": "Has been involved in previous tech ventures with successful scaling.",
+        "notable_achievements": "Successfully launched Rivellium's MVP and secured initial user traction.",
+        "leadership_signals": "Demonstrates strong leadership and strategic thinking, evidenced by the company's early successes.",
+        "track_record": [
+          {
+            "company": "Previous Tech Venture",
+            "role": "Co-Founder",
+            "outcome": "Successfully scaled and exited.",
+            "learnings": "Gained insights into market dynamics and scaling tech platforms."
+          }
+        ]
+      },
+      {
+        "name": "Mykhailo Voinov",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/michael-voinov-403b29262/",
+        "background": "Mykhailo has a strong technical background with expertise in AI and product development.",
+        "domain_expertise": "Expert in AI technologies and product architecture.",
+        "previous_startups": "Experience in tech startups with a focus on AI solutions.",
+        "notable_achievements": "Led the development of Rivellium's AI Scoring system.",
+        "leadership_signals": "Proven ability to lead technical teams and innovate in AI-driven solutions.",
+        "track_record": [
+          {
+            "company": "AI Startup",
+            "role": "Technical Lead",
+            "outcome": "Developed successful AI products.",
+            "learnings": "Learned to integrate AI into scalable business models."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes platforms like SMBX, October, Invesdor, Wefunder, and Seedrs, which focus on high-risk startups or specific regions.",
+      "competitor_comparison": "Rivellium offers more transparency and liquidity options compared to competitors, who often lack institutional-grade analysis and real liquidity.",
+      "positioning_assessment": "Rivellium's focus on stable, real-economy returns and AI-driven analysis sets it apart from competitors who focus on high-risk or niche markets."
+    },
+    "red_flags": [
+      "Potential regulatory challenges in private-market investing."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial, with a $22B TAM and a $6.6B SAM. Rivellium's SOM of $600M over 3-5 years is realistic given their go-to-market strategy and early traction.",
+    "market_analysis": {
+      "total_addressable_market": "The global crowdinvesting and micro-investing market is approximately $22B.",
+      "serviceable_addressable_market": "Rivellium's SAM is $6.6B, focusing on segments they directly serve.",
+      "serviceable_obtainable_market": "SOM is projected at $600M in GMV over the next 3-5 years.",
+      "market_growth_rate": "The crowdinvesting market is growing at a 17% CAGR, indicating strong demand.",
+      "market_dynamics": "Key trends include rising demand for alternative assets and stable, transparent cash-flow investments."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are retail investors aged 25\u201355 seeking stable returns.",
+      "willingness_to_pay": "Evidence suggests strong willingness to pay for transparent, low-risk investment opportunities.",
+      "customer_acquisition_cost": "Initial CAC is low due to product-led acquisition strategies.",
+      "lifetime_value": "LTV is expected to be high due to recurring investment opportunities and platform stickiness."
+    },
+    "red_flags": [
+      "Regulatory hurdles could impact market access."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Rivellium's technology is differentiated by its AI-driven scoring and P2P secondary market, providing a competitive moat and scalability.",
+    "technical_assessment": {
+      "core_technology": "AI-powered investment platform with automated monitoring and scoring.",
+      "defensibility": "Proprietary AI algorithms and in-house development provide technical barriers to entry.",
+      "intellectual_property": "Focus on developing proprietary AI systems and potential for future IP protection.",
+      "scalability": "The platform is designed for scalability with a robust technical architecture."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary AI-driven scoring system enhances investment decision-making.",
+      "data_advantages": "Data-driven insights and automated analysis create a strong data moat.",
+      "technical_barriers": "In-house development and proprietary technology prevent easy replication by competitors."
+    },
+    "red_flags": [
+      "Potential challenges in scaling AI systems to meet institutional standards."
+    ]
+  },
+  "traction": {
+    "score": 3,
+    "justification": "Early traction is promising with 200+ active users and $11,000 GMV processed, but further validation is needed to confirm product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Initial GMV of $11,000 with potential for rapid growth as user base expands.",
+      "customer_metrics": "200+ active users and 70 verified investors indicate early interest.",
+      "retention_analysis": "Retention metrics are not yet available, requiring further monitoring.",
+      "unit_economics": "Initial unit economics are favorable with low CAC and potential for high LTV."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive early feedback on platform usability and investment transparency.",
+      "product_market_fit": "Initial traction suggests alignment with market needs, but further validation is required.",
+      "notable_customers": "Partnerships with Planet of Finance and Inxy.io provide credibility.",
+      "partnerships": "Strategic partnerships are in place to support growth and deal flow."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful MVP launch and initial user onboarding."
+      ],
+      "areas_of_investigation": [
+        "Need to validate long-term retention and scalability of user acquisition."
+      ]
+    },
+    "red_flags": [
+      "Limited historical data on retention and user engagement."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with strong market growth and increasing demand for alternative investments, but regulatory challenges could pose obstacles.",
+    "market_timing": {
+      "market_readiness": "The market is ready for innovative investment platforms offering transparency and stability.",
+      "catalysts": "Growing interest in alternative assets and dissatisfaction with traditional investment options.",
+      "tailwinds": "Favorable trends in crowdinvesting and micro-investing markets.",
+      "headwinds": "Regulatory complexities in private-market investing."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in offering AI-driven scoring and liquidity options.",
+      "competitive_response": "Competitors may respond by enhancing transparency and liquidity features.",
+      "market_education": "Some market education may be required to shift investor perceptions."
+    },
+    "red_flags": [
+      "Regulatory changes could impact market entry and expansion."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The terms are not fully detailed, but the company's valuation and funding strategy appear aligned with early-stage investment criteria.",
+    "investment_details": {
+      "round_stage": "Preparing for Pre-Seed round.",
+      "raise_amount": "Specific raise amount not disclosed, but funds will be used for growth and development.",
+      "pre_money_valuation": "Valuation details not provided, requiring further clarification.",
+      "post_money_valuation": "Post-money valuation implications need to be assessed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on AI and investment platforms aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership depending on valuation and raise amount.",
+      "liquidation_preferences": "Details on liquidation preferences are not provided.",
+      "valuation_justification": "Valuation needs to be justified with comparables and growth metrics."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and term specifics."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Rivellium shows strong potential with a differentiated product, promising early traction, and alignment with market trends. However, regulatory challenges and the need for further validation of traction and terms require careful consideration.",
+    "key_factors": [
+      "Strong team with complementary skills",
+      "Innovative AI-driven platform",
+      "Favorable market timing and growth potential"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on regulatory strategy",
+      "Clarify valuation and funding terms",
+      "Monitor traction and retention metrics closely"
+    ]
+  }
+}

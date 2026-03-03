@@ -1,0 +1,158 @@
+{
+  "company_name": "Pebbles Ai",
+  "token": "5ci9390nlzxj1zwk395ci939hhk5wvbv",
+  "submitted_at": "12/1/2025 14:52:38",
+  "website": "http://trypebbles.ai",
+  "year_founded": "2023",
+  "description": "We make Go-To-Market success accessible to every B2B team by replacing expensive, guarded GTM skills, expertise, and knowledge within a collaborative Go-To-Market Operating System that connects strategy, execution, and analytics.",
+  "problem_statement": "SME growth is stuck with scarce access to top GTM talent and tech. It\u2019s a problem that is only getting worse because rapidly rising GTM complexity favours enterprise players and pushes SMEs out. It\u2019s a mission-critical problem.",
+  "pitch_deck_link": "https://drive.google.com/drive/folders/1IywyVHoY7KCkRAKV3-s3vXxpMvIwLhY9?usp=sharing",
+  "demo_link": "https://drive.google.com/drive/folders/1IywyVHoY7KCkRAKV3-s3vXxpMvIwLhY9?usp=sharing",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in B2B GTM and AI, with a proven track record of collaboration and execution. The team is well-rounded with complementary skills, and the leadership has demonstrated strategic vision and execution capability.",
+    "company_assessment": {
+      "business_model_strength": "Pebbles Ai operates a scalable SaaS model with a clear revenue structure and strong unit economics, evidenced by an 85% gross margin and a 7:1 LTV:CAC ratio.",
+      "market_positioning": "The company positions itself as an AI-native GTM operating system, differentiating from point-solution competitors by offering a holistic approach to GTM execution.",
+      "execution_capability": "The team has successfully launched a product with paying customers and a growing waitlist, demonstrating their ability to execute and scale operations.",
+      "strategic_vision": "The leadership has a clear long-term vision to democratize GTM success for SMEs, with a strategic focus on scaling distribution and expanding into new markets."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Emin Can Turan",
+        "role": "Founder & Lead Researcher",
+        "linkedin": "https://www.linkedin.com/in/emincanturan/",
+        "background": "Emin has over 10 years of experience in B2B GTM, with a strong background in strategy and execution.",
+        "domain_expertise": "Expert in B2B GTM strategies and execution.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Successfully launched Pebbles Ai with paying customers and a strong waitlist.",
+        "leadership_signals": "Demonstrated leadership in building and scaling a team, with a focus on strategic execution.",
+        "track_record": []
+      },
+      {
+        "name": "Oleksandr Knyga",
+        "role": "AI CTO",
+        "linkedin": "https://www.linkedin.com/in/oleksandr-knyga/",
+        "background": "Oleksandr has over 10 years of experience in AI architecture and systems design.",
+        "domain_expertise": "Expert in AI systems design and architecture.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Co-founded Pebbles Ai, leading the development of the AI-native GTM operating system.",
+        "leadership_signals": "Strong technical leadership and expertise in AI.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes point-solution tools like Instantly, Reply.io, Lemlist, Regie.ai, and Rohirrim.",
+      "competitor_comparison": "Competitors focus on isolated GTM workflows, while Pebbles Ai offers a comprehensive GTM operating system.",
+      "positioning_assessment": "Pebbles Ai differentiates by addressing the root cause of stalled SME growth with a unified GTM solution."
+    },
+    "red_flags": []
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The market opportunity is substantial with an $828bn TAM, supported by strong market growth rates and a clear understanding of the target customer base.",
+    "market_analysis": {
+      "total_addressable_market": "$828bn TAM, indicating a large opportunity for growth.",
+      "serviceable_addressable_market": "The company targets SMEs and scaleups, a significant portion of the TAM.",
+      "serviceable_obtainable_market": "SOM projections are realistic given the company's go-to-market strategy and traction.",
+      "market_growth_rate": "The market is experiencing rapid growth, driven by increasing GTM complexity and demand for AI solutions.",
+      "market_dynamics": "Key trends include the rise of AI in GTM processes and the need for integrated solutions."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are SMEs and scaleups with limited GTM resources.",
+      "willingness_to_pay": "Evidence of willingness to pay is strong, with paying customers and a high LTV:CAC ratio.",
+      "customer_acquisition_cost": "CAC is low, with a payback period of 2 months.",
+      "lifetime_value": "LTV is high, supported by strong retention and expansion potential."
+    },
+    "red_flags": []
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Pebbles Ai's technology is differentiated and defensible, with a strong focus on AI and a comprehensive GTM operating system.",
+    "technical_assessment": {
+      "core_technology": "The core technology is an AI-native GTM operating system that connects strategy, execution, and analytics.",
+      "defensibility": "The technology is defensible due to its comprehensive approach and integration capabilities.",
+      "intellectual_property": "All IP is fully owned by the company and developed internally.",
+      "scalability": "The technology is scalable, with infrastructure designed to support growth."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "The use of neurosymbolic agentic AI provides a unique advantage.",
+      "data_advantages": "The platform's ability to integrate and analyze data across GTM processes creates a data moat.",
+      "technical_barriers": "Competitors face barriers in replicating the comprehensive and integrated nature of the technology."
+    },
+    "red_flags": []
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has demonstrated strong early traction with paying customers, a growing waitlist, and positive customer feedback.",
+    "growth_metrics": {
+      "revenue_growth": "On track for $10k MRR with a $40k pipeline.",
+      "customer_metrics": "21 paying customers and 122 active trial users.",
+      "retention_analysis": "High retention with a 4.8/5 customer rating.",
+      "unit_economics": "Strong unit economics with a 7:1 LTV:CAC ratio."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback with a 4.8/5 rating.",
+      "product_market_fit": "Evidence of PMF with strong retention and conversion rates.",
+      "notable_customers": "21 paying customers during soft-launch.",
+      "partnerships": "12 distribution partners with significant reach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Strong early traction and positive customer feedback."
+      ],
+      "areas_of_investigation": [
+        "Scaling distribution to match demand."
+      ]
+    },
+    "red_flags": []
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with strong market demand for integrated GTM solutions and increasing complexity in GTM processes.",
+    "market_timing": {
+      "market_readiness": "The market is ready for integrated GTM solutions.",
+      "catalysts": "Increasing GTM complexity and demand for AI solutions.",
+      "tailwinds": "Favorable trends in AI adoption and GTM integration.",
+      "headwinds": "Potential challenges in scaling distribution quickly."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in offering a comprehensive GTM operating system.",
+      "competitive_response": "Competitors may respond by enhancing their offerings.",
+      "market_education": "Some market education may be required for adoption."
+    },
+    "red_flags": []
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The investment terms are reasonable, but further clarity on valuation and alignment with SV's criteria is needed.",
+    "investment_details": {
+      "round_stage": "Raising a $4M pre-seed round.",
+      "raise_amount": "$4M to accelerate distribution and market expansion.",
+      "pre_money_valuation": "Not specified, requires further discussion.",
+      "post_money_valuation": "Not specified, requires further discussion."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on scalable SaaS and AI solutions.",
+      "ownership_potential": "Potential for significant ownership and influence.",
+      "liquidation_preferences": "Not specified, requires further discussion.",
+      "valuation_justification": "Valuation needs to be justified relative to traction and market opportunity."
+    },
+    "red_flags": []
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Pebbles Ai demonstrates strong potential with a differentiated product, substantial market opportunity, and early traction. The team has the expertise and vision to execute and scale. Further discussion on investment terms and valuation is needed.",
+    "key_factors": [
+      "Strong team and leadership",
+      "Substantial market opportunity",
+      "Differentiated technology",
+      "Early traction and customer validation"
+    ],
+    "next_steps": [
+      "Engage in detailed discussions on investment terms and valuation",
+      "Explore potential strategic partnerships to accelerate distribution",
+      "Conduct further due diligence on market expansion strategy"
+    ]
+  }
+}

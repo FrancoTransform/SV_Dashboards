@@ -145,6 +145,19 @@
                         </div>
                         {% endif %}
                     </div>
+                    {% elif analysis.team.competitive_analysis %}
+                    <div class="bg-white/5 rounded-lg p-4 border border-gray-700">
+                        <h3 class="text-purple-400 text-lg font-medium mb-3">Competitive Analysis</h3>
+                        <p class="text-sm text-gray-300 mb-3">{{ analysis.team.competitive_analysis.landscape_overview }}</p>
+                        <div class="space-y-3 text-sm">
+                            {% if analysis.team.competitive_analysis.competitor_comparison %}
+                            <div><span class="text-gray-400 font-medium">Competitor Comparison:</span> <span class="text-gray-300">{{ analysis.team.competitive_analysis.competitor_comparison }}</span></div>
+                            {% endif %}
+                            {% if analysis.team.competitive_analysis.positioning_assessment %}
+                            <div><span class="text-gray-400 font-medium">Positioning:</span> <span class="text-gray-300">{{ analysis.team.competitive_analysis.positioning_assessment }}</span></div>
+                            {% endif %}
+                        </div>
+                    </div>
                     {% endif %}
                 </div>
 

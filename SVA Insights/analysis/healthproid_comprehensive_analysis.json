@@ -1,0 +1,161 @@
+{
+  "company_name": "Healthpro.id",
+  "token": "nu7iqhn62504swolg5nu7iqhqkq2eyyo",
+  "submitted_at": "12/4/2025 14:03:29",
+  "website": "https://www.healthpro.id/",
+  "year_founded": "2022",
+  "description": "On demand Automation platform of vetted healthcare workers for Hospitals & Clinics To build superior Hiring Healthcare PROFESSIONAL INSTITUTION Based On DIGITAL TECHNOLOGY that can Reach All Levels Of Industry. The market is any nurse and doctor hard to got it the job in Indonesia and awareness about healthcare in Indonesia its to small and healthcare technology in Indonesia its too late and no upgrade, so Healthpro.id present to help doctor and nurse got it job, help to upgrade healthcare technology in Indonesia, and to give knowledge about healthcare in Indonesian society, so healthpro.id need the investment to upgrade the healthcare problem in Indonesia We are customer patient, hospital, clinic",
+  "problem_statement": "because Healthpro.id want got the grant total $300.000 and Accelerator investment $300.000, Because we in Indonesian nurse and doctor hard to got it the job in Indonesia and awareness about healthcare in Indonesia its to small and healthcare technology in Indonesia its too late and no upgrade, so Healthpro.id present to help doctor and nurse got it job, help to upgrade healthcare technology in Indonesia, and to give knowledge about healthcare in Indonesian society, so healthpro.id need the investment to upgrade the healthcare problem in Indonesia",
+  "pitch_deck_link": "https://drive.google.com/file/d/1ncH6br8auA_yI_FAwJKtRTwso3FqxT3C/view?usp=sharing",
+  "demo_link": "https://drive.google.com/file/d/1ncH6br8auA_yI_FAwJKtRTwso3FqxT3C/view?usp=sharing",
+  "team": {
+    "score": 3,
+    "justification": "The founding team has relevant experience in healthcare and technology sectors, with the CEO having a diverse background in entrepreneurship and business development. However, the team size and structure may pose challenges in scaling operations effectively.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on charging hospitals and clinics for on-demand healthcare workers and HR services. The model shows potential for scalability, but the competitive positioning needs further clarity.",
+      "market_positioning": "Healthpro.id positions itself as a solution to the shortage of healthcare workers in Indonesia, with a focus on improving healthcare technology and awareness.",
+      "execution_capability": "The team has demonstrated the ability to launch and sustain operations for three years, but evidence of scaling beyond initial traction is limited.",
+      "strategic_vision": "The leadership has a clear vision of addressing healthcare workforce challenges in Indonesia, but strategic plans for expansion and diversification are not detailed."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Mr. Rendy Alfuadi",
+        "role": "Co-founder, CTPO, and COO",
+        "linkedin": "https://www.linkedin.com/in/rendyalfuadi/",
+        "background": "Mr. Rendy Alfuadi has a background in entrepreneurship, banking, and marketing. He has co-founded multiple startups and has experience in business development.",
+        "domain_expertise": "Experience in healthcare technology and business development.",
+        "previous_startups": "Co-founder at Homecare24.id and other ventures.",
+        "notable_achievements": "Awarded by the Ministry of Health Indonesia as best health-tech innovation.",
+        "leadership_signals": "Demonstrated leadership in previous roles and current venture.",
+        "track_record": [
+          {
+            "company": "Homecare24.id",
+            "role": "Co-Founder",
+            "outcome": "Ongoing",
+            "learnings": "Gained insights into healthcare service delivery and technology integration."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The healthcare staffing and technology market in Indonesia is emerging, with few established players.",
+      "competitor_comparison": "Competitors like hellodoc face challenges in hospital and clinic engagement, which Healthpro.id aims to address.",
+      "positioning_assessment": "Healthpro.id differentiates by focusing on ease of use and improving patient care through technology."
+    },
+    "red_flags": [
+      "Team size may limit scalability and execution capacity."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The healthcare market in Indonesia is large and growing, with significant unmet needs in workforce management and technology adoption.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM for healthcare staffing and technology in Indonesia is substantial, driven by a large population and increasing healthcare needs.",
+      "serviceable_addressable_market": "SAM is focused on hospitals and clinics in urban areas initially, with potential to expand to rural regions.",
+      "serviceable_obtainable_market": "SOM projections are based on current traction and planned market penetration strategies.",
+      "market_growth_rate": "The healthcare sector in Indonesia is experiencing a CAGR of approximately 10%, driven by increased government spending and private sector investment.",
+      "market_dynamics": "Key trends include digital transformation in healthcare, increasing demand for skilled healthcare workers, and government initiatives to improve healthcare access."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include hospital administrators, clinic managers, and healthcare professionals.",
+      "willingness_to_pay": "Evidence suggests hospitals and clinics are willing to pay for reliable staffing solutions and technology upgrades.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but initial traction indicates a viable acquisition strategy.",
+      "lifetime_value": "LTV is expected to be high due to recurring revenue from staffing and HR services."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating rural markets due to infrastructure limitations."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The platform offers a digital solution for healthcare staffing, but technical differentiation and defensibility are not fully articulated.",
+    "technical_assessment": {
+      "core_technology": "The platform automates the matching of healthcare workers with hospitals and clinics.",
+      "defensibility": "Limited information on technical barriers to entry or unique IP.",
+      "intellectual_property": "No patents or proprietary technology mentioned.",
+      "scalability": "The platform is scalable, but infrastructure requirements for expansion are not detailed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No specific algorithms or technical innovations highlighted.",
+      "data_advantages": "Potential data advantages from workforce management insights.",
+      "technical_barriers": "No significant barriers preventing competitors from replicating the technology."
+    },
+    "red_flags": [
+      "Lack of clear technical differentiation and IP strategy."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "The company has achieved significant traction with $1M in annual revenue and a strong customer base, indicating product-market fit.",
+    "growth_metrics": {
+      "revenue_growth": "Annual revenue of $1M with a positive growth trajectory.",
+      "customer_metrics": "100 B2B active customers and 50,000 shifts fulfilled.",
+      "retention_analysis": "Retention metrics are not detailed, but customer growth suggests satisfaction.",
+      "unit_economics": "Margins of 25-40% on staffing services indicate healthy unit economics."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from hospitals and clinics, evidenced by repeat business.",
+      "product_market_fit": "Strong PMF indicated by revenue and customer growth.",
+      "notable_customers": "Includes hospitals and clinics across Indonesia.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Awarded by the Ministry of Health Indonesia as best health-tech innovation."
+      ],
+      "areas_of_investigation": [
+        "Further validation of customer retention and satisfaction metrics."
+      ]
+    },
+    "red_flags": [
+      "Lack of detailed retention and churn analysis."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing demand for healthcare services and digital solutions in Indonesia.",
+    "market_timing": {
+      "market_readiness": "The market is ready for digital transformation in healthcare staffing.",
+      "catalysts": "Government initiatives and increasing healthcare demand are key catalysts.",
+      "tailwinds": "Favorable regulatory environment and growing healthcare investment.",
+      "headwinds": "Potential economic instability and infrastructure challenges."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in digital healthcare staffing in Indonesia.",
+      "competitive_response": "Competitors may respond by enhancing their digital offerings.",
+      "market_education": "Some market education required to drive adoption of digital solutions."
+    },
+    "red_flags": [
+      "Economic and regulatory uncertainties could impact growth."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The investment terms are not fully detailed, but the funding request aligns with the company's growth objectives.",
+    "investment_details": {
+      "round_stage": "Currently fundraising for a $300,000 grant and $300,000 accelerator investment.",
+      "raise_amount": "Total raise of $600,000 to enhance technology and market reach.",
+      "pre_money_valuation": "Valuation details not provided.",
+      "post_money_valuation": "Ownership implications not detailed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The investment aligns with SV's focus on healthcare technology and workforce solutions.",
+      "ownership_potential": "Potential for significant ownership stake given early-stage investment.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation justification requires further analysis based on comparables."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and ownership terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Healthpro.id demonstrates strong traction and market potential in a growing sector. The team has relevant experience, and the market timing is favorable. However, further due diligence is needed on technical differentiation and detailed financial terms.",
+    "key_factors": [
+      "Strong market demand, proven traction, experienced team."
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on technology and financial terms, explore strategic partnerships, and validate customer retention metrics."
+    ]
+  }
+}

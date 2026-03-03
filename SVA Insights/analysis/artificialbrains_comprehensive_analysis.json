@@ -1,0 +1,156 @@
+{
+  "company_name": "Artificial Brains",
+  "token": "kh1cmfz8l4etyemh4trkh1cmfz8jmu3v",
+  "submitted_at": "10/3/2025 20:32:41",
+  "website": "https://artificialbrains.ai",
+  "year_founded": "2025",
+  "description": "Artificial Brains captures work-related know-how before an employee leaves, and transfer it to the new hire. Cutting 70% of IP loss cost, and onboarding time from 8 months to 3. We have our Beta ready, a LOI of a 100+ employee company in LA, and a partnership with Hacking HR for our GTM, a 1M+ HR professionals community.",
+  "problem_statement": "Every year, 36M highly skilled U.S. workers change jobs (resignations, retirements, promotions, leaves). Most companies still rely on ad-hoc Word docs for job handovers, leaving critical know-how uncaptured. This gap costs ~$50K per departure, disrupts project continuity, and extends new-hire onboarding to an average of 8 months before reaching full productivity.",
+  "pitch_deck_link": "https://www.canva.com/design/DAGr-yzmsNM/1JF4YiHNOFRsfpV8Mv2Q1A/view?utm_content=DAGr-yzmsNM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h542ba99aea",
+  "demo_link": "https://youtu.be/hpKw2EmhOzc",
+  "team": {
+    "score": 3,
+    "justification": "The founder is a solo entrepreneur with both technical and business expertise, having built the beta product independently. However, the team is currently very small, with only one additional G&A member, which may limit execution capacity. The founder has advisors with relevant expertise, but the lack of a broader founding team is a concern.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on a subscription fee of $139/month per role, which is straightforward but may face pricing pressure from larger HR systems.",
+      "market_positioning": "Artificial Brains positions itself uniquely by focusing on the knowledge gap between offboarding and onboarding, a niche not directly addressed by major HR systems.",
+      "execution_capability": "The founder has demonstrated execution capability by developing the beta product and securing a LOI, but scaling operations with a small team could be challenging.",
+      "strategic_vision": "The strategic vision is clear in addressing a specific pain point in the HR lifecycle, but the long-term vision for scaling and market penetration needs further development."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Solo Founder",
+        "role": "CEO",
+        "linkedin": "N/A",
+        "background": "The founder has a background in both technical and business domains, having transitioned from medical education to technology and entrepreneurship.",
+        "domain_expertise": "Expertise in knowledge transfer and HR technology.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Developed an enterprise-grade beta product independently.",
+        "leadership_signals": "Demonstrated leadership in product development and securing initial partnerships.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes major HR systems like Workday and ADP, which focus on business processes rather than knowledge transfer.",
+      "competitor_comparison": "Direct competitors focus on different stages of the employee lifecycle or general knowledge management, not specifically on the transition phase.",
+      "positioning_assessment": "Artificial Brains differentiates itself by addressing the specific gap in knowledge transfer during employee transitions."
+    },
+    "red_flags": [
+      "Small team size and lack of a broader founding team."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a TAM of $120 billion per month. The focus on high-knowledge industries provides a clear niche, and the problem of IP loss is significant and costly.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $120 billion per month, indicating a large potential market.",
+      "serviceable_addressable_market": "SAM is not explicitly detailed, but the focus on medium to large organizations in high-knowledge industries suggests a significant portion of the TAM is serviceable.",
+      "serviceable_obtainable_market": "SOM projections are not provided, but initial traction with a LOI and partnerships indicate potential for market capture.",
+      "market_growth_rate": "The market is likely growing due to increasing job mobility and the need for efficient knowledge transfer.",
+      "market_dynamics": "Key trends include high employee turnover and the increasing importance of knowledge management in maintaining productivity."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are HR teams in medium to large organizations in industries like Pharma, Bio, and Aerospace.",
+      "willingness_to_pay": "The pricing model suggests some evidence of willingness to pay, but further validation is needed.",
+      "customer_acquisition_cost": "CAC is not detailed, but the partnership with Hacking HR could lower acquisition costs.",
+      "lifetime_value": "LTV is not calculated, but the recurring revenue model suggests potential for high LTV if retention is strong."
+    },
+    "red_flags": [
+      "Lack of detailed SAM and SOM analysis."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology is AI-native and developed by the founder, indicating a strong technical foundation. However, defensibility and scalability need further exploration.",
+    "technical_assessment": {
+      "core_technology": "The platform is AI-native, designed to capture and transfer work-related know-how.",
+      "defensibility": "Technical barriers to entry are not clearly defined, and the competitive moat is not fully established.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "The platform's scalability is not detailed, but the small team may limit rapid scaling."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No specific proprietary algorithms mentioned.",
+      "data_advantages": "Potential data advantages from capturing unique knowledge transfer data.",
+      "technical_barriers": "Barriers to replication are not clearly articulated."
+    },
+    "red_flags": [
+      "Lack of clear IP strategy and scalability plan."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company is in the early stages with a beta release and a LOI, but no paying customers yet. The partnership with Hacking HR is a positive signal.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue yet, as the company is pre-revenue.",
+      "customer_metrics": "One LOI from a 100+ employee company, with ongoing discussions with others.",
+      "retention_analysis": "No retention data available due to early stage.",
+      "unit_economics": "Unit economics are not detailed, but the subscription model suggests potential for positive margins."
+    },
+    "market_validation": {
+      "customer_feedback": "Initial feedback from discovery calls with HR leaders.",
+      "product_market_fit": "Early signs of PMF with a LOI and partnership, but further validation needed.",
+      "notable_customers": "No paying customers yet.",
+      "partnerships": "Partnership with Hacking HR for marketing and outreach."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Beta release, LOI, and partnership with Hacking HR."
+      ],
+      "areas_of_investigation": [
+        "Need to secure paying customers and validate pricing model."
+      ]
+    },
+    "red_flags": [
+      "Lack of paying customers and revenue."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to high employee turnover and the increasing need for efficient knowledge transfer solutions.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that address the costly problem of IP loss during employee transitions.",
+      "catalysts": "High job mobility and the need for rapid onboarding are key catalysts.",
+      "tailwinds": "Trends towards remote work and digital transformation support the need for knowledge transfer solutions.",
+      "headwinds": "Potential resistance from established HR systems and the need for market education."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in focusing specifically on the transition phase.",
+      "competitive_response": "Larger HR systems may respond by integrating similar features.",
+      "market_education": "Significant market education may be required to shift existing processes."
+    },
+    "red_flags": [
+      "Potential competitive response from established HR systems."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising, but specific terms and valuation details are not provided.",
+    "investment_details": {
+      "round_stage": "Pre-seed stage.",
+      "raise_amount": "Not specified.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "The focus on HR technology aligns with SV's investment criteria.",
+      "ownership_potential": "Potential for significant ownership given early stage.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details are not provided, making justification difficult."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company has a promising concept and favorable market timing, but the lack of a broader team, paying customers, and detailed investment terms are concerns. Further validation of the business model and traction is needed.",
+    "key_factors": [
+      "Promising market opportunity and unique positioning.",
+      "Early stage with limited traction and team size."
+    ],
+    "next_steps": [
+      "Encourage the founder to build a broader team and secure initial paying customers.",
+      "Request detailed investment terms and valuation."
+    ]
+  }
+}

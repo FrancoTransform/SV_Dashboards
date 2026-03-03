@@ -1,0 +1,183 @@
+{
+  "company_name": "Heal",
+  "token": "789raklycdos82og1aznn789rakl6er2",
+  "submitted_at": "9/14/2025 0:39:05",
+  "website": "https://www.tryheal.ai",
+  "year_founded": "2024",
+  "description": "Heal is the front door to healthcare for employees: a single, AI-native platform that unifies health data, benefits, and in-network providers. Employees get instant, personalized guidance and easy care scheduling; employers reduce HR questions and avoid unnecessary medical spend. Deploys via IT budgets with no integrations, enabling fast pilots.",
+  "problem_statement": "U.S. healthcare is complex and fragmented, making it hard for employees to understand coverage, find in-network care, and determine next steps. Benefits go unused. HR is flooded with repetitive questions, and self-insured employers and payors incur avoidable costs. Existing navigation tools fail to engage employees and are rarely used, which makes them ineffective. This matters because poor navigation delays care, worsens outcomes, reduces satisfaction, and drives overspending.",
+  "pitch_deck_link": "https://brieflink.com/v/jp1yk",
+  "demo_link": "https://www.youtube.com/watch?v=lL9c15lrkhU",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong track record of execution and complementary skills. Onur Kardesler and Ece Cokar have previously co-founded and scaled a venture-backed startup, demonstrating their ability to work together effectively. However, their lack of deep healthcare industry experience is a concern.",
+    "company_assessment": {
+      "business_model_strength": "Heal's B2B2C model targets employers with a PEPM pricing structure, which is scalable and aligns with industry standards. The secondary revenue stream from referrals adds potential upside.",
+      "market_positioning": "Heal differentiates itself by offering an AI-native platform that integrates health data and benefits without requiring complex integrations, positioning it as a user-friendly solution.",
+      "execution_capability": "The team has demonstrated strong execution capability with 38K active users and a successful pilot with Chobani, indicating their ability to deliver and scale.",
+      "strategic_vision": "The leadership has a clear vision to reduce healthcare navigation complexity and costs, with a strategic focus on leveraging IT budgets for faster deployment."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Onur Kardesler",
+        "role": "CEO & CTO",
+        "linkedin": "https://www.linkedin.com/in/onurkardesler/",
+        "background": "Onur has a strong background in product and engineering, having co-founded a previous venture-backed startup.",
+        "domain_expertise": "While Onur has significant technical expertise, his healthcare industry experience is limited.",
+        "previous_startups": "Co-founded a venture-backed startup with Ece Cokar, demonstrating successful collaboration.",
+        "notable_achievements": "Scaled a previous startup, showcasing execution capability.",
+        "leadership_signals": "Proven leadership in product development and team management.",
+        "track_record": [
+          {
+            "company": "Previous Startup",
+            "role": "Co-Founder",
+            "outcome": "Scaled successfully",
+            "learnings": "Gained experience in fast execution and product-market fit."
+          }
+        ]
+      },
+      {
+        "name": "Ece Cokar",
+        "role": "COO",
+        "linkedin": "https://www.linkedin.com/in/ece-cokar-48319037/",
+        "background": "Ece has a background in sales and go-to-market strategies, complementing Onur's technical skills.",
+        "domain_expertise": "Strong in sales and GTM, but lacks deep healthcare industry experience.",
+        "previous_startups": "Co-founded a venture-backed startup with Onur Kardesler.",
+        "notable_achievements": "Led sales and GTM efforts in previous ventures.",
+        "leadership_signals": "Demonstrated ability to drive sales and market entry.",
+        "track_record": [
+          {
+            "company": "Previous Startup",
+            "role": "Co-Founder",
+            "outcome": "Scaled successfully",
+            "learnings": "Developed strong GTM strategies and sales execution."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The healthcare navigation market includes players like Accolade, Rightway, and Castlight. These competitors rely on human navigators, which Heal aims to surpass with AI-driven solutions.",
+      "competitor_comparison": "Competitors have low employee adoption due to reliance on call-center models. Heal's AI integration offers a more engaging and efficient solution.",
+      "positioning_assessment": "Heal's AI-native platform and focus on IT budgets for deployment provide a competitive edge in terms of speed and user engagement."
+    },
+    "red_flags": [
+      "Limited healthcare industry experience among founders."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The U.S. employer-sponsored insurance market is substantial, with a TAM of $5B. Heal's focus on a $10B opportunity indicates significant market potential.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $5B, based on 100M covered individuals at $5 PEPM.",
+      "serviceable_addressable_market": "SAM is substantial, given the large number of self-insured employers seeking cost-effective solutions.",
+      "serviceable_obtainable_market": "SOM projections are promising, with Heal's rapid deployment model and IT budget targeting.",
+      "market_growth_rate": "The market is expected to grow as employers seek to reduce healthcare costs and improve employee satisfaction.",
+      "market_dynamics": "Key trends include increasing healthcare costs, demand for digital solutions, and AI adoption in enterprise settings."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are self-insured employers and their employees, with decision-makers in IT and HR departments.",
+      "willingness_to_pay": "Employers are motivated to reduce costs and improve employee engagement, supporting willingness to pay.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed but is likely favorable given the direct-to-employer sales model.",
+      "lifetime_value": "LTV is potentially high due to recurring revenue from PEPM pricing and additional referral fees."
+    },
+    "red_flags": [
+      "Potential challenges in penetrating the healthcare market without deep industry connections."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "Heal's AI-native platform offers technical differentiation and scalability, though the lack of patents or proprietary IP is a concern.",
+    "technical_assessment": {
+      "core_technology": "The platform integrates health data and benefits using AI, providing personalized guidance and scheduling.",
+      "defensibility": "AI-driven personalization and integration with provider networks offer competitive moats.",
+      "intellectual_property": "No patents or trade secrets mentioned, which could impact defensibility.",
+      "scalability": "The platform is designed for scalability, with no integration requirements for deployment."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "AI algorithms provide personalized healthcare navigation, enhancing user experience.",
+      "data_advantages": "Integration with health data and provider networks creates data-driven advantages.",
+      "technical_barriers": "AI integration and user engagement create barriers for competitors relying on human navigators."
+    },
+    "red_flags": [
+      "Lack of patents or proprietary IP could affect long-term defensibility."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong early traction with 38K active users and a successful pilot with Chobani. Growth metrics and customer validation are promising.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue from the consumer app is modest but growing, with enterprise pilots indicating future potential.",
+      "customer_metrics": "38K active users and 20% MoM growth demonstrate strong user engagement.",
+      "retention_analysis": "Retention metrics are not detailed, but high engagement suggests positive retention.",
+      "unit_economics": "Unit economics are favorable with a PEPM model and additional referral revenue."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive user feedback and high engagement indicate strong product-market fit.",
+      "product_market_fit": "Evidence of PMF with high user engagement and successful enterprise pilot.",
+      "notable_customers": "Chobani as a design partner validates enterprise interest.",
+      "partnerships": "Potential for strategic partnerships with care partners and pharmacies."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Successful pilot with Chobani and strong consumer app engagement."
+      ],
+      "areas_of_investigation": [
+        "Further validation of enterprise sales cycle and scalability."
+      ]
+    },
+    "red_flags": [
+      "Limited enterprise contracts signed to date."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Favorable market timing with increasing demand for digital healthcare solutions and AI adoption. However, competitive response and market education are potential challenges.",
+    "market_timing": {
+      "market_readiness": "The market is ready for AI-driven healthcare solutions, with employers seeking cost reductions.",
+      "catalysts": "Rising healthcare costs and demand for digital solutions are key catalysts.",
+      "tailwinds": "AI adoption and enterprise IT budget allocations support growth.",
+      "headwinds": "Potential regulatory challenges and market education requirements."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into AI-driven healthcare navigation offers a first-mover advantage.",
+      "competitive_response": "Competitors may respond with similar AI solutions, requiring continuous innovation.",
+      "market_education": "Educating the market on AI benefits and integration is necessary for adoption."
+    },
+    "red_flags": [
+      "Potential regulatory challenges and need for market education."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Current terms are not detailed, but alignment with IT budgets and rapid deployment are positive. Valuation and ownership implications need further exploration.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising, but previously raised $1M.",
+      "raise_amount": "Future raise amounts and use of funds not specified.",
+      "pre_money_valuation": "Valuation details not provided, requiring further exploration.",
+      "post_money_valuation": "Ownership implications and valuation methodology need clarification."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on digital health and AI solutions.",
+      "ownership_potential": "Potential for significant ownership with early-stage investment.",
+      "liquidation_preferences": "Details on liquidation preferences and investor protections not provided.",
+      "valuation_justification": "Valuation relative to comparables and metrics needs further analysis."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Heal demonstrates strong early traction, a scalable business model, and a compelling AI-driven solution in a large market. While there are concerns about healthcare industry experience and IP defensibility, the team's execution capability and market timing are promising.",
+    "key_factors": [
+      "Strong early traction and user engagement",
+      "Scalable business model with PEPM pricing",
+      "AI-driven differentiation and rapid deployment"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on healthcare industry connections",
+      "Explore potential strategic partnerships",
+      "Clarify valuation and investment terms"
+    ]
+  }
+}

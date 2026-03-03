@@ -1,0 +1,181 @@
+{
+  "company_name": "Origin",
+  "token": "usu2x0wjlgdf1gcv7usugaobdfa3168t",
+  "submitted_at": "8/20/2025 2:17:19",
+  "website": "https://www.theoriginway.com/",
+  "year_founded": "2020",
+  "description": "Origin is the only scaled provider in women\u2019s MSK with virtual care in 50 states, in-person care in 17 clinics, and 50M covered lives - trusted experts in the pelvic floor and female body. We\u2019re creating a higher standard of care and increasing access to this essential piece of women\u2019s health.",
+  "problem_statement": "Massive market, that is unmet. 1 out of 3 women face issues that Origin treats, and we are the only scaled, in-network provider, with best in class outcomes.",
+  "pitch_deck_link": "https://docsend.com/view/aqg5kv6e9x2nhf5y",
+  "demo_link": "https://www.theoriginway.com/",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has strong domain expertise in women's health and a proven track record of execution. The team is well-rounded with complementary skills, and the leadership has demonstrated strategic vision and execution capability.",
+    "company_assessment": {
+      "business_model_strength": "Origin operates on a fee-for-service model with contracts covering 50 million lives, indicating strong revenue potential and scalability.",
+      "market_positioning": "Origin is uniquely positioned as the only scaled, in-network provider for women's MSK care, differentiating itself from competitors with superior outcomes.",
+      "execution_capability": "The team has successfully scaled operations to 17 clinics and virtual care in 50 states, demonstrating strong execution capability.",
+      "strategic_vision": "The leadership has a clear vision to improve payer rates and expand access to women's health services, indicating strategic foresight."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "David Yadegar",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/david-yadegar-020a064/",
+        "background": "David has a background in healthcare and entrepreneurship, with experience in scaling healthcare operations.",
+        "domain_expertise": "Extensive expertise in healthcare operations and business development.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Successfully scaled Origin to cover 50 million lives.",
+        "leadership_signals": "Demonstrated ability to lead and grow a healthcare startup.",
+        "track_record": []
+      },
+      {
+        "name": "Carine Carmy",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/carinecarmy/",
+        "background": "Carine has a background in marketing and business strategy, with experience in healthcare.",
+        "domain_expertise": "Strong expertise in marketing and strategic growth in healthcare.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Instrumental in developing Origin's market positioning and growth strategy.",
+        "leadership_signals": "Proven ability to drive strategic growth and market expansion.",
+        "track_record": []
+      },
+      {
+        "name": "Nona Farahnik Yadegar",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/nona-farahnik-yadegar-04257525/",
+        "background": "Nona has a background in healthcare and entrepreneurship.",
+        "domain_expertise": "Expertise in healthcare operations and strategic partnerships.",
+        "previous_startups": "No prior startups mentioned.",
+        "notable_achievements": "Key role in establishing strategic partnerships and scaling operations.",
+        "leadership_signals": "Strong leadership in operational scaling and partnership development.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes mom-and-pop providers, hospital systems, and digital-only solutions like Hinge and Sword.",
+      "competitor_comparison": "Origin differentiates with in-network services and superior clinical outcomes compared to digital-only competitors.",
+      "positioning_assessment": "Origin's in-network status and superior outcomes provide a strong competitive advantage."
+    },
+    "red_flags": [
+      "Potential reliance on payer negotiations for improved rates."
+    ]
+  },
+  "tam": {
+    "score": 5,
+    "justification": "The market for women's MSK care is substantial, with a TAM of $225 billion and a large, underserved population.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is estimated at $225 billion, with 40-85 million women needing care annually.",
+      "serviceable_addressable_market": "The SAM is significant given the large number of women facing MSK issues.",
+      "serviceable_obtainable_market": "SOM projections are strong due to Origin's unique positioning and payer contracts.",
+      "market_growth_rate": "The market is growing as awareness and demand for women's health services increase.",
+      "market_dynamics": "Key trends include increasing awareness of women's health issues and demand for specialized care."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are women across various life stages facing MSK issues.",
+      "willingness_to_pay": "Evidence of willingness to pay is strong due to insurance coverage and necessity of care.",
+      "customer_acquisition_cost": "CAC is likely optimized through provider referrals and word of mouth.",
+      "lifetime_value": "LTV is high given the recurring nature of care and insurance coverage."
+    },
+    "red_flags": [
+      "Dependence on payer contracts for revenue."
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "While the technology stack includes third-party components, the core offering is differentiated by clinical outcomes.",
+    "technical_assessment": {
+      "core_technology": "The technology stack includes an EMR and RCM platform, with a focus on clinical outcomes.",
+      "defensibility": "Defensibility is moderate due to reliance on third-party components.",
+      "intellectual_property": "No specific IP strategy mentioned.",
+      "scalability": "Scalability is supported by the existing infrastructure and clinic network."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms mentioned.",
+      "data_advantages": "Potential data advantages from clinical outcomes and patient data.",
+      "technical_barriers": "Barriers include clinical expertise and established payer contracts."
+    },
+    "red_flags": [
+      "Reliance on third-party technology components."
+    ]
+  },
+  "traction": {
+    "score": 5,
+    "justification": "Strong traction with significant revenue growth, a large patient base, and extensive payer contracts.",
+    "growth_metrics": {
+      "revenue_growth": "Revenue has grown from $9 million to $15 million on a run rate basis.",
+      "customer_metrics": "Over 120,000 patient visits annually with 5,000 referring providers.",
+      "retention_analysis": "High retention likely due to necessity of care and insurance coverage.",
+      "unit_economics": "Positive unit economics with fee-for-service model and payer contracts."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive customer feedback and high satisfaction with clinical outcomes.",
+      "product_market_fit": "Strong PMF indicated by rapid growth and extensive payer coverage.",
+      "notable_customers": "Large base of covered lives and referring providers.",
+      "partnerships": "Strategic partnerships with payers and healthcare providers."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Rapid revenue growth and extensive payer contracts."
+      ],
+      "areas_of_investigation": [
+        "Potential challenges in negotiating better payer rates."
+      ]
+    },
+    "red_flags": [
+      "Potential challenges in payer negotiations."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Favorable market timing with increasing awareness and demand for women's health services.",
+    "market_timing": {
+      "market_readiness": "The market is ready for specialized women's MSK care.",
+      "catalysts": "Catalysts include increasing awareness and demand for women's health services.",
+      "tailwinds": "Favorable trends in healthcare and insurance coverage.",
+      "headwinds": "Potential regulatory challenges and payer negotiations."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "First-mover advantage in scaled, in-network women's MSK care.",
+      "competitive_response": "Competitors may respond with improved offerings, but Origin's scale provides an advantage.",
+      "market_education": "Market education is ongoing, with increasing awareness of women's health issues."
+    },
+    "red_flags": [
+      "Potential regulatory challenges."
+    ]
+  },
+  "terms": {
+    "score": 4,
+    "justification": "Investment terms are favorable with a strong alignment with SemperVirens' focus on healthcare innovation.",
+    "investment_details": {
+      "round_stage": "Series B",
+      "raise_amount": "Not specified, but seeking better payer rates.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Strong alignment with SV's focus on healthcare and women's health innovation.",
+      "ownership_potential": "Potential for significant ownership given growth trajectory.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation likely justified by revenue growth and market position."
+    },
+    "red_flags": [
+      "Lack of specific valuation details."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "Origin demonstrates strong traction, a large market opportunity, and a unique market position in women's health. The team has proven execution capability and strategic vision, aligning well with SemperVirens' investment criteria.",
+    "key_factors": [
+      "Strong market position",
+      "Significant revenue growth",
+      "Large TAM",
+      "Experienced team"
+    ],
+    "next_steps": [
+      "Conduct deeper due diligence on payer negotiations and technology stack",
+      "Evaluate potential for improved payer rates",
+      "Assess scalability of clinic operations"
+    ]
+  }
+}

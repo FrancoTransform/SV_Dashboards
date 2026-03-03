@@ -1,0 +1,195 @@
+{
+  "company_name": "RollUp, inc.",
+  "token": "eosnspk5j39mhnheosg6p5mwco4kofvo",
+  "submitted_at": "11/27/2025 10:10:29",
+  "website": "https://www.rollupapp.com",
+  "year_founded": "2024",
+  "description": "RollUp digitizes the fragmented local hauling market with our AI-driven, on-demand logistics platform that automates operations, predicts pricing, and maps real-time demand. We are post-revenue, have secured early partnerships, and are raising a round to scale user adoption.",
+  "problem_statement": "Local hauling is a huge $53B market, covering things like moving furniture, clearing junk, or transporting secondhand items, but it\u2019s messy and inefficient. People waste hours getting quotes, dealing with unpredictable service, high costs, and limited availability. Current options either lack tech, are expensive, or don\u2019t work well for small, frequent jobs. Every week, millions of people, including DIY renovators, apartment renters, homeowners decluttering, or buyers of secondhand goods need help moving heavy items or hauling debris. Right now, each job is handled in a vacuum, wasting time and leaving workers underused. There\u2019s a real need for a single platform that connects these jobs, makes them predictable, and uses data to optimize local hauling in real time.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1c-PgC3KEND6VfzRI6gqAWlAuWFopSLDn/view?usp=sharing",
+  "demo_link": "https://youtu.be/kRvSJVOkQRQ?si=Wqw7x5bzUHQEmE1l",
+  "team": {
+    "score": 4,
+    "justification": "The founding team has a strong background in entrepreneurship and technology, with prior successful exits and relevant industry experience. The CTO's background as a Google-Alum and AI Engineer adds significant technical credibility.",
+    "company_assessment": {
+      "business_model_strength": "RollUp's business model is robust, with a multi-pronged revenue approach including transactional, recurring, and future data-driven streams. The 21.5% take rate on jobs provides a solid revenue base.",
+      "market_positioning": "RollUp positions itself uniquely by integrating AI-driven logistics into the local hauling market, differentiating from traditional and gig-based competitors.",
+      "execution_capability": "The team has demonstrated execution capability by securing early partnerships and generating revenue post-launch.",
+      "strategic_vision": "The strategic vision includes scaling operations, enhancing technology, and expanding market reach, with a focus on building a defensible marketplace."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Connor Santana",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/connor-santana-2294b0177/",
+        "background": "Connor has a background in real estate investment and entrepreneurship, having successfully exited a previous startup.",
+        "domain_expertise": "Expertise in logistics and real estate markets.",
+        "previous_startups": "Pract-Eco Solutions LLC, successfully exited.",
+        "notable_achievements": "Successful exit of previous startup, securing early partnerships for RollUp.",
+        "leadership_signals": "Demonstrated leadership in building and scaling startups.",
+        "track_record": [
+          {
+            "company": "Pract-Eco Solutions LLC",
+            "role": "Co-Founder",
+            "outcome": "Successful exit",
+            "learnings": "Gained experience in scaling operations and strategic partnerships."
+          }
+        ]
+      },
+      {
+        "name": "Wesley Reardan",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/wreardan/",
+        "background": "Wesley is a Google-Alum and AI Engineer with a strong technical background.",
+        "domain_expertise": "AI and technology strategy.",
+        "previous_startups": "N/A",
+        "notable_achievements": "Developed AI-driven logistics platform for RollUp.",
+        "leadership_signals": "Strong technical leadership and strategic vision.",
+        "track_record": []
+      },
+      {
+        "name": "Bella Santana",
+        "role": "CMO",
+        "linkedin": "https://www.linkedin.com/in/bella-santana-b02104318/",
+        "background": "Bella has a background in marketing and entrepreneurship.",
+        "domain_expertise": "Marketing and customer acquisition.",
+        "previous_startups": "Pract-Eco Solutions LLC, successfully exited.",
+        "notable_achievements": "Led marketing strategy for RollUp, securing early traction.",
+        "leadership_signals": "Effective in building brand and customer base.",
+        "track_record": [
+          {
+            "company": "Pract-Eco Solutions LLC",
+            "role": "Co-Founder",
+            "outcome": "Successful exit",
+            "learnings": "Experience in marketing and scaling customer acquisition."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The local hauling market is fragmented with traditional haulers, gig platforms, and freight marketplaces.",
+      "competitor_comparison": "Competitors like Dolly and GOShare lack AI-driven optimization and enterprise integration. Traditional haulers are asset-heavy and not tech-enabled.",
+      "positioning_assessment": "RollUp differentiates through AI-driven logistics, predictive pricing, and strategic B2B2C partnerships."
+    },
+    "red_flags": [
+      "Limited team size may impact scaling efforts."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The local logistics market is substantial at $53B, with significant growth potential driven by gig economy trends and increasing demand for hyperlocal logistics solutions.",
+    "market_analysis": {
+      "total_addressable_market": "$53B, based on local logistics market size.",
+      "serviceable_addressable_market": "Focused on B2B2C partnerships and consumer-driven moves.",
+      "serviceable_obtainable_market": "Realistic capture through strategic partnerships and market penetration.",
+      "market_growth_rate": "Projected growth driven by gig economy expansion and second-hand commerce.",
+      "market_dynamics": "Key trends include rising geographic mobility and demand for flexible, on-demand labor."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers include DIY renovators, apartment renters, and businesses with repeatable hauling needs.",
+      "willingness_to_pay": "Evidence of willingness to pay through repeat usage and high LTV.",
+      "customer_acquisition_cost": "Reduced CAC through B2B2C partnerships.",
+      "lifetime_value": "LTV of $89 post-take rate, indicating strong customer retention."
+    },
+    "red_flags": [
+      "Market education required to shift traditional hauling behaviors."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "RollUp's AI-driven platform offers technical differentiation and scalability, with potential for data-driven insights as a competitive moat.",
+    "technical_assessment": {
+      "core_technology": "AI-driven logistics platform automating operations and predicting pricing.",
+      "defensibility": "Proprietary algorithms and data-driven insights provide competitive moats.",
+      "intellectual_property": "No specific IP strategy mentioned, but proprietary technology is a key asset.",
+      "scalability": "Platform designed for scalability with potential for API and subscription models."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "AI-driven fair-market pricing and predictive logistics.",
+      "data_advantages": "Proprietary demand data and predictive insights.",
+      "technical_barriers": "AI and data-driven approach difficult for competitors to replicate."
+    },
+    "red_flags": [
+      "Potential IP vulnerabilities without formal protection."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "Strong early traction with strategic partnerships, revenue generation, and customer validation. Positive growth metrics and market validation signals.",
+    "growth_metrics": {
+      "revenue_growth": "Post-revenue with predictable, high-margin revenue from job take rates.",
+      "customer_metrics": "861 accounts created, 231 jobs completed, 89 paying customers.",
+      "retention_analysis": "Repeat usage and high LTV indicate strong retention.",
+      "unit_economics": "Positive unit economics with 21.5% take rate and LTV of $89."
+    },
+    "market_validation": {
+      "customer_feedback": "5-star app store rating and positive customer testimonials.",
+      "product_market_fit": "Evidence of PMF through repeat usage and strategic partnerships.",
+      "notable_customers": "In talks with Goodwill Colorado for a pilot program.",
+      "partnerships": "9 partners with repeat revenue, including consignment stores and self-storage facilities."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Secured early partnerships, positive customer feedback, and revenue generation."
+      ],
+      "areas_of_investigation": [
+        "Scaling operations and expanding market reach."
+      ]
+    },
+    "red_flags": [
+      "Limited runway of 5 months requires urgent funding."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Favorable market timing with growing demand for on-demand logistics and gig economy expansion. RollUp is well-positioned to capitalize on these trends.",
+    "market_timing": {
+      "market_readiness": "Market is ready for digital transformation in local hauling.",
+      "catalysts": "Gig economy growth and second-hand commerce driving demand.",
+      "tailwinds": "Increasing geographic mobility and demand for flexible labor.",
+      "headwinds": "Market education required to shift traditional behaviors."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Early entry into AI-driven local hauling provides a competitive edge.",
+      "competitive_response": "Potential for competitive response from traditional haulers and gig platforms.",
+      "market_education": "Efforts needed to educate market on digital hauling solutions."
+    },
+    "red_flags": [
+      "Potential competitive response from established players."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Current fundraising efforts are critical for scaling, but terms and valuation details are not fully disclosed, posing potential risks.",
+    "investment_details": {
+      "round_stage": "Raising a round to scale user adoption.",
+      "raise_amount": "Not specified, but critical for extending runway.",
+      "pre_money_valuation": "Not disclosed.",
+      "post_money_valuation": "Not disclosed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on scalable, tech-driven solutions.",
+      "ownership_potential": "Potential for significant ownership with early investment.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation details needed for comprehensive analysis."
+    },
+    "red_flags": [
+      "Lack of detailed valuation and terms information."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "RollUp demonstrates strong potential with a scalable business model, early traction, and a differentiated technology platform. The team has relevant experience and a clear strategic vision. However, immediate funding is critical to extend runway and scale operations.",
+    "key_factors": [
+      "Strong team and leadership",
+      "Scalable AI-driven platform",
+      "Early traction and partnerships",
+      "Favorable market timing"
+    ],
+    "next_steps": [
+      "Engage in detailed due diligence on financials and terms",
+      "Explore strategic investor partnerships",
+      "Assess scalability and operational plans"
+    ]
+  }
+}

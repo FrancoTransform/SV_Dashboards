@@ -1,0 +1,166 @@
+{
+  "company_name": "neatskills",
+  "token": "nhruujuy557aznhrf6jo6hnv5i2h1nsg",
+  "submitted_at": "11/26/2025 12:31:11",
+  "website": "https://neatskills.in/",
+  "year_founded": "2023",
+  "description": "duolingo for learning new skills",
+  "problem_statement": "- un(der)skilling is a grass-rooted issue in the Indian education system\n- talked to over 300 school-college students & 10 universities\n- back in Aug' 23, conducted 15 different skills' webinar on an invite-basis & cumulatively 828 people have watched it\n- 85% positive response on last pilot cohort",
+  "pitch_deck_link": "https://drive.google.com/file/d/16L2usiVk-0wzZmi4TMNice17Tx_TV9XT/view?usp=sharing",
+  "demo_link": "https://youtu.be/BFbX7jS3PMM",
+  "team": {
+    "score": 2,
+    "justification": "The team consists of a single founder, which raises concerns about execution capability and scalability. The founder lacks a co-founder, which could limit complementary skills and leadership depth.",
+    "company_assessment": {
+      "business_model_strength": "The business model is based on a subscription service targeting university partnerships. However, the transition from pilots to paid contracts is a significant barrier.",
+      "market_positioning": "The company positions itself as a hybrid learning platform combining live and self-paced learning, but differentiation from established players like Coursera and Udemy is unclear.",
+      "execution_capability": "Limited evidence of execution capability due to the small team size and early stage of the company.",
+      "strategic_vision": "The strategic vision is focused on addressing under-skilling in India, but lacks clarity on long-term growth and scaling strategies."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Raviraj Kumar",
+        "role": "CEO",
+        "linkedin": "https://linkedin.com/in/an-unknown-person/",
+        "background": "Limited information available on educational and professional background.",
+        "domain_expertise": "Appears to have some understanding of the education sector in India.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Conducted webinars with positive feedback, but lacks significant milestones.",
+        "leadership_signals": "Limited evidence of leadership capability due to lack of team.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes major players like Coursera, Udemy, and Skillshare.",
+      "competitor_comparison": "Competitors have established brands and extensive course offerings. Neatskills' differentiation through live learning is not yet proven.",
+      "positioning_assessment": "The company needs to clearly articulate its unique value proposition and differentiation strategy."
+    },
+    "red_flags": [
+      "Single founder with no team",
+      "Lack of co-founder",
+      "Limited execution capability"
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The target market is large, with over 320 million students in India. However, the company's ability to capture a significant share is uncertain.",
+    "market_analysis": {
+      "total_addressable_market": "320M+ students within India, indicating a large TAM.",
+      "serviceable_addressable_market": "SAM is not clearly defined, but partnerships with universities could provide access.",
+      "serviceable_obtainable_market": "SOM projections are ambitious, with a focus on top 100 universities.",
+      "market_growth_rate": "The education technology market is growing, driven by digital adoption.",
+      "market_dynamics": "Key trends include the shift to online learning and demand for skill-based education."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are university students and institutions.",
+      "willingness_to_pay": "Evidence of willingness to pay is limited, as current offerings are free.",
+      "customer_acquisition_cost": "CAC is not provided, but partnerships could lower acquisition costs.",
+      "lifetime_value": "LTV is projected based on subscription model, but lacks validation."
+    },
+    "red_flags": [
+      "Unproven willingness to pay",
+      "Ambitious SOM projections"
+    ]
+  },
+  "technology": {
+    "score": 2,
+    "justification": "The technology is not clearly differentiated, and there is no evidence of defensibility or scalability.",
+    "technical_assessment": {
+      "core_technology": "The platform combines live and self-paced learning, but technical details are sparse.",
+      "defensibility": "No clear technical barriers to entry or competitive moats identified.",
+      "intellectual_property": "No IP strategy or patents mentioned.",
+      "scalability": "Scalability is uncertain due to the lack of technical infrastructure details."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms or technical innovations mentioned.",
+      "data_advantages": "No data moats or network effects identified.",
+      "technical_barriers": "No significant barriers preventing competitors from replicating the technology."
+    },
+    "red_flags": [
+      "Lack of technical differentiation",
+      "No IP strategy"
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Early traction is limited to free pilot programs with small cohorts.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue generated yet, as pilots are free.",
+      "customer_metrics": "39 registered students in a recent session, with limited engagement.",
+      "retention_analysis": "Retention data is not available.",
+      "unit_economics": "Unit economics are not validated due to lack of paying customers."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from pilot cohorts, but not from paying customers.",
+      "product_market_fit": "PMF is not yet established, as the product is in early stages.",
+      "notable_customers": "No notable customers or logos.",
+      "partnerships": "One pilot partnership with a university, but not yet converted to a paid contract."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Positive feedback from pilot cohorts"
+      ],
+      "areas_of_investigation": [
+        "Conversion of pilots to paid contracts",
+        "Establishing PMF"
+      ]
+    },
+    "red_flags": [
+      "Lack of paying customers",
+      "Limited traction"
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market is ripe for digital education solutions, but competitive timing is challenging.",
+    "market_timing": {
+      "market_readiness": "The market is ready for digital education solutions, driven by the pandemic.",
+      "catalysts": "Increased demand for skill-based education and online learning.",
+      "tailwinds": "Favorable trends in digital adoption and education reform.",
+      "headwinds": "Strong competition from established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "No first-mover advantage, as competitors are well-established.",
+      "competitive_response": "High likelihood of competitive response from major players.",
+      "market_education": "Market education is required to differentiate from existing solutions."
+    },
+    "red_flags": [
+      "Strong competition",
+      "Need for market education"
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "The company is in early fundraising stages with limited details on terms.",
+    "investment_details": {
+      "round_stage": "Currently fundraising, but stage is not specified.",
+      "raise_amount": "Amount being raised is not specified.",
+      "pre_money_valuation": "Valuation details are not provided.",
+      "post_money_valuation": "Ownership implications are unclear."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Limited alignment with SV's criteria due to early stage and lack of traction.",
+      "ownership_potential": "Potential ownership percentage is not specified.",
+      "liquidation_preferences": "No details on liquidation preferences.",
+      "valuation_justification": "Valuation is not justified due to lack of financial metrics."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms",
+      "Early stage with limited traction"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company is in its early stages with a single founder and limited traction. While the market opportunity is significant, the lack of a clear differentiation strategy and paying customers are concerns.",
+    "key_factors": [
+      "Large market opportunity",
+      "Early stage with limited traction",
+      "Single founder"
+    ],
+    "next_steps": [
+      "Monitor progress on converting pilots to paid contracts",
+      "Evaluate potential for co-founder or team expansion",
+      "Assess differentiation strategy and market positioning"
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "company_name": "Nutraec",
+  "token": "xyxefu380ot0soxdnw6bxyxefu7ejzco",
+  "submitted_at": "11/29/2025 11:00:34",
+  "website": "",
+  "year_founded": "2025",
+  "description": "We help brands combat counterfeits and build consumer trust by making it easy to verify product authenticity via QR codes or SMS, even without an internet connection.",
+  "problem_statement": "Counterfeit products are destroying brand revenue and eroding consumer trust, especially in high stakes sectors like medicine and food, which matters because it causes massive economic damage and puts consumer safety at risk.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1rYzG5asGnaWop01INXxc3afncaRGT8sc/view?usp=drivesdk",
+  "demo_link": "https://drive.google.com/file/d/1QX7oGYPesBbUY8MWlQX6MgdSwTGvK5Fr/view?usp=drivesdk",
+  "team": {
+    "score": 3,
+    "justification": "The team is small but has complementary skills. The CTO has technical expertise, while the CEO focuses on business operations. However, the lack of a larger team and diverse expertise could be a limitation.",
+    "company_assessment": {
+      "business_model_strength": "The subscription model is straightforward with potential for upselling. However, the lack of current revenue and customers is a concern.",
+      "market_positioning": "Nutraec positions itself as an offline-first solution, which is a strong differentiator in emerging markets.",
+      "execution_capability": "The team has demonstrated the ability to develop a functional demo but lacks evidence of scaling operations.",
+      "strategic_vision": "The strategic vision is clear, focusing on emerging markets and regulatory compliance, but execution remains unproven."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Isaac Tinat Daniel",
+        "role": "CTO and Co-founder",
+        "linkedin": "http://linkedin.com/in/isaac-daniel-54ba8a225",
+        "background": "Technical expertise in full-stack development, responsible for building the core technology.",
+        "domain_expertise": "Strong technical background but limited business experience.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Developed the core technology for Nutraec.",
+        "leadership_signals": "Demonstrates technical leadership but lacks broader team-building experience.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The market is populated by enterprise traceability platforms and basic label providers.",
+      "competitor_comparison": "Competitors are either too complex or too simple, lacking offline functionality.",
+      "positioning_assessment": "Nutraec's offline-first approach is a strong differentiator in markets with poor connectivity."
+    },
+    "red_flags": [
+      "Small team size and lack of diverse expertise."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial, with a TAM of $800 billion. The focus on a niche market within this large TAM is strategic.",
+    "market_analysis": {
+      "total_addressable_market": "$800 Billion in pharma, food, FMCG, cosmetics, and exports at risk of counterfeiting.",
+      "serviceable_addressable_market": "$30 Billion currently spent on digital authentication and compliance solutions.",
+      "serviceable_obtainable_market": "$5 Million to $25 Million initial capture focusing on African FMCG and export-focused brands.",
+      "market_growth_rate": "The market is growing due to increasing regulatory pressures and export market shifts.",
+      "market_dynamics": "Key drivers include regulatory changes and the growth of African exports."
+    },
+    "customer_analysis": {
+      "buyer_personas": "African FMCG and pharmaceutical exporters facing regulatory compliance challenges.",
+      "willingness_to_pay": "Evidence suggests a willingness to pay for compliance solutions, but price sensitivity is a concern.",
+      "customer_acquisition_cost": "CAC is not yet established due to pre-launch status.",
+      "lifetime_value": "LTV is speculative at this stage, dependent on successful customer acquisition and retention."
+    },
+    "red_flags": [
+      "Pre-launch status means no current customer data to validate assumptions."
+    ]
+  },
+  "technology": {
+    "score": 4,
+    "justification": "The dual-mode system (QR/NFC and USSD/SMS) is a strong technical differentiator, especially in emerging markets.",
+    "technical_assessment": {
+      "core_technology": "Dual-mode system for online and offline product verification.",
+      "defensibility": "Offline functionality provides a competitive moat in markets with poor connectivity.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "The technology is scalable, but infrastructure requirements are not detailed."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No unique algorithms mentioned.",
+      "data_advantages": "Potential data advantages from market insights and transaction verification.",
+      "technical_barriers": "Offline functionality is a significant barrier for competitors."
+    },
+    "red_flags": [
+      "Lack of detailed IP strategy and scalability plan."
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "Pre-launch status with no paying customers limits traction evaluation. However, early customer engagement is promising.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue growth due to pre-launch status.",
+      "customer_metrics": "0 paying customers; focus on pilot discussions.",
+      "retention_analysis": "No retention data available.",
+      "unit_economics": "Unit economics are speculative at this stage."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from 50+ interviews with FMCG and pharma brands.",
+      "product_market_fit": "Evidence of PMF is limited to customer interviews.",
+      "notable_customers": "No notable customers yet.",
+      "partnerships": "No strategic partnerships established."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Development of a functional demo and positive customer feedback."
+      ],
+      "areas_of_investigation": [
+        "Need to validate product-market fit with paying customers."
+      ]
+    },
+    "red_flags": [
+      "Lack of revenue and paying customers."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "Regulatory changes and market shifts create a favorable timing for Nutraec's solution.",
+    "market_timing": {
+      "market_readiness": "Market is ready due to regulatory pressures and export market shifts.",
+      "catalysts": "Stricter EU supply chain rules and growth of African exports.",
+      "tailwinds": "Favorable regulatory changes and economic damage from counterfeiting.",
+      "headwinds": "Potential challenges in market education and adoption."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in offline-first solutions.",
+      "competitive_response": "Competitors may respond by enhancing offline capabilities.",
+      "market_education": "Requires market education on the benefits of offline verification."
+    },
+    "red_flags": [
+      "Need for market education and potential competitive response."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "Currently fundraising with no detailed terms provided. Alignment with SV's criteria is speculative.",
+    "investment_details": {
+      "round_stage": "Pre-seed round.",
+      "raise_amount": "Not specified.",
+      "pre_money_valuation": "Not specified.",
+      "post_money_valuation": "Not specified."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Potential alignment with SV's focus on emerging markets and regulatory solutions.",
+      "ownership_potential": "Ownership potential is unclear without detailed terms.",
+      "liquidation_preferences": "Not specified.",
+      "valuation_justification": "Valuation is speculative without comparables."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "Nutraec shows promise with a strong market opportunity and technical differentiation. However, the lack of traction and detailed investment terms necessitates a cautious approach.",
+    "key_factors": [
+      "Strong market opportunity",
+      "Technical differentiation",
+      "Lack of traction"
+    ],
+    "next_steps": [
+      "Monitor progress on pilot programs and customer acquisition",
+      "Request detailed investment terms",
+      "Evaluate potential partnerships and strategic alliances"
+    ]
+  }
+}

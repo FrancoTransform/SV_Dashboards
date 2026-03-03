@@ -1,0 +1,163 @@
+{
+  "company_name": "Performance.FYI",
+  "token": "6t27115bdnhsods9b9tmvz76t2711527",
+  "submitted_at": "9/11/2025 0:14:03",
+  "website": "https://www.performance.fyi",
+  "year_founded": "2025",
+  "description": "Performance.FYI is the Moody's of workforce performance management quality. We provide a universal A-F grade measuring organizational health. Unlike subjective surveys, our proprietary framework conducts an objective, systems-based audit of a company's core operational infrastructure, creating a leading indicator of future performance and risk.",
+  "problem_statement": "The Problem\nCompanies spend billions on engagement surveys and performance management tools, yet leadership teams and boards still lack a clear, objective measure of workforce performance. Existing tools produce subjective data\u2014gamable survey results, inconsistent ratings, and biased manager input\u2014that fails to capture how well performance systems are actually designed and functioning. This creates blind spots in culture, productivity, and risk. Leaders are left making critical compensation, promotion, and talent decisions on shaky ground.\n\nWhy It Matters\nWhen organizations can\u2019t accurately measure the quality of their performance management systems, they can\u2019t improve them. Poorly designed systems erode trust, slow decision-making, drive attrition, and ultimately destroy shareholder value. Investors, boards, and executives increasingly want transparency into workforce quality\u2014just as they demand audited financials. By solving this problem, we\u2019re enabling companies to shift from opinion-based metrics to a universal, evidence-based grade of performance management health. That matters not only for organizational effectiveness, but also for fairness, equity, and building cultures that actually perform.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1SNlVAUY_R4SneHdQXXYDtKCbZGRpo2wY/view?usp=sharing",
+  "demo_link": "https://docs.google.com/presentation/d/1437VQvcQbOEKfKCG-VYtYZgLmAUJE0grqiOZpBkiOAs/edit?usp=sharing",
+  "team": {
+    "score": 2,
+    "justification": "The team consists of a solo founder with deep domain expertise in Total Rewards and People Ops but lacks technical expertise and a co-founder. This presents significant execution risk, especially in scaling the technology and product development.",
+    "company_assessment": {
+      "business_model_strength": "The business model is a scalable SaaS + data business with potential expansion into data platform and comparison engine. However, it is currently pre-revenue with no paying customers.",
+      "market_positioning": "Positioned as the 'Moody's of Workforce Performance,' the company aims to provide objective, systems-based audits. This unique value proposition differentiates it from subjective survey-based competitors.",
+      "execution_capability": "The founder has demonstrated hustle and domain knowledge but lacks a technical co-founder, which is critical for execution and scaling.",
+      "strategic_vision": "The strategic vision is strong, aiming to redefine workforce performance management and governance tech. However, execution capability is currently limited."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Greg",
+        "role": "Founder",
+        "linkedin": "n/a",
+        "background": "Background in Total Rewards and People Ops with deep domain expertise.",
+        "domain_expertise": "Strong expertise in HR and performance management systems.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "Developed a proprietary framework for objective performance management audits.",
+        "leadership_signals": "Demonstrated ability to validate the problem and engage with industry leaders.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes incumbent HR platforms, public transparency platforms, and traditional consultants.",
+      "competitor_comparison": "Competitors focus on subjective data, while Performance.FYI offers objective, systems-based audits.",
+      "positioning_assessment": "Differentiates by providing a universal A-F grade and objective audits, addressing a critical gap in the market."
+    },
+    "red_flags": [
+      "Solo founder with no technical expertise",
+      "Pre-revenue with no paying customers"
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The market size is substantial with a TAM of $45B, SAM of $10B, and SOM of $2B. The market is growing, driven by increasing demand for objective workforce performance metrics.",
+    "market_analysis": {
+      "total_addressable_market": "$45B, supported by the growing need for objective performance management tools.",
+      "serviceable_addressable_market": "$10B, with a focus on enterprise customers seeking governance and risk management solutions.",
+      "serviceable_obtainable_market": "$2B, achievable through targeted go-to-market strategies.",
+      "market_growth_rate": "The market is experiencing growth due to rising investor interest in workforce quality data and regulatory pressures.",
+      "market_dynamics": "Key trends include the demand for transparency in workforce quality and the shift from subjective to objective performance metrics."
+    },
+    "customer_analysis": {
+      "buyer_personas": "CHROs, Boards of Directors, and Investors seeking objective performance metrics.",
+      "willingness_to_pay": "Strong interest from target customers, but willingness to pay is yet to be validated with paying customers.",
+      "customer_acquisition_cost": "CAC is not yet determined as the company is pre-revenue.",
+      "lifetime_value": "LTV projections are not available due to the lack of paying customers."
+    },
+    "red_flags": [
+      "Pre-revenue status limits validation of market capture and pricing strategy"
+    ]
+  },
+  "technology": {
+    "score": 3,
+    "justification": "The technology offers a unique, objective audit framework, but lacks defensibility and scalability without a technical co-founder.",
+    "technical_assessment": {
+      "core_technology": "Proprietary framework for objective, systems-based audits of workforce performance.",
+      "defensibility": "Limited defensibility without technical barriers or IP protection.",
+      "intellectual_property": "No patents or IP strategy mentioned.",
+      "scalability": "Scalability is a concern without a technical team to support product development."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary grading logic for performance management audits.",
+      "data_advantages": "Potential data moat through network effects as more companies participate.",
+      "technical_barriers": "Lacks significant technical barriers to prevent replication by competitors."
+    },
+    "red_flags": [
+      "Lack of technical co-founder",
+      "No IP protection or patents"
+    ]
+  },
+  "traction": {
+    "score": 2,
+    "justification": "The company is pre-revenue with no paying customers, but has validated the problem with industry leaders and established advisory pilots.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue growth as the company is pre-revenue.",
+      "customer_metrics": "10+ active conversations with potential customers, but no conversions to paying customers.",
+      "retention_analysis": "Retention metrics are not applicable at this stage.",
+      "unit_economics": "Unit economics are not available due to the lack of paying customers."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from advisory pilots, indicating strong demand for the solution.",
+      "product_market_fit": "Early signs of product-market fit through validation conversations and advisory pilots.",
+      "notable_customers": "No notable customers as the company is pre-revenue.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Validated problem with industry leaders",
+        "Established advisory pilots"
+      ],
+      "areas_of_investigation": [
+        "Conversion of pilots to paying customers",
+        "Validation of pricing and product-market fit"
+      ]
+    },
+    "red_flags": [
+      "Pre-revenue status",
+      "No paying customers"
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable with increasing demand for objective workforce performance metrics and regulatory pressures driving market readiness.",
+    "market_timing": {
+      "market_readiness": "The market is ready for objective performance management solutions.",
+      "catalysts": "Rising investor interest in workforce quality data and regulatory pressures.",
+      "tailwinds": "Favorable trends in HR analytics and people data platforms.",
+      "headwinds": "Potential challenges in convincing early adopters without a mature dataset."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "Potential first-mover advantage in providing objective, systems-based audits.",
+      "competitive_response": "Competitors may respond by enhancing their offerings with objective metrics.",
+      "market_education": "Requires market education to shift from subjective to objective performance metrics."
+    },
+    "red_flags": [
+      "Need for market education and early adopter conversion"
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "The company is currently fundraising with a focus on converting pilots to paying customers and refining the go-to-market strategy.",
+    "investment_details": {
+      "round_stage": "Pre-seed round",
+      "raise_amount": "Not specified",
+      "pre_money_valuation": "Not specified",
+      "post_money_valuation": "Not specified"
+    },
+    "terms_analysis": {
+      "sv_alignment": "Alignment with SV's focus on innovative HR and governance tech solutions.",
+      "ownership_potential": "Potential for significant ownership given early-stage investment.",
+      "liquidation_preferences": "Not specified",
+      "valuation_justification": "Valuation details are not provided, limiting analysis."
+    },
+    "red_flags": [
+      "Lack of detailed investment terms and valuation"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Hold",
+    "rationale": "The company has a compelling vision and addresses a significant market need, but faces execution risks due to the lack of a technical co-founder and pre-revenue status. Further validation of product-market fit and conversion of pilots to paying customers are needed.",
+    "key_factors": [
+      "Strong market potential",
+      "Unique value proposition",
+      "Execution risks"
+    ],
+    "next_steps": [
+      "Encourage the founder to secure a technical co-founder",
+      "Monitor progress in converting pilots to paying customers",
+      "Re-evaluate once initial revenue is generated"
+    ]
+  }
+}

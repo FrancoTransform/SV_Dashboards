@@ -681,10 +681,270 @@
       "company_name": "Clausal AI",
       "analysis_file": "clausalai_comprehensive_analysis.json",
       "analyzed_at": "2025-08-15T12:02:25.192948"
+    },
+    "usu2x0wjlgdf1gcv7usugaobdfa3168t": {
+      "company_name": "Origin",
+      "analysis_file": "origin_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:53:17.344754"
+    },
+    "ww6txpwajs3vcouonww6txpillhtnevv": {
+      "company_name": "Emma",
+      "analysis_file": "emma_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:53:41.296682"
+    },
+    "sqvjaea6vz3guouqctrsqvjaeff1du6l": {
+      "company_name": "True Probe",
+      "analysis_file": "trueprobe_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:54:17.006862"
+    },
+    "p8mdzl2g0akp6jjt6dp81kykbydf8fti": {
+      "company_name": "Sharkforce",
+      "analysis_file": "sharkforce_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:54:46.074860"
+    },
+    "6t27115bdnhsods9b9tmvz76t2711527": {
+      "company_name": "Performance.FYI",
+      "analysis_file": "performancefyi_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:55:18.206268"
+    },
+    "789raklycdos82og1aznn789rakl6er2": {
+      "company_name": "Heal",
+      "analysis_file": "heal_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:56:00.973414"
+    },
+    "me3kn9usfwci4uf6me3yqddl8bhau7av": {
+      "company_name": "Unpluganini",
+      "analysis_file": "unpluganini_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:56:35.606280"
+    },
+    "zq2gubacbmtz0zq2g8r377kdm4jps0gd": {
+      "company_name": "MedSyn Ai",
+      "analysis_file": "medsynai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:57:13.545228"
+    },
+    "kh1cmfz8l4etyemh4trkh1cmfz8jmu3v": {
+      "company_name": "Artificial Brains",
+      "analysis_file": "artificialbrains_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:57:52.288650"
+    },
+    "nhsmf9k3rxcnbpnhsfnzsbzrlncmfnzs": {
+      "company_name": "Pesha Technologies",
+      "analysis_file": "peshatechnologies_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:58:35.247287"
+    },
+    "lvo1w43p5q1vvlp428n25lvo1w432wzy": {
+      "company_name": "LadderUp",
+      "analysis_file": "ladderup_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:59:06.029038"
+    },
+    "0z8qjujukplmuc0e6x0z8qjud1q0e4t4": {
+      "company_name": "EasyHire",
+      "analysis_file": "easyhire_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T14:59:58.130853"
+    },
+    "4krj5pxwkncpdoia94krj51y9uey5tqj": {
+      "company_name": "Olli",
+      "analysis_file": "olli_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:00:43.601258"
+    },
+    "ixv67uuk5e14okdh9i0ixv6754qaokkp": {
+      "company_name": "EvolveNP",
+      "analysis_file": "evolvenp_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:01:13.928262"
+    },
+    "cxpoysnkifcc9twnfwucxpoys7vxsndc": {
+      "company_name": "Exitus AI Corporation",
+      "analysis_file": "exitusaicorporation_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:01:54.626224"
+    },
+    "x5ltb6r9q3k1eff4e9ydx5ltb6r9s62s": {
+      "company_name": "ResilienceAi",
+      "analysis_file": "resilienceai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:02:27.408085"
+    },
+    "9rfets18u7c4sl2rsw79rfet1mobzs9d": {
+      "company_name": "AJI-BIAD S.A.R.L",
+      "analysis_file": "ajibiadsarl_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:02:56.201595"
+    },
+    "6o5u249kqkuyvb6ozkzal3pvghk4cx7r": {
+      "company_name": "IDIA Data Inc.",
+      "analysis_file": "idiadatainc_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:03:56.014507"
+    },
+    "es6znitru2661vwuwg7es6znit1p1k6u": {
+      "company_name": "Ramin Soheili",
+      "analysis_file": "raminsoheili_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:29:18.097715"
+    },
+    "9jsq9mflxufrk19suzk9jsqa1a0bs6wt": {
+      "company_name": "frova",
+      "analysis_file": "frova_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:29:50.363790"
+    },
+    "as9pygeglvfz11got3qas9ptibw2j843": {
+      "company_name": "Observance AI",
+      "analysis_file": "observanceai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:30:14.664505"
+    },
+    "g92u7t7pgjttrg92u7o7yh92preuytso": {
+      "company_name": "Voygic",
+      "analysis_file": "voygic_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:30:44.997317"
+    },
+    "ko9z81bs69op1efq1ho6ko9z82vkrmtl": {
+      "company_name": "NextStopAI",
+      "analysis_file": "nextstopai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:31:05.846758"
+    },
+    "nhruujuy557aznhrf6jo6hnv5i2h1nsg": {
+      "company_name": "neatskills",
+      "analysis_file": "neatskills_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:31:36.892821"
+    },
+    "g23j6ofod4cryqaw4mfm0g23j6ofrgz0": {
+      "company_name": "Indus Valey Data",
+      "analysis_file": "indusvaleydata_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:32:05.230883"
+    },
+    "8j2r1750nwbf64jj8j2r12ydvyatpq26": {
+      "company_name": "SAVINGSBOX",
+      "analysis_file": "savingsbox_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:32:30.516760"
+    },
+    "eosnspk5j39mhnheosg6p5mwco4kofvo": {
+      "company_name": "RollUp, inc.",
+      "analysis_file": "rollupinc_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:33:00.271030"
+    },
+    "xb6oiocjapmmxb6oqojhhytkqf8kkg74": {
+      "company_name": "Aupulens",
+      "analysis_file": "aupulens_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:33:23.500387"
+    },
+    "xyxefu380ot0soxdnw6bxyxefu7ejzco": {
+      "company_name": "Nutraec",
+      "analysis_file": "nutraec_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:33:41.314414"
+    },
+    "0w4j01lbeqkdrg8036om40w4j01s96xy": {
+      "company_name": "Flint",
+      "analysis_file": "flint_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:34:11.030009"
+    },
+    "5ci9390nlzxj1zwk395ci939hhk5wvbv": {
+      "company_name": "Pebbles Ai",
+      "analysis_file": "pebblesai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:34:40.130511"
+    },
+    "qwubq0226s64tyrsqc7qwubq004qdqd9": {
+      "company_name": "Rivellium",
+      "analysis_file": "rivellium_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:35:10.370542"
+    },
+    "k89tjm33nkdgd6gfkk89tpyfwix88slj": {
+      "company_name": "Entravia",
+      "analysis_file": "entravia_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:35:39.807632"
+    },
+    "7bxn0kd49skv64lr3nug7b29fsp4bcab": {
+      "company_name": "EquityNav",
+      "analysis_file": "equitynav_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:36:12.850833"
+    },
+    "opu31pf93xhzshov701opu31phlgxbz4": {
+      "company_name": "S3learning",
+      "analysis_file": "s3learning_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:36:41.013262"
+    },
+    "0bmo0r0izfl89j09mjj0bmo7yxiakd9i": {
+      "company_name": "Upware",
+      "analysis_file": "upware_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:37:14.756993"
+    },
+    "e2hpucogsc4l3pcq3ade2hpuc3tnpz4m": {
+      "company_name": "Skillops.ai",
+      "analysis_file": "skillopsai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:37:41.362176"
+    },
+    "54zrjb9igcev5iu9s7e49gxnpw91gcvi": {
+      "company_name": "daylii, Inc.",
+      "analysis_file": "dayliiinc_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:38:08.589572"
+    },
+    "7lbg73qp1smc9nu78jyo7lbg76nn91d9": {
+      "company_name": "Gigged.AI",
+      "analysis_file": "giggedai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:38:35.540809"
+    },
+    "z72w00d1ek49znsm5du6z72w00pz6ysq": {
+      "company_name": "Cyrus AI",
+      "analysis_file": "cyrusai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:39:00.844424"
+    },
+    "y9lsidod36pszwedl0y9lsfbaf44h32u": {
+      "company_name": "ZOGOEX LTD",
+      "analysis_file": "zogoexltd_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:39:32.134243"
+    },
+    "nu7iqhn62504swolg5nu7iqhqkq2eyyo": {
+      "company_name": "Healthpro.id",
+      "analysis_file": "healthproid_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:40:04.221918"
+    },
+    "jcapji2w6a9fq81ujcapjlpqkxeefhjz": {
+      "company_name": "OrgAcuity",
+      "analysis_file": "orgacuity_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:40:28.878282"
+    },
+    "rxnbei6x02qfjwbqa5rxnbepnd8elylp": {
+      "company_name": "Moodsonic",
+      "analysis_file": "moodsonic_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:41:01.674226"
+    },
+    "xuzx5gwkywt9yxuzkea30q8vol3faeoa": {
+      "company_name": "Flexi",
+      "analysis_file": "flexi_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:41:35.040837"
+    },
+    "j9fxjty57hk13phij9fxjtiwv1rhxwvj": {
+      "company_name": "Openhelix",
+      "analysis_file": "openhelix_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:42:05.556606"
+    },
+    "xjdridulwxx3p8yipxjdriyv7txov6cj": {
+      "company_name": "gertie ai",
+      "analysis_file": "gertieai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:42:29.458456"
+    },
+    "9ns3qrpjex0tyjnn28tk69ns3qrpovyi": {
+      "company_name": "Miraqules",
+      "analysis_file": "miraqules_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:43:03.879472"
+    },
+    "ygpboea562vnfecn2efaxfygpboeci4q": {
+      "company_name": "Early Intervention Systems Inc.",
+      "analysis_file": "earlyinterventionsystemsinc_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:43:34.861327"
+    },
+    "x62e83moils2jvs1x62e8lyq7030zcwx": {
+      "company_name": "Gauge Solutions",
+      "analysis_file": "gaugesolutions_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:44:05.569386"
+    },
+    "vuqa1rtoqrs11vuqatkzl3pqpwk42wjk": {
+      "company_name": "NexDeed",
+      "analysis_file": "nexdeed_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:44:43.187061"
+    },
+    "4u92v38cvxdud7k4u92vzs8fnham2kbw": {
+      "company_name": "Hybro AI",
+      "analysis_file": "hybroai_comprehensive_analysis.json",
+      "analyzed_at": "2026-03-03T15:45:07.345869"
     }
   },
   "last_sync": "2025-08-15T12:02:25.192975",
   "total_submissions": 123,
-  "analyzed_count": 123,
+  "analyzed_count": 175,
   "unmatched_analyses": []
 }

@@ -1,0 +1,183 @@
+{
+  "company_name": "OrgAcuity",
+  "token": "jcapji2w6a9fq81ujcapjlpqkxeefhjz",
+  "submitted_at": "12/5/2025 22:20:34",
+  "website": "https://orgacuity.com/",
+  "year_founded": "2020",
+  "description": "OrgAcuity is an AI-powered employee listening platform, going beyond traditional surveys to unlock the hidden dynamics that drive performance\u2014relationships, collaboration, and networks. Our platform helps organizations retain top talent, accelerate change, and lead more effectively in the era of human-AI collaboration.",
+  "problem_statement": "Most companies are awash in engagement surveys and dashboards, but they still can\u2019t see how work actually gets done or spot emerging risks early. Traditional employee listening tools were built for a world of static org charts, not today\u2019s fluid, networked teams. They assume work happens in tidy boxes, measuring sentiment in isolation and ignoring the informal networks, relationships, and influencers that actually drive performance, retention, and change. The result is shallow insights and change efforts that push \u201caction plans\u201d to managers instead of working through the people who actually shape experiences and behavior.\n\nOrgAcuity solves this by combining employee feedback with Organizational Network Analysis (ONA) and AI agents that translate signals into targeted, influencer-led actions. This matters because turnover, burnout, and failed change initiatives cost organizations billions, and most mid-market companies don\u2019t have internal people analytics teams to unlock the value in their data. We give leaders a clear view of hidden barriers, overloaded connectors, and critical influencers, so they can retain key talent, strengthen culture, and drive measurable business outcomes without the guesswork and heavy consulting spend.",
+  "pitch_deck_link": "https://drive.google.com/file/d/1lhJB8VpFxY8Zb-Qf9Ts--muy9uDWv4Fk",
+  "demo_link": "https://vimeo.com/1131846885?fl=pl&fe=sh",
+  "team": {
+    "score": 4,
+    "justification": "The founding team of OrgAcuity demonstrates strong domain expertise and complementary skills. Craig Starbuck and Matt Milunski have a history of working together and have built the platform themselves, showcasing their execution capability. Their experience in HR analytics at Equifax provides them with relevant industry insights.",
+    "company_assessment": {
+      "business_model_strength": "OrgAcuity operates a B2B SaaS model with an annual subscription, which is scalable and aligns with industry standards. The pricing structure based on employee count and support model is competitive.",
+      "market_positioning": "The company positions itself uniquely by integrating AI and ONA, differentiating from traditional survey tools. This approach addresses a clear gap in the market.",
+      "execution_capability": "The team has successfully bootstrapped the company, developed a scalable platform, and secured initial customers, indicating strong execution capability.",
+      "strategic_vision": "OrgAcuity's vision to transform employee listening into a change management tool demonstrates strategic foresight and aligns with market needs."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Craig Starbuck",
+        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/craig-starbuck-phd/",
+        "background": "Craig holds a PhD and has extensive experience in HR analytics, having worked at Equifax.",
+        "domain_expertise": "Craig has deep expertise in people analytics and employee listening.",
+        "previous_startups": "No prior startups, but significant corporate experience.",
+        "notable_achievements": "Led HR analytics initiatives at Equifax, contributing to the development of commercial HR products.",
+        "leadership_signals": "Demonstrates strong leadership through strategic vision and execution.",
+        "track_record": [
+          {
+            "company": "Equifax",
+            "role": "HR Analytics Leader",
+            "outcome": "Successful product development and team leadership.",
+            "learnings": "Gained insights into the limitations of traditional HR tools, informing OrgAcuity's approach."
+          }
+        ]
+      },
+      {
+        "name": "Matt Milunski",
+        "role": "CTO",
+        "linkedin": "https://www.linkedin.com/in/mattmilunski/",
+        "background": "Matt has a technical background with experience in engineering and technology development.",
+        "domain_expertise": "Expertise in technology and engineering, particularly in building scalable platforms.",
+        "previous_startups": "No prior startups, but significant technical experience.",
+        "notable_achievements": "Developed the technical architecture for OrgAcuity.",
+        "leadership_signals": "Strong technical leadership and ability to execute on product vision.",
+        "track_record": [
+          {
+            "company": "Equifax",
+            "role": "Technical Lead",
+            "outcome": "Contributed to HR analytics product development.",
+            "learnings": "Learned about the integration of technology in HR solutions."
+          }
+        ]
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The employee listening market is competitive with established players like Culture Amp and Qualtrics. However, OrgAcuity's integration of ONA and AI provides a unique value proposition.",
+      "competitor_comparison": "Competitors focus on traditional surveys, while OrgAcuity offers network-based insights, addressing a critical gap.",
+      "positioning_assessment": "OrgAcuity differentiates itself by focusing on network dynamics and influencer-led actions, which are not addressed by traditional tools."
+    },
+    "red_flags": [
+      "Limited team size may impact scalability and resource allocation."
+    ]
+  },
+  "tam": {
+    "score": 4,
+    "justification": "The target market is substantial, with a $13B TAM. OrgAcuity's focus on mid-market companies with 500-5,000 employees is strategic, addressing a segment underserved by current solutions.",
+    "market_analysis": {
+      "total_addressable_market": "$13B, based on the employee listening and analytics market.",
+      "serviceable_addressable_market": "Mid-market companies with 500-5,000 employees, representing a significant portion of the TAM.",
+      "serviceable_obtainable_market": "Initial focus on U.S. employers, with plans to expand up-market.",
+      "market_growth_rate": "The market is growing due to increasing demand for advanced analytics and AI-driven insights.",
+      "market_dynamics": "Key trends include the shift towards network-based analytics and the integration of AI in HR tools."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Heads of HR, People Analytics, Talent Management, and Employee Experience.",
+      "willingness_to_pay": "Evidence of willingness to pay is supported by current customer engagements and pipeline discussions.",
+      "customer_acquisition_cost": "CAC is not explicitly detailed, but the direct sales approach suggests a manageable cost structure.",
+      "lifetime_value": "LTV is expected to be high due to multi-year contracts and the strategic importance of the solution."
+    },
+    "red_flags": [
+      "Potential challenges in expanding beyond the initial target market."
+    ]
+  },
+  "technology": {
+    "score": 5,
+    "justification": "OrgAcuity's technology is highly differentiated, combining AI and ONA to provide actionable insights. This creates a strong competitive moat.",
+    "technical_assessment": {
+      "core_technology": "AI-powered platform integrating employee feedback with ONA.",
+      "defensibility": "The combination of AI and ONA creates a unique offering that is difficult to replicate.",
+      "intellectual_property": "No specific IP details provided, but the technology itself is a significant differentiator.",
+      "scalability": "The platform is designed to be scalable, with robust security controls in place."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "Proprietary algorithms for network analysis and AI-driven insights.",
+      "data_advantages": "Utilizes data from employee feedback and network analysis to provide unique insights.",
+      "technical_barriers": "The integration of AI and ONA presents a significant barrier to entry for competitors."
+    },
+    "red_flags": [
+      "Dependence on external contractor for front-end development."
+    ]
+  },
+  "traction": {
+    "score": 4,
+    "justification": "OrgAcuity has demonstrated strong initial traction with paying customers and a robust sales pipeline. The product-market fit is evident from customer feedback and engagement.",
+    "growth_metrics": {
+      "revenue_growth": "Projected ARR of $100k from pending deals, with current customers contributing $50k ARR each.",
+      "customer_metrics": "2 paying customers with a pipeline of 40 companies.",
+      "retention_analysis": "Retention metrics not explicitly detailed, but the focus on multi-year contracts suggests strong retention potential.",
+      "unit_economics": "Pricing based on employee count and support model, indicating a scalable revenue model."
+    },
+    "market_validation": {
+      "customer_feedback": "Positive feedback from initial customers and strong interest from potential clients.",
+      "product_market_fit": "Evidence of PMF through customer engagement and pipeline activity.",
+      "notable_customers": "Active RFP with a 70k person company, representing a significant revenue opportunity.",
+      "partnerships": "No strategic partnerships detailed, but potential for HRIS collaborations."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [
+        "Strong initial customer engagement and pipeline development."
+      ],
+      "areas_of_investigation": [
+        "Exploration of additional distribution channels and partnerships."
+      ]
+    },
+    "red_flags": [
+      "Limited current customer base and reliance on founder-led sales."
+    ]
+  },
+  "timing": {
+    "score": 4,
+    "justification": "The timing is favorable due to increasing demand for advanced employee analytics and the shift towards network-based insights. OrgAcuity is well-positioned to capitalize on these trends.",
+    "market_timing": {
+      "market_readiness": "The market is ready for solutions that go beyond traditional surveys.",
+      "catalysts": "Growing recognition of the importance of network dynamics in employee performance.",
+      "tailwinds": "Favorable trends in AI adoption and HR analytics.",
+      "headwinds": "Potential resistance from companies accustomed to traditional tools."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "OrgAcuity's unique approach provides a first-mover advantage in network-based listening.",
+      "competitive_response": "Competitors may respond by integrating similar features, but OrgAcuity's head start is significant.",
+      "market_education": "Some market education may be required to shift perceptions from traditional tools."
+    },
+    "red_flags": [
+      "Potential delays in market adoption due to required education."
+    ]
+  },
+  "terms": {
+    "score": 3,
+    "justification": "OrgAcuity is not currently fundraising, but the bootstrapped approach and grant funding indicate a lean operation. Future funding rounds will need to align with growth objectives.",
+    "investment_details": {
+      "round_stage": "Not currently fundraising.",
+      "raise_amount": "N/A",
+      "pre_money_valuation": "N/A",
+      "post_money_valuation": "N/A"
+    },
+    "terms_analysis": {
+      "sv_alignment": "The company's focus on HR technology aligns with SemperVirens' investment criteria.",
+      "ownership_potential": "Future funding rounds could provide opportunities for significant ownership.",
+      "liquidation_preferences": "N/A",
+      "valuation_justification": "N/A"
+    },
+    "red_flags": [
+      "Lack of current fundraising activity may limit growth potential."
+    ]
+  },
+  "final_recommendation": {
+    "status": "Advance",
+    "rationale": "OrgAcuity presents a compelling investment opportunity due to its differentiated technology, strong initial traction, and alignment with market trends. The team's domain expertise and execution capability further support the investment case.",
+    "key_factors": [
+      "Unique technology integration of AI and ONA",
+      "Strong initial customer engagement",
+      "Alignment with market trends in HR analytics"
+    ],
+    "next_steps": [
+      "Explore potential partnerships with HRIS providers",
+      "Develop a scalable distribution strategy",
+      "Consider future fundraising to support growth"
+    ]
+  }
+}

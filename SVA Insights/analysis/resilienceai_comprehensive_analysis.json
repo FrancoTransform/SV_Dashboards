@@ -1,0 +1,160 @@
+{
+  "company_name": "ResilienceAi",
+  "token": "x5ltb6r9q3k1eff4e9ydx5ltb6r9s62s",
+  "submitted_at": "10/18/2025 23:00:37",
+  "website": "",
+  "year_founded": "2025",
+  "description": "ResilienceAI predicts and prevents burnout before it happens. Using short weekly pulse surveys and AI-driven analysis, our MVP Neural Calm delivers predictive resilience scores, early risk detection, and personalized nudges for managers.",
+  "problem_statement": "Burnout and disengagement cost companies over $322B/year globally. Most HR tools react too late \u2014 they measure satisfaction after problems surface. Predicts and prevents burnout before it happens. Using short weekly pulse surveys and AI-driven analysis, our MVP Neural Calm delivers predictive resilience scores, early risk detection, and personalized nudges for managers.",
+  "pitch_deck_link": "https://docs.google.com/document/d/1xsIJhNLkINFBrg15E3AMuLPJZxpPopFm01LtNCN26lI/edit?usp=sharing",
+  "demo_link": "https://docs.google.com/presentation/d/1qDTzruZZVBaeWcBtV626qXc0d1asIy5_ivf1t26DcAk/edit?usp=sharing",
+  "team": {
+    "score": 2,
+    "justification": "The team consists solely of the founder, Matsvei Kobryk, who lacks co-founders and a broader team, which raises concerns about execution capability and scalability.",
+    "company_assessment": {
+      "business_model_strength": "The business model is B2B with a focus on predictive analytics for burnout prevention. However, the lack of current market presence and revenue generation is a concern.",
+      "market_positioning": "The company aims to differentiate through predictive analytics and privacy-focused design, but lacks current market validation.",
+      "execution_capability": "With only one team member, the ability to execute and scale is highly questionable.",
+      "strategic_vision": "The strategic vision is to become a leader in the field, but lacks detailed planning and milestones."
+    },
+    "founder_deep_dive": [
+      {
+        "name": "Matsvei Kobryk",
+        "role": "Founder",
+        "linkedin": "",
+        "background": "No detailed educational or professional background provided.",
+        "domain_expertise": "Limited information on domain expertise in AI or HR tech.",
+        "previous_startups": "No prior entrepreneurial experience mentioned.",
+        "notable_achievements": "No notable achievements or recognitions provided.",
+        "leadership_signals": "Lack of team and leadership experience is a concern.",
+        "track_record": []
+      }
+    ],
+    "competitive_analysis": {
+      "landscape_overview": "The competitive landscape includes HR tech companies focusing on employee engagement and burnout prevention.",
+      "competitor_comparison": "Competitors may include companies like BetterUp and Headspace, which have established market presence.",
+      "positioning_assessment": "The company claims a predictive edge, but lacks evidence of differentiation."
+    },
+    "red_flags": [
+      "Single founder with no team",
+      "Lack of execution experience"
+    ]
+  },
+  "tam": {
+    "score": 3,
+    "justification": "The market for burnout prevention is large, with significant financial impact on companies, but the company's ability to capture this market is unproven.",
+    "market_analysis": {
+      "total_addressable_market": "The TAM is large, given the $322B cost of burnout globally.",
+      "serviceable_addressable_market": "SAM is unclear due to lack of specific targeting and market entry strategy.",
+      "serviceable_obtainable_market": "SOM projections are not provided, making it difficult to assess realistic market capture.",
+      "market_growth_rate": "The market is growing with increasing awareness of mental health in the workplace.",
+      "market_dynamics": "Key trends include increased focus on employee well-being and mental health."
+    },
+    "customer_analysis": {
+      "buyer_personas": "Target customers are mid-market and large enterprises, but detailed personas are not provided.",
+      "willingness_to_pay": "No evidence of customer willingness to pay or pricing strategy.",
+      "customer_acquisition_cost": "CAC is not calculated, and acquisition strategies are not detailed.",
+      "lifetime_value": "LTV is not calculated, and retention strategies are not discussed."
+    },
+    "red_flags": [
+      "Lack of detailed market entry strategy",
+      "No evidence of customer willingness to pay"
+    ]
+  },
+  "technology": {
+    "score": 2,
+    "justification": "The technology is described as AI-driven, but lacks detailed technical differentiation and defensibility.",
+    "technical_assessment": {
+      "core_technology": "Core technology involves AI-driven analysis of pulse surveys, but lacks detailed technical description.",
+      "defensibility": "No clear technical barriers to entry or competitive moats identified.",
+      "intellectual_property": "No IP strategy or patents mentioned.",
+      "scalability": "Scalability is questionable with current team size and resources."
+    },
+    "competitive_advantage": {
+      "unique_algorithms": "No proprietary algorithms or technical innovations detailed.",
+      "data_advantages": "No data moats or network effects identified.",
+      "technical_barriers": "No significant barriers preventing competitors from replicating technology."
+    },
+    "red_flags": [
+      "Lack of technical differentiation",
+      "No IP strategy"
+    ]
+  },
+  "traction": {
+    "score": 1,
+    "justification": "The company has no current traction, customers, or revenue, which is a significant concern.",
+    "growth_metrics": {
+      "revenue_growth": "No revenue or growth metrics available.",
+      "customer_metrics": "No customers or acquisition metrics.",
+      "retention_analysis": "No retention or churn data.",
+      "unit_economics": "No unit economics provided."
+    },
+    "market_validation": {
+      "customer_feedback": "No customer feedback or validation.",
+      "product_market_fit": "No evidence of product-market fit.",
+      "notable_customers": "No customers or partnerships.",
+      "partnerships": "No strategic partnerships mentioned."
+    },
+    "successes_and_areas_of_investigation": {
+      "successes": [],
+      "areas_of_investigation": [
+        "Need for market validation and customer acquisition strategy"
+      ]
+    },
+    "red_flags": [
+      "No traction or market validation",
+      "No customers or revenue"
+    ]
+  },
+  "timing": {
+    "score": 3,
+    "justification": "The market timing is favorable due to increasing focus on mental health, but competitive timing and market readiness are concerns.",
+    "market_timing": {
+      "market_readiness": "The market is increasingly ready for solutions addressing burnout.",
+      "catalysts": "Growing awareness of mental health issues in the workplace.",
+      "tailwinds": "Favorable trends in employee well-being initiatives.",
+      "headwinds": "Potential challenges in differentiating from established players."
+    },
+    "competitive_timing": {
+      "first_mover_advantage": "No first-mover advantage as competitors are already established.",
+      "competitive_response": "High likelihood of competitive response from established players.",
+      "market_education": "Significant market education may be required."
+    },
+    "red_flags": [
+      "Competitive timing concerns",
+      "Need for market education"
+    ]
+  },
+  "terms": {
+    "score": 2,
+    "justification": "The terms are not well-defined, with a lack of clarity on valuation and investment structure.",
+    "investment_details": {
+      "round_stage": "Pre-Seed stage with a $500K raise.",
+      "raise_amount": "Raising $500K for an 18-month runway.",
+      "pre_money_valuation": "No pre-money valuation provided.",
+      "post_money_valuation": "No post-money valuation or ownership implications detailed."
+    },
+    "terms_analysis": {
+      "sv_alignment": "Limited alignment with SV's criteria due to lack of traction and team.",
+      "ownership_potential": "Ownership potential is unclear without valuation details.",
+      "liquidation_preferences": "No liquidation preferences or investor protections mentioned.",
+      "valuation_justification": "No justification for valuation provided."
+    },
+    "red_flags": [
+      "Lack of valuation details",
+      "Unclear investment terms"
+    ]
+  },
+  "final_recommendation": {
+    "status": "Pass",
+    "rationale": "The company lacks traction, a team, and market validation, making it a high-risk investment at this stage.",
+    "key_factors": [
+      "Single founder with no team",
+      "No traction or market validation",
+      "Lack of technical differentiation"
+    ],
+    "next_steps": [
+      "Consider building a team and gaining initial market traction before reapplying."
+    ]
+  }
+}
